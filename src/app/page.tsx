@@ -88,6 +88,76 @@ export default function Home() {
               </a>
             </div>
             <p className="text-gray-300 mt-6 text-sm">No credit card required</p>
+
+            {/* Trust Indicators */}
+            <div className="flex flex-wrap justify-center gap-4 md:gap-8 mt-8 text-gray-200 text-sm">
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+                <span>IRS-Verified Data</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                </svg>
+                <span>1.6M+ Grants Analyzed</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+                <span>85,000+ Foundations</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Data Authority Section */}
+      <section className="py-16 md:py-20 bg-white border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">OUR DATA ADVANTAGE</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Built on the Most Authoritative Foundation Data</h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Every match is grounded in official IRS filings—not web scraping or incomplete databases.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="text-center p-6 rounded-xl hover:bg-gray-50 transition-all duration-300">
+              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <div className="text-3xl font-bold text-primary mb-2">IRS 990-PF</div>
+              <div className="text-gray-600">Verified Data Source</div>
+              <p className="text-sm text-gray-500 mt-2">Official foundation tax filings—the same data used by major research institutions.</p>
+            </div>
+
+            <div className="text-center p-6 rounded-xl hover:bg-gray-50 transition-all duration-300">
+              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <div className="text-3xl font-bold text-primary mb-2">1.6M+</div>
+              <div className="text-gray-600">Grants Analyzed</div>
+              <p className="text-sm text-gray-500 mt-2">Comprehensive giving history to identify foundations funding work like yours.</p>
+            </div>
+
+            <div className="text-center p-6 rounded-xl hover:bg-gray-50 transition-all duration-300">
+              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div className="text-3xl font-bold text-primary mb-2">8 Years</div>
+              <div className="text-gray-600">Of Giving Patterns</div>
+              <p className="text-sm text-gray-500 mt-2">Analyze trends from 2016-2024 to find consistent funders in your space.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -120,9 +190,9 @@ export default function Home() {
             <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center text-3xl font-bold text-primary mx-auto mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300 relative z-10">
               2
             </div>
-            <h3 className="text-xl font-semibold text-primary mb-3">AI Analyzes Patterns</h3>
+            <h3 className="text-xl font-semibold text-primary mb-3">AI Analyzes IRS Data</h3>
             <p className="text-gray-600">
-              Our AI scans 85,000+ foundations to find those funding similar missions.
+              Our AI analyzes 1.6M+ grants from IRS Form 990-PF filings to identify foundations funding similar missions.
             </p>
           </div>
 
@@ -167,9 +237,9 @@ export default function Home() {
             </div>
             <h3 className="heading-3">Smart Matching</h3>
             <p className="text-gray-600">
-              Our AI analyzes foundation giving patterns to match you with funders who have a proven track record of supporting missions like yours.
+              We analyze 8 years of IRS-verified giving data to match you with foundations that have a proven track record of funding organizations like yours.
             </p>
-            <div className="mt-4 text-sm text-accent font-semibold">67% higher success rate</div>
+            <div className="mt-4 text-sm text-accent font-semibold">Curated matches from verified data</div>
           </div>
 
           <div className="card group hover:border-accent border-2 border-transparent">
@@ -225,7 +295,7 @@ export default function Home() {
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Starter Plan */}
-          <div className="card border-2 border-gray-200">
+          <div className="card border-2 border-gray-200 hover:border-accent transition-colors duration-300">
             <div className="text-center mb-6">
               <h3 className="text-2xl font-bold text-primary mb-2">Starter</h3>
               <div className="text-4xl font-bold text-primary mb-2">$49</div>
@@ -255,7 +325,7 @@ export default function Home() {
           </div>
 
           {/* Professional Plan */}
-          <div className="card border-2 border-accent shadow-2xl transform md:scale-105">
+          <div className="card border-2 border-accent shadow-2xl transform md:scale-105 hover:border-accent-dark transition-colors duration-300">
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <span className="bg-accent text-primary px-4 py-1 rounded-full text-sm font-semibold">
                 MOST POPULAR
@@ -294,7 +364,7 @@ export default function Home() {
           </div>
 
           {/* Enterprise Plan */}
-          <div className="card border-2 border-gray-200">
+          <div className="card border-2 border-gray-200 hover:border-accent transition-colors duration-300">
             <div className="text-center mb-6">
               <h3 className="text-2xl font-bold text-primary mb-2">Enterprise</h3>
               <div className="text-4xl font-bold text-primary mb-2">Custom</div>
@@ -430,7 +500,7 @@ export default function Home() {
                 TheGrantScout
               </button>
               <p className="text-gray-300 leading-relaxed">
-                AI-powered grant matching for nonprofits who deserve funding.
+                AI-powered grant matching built on IRS-verified data. Helping nonprofits find foundations already funding work like theirs.
               </p>
             </div>
             <div>

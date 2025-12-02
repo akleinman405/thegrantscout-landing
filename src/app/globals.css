@@ -4,8 +4,23 @@
 
 :root {
   --primary: #1e3a5f;
+  --primary-dark: #152b47;
+  --primary-light: #2d5a8e;
   --accent: #d4a853;
-  --charcoal: #2d3748;
+  --accent-dark: #b8923d;
+  --accent-light: #e6c680;
+  --charcoal: #2C3E50;
+  --gray-medium: #6C757D;
+  --success: #28A745;
+  --error: #DC3545;
+
+  /* Spacing scale */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-2xl: 64px;
 }
 
 @layer base {
@@ -15,21 +30,29 @@
 
   body {
     @apply text-charcoal antialiased;
+    font-family: var(--font-inter), system-ui, sans-serif;
   }
 
-  /* Better focus styles for accessibility */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-raleway), system-ui, sans-serif;
+  }
+
+  /* Enhanced focus styles for accessibility */
   *:focus-visible {
-    @apply outline-2 outline-offset-2 outline-accent;
+    @apply outline-2 outline-offset-2 outline-accent ring-2 ring-accent/20;
   }
 }
 
 @layer components {
   .btn-primary {
     @apply bg-accent hover:bg-accent-dark text-primary font-semibold px-8 py-3 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg active:scale-95;
+    font-family: var(--font-raleway), system-ui, sans-serif;
+    letter-spacing: 0.025em;
   }
 
   .btn-secondary {
-    @apply bg-primary hover:bg-primary-dark text-white font-semibold px-8 py-3 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg active:scale-95;
+    @apply bg-transparent border-2 border-primary text-primary font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:bg-primary hover:text-white active:scale-95;
+    font-family: var(--font-raleway), system-ui, sans-serif;
   }
 
   .section-container {
@@ -37,24 +60,58 @@
   }
 
   .card {
-    @apply bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:shadow-xl;
+    @apply bg-white rounded-xl p-8 transition-all duration-300;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-4px);
   }
 
   .heading-1 {
     @apply text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight;
+    font-family: var(--font-raleway), system-ui, sans-serif;
+    letter-spacing: -0.02em;
   }
 
   .heading-2 {
     @apply text-3xl md:text-4xl font-bold text-primary mb-4;
+    font-family: var(--font-raleway), system-ui, sans-serif;
+    letter-spacing: -0.01em;
   }
 
   .heading-3 {
     @apply text-xl font-bold text-primary mb-3;
+    font-family: var(--font-raleway), system-ui, sans-serif;
+  }
+
+  /* Data stat card for the new section */
+  .data-stat-card {
+    @apply text-center p-6 rounded-xl transition-all duration-300;
+  }
+
+  .data-stat-card:hover {
+    @apply bg-gray-50;
+    transform: translateY(-2px);
+  }
+
+  /* Testimonial card style */
+  .testimonial-card {
+    @apply bg-gray-50 p-8 rounded-xl relative;
+    border-left: 4px solid var(--accent);
+  }
+
+  .testimonial-card::before {
+    content: '"';
+    @apply absolute text-6xl text-gray-200;
+    top: 10px;
+    left: 20px;
+    font-family: Georgia, serif;
   }
 }
 
 @layer utilities {
-  /* Fade in animation for mobile menu */
   .animate-fade-in {
     animation: fadeIn 0.2s ease-out;
   }
@@ -70,7 +127,6 @@
     }
   }
 
-  /* Smooth slide down for FAQ */
   .animate-slide-down {
     animation: slideDown 0.3s ease-out;
   }
@@ -83,6 +139,17 @@
     to {
       opacity: 1;
       max-height: 500px;
+    }
+  }
+
+  /* Reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
     }
   }
 }
