@@ -45,14 +45,24 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-accent hover:bg-accent-dark text-primary font-semibold px-8 py-3 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg active:scale-95;
+    @apply bg-accent hover:bg-accent-dark text-primary font-semibold px-8 py-3 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg;
     font-family: var(--font-raleway), system-ui, sans-serif;
     letter-spacing: 0.025em;
+    min-height: 48px;
+  }
+
+  .btn-primary:active {
+    transform: scale(0.97);
   }
 
   .btn-secondary {
-    @apply bg-transparent border-2 border-primary text-primary font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:bg-primary hover:text-white active:scale-95;
+    @apply bg-transparent border-2 border-primary text-primary font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:bg-primary hover:text-white;
     font-family: var(--font-raleway), system-ui, sans-serif;
+    min-height: 48px;
+  }
+
+  .btn-secondary:active {
+    transform: scale(0.97);
   }
 
   .section-container {
@@ -109,6 +119,70 @@
     left: 20px;
     font-family: Georgia, serif;
   }
+
+  /* Mobile-optimized card */
+  .card-mobile {
+    @apply bg-white rounded-xl p-6 md:p-8 transition-all duration-300;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  /* Sticky mobile CTA bar */
+  .sticky-cta-mobile {
+    @apply fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-4 z-40;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Bottom sheet modal */
+  .bottom-sheet {
+    @apply fixed inset-x-0 bottom-0 bg-white rounded-t-2xl shadow-2xl max-h-[90vh] overflow-y-auto;
+    transform: translateY(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  /* Mobile touch-friendly link */
+  .touch-link {
+    @apply py-4 px-2 block min-h-[48px] flex items-center;
+  }
+
+  /* Star rating display */
+  .star-rating {
+    @apply flex items-center gap-1 text-accent;
+  }
+
+  .star-rating .star {
+    @apply w-4 h-4 fill-current;
+  }
+
+  /* Trust badge */
+  .trust-badge {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 bg-green-50 text-green-700 rounded-full text-sm font-medium;
+  }
+
+  /* Mobile-optimized form input */
+  .form-input-mobile {
+    @apply w-full px-4 py-4 rounded-lg border-2 border-gray-200 text-base;
+    min-height: 48px;
+    font-size: 16px; /* Prevents iOS zoom */
+  }
+
+  .form-input-mobile:focus {
+    @apply border-accent ring-2 ring-accent/20 outline-none;
+  }
+
+  .form-input-mobile::placeholder {
+    @apply text-gray-400;
+  }
+
+  /* Textarea mobile */
+  .form-textarea-mobile {
+    @apply w-full px-4 py-4 rounded-lg border-2 border-gray-200 text-base resize-none;
+    min-height: 120px;
+    font-size: 16px;
+  }
+
+  .form-textarea-mobile:focus {
+    @apply border-accent ring-2 ring-accent/20 outline-none;
+  }
 }
 
 @layer utilities {
@@ -139,6 +213,51 @@
     to {
       opacity: 1;
       max-height: 500px;
+    }
+  }
+
+  /* Slide up animation for bottom sheet modal */
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Scale animation for CTA buttons */
+  .animate-press {
+    transition: transform 0.1s ease;
+  }
+
+  .animate-press:active {
+    transform: scale(0.97);
+  }
+
+  /* Safe area padding for mobile devices with notches */
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+
+  .safe-top {
+    padding-top: env(safe-area-inset-top, 0);
+  }
+
+  /* Mobile content padding for sticky footer */
+  .pb-sticky-cta {
+    padding-bottom: 5rem; /* 80px for sticky CTA bar */
+  }
+
+  @media (min-width: 768px) {
+    .pb-sticky-cta {
+      padding-bottom: 0;
     }
   }
 

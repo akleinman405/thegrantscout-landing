@@ -81,15 +81,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Skip to main content for accessibility */}
-      <a
-        href="#main-content"
-        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[200] focus:bg-white focus:px-4 focus:py-2 focus:rounded focus:shadow-lg focus:text-primary"
-      >
-        Skip to main content
-      </a>
-
+    <div className="min-h-screen bg-white pb-20 md:pb-0">
       {/* Navigation */}
       <nav className="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -109,12 +101,12 @@ export default function Home() {
               <a href="#features" className="text-charcoal hover:text-primary transition-colors font-medium">Features</a>
               <a href="#pricing" className="text-charcoal hover:text-primary transition-colors font-medium">Pricing</a>
               <a href="#faq" className="text-charcoal hover:text-primary transition-colors font-medium">FAQ</a>
-              <button onClick={openModal} className="btn-primary min-h-[44px]">Get Started</button>
+              <button onClick={openModal} className="btn-primary">Get Started</button>
             </div>
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden w-12 h-12 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors"
+              className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle menu"
             >
@@ -131,11 +123,11 @@ export default function Home() {
           {/* Mobile Navigation */}
           {mobileMenuOpen && (
             <div className="md:hidden py-4 border-t border-gray-100 animate-fade-in">
-              <div className="flex flex-col space-y-2">
-                <a href="#how-it-works" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-4 block">How It Works</a>
-                <a href="#features" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-4 block">Features</a>
-                <a href="#pricing" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-4 block">Pricing</a>
-                <a href="#faq" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-4 block">FAQ</a>
+              <div className="flex flex-col space-y-4">
+                <a href="#how-it-works" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-2">How It Works</a>
+                <a href="#features" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-2">Features</a>
+                <a href="#pricing" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-2">Pricing</a>
+                <a href="#faq" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-2">FAQ</a>
                 <button onClick={() => { setMobileMenuOpen(false); openModal(); }} className="btn-primary text-center">Get Started</button>
               </div>
             </div>
@@ -144,7 +136,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section id="main-content" className="pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-br from-primary via-primary to-primary-light">
+      <section className="pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-br from-primary via-primary to-primary-light">
         <div className="section-container">
           <div className="max-w-5xl mx-auto text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
@@ -153,7 +145,7 @@ export default function Home() {
               <span className="sm:hidden"> </span>
               <span className="text-accent">We&apos;ll help you find it.</span>
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto leading-relaxed px-2">
+            <p className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto leading-relaxed">
               TheGrantScout uses AI to match your nonprofit with foundations already supporting work like yours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -393,7 +385,7 @@ export default function Home() {
                 <span>Basic giving history</span>
               </li>
             </ul>
-            <button onClick={openModal} className="btn-secondary w-full text-center min-h-[44px]">
+            <button onClick={openModal} className="btn-secondary w-full text-center">
               Get Started
             </button>
           </div>
@@ -432,7 +424,7 @@ export default function Home() {
                 <span>Quarterly updates on your matches</span>
               </li>
             </ul>
-            <button onClick={openModal} className="btn-primary w-full text-center min-h-[44px]">
+            <button onClick={openModal} className="btn-primary w-full text-center">
               Get Started
             </button>
           </div>
@@ -466,7 +458,7 @@ export default function Home() {
                 <span>API access</span>
               </li>
             </ul>
-            <button onClick={openModal} className="btn-secondary w-full text-center min-h-[44px]">
+            <button onClick={openModal} className="btn-secondary w-full text-center">
               Contact Sales
             </button>
           </div>
@@ -483,7 +475,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="max-w-3xl mx-auto space-y-2">
+        <div className="max-w-3xl mx-auto space-y-4">
           {faqData.map((faq, index) => (
             <div
               key={index}
@@ -491,7 +483,7 @@ export default function Home() {
             >
               <button
                 type="button"
-                className="w-full px-6 py-5 text-left flex justify-between items-center gap-4 cursor-pointer min-h-[56px]"
+                className="w-full px-6 py-5 text-left flex justify-between items-center gap-4 cursor-pointer"
                 onClick={() => toggleFaq(index)}
                 aria-expanded={openFaq === index}
               >
@@ -642,7 +634,7 @@ export default function Home() {
                 </p>
                 <button
                   onClick={closeModal}
-                  className="btn-primary min-h-[44px]"
+                  className="btn-primary"
                 >
                   Close
                 </button>
@@ -664,11 +656,10 @@ export default function Home() {
                       type="text"
                       id="name"
                       name="name"
-                      autoComplete="name"
                       value={formData.name}
                       onChange={handleInputChange}
                       placeholder="Jane Smith"
-                      className="w-full px-4 py-4 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all text-base"
+                      className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all"
                       disabled={formStatus === 'submitting'}
                     />
                   </div>
@@ -681,11 +672,10 @@ export default function Home() {
                       type="text"
                       id="organization"
                       name="organization"
-                      autoComplete="organization"
                       value={formData.organization}
                       onChange={handleInputChange}
                       placeholder="Youth Arts Collective"
-                      className="w-full px-4 py-4 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all text-base"
+                      className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all"
                       disabled={formStatus === 'submitting'}
                     />
                   </div>
@@ -698,11 +688,10 @@ export default function Home() {
                       type="email"
                       id="email"
                       name="email"
-                      autoComplete="email"
                       value={formData.email}
                       onChange={handleInputChange}
                       placeholder="jane@youtharts.org"
-                      className="w-full px-4 py-4 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all text-base"
+                      className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all"
                       disabled={formStatus === 'submitting'}
                     />
                   </div>
@@ -718,7 +707,7 @@ export default function Home() {
                       onChange={handleInputChange}
                       placeholder="Tell us about your programs, the communities you serve, and what kind of funding would help you grow..."
                       rows={4}
-                      className="w-full px-4 py-4 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all resize-none text-base"
+                      className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all resize-none"
                       disabled={formStatus === 'submitting'}
                     />
                   </div>
@@ -735,7 +724,7 @@ export default function Home() {
                   <button
                     type="submit"
                     disabled={formStatus === 'submitting'}
-                    className="btn-primary w-full min-h-[48px] py-4 text-lg disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                    className="btn-primary w-full py-4 text-lg disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                   >
                     {formStatus === 'submitting' ? (
                       <>
