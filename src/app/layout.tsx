@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   title: 'TheGrantScout - AI-Powered Grant Matching for Nonprofits',
   description: 'TheGrantScout uses AI to match your nonprofit with foundations already supporting work like yours. Find funding faster with intelligent grant matching.',
   keywords: 'grants, nonprofit funding, foundation grants, grant matching, AI grant search',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({

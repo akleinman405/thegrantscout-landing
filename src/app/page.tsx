@@ -5,15 +5,6 @@ import { useState } from 'react'
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [isModalOpen, setIsModalOpen] = useState(false)
-  const [formData, setFormData] = useState({
-    name: '',
-    organization: '',
-    email: '',
-    fundingGoals: ''
-  })
-  const [formStatus, setFormStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
-  const [formError, setFormError] = useState('')
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)
@@ -21,63 +12,6 @@ export default function Home() {
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
-
-  const openModal = () => {
-    setIsModalOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
-
-  const closeModal = () => {
-    setIsModalOpen(false)
-    document.body.style.overflow = 'unset'
-    // Reset form after closing if successful
-    if (formStatus === 'success') {
-      setFormData({ name: '', organization: '', email: '', fundingGoals: '' })
-      setFormStatus('idle')
-    }
-  }
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target
-    setFormData(prev => ({ ...prev, [name]: value }))
-  }
-
-  const validateEmail = (email: string) => {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
-  }
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setFormError('')
-
-    // Validation
-    if (!formData.name.trim() || !formData.organization.trim() || !formData.email.trim() || !formData.fundingGoals.trim()) {
-      setFormError('Please fill in all fields')
-      return
-    }
-
-    if (!validateEmail(formData.email)) {
-      setFormError('Please enter a valid email address')
-      return
-    }
-
-    setFormStatus('submitting')
-
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData)
-      })
-
-      if (!response.ok) throw new Error('Submission failed')
-
-      setFormStatus('success')
-    } catch (error) {
-      setFormStatus('error')
-      setFormError('Something went wrong. Please try again or email us directly at info@thegrantscout.com')
-    }
   }
 
   return (
@@ -553,172 +487,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-
-
-      {/* Contact Form Modal */}
-      {isModalOpen && (
-        <div className="fixed inset-0 z-[100] flex items-end md:items-center justify-center md:p-4">
-          {/* Backdrop */}
-          <div
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm"
-            onClick={closeModal}
-          />
-
-          {/* Modal - Bottom Sheet on Mobile, Centered on Desktop */}
-          <div className="relative bg-white w-full md:max-w-lg md:rounded-2xl rounded-t-2xl shadow-2xl max-h-[90vh] overflow-y-auto transform transition-transform duration-300 ease-out">
-            {/* Close Button */}
-            <button
-              onClick={closeModal}
-              className="absolute top-3 right-3 w-12 h-12 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors z-10"
-              aria-label="Close modal"
-            >
-              <svg className="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-
-            {formStatus === 'success' ? (
-              /* Success State */
-              <div className="p-8 text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-primary mb-4">Thanks for reaching out!</h3>
-                <p className="text-gray-600 mb-6">
-                  We&apos;ll be in touch within 48 hours with your personalized report.
-                </p>
-                <button
-                  onClick={closeModal}
-                  className="btn-primary min-h-[44px]"
-                >
-                  Close
-                </button>
-              </div>
-            ) : (
-              /* Form State */
-              <div className="p-8">
-                <div className="text-center mb-6">
-                  <h3 className="text-2xl font-bold text-primary mb-2">Get Your Free Report</h3>
-                  <p className="text-gray-600">Tell us about your organization and we&apos;ll match you with relevant foundations.</p>
-                </div>
-
-                <form onSubmit={handleSubmit} className="space-y-5">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-charcoal mb-2">
-                      Your Name <span className="text-red-500">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      autoComplete="name"
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      placeholder="Jane Smith"
-                      className="w-full px-4 py-4 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all text-base"
-                      disabled={formStatus === 'submitting'}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="organization" className="block text-sm font-medium text-charcoal mb-2">
-                      Organization Name <span className="text-red-500">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      id="organization"
-                      name="organization"
-                      autoComplete="organization"
-                      value={formData.organization}
-                      onChange={handleInputChange}
-                      placeholder="Youth Arts Collective"
-                      className="w-full px-4 py-4 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all text-base"
-                      disabled={formStatus === 'submitting'}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-charcoal mb-2">
-                      Email <span className="text-red-500">*</span>
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      autoComplete="email"
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      placeholder="jane@youtharts.org"
-                      className="w-full px-4 py-4 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all text-base"
-                      disabled={formStatus === 'submitting'}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="fundingGoals" className="block text-sm font-medium text-charcoal mb-2">
-                      What are you looking for funding for? <span className="text-red-500">*</span>
-                    </label>
-                    <textarea
-                      id="fundingGoals"
-                      name="fundingGoals"
-                      value={formData.fundingGoals}
-                      onChange={handleInputChange}
-                      placeholder="Tell us about your programs, the communities you serve, and what kind of funding would help you grow..."
-                      rows={4}
-                      className="w-full px-4 py-4 rounded-lg border-2 border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all resize-none text-base"
-                      disabled={formStatus === 'submitting'}
-                    />
-                  </div>
-
-                  {formError && (
-                    <div className="p-3 bg-red-50 border border-red-200 rounded-lg text-red-600 text-sm flex items-center gap-2">
-                      <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      {formError}
-                    </div>
-                  )}
-
-                  <button
-                    type="submit"
-                    disabled={formStatus === 'submitting'}
-                    className="btn-primary w-full min-h-[48px] py-4 text-lg disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-                  >
-                    {formStatus === 'submitting' ? (
-                      <>
-                        <svg className="animate-spin w-5 h-5" fill="none" viewBox="0 0 24 24">
-                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                        </svg>
-                        Submitting...
-                      </>
-                    ) : (
-                      'Get My Free Report'
-                    )}
-                  </button>
-
-                  <p className="text-center text-sm text-gray-500">
-                    <svg className="w-4 h-4 inline-block mr-1 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                    </svg>
-                    Your information is secure and will never be shared.
-                  </p>
-
-                  <button
-                    type="button"
-                    onClick={closeModal}
-                    className="w-full mt-3 py-3 text-gray-500 hover:text-gray-700 font-medium md:hidden"
-                  >
-                    Cancel
-                  </button>
-                </form>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
     </div>
   )
 }
@@ -730,19 +498,15 @@ const faqData = [
   },
   {
     question: "What information do I need to provide?",
-    answer: "We'll ask about your organization's mission, programs, geographic focus, annual budget, and the populations you serve. The more detail you provide, the better we can match you with relevant foundations."
+    answer: "During our call, we'll ask about your organization's mission, programs, geographic focus, annual budget, and the populations you serve. The more detail you provide, the better we can match you with relevant foundations."
   },
   {
     question: "How long does it take to get results?",
-    answer: "Most reports are delivered within 48 hours. For professional and enterprise plans with more complex matching requirements, it may take up to 3-5 business days."
-  },
-  {
-    question: "Is my first report really free?",
-    answer: "Yes! We offer one free report so you can experience the quality of our matching service. No credit card required, and there's no obligation to purchase additional reports."
+    answer: "Most reports are delivered within 48 hours after your onboarding call. We take the time to understand your organization so we can deliver highly relevant matches."
   },
   {
     question: "What's included in a grant report?",
-    answer: "Each report includes a list of matched foundations with contact information, giving history, typical grant ranges, application deadlines, geographic preferences, and insights on why they're a good match for your organization."
+    answer: "Each monthly report includes 5 curated opportunities with full funder profiles, giving history, typical grant ranges, application deadlines, geographic preferences, and positioning insights for each opportunity."
   },
   {
     question: "Can I cancel my subscription anytime?",
@@ -750,10 +514,14 @@ const faqData = [
   },
   {
     question: "Do you guarantee I'll get grants?",
-    answer: "We can't guarantee you'll receive funding, but we significantly improve your chances by matching you with foundations that have a proven track record of funding organizations like yours. Our users report a higher success rate compared to traditional grant research methods."
+    answer: "We can't guarantee you'll receive funding, but we significantly improve your chances by matching you with foundations that have a proven track record of funding organizations like yours."
   },
   {
     question: "How current is your foundation data?",
     answer: "We update our database regularly as new 990 forms are filed with the IRS. Most foundation data is updated quarterly, ensuring you have access to the most recent giving patterns and contact information."
+  },
+  {
+    question: "How do I get started?",
+    answer: "Book a call with us to discuss your organization's needs. We'll walk you through how TheGrantScout works and answer any questions. If it's a good fit, we'll get you set up as a Founding Member."
   }
 ]
