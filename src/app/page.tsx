@@ -81,7 +81,7 @@ export default function Home() {
       <section id="main-content" className="pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-br from-primary via-primary to-primary-light">
         <div className="section-container">
           <div className="max-w-5xl mx-auto text-center">
-            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               <span className="block sm:inline">Your mission deserves</span>
               <span className="block sm:inline"> funding.</span>
               <br className="hidden sm:block" />
