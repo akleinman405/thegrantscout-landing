@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -476,8 +477,8 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4 text-white">Legal</h4>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-300 hover:text-accent transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-accent transition-colors">Terms of Service</a></li>
+                <li><Link href="/privacy" className="text-gray-300 hover:text-accent transition-colors">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="text-gray-300 hover:text-accent transition-colors">Terms of Service</Link></li>
               </ul>
             </div>
           </div>
