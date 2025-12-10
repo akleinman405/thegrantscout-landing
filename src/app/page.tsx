@@ -89,7 +89,7 @@ export default function Home() {
               <span className="text-accent block sm:inline mt-2 sm:mt-0">We&apos;ll help you find it.</span>
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto leading-relaxed px-2">
-              TheGrantScout uses AI to match your nonprofit with foundations already supporting work like yours.
+              Every month, get a curated report of foundations funding work like yours—with funder intel, positioning strategy, and everything you need to apply confidently.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
@@ -146,7 +146,7 @@ export default function Home() {
           <div className="text-center mb-6">
             <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-semibold mb-2">OUR DATA ADVANTAGE</span>
             <p className="text-lg text-gray-600 max-w-xl mx-auto">
-              Every match is grounded in official IRS filings—not web scraping.
+              Every match is grounded in official IRS filings.
             </p>
           </div>
 
@@ -207,7 +207,7 @@ export default function Home() {
             </div>
             <h3 className="text-base md:text-lg font-semibold text-primary mb-2">Tell Us About You</h3>
             <p className="text-sm text-gray-600">
-              Share your mission and the communities you serve.
+              Share your mission, the communities you serve, and your funding goals.
             </p>
           </div>
 
@@ -225,9 +225,9 @@ export default function Home() {
             <div className="w-12 h-12 md:w-14 md:h-14 bg-accent rounded-full flex items-center justify-center text-xl md:text-2xl font-bold text-primary mx-auto mb-3 shadow-lg group-hover:scale-110 transition-transform duration-300 relative z-10">
               3
             </div>
-            <h3 className="text-base md:text-lg font-semibold text-primary mb-2">Get Matched</h3>
+            <h3 className="text-base md:text-lg font-semibold text-primary mb-2">Get Your Report</h3>
             <p className="text-sm text-gray-600">
-              Receive curated foundations with contact info.
+              Receive your monthly report via email—packed with opportunities, funder intel, and positioning advice.
             </p>
           </div>
 
@@ -248,7 +248,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
             <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-semibold mb-3">WHY THEGRANTSCOUT</span>
-            <h2 className="heading-2">Save Time, Find Better Matches</h2>
+            <h2 className="heading-2">Save Time, Find Better Opportunities</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -304,32 +304,56 @@ export default function Home() {
               <div className="text-5xl font-bold text-primary mb-2">$99</div>
               <div className="text-gray-600">per month</div>
             </div>
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-start">
+            <div className="mb-6">
+              <div className="flex items-start mb-4">
                 <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>One monthly report with <strong>5 curated opportunities</strong></span>
-              </li>
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span>Full funder profiles and giving history</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span>Positioning insights for each opportunity</span>
-              </li>
-              <li className="flex items-start">
+                <span>Monthly PDF report delivered to your inbox</span>
+              </div>
+              <div className="flex items-start mb-4">
                 <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Email support</span>
-              </li>
-            </ul>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-4 mb-6">
+              <h4 className="font-semibold text-primary mb-3 text-sm">What&apos;s Inside Each Report</h4>
+              <div className="grid grid-cols-1 gap-2 text-sm">
+                <div className="flex items-start gap-2">
+                  <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                  <div><strong>Curated Opportunities</strong> — Foundations actively funding work like yours</div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                  <div><strong>Funder Profiles</strong> — Giving history, grant ranges, geographic focus</div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                  <div><strong>Positioning Strategy</strong> — How to approach each funder based on their patterns</div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                  <div><strong>Contact Information</strong> — Direct contacts and application details</div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                  <div><strong>Approach Recommendations</strong> — What to emphasize in your outreach</div>
+                </div>
+              </div>
+            </div>
             <a
               href="https://calendly.com/alec_kleinman/meeting-with-alec"
               target="_blank"
@@ -415,7 +439,7 @@ export default function Home() {
               Ready to Find Your Next Grant?
             </h2>
             <p className="text-lg text-gray-200 mb-8 leading-relaxed">
-              Join as a Founding Member and discover foundations already funding work like yours.
+              Join as a Founding Member. Every month, you&apos;ll get a report with everything you need to confidently pursue your next grant.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
@@ -503,11 +527,11 @@ const faqData = [
   },
   {
     question: "How long does it take to get results?",
-    answer: "Most reports are delivered within 48 hours after your onboarding call. We take the time to understand your organization so we can deliver highly relevant matches."
+    answer: "Your first report is delivered within 48 hours of your onboarding call. After that, you'll receive a new report via email each month with fresh opportunities tailored to your organization."
   },
   {
     question: "What's included in a grant report?",
-    answer: "Each monthly report includes 5 curated opportunities with full funder profiles, giving history, typical grant ranges, application deadlines, geographic preferences, and positioning insights for each opportunity."
+    answer: "Each month, you'll receive a PDF report via email containing curated opportunities. For each one, you get: the funder's giving history, typical grant ranges, geographic preferences, direct contact info, and a positioning strategy explaining how to approach them based on their funding patterns."
   },
   {
     question: "Can I cancel my subscription anytime?",
