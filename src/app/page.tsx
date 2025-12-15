@@ -94,26 +94,28 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
-                href="https://calendly.com/alec_kleinman/meeting-with-alec"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary inline-block text-lg px-10 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
-                onClick={() => trackCTA.bookCall('hero')}
-              >
-                Book a Call
-              </a>
-              <a
                 href="/sample-report.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-white hover:text-accent font-medium transition-colors border border-white/30 rounded-lg px-6 py-3"
+                className="btn-primary inline-flex items-center gap-2 text-lg px-10 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
                 onClick={() => trackCTA.sampleReport('hero')}
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
                 See a Sample Report
+              </a>
+              <a
+                href="https://calendly.com/alec_kleinman/meeting-with-alec"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-white hover:text-accent font-medium transition-colors border border-white/30 rounded-lg px-6 py-3"
+                onClick={() => trackCTA.bookCall('hero')}
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                Book a Call
               </a>
             </div>
             <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: from $83/month</p>
@@ -130,13 +132,13 @@ export default function Home() {
                 <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                 </svg>
-                <span>1.6M+ Grants Analyzed</span>
+                <span>8.3M+ Grants Analyzed</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
-                <span>85,000+ Foundations</span>
+                <span>143,000+ Foundations</span>
               </div>
             </div>
           </div>
@@ -173,7 +175,7 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <div className="text-lg font-bold text-primary">1.6M+</div>
+                <div className="text-lg font-bold text-primary">8.3M+</div>
                 <div className="text-sm text-gray-500">Grants Analyzed</div>
               </div>
             </div>
@@ -220,7 +222,7 @@ export default function Home() {
             </div>
             <h3 className="text-base md:text-lg font-semibold text-primary mb-2">AI Analyzes Data</h3>
             <p className="text-sm text-gray-600">
-              We analyze 1.6M+ grants from IRS filings.
+              We analyze 8.3M+ grants from IRS filings.
             </p>
           </div>
 
@@ -246,8 +248,67 @@ export default function Home() {
         </div>
       </section>
 
+      {/* What's Inside Each Report - Moved here after How It Works */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-6">
+            <span className="inline-block px-3 py-1 bg-accent/10 text-accent-dark rounded-full text-xs font-semibold mb-3">YOUR MONTHLY REPORT</span>
+            <h2 className="heading-2">What&apos;s Inside Each Report</h2>
+          </div>
+          <div className="bg-white rounded-lg p-6 shadow-md">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+              <div className="flex items-start gap-2">
+                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div><strong>Curated Opportunities</strong> — Foundations actively funding work like yours</div>
+              </div>
+              <div className="flex items-start gap-2">
+                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div><strong>Funder Profiles</strong> — Giving history, grant ranges, geographic focus</div>
+              </div>
+              <div className="flex items-start gap-2">
+                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div><strong>Positioning Strategy</strong> — How to approach each funder based on their patterns</div>
+              </div>
+              <div className="flex items-start gap-2">
+                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div><strong>Contact Information</strong> — Direct contacts and application details</div>
+              </div>
+              <div className="flex items-start gap-2 sm:col-span-2 sm:justify-center">
+                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div><strong>Approach Recommendations</strong> — What to emphasize in your outreach</div>
+              </div>
+            </div>
+          </div>
+          <div className="text-center mt-6">
+            <a
+              href="/sample-report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors"
+              onClick={() => trackCTA.sampleReport('whats_inside')}
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+              See a Sample Report
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Features - Compact 2-card layout */}
-      <section id="features" className="py-12 md:py-16 bg-gray-50">
+      <section id="features" className="py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
             <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-semibold mb-3">WHY THEGRANTSCOUT</span>
@@ -255,7 +316,7 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
+            <div className="bg-gray-50 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -269,7 +330,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
+            <div className="bg-gray-50 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -277,7 +338,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-primary mb-2">Save 20+ Hours Monthly</h3>
+                  <h3 className="text-lg font-bold text-primary mb-2">Save Hours Every Month</h3>
                   <p className="text-gray-600 text-sm">Stop spending hours researching grants. Get a curated list of relevant opportunities delivered in minutes, not weeks.</p>
                 </div>
               </div>
@@ -382,62 +443,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* What's Inside Each Report */}
-        <div className="max-w-2xl mx-auto mt-10">
-          <div className="bg-gray-50 rounded-lg p-6">
-            <h4 className="font-semibold text-primary mb-4 text-center">What&apos;s Inside Each Report</h4>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-              <div className="flex items-start gap-2">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-                <div><strong>Curated Opportunities</strong> — Foundations actively funding work like yours</div>
-              </div>
-              <div className="flex items-start gap-2">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-                <div><strong>Funder Profiles</strong> — Giving history, grant ranges, geographic focus</div>
-              </div>
-              <div className="flex items-start gap-2">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-                <div><strong>Positioning Strategy</strong> — How to approach each funder based on their patterns</div>
-              </div>
-              <div className="flex items-start gap-2">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-                <div><strong>Contact Information</strong> — Direct contacts and application details</div>
-              </div>
-              <div className="flex items-start gap-2 sm:col-span-2 sm:justify-center">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-                <div><strong>Approach Recommendations</strong> — What to emphasize in your outreach</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Sample Report Link */}
-        <div className="text-center mt-8">
-          <p className="text-gray-600 mb-3">Want to see what you&apos;ll get?</p>
-          <a
-            href="/sample-report.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors"
-            onClick={() => trackCTA.sampleReport('pricing')}
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-            </svg>
-            See a Sample Report
-          </a>
-        </div>
       </section>
 
       {/* FAQ */}
