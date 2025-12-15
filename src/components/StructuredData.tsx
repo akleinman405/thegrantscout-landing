@@ -57,7 +57,7 @@ export default function StructuredData() {
           unitText: 'month (billed annually)',
         },
         availability: 'https://schema.org/InStock',
-        description: '$83/mo billed annually at $999 - 2 months free!',
+        description: '$83/mo billed annually at $999',
       },
     ],
   }
