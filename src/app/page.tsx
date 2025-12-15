@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { trackCTA } from '@/components/GoogleAnalytics'
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -44,7 +45,7 @@ export default function Home() {
               <a href="#features" className="text-charcoal hover:text-primary transition-colors font-medium">Features</a>
               <a href="#pricing" className="text-charcoal hover:text-primary transition-colors font-medium">Pricing</a>
               <a href="#faq" className="text-charcoal hover:text-primary transition-colors font-medium">FAQ</a>
-              <a href="https://calendly.com/alec_kleinman/meeting-with-alec" target="_blank" rel="noopener noreferrer" className="btn-primary min-h-[44px]">Book a Call</a>
+              <a href="https://calendly.com/alec_kleinman/meeting-with-alec" target="_blank" rel="noopener noreferrer" className="btn-primary min-h-[44px]" onClick={() => trackCTA.bookCall('nav')}>Book a Call</a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -71,7 +72,7 @@ export default function Home() {
                 <a href="#features" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-4 block">Features</a>
                 <a href="#pricing" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-4 block">Pricing</a>
                 <a href="#faq" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-4 block">FAQ</a>
-                <a href="https://calendly.com/alec_kleinman/meeting-with-alec" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)} className="btn-primary text-center">Book a Call</a>
+                <a href="https://calendly.com/alec_kleinman/meeting-with-alec" target="_blank" rel="noopener noreferrer" onClick={() => { setMobileMenuOpen(false); trackCTA.bookCall('mobile_nav'); }} className="btn-primary text-center">Book a Call</a>
               </div>
             </div>
           )}
@@ -97,6 +98,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-block text-lg px-10 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+                onClick={() => trackCTA.bookCall('hero')}
               >
                 Book a Call
               </a>
@@ -105,6 +107,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-white hover:text-accent font-medium transition-colors border border-white/30 rounded-lg px-6 py-3"
+                onClick={() => trackCTA.sampleReport('hero')}
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -113,7 +116,7 @@ export default function Home() {
                 See a Sample Report
               </a>
             </div>
-            <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: $99/month</p>
+            <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: $99/month or $999/year (save 2 months!)</p>
 
             {/* Trust Indicators */}
             <div className="flex flex-wrap justify-center gap-4 md:gap-8 mt-8 text-gray-200 text-sm">
@@ -283,7 +286,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pricing - Single Founding Member Offer */}
+      {/* Pricing - Founding Member Options */}
       <section id="pricing" className="py-12 md:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
           <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-semibold mb-3">FOUNDING MEMBER PRICING</span>
@@ -293,11 +296,12 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="max-w-md mx-auto">
-          <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-accent relative">
+        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
+          {/* Monthly Plan */}
+          <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-gray-200 relative">
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <span className="bg-accent text-primary px-4 py-1 rounded-full text-sm font-semibold">
-                FOUNDING MEMBER
+              <span className="bg-gray-100 text-gray-700 px-4 py-1 rounded-full text-sm font-semibold">
+                MONTHLY
               </span>
             </div>
             <div className="text-center mb-6 pt-2">
@@ -317,41 +321,11 @@ export default function Home() {
                 </svg>
                 <span>Email support</span>
               </div>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-4 mb-6">
-              <h4 className="font-semibold text-primary mb-3 text-sm">What&apos;s Inside Each Report</h4>
-              <div className="grid grid-cols-1 gap-2 text-sm">
-                <div className="flex items-start gap-2">
-                  <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  <div><strong>Curated Opportunities</strong> — Foundations actively funding work like yours</div>
-                </div>
-                <div className="flex items-start gap-2">
-                  <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  <div><strong>Funder Profiles</strong> — Giving history, grant ranges, geographic focus</div>
-                </div>
-                <div className="flex items-start gap-2">
-                  <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  <div><strong>Positioning Strategy</strong> — How to approach each funder based on their patterns</div>
-                </div>
-                <div className="flex items-start gap-2">
-                  <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  <div><strong>Contact Information</strong> — Direct contacts and application details</div>
-                </div>
-                <div className="flex items-start gap-2">
-                  <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  <div><strong>Approach Recommendations</strong> — What to emphasize in your outreach</div>
-                </div>
+              <div className="flex items-start mb-4">
+                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Cancel anytime</span>
               </div>
             </div>
             <a
@@ -359,28 +333,113 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary w-full text-center min-h-[48px] text-lg block"
+              onClick={() => trackCTA.bookCall('pricing_monthly')}
             >
               Book a Call
             </a>
-            <p className="text-center text-sm text-gray-500 mt-4">Cancel anytime. No long-term commitment.</p>
           </div>
 
-          {/* Sample Report Link */}
-          <div className="text-center mt-8">
-            <p className="text-gray-600 mb-3">Want to see what you&apos;ll get?</p>
+          {/* Annual Plan */}
+          <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-accent relative">
+            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <span className="bg-accent text-primary px-4 py-1 rounded-full text-sm font-semibold">
+                BEST VALUE
+              </span>
+            </div>
+            <div className="text-center mb-6 pt-2">
+              <div className="text-5xl font-bold text-primary mb-2">$999</div>
+              <div className="text-gray-600">per year</div>
+              <div className="mt-2 inline-block bg-accent/20 text-primary px-3 py-1 rounded-full text-sm font-semibold">
+                Save $189 — 2 months free!
+              </div>
+            </div>
+            <div className="mb-6">
+              <div className="flex items-start mb-4">
+                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>12 monthly reports delivered to your inbox</span>
+              </div>
+              <div className="flex items-start mb-4">
+                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Email support</span>
+              </div>
+              <div className="flex items-start mb-4">
+                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Lock in founding member rate</span>
+              </div>
+            </div>
             <a
-              href="/sample-report.pdf"
+              href="https://calendly.com/alec_kleinman/meeting-with-alec"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors"
+              className="btn-primary w-full text-center min-h-[48px] text-lg block"
+              onClick={() => trackCTA.bookCall('pricing_annual')}
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-              </svg>
-              See a Sample Report
+              Book a Call
             </a>
           </div>
+        </div>
+
+        {/* What's Inside Each Report */}
+        <div className="max-w-2xl mx-auto mt-10">
+          <div className="bg-gray-50 rounded-lg p-6">
+            <h4 className="font-semibold text-primary mb-4 text-center">What&apos;s Inside Each Report</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+              <div className="flex items-start gap-2">
+                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div><strong>Curated Opportunities</strong> — Foundations actively funding work like yours</div>
+              </div>
+              <div className="flex items-start gap-2">
+                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div><strong>Funder Profiles</strong> — Giving history, grant ranges, geographic focus</div>
+              </div>
+              <div className="flex items-start gap-2">
+                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div><strong>Positioning Strategy</strong> — How to approach each funder based on their patterns</div>
+              </div>
+              <div className="flex items-start gap-2">
+                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div><strong>Contact Information</strong> — Direct contacts and application details</div>
+              </div>
+              <div className="flex items-start gap-2 sm:col-span-2 sm:justify-center">
+                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div><strong>Approach Recommendations</strong> — What to emphasize in your outreach</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Sample Report Link */}
+        <div className="text-center mt-8">
+          <p className="text-gray-600 mb-3">Want to see what you&apos;ll get?</p>
+          <a
+            href="/sample-report.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors"
+            onClick={() => trackCTA.sampleReport('pricing')}
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+            See a Sample Report
+          </a>
         </div>
       </section>
 
@@ -447,6 +506,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-lg px-10 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
+                onClick={() => trackCTA.bookCall('cta_bottom')}
               >
                 Book a Call
               </a>
@@ -455,6 +515,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-white hover:text-accent font-medium transition-colors"
+                onClick={() => trackCTA.sampleReport('cta_bottom')}
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -463,7 +524,7 @@ export default function Home() {
                 See a Sample Report
               </a>
             </div>
-            <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: $99/month</p>
+            <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: $99/month or $999/year (save 2 months!)</p>
           </div>
         </div>
       </section>

@@ -1,0 +1,6 @@
+# robots.txt for TheGrantScout
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://thegrantscout.com/sitemap.xml

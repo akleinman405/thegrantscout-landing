@@ -1,8 +1,12 @@
 'use client'
 
 import Link from 'next/link'
+import { useEffect } from 'react'
 
 export default function PrivacyPolicy() {
+  useEffect(() => {
+    document.title = 'Privacy Policy - TheGrantScout'
+  }, [])
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
