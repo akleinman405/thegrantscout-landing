@@ -46,13 +46,18 @@ export default function StructuredData() {
         priceCurrency: 'USD',
         priceSpecification: {
           '@type': 'UnitPriceSpecification',
-          price: '999',
+          price: '83',
           priceCurrency: 'USD',
+          referenceQuantity: {
+            '@type': 'QuantitativeValue',
+            value: '1',
+            unitCode: 'MON',
+          },
           billingDuration: 'P1Y',
-          unitText: 'year',
+          unitText: 'month (billed annually)',
         },
         availability: 'https://schema.org/InStock',
-        description: 'Save $189 - 2 months free!',
+        description: '$83/mo billed annually at $999 - 2 months free!',
       },
     ],
   }

@@ -116,7 +116,7 @@ export default function Home() {
                 See a Sample Report
               </a>
             </div>
-            <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: $99/month or $999/year (save 2 months!)</p>
+            <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: from $83/month</p>
 
             {/* Trust Indicators */}
             <div className="flex flex-wrap justify-center gap-4 md:gap-8 mt-8 text-gray-200 text-sm">
@@ -297,7 +297,55 @@ export default function Home() {
         </div>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
-          {/* Monthly Plan */}
+          {/* Annual Plan - Best Value (LEFT) */}
+          <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-accent relative">
+            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <span className="bg-accent text-primary px-4 py-1 rounded-full text-sm font-semibold">
+                BEST VALUE
+              </span>
+            </div>
+            <div className="text-center mb-6 pt-2">
+              <div className="text-5xl font-bold text-primary mb-2">$83<span className="text-2xl font-semibold">/mo</span></div>
+              <div className="text-gray-600">billed annually at $999</div>
+            </div>
+            <div className="mb-6">
+              <div className="flex items-start mb-4">
+                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Monthly report delivered to your inbox</span>
+              </div>
+              <div className="flex items-start mb-4">
+                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Email support</span>
+              </div>
+              <div className="flex items-start mb-4">
+                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Founding member rate — locked in</span>
+              </div>
+              <div className="flex items-start mb-4">
+                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>2 months free</span>
+              </div>
+            </div>
+            <a
+              href="https://calendly.com/alec_kleinman/meeting-with-alec"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary w-full text-center min-h-[48px] text-lg block"
+              onClick={() => trackCTA.bookCall('pricing_annual')}
+            >
+              Book a Call
+            </a>
+          </div>
+
+          {/* Monthly Plan (RIGHT) */}
           <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-gray-200 relative">
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <span className="bg-gray-100 text-gray-700 px-4 py-1 rounded-full text-sm font-semibold">
@@ -305,15 +353,15 @@ export default function Home() {
               </span>
             </div>
             <div className="text-center mb-6 pt-2">
-              <div className="text-5xl font-bold text-primary mb-2">$99</div>
-              <div className="text-gray-600">per month</div>
+              <div className="text-5xl font-bold text-primary mb-2">$99<span className="text-2xl font-semibold">/mo</span></div>
+              <div className="text-gray-600">&nbsp;</div>
             </div>
             <div className="mb-6">
               <div className="flex items-start mb-4">
                 <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>Monthly PDF report delivered to your inbox</span>
+                <span>Monthly report delivered to your inbox</span>
               </div>
               <div className="flex items-start mb-4">
                 <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -334,51 +382,6 @@ export default function Home() {
               rel="noopener noreferrer"
               className="btn-primary w-full text-center min-h-[48px] text-lg block"
               onClick={() => trackCTA.bookCall('pricing_monthly')}
-            >
-              Book a Call
-            </a>
-          </div>
-
-          {/* Annual Plan */}
-          <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-accent relative">
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <span className="bg-accent text-primary px-4 py-1 rounded-full text-sm font-semibold">
-                BEST VALUE
-              </span>
-            </div>
-            <div className="text-center mb-6 pt-2">
-              <div className="text-5xl font-bold text-primary mb-2">$999</div>
-              <div className="text-gray-600">per year</div>
-              <div className="mt-2 inline-block bg-accent/20 text-primary px-3 py-1 rounded-full text-sm font-semibold">
-                Save $189 — 2 months free!
-              </div>
-            </div>
-            <div className="mb-6">
-              <div className="flex items-start mb-4">
-                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span>12 monthly reports delivered to your inbox</span>
-              </div>
-              <div className="flex items-start mb-4">
-                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span>Email support</span>
-              </div>
-              <div className="flex items-start mb-4">
-                <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span>Lock in founding member rate</span>
-              </div>
-            </div>
-            <a
-              href="https://calendly.com/alec_kleinman/meeting-with-alec"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary w-full text-center min-h-[48px] text-lg block"
-              onClick={() => trackCTA.bookCall('pricing_annual')}
             >
               Book a Call
             </a>
@@ -524,7 +527,7 @@ export default function Home() {
                 See a Sample Report
               </a>
             </div>
-            <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: $99/month or $999/year (save 2 months!)</p>
+            <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: from $83/month</p>
           </div>
         </div>
       </section>
