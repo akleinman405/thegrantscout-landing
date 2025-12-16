@@ -248,101 +248,105 @@ export default function Home() {
         </div>
       </section>
 
-      {/* What's Inside Each Report - Moved here after How It Works */}
-      <section className="py-12 md:py-16 bg-gray-50">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-6">
+      {/* What's Inside Each Report - Combined Features Section */}
+      <section id="features" className="py-14 md:py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10 md:mb-14">
             <span className="inline-block px-3 py-1 bg-accent/10 text-accent-dark rounded-full text-xs font-semibold mb-3">YOUR MONTHLY REPORT</span>
             <h2 className="heading-2">What&apos;s Inside Each Report</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-4">
+              Everything you need to confidently pursue foundation funding, delivered to your inbox each month.
+            </p>
           </div>
-          <div className="bg-white rounded-lg p-6 shadow-md">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-              <div className="flex items-start gap-2">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+
+          {/* Report Features - 4 cards in grid */}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto mb-10">
+            <div className="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
+              <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                 </svg>
-                <div><strong>Curated Opportunities</strong> — Foundations actively funding work like yours</div>
               </div>
-              <div className="flex items-start gap-2">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              <h3 className="font-bold text-primary mb-2">Curated Opportunities</h3>
+              <p className="text-gray-600 text-sm">Foundations actively funding work like yours, matched to your mission.</p>
+            </div>
+
+            <div className="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
+              <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
-                <div><strong>Funder Profiles</strong> — Giving history, grant ranges, geographic focus</div>
               </div>
-              <div className="flex items-start gap-2">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              <h3 className="font-bold text-primary mb-2">Funder Profiles</h3>
+              <p className="text-gray-600 text-sm">Giving history, typical grant ranges, and geographic focus areas.</p>
+            </div>
+
+            <div className="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
+              <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
-                <div><strong>Positioning Strategy</strong> — How to approach each funder based on their patterns</div>
               </div>
-              <div className="flex items-start gap-2">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              <h3 className="font-bold text-primary mb-2">Positioning Strategy</h3>
+              <p className="text-gray-600 text-sm">How to approach each funder based on their giving patterns.</p>
+            </div>
+
+            <div className="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
+              <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <div><strong>Contact Information</strong> — Direct contacts and application details</div>
               </div>
-              <div className="flex items-start gap-2 sm:col-span-2 sm:justify-center">
-                <svg className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-                <div><strong>Approach Recommendations</strong> — What to emphasize in your outreach</div>
-              </div>
+              <h3 className="font-bold text-primary mb-2">Contact Information</h3>
+              <p className="text-gray-600 text-sm">Direct contacts and application details to get started.</p>
             </div>
           </div>
-          <div className="text-center mt-6">
-            <a
-              href="/sample-report.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors"
-              onClick={() => trackCTA.sampleReport('whats_inside')}
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-              </svg>
-              See a Sample Report
-            </a>
-          </div>
-        </div>
-      </section>
 
-      {/* Features - Compact 2-card layout */}
-      <section id="features" className="py-12 md:py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8 md:mb-12">
-            <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-semibold mb-3">WHY THEGRANTSCOUT</span>
-            <h2 className="heading-2">Save Time, Find Better Opportunities</h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className="bg-gray-50 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
+          {/* Benefits row */}
+          <div className="grid md:grid-cols-2 gap-5 max-w-3xl mx-auto mb-10">
+            <div className="bg-white rounded-xl p-5 shadow-md border-l-4 border-accent">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-primary mb-2">Smart AI Matching</h3>
-                  <p className="text-gray-600 text-sm">Match with foundations that have a proven track record of funding organizations like yours. 8 years of verified IRS data.</p>
+                  <h3 className="font-bold text-primary mb-1">Smart AI Matching</h3>
+                  <p className="text-gray-600 text-sm">Foundations with a proven track record of funding organizations like yours.</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
+            <div className="bg-white rounded-xl p-5 shadow-md border-l-4 border-accent">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-primary mb-2">Save Hours Every Month</h3>
-                  <p className="text-gray-600 text-sm">Stop spending hours researching grants. Get a curated list of relevant opportunities delivered in minutes, not weeks.</p>
+                  <h3 className="font-bold text-primary mb-1">Save Hours Every Month</h3>
+                  <p className="text-gray-600 text-sm">Get a curated list delivered in minutes, not weeks of research.</p>
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Sample Report CTA */}
+          <div className="text-center">
+            <a
+              href="/sample-report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-primary text-white font-semibold px-6 py-3 rounded-lg hover:bg-primary-light transition-colors shadow-md hover:shadow-lg"
+              onClick={() => trackCTA.sampleReport('features')}
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              See a Sample Report
+            </a>
           </div>
         </div>
       </section>
