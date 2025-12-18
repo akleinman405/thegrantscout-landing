@@ -2,15 +2,9 @@
 
 import Script from 'next/script'
 
-// Replace with your actual GA4 Measurement ID
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-XXXXXXXXXX'
+const GA_MEASUREMENT_ID = 'G-QDCG0DXNXF'
 
 export default function GoogleAnalytics() {
-  // Don't render if no valid measurement ID
-  if (GA_MEASUREMENT_ID === 'G-XXXXXXXXXX') {
-    return null
-  }
-
   return (
     <>
       <Script
