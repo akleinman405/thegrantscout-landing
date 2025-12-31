@@ -18,9 +18,12 @@ const raleway = Raleway({
 })
 
 export const metadata: Metadata = {
-  title: 'TheGrantScout - AI-Powered Grant Matching for Nonprofits',
-  description: 'Find foundations already funding work like yours. TheGrantScout uses AI to match nonprofits with grant opportunities from 85,000+ foundations and 1.6M+ grants.',
-  keywords: 'grant matching, nonprofit grants, foundation funding, AI grant search, find foundation grants, nonprofit funding, private foundation grants',
+  title: {
+    default: 'TheGrantScout - AI-Powered Grant Matching for Nonprofits',
+    template: '%s | TheGrantScout',
+  },
+  description: 'Find foundations already funding work like yours. TheGrantScout uses AI to match nonprofits with grant opportunities from 85,000+ foundations and 1.6M+ grants. The smarter way to find nonprofit funding.',
+  keywords: 'TheGrantScout, The Grant Scout, GrantScout, Grant Scout, grant matching, grant finder, find grants, new grants, nonprofit grants, foundation funding, AI grant search, find foundation grants, nonprofit funding, private foundation grants, grant opportunities, foundation grants database, nonprofit grant research, grant prospecting',
   authors: [{ name: 'TheGrantScout' }],
   icons: {
     icon: '/favicon.svg',
@@ -35,6 +38,14 @@ export const metadata: Metadata = {
     siteName: 'TheGrantScout',
     type: 'website',
     locale: 'en_US',
+    images: [
+      {
+        url: 'https://thegrantscout.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'TheGrantScout - AI-Powered Grant Matching for Nonprofits',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

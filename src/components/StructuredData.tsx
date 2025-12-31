@@ -1,11 +1,31 @@
 export default function StructuredData() {
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'TheGrantScout',
+    alternateName: ['The Grant Scout', 'GrantScout', 'Grant Scout'],
+    url: 'https://thegrantscout.com',
+    description: 'AI-powered grant matching service for nonprofits. Find foundations already funding work like yours.',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://thegrantscout.com/?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  }
+
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'TheGrantScout',
+    alternateName: ['The Grant Scout', 'GrantScout', 'Grant Scout'],
     url: 'https://thegrantscout.com',
     logo: 'https://thegrantscout.com/favicon.svg',
     description: 'AI-powered grant matching service for nonprofits. Find foundations already funding work like yours.',
+    foundingDate: '2024',
+    slogan: 'Your mission deserves funding. We help you find it.',
+    sameAs: [
+      'https://www.linkedin.com/company/thegrantscout',
+    ],
     contactPoint: {
       '@type': 'ContactPoint',
       email: 'hello@thegrantscout.com',
@@ -103,6 +123,10 @@ export default function StructuredData() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
