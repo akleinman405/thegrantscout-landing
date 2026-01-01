@@ -1,6 +1,15 @@
 # robots.txt for TheGrantScout
+# https://thegrantscout.com
+
 User-agent: *
 Allow: /
 
-# Sitemap
+# Block API and internal routes
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap location
 Sitemap: https://thegrantscout.com/sitemap.xml
+
+# Crawl-delay (optional, respected by some crawlers)
+Crawl-delay: 1
