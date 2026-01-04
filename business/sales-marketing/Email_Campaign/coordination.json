@@ -1,0 +1,16 @@
+{
+  "date": "2026-01-04",
+  "last_updated": "2026-01-04T16:16:22.151027-05:00",
+  "initial": {
+    "needs": 0,
+    "allocated": 0,
+    "sent": 0,
+    "status": "idle"
+  },
+  "followup": {
+    "needs": 0,
+    "allocated": 0,
+    "sent": 0,
+    "status": "stopped"
+  }
+}

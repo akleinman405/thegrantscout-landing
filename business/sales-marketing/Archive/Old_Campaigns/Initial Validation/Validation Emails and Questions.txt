@@ -1,0 +1,357 @@
+Beta testers wanted: FDA recall alerts for restaurants
+[FirstName] - looking for 10 restaurants to test recall monitoring system
+Free lifetime access: automated food recall tracking
+```
+
+### Email Template:
+```
+Hi [FirstName],
+
+I built a system that monitors FDA/USDA recall lists and automatically alerts restaurants when products they use are recalled.
+
+Right now I'm checking recalls manually which takes 10-15 hours per month. I'm guessing you do the same (or should be).
+
+Looking for 10 restaurants to test this for free in exchange for feedback. If you're one of the first 10, you get lifetime free access.
+
+Interested? Just reply "yes" and I'll send you early access.
+
+[YourName]
+```
+
+### Follow-up (3 days later):
+```
+[FirstName] -
+
+Not sure if you saw my email about free recall monitoring.
+
+Only 3 spots left out of 10. After that, it'll be $99/month when we launch.
+
+Let me know if you want in - just reply "yes."
+
+[YourName]
+```
+
+### Validation Questions (When They Reply "Yes"):
+```
+Awesome! Quick question before I set you up:
+
+[Pick ONE of these questions:]
+
+1. "How many hours per month do you currently spend checking FDA/USDA recall lists?"
+
+2. "What happened the last time you discovered a recalled product in your inventory?"
+
+3. "Have you ever been cited by health inspectors for having recalled items? What was the penalty?"
+
+4. "How do you currently track recalls - manual website checks, industry newsletters, or something else?"
+
+5. "If you could save 10 hours per month on recall monitoring, what would you use that time for?"
+
+6. "What's your biggest fear about missing a recall notification?"
+
+Also, what email should I send your early access link to?
+
+Thanks,
+[YourName]
+```
+
+### What You're Looking For:
+- ✅ **GOOD**: "We spend 8-10 hours/month checking" or "We got fined $5K last year"
+- ✅ **GOOD**: "I check manually every week, huge pain"
+- ❌ **BAD**: "I don't really check" or "Never thought about it"
+- ❌ **BAD**: "Seems interesting" (vague)
+
+---
+
+## IDEA_078: FEDERAL CONTRACTOR DEBARMENT MONITOR
+
+### Subject Lines (Pick One):
+```
+Beta testers wanted: SAM.gov debarment monitoring
+FAR 9.404 compliance: automated debarment checks
+[FirstName] - looking for 10 contractors to test compliance tool
+```
+
+### Email Template:
+```
+Hi [FirstName],
+
+I built a system that monitors the SAM.gov exclusion list and alerts you if any vendor/subcontractor gets debarred.
+
+FAR 9.404 requires checking before awarding contracts, but most people just spot-check manually. Pain in the ass.
+
+Looking for 10 federal contractors to test this in exchange for feedback. First 10 get lifetime free access.
+
+Interested? Reply "yes" and I'll set you up.
+
+[YourName]
+```
+
+### Follow-up (3 days later):
+```
+[FirstName] -
+
+Following up on the debarment monitoring tool.
+
+6 contractors already signed up for early access. Need 4 more.
+
+After that, it goes to $199/month at launch.
+
+In? Just reply "yes."
+
+[YourName]
+```
+
+### Validation Questions (When They Reply "Yes"):
+```
+Great! Quick question before I set you up:
+
+[Pick ONE of these questions:]
+
+1. "What's your current process for checking the SAM.gov exclusion list before awarding contracts?"
+
+2. "How often do you need to verify vendors against the debarment list - weekly, monthly, per-contract?"
+
+3. "Have you ever caught a debarred vendor in your supply chain? What happened?"
+
+4. "What would happen if you accidentally awarded a contract to a debarred entity?"
+
+5. "Who handles debarment checks at your company - compliance team, procurement, or ad-hoc?"
+
+6. "How much time does your team spend on SAM.gov checks per month?"
+
+Also, what email should I send your access link to?
+
+Thanks,
+[YourName]
+```
+
+### What You're Looking For:
+- ✅ **GOOD**: "We check manually per contract, takes 2-3 hours/week"
+- ✅ **GOOD**: "We got flagged in an audit for not checking"
+- ✅ **GOOD**: "Compliance team handles it, always complaining about manual work"
+- ❌ **BAD**: "We don't really check" (red flag - they should be)
+- ❌ **BAD**: "Not sure who handles that" (not the decision maker)
+
+---
+
+## IDEA_062: FEDERAL GRANT OPPORTUNITY ALERTS
+
+### Subject Lines (Pick One):
+```
+Beta testers wanted: Grants.gov matching alerts
+[FirstName] - looking for 10 nonprofits to test grant alerts
+Free lifetime access: automated grant opportunity notifications
+```
+
+### Email Template:
+```
+Hi [FirstName],
+
+I built a system that monitors Grants.gov and alerts nonprofits when relevant grant opportunities match their mission/activities.
+
+Most nonprofits manually check or miss opportunities entirely. This automates it.
+
+Looking for 10 nonprofits to test in exchange for feedback. First 10 get lifetime free access.
+
+Interested? Reply "yes" and I'll send you access.
+
+[YourName]
+```
+
+### Follow-up (3 days later):
+```
+[FirstName] -
+
+Quick follow-up on the grant alert system.
+
+7 nonprofits have signed up for early access. Looking for 3 more.
+
+After that, it'll be $149/month when we launch to the public.
+
+Want in? Just reply "yes."
+
+[YourName]
+```
+
+### Validation Questions (When They Reply "Yes"):
+```
+Awesome! Quick question before I set you up:
+
+[Pick ONE of these questions:]
+
+1. "How many grant opportunities do you estimate you miss per year because you didn't know they existed?"
+
+2. "How much time does your team spend searching for relevant grants each month?"
+
+3. "What's your current process for finding grant opportunities - manual Grants.gov searches, newsletters, word-of-mouth?"
+
+4. "What was the last grant you missed because you found out too late?"
+
+5. "If you could automatically get notified of relevant grants, how much grant funding could you potentially apply for that you're not applying for now?"
+
+6. "Who handles grant research at your organization - development director, ED, volunteers?"
+
+Also, what email should I send your early access link to?
+
+Thanks,
+[YourName]
+```
+
+### What You're Looking For:
+- ✅ **GOOD**: "We spend 10+ hours/month searching" or "Definitely miss 5-10 per year"
+- ✅ **GOOD**: "Our development director is overwhelmed with this"
+- ⚠️ **NEUTRAL**: "We'd apply for more if we knew about them" (soft pain)
+- ❌ **BAD**: "We just use free resources" (won't pay)
+- ❌ **BAD**: "Grants aren't really our main funding" (wrong target)
+
+---
+
+## TRACKING SPREADSHEET TEMPLATE
+
+**Create this in Google Sheets:**
+```
+| ID | Name | Company | Email | Vertical | Date Sent | Opened? | Replied? | Reply | Validation Answer | Quality Score (1-5) | Notes |
+|----|------|---------|-------|----------|-----------|---------|----------|-------|-------------------|---------------------|-------|
+| 1 | John Smith | ABC Restaurant | john@abc.com | Food Recall | 11/2 | Yes | No | - | - | - | - |
+| 2 | Jane Doe | XYZ Contractors | jane@xyz.com | Debarment | 11/2 | Yes | Yes | Interested | "We check manually per contract, takes 3 hrs/week" | 5 | STRONG LEAD |
+```
+
+### Quality Score Guide:
+- **5 = Strong pain + numbers** ("We spend 10 hrs/month checking")
+- **4 = Clear pain, no numbers** ("It's a huge hassle")
+- **3 = Interested but vague** ("Seems useful")
+- **2 = Tire-kicker** ("Maybe if it's free")
+- **1 = Wrong target** ("We don't really need this")
+
+---
+
+## RESPONSE RATE BENCHMARKS
+
+### Expected Results (100 emails per vertical):
+
+**IDEA_042 (Food Recall):**
+- Open rate: 30-40%
+- Reply rate: 5-8%
+- Strong leads (score 4-5): 2-3 people
+
+**IDEA_078 (Debarment):**
+- Open rate: 25-35%
+- Reply rate: 3-5%
+- Strong leads (score 4-5): 1-2 people
+
+**IDEA_062 (Grants):**
+- Open rate: 35-45%
+- Reply rate: 10-15%
+- Strong leads (score 4-5): 3-5 people
+
+### Decision Criteria:
+
+**Build it if:**
+- 5+ replies with score of 4-5
+- At least 2 people say they'd pay (not just "if it's free")
+- Clear pain expressed in their own words
+
+**Don't build it if:**
+- All replies are "seems interesting" (score 1-3)
+- Nobody can articulate current pain/time spent
+- Only interested "if it stays free forever"
+
+---
+
+## SENDING STRATEGY
+
+### Day 1 (Saturday): Send Batch 1
+- 30 emails to Food Recall targets
+- 30 emails to Debarment targets
+- 30 emails to Grant targets
+- **Total: 90 emails**
+- Send between 9-11am (recipient timezone if possible)
+
+### Day 2 (Sunday): Send Batch 2
+- Remaining 70 emails to Food Recall
+- Remaining 70 emails to Debarment
+- Remaining 70 emails to Grant
+- **Total: 210 emails**
+- Spread throughout the day to avoid spam filters
+
+### Day 3-5 (Mon-Wed): Monitor responses
+- Reply to "yes" responses with validation questions within 2 hours
+- Track open rates and replies in spreadsheet
+- Note any patterns (e.g., certain cities respond better)
+
+### Day 6 (Thursday): Send Follow-ups
+- To anyone who opened but didn't reply
+- Use follow-up templates above
+- **Send another 100-150 emails**
+
+### Day 7 (Friday): Analysis
+- Calculate reply rates per vertical
+- Score quality of leads (1-5 scale)
+- Make decision: which idea has strongest validation?
+
+---
+
+## EMAIL SENDING LIMITS
+
+**Gmail personal account:**
+- **500 emails/day max**
+- Spread them out (don't send 500 at once)
+- Use Streak mail merge to avoid manual sending
+
+**To avoid spam filters:**
+- Send max 50-100 per hour
+- Vary send times slightly
+- Use real name/personal email
+- No links in initial email
+- No attachments
+
+---
+
+## SAMPLE RESPONSE HANDLING
+
+### When They Reply "YES":
+```
+Awesome! Quick question before I set you up:
+
+[Insert validation question here]
+
+Also, what email should I send your early access link to?
+
+Thanks,
+[YourName]
+```
+
+### When They Give You Great Pain Data:
+```
+That's exactly the problem I'm solving! I'll get you set up this week.
+
+Quick follow-up: if this saves you [X hours/month], what's that worth to you? Just trying to understand pricing.
+
+I'll send you access by [date].
+
+Thanks,
+[YourName]
+```
+
+### When They're Vague:
+```
+Thanks for the interest! To make sure this is a good fit:
+
+Are you currently [checking recalls/monitoring debarments/searching for grants] manually? And if so, roughly how often?
+
+Want to make sure we're solving a real problem for you.
+
+Thanks,
+[YourName]
+```
+
+### When They Want to Stay Free Forever:
+```
+I hear you - budgets are tight. The free lifetime access is just for the first 10 who help test and give feedback.
+
+If you're willing to do a 15-min feedback call after testing it, I'm happy to include you. Otherwise I need to save spots for folks who can provide detailed feedback.
+
+Let me know!
+
+[YourName]

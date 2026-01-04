@@ -1,0 +1,330 @@
+(venv) PS CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboard streamlit run dashboard.py
+2025-11-04 145447.567
+Warning the config option 'server.enableCORS=false' is not compatible with
+'server.enableXsrfProtection=true'.
+As a result, 'server.enableCORS' is being overridden to 'true'.
+
+More information
+In order to protect against CSRF attacks, we send a cookie with each request.
+To do so, we must specify allowable origins, which places a restriction on
+cross-origin resource sharing.
+
+If cross origin resource sharing is required, please disable server.enableXsrfProtection.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL httplocalhost8501
+  Network URL http192.168.86.1108501
+  External URL http136.36.104.2048501
+
+2025-11-04 145508.046 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages3_📧_Email_Accounts.py, line 10, in module
+    from components import email_account_form, accounts_table, assignment_matrix
+ImportError cannot import name 'assignment_matrix' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145513.738 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages1_📊_Dashboard.py, line 18, in module
+    from components import (
+ImportError cannot import name 'campaign_status_table' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145515.117 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages3_📧_Email_Accounts.py, line 10, in module
+    from components import email_account_form, accounts_table, assignment_matrix
+ImportError cannot import name 'assignment_matrix' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145522.812 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages6_📅_Campaign_Planner.py, line 13, in module
+    from components import campaign_status_table
+ImportError cannot import name 'campaign_status_table' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145612.793 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 145620.341 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages3_📧_Email_Accounts.py, line 10, in module
+    from components import email_account_form, accounts_table, assignment_matrix
+ImportError cannot import name 'assignment_matrix' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145711.961 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 145722.886 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 145723.144 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 145737.486 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages3_📧_Email_Accounts.py, line 10, in module
+    from components import email_account_form, accounts_table, assignment_matrix
+ImportError cannot import name 'assignment_matrix' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145738.722 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 145740.554 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 145741.172 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages1_📊_Dashboard.py, line 18, in module
+    from components import (
+ImportError cannot import name 'campaign_status_table' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145742.619 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages3_📧_Email_Accounts.py, line 10, in module
+    from components import email_account_form, accounts_table, assignment_matrix
+ImportError cannot import name 'assignment_matrix' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145744.464 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages1_📊_Dashboard.py, line 18, in module
+    from components import (
+ImportError cannot import name 'campaign_status_table' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145804.389 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 145805.204 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages3_📧_Email_Accounts.py, line 10, in module
+    from components import email_account_form, accounts_table, assignment_matrix
+ImportError cannot import name 'assignment_matrix' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145806.235 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 145807.390 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages6_📅_Campaign_Planner.py, line 13, in module
+    from components import campaign_status_table
+ImportError cannot import name 'campaign_status_table' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145810.194 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages1_📊_Dashboard.py, line 18, in module
+    from components import (
+ImportError cannot import name 'campaign_status_table' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145816.637 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages3_📧_Email_Accounts.py, line 10, in module
+    from components import email_account_form, accounts_table, assignment_matrix
+ImportError cannot import name 'assignment_matrix' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145818.041 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages1_📊_Dashboard.py, line 18, in module
+    from components import (
+ImportError cannot import name 'campaign_status_table' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 145818.800 Uncaught app execution
+Traceback (most recent call last)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerexec_code.py, line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 667, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitruntimescriptrunnerscript_runner.py, line 165, in _mpa_v1
+    page.run()
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach DashboardvenvLibsite-packagesstreamlitnavigationpage.py, line 303, in run
+    exec(code, module.__dict__)  # noqa S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardpages1_📊_Dashboard.py, line 18, in module
+    from components import (
+ImportError cannot import name 'campaign_status_table' from 'components' (CBusiness Factory (Research) 11-1-202506_GO_TO_MARKEToutreach_sequencesEmail Outreach Dashboardcomponents__init__.py)
+2025-11-04 150023.419 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 150027.662 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 150027.825 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 150034.691 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 150034.849 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 150036.227 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 150036.346 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 150054.391 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2025-11-04 150054.546 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.

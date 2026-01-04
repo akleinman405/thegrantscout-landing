@@ -1,0 +1,64 @@
+● Great news! Your Form 990 data contains detailed information about foundation
+   givers (private foundations that make grants). Here's what's available:
+
+  Data Available About Foundation Givers
+
+  In the CSV files (currently extracted):
+
+  - 42,578 private foundations (990PF forms) out of 253,027 total organizations
+  - Foundation name, EIN, location (city, state, ZIP)
+  - Contact information (phone, website)
+  - Financial data (total assets, revenue, expenses)
+  - Signing officer name and title
+
+  In the XML files (raw IRS data - not yet extracted):
+
+  The XML files contain granular grant-making data for each foundation:
+
+  About the Foundation (Giver):
+  - Foundation name and location
+  - Total assets and revenue
+  - Officers and trustees
+  - Contact information
+
+  About Each Grant:
+  - Recipient name (organization or individual)
+  - Recipient location (address, city, state, ZIP)
+  - Grant amount (exact dollar amount)
+  - Grant purpose (what the money was for)
+  - Recipient type (PC = public charity, PF = private foundation, etc.)
+  - Recipient relationship (if any)
+  - Foundation status of recipient
+
+  Example from the data:
+  - Foundation: PAUL & RUTH SCHULTZ FDN AGY (Chicago, IL)
+  - Made 30 grants in their filing
+  - Recipients in Wausau, WI
+  - Grant amounts: $2,000 - $5,500
+  - Purposes: "PROGRAM SUPPORT"
+
+  What You Can Find Out:
+
+  ✅ How much they gave - Exact dollar amounts for each grant✅ Who they gave
+  to - Organization names and individual recipients✅ Types of nonprofits -
+  Foundation status codes (public charity, private foundation, etc.)✅ Where
+  they're located - Foundation city, state, ZIP✅ Geographic giving patterns -
+  Where recipients are located (can identify if they give locally vs.
+  nationally)✅ Grant purposes - What the grants were for✅ Giving history -
+  Multiple years of data (2021-2024)
+
+  Geographic Distribution:
+
+  Top states with private foundations in your data:
+  - Texas: 1,110+
+  - California: 897+
+  - New York: 875+
+  - Pennsylvania: 862+
+  - Florida: 840+
+
+  Would you like me to:
+  1. Extract all grant data from the XML files into a usable CSV format?
+  2. Filter foundations by specific criteria (location, asset size, giving
+  patterns)?
+  3. Create a script to analyze giving patterns (e.g., foundations that give to
+   specific types of nonprofits in specific regions)?

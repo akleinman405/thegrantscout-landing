@@ -1,0 +1,42 @@
+Research Team Prompt: VetsBoats Foundation Pre-Call Brief
+
+Objective: Prepare a 1-page brief on VetsBoats Foundation for Alec's sales call with founder Terry Moran today.
+Organization: VetsBoats Foundation
+Contact: Terry Moran (Founder, Navy Veteran)
+Call Purpose: Discovery call - potential BG2 beta user or founding member client
+
+Research Tasks:
+
+Organization Basics
+
+Location (city/state)
+Year founded
+Mission/programs (sailing for veterans)
+Service area/reach
+
+
+Financial Profile (from 990 if available)
+
+Annual revenue
+Annual expenses
+Net assets
+Any grants received (amounts, sources)
+
+
+Online Presence
+
+Website URL
+Recent news or press
+Social media activity level
+Any current fundraising campaigns
+
+
+Grant Landscape Quick Scan
+
+Are there obvious foundation funders for veteran recreation/sailing programs?
+Any foundations in our database that have funded similar orgs?
+
+
+
+
+Output Format: Single page with sections for each area above. Bullet points, not prose. Flag anything that suggests fit/concerns for TheGrantScout services.

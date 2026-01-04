@@ -1,0 +1,313 @@
+# Weekly Call Sheet: Jan 6-10, 2026
+
+**Target: 240 calls** | Foundation mgmt first, then top nonprofits
+
+---
+
+## Monday, Jan 6 | Target: 45 calls
+**Focus:** Foundation Management Companies (B2B)
+
+### Foundation Management (40 prospects)
+| # | Company | Contact | Phone | City, State |
+|---|---------|---------|-------|-------------|
+| 1 | Sterling Foundation Management | - | (703) 437-9720 | Great Falls, VA |
+| 2 | Pacific Foundation Services | - | (415) 561-6540 | San Francisco, CA |
+| 3 | Crewe Foundation Services | - | (385) 322-3400 | Salt Lake City, UT |
+| 4 | Foundation for the Carolinas | - | (704) 973-4500 | Charlotte, NC |
+| 5 | Daylight Advisors | - | (254) 535-2419 | Unknown, None |
+| 6 | Convergent Nonprofit Solutions | - | (866) 261-1772 | Atlanta, GA |
+| 7 | Glenmede Trust | Andrew K. Slade, CAP | (215) 419-6000 | Philadelphia, PA |
+| 8 | BlueStone Services | Trey Gailey, CPA | (888) 797-2583 | Timonium, MD |
+| 9 | GHJ Advisors | Anant Patel | (310) 873-1600 | Los Angeles, CA |
+| 10 | Plante Moran | Kellie Ray | (248) 603-5300 | Southfield, MI |
+| 11 | Fiduciary Trust Company | - | (877) 384-1111 | Boston, MA |
+| 12 | Arden Trust Company | Doug Sherry | (888) 803-7466 | Wilmington, DE |
+| 13 | Armanino | - | (925) 790-2600 | San Ramon, CA |
+| 14 | Silicon Valley Community Foundation | Nicole Taylor | (650) 450-5400 | Mountain View, CA |
+| 15 | California Community Foundation | Miguel A. Santana | (213) 413-4130 | Los Angeles, CA |
+| 16 | Foundation Group (501c3.org) | Greg McRay | (888) 361-9445 | Brentwood, TN |
+| 17 | J.P. Morgan Private Bank Philanthro | - | (212) 270-6000 | New York, NY |
+| 18 | CCS Fundraising | Jon Kane | (212) 695-1175 | New York, NY |
+| 19 | The Cleveland Foundation | Lillian Kuri | (216) 861-3810 | Cleveland, OH |
+| 20 | Marin Community Foundation | Rhea Suh | (415) 464-2500 | Novato, CA |
+| 21 | Rockefeller Philanthropy Advisors | - | (212) 812-4330 | New York, NY |
+| 22 | National Philanthropic Trust | - | (888) 878-7900 | Jenkintown, PA |
+| 23 | Fidelity Private Foundation Service | - | 800-952-4438 | Boston, MA |
+| 24 | Bridgespan Group | Thomas Tierney | (617) 572-2833 | Boston, MA |
+| 25 | The Philanthropic Initiative (TPI) | Leslie Pine | (617) 338-2590 | Boston, MA |
+| 26 | Aly Sterling Philanthropy | - | (419) 794-0015 | Toledo, OH |
+| 27 | Tides Foundation | Janiece Evans-Page | (415) 561-6400 | San Francisco, CA |
+| 28 | New Venture Fund | Lee Bodner | (202) 595-1020 | Washington, DC |
+| 29 | Sunflower Services (formerly Arabel | - | (202) 595-1020 | Washington, DC |
+| 30 | New York Foundation for the Arts (N | - | (212) 366-6900 | New York, NY |
+| 31 | Family Philanthropy Advisors | - | (612) 377-8400 | Unknown, None |
+| 32 | Cascade Philanthropy Advisors | - | (206) 856-7035 | Unknown, None |
+| 33 | Foundation Source | - | (800) 849-0054 | Fairfield, CT |
+| 34 | Schwab Charitable (DAFgiving360) | Julia Reed | (800) 746-6216 | San Francisco, CA |
+| 35 | Fidelity Charitable | Maeve (VP Philanthropic C | (800) 262-6039 | Boston, MA |
+| 36 | Vanguard Charitable | Bryan Kelley | 888-383-4483 | Malvern, PA |
+| 37 | The Chicago Community Trust | Andrea Sáenz | (312) 616-8000 | Chicago, IL |
+| 38 | Bessemer Trust | Caroline Woodruff Hodkins | (212) 708-9100 | New York, NY |
+| 39 | Goldman Sachs Ayco | David Golub | (518) 886-4000 | Cohoes, NY |
+| 40 | UBS Family Advisory and Philanthrop | Nicole Sebastian | (202) 008-1816 | New York, NY |
+
+### Overflow: Top Nonprofits (5 prospects)
+| # | Organization | Phone | ICP | State |
+|---|--------------|-------|-----|-------|
+| 1 | YELLOWSTONE EDUCATION FOUNDATION | 7137418000 | 80 | TX |
+| 2 | MI CASITA DAY CARE INC | 8565414772 | 80 | NJ |
+| 3 | GOLDEN SPREAD RURAL FRONTIER COALITION | 5753746207 | 80 | NM |
+| 4 | INSTITUTE FOR EDUCATION RESEARCH & SCHOL | 3238252637 | 80 | CA |
+| 5 | STIRRING WATERS MINISTRIES | 4086489097 | 80 | CA |
+
+---
+
+## Tuesday, Jan 7 | Target: 30 calls
+**Focus:** Beta tester feedback calls + overflow cold calls
+
+### Top Nonprofits (30 prospects)
+| # | Organization | Phone | ICP | State |
+|---|--------------|-------|-----|-------|
+| 1 | WOMENS CARE CENTER BISMARCK | 7017514575 | 80 | ND |
+| 2 | YESHIVA GEDOLA NA'OS YAAKOV | 7325471574 | 80 | NJ |
+| 3 | FOUNDATION FOR ACCOUNTING EDUCATION INC | 2127198300 | 80 | NY |
+| 4 | SHIELD MINISTRIES | 8438102824 | 80 | SC |
+| 5 | CATHOLIC CHARITIES HEALTH CARE | 4124566911 | 80 | PA |
+| 6 | KOOTENAI BRIDGE ACADEMY | 2089304515 | 80 | ID |
+| 7 | GEORGIA ASSOCIATION OF EDUCATIONAL | 7065427758 | 80 | GA |
+| 8 | OKLAHOMA ASSOCIATION OF YOUTH SERVICES I | 4055284120 | 80 | OK |
+| 9 | ECOACTION PARTNERS | 9707281340 | 80 | CO |
+| 10 | CENTER FOR LIFE AND FAITH | 2016530150 | 80 | NY |
+| 11 | UPPER SURFACE CREEK DOMESTIC WATER | 9708567199 | 80 | CO |
+| 12 | ACE Mentor Los Angeles Metropolitan Area | 2139528091 | 80 | CA |
+| 13 | THE EDUCATION & TRAINING INSTITUTE INC | 7322462900 | 80 | NJ |
+| 14 | CORPORACION DESARROLLO ECONOMICO DE SALU | 7878793300 | 80 | PR |
+| 15 | DESERT SAGE EDUCATIONAL INITIATIVE | 7753486622 | 80 | NV |
+| 16 | SOLID ROCK YOUTH TRANSITIONAL | 2175721269 | 80 | IL |
+| 17 | MedtechWomen | 5102060747 | 80 | CA |
+| 18 | JCTOD OUTREACH INC | 3157349608 | 80 | NY |
+| 19 | East Haven Public Library Inc | 2034683890 | 80 | CT |
+| 20 | THE KINGDOM CHRISTIAN ACADEMY CORP | 7878004017 | 80 | PR |
+| 21 | Reach Studio Art Center | 5179993643 | 80 | MI |
+| 22 | AFRICAN AMERICAN CHAMBER OF COMMERCE | 4144629450 | 80 | WI |
+| 23 | MT CARMEL REDEVELOPMENT CORPORATION INC | 9136214111 | 80 | KS |
+| 24 | SPIRITUAL AND VEDA AGAMA SUDHA | 8562411008 | 80 | NJ |
+| 25 | MASSACHUSETTS EDUCATION & CAREER | 5087546829 | 80 | MA |
+| 26 | I&F Incorporated NFP | 7737566806 | 80 | IL |
+| 27 | True Measure Collaborative | 2068880244 | 80 | WA |
+| 28 | THE THEODORE F JENKINS MEMORIAL | 2155747900 | 80 | PA |
+| 29 | GREATER PUEBLO CHAMBER OF COMMERCE | 7195421704 | 80 | CO |
+| 30 | PINEWOOD CLOQUET INC | 2188794566 | 80 | MN |
+
+---
+
+## Wednesday, Jan 8 | Target: 75 calls
+**Focus:** Heavy volume day - TOP PRIORITY
+
+### Top Nonprofits (75 prospects)
+| # | Organization | Phone | ICP | State |
+|---|--------------|-------|-----|-------|
+| 1 | INCLUSIVE ENTREPRENEURS FOUNDATION FKA | 9713039063 | 80 | OR |
+| 2 | PROPRIETORS PORTSMOUTH ATHENAEUM | 6034312538 | 80 | NH |
+| 3 | ASSOCIATION FOR BETTER COMMUNITY DEVELOP | 3304556385 | 80 | OH |
+| 4 | BETTER BUSINESS BUREAU OF THE | 9017591300 | 80 | TN |
+| 5 | SHERMAN WAY SENIOR CITIZEN HOUSING CORP | 3104756083 | 80 | CA |
+| 6 | THURSTON COUNTY CHAMBER OF COMMERCE | 3603573362 | 80 | WA |
+| 7 | PIONEER TECHNOLOGY & ARTS ACADEMY | 4694058967 | 80 | TX |
+| 8 | PASO ROBLES NONPROFIT HOUSING | 8052384015 | 80 | CA |
+| 9 | NATIONAL SUMMER LEARNING | 4108561370 | 80 | DC |
+| 10 | THE BOSTON CONSORTIUM FOR HIGHER | 3392253820 | 80 | MA |
+| 11 | DOUGLAS COUNTY TASK FORCE ON FAMILY | 6787151196 | 80 | GA |
+| 12 | MERCY HOUSE CHDO INC | 7148367188 | 80 | CA |
+| 13 | SCBIO | 8643975101 | 80 | SC |
+| 14 | MAHONING COUNTY HIGH SCHOOL | 6144514644 | 80 | OH |
+| 15 | UTOPIA CHILDREN'S CENTER INC | 2126637375 | 80 | NY |
+| 16 | Treat CA | 3109225430 | 80 | CA |
+| 17 | LEARNING RESOURCE CENTER OF POLK | 8636889477 | 80 | FL |
+| 18 | RYER AVENUE HOUSING DEVELOPMENT | 7183290600 | 80 | NY |
+| 19 | MODEL CITY DAY CARE CENTER INC | 6064325427 | 80 | KY |
+| 20 | NPHS COMMUNITY REDEVELOPMENT INC | 9099885979 | 80 | CA |
+| 21 | AMERICAN CONGREGATIONAL ASSOCIATION | 6175230470 | 80 | MA |
+| 22 | SAN LUIS VALLEY FARM WORKER HOUSING | 7197549050 | 80 | CO |
+| 23 | RACHELS HAVEN INC | 2767964491 | 80 | VA |
+| 24 | Government Supervisors Association of Fl | 9549200046 | 80 | FL |
+| 25 | Israel Venture Network | 2525342320 | 80 | CA |
+| 26 | PRELUDE PREPARATORY INC | 2107807661 | 80 | TX |
+| 27 | CENTER FOR THE INTEGRATION & ADVANCEMENT | 7185454040 | 80 | NY |
+| 28 | POTTER VALLEY YOUTH COMMUNITY CENTER | 7077431789 | 80 | CA |
+| 29 | DISABILITY RIGHTS NEW MEXICO | 5052563100 | 80 | NM |
+| 30 | VERANO LEARNING PARTNERS | 6234845940 | 80 | AZ |
+| 31 | THE ACADEMY SERVICES CORPORATION | 5204444219 | 80 | AZ |
+| 32 | AHA KANE - FOUNDATION FOR THE AD- | 8085249560 | 80 | HI |
+| 33 | WEST CENTRAL LEARNING ACADEMY II | 4192221836 | 80 | OH |
+| 34 | HELPINGS OF HOPE INC | 3174023111 | 80 | IN |
+| 35 | SQUAW ALPINE TRANSIT COMPANY | 5305837545 | 80 | CA |
+| 36 | GWINNETT UNITED IN DRUG EDUCAT | 6783774131 | 80 | GA |
+| 37 | BEAVER COUNTY CORPORATION | 7247288610 | 80 | PA |
+| 38 | ROCKLAND COUNCIL ON ALCOHOLISM AND OTHER | 8452159788 | 80 | NY |
+| 39 | THE ARC OF ADAMS COUNTY INC | 3034280310 | 80 | CO |
+| 40 | PAPILLION COMMUNITY FOUNDATION INC | 4022685312 | 80 | NE |
+| 41 | FAMILY SUPPORT ORGANIZATION OF BERGEN CO | 2017966209 | 80 | NJ |
+| 42 | SOUTH DAKOTA PORK PRODUCERS COUNCIL | 6053321600 | 80 | SD |
+| 43 | MEMPHIS COLLEGE PREPARATORY ELEMENTARY | 9016206475 | 80 | TN |
+| 44 | Jordan Community Residential Center | 2164412496 | 80 | OH |
+| 45 | Heat and Frost Insulators and Allied Wor | 7349471745 | 80 | MI |
+| 46 | HABITAT FOR HUMANITY OF IOWA INC | 5152666886 | 80 | IA |
+| 47 | I OLA LAHUI INC | 8085256255 | 80 | HI |
+| 48 | SOUTH OLDHAM FIRE DEPARTMENT INC | 5022418992 | 80 | KY |
+| 49 | HOUSING FOR HOMELESS INC | 3216390166 | 80 | FL |
+| 50 | WEST FRESNO HEALTH CARE COALITION | 5596212967 | 80 | CA |
+| 51 | ST JOHN BOSCO CLINIC INC | 3056351335 | 80 | FL |
+| 52 | San Clemente Tritons Water Polo | 9492281573 | 80 | CA |
+| 53 | HABITAT FOR HUMANITY OF FREDERICK | 3016982449 | 80 | MD |
+| 54 | HOUSING AND FAMILY SERVICES OF | 7184357585 | 80 | NY |
+| 55 | VENICE SENIOR HOUSING CORPORATION | 8182470420 | 80 | CA |
+| 56 | DELTA COUNCIL | 6624537112 | 80 | MS |
+| 57 | HABITAT FOR HUMANITY OF NORTHWEST | 2199237265 | 80 | IN |
+| 58 | WASHINGTON STATE COMMUNITY CONNECTORS | 2532973611 | 80 | WA |
+| 59 | WASHINGTON COUNTY | 2403132816 | 80 | MD |
+| 60 | AFFORDABLE HOUSING CORPORATION OF | 7656621574 | 80 | IN |
+| 61 | MIDLANDS COMMUNITY DEVELOPMENT CORP | 8036479111 | 80 | SC |
+| 62 | Association of Civilian Technicians | 7034944845 | 80 | VA |
+| 63 | FORT BEND REGIONAL COUNCIL ON SUBSTANCE | 2812072400 | 80 | TX |
+| 64 | KERRVILLE CONVENTION & VISITOR BUREAU | 8307923535 | 80 | TX |
+| 65 | Rural Housing Development Corporation | 8013752205 | 80 | UT |
+| 66 | THE KEY HAVEN FAMILIES INC | 4075626374 | 80 | FL |
+| 67 | YOUNG MENS CHRISTIAN ASSOCIATION | 8082469090 | 80 | HI |
+| 68 | INTL BROTHERHOOD OF TEAMSTERS #492 TCWH | 5053441925 | 80 | NM |
+| 69 | NEW HAMPSHIRE MEDICAL SOCIETY | 6032241909 | 80 | NH |
+| 70 | EARL CARL INSTITUTE FOR LEGAL AND SOCIAL | 7133131139 | 80 | TX |
+| 71 | UNIDOS POR LA MUSICA | 3233080340 | 80 | CA |
+| 72 | SHORECLIFFS TERRACE INC | 9493469999 | 80 | CA |
+| 73 | TELACU SENIOR COURT INC | 3237211655 | 80 | CA |
+| 74 | Susie King Taylor Community School Inc | 9123954200 | 80 | GA |
+| 75 | EMPOWERING SUCCESS NOW | 9099977600 | 80 | CA |
+
+---
+
+## Thursday, Jan 9 | Target: 30 calls
+**Focus:** Beta tester feedback calls + overflow
+
+### Top Nonprofits (30 prospects)
+| # | Organization | Phone | ICP | State |
+|---|--------------|-------|-----|-------|
+| 1 | FRANKFORD COMMUNITY DEVELOPMENT CORPORAT | 2157436580 | 80 | PA |
+| 2 | South County Community Clinic | 2813677889 | 80 | TX |
+| 3 | The Parkway At Folsom Owners | 9169841619 | 80 | CA |
+| 4 | Californians for Taxpayer Protection and | 9164427757 | 80 | CA |
+| 5 | TEXAS HARM REDUCTION ALLIANCE | 5128933237 | 80 | TX |
+| 6 | INDEPENDENCE NORTHWEST INC | 2037293299 | 80 | CT |
+| 7 | BRACKEN VOLUNTEER FIRE DEPARTMENT | 2106515762 | 80 | TX |
+| 8 | PARTNERSHIP FOR A BETTER SAN DIEGO | 6198805255 | 80 | CA |
+| 9 | ALABAMA PARENT EDUCATION CENTER INC | 3345672252 | 80 | AL |
+| 10 | NEW YORK LIBRARY ASSOCIATION | 5184326952 | 80 | NY |
+| 11 | CONSTELLATION SCHOOLS MADISON | 2167127600 | 80 | OH |
+| 12 | NATIVE ALLIANCE AGAINST VIOLENCE INC | 4058012277 | 80 | OK |
+| 13 | MICHIGAN STATE AFL-CIO | 5174875966 | 80 | MI |
+| 14 | VOLUSIA UNITED EDUCATORS INC | 3867387222 | 80 | FL |
+| 15 | REESE & COMMUNITY VOLUNTEER FIRE CO INC | 4108487172 | 80 | MD |
+| 16 | WESTERN MARICOPA COALITION | 6234350431 | 80 | AZ |
+| 17 | THE EXPERIENTIAL SCHOOL | 3368908374 | 80 | NC |
+| 18 | TRINITY HOUSING CORP OF GREELEY | 9703562808 | 80 | CO |
+| 19 | BOAT PEOPLE S O S INC | 7036227455 | 80 | VA |
+| 20 | COALITION FOR THE HOMELESS OF PASCO | 8133930381 | 80 | FL |
+| 21 | LINDSAY PETTUS GREENWAY INC | 8038049248 | 80 | SC |
+| 22 | PHYSICIAN HEALTH SERVICES INC | 7814347404 | 80 | MA |
+| 23 | Family Alliance for Counseling Tools | 6692207104 | 80 | CA |
+| 24 | HEALTH INDUSTRY COLLABORATION EFFRT | 9496336665 | 80 | CA |
+| 25 | EMC WATER SUPPLY CORPORATION | 9036657727 | 80 | TX |
+| 26 | ROGERS COUNTY ELDER DAYCARE | 9183417588 | 80 | OK |
+| 27 | TWAW SHOOTING CHAPTERS INC | 8885605579 | 80 | AZ |
+| 28 | GREENWOOD VOLUNTEER FIRE COMPANY | 3023494529 | 80 | DE |
+| 29 | SOUTH PHILADELPHIA PRESBYTERIAN | 6108341001 | 80 | PA |
+| 30 | SEXUAL ASSAULT CENTER OF NW GA INC | 7062929024 | 80 | GA |
+
+---
+
+## Friday, Jan 10 | Target: 60 calls
+**Focus:** Close week strong
+
+### Foundations (20 prospects)
+| # | Foundation | Phone | State |
+|---|------------|-------|-------|
+| 1 | Vyuha Inc | (305) 982-5656 | FL |
+| 2 | THE ANDREW W MELLON FOUNDATION | 2128388400 | NY |
+| 3 | TRUIST FOUNDATION FKA SUNTRUST FOUNDATIO | 8333072351 | FL |
+| 4 | ROCKEFELLER BROTHERS FUND INC | (212) 812-4200 | NY |
+| 5 | MUTUAL OF AMERICA FOUNDATION | 2122241147 | NY |
+| 6 | CHARLES STEWART MOTT FOUNDATION | 8102385651 | MI |
+| 7 | SURDNA FOUNDATION INC | 2125570010 | NY |
+| 8 | CHARTER FUND INC | 3032178090 | CO |
+| 9 | CIGNA FOUNDATION | 2157611163 | PA |
+| 10 | ALABAMA POWER FOUNDATION INC | 2052572424 | AL |
+| 11 | AMERICAN EXPRESS FOUNDATION | 2126404648 | NY |
+| 12 | CH ROBINSON WORLDWIDE FOUNDATION | 9526833432 | SD |
+| 13 | MARSHALL L AND PERRINE D MCCUNE | 5059838300 | NM |
+| 14 | EWING MARION KAUFFMAN FOUNDATION | (816) 932-1000 | MO |
+| 15 | HILLMAN FAMILY FOUNDATIONS | 4123383466 | PA |
+| 16 | Houston Endowment Inc | 7132388100 | TX |
+| 17 | ARIE AND IDA CROWN MEMORIAL | 3122366300 | IL |
+| 18 | RASMUSON FOUNDATION | 9072972700 | AK |
+| 19 | WK Kellogg Foundation | 2699681611 | MI |
+| 20 | GERALDINE R DODGE FOUNDATION INC | 6467637481 | NJ |
+
+### Top Nonprofits (40 prospects)
+| # | Organization | Phone | ICP | State |
+|---|--------------|-------|-----|-------|
+| 1 | ARROWHEAD LIBRARY SYSTEM | 2187413840 | 80 | MN |
+| 2 | KENTUCKY ASSOCIATION FOR | 2702140587 | 80 | KY |
+| 3 | CHILDREN'S ADVOCACY CENTER NEPA | 5709697313 | 80 | PA |
+| 4 | ROBESON COUNTY COMMITTEE ON DOMESTIC VIO | 9107398622 | 80 | NC |
+| 5 | Mountain View Community Land Trust | 6502696688 | 80 | CA |
+| 6 | 711 GRAND QALICB | 4154542640 | 80 | CA |
+| 7 | Louisiana Federation of Teachers | 2259231037 | 80 | LA |
+| 8 | WOMENS RURAL ADVOCACY PROGRAMS | 5075329532 | 80 | MN |
+| 9 | COOPERATIVE NETWORK | 6082584400 | 80 | WI |
+| 10 | TEACH NOT PUNISH FAMILY RESOURCE CENTER  | 3234879867 | 80 | OK |
+| 11 | CALIFORNIA HOUSING CONSORTIUM | 8187359551 | 80 | CA |
+| 12 | SPOKANE REGIONAL PLAN CENTER | 5093289600 | 80 | WA |
+| 13 | RURAL LAW CENTER OF NEW YORK INC | 5185615460 | 80 | NY |
+| 14 | INTERNATIONAL ASSOCIATION OF HEAT & FROS | 7243789735 | 80 | PA |
+| 15 | OUR PLACE DRUG AND ALCOHOL EDUCATION | 8129453400 | 80 | IN |
+| 16 | TASC OF NORTHWEST OHIO | 4192429955 | 80 | OH |
+| 17 | CALIFORNIA LIBRARY ASSOCIATION | 6262044071 | 80 | CA |
+| 18 | FORD YACHT CLUB INC | 7346768422 | 80 | MI |
+| 19 | BELEAF SURVIVORS INC | 2626191634 | 80 | WI |
+| 20 | MIZPAH ASSISTED LIVING SERVICES | 3147260111 | 80 | MO |
+| 21 | Rescue Hill Nazarene Compassionate | 6822524777 | 80 | TX |
+| 22 | Pride Youth Services Inc | 2404037900 | 80 | MD |
+| 23 | Sanctuary Inc | 6714757101 | 80 | GU |
+| 24 | PATRICIA KING MINISTRIES | 5203166284 | 80 | AZ |
+| 25 | SOUTH CAROLINA ASSOCIATION OF | 8037914181 | 80 | SC |
+| 26 | THE AMERICAN LEGION | 3604914373 | 80 | WA |
+| 27 | EAST COAST CONFERENCE | 7329917712 | 80 | NJ |
+| 28 | CHICON PREGNANCY RESOURCE CENTER | 5124222662 | 80 | TX |
+| 29 | Vermont Foundation of Recovery Inc | 7182904802 | 80 | VT |
+| 30 | Beverly Normandie Housing Corporation | 5622758664 | 80 | CA |
+| 31 | GOVERNOR'S PARTNERSHIP TO PROTECT | 8605238042 | 80 | CT |
+| 32 | AMERICAN FED OF TEACHERS 3010 | 6312654218 | 80 | NY |
+| 33 | ENIVISONING JUSTICE SOLUTIONS INC | 3108018996 | 80 | CA |
+| 34 | VETERANS OF FOREIGN WARS OF THE VFW-PENN | 7172347927 | 80 | PA |
+| 35 | INDEPENDENT COLLEGES & UNIVERSITIES | 8506813188 | 80 | FL |
+| 36 | MONTEREY COUNTY SOCCER LEAGUE | 8319059899 | 80 | CA |
+| 37 | CATHOLIC CHARITIES OF ASHTABULA COUNTY | 4409922121 | 80 | OH |
+| 38 | HESED CHRISTIAN MINISTRIES INC | 8059375475 | 80 | CA |
+| 39 | WASHINGTON HOMEOWNERSHIP | 2065426644 | 80 | WA |
+| 40 | THE EDUCATION EXCHANGE INC | 4017830293 | 80 | RI |
+
+---
+
+## Weekly Summary
+
+| Day | Target | Segment Focus |
+|-----|--------|---------------|
+| Monday | 45 | Foundation Mgmt (40) + Nonprofits (5) |
+| Tuesday | 30 | Top Nonprofits |
+| Wednesday | 75 | Top Nonprofits (HEAVY DAY) |
+| Thursday | 30 | Top Nonprofits |
+| Friday | 60 | Foundations (20) + Nonprofits (40) |
+| **TOTAL** | **240** | |
+
+---
+
+*Generated by Claude Code on 2026-01-02*

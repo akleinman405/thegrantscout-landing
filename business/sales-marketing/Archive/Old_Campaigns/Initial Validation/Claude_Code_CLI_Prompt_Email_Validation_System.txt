@@ -1,0 +1,509 @@
+===============================================================================
+CLAUDE CODE CLI PROMPT - EMAIL VALIDATION CAMPAIGN SYSTEM
+===============================================================================
+
+I need you to build an email validation campaign system for testing 3 business 
+ideas simultaneously. The system should send initial outreach emails and 
+follow-ups to prospects across 3 different verticals.
+
+===============================================================================
+PROJECT STRUCTURE
+===============================================================================
+
+Create all files in: 
+C:\Business Factory (Research) 11-1-2025\06_GO_TO_MARKET\outreach_sequences\
+
+Files to create:
+1. send_initial_outreach.py - Main script for initial emails
+2. send_followup.py - Script for 3-day follow-ups
+3. config.py - Shared configuration
+4. README.md - Complete usage instructions
+5. sent_tracker.csv - Log of all emails sent (create empty with headers)
+6. response_tracker.csv - Manual tracking of replies (create empty with headers)
+
+===============================================================================
+INPUT DATA
+===============================================================================
+
+Three CSV files in the same directory:
+- food_recall_prospects.csv (restaurants)
+- debarment_prospects.csv (federal contractors)
+- grant_alerts_prospects.csv (nonprofits)
+
+IMPORTANT: CSV columns may vary. Standardize to these columns:
+- email (required)
+- first_name (optional - may be missing)
+- company (optional)
+- state (optional)
+
+Handle missing first_name gracefully - use "Hi," instead of "Hi [Name]," 
+when name is missing. No personalization needed in email body.
+
+===============================================================================
+EMAIL CONTENT
+===============================================================================
+
+Read email templates from: 
+C:\Business Factory (Research) 11-1-2025\06_GO_TO_MARKET\outreach_sequences\Validation Emails and Questions.txt
+
+SUBJECT LINES:
+The current subject lines are too spammy/promotional. Generate better 
+alternatives that:
+- Sound like a founder reaching out personally
+- Are short and conversational (5-8 words max)
+- Don't sound like marketing/sales
+- Feel authentic and curious
+
+Examples of the vibe I want:
+- "Quick question about [topic]"
+- "Built something for [industry]"
+- "Thoughts on [pain point]?"
+
+Put subject line options at the TOP of each script in a config section 
+so I can easily edit them:
+
+```python
+# SUBJECT LINE OPTIONS (edit these as needed)
+FOOD_RECALL_SUBJECTS = [
+    "Quick thought about food recalls",
+    "Built something for restaurant ops",
+    "Checking FDA recalls - curious your approach?",
+    "Food recall tracking question",
+]
+
+DEBARMENT_SUBJECTS = [
+    "SAM.gov debarment question",
+    "Curious how you handle vendor checks",
+    "Built something for contractor compliance",
+    "Quick FAR 9.404 question",
+]
+
+GRANT_ALERT_SUBJECTS = [
+    "Grants.gov monitoring tool",
+    "Quick question about grant research",
+    "Built something for nonprofit funding",
+    "Grant opportunity tracking",
+]
+```
+
+Script should randomly select one subject line per email from the 
+appropriate vertical list.
+
+BODY CONTENT:
+Use the email templates from the txt file exactly as written. 
+Remove any {FirstName} or personalization placeholders - just use "Hi," 
+or "Hello," for all emails.
+
+===============================================================================
+SENDING PARAMETERS
+===============================================================================
+
+Gmail Account:
+- Email: alec.m.kleinman@gmail.com
+- App Password: [I'll fill this in after]
+- SMTP: smtp.gmail.com:587
+
+Sending Schedule:
+- 150 emails per vertical per day (450 total)
+- Send between 9am-3pm EST only (6-hour window)
+- Weekdays only (Mon-Fri)
+- BASE delay: 5-10 seconds between emails (randomized)
+- NEVER send at exact intervals (see Anti-Spam Randomization below)
+- Pace: ~75 emails per hour average (with variation)
+
+Test Mode:
+- Include TEST_MODE = True/False flag at top of script
+- When True, send only 3 emails from each vertical (9 total)
+- Still respects business hours and randomization
+- Easy to toggle on/off
+
+===============================================================================
+ANTI-SPAM RANDOMIZATION (CRITICAL!)
+===============================================================================
+
+Make sending patterns look human to avoid spam detection:
+
+RANDOM DELAYS:
+- Base delay between emails: random.uniform(5, 10) seconds
+- Calculate target pace from remaining emails and time
+- Add variation: ±15% from target pace
+- Micro-jitter: ±2 seconds on every send
+- Random longer pauses: Every 10-20 emails, wait 30-90 seconds 
+  (simulate "coffee break")
+
+HUMAN-LIKE PATTERNS:
+- First 30 minutes: Slightly slower (simulate "warming up")
+- Middle of day: Normal pace
+- Last hour: Slightly slower (simulate "wrapping up")
+- Never perfectly spaced intervals
+
+PACING CALCULATION EXAMPLE:
+```python
+# If we have 300 emails left and 4 hours remaining
+target_pace = (4 * 3600) / 300  # 48 seconds average
+
+# Add randomness
+base_delay = random.uniform(target_pace * 0.85, target_pace * 1.15)  # 41-55s
+jitter = random.uniform(-2, 2)  # ±2s
+final_delay = base_delay + jitter
+
+# Occasional longer breaks (every 10-20 emails)
+if emails_sent % random.randint(10, 20) == 0:
+    break_time = random.uniform(30, 90)
+    print(f"Taking a short break... ({break_time:.0f} seconds)")
+    final_delay += break_time
+```
+
+DISPLAY FORMAT:
+```
+[09:15:23] ✓ Sent to john@restaurant.com (Food Recall)
+[09:15:25] Waiting 47 seconds before next send...
+[09:16:12] ✓ Sent to jane@nonprofit.org (Grant Alerts)
+[09:16:14] Waiting 52 seconds before next send...
+...
+[10:34:56] ✓ Sent to bob@contractor.com (Debarment) (75/450 today)
+[10:34:58] Taking a coffee break... (1.5 minutes)
+[10:36:28] Resuming sends...
+```
+
+===============================================================================
+CONTINUOUS RUNNING MODE (IMPORTANT!)
+===============================================================================
+
+The script should run continuously and intelligently wait for the right 
+conditions:
+
+SMART WAITING LOGIC:
+
+1. When script starts, check:
+   - Current time (is it 9am-3pm EST on a weekday?)
+   - Emails sent in last 24 hours (are we under 450 limit?)
+
+2. If OUTSIDE business hours (before 9am, after 3pm, or weekend):
+   - Calculate time until next valid send window
+   - Display: "Outside business hours. Next send window: Monday 9:00am EST 
+     (in 14 hours, 23 minutes)"
+   - Sleep until that time (check every 15 minutes, display countdown)
+   - Wake up and check conditions again
+
+3. If AT daily limit (450 emails sent in last 24 hours):
+   - Calculate when the oldest email will be >24 hours old
+   - Display: "Daily limit reached (450/450). Next available send slot: 
+     Tuesday 9:15am EST (in 18 hours, 47 minutes)"
+   - Sleep until that time
+   - Wake up and check conditions again
+
+4. If WITHIN window AND under limit:
+   - Calculate remaining quota for today
+   - Calculate remaining time until 3pm EST
+   - Calculate target pace (with randomization)
+   - Display: "Ready to send. Remaining today: 287 emails | Time remaining: 
+     4 hours, 12 minutes | Average pace: ~72 emails/hour (randomized)"
+   - Begin sending at appropriate pace with variation
+
+PACING LOGIC:
+- Calculate average pace needed: remaining_emails / remaining_hours
+- Apply randomization: each email gets ±15% variation from average
+- Add occasional breaks every 10-20 emails
+- If started late (e.g., 2pm), adjust pace but maintain randomization
+- Never sacrifice randomness for speed
+
+CONTINUOUS OPERATION:
+- Script runs indefinitely until I stop it (Ctrl+C)
+- After completing daily quota, wait until next day's window
+- After 3pm, wait until next day's 9am
+- On Friday after 3pm, wait until Monday 9am
+- Display countdown timers every 15 minutes: 
+  "Sleeping... next check in 3:45:12"
+
+EXAMPLE STARTUP SCENARIOS:
+
+Scenario 1 - Sunday 7pm (my time = 9pm EST):
+```
+[2025-11-03 21:00:00] Script started
+[2025-11-03 21:00:00] Weekend detected. Next send window: Monday 9:00am EST
+[2025-11-03 21:00:00] Sleeping for 12 hours, 0 minutes...
+[Status updates every 15 minutes with countdown]
+```
+
+Scenario 2 - Monday 7am (my time = 9am EST):
+```
+[2025-11-04 09:00:00] Script started
+[2025-11-04 09:00:00] ✓ Business hours detected (Mon-Fri, 9am-3pm EST)
+[2025-11-04 09:00:00] ✓ Checking daily limit... 0/450 sent in last 24h
+[2025-11-04 09:00:00] Ready to send!
+[2025-11-04 09:00:00] Plan: 450 emails over 6 hours (~75/hour with randomization)
+[2025-11-04 09:00:00] Starting sends with human-like pacing...
+```
+
+Scenario 3 - Monday 2pm, daily limit reached:
+```
+[2025-11-04 14:00:00] Daily limit reached (450/450)
+[2025-11-04 14:00:00] Oldest email was sent at 9:03am
+[2025-11-04 14:00:00] Next available send window: Tuesday 9:03am EST
+[2025-11-04 14:00:00] Sleeping for 19 hours, 3 minutes...
+```
+
+STATUS DISPLAY (update every 15 minutes while sleeping):
+```
+╔════════════════════════════════════════════════════════════╗
+║  WAITING FOR NEXT SEND WINDOW                              ║
+╠════════════════════════════════════════════════════════════╣
+║  Next window: Monday 9:00am EST                            ║
+║  Time remaining: 13:45:22                                  ║
+║  Daily quota when resumed: 450 emails                      ║
+║                                                            ║
+║  Press Ctrl+C to stop                                      ║
+╚════════════════════════════════════════════════════════════╝
+```
+
+GRACEFUL SHUTDOWN:
+- If I press Ctrl+C, save all progress immediately
+- Show summary: "Stopped. Sent 287/450 today. All progress saved."
+- Show resume instructions: "Run script again to pick up where you left off"
+- Next time I start, pick up where it left off (no duplicates)
+
+===============================================================================
+TRACKING SYSTEM
+===============================================================================
+
+sent_tracker.csv columns:
+- timestamp (YYYY-MM-DD HH:MM:SS)
+- email
+- vertical (food_recall/debarment/grant_alerts)
+- message_type (initial/followup)
+- subject_line (which one was used)
+- status (SUCCESS/FAILED)
+- error_message (if failed)
+
+response_tracker.csv columns:
+- email
+- vertical
+- initial_sent_date
+- replied (YES/NO/PENDING) - I'll update this manually
+- followup_sent_date
+- notes
+
+DEDUPLICATION RULES:
+- Never send to the same email twice in same vertical
+- Check sent_tracker.csv before every send
+- If script crashes and restarts, resume from where it left off
+- Track separately by vertical (same email could theoretically be in 
+  multiple CSVs, send to each vertical once)
+- Save sent_tracker.csv after every 10 emails (so progress isn't lost)
+
+===============================================================================
+FOLLOW-UP LOGIC (Script 2)
+===============================================================================
+
+send_followup.py should:
+
+1. Read sent_tracker.csv to find initial emails sent 3+ days ago
+2. Read response_tracker.csv to exclude anyone marked "replied = YES"
+3. Only send follow-up to those with "replied = NO" or "replied = PENDING"
+4. Send follow-up using the follow-up templates from txt file
+5. Same sending schedule/limits as initial script (150 per vertical per day)
+6. Random subject line selection from follow-up subject options
+7. Never send follow-up twice to same person
+8. Same continuous running mode and anti-spam randomization
+9. Update sent_tracker.csv with message_type = "followup"
+
+FOLLOW-UP TIMING:
+- Only send if initial email was 3+ days ago (72+ hours)
+- Calculate eligible recipients at start of each send window
+- Display: "Found 234 eligible for follow-up (sent initial 3+ days ago, 
+  no reply)"
+
+===============================================================================
+ERROR HANDLING
+===============================================================================
+
+- If email fails to send, log error but continue with next email
+- Save sent_tracker.csv after every 10 emails (so progress isn't lost)
+- If Gmail blocks/rate limits, pause 1 hour and retry
+- Clear error messages in console
+- If 5 consecutive failures, pause 30 minutes and alert user
+- Log all errors to error_log.csv with timestamp
+
+error_log.csv columns:
+- timestamp
+- email
+- vertical
+- error_type
+- error_message
+- action_taken
+
+===============================================================================
+CODE QUALITY
+===============================================================================
+
+- Clean, well-commented Python code
+- Use pandas for CSV handling
+- Use pytz for timezone handling (EST = US/Eastern)
+- Progress display showing: "Sent 45/150 for food_recall vertical..."
+- Summary stats at end of each session:
+  ```
+  ╔════════════════════════════════════════════════════════════╗
+  ║  SESSION SUMMARY                                           ║
+  ╠════════════════════════════════════════════════════════════╣
+  ║  Total sent: 450                                           ║
+  ║  Success: 448                                              ║
+  ║  Failed: 2                                                 ║
+  ║                                                            ║
+  ║  Breakdown by vertical:                                    ║
+  ║    Food Recall:     150 sent                               ║
+  ║    Debarment:       150 sent                               ║
+  ║    Grant Alerts:    150 sent                               ║
+  ║                                                            ║
+  ║  Next send window: Tuesday 9:00am EST                      ║
+  ╚════════════════════════════════════════════════════════════╝
+  ```
+- Config variables at top of each script (easy to edit)
+- No hardcoded values buried in functions
+- Type hints where appropriate
+- Docstrings for all functions
+
+CONFIGURATION SECTION AT TOP OF EACH SCRIPT:
+```python
+# ============================================================================
+# CONFIGURATION - EDIT THESE VALUES
+# ============================================================================
+
+# Test Mode
+TEST_MODE = False  # Set to True to send only 9 test emails
+
+# Gmail Credentials
+YOUR_EMAIL = "alec.m.kleinman@gmail.com"
+YOUR_NAME = "Alec Kleinman"
+APP_PASSWORD = ""  # FILL THIS IN
+
+# SMTP Settings
+SMTP_SERVER = "smtp.gmail.com"
+SMTP_PORT = 587
+
+# File Paths
+BASE_DIR = r"C:\Business Factory (Research) 11-1-2025\06_GO_TO_MARKET\outreach_sequences"
+INPUT_CSV_FOOD = os.path.join(BASE_DIR, "food_recall_prospects.csv")
+INPUT_CSV_DEBARMENT = os.path.join(BASE_DIR, "debarment_prospects.csv")
+INPUT_CSV_GRANTS = os.path.join(BASE_DIR, "grant_alerts_prospects.csv")
+SENT_TRACKER = os.path.join(BASE_DIR, "sent_tracker.csv")
+RESPONSE_TRACKER = os.path.join(BASE_DIR, "response_tracker.csv")
+
+# Sending Limits
+EMAILS_PER_VERTICAL_PER_DAY = 150
+TOTAL_DAILY_LIMIT = 450
+BUSINESS_HOURS_START = 9   # 9 AM EST
+BUSINESS_HOURS_END = 15    # 3 PM EST
+TIMEZONE = 'US/Eastern'
+
+# Delay Settings (seconds)
+BASE_DELAY_MIN = 5
+BASE_DELAY_MAX = 10
+BREAK_FREQUENCY_MIN = 10  # Take break every 10-20 emails
+BREAK_FREQUENCY_MAX = 20
+BREAK_DURATION_MIN = 30   # Break lasts 30-90 seconds
+BREAK_DURATION_MAX = 90
+
+# Subject Line Options (EDIT THESE!)
+FOOD_RECALL_SUBJECTS = [
+    "Quick thought about food recalls",
+    "Built something for restaurant ops",
+    "Checking FDA recalls - curious your approach?",
+    "Food recall tracking question",
+]
+
+DEBARMENT_SUBJECTS = [
+    "SAM.gov debarment question",
+    "Curious how you handle vendor checks",
+    "Built something for contractor compliance",
+    "Quick FAR 9.404 question",
+]
+
+GRANT_ALERT_SUBJECTS = [
+    "Grants.gov monitoring tool",
+    "Quick question about grant research",
+    "Built something for nonprofit funding",
+    "Grant opportunity tracking",
+]
+
+# ============================================================================
+```
+
+===============================================================================
+DELIVERABLES
+===============================================================================
+
+When complete, show me:
+
+1. File structure created (list all files with sizes)
+
+2. Sample of standardized CSV (first 5 rows from each vertical)
+
+3. Sample email that would be sent (with random subject line) for each vertical
+
+4. Brief instructions for:
+   - How to fill in app password
+   - How to run test mode (9 emails)
+   - How to start production mode
+   - How to mark responses manually in response_tracker.csv
+   - How to run follow-up script
+
+5. Explanation of the tracking system and how deduplication works
+
+6. README.md contents summary
+
+===============================================================================
+ADDITIONAL REQUIREMENTS
+===============================================================================
+
+1. Cross-platform compatibility (Windows paths, but code should work on Mac/Linux)
+
+2. Handle edge cases:
+   - Empty CSV files
+   - Malformed email addresses (skip and log)
+   - Missing columns (handle gracefully)
+   - Network timeouts (retry once, then skip)
+   - Ctrl+C interruption (save progress, exit cleanly)
+
+3. Logging:
+   - Console output (colorful, clear, informative)
+   - sent_tracker.csv (detailed record)
+   - error_log.csv (only errors)
+   - Daily summary at end of each session
+
+4. Documentation:
+   - Comprehensive README.md with examples
+   - Inline comments explaining complex logic
+   - Troubleshooting section for common issues
+
+===============================================================================
+VALIDATION CHECKLIST
+===============================================================================
+
+Before showing me the code, verify:
+
+✓ Test mode works (9 emails only)
+✓ Continuous running mode implemented
+✓ 24-hour rolling limit properly calculated
+✓ Business hours check (9am-3pm EST, weekdays only)
+✓ Random delays with variation (±15% + jitter)
+✓ Occasional coffee breaks (every 10-20 emails)
+✓ Deduplication across restarts
+✓ Graceful Ctrl+C handling
+✓ Subject line randomization
+✓ No personalization in email body
+✓ Follow-up script only sends to non-responders
+✓ Progress saved every 10 emails
+✓ Clear console output with progress
+✓ All config at top of scripts
+✓ README with complete instructions
+
+===============================================================================
+BUILD THIS SYSTEM NOW
+===============================================================================
+
+Ask me questions if anything is unclear, otherwise proceed with implementation.
+
+Show me the complete file structure first, then build the scripts.
+
+===============================================================================

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGS CRM - Download</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px 30px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 1.75rem;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .version {
+            color: #666;
+            font-size: 0.875rem;
+            margin-bottom: 24px;
+        }
+        .version strong {
+            color: #3b82f6;
+        }
+        .changelog {
+            background: #f5f5f5;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 24px;
+            text-align: left;
+        }
+        .changelog h3 {
+            font-size: 0.75rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+        .changelog ul {
+            list-style: none;
+            font-size: 0.875rem;
+            color: #333;
+        }
+        .changelog li {
+            padding: 4px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .changelog li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #22c55e;
+            font-weight: bold;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 16px 24px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            margin-bottom: 12px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #2563eb;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+        }
+        .btn-secondary {
+            background: #f5f5f5;
+            color: #333;
+        }
+        .instructions {
+            font-size: 0.8125rem;
+            color: #888;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+        .instructions ol {
+            text-align: left;
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+        .instructions li {
+            margin-bottom: 6px;
+        }
+        .updated {
+            font-size: 0.75rem;
+            color: #aaa;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/icons/icon-192.png" alt="TGS CRM" class="logo">
+        <h1>TGS CRM</h1>
+        <p class="version">Version <strong>1.3.3</strong> | Jan 2, 2026</p>
+
+        <div class="changelog">
+            <h3>What's New</h3>
+            <ul>
+                <li>Bigger logo in app header</li>
+                <li>Fixed "July 17" calendar emoji</li>
+                <li>Clock In/Out time tracking</li>
+                <li>Floating timer with call count</li>
+                <li>Dashboard conversion metrics</li>
+            </ul>
+        </div>
+
+        <a href="/download/TGS-CRM-v1.3.3.apk"
+           class="btn btn-primary" download>
+            Download APK (984 KB)
+        </a>
+
+        <a href="/" class="btn btn-secondary">
+            Open Web App
+        </a>
+
+        <div class="instructions">
+            <strong>To install:</strong>
+            <ol>
+                <li><strong>Uninstall the old TGS CRM app first</strong></li>
+                <li>Tap "Download APK" above</li>
+                <li>Open the downloaded file</li>
+                <li>Allow "Install from unknown sources" if prompted</li>
+                <li>Tap Install</li>
+            </ol>
+        </div>
+
+        <p class="updated">Last updated: Jan 2, 2026 at 3:30 PM</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+Research Team Assignment: Final QA & Supplemental Research
+Objective
+Review all 50 opportunities found for each beta organization. Ensure each org has at least 10 solid, actionable opportunities ready to deliver.
+Phase 1: Quality Validation (All Orgs)
+For each organization's 50 opportunities, categorize as:
+
+SOLID: Active deadline, eligible, appropriate grant size, actionable
+ISSUES: Past deadline, paused program, non-monetary, eligibility concerns, or other blockers
+
+Validation Criteria
+
+ Deadline is future/rolling/active (not past)
+ Organization is eligible (check 501(c)(3) requirements)
+ Funder/program is currently active (not paused)
+ Grant is monetary (not just technical assistance)
+ Application process is accessible
+ No duplicate entries
+
+Phase 2: Supplemental Research (As Needed)
+Only if Phase 1 yields fewer than 10 SOLID opportunities, find additional opportunities to reach 10 solid per org.
+
+Organization-Specific Instructions
+PSMF (Patient Safety Movement Foundation)
+Known Issues from Top 10:
+
+#1: Non-monetary (AHRQ IDEAS)
+#3: Past deadline (Sept 2025)
+#4: Paused program (Doctors Company)
+#6: Past deadline (Feb 2025)
+#9 & #10: Duplicates (CA Endowment)
+
+Action:
+
+Review all 50 opportunities
+Flag any with similar issues (past deadlines, paused, non-monetary, duplicates)
+If needed, replace flagged opportunities with ranks 11-15 or find new opportunities in:
+
+Healthcare quality improvement
+Medical education
+Patient safety
+Global health training
+
+
+
+Target: 10 solid opportunities, $25K-$100K range
+
+RHF (Retirement Housing Foundation)
+Known Status: Top 10 looks good (loans/bonds are appropriate for housing)
+Action:
+
+Review all 50 opportunities
+Confirm at least 10 are solid
+Note: Loans, bonds, and CDFI financing are ACCEPTABLE for this org
+
+Target: 10 solid opportunities, $500K+ range
+
+SNS (Senior Network Services)
+Known Status: Top 8 are solid, 2 have uncertain future timing
+Action:
+
+Review all 50 opportunities
+Count how many are fully actionable now (vs future/uncertain rounds)
+If needed, promote ranks 11-12 or find more in:
+
+Senior services
+Aging/disability support
+California (Santa Cruz/Monterey focus)
+
+
+
+Target: 10 solid opportunities, $100K-$500K range
+
+Ka Ulukoa (Hawaii Youth Athletics)
+Known Status: Top 10 are viable but most below target size
+Action:
+
+Review all 50 opportunities
+Confirm at least 10 are solid
+No action needed if 10+ are viable (grant layering is acceptable strategy)
+Prioritize facility acquisition opportunities
+
+Target: 10 solid opportunities, $100K-$500K range (or smaller grants that can be layered)
+
+Arborbrook Christian Academy
+CRITICAL ISSUE: Not 501(c)(3) - is 501(c)(4) or 501(c)(6)
+Known Issues from Top 10:
+
+#3: Requires 501(c)(3) (DICK'S Sports Matter)
+#9: Requires 40% FRL (Brooks)
+#1, #2, #4, #10: Uncertain eligibility (need verification)
+
+Action:
+
+Review all 50 opportunities
+Filter for opportunities that DON'T require 501(c)(3):
+
+Corporate programs (BSN Sports, etc.)
+Sport-specific foundations (USA Lacrosse, USATF, USA Swimming)
+Christian school-specific funders (check positions 34-37 in list)
+
+
+If fewer than 10 confirmed eligible, find more in:
+
+Athletic equipment/uniform grants
+Sport-specific national foundations
+Faith-based/Christian education funders
+Corporate giving programs
+
+
+
+Target: 10 solid opportunities where 501(c)(4)/(c)(6) is eligible, $5K-$25K range
+
+Deliverables
+For each organization, provide:
+
+QA Summary Table:
+
+| Rank | Opportunity Name | Status | Issues (if any) |
+|------|-----------------|--------|-----------------|
+| 1    | [Name]          | SOLID  | None            |
+| 2    | [Name]          | ISSUES | Past deadline   |
+...
+
+Final Top 10 List:
+
+
+If original top 10 has 10+ SOLID: Use those (list them)
+If original top 10 has <10 SOLID: Replace/supplement to reach 10 (show replacements)
+
+
+Replacement/Supplemental Opportunities:
+
+
+Only if needed
+List new opportunities found with full details (name, funder, size, deadline, website, justification)
+
