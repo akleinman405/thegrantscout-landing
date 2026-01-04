@@ -1,0 +1,54 @@
+# MCP configuration (contains database credentials)
+.mcp.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+
+# Environment/Credentials
+.env
+*.env
+Postgresql Info.txt
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node (website)
+node_modules/
+.next/
+out/
+build/
+
+# Large data files - don't track (too big for git)
+1. Database/0. Raw IRS Data/
+data/raw/
+
+# Sensitive business files (audio recordings)
+*.m4a
+*.mp3
+*.wav
+
+# Large binary files
+*.pkl
+*.pickle
+*.h5
+*.model
+
+# Client run outputs (can be regenerated)
+runs/*/
+!runs/.gitkeep
