@@ -1,0 +1,15 @@
+"metric","value"
+"val_auc",0.980449148412095
+"val_accuracy",0.933378238996358
+"val_precision",0.949161833550778
+"val_recall",0.915187585229976
+"val_f1",0.931865151123741
+"test_auc",0.968784876451322
+"test_accuracy",0.941360631656261
+"test_precision",0.682266498973986
+"test_recall",0.866571380527997
+"test_f1",0.763453205436836
+"cv_auc",0.984363079218697
+"intercept",2.98168473126567
+"n_features_nonzero",89
+"n_features_total",96

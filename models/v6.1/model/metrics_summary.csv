@@ -1,0 +1,7 @@
+"metric","value"
+"val_auc",0.94170818058481
+"test_auc",0.942140938805695
+"cv_auc",0.941461300596541
+"intercept",0.803453481436619
+"n_features_nonzero",83
+"n_features_total",96

@@ -1,0 +1,390 @@
+{
+  "f_assets": {
+    "mean": 376146878.9941,
+    "sd": 3644750804.2816
+  },
+  "f_total_grants": {
+    "mean": 9646.7717,
+    "sd": 50080.0179
+  },
+  "f_avg_grant": {
+    "mean": 44694.6477,
+    "sd": 356192.44
+  },
+  "f_median_grant": {
+    "mean": 18737.2009,
+    "sd": 222945.1488
+  },
+  "f_repeat_rate": {
+    "mean": 0.4705,
+    "sd": 0.2319
+  },
+  "f_openness_score": {
+    "mean": 0.5169,
+    "sd": 0.2193
+  },
+  "f_in_state_pct": {
+    "mean": 0.571,
+    "sd": 0.3562
+  },
+  "f_states_funded": {
+    "mean": 17.3398,
+    "sd": 33.5169
+  },
+  "f_sectors_funded": {
+    "mean": 12.8012,
+    "sd": 8.7759
+  },
+  "f_years_active": {
+    "mean": 4.7815,
+    "sd": 1.4641
+  },
+  "f_foundation_age": {
+    "mean": 6.1895,
+    "sd": 1.2141
+  },
+  "f_payout_rate": {
+    "mean": 27.8175,
+    "sd": 3416.4472
+  },
+  "f_officer_count": {
+    "mean": 4.8483,
+    "sd": 1.4741
+  },
+  "f_has_paid_staff": {
+    "mean": 0.2997,
+    "sd": 0.4581
+  },
+  "f_grant_cv": {
+    "mean": 2.9035,
+    "sd": 4.0593
+  },
+  "f_primary_sector_pct": {
+    "mean": 0.3746,
+    "sd": 0.2414
+  },
+  "f_pct_capital": {
+    "mean": 0.0213,
+    "sd": 0.0689
+  },
+  "f_pct_operating": {
+    "mean": 0.23,
+    "sd": 0.3611
+  },
+  "f_pct_program": {
+    "mean": 0.7485,
+    "sd": 0.3611
+  },
+  "f_sector_hhi": {
+    "mean": 0.0718,
+    "sd": 0.1283
+  },
+  "f_is_accessible": {
+    "mean": 1,
+    "sd": 1
+  },
+  "f_is_small": {
+    "mean": 0.6706,
+    "sd": 0.47
+  },
+  "f_is_growing": {
+    "mean": 0.1875,
+    "sd": 0.3903
+  },
+  "f_is_declining": {
+    "mean": 0.5021,
+    "sd": 0.5
+  },
+  "f_is_recently_active": {
+    "mean": 0.9563,
+    "sd": 0.2044
+  },
+  "r_total_revenue": {
+    "mean": 61857986.9112,
+    "sd": 488707439.7755
+  },
+  "r_org_age": {
+    "mean": 10,
+    "sd": 1
+  },
+  "r_is_emerging": {
+    "mean": 0,
+    "sd": 1
+  },
+  "match_same_state": {
+    "mean": 0.2524,
+    "sd": 0.4344
+  },
+  "match_sector_pct": {
+    "mean": 0.0014,
+    "sd": 0.0022
+  },
+  "match_state_pct": {
+    "mean": 0.0014,
+    "sd": 0.0022
+  },
+  "match_capital_pct": {
+    "mean": 0.0213,
+    "sd": 0.0689
+  },
+  "match_same_region": {
+    "mean": 0.4406,
+    "sd": 0.4965
+  },
+  "match_same_division": {
+    "mean": 0.3458,
+    "sd": 0.4756
+  },
+  "f_has_embedding": {
+    "mean": 1,
+    "sd": 1
+  },
+  "f_log_assets": {
+    "mean": 14.3955,
+    "sd": 4.4608
+  },
+  "f_log_total_grants": {
+    "mean": 5.3041,
+    "sd": 2.3243
+  },
+  "f_log_avg_grant": {
+    "mean": 9.3094,
+    "sd": 1.5138
+  },
+  "f_log_median_grant": {
+    "mean": 8.3101,
+    "sd": 1.6587
+  },
+  "f_grants_per_year": {
+    "mean": 1733.0458,
+    "sd": 8382.953
+  },
+  "f_log_grants_per_year": {
+    "mean": 3.8626,
+    "sd": 2.2071
+  },
+  "r_log_total_revenue": {
+    "mean": 12.0077,
+    "sd": 5.8371
+  },
+  "r_log_org_age": {
+    "mean": 2.3979,
+    "sd": 1
+  },
+  "match_state_x_geo_conc": {
+    "mean": 0.0004,
+    "sd": 0.001
+  },
+  "match_sector_x_sector_hhi": {
+    "mean": 0.0001,
+    "sd": 0.0004
+  },
+  "match_grant_size_ratio": {
+    "mean": 5.0235,
+    "sd": 3.6388
+  },
+  "match_budget_in_range": {
+    "mean": 0.3073,
+    "sd": 0.4256
+  },
+  "match_semantic_similarity": {
+    "mean": 0.5339,
+    "sd": 0.235
+  },
+  "f_state_NY": {
+    "mean": 0.0828,
+    "sd": 0.2755
+  },
+  "f_state_TX": {
+    "mean": 0.0809,
+    "sd": 0.2726
+  },
+  "f_state_CA": {
+    "mean": 0.0738,
+    "sd": 0.2615
+  },
+  "f_state_PA": {
+    "mean": 0.061,
+    "sd": 0.2394
+  },
+  "f_state_FL": {
+    "mean": 0.0507,
+    "sd": 0.2194
+  },
+  "f_state_NC": {
+    "mean": 0.0482,
+    "sd": 0.2141
+  },
+  "f_state_OH": {
+    "mean": 0.0476,
+    "sd": 0.2128
+  },
+  "f_state_IL": {
+    "mean": 0.0459,
+    "sd": 0.2093
+  },
+  "f_state_MA": {
+    "mean": 0.039,
+    "sd": 0.1937
+  },
+  "f_state_WI": {
+    "mean": 0.031,
+    "sd": 0.1733
+  },
+  "f_state_OTHER": {
+    "mean": 0.4392,
+    "sd": 0.4963
+  },
+  "r_state_NY": {
+    "mean": 0.1005,
+    "sd": 0.3007
+  },
+  "r_state_PA": {
+    "mean": 0.1001,
+    "sd": 0.3002
+  },
+  "r_state_CA": {
+    "mean": 0.0707,
+    "sd": 0.2562
+  },
+  "r_state_TX": {
+    "mean": 0.0558,
+    "sd": 0.2295
+  },
+  "r_state_GA": {
+    "mean": 0.0508,
+    "sd": 0.2197
+  },
+  "r_state_MA": {
+    "mean": 0.0488,
+    "sd": 0.2155
+  },
+  "r_state_CO": {
+    "mean": 0.0375,
+    "sd": 0.1901
+  },
+  "r_state_NJ": {
+    "mean": 0.0368,
+    "sd": 0.1883
+  },
+  "r_state_WA": {
+    "mean": 0.0357,
+    "sd": 0.1855
+  },
+  "r_state_IL": {
+    "mean": 0.0323,
+    "sd": 0.1767
+  },
+  "r_state_OTHER": {
+    "mean": 0.4309,
+    "sd": 0.4952
+  },
+  "r_ntee_A": {
+    "mean": 0.0958,
+    "sd": 0.2943
+  },
+  "r_ntee_B": {
+    "mean": 0.0865,
+    "sd": 0.2811
+  },
+  "r_ntee_C": {
+    "mean": 0.0288,
+    "sd": 0.1672
+  },
+  "r_ntee_D": {
+    "mean": 0.0436,
+    "sd": 0.2042
+  },
+  "r_ntee_E": {
+    "mean": 0.0737,
+    "sd": 0.2613
+  },
+  "r_ntee_F": {
+    "mean": 0.0203,
+    "sd": 0.1409
+  },
+  "r_ntee_G": {
+    "mean": 0.0099,
+    "sd": 0.0991
+  },
+  "r_ntee_H": {
+    "mean": 0.0034,
+    "sd": 0.058
+  },
+  "r_ntee_I": {
+    "mean": 0.0198,
+    "sd": 0.1394
+  },
+  "r_ntee_J": {
+    "mean": 0.0037,
+    "sd": 0.0605
+  },
+  "r_ntee_K": {
+    "mean": 0.0125,
+    "sd": 0.1111
+  },
+  "r_ntee_L": {
+    "mean": 0.0106,
+    "sd": 0.1025
+  },
+  "r_ntee_M": {
+    "mean": 0.0028,
+    "sd": 0.0531
+  },
+  "r_ntee_N": {
+    "mean": 0.0493,
+    "sd": 0.2165
+  },
+  "r_ntee_O": {
+    "mean": 0.0148,
+    "sd": 0.1208
+  },
+  "r_ntee_P": {
+    "mean": 0.1227,
+    "sd": 0.3281
+  },
+  "r_ntee_Q": {
+    "mean": 0.0265,
+    "sd": 0.1606
+  },
+  "r_ntee_R": {
+    "mean": 0.0061,
+    "sd": 0.0779
+  },
+  "r_ntee_S": {
+    "mean": 0.0113,
+    "sd": 0.1057
+  },
+  "r_ntee_T": {
+    "mean": 0.0338,
+    "sd": 0.1807
+  },
+  "r_ntee_U": {
+    "mean": 0.0011,
+    "sd": 0.0337
+  },
+  "r_ntee_V": {
+    "mean": 0.0008,
+    "sd": 0.029
+  },
+  "r_ntee_W": {
+    "mean": 0.0178,
+    "sd": 0.1324
+  },
+  "r_ntee_X": {
+    "mean": 0.0128,
+    "sd": 0.1124
+  },
+  "r_ntee_Y": {
+    "mean": 0.0003,
+    "sd": 0.0159
+  },
+  "r_ntee_Z": {
+    "mean": 0.0033,
+    "sd": 0.0578
+  },
+  "r_ntee_UNKNOWN": {
+    "mean": 0.2879,
+    "sd": 0.4528
+  }
+}
