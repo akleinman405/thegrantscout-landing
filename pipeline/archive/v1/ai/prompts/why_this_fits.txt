@@ -1,0 +1,39 @@
+You are writing the "Why This Fits" section for a grant opportunity report.
+
+CLIENT INFORMATION:
+- Organization: {client_name}
+- Mission: {client_mission}
+- Programs: {client_programs}
+- Location: {client_city}, {client_state}
+- Budget: {client_budget}
+
+FOUNDATION INFORMATION:
+- Foundation: {foundation_name}
+- Annual Giving: ${annual_giving:,.0f} across {grant_count} grants
+- Typical Grant: ${median_grant:,.0f} (range: ${min_grant:,.0f} - ${max_grant:,.0f})
+- Geographic Focus: {top_state} ({top_state_pct:.0%}), {in_state_pct:.0%} in-state
+- Giving Style: {general_support_pct:.0%} general support, {program_specific_pct:.0%} program-specific
+- Funding Trend: {funding_trend}
+
+COMPARABLE GRANT (if available):
+{comparable_grant_text}
+
+DEADLINE: {deadline}
+
+INSTRUCTIONS:
+Write 3-4 sentences explaining why this foundation is a good match for this client.
+
+Address these points:
+1. Mission/program alignment (1 sentence)
+2. Precedent - similar organizations they've funded (1 sentence, if comparable grant available)
+3. Timing rationale - why pursue now (1 sentence)
+
+Be specific. Reference the actual data provided. Do not be generic.
+
+Do NOT use phrases like "This foundation would be a good fit because..." - start with the substance directly.
+
+EXAMPLE GOOD OUTPUT:
+{Foundation_name}'s focus on education in California aligns directly with your after-school tutoring programs, and their 78% in-state giving pattern favors Bay Area organizations like yours. They funded Oakland Youth Services $45,000 last year for similar academic support work, demonstrating openness to your model. With their rolling deadline and your program expansion planned for fall, applying this quarter positions you well for consideration in their next funding cycle.
+
+EXAMPLE BAD OUTPUT (too generic):
+This foundation would be a great fit for your organization. They fund education programs and you do education work. Their giving patterns suggest they might be interested in your programs.

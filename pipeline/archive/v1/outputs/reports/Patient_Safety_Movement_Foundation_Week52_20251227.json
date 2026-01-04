@@ -1,0 +1,565 @@
+{
+  "client": {
+    "organization_name": "Patient Safety Movement Foundation",
+    "ein": "462730379",
+    "email": "anonymous",
+    "state": "CA",
+    "city": "Irvine",
+    "org_type": "501(c)(3) public charity",
+    "budget": "Over $1,000,000",
+    "budget_numeric": 365177.0,
+    "grant_size_target": "$25,000 - $100,000 (medium grants)",
+    "program_areas": [
+      "Healthcare & Mental Health",
+      "Research & Innovation",
+      "Social Services (broad)",
+      "Education & Youth Development"
+    ],
+    "populations_served": [
+      "General public (no specific target)"
+    ],
+    "geographic_scope": "National",
+    "ntee_code": " NTEE code, primary B00: Education: General",
+    "mission_statement": "We protect patients because everyone will be a patient one day, and preventable harm can be reduced through proper training. Our work strengthens patient safety by expanding access to evidence-based clinical education. Through our fellowship program for clinicians from low- and middle-income countries, we screened more than 1,000 applicants and trained 47 fellows who are now applying their skills to reduce preventable harm in their hospitals. An estimated 26,200 patients each year will benefit from the knowledge and training these fellows have received\ufffdand will continue to receive. This growing network of PSMF-trained professionals enhances clinical expertise, mentorship, and system capacity to build safer healthcare for all."
+  },
+  "report_meta": {
+    "week_number": 52,
+    "report_date": "2025-12-27",
+    "date_range_start": "2025-12-27",
+    "date_range_end": "2025-12-27",
+    "generated_at": "2025-12-27T23:49:57.910360"
+  },
+  "opportunities": [
+    {
+      "rank": 1,
+      "foundation_ein": "366192971",
+      "foundation_name": "THE GRAINGER FOUNDATION INC",
+      "match_score": 100.0,
+      "match_probability": 0.9999999620785965,
+      "same_state": false,
+      "foundation_state": "IL",
+      "funder_snapshot": {
+        "foundation_ein": "366192971",
+        "foundation_name": "THE GRAINGER FOUNDATION INC",
+        "annual_giving": {
+          "total": 16693000.0,
+          "count": 1,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 63349480.0,
+          "min": 16693000.0,
+          "max": 128592354.0,
+          "avg": 67187239.2
+        },
+        "geographic_focus": {
+          "top_state": "IL",
+          "top_state_pct": 1.0,
+          "in_state_pct": 1.0,
+          "foundation_state": "IL"
+        },
+        "repeat_funding": {
+          "unique_recipients": 1,
+          "repeat_recipients": 1,
+          "rate": 1.0
+        },
+        "giving_style": {
+          "general_support_pct": 0.2,
+          "program_specific_pct": 0.8
+        },
+        "recipient_profile": {
+          "budget_min": 0.0,
+          "budget_max": 0.0,
+          "budget_median": 0.0,
+          "primary_sector": "",
+          "primary_sector_pct": 0.0
+        },
+        "funding_trend": {
+          "direction": "Declining",
+          "change_pct": -0.7364934960792101,
+          "oldest_year": 2021,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient_name": "SEE ATTACHED SCHEDULE",
+          "amount": 16693000.0,
+          "purpose": "SEE ATTACHED SCHEDULE",
+          "year": 2023
+        }
+      },
+      "comparable_grant": {
+        "recipient_name": "SEE ATTACHED SCHEDULE",
+        "amount": 16693000.0,
+        "purpose": "SEE ATTACHED SCHEDULE",
+        "year": 2023
+      },
+      "potential_connections": [],
+      "amount_min": 16693000.0,
+      "amount_max": 128592354.0,
+      "deadline": "Rolling",
+      "status": "HIGH",
+      "effort": "High",
+      "fit_score": 10,
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "THE GRAINGER FOUNDATION INC has given $16,693,000 across 1 grants in the most recent year. Their focus on IL aligns with your location. Review their giving patterns and recent grants to identify specific alignment with your programs.",
+      "positioning_strategy": "Consider framing your request as program-specific funding based on their giving patterns. A request in the $50,679,584-$76,019,376 range aligns with their typical grants. Emphasize your CA presence if applicable.",
+      "next_steps": [
+        {
+          "action": "Research THE GRAINGER FOUNDATION INC recent grants and priorities",
+          "deadline": "January 03",
+          "owner": "Grants Manager"
+        },
+        {
+          "action": "Draft initial inquiry or LOI concept",
+          "deadline": "January 10",
+          "owner": "Grants Manager"
+        },
+        {
+          "action": "Review draft with Executive Director",
+          "deadline": "January 17",
+          "owner": "ED"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "foundation_ein": "061600601",
+      "foundation_name": "THE ZOOM FOUNDATION",
+      "match_score": 100.0,
+      "match_probability": 0.9999998342393391,
+      "same_state": false,
+      "foundation_state": "CT",
+      "funder_snapshot": {
+        "foundation_ein": "061600601",
+        "foundation_name": "THE ZOOM FOUNDATION",
+        "annual_giving": {
+          "total": 63196700.0,
+          "count": 1,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 61697000.0,
+          "min": 150000.0,
+          "max": 89786000.0,
+          "avg": 49180528.571428575
+        },
+        "geographic_focus": {
+          "top_state": "OH",
+          "top_state_pct": 0.7142857142857143,
+          "in_state_pct": 0.14285714285714285,
+          "foundation_state": "CT"
+        },
+        "repeat_funding": {
+          "unique_recipients": 3,
+          "repeat_recipients": 1,
+          "rate": 0.3333333333333333
+        },
+        "giving_style": {
+          "general_support_pct": 0.5,
+          "program_specific_pct": 0.5
+        },
+        "recipient_profile": {
+          "budget_min": 3430998.0,
+          "budget_max": 7994998.0,
+          "budget_median": 5712998.0,
+          "primary_sector": "T",
+          "primary_sector_pct": 1.0
+        },
+        "funding_trend": {
+          "direction": "Declining",
+          "change_pct": -0.2973147571606476,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient_name": "SOCIAL IMPACT FUND",
+          "amount": 150000.0,
+          "purpose": "TO FUNDCHARITABLEPROGRAMS",
+          "year": 2020
+        }
+      },
+      "comparable_grant": {
+        "recipient_name": "SOCIAL IMPACT FUND",
+        "amount": 150000.0,
+        "purpose": "TO FUNDCHARITABLEPROGRAMS",
+        "year": 2020
+      },
+      "potential_connections": [],
+      "amount_min": 150000.0,
+      "amount_max": 89786000.0,
+      "deadline": "Rolling",
+      "status": "HIGH",
+      "effort": "Medium",
+      "fit_score": 9,
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "THE ZOOM FOUNDATION has given $63,196,700 across 1 grants in the most recent year. Their focus on OH aligns with your location. Review their giving patterns and recent grants to identify specific alignment with your programs.",
+      "positioning_strategy": "Consider framing your request as program-specific funding based on their giving patterns. A request in the $49,357,600-$74,036,400 range aligns with their typical grants. Emphasize your CA presence if applicable.",
+      "next_steps": [
+        {
+          "action": "Research THE ZOOM FOUNDATION recent grants and priorities",
+          "deadline": "January 03",
+          "owner": "Grants Manager"
+        },
+        {
+          "action": "Draft initial inquiry or LOI concept",
+          "deadline": "January 10",
+          "owner": "Grants Manager"
+        },
+        {
+          "action": "Review draft with Executive Director",
+          "deadline": "January 17",
+          "owner": "ED"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "foundation_ein": "921373884",
+      "foundation_name": "ANI RARE DISEASE PATIENT ASSISTANCE PROGRAM",
+      "match_score": 100.0,
+      "match_probability": 0.9999999989918673,
+      "same_state": false,
+      "foundation_state": "MN",
+      "funder_snapshot": {
+        "foundation_ein": "921373884",
+        "foundation_name": "ANI RARE DISEASE PATIENT ASSISTANCE PROGRAM",
+        "annual_giving": {
+          "total": 76915240.0,
+          "count": 1,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 76915240.0,
+          "min": 76915240.0,
+          "max": 76915240.0,
+          "avg": 76915240.0
+        },
+        "geographic_focus": {
+          "top_state": "MN",
+          "top_state_pct": 1.0,
+          "in_state_pct": 1.0,
+          "foundation_state": "MN"
+        },
+        "repeat_funding": {
+          "unique_recipients": 1,
+          "repeat_recipients": 0,
+          "rate": 0.0
+        },
+        "giving_style": {
+          "general_support_pct": 0.5,
+          "program_specific_pct": 0.5
+        },
+        "recipient_profile": {
+          "budget_min": 0.0,
+          "budget_max": 0.0,
+          "budget_median": 0.0,
+          "primary_sector": "",
+          "primary_sector_pct": 0.0
+        },
+        "funding_trend": {
+          "direction": "Stable",
+          "change_pct": 0.0,
+          "oldest_year": 2023,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient_name": "Donations US",
+          "amount": 76915240.0,
+          "purpose": "Serve Patients and improving lives",
+          "year": 2023
+        }
+      },
+      "comparable_grant": {
+        "recipient_name": "Donations US",
+        "amount": 76915240.0,
+        "purpose": "Serve Patients and improving lives",
+        "year": 2023
+      },
+      "potential_connections": [],
+      "amount_min": 76915240.0,
+      "amount_max": 76915240.0,
+      "deadline": "Rolling",
+      "status": "HIGH",
+      "effort": "Medium",
+      "fit_score": 10,
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "ANI RARE DISEASE PATIENT ASSISTANCE PROGRAM has given $76,915,240 across 1 grants in the most recent year. Their focus on MN aligns with your location. Review their giving patterns and recent grants to identify specific alignment with your programs.",
+      "positioning_strategy": "Consider framing your request as program-specific funding based on their giving patterns. A request in the $61,532,192-$92,298,288 range aligns with their typical grants. Emphasize your CA presence if applicable.",
+      "next_steps": [
+        {
+          "action": "Research ANI RARE DISEASE PATIENT ASSISTANCE PROGRAM recent grants and priorities",
+          "deadline": "January 03",
+          "owner": "Grants Manager"
+        },
+        {
+          "action": "Draft initial inquiry or LOI concept",
+          "deadline": "January 10",
+          "owner": "Grants Manager"
+        },
+        {
+          "action": "Review draft with Executive Director",
+          "deadline": "January 17",
+          "owner": "ED"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "foundation_ein": "411359579",
+      "foundation_name": "US BANK FOUNDATION",
+      "match_score": 100.0,
+      "match_probability": 0.9997429716589367,
+      "same_state": false,
+      "foundation_state": "WI",
+      "funder_snapshot": {
+        "foundation_ein": "411359579",
+        "foundation_name": "US BANK FOUNDATION",
+        "annual_giving": {
+          "total": 38232206.0,
+          "count": 1,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 34601848.5,
+          "min": 40000.0,
+          "max": 38232206.0,
+          "avg": 26868975.75
+        },
+        "geographic_focus": {
+          "top_state": "WI",
+          "top_state_pct": 0.75,
+          "in_state_pct": 0.75,
+          "foundation_state": "WI"
+        },
+        "repeat_funding": {
+          "unique_recipients": 2,
+          "repeat_recipients": 1,
+          "rate": 0.5
+        },
+        "giving_style": {
+          "general_support_pct": 1.0,
+          "program_specific_pct": 0.0
+        },
+        "recipient_profile": {
+          "budget_min": 43487488.0,
+          "budget_max": 43487488.0,
+          "budget_median": 43487488.0,
+          "primary_sector": "C",
+          "primary_sector_pct": 1.0
+        },
+        "funding_trend": {
+          "direction": "Stable",
+          "change_pct": 0.026964329996952863,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient_name": "SEE ATTACHED",
+          "amount": 38232206.0,
+          "purpose": "GENERAL OPERATING",
+          "year": 2023
+        }
+      },
+      "comparable_grant": {
+        "recipient_name": "SEE ATTACHED",
+        "amount": 38232206.0,
+        "purpose": "GENERAL OPERATING",
+        "year": 2023
+      },
+      "potential_connections": [],
+      "amount_min": 40000.0,
+      "amount_max": 38232206.0,
+      "deadline": "Rolling",
+      "status": "HIGH",
+      "effort": "Low",
+      "fit_score": 9,
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "US BANK FOUNDATION has given $38,232,206 across 1 grants in the most recent year. Their focus on WI aligns with your location. Review their giving patterns and recent grants to identify specific alignment with your programs.",
+      "positioning_strategy": "Consider framing your request as general operating support based on their giving patterns. A request in the $27,681,479-$41,522,218 range aligns with their typical grants. Emphasize your CA presence if applicable.",
+      "next_steps": [
+        {
+          "action": "Research US BANK FOUNDATION recent grants and priorities",
+          "deadline": "January 03",
+          "owner": "Grants Manager"
+        },
+        {
+          "action": "Draft initial inquiry or LOI concept",
+          "deadline": "January 10",
+          "owner": "Grants Manager"
+        },
+        {
+          "action": "Review draft with Executive Director",
+          "deadline": "January 17",
+          "owner": "ED"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "foundation_ein": "411367441",
+      "foundation_name": "Wells Fargo Foundation",
+      "match_score": 100.0,
+      "match_probability": 1.0,
+      "same_state": false,
+      "foundation_state": "MN",
+      "funder_snapshot": {
+        "foundation_ein": "411367441",
+        "foundation_name": "Wells Fargo Foundation",
+        "annual_giving": {
+          "total": 217611092.0,
+          "count": 1,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 228445193.0,
+          "min": 206811348.0,
+          "max": 299271930.0,
+          "avg": 240743416.0
+        },
+        "geographic_focus": {
+          "top_state": "MN",
+          "top_state_pct": 1.0,
+          "in_state_pct": 1.0,
+          "foundation_state": "MN"
+        },
+        "repeat_funding": {
+          "unique_recipients": 4,
+          "repeat_recipients": 0,
+          "rate": 0.0
+        },
+        "giving_style": {
+          "general_support_pct": 0.5,
+          "program_specific_pct": 0.5
+        },
+        "recipient_profile": {
+          "budget_min": 0.0,
+          "budget_max": 0.0,
+          "budget_median": 0.0,
+          "primary_sector": "",
+          "primary_sector_pct": 0.0
+        },
+        "funding_trend": {
+          "direction": "Stable",
+          "change_pct": 0.05222026791295804,
+          "oldest_year": 2021,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient_name": "SEE ATTACHED LIST",
+          "amount": 217611092.0,
+          "purpose": "SEE ATTACHED LIST",
+          "year": 2023
+        }
+      },
+      "comparable_grant": {
+        "recipient_name": "SEE ATTACHED LIST",
+        "amount": 217611092.0,
+        "purpose": "SEE ATTACHED LIST",
+        "year": 2023
+      },
+      "potential_connections": [],
+      "amount_min": 206811348.0,
+      "amount_max": 299271930.0,
+      "deadline": "Rolling",
+      "status": "HIGH",
+      "effort": "Medium",
+      "fit_score": 10,
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "Wells Fargo Foundation has given $217,611,092 across 1 grants in the most recent year. Their focus on MN aligns with your location. Review their giving patterns and recent grants to identify specific alignment with your programs.",
+      "positioning_strategy": "Consider framing your request as program-specific funding based on their giving patterns. A request in the $182,756,154-$274,134,232 range aligns with their typical grants. Emphasize your CA presence if applicable.",
+      "next_steps": [
+        {
+          "action": "Research Wells Fargo Foundation recent grants and priorities",
+          "deadline": "January 03",
+          "owner": "Grants Manager"
+        },
+        {
+          "action": "Draft initial inquiry or LOI concept",
+          "deadline": "January 10",
+          "owner": "Grants Manager"
+        },
+        {
+          "action": "Review draft with Executive Director",
+          "deadline": "January 17",
+          "owner": "ED"
+        }
+      ]
+    }
+  ],
+  "executive_summary": {
+    "key_strengths": [
+      "**Local Presence:** Your CA location aligns with multiple funders' geographic focus.",
+      "**Program Relevance:** Your work in Healthcare & Mental Health matches funder priorities.",
+      "**Organizational Capacity:** Your Over $1,000,000 positions you well for the typical grant sizes of this week's opportunities."
+    ],
+    "one_thing": "**Research THE GRAINGER FOUNDATION INC this week to assess fit and begin outreach.**",
+    "urgent_actions": [],
+    "funding_scenarios": {
+      "conservative": 0,
+      "moderate": 0,
+      "ambitious": 0
+    }
+  },
+  "timeline": [
+    {
+      "week": 1,
+      "date": "2025-12-27",
+      "tasks": []
+    },
+    {
+      "week": 2,
+      "date": "2025-12-28",
+      "tasks": []
+    },
+    {
+      "week": 3,
+      "date": "2025-12-28",
+      "tasks": []
+    },
+    {
+      "week": 4,
+      "date": "2025-12-28",
+      "tasks": []
+    },
+    {
+      "week": 5,
+      "date": "2025-12-28",
+      "tasks": []
+    },
+    {
+      "week": 6,
+      "date": "2025-12-28",
+      "tasks": []
+    },
+    {
+      "week": 7,
+      "date": "2025-12-28",
+      "tasks": []
+    },
+    {
+      "week": 8,
+      "date": "2025-12-28",
+      "tasks": []
+    }
+  ]
+}

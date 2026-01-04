@@ -1,0 +1,59 @@
+{
+  "clients": [
+    {
+      "name": "Patient Safety Movement Foundation",
+      "short_name": "PSMF",
+      "ein": "462730379",
+      "active": true
+    },
+    {
+      "name": "Retirement Housing Foundation",
+      "short_name": "RHF",
+      "ein": "952249495",
+      "active": true
+    },
+    {
+      "name": "Senior Network Services",
+      "short_name": "SNS",
+      "ein": "942259716",
+      "active": true
+    },
+    {
+      "name": "Ka Ulukoa",
+      "short_name": "KU",
+      "ein": "260542078",
+      "active": true
+    },
+    {
+      "name": "Wooden Boats For Veterans",
+      "short_name": "VetsBoats",
+      "ein": "464194065",
+      "active": true,
+      "notes": "Not in questionnaire - manual add for report"
+    },
+    {
+      "name": "Horizons National Student Enrichment Program Inc.",
+      "short_name": "HN",
+      "ein": "061468129",
+      "active": true
+    },
+    {
+      "name": "Arborbrook Christian Academy",
+      "short_name": "ACA",
+      "ein": "202707577",
+      "active": true
+    },
+    {
+      "name": "Friendship Circle SD",
+      "short_name": "FCSD",
+      "ein": "203472700",
+      "active": true
+    },
+    {
+      "name": "Highland Lakes Family Crisis Center",
+      "short_name": "HLFCC",
+      "ein": "742233861",
+      "active": true
+    }
+  ]
+}
