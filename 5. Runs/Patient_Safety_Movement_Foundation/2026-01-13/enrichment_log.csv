@@ -1,0 +1,7 @@
+foundation_ein,foundation_name,client_name,search_goal,result_found,result_value,source_url,confidence,time_minutes,notes,date_researched,eligibility_check,eligibility_met
+123456789,Example Foundation,PSMF,application_deadline,yes,March 15 2026,https://example.org/apply,high,5,Found on grants page,2026-01-06,,
+123456789,Example Foundation,PSMF,eligibility_budget,yes,Min $500K - Max $10M,https://example.org/eligibility,high,3,PSMF $2M is in range,2026-01-06,budget_requirement,YES
+123456789,Example Foundation,PSMF,eligibility_org_type,yes,501(c)(3) public charities only,https://example.org/eligibility,high,2,PSMF qualifies,2026-01-06,org_type_requirement,YES
+123456789,Example Foundation,PSMF,eligibility_geography,yes,National - all US states,https://example.org/eligibility,high,2,PSMF qualifies,2026-01-06,geographic_restrictions,YES
+987654321,Another Foundation,RHF,contact_email,no,,https://example.org/about,low,8,No contact info on site,2026-01-06,,
+555555555,Restricted Foundation,PSMF,eligibility_budget,yes,Orgs under $500K only,https://example.org/guidelines,high,3,PSMF $2M EXCEEDS MAX - SKIP,2026-01-06,budget_requirement,NO

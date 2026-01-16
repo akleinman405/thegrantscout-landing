@@ -1,0 +1,3447 @@
+[
+  {
+    "annual_giving": {
+      "total": 225641539.0,
+      "count": 58994,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 300.0,
+      "min": 1.0,
+      "max": 5000000.0,
+      "avg": 4850.521687052412
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.111,
+      "in_state_pct": 0.098,
+      "foundation_state": "NC"
+    },
+    "repeat_funding": {
+      "unique": 64667,
+      "repeat": 36529,
+      "rate": 0.565
+    },
+    "giving_style": {
+      "general_pct": 0.803,
+      "program_pct": 0.197
+    },
+    "recipient_profile": {
+      "budget_min": 314055,
+      "budget_max": 6918774,
+      "budget_median": 1525380,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.146
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.264,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "HOUSING FORWARD",
+      "amount": 250000.0,
+      "purpose": "PROGRAM/OPERATING SUPPORT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://WWW.BANKOFAMERICA.COM/FOUNDATION",
+      "phone": "9803869127",
+      "email": null,
+      "app_contact_name": "SEE FOUNDATION WEBPAGE AT WWWBANKOF",
+      "app_contact_phone": "8002189946",
+      "app_contact_email": "WWW.BANKOFAMERICA.COM/FOUNDATION",
+      "deadlines": "SEE ABOVE",
+      "restrictions": "THE ORGANIZATION WILL ONLY CONSIDER PROPOSALS ALIGNED WITH THE FOUNDATION'S COMMUNITY FUNDING PRIORITIES AND LOCATED IN STATES IN WHICH THE BANK OF AMERICA HAS A PRESENCE. SEE THE 'FREQUENTLY ASKED QUESTIONS' UNDER THE 'ABOUT US' SECTION OF THE WEBPAGE AT WWW.BANKOFAMERICA.COM/FOUNDATION",
+      "how_to_apply": "GRANT APPLICATIONS SHOULD BE SUBMITTED ONLINE THROUGH THE FOUNDATION'S WEBPAGE AT WWW.BANKOFAMERICA.COM/FOUNDATION. THE FOUNDATION HAS THE FOLLOWING DEADLINES FOR SUBMISSION FOR CERTAIN TYPES OF GRANTS: 1ST RFP - 1/1/2023 TO 2/17/2023, 2ND RFP - 5/22/2022 TO 6/23/2023, NEIGHBORHOOD BUILDERS PROGRAM - 5/1/2023 TO 5/31/2023, NEIGHBORHOOD CHAMPIONS PROGRAM - 4/3/2023 TO 4/30/2023, STUDENT LEADERS GRANTS - 10/17/2022 TO 7/31/2023 AND THE SUMMER YOUTH EMPLOYMENT PROGRAM (SYEP) 1/1/2023 TO 2/17/2023. PLEASE VISIT THE FOUNDATION'S WEBSITE AT WWW.BANKOFAMERICA.COM/FOUNDATION FOR ADDITIONAL INFORMATION RELATING TO THESE AND OTHER PROGRAMS."
+    },
+    "officers": [
+      {
+        "name": "Steve D Boland",
+        "title": "Chairman/Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "200721133",
+    "foundation_name": "THE BANK OF AMERICA CHARITABLE",
+    "match_score": 100.0,
+    "match_rank": 1
+  },
+  {
+    "annual_giving": {
+      "total": 419861396.0,
+      "count": 3,
+      "year": 2022
+    },
+    "typical_grant": {
+      "median": 101545174.5,
+      "min": 18000000.0,
+      "max": 10000000,
+      "avg": 101545174.5
+    },
+    "geographic_focus": {
+      "top_state": "NY",
+      "top_state_pct": 0.5,
+      "in_state_pct": 0.5,
+      "foundation_state": "NJ"
+    },
+    "repeat_funding": {
+      "unique": 3,
+      "repeat": 3,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 1135661152,
+      "budget_max": 1135661152,
+      "budget_median": 1135661152,
+      "primary_sector": "T",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 22.326,
+      "oldest_year": 2020,
+      "newest_year": 2022
+    },
+    "comparable_grant": {
+      "recipient": "CHDI Foundation Inc Attn Ken Slutsky Tax Exempt Inst Grp",
+      "amount": 245447724.0,
+      "purpose": "To further CHDI's direct charitable activities of promoting and assisting in medical and scientific research in the field of neurodegenerative diseases.",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": "https://www.nj.gov",
+      "phone": "9735972510",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "John L Berger",
+        "title": "Vice President/Asst Secy.",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "223769097",
+    "foundation_name": "NSN Foundation Inc",
+    "match_score": 100.0,
+    "match_rank": 2
+  },
+  {
+    "annual_giving": {
+      "total": 38232206.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 26868975.75,
+      "min": 40000.0,
+      "max": 10000000,
+      "avg": 26868975.75
+    },
+    "geographic_focus": {
+      "top_state": "WI",
+      "top_state_pct": 0.75,
+      "in_state_pct": 0.75,
+      "foundation_state": "WI"
+    },
+    "repeat_funding": {
+      "unique": 2,
+      "repeat": 1,
+      "rate": 0.5
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 43487488,
+      "budget_max": 43487488,
+      "budget_median": 43487488,
+      "primary_sector": "C",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.027,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": null,
+    "contact": {
+      "website_url": "http://www.usbank.com/en/AboutHome.cfm",
+      "phone": "6123030738",
+      "email": null,
+      "app_contact_name": "ONLINE APPLICATIONS",
+      "app_contact_phone": "6123037364",
+      "app_contact_email": null,
+      "deadlines": "SUBMISSION DEADLINES ROLL THROUGHOUT THE YEAR",
+      "restrictions": "AWARDS ARE LIMITED TO THE STATES OF AZ, AR, CA, CO, ID, IA, IL, IN, KS KY, MN, MO, MT, NE, NV, NC, ND, NM, OH, OR, SD, TN, UT, WA, WI, WY",
+      "how_to_apply": "SEE FOOTNOTES"
+    },
+    "officers": [
+      {
+        "name": "Revathi Dominski",
+        "title": "Chair & President",
+        "compensation": 754488.0
+      }
+    ],
+    "foundation_ein": "411359579",
+    "foundation_name": "US BANK FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 3
+  },
+  {
+    "annual_giving": {
+      "total": 50500000.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 28807142.85714286,
+      "min": 13550000.0,
+      "max": 10000000,
+      "avg": 28807142.85714286
+    },
+    "geographic_focus": {
+      "top_state": "WI",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "WI"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.836,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "BADER PHILANTHROPIES INC",
+      "amount": 50500000.0,
+      "purpose": "GENERAL",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://bader.org/who-we-are",
+      "phone": null,
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "David Bader",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "471295073",
+    "foundation_name": "ALFRED AND ISABEL BADER 2014 CHARITABLE TRUST",
+    "match_score": 100.0,
+    "match_rank": 4
+  },
+  {
+    "annual_giving": {
+      "total": 18398341.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 15348690.5,
+      "min": 610600.0,
+      "max": 10000000,
+      "avg": 15348690.5
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.8,
+      "in_state_pct": 0.8,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 4,
+      "repeat": 3,
+      "rate": 0.75
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 85703644,
+      "budget_max": 85703644,
+      "budget_median": 85703644,
+      "primary_sector": "T",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.286,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "See Statement 18",
+      "amount": 17787741.0,
+      "purpose": "Various",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://cisco.com/c/en/us/about/csr/impact/cisco-foun",
+      "phone": "4085253918",
+      "email": null,
+      "app_contact_name": "Statement 19",
+      "app_contact_phone": "4085273040",
+      "app_contact_email": null,
+      "deadlines": "Statement 19",
+      "restrictions": "See Statement 19 for details.",
+      "how_to_apply": "See Statement 19 for details."
+    },
+    "officers": [
+      {
+        "name": "John P Morgridge",
+        "title": "Trustee/Pres.",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "770443347",
+    "foundation_name": "Cisco Systems Foundation",
+    "match_score": 100.0,
+    "match_rank": 5
+  },
+  {
+    "annual_giving": {
+      "total": 202504945.0,
+      "count": 10334,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 550.0,
+      "min": 1.0,
+      "max": 9600000.0,
+      "avg": 27558.16829939873
+    },
+    "geographic_focus": {
+      "top_state": "NY",
+      "top_state_pct": 0.152,
+      "in_state_pct": 0.152,
+      "foundation_state": "NY"
+    },
+    "repeat_funding": {
+      "unique": 20479,
+      "repeat": 12330,
+      "rate": 0.602
+    },
+    "giving_style": {
+      "general_pct": 0.93,
+      "program_pct": 0.07
+    },
+    "recipient_profile": {
+      "budget_min": 598256,
+      "budget_max": 10935758,
+      "budget_median": 2906126,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.133
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.054,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "MEMORIAL ASSISTANCE MINISTRIES INC",
+      "amount": 450000.0,
+      "purpose": "IN SUPPORT OF NEIGHBORHOOD REVITALIZATION",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": "https://WWW.JPMORGANCHASE.COM/IMPACT",
+      "phone": "2122706000",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Timothy Berry",
+        "title": "Director And Chairman",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "237049738",
+    "foundation_name": "JPMORGAN CHASE FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 6
+  },
+  {
+    "annual_giving": {
+      "total": 2982695.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 2982695.0,
+      "min": 2228048.0,
+      "max": 3561660.0,
+      "avg": 2857070.8
+    },
+    "geographic_focus": {
+      "top_state": "NE",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "NE"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.339,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SEE",
+      "amount": 2982695.0,
+      "purpose": "SEE ATTACHMENT 23 & 24",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://nelnet.com",
+      "phone": "4024583041",
+      "email": null,
+      "app_contact_name": "SEE ATTACHED",
+      "app_contact_phone": "4024583041",
+      "app_contact_email": null,
+      "deadlines": "SEE ATTACHED APPLICATIONS",
+      "restrictions": "SEE ATTACHED APPLICATIONS",
+      "how_to_apply": "SEE ATTACHED APPLICATIONS"
+    },
+    "officers": [
+      {
+        "name": "Ben Kiser",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "202202134",
+    "foundation_name": "Nelnet Foundation",
+    "match_score": 100.0,
+    "match_rank": 7
+  },
+  {
+    "annual_giving": {
+      "total": 2322600.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 2374700.0,
+      "min": 2322600.0,
+      "max": 2426800.0,
+      "avg": 2374700.0
+    },
+    "geographic_focus": {
+      "top_state": "MO",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "MO"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.0,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SEE",
+      "amount": 2322600.0,
+      "purpose": "N/A",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3144447600",
+      "email": null,
+      "app_contact_name": "Marian V Mehan co-Trustee",
+      "app_contact_phone": "3144447600",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "written submission"
+    },
+    "officers": [
+      {
+        "name": "Lesley A Waldheim",
+        "title": "co-Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "436886268",
+    "foundation_name": "The Lesley Waldheim Charitable Foundation",
+    "match_score": 100.0,
+    "match_rank": 8
+  },
+  {
+    "annual_giving": {
+      "total": 735763273.0,
+      "count": 3718,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 100000.0,
+      "min": 36.0,
+      "max": 10000000,
+      "avg": 208194.51456128265
+    },
+    "geographic_focus": {
+      "top_state": "NY",
+      "top_state_pct": 0.271,
+      "in_state_pct": 0.271,
+      "foundation_state": "NY"
+    },
+    "repeat_funding": {
+      "unique": 7542,
+      "repeat": 3346,
+      "rate": 0.444
+    },
+    "giving_style": {
+      "general_pct": 0.234,
+      "program_pct": 0.766
+    },
+    "recipient_profile": {
+      "budget_min": 1082292,
+      "budget_max": 16066956,
+      "budget_median": 3889823,
+      "primary_sector": "A",
+      "primary_sector_pct": 0.202
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.033,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "MOMS OF BLACK BOYS UNITED INC",
+      "amount": 3900.0,
+      "purpose": "MATCHING GIFT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://WWW.FORDFOUNDATION.ORG",
+      "phone": "2125735000",
+      "email": null,
+      "app_contact_name": "THE FORD FOUNDATION",
+      "app_contact_phone": "2125735000",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "ACTIVITIES SUPPORTED BY FOUNDATION GRANTS MUST BE CHARITABLE, EDUCATIONAL OR SCIENTIFIC UNDER THE PROVISIONS OF THE U.S. INTERNAL REVENUE CODE AND THE TREASURY REGULATIONS.",
+      "how_to_apply": "PROPOSALS SHOULD SET FORTH A DESCRIPTION OF THE PROPOSED WORK; HOW THE WORK WILL BE CONDUCTED; THE NAMES AND CURRICULUM VITAE OF THOSE ENGAGED IN THE PROJECT; A DETAILED BUDGET, THE PROJECT'S PRESENT MEANS OF SUPPORT, THE PROJECT'S STATUS OF APPLICATIONS TO OTHER FUNDING SOURCES, AND THE PROJECT'S LEGAL AND TAX STATUS."
+    },
+    "officers": [
+      {
+        "name": "Eric W Doppstadt",
+        "title": "Vp & Chief Investment Officer",
+        "compensation": 4543917.0
+      }
+    ],
+    "foundation_ein": "131684331",
+    "foundation_name": "THE FORD FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 9
+  },
+  {
+    "annual_giving": {
+      "total": 1222147.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 1335752.0,
+      "min": 1136246.0,
+      "max": 2383733.0,
+      "avg": 1547870.75
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.487,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SEE",
+      "amount": 1222147.0,
+      "purpose": "To support academic education and arts programs that benefit traditionally underserved youth, including minorities and girls, with a majority of contributions directed to STEM programs.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://www.kindermorgan.com/About-Us/KM-Foun",
+      "phone": "7133699000",
+      "email": null,
+      "app_contact_name": "MELISSA RUIZ",
+      "app_contact_phone": "7133699000",
+      "app_contact_email": null,
+      "deadlines": "The submission deadline was June 2, 2023.",
+      "restrictions": "SEE ATTACHMENT 1",
+      "how_to_apply": "Grant applications are submitted through a third-party application called CyberGrants. These applications must include: 1. A short, one-page cover letter signed by an authorized agent. 2. A proposal narrative with the following information: - Legal name of the organization, employer identification number (EIN), address (no post office boxes), telephone number, and name, title and e-mail address of contact person. - Location of organization - Amount of request and name of program. - History of the organization and its mission. - Description of target population including the number of students served. - Description of the program, how it aligns with the focus areas of the Foundation. - Timeline for implementation. 3. Current organization and program budgets."
+    },
+    "officers": [
+      {
+        "name": "David W Conover",
+        "title": "Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "841148161",
+    "foundation_name": "Kinder Morgan Foundation",
+    "match_score": 100.0,
+    "match_rank": 10
+  },
+  {
+    "annual_giving": {
+      "total": 72865681.0,
+      "count": 9500,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 2500.0,
+      "min": 3.0,
+      "max": 6000000.0,
+      "avg": 8190.387732275859
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.099,
+      "in_state_pct": 0.044,
+      "foundation_state": "MO"
+    },
+    "repeat_funding": {
+      "unique": 15797,
+      "repeat": 8335,
+      "rate": 0.528
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 444301,
+      "budget_max": 12355004,
+      "budget_median": 2296715,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.202
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.101,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "COLLABORATIVE FOR CHILDREN",
+      "amount": 41000.0,
+      "purpose": "Program Support",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://WWW.GUIDESTAR.ORG",
+      "phone": "3145125000",
+      "email": null,
+      "app_contact_name": "JO ANN KINDLE",
+      "app_contact_phone": "3145125000",
+      "app_contact_email": null,
+      "deadlines": "APPLICATIONS ACCEPTED ANY TIME; NOTICE OF APPROVAL, REJECTION, OR REQUEST FOR INFORMATION W/IN 3 WKS",
+      "restrictions": "PREFERENCE IS GIVEN TO CHARITABLE AND EDUCATIONAL ORGANIZATIONS",
+      "how_to_apply": "OUTLINE OF PURPOSE AND ACTIVITIES OF ORGANIZATION AND WHAT MONIES WOULD BE USED FOR."
+    },
+    "officers": [
+      {
+        "name": "Jo Ann Kindle",
+        "title": "Chairperson/Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "431262762",
+    "foundation_name": "Enterprise Holdings Foundation",
+    "match_score": 100.0,
+    "match_rank": 11
+  },
+  {
+    "annual_giving": {
+      "total": 228589.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 230892.0,
+      "min": 228589.0,
+      "max": 261727.0,
+      "avg": 240402.66666666666
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.01,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "HOLY CROSS CATHOLIC SCHOOL",
+      "amount": 228589.0,
+      "purpose": "CHARITY EDUCATIONAL RELIGION",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "9795573011",
+      "email": null,
+      "app_contact_name": "JOEY SLIVA",
+      "app_contact_phone": "9795573011",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "HOLY CROSS SCHOOL FOUNDATION OF BAY CITY TEXAS SHALL PROVIDE CHARITABLE RELIGIOUS OR EDUCATIONAL SUPPORT TO THE CATHOLIC COMMUNITY OF MATAGORDA COUNTY TEXAS BY MAKING GRANTS TO CATHOLIC FAITH-BASED ORGANIZATIONS THAT SERVE MATAGORDA COUNTY TEXAS AND ARE EXEMPT FROM FEDERAL INCOME TAX UNDER SECTION 501c3 OF THE INTERNAL REVENUE CODE."
+    },
+    "officers": [
+      {
+        "name": "Joey Sliva",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "741878331",
+    "foundation_name": "HOLY CROSS SCHOOL FOUNDATION OF BAY CITY TEXAS",
+    "match_score": 100.0,
+    "match_rank": 12
+  },
+  {
+    "annual_giving": {
+      "total": 1211000.0,
+      "count": 1,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 1239375.0,
+      "min": 1122430.0,
+      "max": 1328312.0,
+      "avg": 1238245.1666666667
+    },
+    "geographic_focus": {
+      "top_state": "LA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "LA"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.045,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "See",
+      "amount": 1211000.0,
+      "purpose": "see attached",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": "https://loriofoundation.org",
+      "phone": "9854490380",
+      "email": null,
+      "app_contact_name": "Lorio Foundation",
+      "app_contact_phone": "9854490380",
+      "app_contact_email": null,
+      "deadlines": "No",
+      "restrictions": "Geographical",
+      "how_to_apply": "Letter of request"
+    },
+    "officers": [
+      {
+        "name": "Camille A Morvant III",
+        "title": "Exec Dir",
+        "compensation": 68250.0
+      }
+    ],
+    "foundation_ein": "721318244",
+    "foundation_name": "Lorio Foundation",
+    "match_score": 100.0,
+    "match_rank": 13
+  },
+  {
+    "annual_giving": {
+      "total": 828450.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 867400.0,
+      "min": 825022.0,
+      "max": 906909.0,
+      "avg": 864452.4
+    },
+    "geographic_focus": {
+      "top_state": "LA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "LA"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.004,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "see",
+      "amount": 828450.0,
+      "purpose": "schedule #13",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "9854474033",
+      "email": null,
+      "app_contact_name": "Peltier Foundation",
+      "app_contact_phone": "9854474033",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "501(c)(3) organizations",
+      "how_to_apply": "Letter of request"
+    },
+    "officers": [
+      {
+        "name": "Stephen Peltier",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "721416778",
+    "foundation_name": "The Peltier Foundation",
+    "match_score": 100.0,
+    "match_rank": 14
+  },
+  {
+    "annual_giving": {
+      "total": 825750.0,
+      "count": 1,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 845246.0,
+      "min": 785818.0,
+      "max": 962942.0,
+      "avg": 863077.2
+    },
+    "geographic_focus": {
+      "top_state": "PA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "PA"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.142,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "SEE",
+      "amount": 825750.0,
+      "purpose": "CHARITABLE",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": "https://grantstation.com/grantmakers/gb-stuart-charitable-foundation",
+      "phone": "7172433737",
+      "email": null,
+      "app_contact_name": "KEITH FALCONER",
+      "app_contact_phone": "7172433735",
+      "app_contact_email": null,
+      "deadlines": "OCTOBER 31",
+      "restrictions": "CARLISLE AND VICINITY CUMBERLAND COUNTY, PA",
+      "how_to_apply": "GRANT APPLICATION PACKAGE"
+    },
+    "officers": [
+      {
+        "name": "Barbara E Falconer",
+        "title": "Money Mgr. Advisor",
+        "compensation": 40145.0
+      }
+    ],
+    "foundation_ein": "232042245",
+    "foundation_name": "G B STUART CHAR FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 15
+  },
+  {
+    "annual_giving": {
+      "total": 14149.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 14020.0,
+      "min": 11097.0,
+      "max": 16592.0,
+      "avg": 13536.6
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.147,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "LANHAM FOUNDATION",
+      "amount": 14149.0,
+      "purpose": "SUPPORT GRANTS AND",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8888663275",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Bank Of America",
+        "title": "Trustee",
+        "compensation": 2519.0
+      }
+    ],
+    "foundation_ein": "916229445",
+    "foundation_name": "ALICE PEIRCE SYLVESTER TRUST",
+    "match_score": 100.0,
+    "match_rank": 16
+  },
+  {
+    "annual_giving": {
+      "total": 27917.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 29077.5,
+      "min": 27760.0,
+      "max": 30315.0,
+      "avg": 29057.5
+    },
+    "geographic_focus": {
+      "top_state": "NH",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "NH"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.006,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "See",
+      "amount": 27917.0,
+      "purpose": "General Charity",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "6037635843",
+      "email": null,
+      "app_contact_name": "Richard Cross",
+      "app_contact_phone": "6037635843",
+      "app_contact_email": null,
+      "deadlines": "Dec 31",
+      "restrictions": null,
+      "how_to_apply": "See Attached"
+    },
+    "officers": [
+      {
+        "name": "Marjorie B Cross",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "046153303",
+    "foundation_name": "EJ Cross Foundation",
+    "match_score": 100.0,
+    "match_rank": 17
+  },
+  {
+    "annual_giving": {
+      "total": 134000.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 131000.0,
+      "min": 114500.0,
+      "max": 134000.0,
+      "avg": 126500.0
+    },
+    "geographic_focus": {
+      "top_state": "WI",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "WI"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.17,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "See",
+      "amount": 134000.0,
+      "purpose": "See Schedule",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://fundmilwaukee.com",
+      "phone": "4149822850",
+      "email": null,
+      "app_contact_name": "Margaret T Lund Stafford Rosenbaum",
+      "app_contact_phone": "4149822871",
+      "app_contact_email": null,
+      "deadlines": "No submission deadlines.",
+      "restrictions": "Recipient must be a 501(c)(3) organization.",
+      "how_to_apply": "No required format."
+    },
+    "officers": [
+      {
+        "name": "Marie H Kohler",
+        "title": "Dir./Pres./Treas.",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "392012512",
+    "foundation_name": "The Arden Foundation Inc",
+    "match_score": 100.0,
+    "match_rank": 18
+  },
+  {
+    "annual_giving": {
+      "total": 825127.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 340780.0,
+      "min": 250425.0,
+      "max": 825127.0,
+      "avg": 438580.0
+    },
+    "geographic_focus": {
+      "top_state": "FL",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "FL"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.962,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SEE",
+      "amount": 825127.0,
+      "purpose": "SEE ATTACHED",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8132532500",
+      "email": null,
+      "app_contact_name": "DONALD OR CAMPBELL BURTON",
+      "app_contact_phone": "8132532500",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "GRANTS WILL NOT USUALLY BE MADE TO NATIONAL ORGANIZATIONS OR ASSOCIATIONS AND WILL BE MADE PRIMARILY TO EDUCATIONAL & RELIGIOUS ORGANIZATIONS.",
+      "how_to_apply": "ANY FORM WHICH INDICATES THE CHARITABLE PURPOSE OF THE ORGANIZATION AND INCLUDES A COPY OF THEIR 501(c)(3) EXEMPTION."
+    },
+    "officers": [
+      {
+        "name": "Donald W Burton",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "814691212",
+    "foundation_name": "THE BURTON FAMILY FOUNDATION INC",
+    "match_score": 100.0,
+    "match_rank": 19
+  },
+  {
+    "annual_giving": {
+      "total": 1476.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 2300.0,
+      "min": 1476.0,
+      "max": 2500.0,
+      "avg": 2188.0
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 0.0,
+      "foundation_state": "NV"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 24530,
+      "budget_max": 24530,
+      "budget_median": 24530,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.358,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "HILLTOP LAKES CHAPEL",
+      "amount": 1476.0,
+      "purpose": "SUPPORT YOUTH MINISTRY AND OUTREACH PROGRAMS",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "HTTPS://WWW.WELLSFARGO.COM/PRIVATE-FOUNDATIONS",
+      "phone": "7045902828",
+      "email": null,
+      "app_contact_name": "WELLS FARGO PHILANTHROPIC SERVICES",
+      "app_contact_phone": "8882354351",
+      "app_contact_email": "GRANTADMINISTRATION@WELLSFARGO.COM",
+      "deadlines": null,
+      "restrictions": "AWARDS ARE ONLY GRANTED TO INCOME TAX QUALIFYING CHARITIES",
+      "how_to_apply": "THERE IS NOT A STANDARD APPLICATION FORM. APPLICATIONS ARE ACCEPTED BY LETTER OF REQUEST AND SHOULD INCLUDE THE LOCATION, TYPE OF ORGANIZATION, AND PURPOSE OF REQUEST."
+    },
+    "officers": [
+      {
+        "name": "Wells Fargo Bank Na",
+        "title": "Trustee",
+        "compensation": 19997.0
+      }
+    ],
+    "foundation_ein": "742915277",
+    "foundation_name": "MIKE AND MYRTLE MICHAEL CHARITABLE TRUST",
+    "match_score": 100.0,
+    "match_rank": 20
+  },
+  {
+    "annual_giving": {
+      "total": 52000.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 56500.0,
+      "min": 45000.0,
+      "max": 81000.0,
+      "avg": 60333.333333333336
+    },
+    "geographic_focus": {
+      "top_state": "OK",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "OK"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.04,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SEE",
+      "amount": 52000.0,
+      "purpose": "SCHOLARSHIP",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "4052346743",
+      "email": null,
+      "app_contact_name": "RICHARD GARDNER JR",
+      "app_contact_phone": "4052346743",
+      "app_contact_email": null,
+      "deadlines": "SEE ATTACHED APPLICATION COPY",
+      "restrictions": "ONLY STUDENTS RESIDING IN BEAVER COUNTY, OKLAHOMA ARE ELGIBLE",
+      "how_to_apply": "SEE ATTACHED APPLICATION COPY"
+    },
+    "officers": [
+      {
+        "name": "Richard Gardner Jr",
+        "title": "Trustee",
+        "compensation": 12000.0
+      }
+    ],
+    "foundation_ein": "731531180",
+    "foundation_name": "GLEN CARRIER CHARITABLE TRUST",
+    "match_score": 100.0,
+    "match_rank": 21
+  },
+  {
+    "annual_giving": {
+      "total": 7200.0,
+      "count": 1,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 6150.0,
+      "min": 5100.0,
+      "max": 7200.0,
+      "avg": 6150.0
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 134957229,
+      "budget_max": 134957229,
+      "budget_median": 134957229,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.412,
+      "oldest_year": 2023,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "TARRANT AREA FOOD BANK",
+      "amount": 7200.0,
+      "purpose": "FOR ASSISTANCE TO INDIGENT FAMILIES",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "9728160953",
+      "email": null,
+      "app_contact_name": "HAROLD B GRIFFIN JR",
+      "app_contact_phone": "9728160953",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "N/A - NO ACTIVITY FOR THE YEAR."
+    },
+    "officers": [
+      {
+        "name": "Harold B Griffin Jr",
+        "title": "Co-Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "882975425",
+    "foundation_name": "GRIFFIN CHARITABLE TRUST",
+    "match_score": 100.0,
+    "match_rank": 22
+  },
+  {
+    "annual_giving": {
+      "total": 654687.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 690600.0,
+      "min": 654687.0,
+      "max": 1184500.0,
+      "avg": 787748.4
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.447,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SEE",
+      "amount": 654687.0,
+      "purpose": "GENERAL",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://WWW.SMITHHT.ORG",
+      "phone": "4153320166",
+      "email": null,
+      "app_contact_name": "APPLICATIONS ACCEPTED THROUGH ONLIN",
+      "app_contact_phone": "4158913917",
+      "app_contact_email": "WWW.SMITHHT.ORG",
+      "deadlines": "JANUARY 1 TO JUNE 15",
+      "restrictions": "EDUCATION AND RESEARCH IN ORNAMENTAL HORTICULTURE. NORTH AMERICA, SOUTH AMERICA, AUSTRALIA AND NEW ZEALAND.",
+      "how_to_apply": "APPLICATIONS ARE ACCEPTED THROUGH THE ONLINE PORTAL. PLEASE VISIT THE TRUST'S WEBSITE FOR INFORMATION REGARDING FUNDING INTERESTS AND THE APPLICATION PROCESS. WWW.SMITHHT.ORG"
+    },
+    "officers": [
+      {
+        "name": "Ruth M Collins",
+        "title": "Trustee",
+        "compensation": 5000.0
+      }
+    ],
+    "foundation_ein": "946209165",
+    "foundation_name": "STANLEY SMITH HORTICULTURAL TRUST",
+    "match_score": 100.0,
+    "match_rank": 23
+  },
+  {
+    "annual_giving": {
+      "total": 10000.0,
+      "count": 1,
+      "year": 2022
+    },
+    "typical_grant": {
+      "median": 18000.0,
+      "min": 10000.0,
+      "max": 22000.0,
+      "avg": 16666.666666666668
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 462033,
+      "budget_max": 462033,
+      "budget_median": 462033,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.545,
+      "oldest_year": 2018,
+      "newest_year": 2022
+    },
+    "comparable_grant": {
+      "recipient": "LAMESA BOYS & GIRLS CLUB",
+      "amount": 10000.0,
+      "purpose": "OPERATING",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8068725426",
+      "email": null,
+      "app_contact_name": "SCOTT L LEONARD",
+      "app_contact_phone": "8068725426",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "PRIMARY CONSIDERATION IS GIVEN TO PROJECTS BENEFITTING THE RESIDENTS OF DAWSON COUNTY, TEXAS.",
+      "how_to_apply": "DESCRIPTION OF NEED; CURRENT FINANCIAL STATEMENTS; BUDGET FOR PROJECT; LIST OF OTHER FUNDING SOURCES"
+    },
+    "officers": [
+      {
+        "name": "R Dale Newberry",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "752856276",
+    "foundation_name": "THE WILTON FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 24
+  },
+  {
+    "annual_giving": {
+      "total": 254797.0,
+      "count": 1,
+      "year": 2020
+    },
+    "typical_grant": {
+      "median": 453046.0,
+      "min": 254797.0,
+      "max": 608337.0,
+      "avg": 438726.6666666667
+    },
+    "geographic_focus": {
+      "top_state": "NY",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "NY"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.581,
+      "oldest_year": 2018,
+      "newest_year": 2020
+    },
+    "comparable_grant": {
+      "recipient": "SEE",
+      "amount": 254797.0,
+      "purpose": "VARIOUS",
+      "year": 2020
+    },
+    "contact": {
+      "website_url": "https://grantstation.com/grantmakers/vortex-foundation",
+      "phone": "2124102333",
+      "email": null,
+      "app_contact_name": "VICTORIA LEA SMITH",
+      "app_contact_phone": "2124216600",
+      "app_contact_email": null,
+      "deadlines": "APPLICATION MAY BE SUBMITTED AT ANY TIME.",
+      "restrictions": "GRANTS FOR CHARITABLE, RELIGIOUS, EDUCATIONAL, LITERARY, CULTURAL, AND SCIENTIFIC FIELDS.",
+      "how_to_apply": "A FORMAL LETTER DESCRIBING THE PETITIONING ORGANIZATION OR GROUP, THEIR TAX EXEMPT STATUS AND A STATEMENT DETAILING THE PROPOSED USE TO WHICH THE GRANT WILL BE APPLIED."
+    },
+    "officers": [
+      {
+        "name": "Victoria Lea Smith",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "137212742",
+    "foundation_name": "VORTEX FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 25
+  },
+  {
+    "annual_giving": {
+      "total": 187000.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 196000.0,
+      "min": 187000.0,
+      "max": 213000.0,
+      "avg": 198333.33333333334
+    },
+    "geographic_focus": {
+      "top_state": "NJ",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "NJ"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.105,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SEE",
+      "amount": 187000.0,
+      "purpose": "VARIOUS",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://www.grantable.co/search/funders/profile/bonaventura-devine-foundation-inc-us-foundation-223116667",
+      "phone": null,
+      "email": null,
+      "app_contact_name": "BONAVENTURA COOPER",
+      "app_contact_phone": "9083333125",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "ORGANIZATION MUST BE A 501(C)(3) TAX EXEMPT ORGANIZATION",
+      "how_to_apply": "WRITTEN APPLICATION WITH EXPLANATION OF USE OF FUNDS"
+    },
+    "officers": [
+      {
+        "name": "Tara Mckenna",
+        "title": "Trustee",
+        "compensation": 21000.0
+      }
+    ],
+    "foundation_ein": "223116667",
+    "foundation_name": "BONAVENTURA DEVINE FOUNDATION INC",
+    "match_score": 100.0,
+    "match_rank": 26
+  },
+  {
+    "annual_giving": {
+      "total": 385000.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 382500.0,
+      "min": 375000.0,
+      "max": 400000.0,
+      "avg": 385000.0
+    },
+    "geographic_focus": {
+      "top_state": "NJ",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "NJ"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.037,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "See",
+      "amount": 385000.0,
+      "purpose": "General Charitable",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://www.edselaw.com/nr-leavitt-foundation",
+      "phone": "9087532440",
+      "email": null,
+      "app_contact_name": "William V Engel",
+      "app_contact_phone": "9087532440",
+      "app_contact_email": null,
+      "deadlines": "See Attached Schedule",
+      "restrictions": "See Attached Schedule",
+      "how_to_apply": "See Attached Schedule"
+    },
+    "officers": [
+      {
+        "name": "Martin B O'Connor II",
+        "title": "President",
+        "compensation": 430.0
+      }
+    ],
+    "foundation_ein": "226034106",
+    "foundation_name": "N R Leavitt Foundation",
+    "match_score": 100.0,
+    "match_rank": 27
+  },
+  {
+    "annual_giving": {
+      "total": 92400.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 96300.0,
+      "min": 92400.0,
+      "max": 105700.0,
+      "avg": 97675.0
+    },
+    "geographic_focus": {
+      "top_state": "NJ",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "NJ"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.126,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "See",
+      "amount": 92400.0,
+      "purpose": "See Attached",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://www.grantable.co/search/funders/profile/standish-foundation-us-foundation-226102990",
+      "phone": "9087532440",
+      "email": null,
+      "app_contact_name": "William V Engel",
+      "app_contact_phone": "9087532440",
+      "app_contact_email": null,
+      "deadlines": "See Attached Statement",
+      "restrictions": "See Attached Statement",
+      "how_to_apply": "See Attached Statement"
+    },
+    "officers": [
+      {
+        "name": "William V Engel",
+        "title": "President",
+        "compensation": 400.0
+      }
+    ],
+    "foundation_ein": "226102990",
+    "foundation_name": "Standish Foundation",
+    "match_score": 100.0,
+    "match_rank": 28
+  },
+  {
+    "annual_giving": {
+      "total": 30744.0,
+      "count": 4,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 10000.0,
+      "min": 2000.0,
+      "max": 15000.0,
+      "avg": 7794.727272727273
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 0.0,
+      "foundation_state": "IL"
+    },
+    "repeat_funding": {
+      "unique": 9,
+      "repeat": 5,
+      "rate": 0.556
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 3990057,
+      "budget_max": 8850552,
+      "budget_median": 5663672,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.429
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.25,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "BEAR BE A RESOURCE FOR CPS KIDS",
+      "amount": 4744.0,
+      "purpose": "GENERAL",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8004962583",
+      "email": null,
+      "app_contact_name": "JP MORGAN CHASE BANK N A",
+      "app_contact_phone": "8004962583",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "LIMITED TO ORGANIZATION EXEMPT UNDER IRC SECTION 501(C)(3)",
+      "how_to_apply": "www.jpmorgan.com/onlinegrants INCLUDE A BUDGET FOR THE ACTIVITY AND A COPY OF THE ORGANIZATION'S IRC SECTION 501(C)(3) STATUS LETTER"
+    },
+    "officers": [
+      {
+        "name": "Jp Morgan Chase Bank N A",
+        "title": "Trustee",
+        "compensation": 15290.0
+      }
+    ],
+    "foundation_ein": "746038652",
+    "foundation_name": "JOHN T SHEA CHARITABLE FOUNDATION XXXXX4009",
+    "match_score": 100.0,
+    "match_rank": 29
+  },
+  {
+    "annual_giving": {
+      "total": 58000.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 19000.0,
+      "min": 1000.0,
+      "max": 52000.0,
+      "avg": 20333.333333333332
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 0.778,
+      "in_state_pct": 0.778,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 7,
+      "repeat": 1,
+      "rate": 0.143
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 1178840,
+      "budget_max": 3306925,
+      "budget_median": 2242882,
+      "primary_sector": "I",
+      "primary_sector_pct": 0.5
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.45,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "Cristo Rey Jesuit",
+      "amount": 52000.0,
+      "purpose": "OPERATIONS AND SUPPORT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://opengiving.hatch.ai/edward-p-and-raye-g-white-charitable-foundation-262192511",
+      "phone": "7136544484",
+      "email": null,
+      "app_contact_name": "GRANT PROGRAM",
+      "app_contact_phone": "7136544484",
+      "app_contact_email": null,
+      "deadlines": "none - but must be soon enough for appropriate consideration",
+      "restrictions": null,
+      "how_to_apply": "No specific format"
+    },
+    "officers": [
+      {
+        "name": "Patricia A Evans",
+        "title": "Treasurer-MEMBER BOARD TRUSTEE",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "262192511",
+    "foundation_name": "EDWARD P & RAYE G WHITE CHARITABLE FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 30
+  },
+  {
+    "annual_giving": {
+      "total": 14000.0,
+      "count": 1,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 15000.0,
+      "min": 500.0,
+      "max": 16715.0,
+      "avg": 12023.888888888889
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 2,
+      "repeat": 1,
+      "rate": 0.5
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 51128,
+      "budget_max": 51128,
+      "budget_median": 51128,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.067,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "UNIVERSITY OF TEXAS AT TYLER",
+      "amount": 14000.0,
+      "purpose": "FUND SCHOLARSHIP FOR NURSES",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "9036636363",
+      "email": null,
+      "app_contact_name": "LAURA JACKSON CHARITABLE TRUST",
+      "app_contact_phone": "9036636363",
+      "app_contact_email": null,
+      "deadlines": "BY MAY 31ST OF EACH YEAR",
+      "restrictions": "ONCOLOGY NURSES/ASSOCIATIONS IN THE LONGVIEW, TX AREA.",
+      "how_to_apply": "A COPY OF THE APPLICATION IS ATTACHED."
+    },
+    "officers": [
+      {
+        "name": "John N Darby",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "756437403",
+    "foundation_name": "LAURA JACKSON CHARITABLE TRUST",
+    "match_score": 99.9,
+    "match_rank": 31
+  },
+  {
+    "annual_giving": {
+      "total": 29700.0,
+      "count": 4,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 8250.0,
+      "min": 500.0,
+      "max": 20000.0,
+      "avg": 6466.666666666667
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 8,
+      "repeat": 6,
+      "rate": 0.75
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 489574,
+      "budget_max": 41993559,
+      "budget_median": 10134092,
+      "primary_sector": "N",
+      "primary_sector_pct": 0.2
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.394,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SAN ANTONIO ACADEMY OF TEXAS",
+      "amount": 10000.0,
+      "purpose": "SUPPORT EDUCATION",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8309287070",
+      "email": null,
+      "app_contact_name": "SHELTON FAMILY FOUNDATION",
+      "app_contact_phone": "8309287070",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "STATE NEED AND USES OF GRANT REQUESTS IN LETTER FORM. GIVE BACKGROUND ON ORGANIZATION OR INDIVIDUAL MAKING REQUEST."
+    },
+    "officers": [
+      {
+        "name": "Fronie K Shelton",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "742225673",
+    "foundation_name": "SHELTON FAMILY FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 32
+  },
+  {
+    "annual_giving": {
+      "total": 82610.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 20000.0,
+      "min": 2000.0,
+      "max": 210000.0,
+      "avg": 44964.545454545456
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 9,
+      "repeat": 1,
+      "rate": 0.111
+    },
+    "giving_style": {
+      "general_pct": 0.818,
+      "program_pct": 0.182
+    },
+    "recipient_profile": {
+      "budget_min": 654243,
+      "budget_max": 86785302,
+      "budget_median": 3240272,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.167
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.174,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "Dream Park",
+      "amount": 20000.0,
+      "purpose": "General Cash Donation",
+      "year": 2017
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8177376678",
+      "email": null,
+      "app_contact_name": "William S Davis",
+      "app_contact_phone": "8177376678",
+      "app_contact_email": null,
+      "deadlines": "No submission deadlines",
+      "restrictions": "Contributions restricted to I.R.C. Section 501(c)(3) Organizations",
+      "how_to_apply": "Application should be in writing"
+    },
+    "officers": [
+      {
+        "name": "William S Davis",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "751533548",
+    "foundation_name": "The William S Davis Family Foundation",
+    "match_score": 99.9,
+    "match_rank": 33
+  },
+  {
+    "annual_giving": {
+      "total": 721750.0,
+      "count": 7,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 10000.0,
+      "min": 650.0,
+      "max": 500000.0,
+      "avg": 60140.2
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 0.88,
+      "in_state_pct": 0.88,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 13,
+      "repeat": 7,
+      "rate": 0.538
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 92719,
+      "budget_max": 7981798,
+      "budget_median": 2374094,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.2
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 7.84,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "MISSIONARY ASSOCIATION OF MARY IMMACULATE USA",
+      "amount": 500000.0,
+      "purpose": "TO TOUCH THE LIVES OF THOUSANDS OF POOR AND NEEDY PEOPLE",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "2108868496",
+      "email": null,
+      "app_contact_name": "RENEE BENSON",
+      "app_contact_phone": "2108868496",
+      "app_contact_email": null,
+      "deadlines": "NONE.",
+      "restrictions": "NONE.",
+      "how_to_apply": "WRITTEN LETTER STATING NAME OF ORGANIZATION, PURPOSE AND AMOUNT REQUESTED."
+    },
+    "officers": [
+      {
+        "name": "Renee Benson",
+        "title": "President & Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "844302425",
+    "foundation_name": "RENEE BENSON FAMILY FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 34
+  },
+  {
+    "annual_giving": {
+      "total": 25711713.0,
+      "count": 9499,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 100.0,
+      "min": 1.0,
+      "max": 2090000.0,
+      "avg": 2290.011711506555
+    },
+    "geographic_focus": {
+      "top_state": "NY",
+      "top_state_pct": 0.207,
+      "in_state_pct": 0.207,
+      "foundation_state": "NY"
+    },
+    "repeat_funding": {
+      "unique": 4820,
+      "repeat": 3449,
+      "rate": 0.716
+    },
+    "giving_style": {
+      "general_pct": 0.996,
+      "program_pct": 0.004
+    },
+    "recipient_profile": {
+      "budget_min": 645291,
+      "budget_max": 20318429,
+      "budget_median": 3661636,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.16
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.096,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SEWA INTERNATIONAL INC",
+      "amount": 5991.0,
+      "purpose": "GENERAL SUPPORT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://accessphilanthropy.com/funder/american-express-foundation",
+      "phone": "8595762845",
+      "email": null,
+      "app_contact_name": "AMERICAN EXPRESS PHILANTHROPY",
+      "app_contact_phone": "8595762845",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "- NAME AND ADDRESS OF ORGANIZATION - CONTACT PERSON, TITLE, PHONE NUMBER - GEOGRAPHIC AREA SERVED BY ORGANIZATION - HISTORY OF PREVIOUS SUPPORT FROM THE AMERICAN EXPRESS PHILANTHROPIC PROGRAM, FOUNDATION OR AN AMERICAN EXPRESS SUBSIDIARY - AMOUNT OF FUNDS REQUESTED AND DETAILED PROJECT BUDGET - DESCRIPTION OF PROJECT, INCLUDING INFO ON TARGET GROUPS TO BE SERVED, NEEDS ADDRESSED, PROGRAM OBJECTIVES, ACTIVITIES TO BE UNDERTAKEN, TIMETABLE - DETAILED PROJECT BUDGET - PROOF OF NONPROFIT STATUS, 501(C)(3) TAX-EXEMPT NOTIFICATION - BOARD OF DIRECTORS - LATEST ANNUAL REPORT (IF NOT AVAILABLE, DESCRIPTION OF ORGANIZATION'S OVERALL MISSION AND LATEST ACCOMPLISHMENTS) - FUNDING SOURCES"
+    },
+    "officers": [
+      {
+        "name": "Laureen Seeger",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "136123529",
+    "foundation_name": "AMERICAN EXPRESS FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 35
+  },
+  {
+    "annual_giving": {
+      "total": 28065593.0,
+      "count": 4,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 12510131.461538462,
+      "min": 691675.0,
+      "max": 10000000,
+      "avg": 12510131.461538462
+    },
+    "geographic_focus": {
+      "top_state": "DC",
+      "top_state_pct": 0.3,
+      "in_state_pct": 0.0,
+      "foundation_state": "WY"
+    },
+    "repeat_funding": {
+      "unique": 5,
+      "repeat": 4,
+      "rate": 0.8
+    },
+    "giving_style": {
+      "general_pct": 0.769,
+      "program_pct": 0.231
+    },
+    "recipient_profile": {
+      "budget_min": 2513160424,
+      "budget_max": 7537692088,
+      "budget_median": 5025426256,
+      "primary_sector": "T",
+      "primary_sector_pct": 0.5
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.73,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "PRUDENCE TRUST",
+      "amount": 14592381.0,
+      "purpose": "TO PROVIDE ASSISTANCE IN THE ADVANCEMENT IN HEALTH, ARTS AND ENVIRONMENTAL PROTECTION OR IMPROVEMENT.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3077333327",
+      "email": null,
+      "app_contact_name": "TRICIA OVERDYKE",
+      "app_contact_phone": "3077333327",
+      "app_contact_email": "TRICIA@WILLOWSTREETGROUP.COM",
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "CONTACT TRICIA."
+    },
+    "officers": [
+      {
+        "name": "Ebor Management Company Limited",
+        "title": "Trustee",
+        "compensation": 42195.0
+      }
+    ],
+    "foundation_ein": "836582316",
+    "foundation_name": "EBOR CHARITABLE TRUST",
+    "match_score": 99.9,
+    "match_rank": 36
+  },
+  {
+    "annual_giving": {
+      "total": 46400.0,
+      "count": 1,
+      "year": 2022
+    },
+    "typical_grant": {
+      "median": 48200.0,
+      "min": 31410.0,
+      "max": 1500000.0,
+      "avg": 271816.0714285714
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 6,
+      "repeat": 3,
+      "rate": 0.5
+    },
+    "giving_style": {
+      "general_pct": 0.643,
+      "program_pct": 0.357
+    },
+    "recipient_profile": {
+      "budget_min": 1446382,
+      "budget_max": 284387111,
+      "budget_median": 2942740,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.25
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.915,
+      "oldest_year": 2020,
+      "newest_year": 2022
+    },
+    "comparable_grant": {
+      "recipient": "SHERMAN COMMUNITY PLAYERS ENDOWMENT TRUST",
+      "amount": 46400.0,
+      "purpose": "HONEY MCGEE PLAYHOUSE (COMMUNITY THEATRE)",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": "https://traffic.houstontranstar.org",
+      "phone": "7135255264",
+      "email": null,
+      "app_contact_name": "Holly Waltrip",
+      "app_contact_phone": "7135255264",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Holly Waltrip",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "311608714",
+    "foundation_name": "The Waltrip-McGee Foundation",
+    "match_score": 99.9,
+    "match_rank": 37
+  },
+  {
+    "annual_giving": {
+      "total": 110000.0,
+      "count": 2,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 25000.0,
+      "min": 5000.0,
+      "max": 250000.0,
+      "avg": 53831.25
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 0.875,
+      "in_state_pct": 0.875,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 9,
+      "repeat": 4,
+      "rate": 0.444
+    },
+    "giving_style": {
+      "general_pct": 0.562,
+      "program_pct": 0.438
+    },
+    "recipient_profile": {
+      "budget_min": 174272,
+      "budget_max": 158910336,
+      "budget_median": 1163461,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.2
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.2,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "LEVEL PATHWAYS",
+      "amount": 25000.0,
+      "purpose": "GENERAL SUPPORT FOR PROTECTING, PREPARING, AND POSITIONING HOMELESS TEENS FOR THEIR FUTURE.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://irvingschoolsfoundation.org/list-of-scholarship",
+      "phone": "8888312138",
+      "email": null,
+      "app_contact_name": "SCHOLARSHIP ADVISORY COMMITTEE",
+      "app_contact_phone": "9728122834",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "CRITERIA MAY INCLUDE, BUT NEED NOT BE LIMITED TO: PRIOR ACADEMIC PERFORMANCE, PERFORMANCE ON TESTS DESIGNED TO MEASURE ABILITY AND APTITUDE FOR RELATED FIELDS, RECOMMENDATION FROM INSTRUCTIORS, AND FINANCIAL NEED. OTHER THAN THE CRITERIA LISTED, THERE ARE NO RESTRICTIONS ON THE SCHOLARSHIPS. ALL FUNDS GIVEN TO ORGANIZATIONS OR SCHOOLS MUST BE USED TO PROMOTE EDUCATION, SUPPORT STUDENTS AND/OR ESTABLISH NEW STUDY PROGRAMS.",
+      "how_to_apply": "ALL SCHOLARSHIP APPLICANTS SHOULD SUBMIT A SCHOLARSHIP APPLICATION THAT INCLUDES: A BIOGRAPHICAL RECORD AND SUPPORTING MATERIAL SUCH AS ESSAYS, LETTERS OF RECOMMENDATION, GRADE TRANSCRIPTS, AND SPECIAL AWARDS. ADDITIONALLY, ORGANIZATIONS, SCHOOLS, COLLEGES OR UNIVERSITIES CAN REQUEST TO RECEIVE FUNDS AT THE BOARD OF DIRECTORS' DISCRETION."
+    },
+    "officers": [
+      {
+        "name": "Rajeev Malik",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "472615080",
+    "foundation_name": "Bioworld Foundation Inc",
+    "match_score": 99.9,
+    "match_rank": 38
+  },
+  {
+    "annual_giving": {
+      "total": 35000.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 35000.0,
+      "min": 35000.0,
+      "max": 35000.0,
+      "avg": 35000.0
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 0,
+      "rate": 0.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.0,
+      "oldest_year": 2023,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "TRINITY EPISCOPAL SCHOOL",
+      "amount": 35000.0,
+      "purpose": "GENERAL FUNDING",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3615733255",
+      "email": null,
+      "app_contact_name": "ERIC L KUCERA",
+      "app_contact_phone": "3615733255",
+      "app_contact_email": "EKUCERA@HWULLP.COM",
+      "deadlines": "THERE ARE CURRENTLY NO SUBMISSION DEADLINES.",
+      "restrictions": "THE TRUST DOCUMENT SPECIFIES THAT THE TRUST ASSETS BE USED TO MAKE CHARITABLE DISTRIBUTIONS ONLY TO ENTITIES THAT QUALIFY AS A \"QUALIFIED CHARITABLE RECIPIENT\" MEANING AN ENTITY THAT IS DESCRIBED IN CODE SECTION 170(C), 2055(A) AND 2522(A). IN THE CASE OF ANY DISTRIBUTION TO A CHARITABLE RECEIPIENT DESCRIBED IN CODE SECTION 170(C)(1), THE DISTRIBUTION SHALL BE MADE FOR EXCLUSIVELY PUBLIC PURPOSES. THE TRUST DOCUMENT SPECIFIES THAT THE TRUST ASSETS BE USED PRIMARILY FOR CHRISTIAN EVANGELISM, CHRISTIAN MISSIONS, CHRISTIAN DISCIPLESHIP, AND THE TEACHING OF THE GOSPEL OF JESUS CHRIST, INCLUDING TO ORGANIZATIONS THAT SERVE AS WITNESS TO THE TEACHINGS OF JESUS CHRIST, WITH THE GOAL BEING TO PRIMARILY BENEFIT CHRISTIAN CHILDREN'S HOMES.",
+      "how_to_apply": "THERE IS CURRENTLY NO SET FORMAT FOR APPLICATIONS. REQUESTS SHOULD INCLUDE THE FOLLOWING (1) MOST RECENT FORM 990, (2) MOST RECENT COPY OF AUDITED OR REVIEWED FINANCIAL STATEMENTS, (3) INFORMATION REGARDING THE ACTIVITIES OF THE CHARITY, AND (4) DESCRIPTION OF FUNDING BEING REQUESTED."
+    },
+    "officers": [
+      {
+        "name": "Eric L Kucera",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "883695192",
+    "foundation_name": "BARBARA KAUFFMAN WELDER PRIVATE",
+    "match_score": 99.9,
+    "match_rank": 39
+  },
+  {
+    "annual_giving": {
+      "total": 58000.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 250.0,
+      "min": 15.0,
+      "max": 55000.0,
+      "avg": 6410.1578947368425
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 0.947,
+      "in_state_pct": 0.947,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 15,
+      "repeat": 3,
+      "rate": 0.2
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 1503497,
+      "budget_max": 16482059,
+      "budget_median": 6361873,
+      "primary_sector": "D",
+      "primary_sector_pct": 0.25
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.405,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "Center for Transforming Lives",
+      "amount": 2500.0,
+      "purpose": "To work side-by-side with women and their children to disrupt the cycle of poverty throughout Tarrant County.",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8174213145",
+      "email": null,
+      "app_contact_name": "Julie Stephenson",
+      "app_contact_phone": "8174213145",
+      "app_contact_email": null,
+      "deadlines": "Not applicable",
+      "restrictions": "The Hartnett Foundation contributes to public charities described in section 509 a 1 2 or 3 to accomplish charitable scientific literary educational or other permitted public purposes which are tax exempt under Section 501 c 3 of the Internal Revenue Code that operate efficiently and contribute to the improvement of the public welfare. The Hartnett Foundation primarily focuses on organizations operating in and undertaking charitable activities in the Dallas Fort Worth area of Texas.",
+      "how_to_apply": "General Request which identifies the use of fund; Internal Revenue Service determination letter setting forth the basis of the requesting organizations tax exempt status; and documents describing operations of the requesting organization. Additional information may be requested from the Hartnett Foundation."
+    },
+    "officers": [
+      {
+        "name": "Sandra Hartnett",
+        "title": "Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "752708291",
+    "foundation_name": "HARTNETT FOUNDATION",
+    "match_score": 99.8,
+    "match_rank": 40
+  },
+  {
+    "annual_giving": {
+      "total": 121000.0,
+      "count": 3,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 36222.0,
+      "min": 20000.0,
+      "max": 57600.0,
+      "avg": 39705.625
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 6,
+      "repeat": 3,
+      "rate": 0.5
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 15742877,
+      "budget_max": 35956274,
+      "budget_median": 25849576,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.5
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.111,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "Morningside Ministries",
+      "amount": 35000.0,
+      "purpose": "EDUCATIONAL GRANT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "2102205952",
+      "email": null,
+      "app_contact_name": "Melissa Adams",
+      "app_contact_phone": "2102204353",
+      "app_contact_email": null,
+      "deadlines": "A) SPECIFIC INFORMATION RELATED TO USE OF GRANT B) COPY OF IRS EXEMPTION LETTER",
+      "restrictions": "C) MOST RECENT FINANCIAL STATEMENT D) LIST OF BOARD MEMBERS E) CHARTER AND/OR BY LAWS F) PROJECT BUDGET G) IRS FORM W-9 SUBMISSION DEADLINES: MARCH 31, JULY 31, AND OCTOBER 31",
+      "how_to_apply": "REQUEST FOR GRANT SHOULD BE RECEIVED ON ORGANIZATION'S LETTERHEAD AND SIGNED BY A MEMBER OF THE BOARD OF DIRECTORS OR AN OFFICER. PROVIDE:"
+    },
+    "officers": [
+      {
+        "name": "Frost Bank",
+        "title": "Trustee",
+        "compensation": 28756.0
+      }
+    ],
+    "foundation_ein": "741386236",
+    "foundation_name": "LOUISE L MORRISON TRUST F0685400",
+    "match_score": 99.8,
+    "match_rank": 41
+  },
+  {
+    "annual_giving": {
+      "total": 56321.0,
+      "count": 5,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 10000.0,
+      "min": 5000.0,
+      "max": 17808.0,
+      "avg": 10570.966666666667
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 0.0,
+      "foundation_state": "IL"
+    },
+    "repeat_funding": {
+      "unique": 11,
+      "repeat": 7,
+      "rate": 0.636
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 4343182,
+      "budget_max": 21314450,
+      "budget_median": 7041765,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.143
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.104,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "GIRLS INCORPORATED OF SAN ANTONIO",
+      "amount": 10000.0,
+      "purpose": "GENERAL",
+      "year": 2020
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8004962583",
+      "email": null,
+      "app_contact_name": "JP MORGAN CHASE BANK NA GARY AYMES",
+      "app_contact_phone": "2108417033",
+      "app_contact_email": null,
+      "deadlines": "THE GRANT REQUEST, AND A COPY OF THE IRS LETTER DECEMBER 31 FOR THE FOLLOWING YEAR",
+      "restrictions": "GRANTS ARE PRIMARILY MADE FOR CAPITAL EXPENDITURES N/A",
+      "how_to_apply": "WRITTEN APPLICATION FOR FUNDS INCLUDING ORGANIZATION NAME ADDRES,PERSON TO CONTACT, AMOUNT REQUESTED, PURPOSE OF"
+    },
+    "officers": [
+      {
+        "name": "Jp Morgan Chase",
+        "title": "trustee",
+        "compensation": 5384.0
+      }
+    ],
+    "foundation_ein": "746032524",
+    "foundation_name": "DR GEORGE H KILPATRICK MEMORIAL TRUST",
+    "match_score": 99.8,
+    "match_rank": 42
+  },
+  {
+    "annual_giving": {
+      "total": 25000.0,
+      "count": 2,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 5000.0,
+      "min": 2500.0,
+      "max": 15000.0,
+      "avg": 6833.333333333333
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 13,
+      "repeat": 4,
+      "rate": 0.308
+    },
+    "giving_style": {
+      "general_pct": 0.333,
+      "program_pct": 0.667
+    },
+    "recipient_profile": {
+      "budget_min": 163310,
+      "budget_max": 1437818,
+      "budget_median": 643582,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.25
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.074,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "FOUR RIVERS OUTREACH INC",
+      "amount": 15000.0,
+      "purpose": "SUPPORT DENTAL CLINIC",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8888663275",
+      "email": null,
+      "app_contact_name": "KELLY GARLOCK BANK OF AMERICA",
+      "app_contact_phone": "2142092396",
+      "app_contact_email": "TX.PHILANTHROPIC@BOFA.COM",
+      "deadlines": "JANUARY 1 & AUGUST 1",
+      "restrictions": "Special consideration is given to charitable organizations that serve the people of Grayson County, Texas.",
+      "how_to_apply": "FOR GRANT GUIDELINES AND APPLICATION INFORMATION, GO TO: WWW.BANKOFAMERICA.COM/PHILANTHROPIC/SEARCH-FOR-GRANTS"
+    },
+    "officers": [
+      {
+        "name": "Bank Of America",
+        "title": "Trustee",
+        "compensation": 4750.0
+      }
+    ],
+    "foundation_ein": "756029209",
+    "foundation_name": "DR & MRS PAUL PIERCE MEMORIAL FOUNDATION",
+    "match_score": 99.8,
+    "match_rank": 43
+  },
+  {
+    "annual_giving": {
+      "total": 183345.0,
+      "count": 4,
+      "year": 2019
+    },
+    "typical_grant": {
+      "median": 20000.0,
+      "min": 1300.0,
+      "max": 262340.0,
+      "avg": 61335.625
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 6,
+      "repeat": 2,
+      "rate": 0.333
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 555380,
+      "budget_max": 1092963,
+      "budget_median": 576000,
+      "primary_sector": "B",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.403,
+      "oldest_year": 2018,
+      "newest_year": 2019
+    },
+    "comparable_grant": {
+      "recipient": "Austin Limestone Management Group",
+      "amount": 135000.0,
+      "purpose": "Educational portion of fraternity house",
+      "year": 2019
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "7137528628",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Kelly Fish",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "742560499",
+    "foundation_name": "Texas Alpha Endowment Fund Inc",
+    "match_score": 99.8,
+    "match_rank": 44
+  },
+  {
+    "annual_giving": {
+      "total": 77000.0,
+      "count": 3,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 14800.0,
+      "min": 1700.0,
+      "max": 46000.0,
+      "avg": 15727.51724137931
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 0.0,
+      "foundation_state": "IL"
+    },
+    "repeat_funding": {
+      "unique": 8,
+      "repeat": 7,
+      "rate": 0.875
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 610281,
+      "budget_max": 4438764,
+      "budget_median": 3434988,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.25
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.083,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "FAITH IN ACTION GEORGETOWN",
+      "amount": 12000.0,
+      "purpose": "GENERAL",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8004962583",
+      "email": null,
+      "app_contact_name": "JPMORGAN CHASE BANK NA- GARY AYMES",
+      "app_contact_phone": "2108417033",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "SUPPORTS SOUTHWESTERN UNIVERSITY AND ORGANIZATIONS FOR THE BENEFIT OF THE ELDERLY OPERATING IN AND NEAR GEORGETOWN TX GEORGETOWN, TX",
+      "how_to_apply": "NO APPLICATION FORM"
+    },
+    "officers": [
+      {
+        "name": "Richard L Anderson",
+        "title": "Trustee",
+        "compensation": 28679.0
+      }
+    ],
+    "foundation_ein": "766063590",
+    "foundation_name": "MINCHEN-BEVILLE FOUNDATION XXXXX5005",
+    "match_score": 99.8,
+    "match_rank": 45
+  },
+  {
+    "annual_giving": {
+      "total": 16800.0,
+      "count": 4,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 1200.0,
+      "min": 600.0,
+      "max": 9600.0,
+      "avg": 3100.0
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 8,
+      "repeat": 5,
+      "rate": 0.625
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 333572,
+      "budget_max": 14198502,
+      "budget_median": 790537,
+      "primary_sector": "A",
+      "primary_sector_pct": 0.571
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.018,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "REMEMBER THE ALAMO FOUNDATION",
+      "amount": 9600.0,
+      "purpose": "ANNUAL FUND/PROGRAM EXPENSES",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "2108272197",
+      "email": null,
+      "app_contact_name": "LAURA B BAUCUM",
+      "app_contact_phone": "2108272197",
+      "app_contact_email": "LAURABAUCUMM@GMAIL.COM",
+      "deadlines": "APRIL 30 OF EACH YEAR",
+      "restrictions": "CHARITABLE, EDUCATIONAL, SCIENTIFIC, RELIGIOUS, TAX-EXEMPT",
+      "how_to_apply": "WRITTEN REQUEST DESCRIBING USE & PURPOSE;PROOF OF TAX-EXEMPT STATUS"
+    },
+    "officers": [
+      {
+        "name": "Eugenia Bertetti",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "742553221",
+    "foundation_name": "EUGENIA & LAWRENCE A BERTETTI FOUNDATION",
+    "match_score": 99.7,
+    "match_rank": 46
+  },
+  {
+    "annual_giving": {
+      "total": 165500.0,
+      "count": 6,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 23500.0,
+      "min": 5000.0,
+      "max": 100000.0,
+      "avg": 35977.27272727273
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 0.818,
+      "in_state_pct": 0.0,
+      "foundation_state": "MI"
+    },
+    "repeat_funding": {
+      "unique": 10,
+      "repeat": 6,
+      "rate": 0.6
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 633470,
+      "budget_max": 10281672,
+      "budget_median": 1188420,
+      "primary_sector": "A",
+      "primary_sector_pct": 0.286
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.124,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "THE NATURE CONSERVANCY OF TEXAS",
+      "amount": 80500.0,
+      "purpose": "SUPPORT FOR DAILY",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3135844568",
+      "email": null,
+      "app_contact_name": "ANN SKILES MCGINTY",
+      "app_contact_phone": "7138628408",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "LIMITED TO NON-PROFIT ORGANIZATIONS LOCATED IN TEXAS",
+      "how_to_apply": "LETTER WITH INTRODUCTION, PROPOSAL, OBJECTIVES, AND GOALS FOR POTENTIAL GRANT"
+    },
+    "officers": [
+      {
+        "name": "Ann Skiles Mcginty",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "752845190",
+    "foundation_name": "THE SKILES FOUNDATION CO COMERICA BANK &",
+    "match_score": 99.7,
+    "match_rank": 47
+  },
+  {
+    "annual_giving": {
+      "total": 137325.0,
+      "count": 4,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 60912.5,
+      "min": 5000.0,
+      "max": 350000.0,
+      "avg": 126631.25
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 0.0,
+      "foundation_state": "NJ"
+    },
+    "repeat_funding": {
+      "unique": 11,
+      "repeat": 5,
+      "rate": 0.455
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 177052,
+      "budget_max": 16468437,
+      "budget_median": 2911034,
+      "primary_sector": "E",
+      "primary_sector_pct": 0.222
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.671,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CHRISTUS FOUNDATION FOR HEALTHCARE",
+      "amount": 64825.0,
+      "purpose": "healthcare and related services",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://www.localconditions.com/weather-pennington-new-jersey/08534/traffic.php",
+      "phone": "7139795566",
+      "email": null,
+      "app_contact_name": "DANIEL W DALY IIICO OAKS",
+      "app_contact_phone": "7139795566",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "written application stating organization and purpose"
+    },
+    "officers": [
+      {
+        "name": "Mark Dewayne Cook",
+        "title": "Pres., Treas, Dir",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "452423522",
+    "foundation_name": "MARK AND JUDITH COOK FOUNDATION",
+    "match_score": 99.7,
+    "match_rank": 48
+  },
+  {
+    "annual_giving": {
+      "total": 40000.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 10000.0,
+      "min": 100.0,
+      "max": 100000.0,
+      "avg": 26012.176470588234
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 10,
+      "repeat": 5,
+      "rate": 0.5
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 1719763,
+      "budget_max": 43053826,
+      "budget_median": 2022570,
+      "primary_sector": "T",
+      "primary_sector_pct": 0.286
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 2.516,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CASA DE MISERICORDIA",
+      "amount": 25000.0,
+      "purpose": "CHARITABLE",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "9567247141",
+      "email": null,
+      "app_contact_name": "DAVID W KILLAM",
+      "app_contact_phone": "9567247141",
+      "app_contact_email": null,
+      "deadlines": "DAVID W. KILLAM NONE",
+      "restrictions": "DAVID W. KILLAM NONE",
+      "how_to_apply": "DAVID W. KILLAM NONE"
+    },
+    "officers": [
+      {
+        "name": "David Killam",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "746473230",
+    "foundation_name": "Killam Family Foundation",
+    "match_score": 99.7,
+    "match_rank": 49
+  },
+  {
+    "annual_giving": {
+      "total": 10000.0,
+      "count": 3,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 2250.0,
+      "min": 701.0,
+      "max": 5000.0,
+      "avg": 2022.55
+    },
+    "geographic_focus": {
+      "top_state": "TX",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "TX"
+    },
+    "repeat_funding": {
+      "unique": 9,
+      "repeat": 6,
+      "rate": 0.667
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 108647,
+      "budget_max": 8189283,
+      "budget_median": 822302,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.25
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 3.0,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "AZLE CARING CENTER",
+      "amount": 5000.0,
+      "purpose": "DONATION",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8173003270",
+      "email": null,
+      "app_contact_name": "TONY HAAS",
+      "app_contact_phone": "8173003270",
+      "app_contact_email": null,
+      "deadlines": "DECEMBER 1.",
+      "restrictions": "PREFER LOCAL CHARITIES AND CAUSES.",
+      "how_to_apply": "IN PERSON."
+    },
+    "officers": [
+      {
+        "name": "Betty Haas",
+        "title": "Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "751716132",
+    "foundation_name": "EMANUEL FOUNDATION INC",
+    "match_score": 99.7,
+    "match_rank": 50
+  }
+]

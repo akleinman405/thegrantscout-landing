@@ -1,0 +1,285 @@
+[
+  {
+    "rank": 1,
+    "foundation_ein": "954019288",
+    "foundation_name": "HAROLD R SWANTON AND WINIFRED SWANTON",
+    "foundation_state": "WI",
+    "match_score": 99.9,
+    "match_probability": 0.9993932726338384,
+    "same_state": false,
+    "fit_score": 9,
+    "effort": "High",
+    "status": "MEDIUM",
+    "quality_tier": "strict",
+    "amount_min": 12500.0,
+    "amount_max": 37500.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 126675.0,
+        "count": 9,
+        "year": 2024
+      },
+      "typical_grant": {
+        "median": 12500.0,
+        "min": 2150.0,
+        "max": 29000.0,
+        "avg": 14374.545454545456
+      },
+      "geographic_focus": {
+        "top_state": "CA",
+        "top_state_pct": 0.886,
+        "in_state_pct": 0.0,
+        "foundation_state": "WI"
+      },
+      "repeat_funding": {
+        "unique": 14,
+        "repeat": 10,
+        "rate": 0.714
+      },
+      "giving_style": {
+        "general_pct": 0.409,
+        "program_pct": 0.591
+      },
+      "recipient_profile": {
+        "budget_min": 9750558,
+        "budget_max": 228182619,
+        "budget_median": 36299298,
+        "primary_sector": "E",
+        "primary_sector_pct": 0.5
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": -0.1,
+        "oldest_year": 2022,
+        "newest_year": 2024
+      },
+      "comparable_grant": {
+        "recipient": "CA AQUATIC THERAPY AND WELLNESS CENTER",
+        "amount": 25000.0,
+        "purpose": "GENERAL OPERATING",
+        "year": 2024
+      },
+      "contact": {
+        "website_url": null,
+        "phone": "8584100986",
+        "email": null,
+        "app_contact_name": "US BANK N A",
+        "app_contact_phone": "8584100986",
+        "app_contact_email": null,
+        "deadlines": "NONE LIMITED TO MEDICAL FIELD (PULMONIC)",
+        "restrictions": null,
+        "how_to_apply": "IN LETTER FORM WITH INFORMATION REGARDING THE PUBLIC CHARITY"
+      },
+      "officers": [
+        {
+          "name": "Us Bank N A",
+          "title": "Trustee",
+          "compensation": 40944.0
+        }
+      ],
+      "foundation_ein": "954019288",
+      "foundation_name": "HAROLD R SWANTON AND WINIFRED SWANTON",
+      "match_score": 99.9,
+      "match_rank": 249
+    },
+    "comparable_grant": {
+      "recipient": "CA AQUATIC THERAPY AND WELLNESS CENTER",
+      "amount": 25000.0,
+      "purpose": "GENERAL OPERATING",
+      "year": 2024
+    },
+    "connections": [],
+    "deadline": "Rolling",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": [],
+    "viability": {
+      "tier": "conditional",
+      "tier_reason": "Application process unclear - contact to verify",
+      "multiplier": 0.5,
+      "adjusted_score": 4.5,
+      "unsolicited_status": "unknown",
+      "unsolicited_reason": "Application process unclear - contact foundation",
+      "fit_rating_enriched": "moderate",
+      "red_flags": [
+        "Extremely limited public information - only accessible through nonprofit databases",
+        "No website or published grant guidelines",
+        "Specific medical focus (pulmonic conditions) may exclude patient safety work unless directly clinical",
+        "Administrative structure through bank suggests formal, institutional giving patterns",
+        "No evidence of interest in healthcare quality/safety rather than condition-specific treatment"
+      ],
+      "recommendation": "POSSIBLE with CAUTION - HIGHEST PRIORITY OF FAMILY FOUNDATIONS. Foundation has explicit medical field focus which is more aligned with PSMF than most other targets. However, lack of public information, specific pulmonic focus, and unclear grant process present challenges. STRONGLY RECOMMEND: (1) Phone contact through US Bank NA (858-410-0986) to inquire about current grant interests, application process, and whether patient safety/quality improvement fits within foundation scope, (2) Request and review recent 990-PF filings to understand recent grantee patterns and infer true priorities, (3) Assess whether PSMF can articulate specific pulmonary/respiratory patient safety work. Probability 25-40% is highest among family foundations but still uncertain due to limited transparency. This is the only realistic target among the three family foundations."
+    },
+    "current_opportunities": [
+      {
+        "name": "Medical Field Grants",
+        "description": "Foundation has documented focus on medical field with specific interest in pulmonary/pulmonic conditions. Supports schools, colleges, and cultural organizations.",
+        "deadline": "NONE (per available records) - Limited to medical field",
+        "amount_min": null,
+        "amount_max": null,
+        "focus": "Medical field broadly, specifically pulmonic/pulmonary conditions",
+        "url": null,
+        "eligibility": "Medical research and clinical organizations. Patient safety fit uncertain.",
+        "fit_with_psmf": "Potential - If foundation has interest in clinical safety within pulmonary/respiratory care"
+      }
+    ],
+    "foundation_priorities": [
+      "Medical field organizations (broad)",
+      "Pulmonary/Pulmonic conditions (specific focus noted)",
+      "Schools and cultural organizations (per IRS activity codes)"
+    ]
+  },
+  {
+    "rank": 2,
+    "foundation_ein": "874124934",
+    "foundation_name": "BHAVNANI FAMILY FOUNDATION",
+    "foundation_state": "CA",
+    "match_score": 99.9,
+    "match_probability": 0.9992838769348594,
+    "same_state": true,
+    "fit_score": 10,
+    "effort": "High",
+    "status": "MEDIUM",
+    "quality_tier": "strict",
+    "amount_min": 5000.0,
+    "amount_max": 15000.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 168500.0,
+        "count": 6,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 10000.0,
+        "min": 1000.0,
+        "max": 117500.0,
+        "avg": 26571.428571428572
+      },
+      "geographic_focus": {
+        "top_state": "CA",
+        "top_state_pct": 0.714,
+        "in_state_pct": 0.714,
+        "foundation_state": "CA"
+      },
+      "repeat_funding": {
+        "unique": 6,
+        "repeat": 1,
+        "rate": 0.167
+      },
+      "giving_style": {
+        "general_pct": 0.143,
+        "program_pct": 0.857
+      },
+      "recipient_profile": {
+        "budget_min": 34477997,
+        "budget_max": 827031106,
+        "budget_median": 44122579,
+        "primary_sector": "B",
+        "primary_sector_pct": 0.333
+      },
+      "funding_trend": {
+        "direction": "Growing",
+        "change_pct": 8.629,
+        "oldest_year": 2022,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "WINDWARD SCHOOL",
+        "amount": 10000.0,
+        "purpose": "EDUCATION",
+        "year": 2023
+      },
+      "contact": {
+        "website_url": null,
+        "phone": "8186239898",
+        "email": null,
+        "app_contact_name": null,
+        "app_contact_phone": null,
+        "app_contact_email": null,
+        "deadlines": null,
+        "restrictions": null,
+        "how_to_apply": null
+      },
+      "officers": [
+        {
+          "name": "Kumar Bhavnani",
+          "title": "Chairman",
+          "compensation": 0.0
+        }
+      ],
+      "foundation_ein": "874124934",
+      "foundation_name": "BHAVNANI FAMILY FOUNDATION",
+      "match_score": 99.9,
+      "match_rank": 261
+    },
+    "comparable_grant": {
+      "recipient": "WINDWARD SCHOOL",
+      "amount": 10000.0,
+      "purpose": "EDUCATION",
+      "year": 2023
+    },
+    "connections": [
+      {
+        "type": "geographic",
+        "description": "Both based in CA",
+        "strength": "strong"
+      },
+      {
+        "type": "sector_alignment",
+        "description": "Foundation funds 50% Education organizations",
+        "strength": "strong",
+        "sector": "B",
+        "percentage": 0.5
+      }
+    ],
+    "deadline": "Not published",
+    "portal_url": "",
+    "contact_name": "None identified - Family-operated foundation",
+    "contact_email": "",
+    "contact_phone": "8186239898",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": [],
+    "viability": {
+      "tier": "watch",
+      "tier_reason": "Unclear process and uncertain fit",
+      "multiplier": 0.3,
+      "adjusted_score": 3.0,
+      "unsolicited_status": "unknown",
+      "unsolicited_reason": "Application process unclear - contact foundation",
+      "fit_rating_enriched": "unknown",
+      "red_flags": [
+        "Very small asset base ($870K) with limited annual giving capacity (~$177K)",
+        "No public website or published grant guidelines",
+        "No specified funding priorities or focus areas",
+        "Minimal online presence suggests either dormancy or very informal operation",
+        "Average grant size (~$28K) is significantly below typical institutional nonprofit funding needs"
+      ],
+      "recommendation": "POSSIBLE but LIMITED. Small asset base and unclear priorities suggest low-to-moderate probability. Worth investigating further if PSMF has California nonprofit networks or connections that know this family foundation. Direct phone outreach (818-623-9898) to ask about funding interests and application process recommended. Assess fit only if foundation confirms healthcare/safety interest. Not priority target unless connection exists or foundation articulates relevant mission."
+    },
+    "deadline_source": "enrichment",
+    "current_opportunities": [
+      {
+        "name": "General Discretionary Grants",
+        "description": "No specific grant programs identified. Foundation appears to distribute grants at discretion of family leadership.",
+        "deadline": "Not published",
+        "amount_min": null,
+        "amount_max": null,
+        "focus": "Unrestricted - No specified focus areas documented",
+        "url": null,
+        "eligibility": "Unknown - No published application process"
+      }
+    ],
+    "foundation_priorities": [
+      "No specified focus areas listed in public documents",
+      "Past grantees located in: Closter NJ, Hagerstown MD, Los Angeles CA",
+      "Geographic coverage: California, Maryland, New Jersey"
+    ]
+  }
+]

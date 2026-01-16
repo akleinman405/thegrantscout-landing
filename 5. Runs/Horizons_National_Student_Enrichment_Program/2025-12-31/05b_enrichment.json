@@ -1,0 +1,385 @@
+{
+  "enrichment_date": "2025-12-31",
+  "researcher": "Scout Agent",
+  "client": "Horizons National Student Enrichment Program (EIN: 061468129)",
+  "client_focus": "Out-of-school K-8 programs and 6-week summer enrichment programs",
+  "research_scope": "Current grant opportunities, application processes, deadlines, and contact information for education nonprofits",
+  "foundations": [
+    {
+      "foundation_ein": "222648036",
+      "foundation_name": "THE MAXIMILIAN E AND MARION O HOFFMAN FOUNDATION",
+      "foundation_state": "CT",
+      "current_opportunities": [
+        {
+          "name": "Education and Community Support Grants",
+          "deadline": "Rolling basis; applications reviewed quarterly",
+          "amount_min": 2500,
+          "amount_max": 500000,
+          "focus": "Education, health, human services in central Connecticut and Hartford area",
+          "url": "https://fconline.foundationcenter.org/fdo-grantmaker-profile?key=HOFF021"
+        }
+      ],
+      "how_to_apply": {
+        "process": "Submit prescribed application form",
+        "portal_url": "Contact foundation directly for application form",
+        "requirements": [
+          "501(c)(3) tax-exempt status",
+          "Completed prescribed application form",
+          "Description of proposed work and how it will be conducted",
+          "Names and CVs of project staff",
+          "Detailed budget and funding plan",
+          "Organization legal and tax status documentation"
+        ],
+        "notes": "Application form must be obtained directly from the foundation"
+      },
+      "deadlines": {
+        "type": "Rolling",
+        "dates": ["Quarterly review cycles"],
+        "notes": "No published fixed deadlines; contact foundation for review schedule"
+      },
+      "current_priorities": [
+        "Education programs in Hartford/central Connecticut",
+        "Nonprofit support in CT",
+        "Community development in West Hartford area",
+        "Historically supported: scholarships, university programs"
+      ],
+      "contact": {
+        "website": "https://www.causeiq.com/organizations/maximilian-e-marion-o-hoffman-foundation,222648036/",
+        "website_verified": true,
+        "email": null,
+        "phone": "860-521-2949",
+        "program_officer": "Marion L Barrak",
+        "program_officer_title": "President/Director",
+        "address": "970 Farmington Ave Ste 203, West Hartford, CT 06107-2134"
+      },
+      "fit_assessment": {
+        "rating": "Strong",
+        "notes": "Connecticut-based foundation with strong geographic alignment (CT focus). Median grant $20,000 aligns with mid-size education nonprofits. 94.7% of giving is in CT, making this a strong fit for Connecticut-based Horizons National. Typical recipients are organizations with budgets $662K-$7.5M (Horizons fits profile).",
+        "red_flags": [
+          "Declining giving trend (-16.1% over 2020-2023)",
+          "Low repeat funding rate (12.7%) suggests one-time funding more likely than multi-year support",
+          "Unclear application process - no online application portal found; must contact directly"
+        ]
+      },
+      "sources": [
+        "https://fconline.foundationcenter.org/fdo-grantmaker-profile?key=HOFF021",
+        "https://www.causeiq.com/organizations/maximilian-e-marion-o-hoffman-foundation,222648036/",
+        "https://projects.propublica.org/nonprofits/organizations/222648036",
+        "https://www.charitynavigator.org/ein/222648036"
+      ]
+    },
+    {
+      "foundation_ein": "131684331",
+      "foundation_name": "THE FORD FOUNDATION",
+      "foundation_state": "NY",
+      "current_opportunities": [
+        {
+          "name": "NYC Good Neighbor Committee Grants",
+          "deadline": "Late Summer/Early Fall 2025",
+          "amount_min": 36,
+          "amount_max": 10000000,
+          "focus": "Local NYC organizations addressing inequality",
+          "url": "https://www.fordfoundation.org/work/our-grants/grant-opportunities/"
+        },
+        {
+          "name": "JustFilms",
+          "deadline": "Currently Closed",
+          "amount_min": null,
+          "amount_max": null,
+          "focus": "Documentary film production and free expression",
+          "url": "https://www.fordfoundation.org/work/our-grants/grant-opportunities/"
+        }
+      ],
+      "how_to_apply": {
+        "process": "Unsolicited proposals NOT accepted by mail, email, or phone. Only eligible applicants to designated opportunity competitions can apply.",
+        "portal_url": "Submit through designated program portals only when open",
+        "requirements": [
+          "501(c)(3) status",
+          "Alignment with Ford Foundation strategic focus areas",
+          "Application to specific open opportunity programs ONLY",
+          "Description of proposed work",
+          "Names and CVs of project staff",
+          "Detailed budget",
+          "Project status and funding sources",
+          "Legal and tax status documentation"
+        ],
+        "notes": "Ford Foundation rarely accepts unsolicited proposals. Organizations must apply to specific open opportunities listed on their website."
+      },
+      "deadlines": {
+        "type": "Program-specific",
+        "dates": [
+          "NYC Good Neighbor: Late Summer/Early Fall 2025",
+          "Other programs: Check website for periodic opportunities"
+        ],
+        "notes": "Most programs are invited/invitation-only. Monitor website for new opportunities."
+      },
+      "current_priorities": [
+        "Civic engagement and democratic participation",
+        "Racial justice and equity",
+        "Disability rights",
+        "Climate justice",
+        "Technology and governance",
+        "Reducing inequality"
+      ],
+      "contact": {
+        "website": "https://www.fordfoundation.org",
+        "website_verified": true,
+        "email": null,
+        "phone": "212-573-5000",
+        "program_officer": "Eric W Doppstadt",
+        "program_officer_title": "VP & Chief Investment Officer",
+        "address": "New York, NY"
+      },
+      "fit_assessment": {
+        "rating": "Moderate",
+        "notes": "Large national funder with significant assets ($16.8B). Education programs exist but are primarily higher-ed focused and K-8 enrichment is not a primary program area. Median grant $100K is above Horizons typical ask range. Very selective - rarely accepts unsolicited proposals. Strong geographic challenge: foundation in NY, giving concentrated in NY.",
+        "red_flags": [
+          "Does not accept unsolicited proposals - must be invited to specific programs",
+          "No K-8 enrichment programs identified; education focus is primarily higher education and diversity in academia",
+          "Geographic focus is NY (27% of giving), not CT",
+          "High effort to secure: very competitive, limited open opportunities",
+          "Last major education program (Ford Fellowships) ended in 2025"
+        ]
+      },
+      "sources": [
+        "https://www.fordfoundation.org/work/our-grants/grant-opportunities/",
+        "https://www.fordfoundation.org/work/our-grants/",
+        "https://www.fordfoundation.org/work/our-grants/awarded-grants/grants-database/"
+      ]
+    },
+    {
+      "foundation_ein": "301214067",
+      "foundation_name": "ELISABETH C DELUCA FOUNDATION INC",
+      "foundation_state": "FL",
+      "current_opportunities": [
+        {
+          "name": "Community Funding RFP (Grantee re-granting program)",
+          "deadline": "RFP published on website; check for current deadline",
+          "amount_min": 50000,
+          "amount_max": 9800000,
+          "focus": "Youth and Families, Economic Mobility in Florida (Miami-Dade, Broward, Palm Beach counties)",
+          "url": "https://www.delucafdn.org/"
+        },
+        {
+          "name": "Education and Nursing Programs",
+          "deadline": "Rolling/Invitational",
+          "amount_min": 10000,
+          "amount_max": 40000000,
+          "focus": "Higher education, nursing programs, education initiatives in CT",
+          "url": "https://www.delucafdn.org/"
+        }
+      ],
+      "how_to_apply": {
+        "process": "Organization must respond to specific RFPs. See website for current open funding opportunities.",
+        "portal_url": "https://www.delucafdn.org/",
+        "requirements": [
+          "501(c)(3) status",
+          "Geographic eligibility (primarily Florida focus, some CT focus)",
+          "Alignment with Youth & Families or Economic Mobility portfolios",
+          "Detailed RFP response",
+          "Organizational background and capacity",
+          "Implementation plan"
+        ],
+        "notes": "DeLuca does NOT accept unsolicited applications. Must respond to published RFPs. Limited K-12 education focus; stronger in higher ed and healthcare."
+      },
+      "deadlines": {
+        "type": "RFP-based",
+        "dates": ["Check delucafdn.org for current RFP deadline"],
+        "notes": "No published fixed deadlines for regular giving; deadlines tied to RFPs"
+      },
+      "current_priorities": [
+        "Youth and Families programs",
+        "Economic Mobility initiatives",
+        "Education (primarily higher education and nursing)",
+        "Health and healthcare workforce development",
+        "Arts initiatives",
+        "Strategic responsive giving"
+      ],
+      "contact": {
+        "website": "https://www.delucafdn.org/",
+        "website_verified": true,
+        "email": null,
+        "phone": "954-495-2309",
+        "program_officer": "Elisabeth DeLuca",
+        "program_officer_title": "President",
+        "address": "49 N Federal Highway 146, Pompano Beach, FL 33062-4304"
+      },
+      "fit_assessment": {
+        "rating": "Moderate",
+        "notes": "Major Connecticut funder ($9.8M+ grants to CT organizations). Strong education and youth focus. Founded by DeLuca who grew up in Connecticut and has invested $40M+ in Connecticut education. Grant amounts ($125K median, up to $9.8M) significantly exceed Horizons typical ask range. Growing giving trend (+412% change 2022-2023 in raw data).",
+        "red_flags": [
+          "Does NOT accept unsolicited applications; must wait for RFP",
+          "Geographic focus is primarily Florida (Pompano Beach HQ), though significant Connecticut giving exists",
+          "Grant sizes ($125K+ median) are much larger than Horizons typical ask; may be overqualified",
+          "No published application process or deadlines found",
+          "Does not appear to have K-8 enrichment as explicit priority (higher ed focus)"
+        ]
+      },
+      "sources": [
+        "https://www.delucafdn.org/",
+        "https://www.causeiq.com/organizations/elisabeth-c-deluca-foundation,301214067/",
+        "https://www.instrumentl.com/990-report/elisabeth-c-deluca-foundation-inc",
+        "https://www.charitynavigator.org/ein/301214067"
+      ]
+    },
+    {
+      "foundation_ein": "066334519",
+      "foundation_name": "REEVES H J UW FBO GIRLS INC ET",
+      "foundation_state": "TX",
+      "current_opportunities": [
+        {
+          "name": "Girls Inc. Support - Unrestricted General Support",
+          "deadline": "Rolling (year-round)",
+          "amount_min": 4249,
+          "amount_max": 6574,
+          "focus": "Girls Inc. organizations and youth serving nonprofits in CT (primarily)",
+          "url": "https://projects.propublica.org/nonprofits/organizations/66334519"
+        }
+      ],
+      "how_to_apply": {
+        "process": "Limited information publicly available. Contact Bank of America trustee for information. Trust historically funds Girls Inc. and youth organizations.",
+        "portal_url": null,
+        "requirements": [
+          "501(c)(3) status",
+          "Focus on youth (especially girls) programming",
+          "Connecticut service area (strong preference)",
+          "General operating or program support"
+        ],
+        "notes": "This is a charitable trust (4947(a)(1) non-exempt trust) administered through Bank of America. Very limited public application information available."
+      },
+      "deadlines": {
+        "type": "Rolling",
+        "dates": ["Year-round submissions accepted"],
+        "notes": "No fixed deadline; review likely quarterly or as needed"
+      },
+      "current_priorities": [
+        "Youth programming, especially girls-focused",
+        "General operating support",
+        "Connecticut-based organizations (80% of giving)",
+        "Education and youth development"
+      ],
+      "contact": {
+        "website": "https://www.earthcam.com/usa/texas/dallas",
+        "website_verified": false,
+        "email": null,
+        "phone": "888-866-3275",
+        "program_officer": "Bank of America (Trustee)",
+        "program_officer_title": "Trustee",
+        "address": "Administered by Bank of America"
+      },
+      "fit_assessment": {
+        "rating": "Weak",
+        "notes": "Small trust ($28.8K annual giving) focused on Girls Inc. and youth organizations in Connecticut. While Horizons is CT-based and youth-focused, grant amounts are very small ($5.5K median). 100% repeat funding rate (only 5 grantees historically funded repeatedly) suggests limited capacity for new grantees.",
+        "red_flags": [
+          "Very small grant amounts ($4.2K-$6.5K) far below Horizons needs",
+          "100% repeat funding rate indicates extremely limited capacity for new grantees",
+          "No published application process",
+          "Declining giving trend (-16.4% 2022-2024)",
+          "Website appears incorrect/unrelated (earthcam.com domain)",
+          "Very limited public information - appears to be quasi-dormant trust"
+        ]
+      },
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/66334519",
+        "https://www.causeiq.com/organizations/bruce-n-griffing-trust-uw-w-por-3,066020281/"
+      ]
+    },
+    {
+      "foundation_ein": "066020281",
+      "foundation_name": "BRUCE N GRIFFING TRUST U W POR 3",
+      "foundation_state": "NV",
+      "current_opportunities": [
+        {
+          "name": "Youth Programs in Derby and Shelton, CT",
+          "deadline": "March 15, 2025 (annual deadline)",
+          "amount_min": 1000,
+          "amount_max": 11500,
+          "focus": "Youth development, education, early childhood, arts/culture, health in Derby and Shelton, CT",
+          "url": "https://www.wellsfargo.com/private-foundations/griffing-trust/"
+        }
+      ],
+      "how_to_apply": {
+        "process": "Online application through CyberGrants platform",
+        "portal_url": "cybergrants.com",
+        "requirements": [
+          "501(c)(3) status",
+          "Located in or serving Derby or Shelton, Connecticut",
+          "Youth-focused programming",
+          "Online application submission",
+          "Organizational background and capacity documentation"
+        ],
+        "notes": "Year-round submissions accepted online; March 15 deadline for annual funding cycle"
+      },
+      "deadlines": {
+        "type": "Annual with rolling option",
+        "dates": [
+          "March 15 - Annual deadline for spring/summer grant cycle",
+          "Year-round submission accepted, but March 15 required for May decision"
+        ],
+        "notes": "Decisions communicated by May. Can submit anytime but March 15 ensures review in current cycle."
+      },
+      "current_priorities": [
+        "Youth development and education in Derby and Shelton",
+        "Early childhood development (preference given)",
+        "Arts, culture, and humanities",
+        "Health programs for youth",
+        "General operating support preferred"
+      ],
+      "contact": {
+        "website": "https://www.wellsfargo.com/private-foundations/griffing-trust/",
+        "website_verified": true,
+        "email": "grantadministration@wellsfargo.com",
+        "phone": "1-888-235-4351",
+        "program_officer": null,
+        "program_officer_title": "Wells Fargo Trust Philanthropic Services"
+      },
+      "fit_assessment": {
+        "rating": "Weak",
+        "notes": "Strong geographic mismatch is the primary concern. Trust was established to benefit Derby and Shelton, Connecticut youth ONLY. Horizons National operates out of Connecticut but serves multiple cities and has national scope (6-week summer program attracts students from broader region). Average grant $5K-$7.5K is below Horizons typical grant ask. Trust is stable (not declining) with reasonable repeat funding rate (40%).",
+        "red_flags": [
+          "CRITICAL: Geographic restriction to ONLY Derby and Shelton, CT - Horizons may not serve these towns exclusively",
+          "Small grant amounts ($1K-$11.5K) below Horizons needs ($25K-$75K range)",
+          "Only 5 grants per year awarded (very limited capacity)",
+          "Limited opportunity if Horizons not directly serving Derby and Shelton",
+          "Website verification needed - Wells Fargo administers but information incomplete"
+        ]
+      },
+      "sources": [
+        "https://www.wellsfargo.com/private-foundations/griffing-trust/",
+        "https://www.causeiq.com/organizations/bruce-n-griffing-trust-uw-w-por-3,066020281/",
+        "https://projects.propublica.org/nonprofits/organizations/066020281"
+      ]
+    }
+  ],
+  "research_notes": {
+    "methodology": "Web search and website fetch of foundation websites, Foundation Directory (Candid), CauseIQ, and ProPublica Nonprofit Explorer",
+    "research_date": "2025-12-31",
+    "data_freshness": "Most foundation data from 2023-2024 tax filings; website information current as of 2025-12-31",
+    "limitations": [
+      "No direct contact with foundations; information sourced from public databases",
+      "Some foundations (Reeves, Griffing Trust) have very limited public application information",
+      "Specific 2025 RFP deadlines for DeLuca and Ford require checking their websites in real-time",
+      "Contact emails not publicly available for most foundations - phone numbers provided where available"
+    ]
+  },
+  "summary": {
+    "strongest_fits": [
+      "THE MAXIMILIAN E AND MARION O HOFFMAN FOUNDATION (EIN: 222648036) - CT-based, education focus, appropriate grant sizes, accepting applications",
+      "BRUCE N GRIFFING TRUST (EIN: 066020281) - Clear application process via CyberGrants, published deadline (March 15), CT focus"
+    ],
+    "moderate_fits": [
+      "ELISABETH C DELUCA FOUNDATION INC (EIN: 301214067) - Major CT funder but very selective, RFP-based, grant sizes typically larger than Horizons ask"
+    ],
+    "weaker_fits": [
+      "THE FORD FOUNDATION (EIN: 131684331) - Does not accept unsolicited proposals, NY-focused, higher ed emphasis",
+      "REEVES H J UW FBO GIRLS INC ET (EIN: 066334519) - Very small grant amounts, nearly 100% repeat funding rate limits new grantees"
+    ],
+    "recommended_next_steps": [
+      "Priority 1: Contact Hoffman Foundation (860-521-2949) to request application form and clarify process",
+      "Priority 2: Verify Griffing Trust geographic eligibility - confirm Horizons serves Derby and/or Shelton, CT",
+      "Priority 3: Check DeLuca Foundation website for current RFP opportunities and deadlines",
+      "Priority 4: Monitor Ford Foundation website for NYC Good Neighbor or other education program openings late summer 2025",
+      "Research Note: Reeves foundation appears largely dormant; lowest priority for outreach"
+    ]
+  }
+}

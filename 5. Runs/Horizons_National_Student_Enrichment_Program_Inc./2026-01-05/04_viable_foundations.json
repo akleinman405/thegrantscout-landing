@@ -1,0 +1,611 @@
+{
+  "client": "Horizons National Student Enrichment Program Inc.",
+  "client_short_name": "HN",
+  "run_date": "2026-01-05",
+  "filter_date": "2026-01-06T16:16:18.322745",
+  "settings": {
+    "top_n_processed": 20,
+    "include_watch": false,
+    "include_skip": false
+  },
+  "summary": {
+    "total_processed": 23,
+    "total_output": 23,
+    "tier_counts": {
+      "ready": 3,
+      "conditional": 17,
+      "watch": 0,
+      "skip": 0
+    },
+    "excluded": 0
+  },
+  "foundations": [
+    {
+      "rank": 1,
+      "foundation_ein": "381359264",
+      "foundation_name": "WK Kellogg Foundation",
+      "foundation_state": "MI",
+      "foundation_city": "",
+      "match_score": 2003.0,
+      "adjusted_score": 2003.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 1.0,
+        "reason": "Curated - manually researched match"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "online",
+        "red_flags": [],
+        "program_priorities": "Curated foundation - annual giving $286,480,516",
+        "geographic_focus": "National",
+        "grant_range_stated": null,
+        "last_enriched": "2026-01-06T16:14:45.916305",
+        "enrichment_source": "curated",
+        "enrichment_notes": "Manually researched and added to pipeline"
+      },
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null,
+      "source": "curated"
+    },
+    {
+      "rank": 2,
+      "foundation_ein": "131623901",
+      "foundation_name": "FOUNDATION FOR CHILD DEVELOPMENT",
+      "foundation_state": "NY",
+      "foundation_city": "",
+      "match_score": 2002.0,
+      "adjusted_score": 2002.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 1.0,
+        "reason": "Curated - manually researched match"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "online",
+        "red_flags": [],
+        "program_priorities": "Curated foundation - annual giving $3,486,501",
+        "geographic_focus": "National",
+        "grant_range_stated": null,
+        "last_enriched": "2026-01-06T16:14:45.916328",
+        "enrichment_source": "curated",
+        "enrichment_notes": "Manually researched and added to pipeline"
+      },
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null,
+      "source": "curated"
+    },
+    {
+      "rank": 3,
+      "foundation_ein": "351813228",
+      "foundation_name": "Lumina Foundation for Education Inc",
+      "foundation_state": "IN",
+      "foundation_city": "",
+      "match_score": 2001.0,
+      "adjusted_score": 2001.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 1.0,
+        "reason": "Curated - manually researched match"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "online",
+        "red_flags": [],
+        "program_priorities": "Curated foundation - annual giving $55,173,681",
+        "geographic_focus": "National",
+        "grant_range_stated": null,
+        "last_enriched": "2026-01-06T16:14:45.916337",
+        "enrichment_source": "curated",
+        "enrichment_notes": "Manually researched and added to pipeline"
+      },
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null,
+      "source": "curated"
+    },
+    {
+      "rank": 4,
+      "foundation_ein": "832495796",
+      "foundation_name": "Torrington Savings Foundation",
+      "foundation_state": "DE",
+      "foundation_city": "",
+      "match_score": 890.21,
+      "adjusted_score": 801.19,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.9,
+        "reason": "Open application process"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "open",
+        "red_flags": [
+          "limited_to_litchfield_county"
+        ],
+        "program_priorities": "Affordable Housing, Education, Human Services",
+        "geographic_focus": "35 CT towns in Litchfield County area",
+        "grant_range_stated": "$111K in fall cycle (total)",
+        "last_enriched": "2026-01-05 21:55:17.224670",
+        "enrichment_source": null,
+        "enrichment_notes": "Education focus includes pre-literacy, after-school, summer camps, financial literacy. Limited to Litchfield County area towns."
+      },
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": "https://torringtonsavings.bank/foundation/",
+      "deadline": null,
+      "deadline_notes": "Spring (April 1) and Fall"
+    },
+    {
+      "rank": 5,
+      "foundation_ein": "046037391",
+      "foundation_name": "WILLIAM CASPAR GRAUSTEIN MEMORIAL FUND",
+      "foundation_state": "CT",
+      "foundation_city": "",
+      "match_score": 621.52,
+      "adjusted_score": 590.44,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.95,
+        "reason": "Open application process"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "open",
+        "red_flags": [],
+        "program_priorities": "Education, youth, early childhood",
+        "geographic_focus": "Connecticut",
+        "grant_range_stated": "$25K - $100K",
+        "last_enriched": "2026-01-05 21:55:17.221773",
+        "enrichment_source": null,
+        "enrichment_notes": "CT education leader - excellent fit for HN"
+      },
+      "website": "https://WWW.WCGMF.ORG",
+      "contact_name": "Gislaine Ngounou",
+      "contact_email": null,
+      "contact_phone": "203-230-3330",
+      "application_url": "https://wcgmf.org",
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 6,
+      "foundation_ein": "061413251",
+      "foundation_name": "THE AHEARN FAMILY FOUNDATION",
+      "foundation_state": "CT",
+      "foundation_city": "",
+      "match_score": 618.92,
+      "adjusted_score": 557.03,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.9,
+        "reason": "Open application process"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "open",
+        "red_flags": [
+          "hartford_county_only"
+        ],
+        "program_priorities": "Poor/needy programs, arts, education (27% education/youth)",
+        "geographic_focus": "Hartford County, CT",
+        "grant_range_stated": "$2K - $10K",
+        "last_enriched": "2026-01-05 21:55:17.225697",
+        "enrichment_source": null,
+        "enrichment_notes": "Hartford County only - check if Horizons affiliates there."
+      },
+      "website": "https://WWW.AHEARNFF.ORG",
+      "contact_name": "Caroline Toce",
+      "contact_email": "caroline.toce@cttrustee.com",
+      "contact_phone": "203-987-3660",
+      "application_url": "https://ahearnff.org",
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 7,
+      "foundation_ein": "066235627",
+      "foundation_name": "LASZIG IJ TR",
+      "foundation_state": "MO",
+      "foundation_city": "",
+      "match_score": 863.21,
+      "adjusted_score": 604.25,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.grantable.co/search/funders/profile/laszig-ij-tr-us-foundation-066235627",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 8,
+      "foundation_ein": "066027576",
+      "foundation_name": "ELIZABETH CARSE FOUNDATION",
+      "foundation_state": "TX",
+      "foundation_city": "",
+      "match_score": 836.6,
+      "adjusted_score": 585.62,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.insidephilanthropy.com/find-a-grant-places/connecticut-grants/elizabeth-carse-foundation",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 9,
+      "foundation_ein": "066030489",
+      "foundation_name": "THOMAS ATKINS MEML FD TR UW",
+      "foundation_state": "TX",
+      "foundation_city": "",
+      "match_score": 805.8,
+      "adjusted_score": 564.06,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://eintaxid.com/company/066030489-thomas-j-atkins-memorial-fund-trust-nect",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 10,
+      "foundation_ein": "066502822",
+      "foundation_name": "LARRY W MCCURDY FAMILY FOUNDATION",
+      "foundation_state": "FL",
+      "foundation_city": "",
+      "match_score": 794.17,
+      "adjusted_score": 555.92,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.taxexemptworld.com/organizations/the-villages-fl-32163.asp",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 11,
+      "foundation_ein": "066446073",
+      "foundation_name": "BAUER ERWIN C CHAR TUW",
+      "foundation_state": "MO",
+      "foundation_city": "",
+      "match_score": 758.08,
+      "adjusted_score": 530.66,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.wellsfargo.com/private-foundations/bauer-charitable-trust-fund",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 12,
+      "foundation_ein": "061542290",
+      "foundation_name": "OLGA SIPOLIN CHILDREN'S FUND",
+      "foundation_state": "TX",
+      "foundation_city": "",
+      "match_score": 744.5,
+      "adjusted_score": 521.15,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://grantexec.com/grants/6d799d72-985e-45a4-9662-6ed26165a7a8",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 13,
+      "foundation_ein": "066040150",
+      "foundation_name": "MARION ISABELL COE FUND",
+      "foundation_state": "TX",
+      "foundation_city": "",
+      "match_score": 741.77,
+      "adjusted_score": 519.24,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.insidephilanthropy.com/find-a-grant-places/connecticut-grants/marion-isabell-coe-fund",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 14,
+      "foundation_ein": "222648036",
+      "foundation_name": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+      "foundation_state": "CT",
+      "foundation_city": "",
+      "match_score": 647.8,
+      "adjusted_score": 518.24,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.8,
+        "reason": "May accept applications - verify before outreach"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "open",
+        "red_flags": [
+          "Unclear application process - no online applicatio",
+          "Declining giving trend (-16.1% over 2020-2023)",
+          "Low repeat funding rate (12.7%) suggests one-time "
+        ],
+        "program_priorities": "Education programs in Hartford/central Connecticut, Nonprofit support in CT, Community development in West Hartford area, Historically supported: scholarships, university programs",
+        "geographic_focus": null,
+        "grant_range_stated": null,
+        "last_enriched": "2026-01-01 14:52:34.256875",
+        "enrichment_source": "https://fconline.foundationcenter.org/fdo-grantmaker-profile?key=HOFF021",
+        "enrichment_notes": "Connecticut-based foundation with strong geographic alignment (CT focus). Median grant $20,000 aligns with mid-size education nonprofits. 94.7% of giving is in CT, making this a strong fit for Connecticut-based Horizons National. Typical recipients are organizations with budgets $662K-$7.5M (Horizons fits profile)."
+      },
+      "website": "https://fconline.foundationcenter.org/fdo-grantmaker-profile?key=HOFF021",
+      "contact_name": "Marion L Barrak",
+      "contact_email": null,
+      "contact_phone": "860-521-2949",
+      "application_url": "Contact foundation directly for application form",
+      "deadline": null,
+      "deadline_notes": "No published fixed deadlines; contact foundation for review schedule"
+    },
+    {
+      "rank": 15,
+      "foundation_ein": "066038194",
+      "foundation_name": "AGED & INDIGNT WOMEN'S FD D LANE",
+      "foundation_state": "TX",
+      "foundation_city": "",
+      "match_score": 729.79,
+      "adjusted_score": 510.85,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "http://www.w9ein.com/FEIN/company_overview.php/EIN/066038194/CompanyName/AGED+&+INDIGNT+WOMEN'S+FD+D+LANE",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 16,
+      "foundation_ein": "066142263",
+      "foundation_name": "R S GERNON TRUST",
+      "foundation_state": "TX",
+      "foundation_city": "",
+      "match_score": 663.41,
+      "adjusted_score": 464.39,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.insidephilanthropy.com/find-a-grant-places/connecticut-grants/rs-gernon-trust",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 17,
+      "foundation_ein": "066026054",
+      "foundation_name": "SWINDELLS CHAR FDN TR UW",
+      "foundation_state": "TX",
+      "foundation_city": "",
+      "match_score": 649.2,
+      "adjusted_score": 454.44,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.earthcam.com/usa/texas/dallas",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 18,
+      "foundation_ein": "061245402",
+      "foundation_name": "J WALTON BISSELL FOUNDATION INC",
+      "foundation_state": "CT",
+      "foundation_city": "",
+      "match_score": 644.76,
+      "adjusted_score": 451.33,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://WWW.BISSELLFOUNDATION.ORG",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 19,
+      "foundation_ein": "066377722",
+      "foundation_name": "MCDONALD FAMILY TRUST",
+      "foundation_state": "FL",
+      "foundation_city": "",
+      "match_score": 588.69,
+      "adjusted_score": 412.08,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://floridaparcels.com/property/60/74434316080000501",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 20,
+      "foundation_ein": "223136019",
+      "foundation_name": "TS KIM ARCHITECTURAL",
+      "foundation_state": "CT",
+      "foundation_city": "",
+      "match_score": 587.48,
+      "adjusted_score": 411.24,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://WWW.TSKF.ORG",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 21,
+      "foundation_ein": "061454867",
+      "foundation_name": "NIHLA & BOB LAPIDUS FOUNDATION INC",
+      "foundation_state": "CT",
+      "foundation_city": "",
+      "match_score": 585.27,
+      "adjusted_score": 409.69,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.allbiz.com/business/nihla-bob-lpidus-foundation-in-860-347-2496",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 22,
+      "foundation_ein": "113709335",
+      "foundation_name": "IVES BANK FOUNDATION INC FKA SAVINGS",
+      "foundation_state": "CT",
+      "foundation_city": "",
+      "match_score": 582.35,
+      "adjusted_score": 407.64,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://WWW. SBDANBURY.COM/SBD FOUNDATION",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 23,
+      "foundation_ein": "066025573",
+      "foundation_name": "WHITE LINFORD & MILDRED FDN",
+      "foundation_state": "TX",
+      "foundation_city": "",
+      "match_score": 568.31,
+      "adjusted_score": 397.82,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://linfordco.com/blog/sarbanes-oxley-act",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+[
+  {
+    "rank": 1,
+    "foundation_ein": "954797873",
+    "foundation_name": "PETER AND CANDIS DOERKEN FOUNDATION",
+    "foundation_state": "CA",
+    "match_score": 99.9,
+    "adjusted_score": 69.93,
+    "match_probability": 0.0,
+    "same_state": true,
+    "fit_score": 10,
+    "effort": "Medium",
+    "status": "HIGH",
+    "quality_tier": "strict",
+    "amount_min": 37500.0,
+    "amount_max": 112500.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 147500.0,
+        "count": 5,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 13750.0,
+        "min": 1000.0,
+        "max": 89000.0,
+        "avg": 24695.5
+      },
+      "geographic_focus": {
+        "top_state": "CA",
+        "top_state_pct": 0.875,
+        "in_state_pct": 0.875,
+        "foundation_state": "CA"
+      },
+      "repeat_funding": {
+        "unique": 15,
+        "repeat": 5,
+        "rate": 0.333
+      },
+      "giving_style": {
+        "general_pct": 0.5,
+        "program_pct": 0.5
+      },
+      "recipient_profile": {
+        "budget_min": 559657,
+        "budget_max": 9975461,
+        "budget_median": 1882696,
+        "primary_sector": "P",
+        "primary_sector_pct": 0.333
+      },
+      "funding_trend": {
+        "direction": "Growing",
+        "change_pct": 0.229,
+        "oldest_year": 2020,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "JOVENES INC",
+        "amount": 75000.0,
+        "purpose": "GRANT - GENERAL SUPPORT",
+        "year": 2023
+      },
+      "contact": {
+        "website_url": null,
+        "phone": "3107399299",
+        "email": null,
+        "app_contact_name": "CANDIS DUKE-DOERKEN CARE OF PETER A",
+        "app_contact_phone": "3107399299",
+        "app_contact_email": "PCDOERKENFOUNDATION@GMAIL.COM",
+        "deadlines": "PROPOSALS ARE REVIEWED QUARTERLY",
+        "restrictions": "PRIMARILY SUPPORT CHARITABLE ORGANIZATIONS IN THE GREATER LOS ANGELES AREA THAT FOCUS ON WOMEN AND CHILDREN.",
+        "how_to_apply": "CHARITABLE ORGANIZATIONS SUBMIT A LETTER OF INQUIRY"
+      },
+      "officers": [
+        {
+          "name": "Peter W Doerken",
+          "title": "Chairman Of The Board And Treasurer",
+          "compensation": 0.0
+        }
+      ],
+      "foundation_ein": "954797873",
+      "foundation_name": "PETER AND CANDIS DOERKEN FOUNDATION",
+      "match_score": 99.9,
+      "match_rank": 26
+    },
+    "comparable_grant": {
+      "recipient": "JOVENES INC",
+      "amount": 75000.0,
+      "purpose": "GRANT - GENERAL SUPPORT",
+      "year": 2023
+    },
+    "connections": [
+      {
+        "type": "geographic",
+        "description": "Both based in CA",
+        "strength": "strong"
+      },
+      {
+        "type": "sector_alignment",
+        "description": "Foundation funds 47% Human Services organizations",
+        "strength": "strong",
+        "sector": "P",
+        "percentage": 0.474
+      }
+    ],
+    "viability": {
+      "tier": "conditional",
+      "multiplier": 0.7,
+      "reason": "No enrichment data - requires web research"
+    },
+    "enrichment": {
+      "accepts_unsolicited": null,
+      "application_type": null,
+      "red_flags": [],
+      "program_priorities": null,
+      "geographic_focus": null,
+      "last_enriched": null
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 2,
+    "foundation_ein": "954438839",
+    "foundation_name": "CARL W JOHNSON FOUNDATION",
+    "foundation_state": "CA",
+    "match_score": 99.9,
+    "adjusted_score": 69.93,
+    "match_probability": 0.0,
+    "same_state": true,
+    "fit_score": 10,
+    "effort": "Low",
+    "status": "HIGH",
+    "quality_tier": "strict",
+    "amount_min": 7500.0,
+    "amount_max": 22500.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 405000.0,
+        "count": 17,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 15000.0,
+        "min": 2500.0,
+        "max": 60000.0,
+        "avg": 20181.255102040817
+      },
+      "geographic_focus": {
+        "top_state": "CA",
+        "top_state_pct": 0.939,
+        "in_state_pct": 0.939,
+        "foundation_state": "CA"
+      },
+      "repeat_funding": {
+        "unique": 20,
+        "repeat": 17,
+        "rate": 0.85
+      },
+      "giving_style": {
+        "general_pct": 1.0,
+        "program_pct": 0.0
+      },
+      "recipient_profile": {
+        "budget_min": 3000812,
+        "budget_max": 58279835,
+        "budget_median": 6594348,
+        "primary_sector": "P",
+        "primary_sector_pct": 0.2
+      },
+      "funding_trend": {
+        "direction": "Growing",
+        "change_pct": 0.191,
+        "oldest_year": 2021,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "CANINE COMPANIONS FOR INDEPENDENCE",
+        "amount": 15000.0,
+        "purpose": "GENERAL",
+        "year": 2023
+      },
+      "contact": {
+        "website_url": null,
+        "phone": "3236342400",
+        "email": null,
+        "app_contact_name": "SUSAN J OLLWEILER EXEC DIR CARL W J",
+        "app_contact_phone": "3236342400",
+        "app_contact_email": null,
+        "deadlines": "AUGUST 1ST OF EACH YEAR",
+        "restrictions": "THE FOUNDATION CONCENTRATES ITS SUPPORT IN THE AREAS OF EDUCATION, HEALTH CARE AND AIDING INDIVIDUALS WITH DEVELOPMENTAL NEEDS. THE FOUNDATION DIRECTS THE MAJORITY OF ITS SUPPORT TO ORGANIZATIONS IN SOUTHERN CALIFORNIA.",
+        "how_to_apply": "APPLICATIONS SHOULD BE IN WRITING AND MUST INCLDE A DESCRIPTION OF THE CHARITABLE PURPOSE. ADDITIONALLY, PLEASE INCLUDE THE MOST RECENT FORM 990/ 990PF, BUDGET, 501(C)(3) LETTER AND LIST OF MAJOR CONTRIBUTORS."
+      },
+      "officers": [
+        {
+          "name": "Wallace D Franson",
+          "title": "Director",
+          "compensation": 0.0
+        }
+      ],
+      "foundation_ein": "954438839",
+      "foundation_name": "CARL W JOHNSON FOUNDATION",
+      "match_score": 99.9,
+      "match_rank": 29
+    },
+    "comparable_grant": {
+      "recipient": "CANINE COMPANIONS FOR INDEPENDENCE",
+      "amount": 15000.0,
+      "purpose": "GENERAL",
+      "year": 2023
+    },
+    "connections": [
+      {
+        "type": "geographic",
+        "description": "Both based in CA",
+        "strength": "strong"
+      },
+      {
+        "type": "sector_alignment",
+        "description": "Foundation funds 27% Human Services organizations",
+        "strength": "moderate",
+        "sector": "P",
+        "percentage": 0.269
+      }
+    ],
+    "viability": {
+      "tier": "conditional",
+      "multiplier": 0.7,
+      "reason": "No enrichment data - requires web research"
+    },
+    "enrichment": {
+      "accepts_unsolicited": null,
+      "application_type": null,
+      "red_flags": [],
+      "program_priorities": null,
+      "geographic_focus": null,
+      "last_enriched": null
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 3,
+    "foundation_ein": "946073636",
+    "foundation_name": "MARINI FAMILY TRUST",
+    "foundation_state": "NV",
+    "match_score": 99.9,
+    "adjusted_score": 69.93,
+    "match_probability": 0.0,
+    "same_state": false,
+    "fit_score": 10,
+    "effort": "Low",
+    "status": "HIGH",
+    "quality_tier": "strict",
+    "amount_min": 10500.0,
+    "amount_max": 31500.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 273500.0,
+        "count": 6,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 15000.0,
+        "min": 500.0,
+        "max": 200000.0,
+        "avg": 40928.57142857143
+      },
+      "geographic_focus": {
+        "top_state": "CA",
+        "top_state_pct": 1.0,
+        "in_state_pct": 0.0,
+        "foundation_state": "NV"
+      },
+      "repeat_funding": {
+        "unique": 13,
+        "repeat": 9,
+        "rate": 0.692
+      },
+      "giving_style": {
+        "general_pct": 0.943,
+        "program_pct": 0.057
+      },
+      "recipient_profile": {
+        "budget_min": 3245713,
+        "budget_max": 553015973,
+        "budget_median": 72815518,
+        "primary_sector": "P",
+        "primary_sector_pct": 0.4
+      },
+      "funding_trend": {
+        "direction": "Declining",
+        "change_pct": -0.524,
+        "oldest_year": 2021,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "GUIDE DOGS FOR THE BLIND INC",
+        "amount": 21000.0,
+        "purpose": "GENERAL OPERATING",
+        "year": 2022
+      },
+      "contact": {
+        "website_url": null,
+        "phone": "8887304933",
+        "email": null,
+        "app_contact_name": "MICHAEL BLACKBURG WELLS FARGO BANK",
+        "app_contact_phone": "8887304933",
+        "app_contact_email": null,
+        "deadlines": "AUGUST OF EACH YEAR",
+        "restrictions": "RESTRICTED BY TRUST INSTRUMENT TO THOSE CHARITIES IN SAN FRANCISCO BAY AREA TO WHOM MR MANINI CONTRIBUTED IN HIS LIFETIME",
+        "how_to_apply": "COMPLETE DETAILS OF PROGRAMS, NEEDS, GOALS, METHODS, BUDGET, ECT NAMES AND ADDRESSES OF PERSONS TO CONTACT"
+      },
+      "officers": [
+        {
+          "name": "Wells Fargo Bank N A",
+          "title": "Trustee",
+          "compensation": 71268.0
+        }
+      ],
+      "foundation_ein": "946073636",
+      "foundation_name": "MARINI FAMILY TRUST",
+      "match_score": 99.9,
+      "match_rank": 24
+    },
+    "comparable_grant": {
+      "recipient": "GUIDE DOGS FOR THE BLIND INC",
+      "amount": 21000.0,
+      "purpose": "GENERAL OPERATING",
+      "year": 2022
+    },
+    "connections": [
+      {
+        "type": "geographic",
+        "description": "Foundation in NV, adjacent to your CA",
+        "strength": "moderate"
+      },
+      {
+        "type": "sector_alignment",
+        "description": "Foundation funds 50% Human Services organizations",
+        "strength": "strong",
+        "sector": "P",
+        "percentage": 0.5
+      }
+    ],
+    "viability": {
+      "tier": "conditional",
+      "multiplier": 0.7,
+      "reason": "No enrichment data - requires web research"
+    },
+    "enrichment": {
+      "accepts_unsolicited": null,
+      "application_type": null,
+      "red_flags": [],
+      "program_priorities": null,
+      "geographic_focus": null,
+      "last_enriched": null
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  }
+]

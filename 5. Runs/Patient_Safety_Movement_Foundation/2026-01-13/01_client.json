@@ -1,0 +1,24 @@
+{
+    "organization_name": "Patient Safety Movement Foundation",
+    "ein": "462730379",
+    "state": "CA",
+    "total_revenue": 365177.0,
+    "budget_numeric": 365177.0,
+    "ntee_code": "E",
+    "org_age": 10,
+    "geographic_scope": "National",
+    "grant_type_preference": "program",
+    "matching_grant_keywords": [
+        "patient safety",
+        "healthcare education",
+        "clinical education",
+        "medical education",
+        "fellowship program",
+        "preventable harm",
+        "healthcare quality",
+        "medical error",
+        "hospital safety"
+    ],
+    "prior_funders": [],
+    "known_funders": []
+}

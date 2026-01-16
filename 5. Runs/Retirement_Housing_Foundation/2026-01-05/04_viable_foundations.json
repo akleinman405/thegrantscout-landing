@@ -1,0 +1,184 @@
+{
+  "client": "Retirement Housing Foundation",
+  "client_short_name": "RHF",
+  "run_date": "2026-01-05",
+  "filter_date": "2026-01-05",
+  "settings": {
+    "top_n_processed": 5,
+    "include_watch": true,
+    "include_skip": false
+  },
+  "summary": {
+    "total_processed": 5,
+    "total_output": 5,
+    "tier_counts": {
+      "ready": 4,
+      "conditional": 0,
+      "watch": 1,
+      "skip": 0
+    },
+    "excluded": 0
+  },
+  "foundations": [
+    {
+      "rank": 1,
+      "foundation_ein": "526037034",
+      "foundation_name": "The Harry and Jeanette Weinberg Foundation",
+      "foundation_state": "MD",
+      "foundation_city": "Baltimore",
+      "match_score": 950.0,
+      "adjusted_score": 855.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.90,
+        "reason": "Accepts LOI on rolling basis - capital grants nationwide"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "loi",
+        "red_flags": [],
+        "program_priorities": "Older Adults, Housing, Workforce Development",
+        "geographic_focus": "Priority: Baltimore, Hawaii, Israel, NYC, NE PA, SF. Capital grants: NATIONWIDE",
+        "grant_range_stated": "$100K - $1M+ for capital",
+        "last_enriched": "2026-01-05",
+        "enrichment_source": "hjweinbergfoundation.org",
+        "enrichment_notes": "#1 SENIOR HOUSING CAPITAL FUNDER - 42 senior housing capital grants totaling $9.1M. Up to 30% of project cost. Prefer 50% already raised."
+      },
+      "website": "https://hjweinbergfoundation.org",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": "https://hjweinbergfoundation.org/grants/",
+      "deadline": null,
+      "deadline_notes": "Rolling LOI"
+    },
+    {
+      "rank": 2,
+      "foundation_ein": "581695425",
+      "foundation_name": "Robert W. Woodruff Foundation",
+      "foundation_state": "GA",
+      "foundation_city": "Atlanta",
+      "match_score": 920.0,
+      "adjusted_score": 874.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.95,
+        "reason": "Open applications - new $75M Affordable Housing Fund"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "open",
+        "red_flags": [],
+        "program_priorities": "Community Development, Human Services, Health, Education",
+        "geographic_focus": "Metro Atlanta and Georgia",
+        "grant_range_stated": "$500K - $8M (very large funder)",
+        "last_enriched": "2026-01-05",
+        "enrichment_source": "woodruff.org",
+        "enrichment_notes": "PERFECT for RHF's DeKalb County project. New $75M Affordable Housing Fund created 2023."
+      },
+      "website": "https://woodruff.org",
+      "contact_name": null,
+      "contact_email": "fdns@woodruff.org",
+      "contact_phone": "404-522-6755",
+      "application_url": "https://woodruff.org/grants/how-to-apply",
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 3,
+      "foundation_ein": "381359217",
+      "foundation_name": "The Kresge Foundation",
+      "foundation_state": "MI",
+      "foundation_city": "Troy",
+      "match_score": 850.0,
+      "adjusted_score": 722.5,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.85,
+        "reason": "Open applications - multi-city capital focus"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "open",
+        "red_flags": ["very_competitive", "systems_change_focus"],
+        "program_priorities": "American Cities, Human Services, Health",
+        "geographic_focus": "National + Detroit, Memphis, New Orleans, Fresno",
+        "grant_range_stated": "$100K - $1M",
+        "last_enriched": "2026-01-05",
+        "enrichment_source": "kresge.org",
+        "enrichment_notes": "$160M+ annually. Very competitive, focuses on systems change."
+      },
+      "website": "https://kresge.org",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": "248-643-9630",
+      "application_url": "https://kresge.org",
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 4,
+      "foundation_ein": "866247076",
+      "foundation_name": "Virginia G. Piper Charitable Trust",
+      "foundation_state": "AZ",
+      "foundation_city": "Phoenix",
+      "match_score": 800.0,
+      "adjusted_score": 720.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.90,
+        "reason": "Accepts LOI year-round - Arizona senior housing focus"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "loi",
+        "red_flags": ["demanding_application_process"],
+        "program_priorities": "Older Adults, Healthcare, Education",
+        "geographic_focus": "Maricopa County, Arizona ONLY",
+        "grant_range_stated": "$50K - $300K+",
+        "last_enriched": "2026-01-05",
+        "enrichment_source": "pipertrust.org",
+        "enrichment_notes": "PERFECT for RHF's Phoenix/AZ properties. $765M invested since 2000. 3+ years as 501(c)(3) required. Application process 'very demanding.'"
+      },
+      "website": "https://pipertrust.org",
+      "contact_name": "Karen Leland",
+      "contact_email": "kleland@pipertrust.org",
+      "contact_phone": "480-556-7125",
+      "application_url": "https://pipertrust.org",
+      "deadline": null,
+      "deadline_notes": "Year-round LOI"
+    },
+    {
+      "rank": 5,
+      "foundation_ein": "943100217",
+      "foundation_name": "Conrad N. Hilton Foundation",
+      "foundation_state": "CA",
+      "foundation_city": "Westlake Village",
+      "match_score": 700.0,
+      "adjusted_score": 0.0,
+      "viability": {
+        "tier": "watch",
+        "multiplier": 0.0,
+        "reason": "INVITATION ONLY - monitor for opportunities"
+      },
+      "enrichment": {
+        "accepts_unsolicited": false,
+        "application_type": "invite_only",
+        "red_flags": ["invitation_only"],
+        "program_priorities": "Homelessness, Foster Youth, Global issues",
+        "geographic_focus": "Homelessness: Los Angeles County only",
+        "grant_range_stated": "$500K - $6M",
+        "last_enriched": "2026-01-05",
+        "enrichment_source": "hiltonfoundation.org",
+        "enrichment_notes": "INVITATION ONLY - Foundation proactively seeks grantees. $7.36B assets, ~$300M giving in 2024. Only actionable if RHF has LA County projects."
+      },
+      "website": "https://hiltonfoundation.org",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": "https://hiltonfoundation.org",
+      "deadline": null,
+      "deadline_notes": null
+    }
+  ]
+}

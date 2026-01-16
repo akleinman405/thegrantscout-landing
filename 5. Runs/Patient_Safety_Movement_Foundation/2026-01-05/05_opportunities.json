@@ -1,0 +1,579 @@
+[
+  {
+    "rank": 1,
+    "foundation_ein": "226029397",
+    "foundation_name": "THE ROBERT WOOD JOHNSON FOUNDATION",
+    "foundation_state": "NJ",
+    "match_score": 2003.0,
+    "adjusted_score": 2003.0,
+    "match_probability": 0.0,
+    "same_state": false,
+    "fit_score": 10,
+    "effort": "High",
+    "status": "MEDIUM",
+    "quality_tier": "strict",
+    "amount_min": 25000.0,
+    "amount_max": 75000.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 543575302.0,
+        "count": 2943,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 14596.5,
+        "min": 15.0,
+        "max": 10000000,
+        "avg": 135477.99444988574
+      },
+      "geographic_focus": {
+        "top_state": "NJ",
+        "top_state_pct": 0.19,
+        "in_state_pct": 0.19,
+        "foundation_state": "NJ"
+      },
+      "repeat_funding": {
+        "unique": 6441,
+        "repeat": 3327,
+        "rate": 0.517
+      },
+      "giving_style": {
+        "general_pct": 0.033,
+        "program_pct": 0.967
+      },
+      "recipient_profile": {
+        "budget_min": 752346,
+        "budget_max": 24622171,
+        "budget_median": 4097898,
+        "primary_sector": "B",
+        "primary_sector_pct": 0.128
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": 0.022,
+        "oldest_year": 2020,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "COMMUNITY CATALYST",
+        "amount": 8317000,
+        "purpose": "SERVING AS THE NATIONAL COORDINATING/PROGRAM OFFICE FOR HEALTH ADVOCACY",
+        "year": 2023
+      },
+      "contact": {
+        "website_url": "https://WWW.RWJF.ORG",
+        "phone": "6096276000",
+        "email": null,
+        "app_contact_name": "GRANTS MANAGEMENT",
+        "app_contact_phone": "8778437953",
+        "app_contact_email": null,
+        "deadlines": "NO DEADLINES, EXCEPT WHEN FOUNDATION ISSUES A CALL FOR PROPOSAL (CFP) OR REQUEST FOR PROPOSAL (RFP).",
+        "restrictions": "THE ROBERT WOOD JOHNSON FOUNDATION IS DEDICATED TO TAKING BOLD LEAPS TO TRANSFORM HEALTH IN OUR LIFETIME AND PAVE THE WAY TOGETHER TO A FUTURE WHERE HEALTH IS NO LONGER A PRIVILEDGE, BUT A RIGHT. FOR FIVE DECADES, OUR GRANTMAKING HAS FOCUSED ON DEVELOPING AND PROMOTING RESEARCH, POLICIES, AND INNOVATIONS IN HEALTH AND HEALTH CARE FROM DEVELOPING THE 911 CALL SYSTEM, TO DECREASING SMOKING RATES, TO IMPROVING CARE AT THE END OF LIFE, TO CONFRONTING CHILDHOOD OBESITY, TO INCREASING ACCESS TO HEALTH CARE, TO CULTIVATING LEADERS. OUR GRANTMAKING TAKES A COMPREHENSIVE APPROACH TO HEALTH, ONE ROOTED IN EQUITY AND FOCUSED ON ADDRESSING BARRIERS TO HEALTH CAUSED BY THE INTERSECTION OF STRUCTURAL RACISM, OTHER FORMS OF DISCRIMINATION AND SOCIAL CONDITIONS THAT IMPACT HEALTH. WE DO THIS BY SUPPORTING RESEARCH, PROGRAMS, POLICIES, PRACTICES, SYSTEMS CHANGE, AND NARRATIVE CHANGE AIMED AT SHIFTING THE NATIONAL CONVERSATION ABOUT HEALTH AND HEALTH EQUITY AND BRINGING ABOUT MEANINGFUL CHANGE.",
+        "how_to_apply": "MOST OF RWJF'S GRANTS ARE MADE THROUGH TARGETED GRANT PROGRAMS AND FUNDING PARTNERSHIPS. RWJF'S FUNDING PRIORITIES AND CALLS FOR PROPOSALS ARE DESCRIBED ON WWW.RWJF.ORG."
+      },
+      "officers": [
+        {
+          "name": "Kathryn S Fuller",
+          "title": "Trustee Chair",
+          "compensation": 65000.0
+        }
+      ],
+      "foundation_ein": "226029397",
+      "foundation_name": "THE ROBERT WOOD JOHNSON FOUNDATION",
+      "foundation_state": "NJ",
+      "source": "curated",
+      "match_score": null,
+      "match_rank": null
+    },
+    "comparable_grant": {
+      "recipient": "COMMUNITY CATALYST",
+      "amount": 8317000,
+      "purpose": "SERVING AS THE NATIONAL COORDINATING/PROGRAM OFFICE FOR HEALTH ADVOCACY",
+      "year": 2023
+    },
+    "connections": [],
+    "viability": {
+      "tier": "ready",
+      "multiplier": 1.0,
+      "reason": "Curated - manually researched match"
+    },
+    "enrichment": {
+      "accepts_unsolicited": true,
+      "application_type": "online",
+      "red_flags": [],
+      "program_priorities": "Curated foundation - annual giving $543,575,302",
+      "geographic_focus": "National",
+      "last_enriched": "2026-01-06T16:14:45.911837"
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 2,
+    "foundation_ein": "352122763",
+    "foundation_name": "Elevance Health Foundation Inc",
+    "foundation_state": "IN",
+    "match_score": 2002.0,
+    "adjusted_score": 2002.0,
+    "match_probability": 0.0,
+    "same_state": false,
+    "fit_score": 10,
+    "effort": "Medium",
+    "status": "HIGH",
+    "quality_tier": "strict",
+    "amount_min": 250000.0,
+    "amount_max": 750000.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 31436231.0,
+        "count": 96,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 105000.0,
+        "min": 25000.0,
+        "max": 10000000,
+        "avg": 1415642.108910891
+      },
+      "geographic_focus": {
+        "top_state": "OH",
+        "top_state_pct": 0.168,
+        "in_state_pct": 0.119,
+        "foundation_state": "IN"
+      },
+      "repeat_funding": {
+        "unique": 98,
+        "repeat": 2,
+        "rate": 0.02
+      },
+      "giving_style": {
+        "general_pct": 0.5,
+        "program_pct": 0.5
+      },
+      "recipient_profile": {
+        "budget_min": 2993674,
+        "budget_max": 41435406,
+        "budget_median": 10317052,
+        "primary_sector": "F",
+        "primary_sector_pct": 0.169
+      },
+      "funding_trend": {
+        "direction": "Growing",
+        "change_pct": 0.199,
+        "oldest_year": 2021,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "CHC Creating Healthier Communities",
+        "amount": 2333333,
+        "purpose": "Reducing Preterm Births Using the Jackson-Hogue-Phillips Model",
+        "year": 2023
+      },
+      "contact": {
+        "website_url": "https://www.elevancehealth.com",
+        "phone": "3174886000",
+        "email": null,
+        "app_contact_name": "Grant Program",
+        "app_contact_phone": null,
+        "app_contact_email": "foundation@elevancehealth.com",
+        "deadlines": null,
+        "restrictions": null,
+        "how_to_apply": "ONLY ONLINE APPLICATIONS WILL BE ACCEPTED FOR GRANT CONSIDERATION"
+      },
+      "officers": [
+        {
+          "name": "Lance Chrisman",
+          "title": "Executive Director",
+          "compensation": 0.0
+        }
+      ],
+      "foundation_ein": "352122763",
+      "foundation_name": "Elevance Health Foundation Inc",
+      "foundation_state": "IN",
+      "source": "curated",
+      "match_score": null,
+      "match_rank": null
+    },
+    "comparable_grant": {
+      "recipient": "CHC Creating Healthier Communities",
+      "amount": 2333333,
+      "purpose": "Reducing Preterm Births Using the Jackson-Hogue-Phillips Model",
+      "year": 2023
+    },
+    "connections": [],
+    "viability": {
+      "tier": "ready",
+      "multiplier": 1.0,
+      "reason": "Curated - manually researched match"
+    },
+    "enrichment": {
+      "accepts_unsolicited": true,
+      "application_type": "online",
+      "red_flags": [],
+      "program_priorities": "Curated foundation - annual giving $31,436,231",
+      "geographic_focus": "National",
+      "last_enriched": "2026-01-06T16:14:45.911919"
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 3,
+    "foundation_ein": "135596895",
+    "foundation_name": "JOSIAH MACY JR FOUNDATION",
+    "foundation_state": "NY",
+    "match_score": 2001.0,
+    "adjusted_score": 2001.0,
+    "match_probability": 0.0,
+    "same_state": false,
+    "fit_score": 10,
+    "effort": "High",
+    "status": "MEDIUM",
+    "quality_tier": "strict",
+    "amount_min": 70000.0,
+    "amount_max": 210000.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 2875758.0,
+        "count": 49,
+        "year": 2022
+      },
+      "typical_grant": {
+        "median": 49470.5,
+        "min": 1550.0,
+        "max": 200000.0,
+        "avg": 68045.15909090909
+      },
+      "geographic_focus": {
+        "top_state": "NY",
+        "top_state_pct": 0.22,
+        "in_state_pct": 0.22,
+        "foundation_state": "NY"
+      },
+      "repeat_funding": {
+        "unique": 93,
+        "repeat": 27,
+        "rate": 0.29
+      },
+      "giving_style": {
+        "general_pct": 0.008,
+        "program_pct": 0.992
+      },
+      "recipient_profile": {
+        "budget_min": 8143816,
+        "budget_max": 1394455154,
+        "budget_median": 151867254,
+        "primary_sector": "B",
+        "primary_sector_pct": 0.5
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": -0.038,
+        "oldest_year": 2020,
+        "newest_year": 2022
+      },
+      "comparable_grant": {
+        "recipient": "DENVER HEALTH AND HOSPITALS FOUNDATION",
+        "amount": 138200,
+        "purpose": "TO SUPPORT THE WORK AS A JOSIAH MACY JR. FOUNDATION FACULTY SCHOLAR IN HEALTHCARE EDUCATION",
+        "year": 2022
+      },
+      "contact": {
+        "website_url": "https://WWW.MACYFOUNDATION.ORG",
+        "phone": "2124862424",
+        "email": null,
+        "app_contact_name": "HOLLY J HUMPHREY MD",
+        "app_contact_phone": "2124862424",
+        "app_contact_email": null,
+        "deadlines": null,
+        "restrictions": "THE JOSIAH MACY JR. FOUNDATION IS A PRIVATE FOUNDATION WHICH PROVIDES GRANTS TO COLLEGES, UNIVERSITIES, AND OTHER PROFESSIONAL ASSOCIATIONS. THE FOUNDATION'S GRANTS HAVE SUPPORTED PROJECTS THAT BROADEN AND IMPROVE HEALTH PROFESSIONAL EDUCATION. CURRENTLY, IT IS TOTALLY DEVOTED TO IMPROVING HEALTH BY ADVANCING THE EDUCATION AND TRAINING OF HEALTH PROFESSIONALS, AND IT IS THE ONLY NATIONAL FOUNDATION SOLELY DEDICATED TO THIS MISSION.",
+        "how_to_apply": "ALL APPLICATIONS MUST BE COMPLETED AND SUBMITTED ONLINE AT WWW.MACYFOUNDATION.ORG. ALL APPLICATIONS START WITH A LETTER OF INQUIRY WHICH CONTAINS: -NAMES AND QUALIFICATIONS OF THOSE WHO WOULD CARRY OUT THE PROJECT -BRIEF DESCRIPTION OF THE PROJECT GOALS AND DESIGN, AND HOW IT FITS WITHIN YOUR ORGANIZATION -ESTIMATED PROJECT BUDGET LETTERS OF INQUIRY ARE EVALUATED ON THESE KEY DIMENSIONS: -RELEVANCE TO OUR PRIORITIES; -IMPORTANCE AND ORIGINALITY. -SIGNIFICANCE AND GENERALIZABILITY; AND SUSTAINABILITY."
+      },
+      "officers": [
+        {
+          "name": "Holly J Humphrey Md",
+          "title": "President",
+          "compensation": 982175.0
+        }
+      ],
+      "foundation_ein": "135596895",
+      "foundation_name": "JOSIAH MACY JR FOUNDATION",
+      "foundation_state": "NY",
+      "source": "curated",
+      "match_score": null,
+      "match_rank": null
+    },
+    "comparable_grant": {
+      "recipient": "DENVER HEALTH AND HOSPITALS FOUNDATION",
+      "amount": 138200,
+      "purpose": "TO SUPPORT THE WORK AS A JOSIAH MACY JR. FOUNDATION FACULTY SCHOLAR IN HEALTHCARE EDUCATION",
+      "year": 2022
+    },
+    "connections": [],
+    "viability": {
+      "tier": "ready",
+      "multiplier": 1.0,
+      "reason": "Curated - manually researched match"
+    },
+    "enrichment": {
+      "accepts_unsolicited": true,
+      "application_type": "online",
+      "red_flags": [],
+      "program_priorities": "Curated foundation - annual giving $2,875,758",
+      "geographic_focus": "National",
+      "last_enriched": "2026-01-06T16:14:45.911949"
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 4,
+    "foundation_ein": "811344384",
+    "foundation_name": "GARY E MILGARD FAMILY FOUNDATION-LORI",
+    "foundation_state": "WA",
+    "match_score": 980.62,
+    "adjusted_score": 882.56,
+    "match_probability": 0.0,
+    "same_state": false,
+    "fit_score": 10,
+    "effort": "High",
+    "status": "MEDIUM",
+    "quality_tier": "strict",
+    "amount_min": 25000.0,
+    "amount_max": 75000.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 2300210.0,
+        "count": 28,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 30000.0,
+        "min": 5000.0,
+        "max": 800000.0,
+        "avg": 48200.10970464135
+      },
+      "geographic_focus": {
+        "top_state": "CA",
+        "top_state_pct": 0.928,
+        "in_state_pct": 0.034,
+        "foundation_state": "WA"
+      },
+      "repeat_funding": {
+        "unique": 126,
+        "repeat": 58,
+        "rate": 0.46
+      },
+      "giving_style": {
+        "general_pct": 0.11,
+        "program_pct": 0.89
+      },
+      "recipient_profile": {
+        "budget_min": 1508286,
+        "budget_max": 20327394,
+        "budget_median": 5572608,
+        "primary_sector": "P",
+        "primary_sector_pct": 0.333
+      },
+      "funding_trend": {
+        "direction": "Growing",
+        "change_pct": 0.277,
+        "oldest_year": 2020,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "ALCOTT CENTER FOR MENTAL HEALTH SERVICES",
+        "amount": 40000,
+        "purpose": "GENERAL OPERATIONS FOR MENTAL HEALTH SERVICES",
+        "year": 2022
+      },
+      "contact": {
+        "website_url": "https://WWW.GARYMILGARDFAMILYFOUNDATION.ORG",
+        "phone": "2532740121",
+        "email": null,
+        "app_contact_name": "EXCLUSIVELY ACCEPTED ONLINE VIA WWW",
+        "app_contact_phone": "2532740121",
+        "app_contact_email": null,
+        "deadlines": "THERE IS NO DEADLINE FOR SUBMITTING A LETTER OF INQUIRY.",
+        "restrictions": "ALL APPLICANT ORGANIZATIONS MUST QUALIFY AS TAX-EXEMPT ORGANIZATIONS UNDER THE INTERNAL REVENUE CODE. CERTAIN PROPOSALS ARE INELIGIBLE FOR FUNDING, SUCH AS: ANNUAL FUNDS, GALAS, OR OTHER SPECIAL EVENT FUNDRAISING ACTIVITIES; SECTARIAN RELIGIOUS ACTIVITIES, DEBT REDUCTION, POLITICAL LOBBYING, OR LEGISLATIVE ACTIVITIES; AND ORGANIZATIONS THAT DISCRIMINATE ON THE BASIS OF AGE, RACE, NATIONAL ORIGIN, ETHNICITY, GENDER, POLITICAL AFFILIATION OR RELIGIOUS BELIEF.",
+        "how_to_apply": "A LETTER OF INQUIRY IS THE FIRST STEP IN THE GRANT APPLICATION PROCESS. THE LETTER OF INQUIRY IS REVIEWED, AND IF APPROVED, THE APPLICANT WILL BE REQUESTED TO PROVIDE A FULL APPLICATION."
+      },
+      "officers": [
+        {
+          "name": "Lori Milgard",
+          "title": "President",
+          "compensation": 600.0
+        }
+      ],
+      "foundation_ein": "811344384",
+      "foundation_name": "GARY E MILGARD FAMILY FOUNDATION-LORI",
+      "match_score": 980.62,
+      "match_rank": 3
+    },
+    "comparable_grant": {
+      "recipient": "ALCOTT CENTER FOR MENTAL HEALTH SERVICES",
+      "amount": 40000,
+      "purpose": "GENERAL OPERATIONS FOR MENTAL HEALTH SERVICES",
+      "year": 2022
+    },
+    "connections": [],
+    "viability": {
+      "tier": "ready",
+      "multiplier": 0.9,
+      "reason": "Accepts Letters of Inquiry"
+    },
+    "enrichment": {
+      "accepts_unsolicited": true,
+      "application_type": "loi",
+      "red_flags": [
+        "geographic_mismatch_for_sd"
+      ],
+      "program_priorities": "General support (11%), health, education",
+      "geographic_focus": "Pierce County WA (primary), Los Angeles CA (secondary)",
+      "last_enriched": "2026-01-05 21:55:17.229870"
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "12-16 week review",
+    "portal_url": "https://garymilgardfamilyfoundation.org/apply/",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "253-274-0121",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 5,
+    "foundation_ein": "010956020",
+    "foundation_name": "THE MASIMO FOUNDATION FOR ETHICS",
+    "foundation_state": "CA",
+    "match_score": 900.0,
+    "adjusted_score": 810.0,
+    "match_probability": 0.0,
+    "same_state": true,
+    "fit_score": 10,
+    "effort": "Medium",
+    "status": "HIGH",
+    "quality_tier": "strict",
+    "amount_min": 10000.0,
+    "amount_max": 50000.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 397897.45,
+        "count": 20,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 10000.0,
+        "min": 1000.0,
+        "max": 50000.0,
+        "avg": 15000.0
+      },
+      "geographic_focus": {
+        "top_state": "CA",
+        "top_state_pct": 0.9,
+        "in_state_pct": 0.9,
+        "foundation_state": "CA"
+      },
+      "repeat_funding": {
+        "unique": 30,
+        "repeat": 10,
+        "rate": 0.33
+      },
+      "giving_style": {
+        "general_pct": 0.3,
+        "program_pct": 0.7
+      },
+      "recipient_profile": {
+        "budget_min": 500000,
+        "budget_max": 10000000,
+        "budget_median": 2000000,
+        "primary_sector": "P",
+        "primary_sector_pct": 0.3
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": 0.0,
+        "oldest_year": 2020,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "SHARESAFE SOLUTIONS LLC",
+        "amount": 250000,
+        "purpose": "CREATION OF VIDEO SERIES RE PATIENT SAFETY AND PREVENTION OF HOSPITAL ACQUIRED CONDITIONS",
+        "year": 2023
+      },
+      "contact": {
+        "website_url": null,
+        "phone": null,
+        "email": null
+      },
+      "officers": [],
+      "foundation_ein": "010956020",
+      "foundation_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "match_score": 900.0,
+      "match_rank": 5
+    },
+    "comparable_grant": {
+      "recipient": "SHARESAFE SOLUTIONS LLC",
+      "amount": 250000,
+      "purpose": "CREATION OF VIDEO SERIES RE PATIENT SAFETY AND PREVENTION OF HOSPITAL ACQUIRED CONDITIONS",
+      "year": 2023
+    },
+    "connections": [
+      {
+        "type": "sector_alignment",
+        "description": "Foundation funds sector-relevant grants",
+        "strength": "strong"
+      }
+    ],
+    "viability": {
+      "tier": "ready",
+      "multiplier": 0.9,
+      "reason": "Proven sector funder with documented grants"
+    },
+    "enrichment": {
+      "accepts_unsolicited": true,
+      "application_type": "loi",
+      "red_flags": [],
+      "program_priorities": "Sector-specific grants - CREATION OF VIDEO SERIES RE PATIENT SAFETY AND PRE...",
+      "geographic_focus": "IRVINE, CA",
+      "last_enriched": "2026-01-06T21:06:22.735865"
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  }
+]

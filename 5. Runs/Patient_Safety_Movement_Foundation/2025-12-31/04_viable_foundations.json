@@ -1,0 +1,244 @@
+{
+  "client": "Patient Safety Movement Foundation",
+  "client_short_name": "PSMF",
+  "run_date": "2025-12-31",
+  "filter_date": "2026-01-01T14:53:59.323290",
+  "settings": {
+    "top_n_processed": 10,
+    "include_watch": false,
+    "include_skip": false
+  },
+  "summary": {
+    "total_processed": 10,
+    "total_output": 10,
+    "tier_counts": {
+      "ready": 0,
+      "conditional": 10,
+      "watch": 0,
+      "skip": 0
+    },
+    "excluded": 0
+  },
+  "foundations": [
+    {
+      "rank": 1,
+      "foundation_ein": "010575520",
+      "foundation_name": "MERCK PATIENT ASSISTANCE PROGRAM INC",
+      "foundation_state": "NJ",
+      "foundation_city": "",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.merck.com/patients/patient-support-programs",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 2,
+      "foundation_ein": "061600601",
+      "foundation_name": "THE ZOOM FOUNDATION",
+      "foundation_state": "CT",
+      "foundation_city": "",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://zoomfoundation.org",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 3,
+      "foundation_ein": "132878224",
+      "foundation_name": "METLIFE FOUNDATION",
+      "foundation_state": "NY",
+      "foundation_city": "",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.metlife.com/sustainability",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 4,
+      "foundation_ein": "133091620",
+      "foundation_name": "Bat Hanadiv Foundation No 3",
+      "foundation_state": "NY",
+      "foundation_city": "",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://philanthropy.org/resources-top-100-foundations-worldwide",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 5,
+      "foundation_ein": "136099176",
+      "foundation_name": "The UPS Foundation Inc",
+      "foundation_state": "GA",
+      "foundation_city": "",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://about.ups.com/us/en/our-impact/report",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 6,
+      "foundation_ein": "161448017",
+      "foundation_name": "M&T Charitable Foundation",
+      "foundation_state": "NY",
+      "foundation_city": "",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.mtb.com",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 7,
+      "foundation_ein": "200031992",
+      "foundation_name": "GlaxoSmithKline Patient Access",
+      "foundation_state": "PA",
+      "foundation_city": "",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://gskforyou.com/programs/patient-assistance-program",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 8,
+      "foundation_ein": "200721133",
+      "foundation_name": "THE BANK OF AMERICA CHARITABLE",
+      "foundation_state": "NC",
+      "foundation_city": "",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://WWW.BANKOFAMERICA.COM/FOUNDATION",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 9,
+      "foundation_ein": "223622487",
+      "foundation_name": "BRISTOL-MYERS SQUIBB PATIENT ASSISTANCE",
+      "foundation_state": "NJ",
+      "foundation_city": "",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://WWW.BMSPAF.ORG",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 10,
+      "foundation_ein": "223769097",
+      "foundation_name": "NSN Foundation Inc",
+      "foundation_state": "NJ",
+      "foundation_city": "",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.nj.gov",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    }
+  ]
+}

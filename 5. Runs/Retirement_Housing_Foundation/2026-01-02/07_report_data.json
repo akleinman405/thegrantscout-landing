@@ -1,0 +1,947 @@
+{
+  "client": {
+    "organization_name": "Retirement Housing Foundation",
+    "short_name": "RHF",
+    "ein": "952249495",
+    "email": "andy.do@rhf.org",
+    "state": "CA",
+    "city": "",
+    "org_type": "501(c)(3) public charity",
+    "budget": "$10M - $50M",
+    "budget_numeric": 30000000.0,
+    "grant_size_target": "",
+    "program_areas": [
+      "Housing & Homelessness"
+    ],
+    "populations_served": [
+      "Seniors (ages 65+)",
+      "Low-income individuals"
+    ],
+    "geographic_scope": "National",
+    "ntee_code": "P75",
+    "mission_statement": ""
+  },
+  "report_meta": {
+    "week_number": 1,
+    "report_date": "2026-01-02",
+    "date_range_start": "2026-01-02",
+    "date_range_end": "2026-01-08",
+    "generated_at": "2026-01-02T13:19:11.858937",
+    "pipeline_version": "2.0"
+  },
+  "opportunities": [
+    {
+      "rank": 1,
+      "foundation_ein": "263753801",
+      "foundation_name": "FOUNDATION TO PROMOTE OPEN SOCIETY",
+      "foundation_state": "NY",
+      "match_score": 97.0,
+      "adjusted_score": 67.9,
+      "match_probability": 0.0,
+      "same_state": false,
+      "fit_score": 10,
+      "effort": "Medium",
+      "status": "HIGH",
+      "quality_tier": "strict",
+      "amount_min": 2200000.0,
+      "amount_max": 6600000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 759038806.0,
+          "count": 1342,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 153334.0,
+          "min": 45.0,
+          "max": 10000000,
+          "avg": 397780.2009952401
+        },
+        "geographic_focus": {
+          "top_state": "NY",
+          "top_state_pct": 0.237,
+          "in_state_pct": 0.237,
+          "foundation_state": "NY"
+        },
+        "repeat_funding": {
+          "unique": 2738,
+          "repeat": 837,
+          "rate": 0.306
+        },
+        "giving_style": {
+          "general_pct": 0.411,
+          "program_pct": 0.589
+        },
+        "recipient_profile": {
+          "budget_min": 1284388,
+          "budget_max": 15502498,
+          "budget_median": 3916169,
+          "primary_sector": "Q",
+          "primary_sector_pct": 0.15
+        },
+        "funding_trend": {
+          "direction": "Growing",
+          "change_pct": 0.279,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "POSSIBILITY LABS",
+          "amount": 4400000.0,
+          "purpose": "TO SUPPORT CLLCTIVLY, A FISCALLY SPONSORED PROJECT OF THE GRANTEE, TO LAUNCH THE MARYLAND BLACK FUTURES FUND THAT WILL DEPLOY CAPITAL TO BLACK POWER-BUILDING AND MOVEMENT-BASED ORGANIZATIONS IN MARYLAND",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://www.grantable.co/search/funders/profile/foundation-to-promote-open-society-us-foundation-263753801",
+          "phone": "2125480600",
+          "email": null,
+          "app_contact_name": null,
+          "app_contact_phone": null,
+          "app_contact_email": null,
+          "deadlines": null,
+          "restrictions": null,
+          "how_to_apply": null
+        },
+        "officers": [
+          {
+            "name": "George Soros",
+            "title": "Director And Chairman",
+            "compensation": 0.0
+          }
+        ],
+        "foundation_ein": "263753801",
+        "foundation_name": "FOUNDATION TO PROMOTE OPEN SOCIETY",
+        "match_score": 97.0,
+        "match_rank": 21
+      },
+      "comparable_grant": {
+        "recipient": "POSSIBILITY LABS",
+        "amount": 4400000.0,
+        "purpose": "TO SUPPORT CLLCTIVLY, A FISCALLY SPONSORED PROJECT OF THE GRANTEE, TO LAUNCH THE MARYLAND BLACK FUTURES FUND THAT WILL DEPLOY CAPITAL TO BLACK POWER-BUILDING AND MOVEMENT-BASED ORGANIZATIONS IN MARYLAND",
+        "year": 2023
+      },
+      "connections": [],
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": null,
+        "red_flags": [],
+        "program_priorities": null,
+        "geographic_focus": null,
+        "last_enriched": null
+      },
+      "deadline": "Rolling",
+      "deadline_notes": "",
+      "portal_url": "https://www.grantable.co/search/funders/profile/foundation-to-promote-open-society-us-foundation-263753801",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "FOUNDATION TO PROMOTE OPEN SOCIETY has a track record of supporting organizations like Retirement Housing Foundation. Notably, POSSIBILITY LABS received $4,400,000 in 2023 for: TO SUPPORT CLLCTIVLY, A FISCALLY SPONSORED PROJECT OF THE GRANTEE, TO LAUNCH THE MARYLAND BLACK FUTURES FUND THAT WILL DEPLOY CAPITAL TO BLACK POWER-BUILDING AND MOVEMENT-BASED ORGANIZATIONS IN MARYLAND Their giving has been increasing, suggesting capacity for new grantees. **Note:** Verify application process before outreach.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (59%). Consider requesting $122,667 - $230,001 based on their $153,334 median grant. Apply via: https://www.grantable.co/search/funders/profile/foundation-to-promote-open-society-us-foundation-263753801",
+      "next_steps": [
+        {
+          "action": "Research FOUNDATION TO PROMOTE OPEN SOCIETY's recent grants and stated priorities",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-16",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-12",
+          "owner": "Executive Director"
+        },
+        {
+          "action": "Create account on application portal: https://www.grantable.co/search/funders/profile/foundation-to-promote-open-society-us-foundation-263753801",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "foundation_ein": "237093598",
+      "foundation_name": "John D and Catherine T MacArthur Foundation (Consolidated)",
+      "foundation_state": "IL",
+      "match_score": 93.1,
+      "adjusted_score": 65.17,
+      "match_probability": 0.0,
+      "same_state": false,
+      "fit_score": 10,
+      "effort": "Medium",
+      "status": "HIGH",
+      "quality_tier": "strict",
+      "amount_min": 125000.0,
+      "amount_max": 375000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 320782584.0,
+          "count": 1465,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 60000.0,
+          "min": 52.0,
+          "max": 10000000,
+          "avg": 210746.38034309543
+        },
+        "geographic_focus": {
+          "top_state": "IL",
+          "top_state_pct": 0.415,
+          "in_state_pct": 0.415,
+          "foundation_state": "IL"
+        },
+        "repeat_funding": {
+          "unique": 3493,
+          "repeat": 2074,
+          "rate": 0.594
+        },
+        "giving_style": {
+          "general_pct": 0.537,
+          "program_pct": 0.463
+        },
+        "recipient_profile": {
+          "budget_min": 1166185,
+          "budget_max": 24633544,
+          "budget_median": 4761070,
+          "primary_sector": "A",
+          "primary_sector_pct": 0.16
+        },
+        "funding_trend": {
+          "direction": "Declining",
+          "change_pct": -0.529,
+          "oldest_year": 2021,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "Define American Inc",
+          "amount": 250000.0,
+          "purpose": "in support of general operations",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://www.macfound.org",
+          "phone": "3127268000",
+          "email": null,
+          "app_contact_name": "MACARTHUR FOUNDATION",
+          "app_contact_phone": "3127268000",
+          "app_contact_email": null,
+          "deadlines": "WITH FEW EXCEPTIONS, AS NOTED ON OUR WEBSITE, THERE ARE NO FIXED DEADLINES.",
+          "restrictions": "THE FOUNDATION'S WEBSITE DESCRIBES THOSE AREAS WHERE THE FOUNDATION MAY PROVIDE SUPPORT AS WELL AS THOSE PROJECTS OR PROPOSALS IT WILL NOT FUND. THE FOUNDATION DOES NOT SUPPORT POLITICAL ACTIVITIES OR ATTEMPTS TO INFLUENCE ACTION ON SPECIFIC LEGISLATION; DOES NOT PROVIDE SCHOLARSHIPS, OR TUITION ASSISTANCE FOR UNDERGRADUATE, GRADUATE, OR POSTGRADUATE STUDIES, OR UNSOLICITED GRANTS TO INDIVIDUALS EXCEPT FOR ITS FELLOWS PROGRAM; AND DOES NOT SUPPORT ANNUAL FUNDRAISING DRIVES, BENEFIT EVENTS, HONORARY FUNCTIONS OR SIMILAR PROJECTS.",
+          "how_to_apply": "THE FOUNDATION'S GRANT MAKING PROGRAMS AND AREAS OF WORK ARE DESCRIBED FULLY ON THE FOUNDATION'S WEBSITE (WWW.MACFOUND.ORG). TO SUBMIT AN APPLICATION, REVIEW THE GRANTMAKING GUIDELINES ON THE FOUNDATION'S WEBSITE AT WWW.MACFOUND.ORG/INFO-GRANTSEEKERS AND CLICK ON THE \"GRANT GUIDELINES\" LINK TO DETERMINE IF YOUR PROPOSAL IS ELIGIBLE FOR FUNDING. APPLICATIONS SHOULD BE SUBMITTED THROUGH THE GRANTS MANAGEMENT PORTAL AT HTTPS://MACFOUND.FLUXX.IO. TO START THE APPLICATION PROCESS, CLICK THE \"SUBMIT A NEW IDEA\" BUTTON LOCATED AT THE BOTTOM RIGHT CORNER OF THE PAGE."
+        },
+        "officers": [
+          {
+            "name": "Buck Betten",
+            "title": "Director",
+            "compensation": 27000.0
+          }
+        ],
+        "foundation_ein": "237093598",
+        "foundation_name": "John D and Catherine T MacArthur Foundation (Consolidated)",
+        "match_score": 93.1,
+        "match_rank": 27
+      },
+      "comparable_grant": {
+        "recipient": "Define American Inc",
+        "amount": 250000.0,
+        "purpose": "in support of general operations",
+        "year": 2023
+      },
+      "connections": [],
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": null,
+        "red_flags": [],
+        "program_priorities": null,
+        "geographic_focus": null,
+        "last_enriched": null
+      },
+      "deadline": "Rolling",
+      "deadline_notes": "",
+      "portal_url": "https://www.macfound.org",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "John D and Catherine T MacArthur Foundation (Consolidated) has a track record of supporting organizations like Retirement Housing Foundation. Notably, Define American Inc received $250,000 in 2023 for: in support of general operations **Note:** Verify application process before outreach.",
+      "positioning_strategy": "Lead with an unrestricted operating support request\u201454% of their grants are general support. Consider requesting $48,000 - $90,000 based on their $60,000 median grant. With a 59% repeat funding rate, plan for multi-year relationship building. Apply via: https://www.macfound.org",
+      "next_steps": [
+        {
+          "action": "Research John D and Catherine T MacArthur Foundation (Consolidated)'s recent grants and stated priorities",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-16",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-12",
+          "owner": "Executive Director"
+        },
+        {
+          "action": "Create account on application portal: https://www.macfound.org",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "foundation_ein": "226029397",
+      "foundation_name": "THE ROBERT WOOD JOHNSON FOUNDATION",
+      "foundation_state": "NJ",
+      "match_score": 92.7,
+      "adjusted_score": 64.89,
+      "match_probability": 0.0,
+      "same_state": false,
+      "fit_score": 9,
+      "effort": "High",
+      "status": "MEDIUM",
+      "quality_tier": "strict",
+      "amount_min": 90000.0,
+      "amount_max": 270000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 543575302.0,
+          "count": 2943,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 14596.5,
+          "min": 15.0,
+          "max": 10000000,
+          "avg": 135477.99444988574
+        },
+        "geographic_focus": {
+          "top_state": "NJ",
+          "top_state_pct": 0.19,
+          "in_state_pct": 0.19,
+          "foundation_state": "NJ"
+        },
+        "repeat_funding": {
+          "unique": 6441,
+          "repeat": 3327,
+          "rate": 0.517
+        },
+        "giving_style": {
+          "general_pct": 0.033,
+          "program_pct": 0.967
+        },
+        "recipient_profile": {
+          "budget_min": 752346,
+          "budget_max": 24622171,
+          "budget_median": 4097898,
+          "primary_sector": "B",
+          "primary_sector_pct": 0.128
+        },
+        "funding_trend": {
+          "direction": "Stable",
+          "change_pct": 0.022,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "POSSIBILITY LABS",
+          "amount": 180000.0,
+          "purpose": "79822 EMPLOYING LIBERATORY LEADERSHIP AND A COMMUNITY OF PRACTICE TO DISMANTLE A WHITE SUPREMACIST CULTURE IN THE NONPROFIT SECTOR -- TRANSFER GRANT",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://WWW.RWJF.ORG",
+          "phone": "6096276000",
+          "email": null,
+          "app_contact_name": "GRANTS MANAGEMENT",
+          "app_contact_phone": "8778437953",
+          "app_contact_email": null,
+          "deadlines": "NO DEADLINES, EXCEPT WHEN FOUNDATION ISSUES A CALL FOR PROPOSAL (CFP) OR REQUEST FOR PROPOSAL (RFP).",
+          "restrictions": "THE ROBERT WOOD JOHNSON FOUNDATION IS DEDICATED TO TAKING BOLD LEAPS TO TRANSFORM HEALTH IN OUR LIFETIME AND PAVE THE WAY TOGETHER TO A FUTURE WHERE HEALTH IS NO LONGER A PRIVILEDGE, BUT A RIGHT. FOR FIVE DECADES, OUR GRANTMAKING HAS FOCUSED ON DEVELOPING AND PROMOTING RESEARCH, POLICIES, AND INNOVATIONS IN HEALTH AND HEALTH CARE FROM DEVELOPING THE 911 CALL SYSTEM, TO DECREASING SMOKING RATES, TO IMPROVING CARE AT THE END OF LIFE, TO CONFRONTING CHILDHOOD OBESITY, TO INCREASING ACCESS TO HEALTH CARE, TO CULTIVATING LEADERS. OUR GRANTMAKING TAKES A COMPREHENSIVE APPROACH TO HEALTH, ONE ROOTED IN EQUITY AND FOCUSED ON ADDRESSING BARRIERS TO HEALTH CAUSED BY THE INTERSECTION OF STRUCTURAL RACISM, OTHER FORMS OF DISCRIMINATION AND SOCIAL CONDITIONS THAT IMPACT HEALTH. WE DO THIS BY SUPPORTING RESEARCH, PROGRAMS, POLICIES, PRACTICES, SYSTEMS CHANGE, AND NARRATIVE CHANGE AIMED AT SHIFTING THE NATIONAL CONVERSATION ABOUT HEALTH AND HEALTH EQUITY AND BRINGING ABOUT MEANINGFUL CHANGE.",
+          "how_to_apply": "MOST OF RWJF'S GRANTS ARE MADE THROUGH TARGETED GRANT PROGRAMS AND FUNDING PARTNERSHIPS. RWJF'S FUNDING PRIORITIES AND CALLS FOR PROPOSALS ARE DESCRIBED ON WWW.RWJF.ORG."
+        },
+        "officers": [
+          {
+            "name": "Kathryn S Fuller",
+            "title": "Trustee Chair",
+            "compensation": 65000.0
+          }
+        ],
+        "foundation_ein": "226029397",
+        "foundation_name": "THE ROBERT WOOD JOHNSON FOUNDATION",
+        "match_score": 92.7,
+        "match_rank": 29
+      },
+      "comparable_grant": {
+        "recipient": "POSSIBILITY LABS",
+        "amount": 180000.0,
+        "purpose": "79822 EMPLOYING LIBERATORY LEADERSHIP AND A COMMUNITY OF PRACTICE TO DISMANTLE A WHITE SUPREMACIST CULTURE IN THE NONPROFIT SECTOR -- TRANSFER GRANT",
+        "year": 2023
+      },
+      "connections": [],
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": null,
+        "red_flags": [],
+        "program_priorities": null,
+        "geographic_focus": null,
+        "last_enriched": null
+      },
+      "deadline": "Rolling",
+      "deadline_notes": "",
+      "portal_url": "https://WWW.RWJF.ORG",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "THE ROBERT WOOD JOHNSON FOUNDATION has a track record of supporting organizations like Retirement Housing Foundation. Notably, POSSIBILITY LABS received $180,000 in 2023 for: 79822 EMPLOYING LIBERATORY LEADERSHIP AND A COMMUNITY OF PRACTICE TO DISMANTLE A WHITE SUPREMACIST CULTURE IN THE NONPROFIT SECTOR -- TRANSFER GRANT **Note:** Verify application process before outreach.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (97%). Consider requesting $11,677 - $21,894 based on their $14,596 median grant. With a 52% repeat funding rate, plan for multi-year relationship building. Apply via: https://WWW.RWJF.ORG",
+      "next_steps": [
+        {
+          "action": "Research THE ROBERT WOOD JOHNSON FOUNDATION's recent grants and stated priorities",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-16",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-12",
+          "owner": "Executive Director"
+        },
+        {
+          "action": "Create account on application portal: https://WWW.RWJF.ORG",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "foundation_ein": "137029285",
+      "foundation_name": "OPEN SOCIETY INSTITUTE",
+      "foundation_state": "NY",
+      "match_score": 89.5,
+      "adjusted_score": 62.65,
+      "match_probability": 0.0,
+      "same_state": false,
+      "fit_score": 9,
+      "effort": "High",
+      "status": "MEDIUM",
+      "quality_tier": "strict",
+      "amount_min": 375000.0,
+      "amount_max": 1125000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 269257188.0,
+          "count": 676,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 5717.5,
+          "min": 10.0,
+          "max": 10000000,
+          "avg": 134435.4661699557
+        },
+        "geographic_focus": {
+          "top_state": "NY",
+          "top_state_pct": 0.392,
+          "in_state_pct": 0.392,
+          "foundation_state": "NY"
+        },
+        "repeat_funding": {
+          "unique": 2791,
+          "repeat": 1111,
+          "rate": 0.398
+        },
+        "giving_style": {
+          "general_pct": 0.069,
+          "program_pct": 0.931
+        },
+        "recipient_profile": {
+          "budget_min": 801664,
+          "budget_max": 28844898,
+          "budget_median": 3898745,
+          "primary_sector": "B",
+          "primary_sector_pct": 0.137
+        },
+        "funding_trend": {
+          "direction": "Growing",
+          "change_pct": 1.104,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "UPLIFT AFGHANISTAN FUND",
+          "amount": 750000.0,
+          "purpose": "TO PROVIDE GENERAL SUPPORT",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://WWW.OPENSOCIETYFOUNDATIONS.ORG",
+          "phone": "2125480600",
+          "email": null,
+          "app_contact_name": "OPEN SOCIETY INSTITUTE GRANTS DEPT",
+          "app_contact_phone": "2125480600",
+          "app_contact_email": null,
+          "deadlines": "REFER TO WEBSITE AT WWW.OPENSOCIETYFOUNDATIONS.ORG",
+          "restrictions": "REFER TO WEBSITE AT WWW.OPENSOCIETYFOUNDATIONS.ORG",
+          "how_to_apply": "REFER TO WEBSITE AT WWW.OPENSOCIETYFOUNDATIONS.ORG"
+        },
+        "officers": [
+          {
+            "name": "Alexander Soros",
+            "title": "Trustee",
+            "compensation": 0.0
+          }
+        ],
+        "foundation_ein": "137029285",
+        "foundation_name": "OPEN SOCIETY INSTITUTE",
+        "match_score": 89.5,
+        "match_rank": 38
+      },
+      "comparable_grant": {
+        "recipient": "UPLIFT AFGHANISTAN FUND",
+        "amount": 750000.0,
+        "purpose": "TO PROVIDE GENERAL SUPPORT",
+        "year": 2023
+      },
+      "connections": [],
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": null,
+        "red_flags": [],
+        "program_priorities": null,
+        "geographic_focus": null,
+        "last_enriched": null
+      },
+      "deadline": "Rolling",
+      "deadline_notes": "",
+      "portal_url": "https://WWW.OPENSOCIETYFOUNDATIONS.ORG",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "OPEN SOCIETY INSTITUTE has a track record of supporting organizations like Retirement Housing Foundation. Notably, UPLIFT AFGHANISTAN FUND received $750,000 in 2023 for: TO PROVIDE GENERAL SUPPORT Their giving has been increasing, suggesting capacity for new grantees. **Note:** Verify application process before outreach.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (93%). Consider requesting $4,574 - $8,576 based on their $5,718 median grant. Apply via: https://WWW.OPENSOCIETYFOUNDATIONS.ORG",
+      "next_steps": [
+        {
+          "action": "Research OPEN SOCIETY INSTITUTE's recent grants and stated priorities",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-16",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-12",
+          "owner": "Executive Director"
+        },
+        {
+          "action": "Create account on application portal: https://WWW.OPENSOCIETYFOUNDATIONS.ORG",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "foundation_ein": "651104291",
+      "foundation_name": "Jehovah - Jireh Foundation",
+      "foundation_state": "MD",
+      "match_score": 86.9,
+      "adjusted_score": 60.83,
+      "match_probability": 0.0,
+      "same_state": false,
+      "fit_score": 9,
+      "effort": "Medium",
+      "status": "HIGH",
+      "quality_tier": "strict",
+      "amount_min": 37500.0,
+      "amount_max": 112500.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 1146700.0,
+          "count": 37,
+          "year": 2024
+        },
+        "typical_grant": {
+          "median": 50000.0,
+          "min": 500.0,
+          "max": 100000.0,
+          "avg": 40269.562913907284
+        },
+        "geographic_focus": {
+          "top_state": "TX",
+          "top_state_pct": 0.087,
+          "in_state_pct": 0.02,
+          "foundation_state": "MD"
+        },
+        "repeat_funding": {
+          "unique": 146,
+          "repeat": 5,
+          "rate": 0.034
+        },
+        "giving_style": {
+          "general_pct": 0.5,
+          "program_pct": 0.5
+        },
+        "recipient_profile": {
+          "budget_min": 192344,
+          "budget_max": 13827768,
+          "budget_median": 1606830,
+          "primary_sector": "X",
+          "primary_sector_pct": 0.5
+        },
+        "funding_trend": {
+          "direction": "Growing",
+          "change_pct": 0.464,
+          "oldest_year": 2022,
+          "newest_year": 2024
+        },
+        "comparable_grant": {
+          "recipient": "Cornerstone Baptist Church",
+          "amount": 75000.0,
+          "purpose": "Education",
+          "year": 2024
+        },
+        "contact": {
+          "website_url": "https://jehovahjirehministries.org",
+          "phone": "4109602390",
+          "email": null,
+          "app_contact_name": "James Bosse",
+          "app_contact_phone": "4109602390",
+          "app_contact_email": null,
+          "deadlines": null,
+          "restrictions": null,
+          "how_to_apply": "Letter Request"
+        },
+        "officers": [
+          {
+            "name": "James F Bosse",
+            "title": "Foundation Mgr.",
+            "compensation": 0.0
+          }
+        ],
+        "foundation_ein": "651104291",
+        "foundation_name": "Jehovah - Jireh Foundation",
+        "match_score": 86.9,
+        "match_rank": 42
+      },
+      "comparable_grant": {
+        "recipient": "Cornerstone Baptist Church",
+        "amount": 75000.0,
+        "purpose": "Education",
+        "year": 2024
+      },
+      "connections": [],
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": null,
+        "red_flags": [],
+        "program_priorities": null,
+        "geographic_focus": null,
+        "last_enriched": null
+      },
+      "deadline": "Rolling",
+      "deadline_notes": "",
+      "portal_url": "https://jehovahjirehministries.org",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "Jehovah - Jireh Foundation has a track record of supporting organizations like Retirement Housing Foundation. Notably, Cornerstone Baptist Church received $75,000 in 2024 for: Education Their giving has been increasing, suggesting capacity for new grantees. **Note:** Verify application process before outreach.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (50%). Consider requesting $40,000 - $75,000 based on their $50,000 median grant. Apply via: https://jehovahjirehministries.org",
+      "next_steps": [
+        {
+          "action": "Research Jehovah - Jireh Foundation's recent grants and stated priorities",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-16",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-12",
+          "owner": "Executive Director"
+        },
+        {
+          "action": "Create account on application portal: https://jehovahjirehministries.org",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        }
+      ]
+    }
+  ],
+  "executive_summary": {
+    "key_strengths": [
+      "**Actionable Opportunities:** 5 foundation(s) may accept applications pending verification.",
+      "**Strong Matches:** 3 opportunities rated HIGH priority based on alignment analysis.",
+      "**Funding Potential:** $2,827,500 - $8,482,500 from actionable opportunities."
+    ],
+    "one_thing": "**This week's priority:** Verify application process for FOUNDATION TO PROMOTE OPEN SOCIETY before proceeding.",
+    "urgent_actions": [
+      {
+        "foundation": "FOUNDATION TO PROMOTE OPEN SOCIETY",
+        "action": "Research FOUNDATION TO PROMOTE OPEN SOCIETY's recent grants and stated priorities",
+        "deadline": "2026-01-09",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "FOUNDATION TO PROMOTE OPEN SOCIETY",
+        "action": "Create account on application portal: https://www.grantable.co/search/funders/profile/foundation-to-promote-open-society-us-foundation-263753801",
+        "deadline": "2026-01-09",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "John D and Catherine T MacArthur Foundation (Consolidated)",
+        "action": "Research John D and Catherine T MacArthur Foundation (Consolidated)'s recent grants and stated priorities",
+        "deadline": "2026-01-09",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "John D and Catherine T MacArthur Foundation (Consolidated)",
+        "action": "Create account on application portal: https://www.macfound.org",
+        "deadline": "2026-01-09",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+        "action": "Research THE ROBERT WOOD JOHNSON FOUNDATION's recent grants and stated priorities",
+        "deadline": "2026-01-09",
+        "owner": "Development Director"
+      }
+    ],
+    "funding_scenarios": {
+      "conservative": 2325000,
+      "moderate": 4830000,
+      "ambitious": 8482500
+    }
+  },
+  "timeline": [
+    {
+      "week": 1,
+      "date_start": "2026-01-02",
+      "date_end": "2026-01-08",
+      "tasks": [
+        {
+          "foundation": "FOUNDATION TO PROMOTE OPEN SOCIETY",
+          "action": "Research FOUNDATION TO PROMOTE OPEN SOCIETY's recent grants and stated priorities",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "John D and Catherine T MacArthur Foundation (Consolidated)",
+          "action": "Research John D and Catherine T MacArthur Foundation (Consolidated)'s recent grants and stated priorities",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+          "action": "Research THE ROBERT WOOD JOHNSON FOUNDATION's recent grants and stated priorities",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Research & Prioritization"
+    },
+    {
+      "week": 2,
+      "date_start": "2026-01-09",
+      "date_end": "2026-01-15",
+      "tasks": [
+        {
+          "foundation": "FOUNDATION TO PROMOTE OPEN SOCIETY",
+          "action": "Draft Letter of Inquiry for FOUNDATION TO PROMOTE OPEN SOCIETY",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "John D and Catherine T MacArthur Foundation (Consolidated)",
+          "action": "Draft Letter of Inquiry for John D and Catherine T MacArthur Foundation (Consolidated)",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "LOI Drafting"
+    },
+    {
+      "week": 3,
+      "date_start": "2026-01-16",
+      "date_end": "2026-01-22",
+      "tasks": [
+        {
+          "foundation": "FOUNDATION TO PROMOTE OPEN SOCIETY",
+          "action": "Submit LOI to FOUNDATION TO PROMOTE OPEN SOCIETY",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "John D and Catherine T MacArthur Foundation (Consolidated)",
+          "action": "Submit LOI to John D and Catherine T MacArthur Foundation (Consolidated)",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Submissions & Outreach"
+    },
+    {
+      "week": 4,
+      "date_start": "2026-01-23",
+      "date_end": "2026-01-29",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Follow up on submitted LOIs",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+          "action": "Research THE ROBERT WOOD JOHNSON FOUNDATION",
+          "owner": "Development Team"
+        },
+        {
+          "foundation": "OPEN SOCIETY INSTITUTE",
+          "action": "Research OPEN SOCIETY INSTITUTE",
+          "owner": "Development Team"
+        }
+      ],
+      "focus": "Follow-up & Next Batch"
+    },
+    {
+      "week": 5,
+      "date_start": "2026-01-30",
+      "date_end": "2026-02-05",
+      "tasks": [
+        {
+          "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+          "action": "Prepare application materials for THE ROBERT WOOD JOHNSON FOUNDATION",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "OPEN SOCIETY INSTITUTE",
+          "action": "Prepare application materials for OPEN SOCIETY INSTITUTE",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "Jehovah - Jireh Foundation",
+          "action": "Prepare application materials for Jehovah - Jireh Foundation",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "Secondary Opportunities"
+    },
+    {
+      "week": 6,
+      "date_start": "2026-02-06",
+      "date_end": "2026-02-12",
+      "tasks": [
+        {
+          "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+          "action": "Prepare application materials for THE ROBERT WOOD JOHNSON FOUNDATION",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "OPEN SOCIETY INSTITUTE",
+          "action": "Prepare application materials for OPEN SOCIETY INSTITUTE",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "Jehovah - Jireh Foundation",
+          "action": "Prepare application materials for Jehovah - Jireh Foundation",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "Secondary Opportunities"
+    },
+    {
+      "week": 7,
+      "date_start": "2026-02-13",
+      "date_end": "2026-02-19",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Review responses and adjust strategy",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Review & Adjust"
+    },
+    {
+      "week": 8,
+      "date_start": "2026-02-20",
+      "date_end": "2026-02-26",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Prepare for next report cycle",
+          "owner": "Development Team"
+        }
+      ],
+      "focus": "Planning Next Cycle"
+    }
+  ],
+  "urgent_actions": [
+    {
+      "foundation": "FOUNDATION TO PROMOTE OPEN SOCIETY",
+      "action": "Research FOUNDATION TO PROMOTE OPEN SOCIETY's recent grants and stated priorities",
+      "deadline": "2026-01-09",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "FOUNDATION TO PROMOTE OPEN SOCIETY",
+      "action": "Create account on application portal: https://www.grantable.co/search/funders/profile/foundation-to-promote-open-society-us-foundation-263753801",
+      "deadline": "2026-01-09",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "John D and Catherine T MacArthur Foundation (Consolidated)",
+      "action": "Research John D and Catherine T MacArthur Foundation (Consolidated)'s recent grants and stated priorities",
+      "deadline": "2026-01-09",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "John D and Catherine T MacArthur Foundation (Consolidated)",
+      "action": "Create account on application portal: https://www.macfound.org",
+      "deadline": "2026-01-09",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+      "action": "Research THE ROBERT WOOD JOHNSON FOUNDATION's recent grants and stated priorities",
+      "deadline": "2026-01-09",
+      "owner": "Development Director"
+    }
+  ]
+}

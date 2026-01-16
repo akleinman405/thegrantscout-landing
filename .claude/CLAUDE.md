@@ -18,10 +18,12 @@
 |------|-------|
 | Foundations in DB | 143,184 |
 | Historical grants | 8.3M |
-| Semantic embeddings | 9.2M |
+| Semantic embeddings | ARCHIVED (see note below) |
 | Data years | 2016-2024 |
 | Primary schema | f990_2025 |
 | DB Host | localhost:5432 |
+
+**Note:** Embedding tables were archived 2026-01-04 to save 52GB disk space. Backups at `1. Database/4. Semantic Embeddings/archive/`. See `REPORT_2026-01-04.1_embeddings_archived.md` for restore instructions.
 
 ---
 
@@ -150,28 +152,45 @@ Every report MUST include these elements in order:
 - Output files go in same folder as prompt unless specified
 - Response length: brief unless asked for detail
 
+**IMPORTANT - Excel Files:**
+When generating Excel files, follow these standards:
+- **Layout:** Blank row 1 and column A (data starts at B2)
+- **Zoom:** Set to 140% (`ws.sheet_view.zoomScale = 140`)
+- **Table:** Use Excel Table for filtering/sorting (`openpyxl.worksheet.table.Table`)
+- **Numbers:** Format with commas (`#,##0`)
+- **Currency:** Format as `"$"#,##0`
+- **Percentages:** Store as decimal, format as `0%`
+- **Style:** Use `TableStyleMedium2` with row stripes
+- **Font:** Calibri 10pt
+- **Headers:** Bold white text on dark blue (#2F5496)
+- **Borders:** Bold (medium) border around table edges and header row; thin borders inside
+- **Text:** No wrap (`wrap_text=False`)
+- **Freeze panes:** Keep headers and first data column visible
+
 ---
 
-## Key Paths (Cookie Cutter Structure)
+## Key Paths (Numbered Folders)
 
+| # | Folder | Contents |
+|---|--------|----------|
+| 1 | `1. Database/` | Raw IRS data, PostgreSQL credentials, embeddings scripts |
+| 2 | `2. Docs/` | Documentation, data dictionary, specs |
+| 3 | `3. Models/` | Model versions (current → v6.1) |
+| 4 | `4. Pipeline/` | Scripts, config, client profiles |
+| 5 | `5. Runs/` | Client run outputs: `{client}/{date}/` |
+| 6 | `6. Business/` | Sales, marketing, beta testing, admin |
+| 7 | `7. Research/` | Research outputs, archived files |
+| 8 | `8. Data/` | Symlink to `1. Database/` |
+| 9 | `9. Pipeline Legacy/` | Training CSVs (large files) |
+
+**Quick reference:**
 | Item | Path |
 |------|------|
-| Documentation | `docs/` |
-| Data dictionary | `docs/data-dictionary.md` |
-| Model versions | `models/` (current → v6.1) |
-| Pipeline scripts | `pipeline/scripts/` |
-| Pipeline config | `pipeline/config/` |
-| Client runs | `runs/{client}/{date}/` |
-| Sales & Marketing | `business/sales-marketing/` |
-| Beta testing | `business/beta-testing/` |
-| Website | `business/website/` |
-| Raw IRS data | `data/raw/` (symlink) |
-
-**Legacy paths (still exist, pending cleanup):**
-| Item | Path |
-|------|------|
-| Database credentials | `1. Database/Postgresql Info.txt` |
-| Embeddings scripts | `1. Database/4. Semantic Embeddings/` |
+| Data dictionary | `2. Docs/data-dictionary.md` |
+| Pipeline scripts | `4. Pipeline/scripts/` |
+| Pipeline config | `4. Pipeline/config/` |
+| Client runs | `5. Runs/{client}/{date}/` |
+| DB credentials | `1. Database/Postgresql Info.txt` |
 
 ---
 
@@ -180,9 +199,8 @@ Every report MUST include these elements in order:
 - **Schema:** f990_2025
 - **Data Dictionary:** `docs/data-dictionary.md`
 - **Latest Stats:** `docs/database-summary.md`
-- **pgvector:** Use `_v` suffix columns for embeddings (e.g., `purpose_embedding_v`)
-- **Query Setup:** `SET ivfflat.probes = 10;` for similarity queries
-- **Table Prefixes:** `dim_` (dimension), `fact_` (fact), `calc_` (calculated), `emb_` (embeddings), `stg_` (staging), `ref_` (reference)
+- **Embeddings:** ARCHIVED - tables dropped 2026-01-04, backups in `1. Database/4. Semantic Embeddings/archive/`
+- **Table Prefixes:** `dim_` (dimension), `fact_` (fact), `calc_` (calculated), `emb_` (embeddings - archived), `stg_` (staging), `ref_` (reference)
 
 ---
 
@@ -203,15 +221,15 @@ Every report MUST include these elements in order:
 
 ## Foundation Scoring (LASSO V6.1 Model)
 
-Foundations are scored using a **LASSO logistic regression model** with size-matched negative sampling. See `models/v6.1/REPORT_2026-01-03_v6.1_model_evaluation.md` for full details.
+Foundations are scored using a **LASSO logistic regression model** with size-matched negative sampling. See `3. Models/v6.1/REPORT_2026-01-03_v6.1_model_evaluation.md` for full details.
 
 | Metric | Value |
 |--------|-------|
 | Model | LASSO V6.1 (trained 2026-01-03) |
 | Test AUC | 0.94 |
 | Training Data | 1.31M rows (size-matched negatives) |
-| Config | `pipeline/config/coefficients.json` |
-| Scorer | `pipeline/scripts/02_score_foundations_v6.1.py` |
+| Config | `4. Pipeline/config/coefficients.json` |
+| Scorer | `4. Pipeline/scripts/02_score_foundations_v6.1.py` |
 
 ### Top Positive Signals (increase score)
 
@@ -222,7 +240,7 @@ Foundations are scored using a **LASSO logistic regression model** with size-mat
 | `match_state_x_geo_conc` | +0.54 | State match × geographic focus |
 | `f_log_total_grants` | +0.39 | Active foundations |
 | `r_total_revenue` | +0.26 | Recipient size (balanced) |
-| `match_semantic_similarity` | +0.04 | Mission alignment via embeddings |
+| `match_semantic_similarity` | +0.04 | Mission alignment via embeddings (requires regeneration) |
 
 ### Production Filters
 
@@ -238,13 +256,13 @@ Foundations are scored using a **LASSO logistic regression model** with size-mat
 - **Prior funders:** EXCLUDED from results
 - **Scoring:** Uses logit (not probability) for ranking to avoid saturation
 - **Scaling:** All features z-score scaled before applying coefficients
-- **Semantic similarity:** Computed from foundation grant purpose embeddings vs recipient mission
+- **Semantic similarity:** Requires embedding regeneration (tables archived 2026-01-04)
 
 ---
 
 ## Report Generation Pipeline (V2)
 
-Location: `pipeline/scripts/`
+Location: `4. Pipeline/scripts/`
 
 | Script | Purpose | Input | Output |
 |--------|---------|-------|--------|
@@ -318,6 +336,8 @@ Detailed documentation in `.claude/`:
 
 | Date | Version | Changes |
 |------|---------|---------|
+| 2026-01-04 | 5.2 | Archived embedding tables (52GB freed), updated references |
+| 2026-01-04 | 5.1 | Renumbered folders for sorting (2. Docs, 3. Models, etc.), cleaned up root directory |
 | 2026-01-04 | 5.0 | Cookie Cutter migration: updated all paths to new structure, added README maintenance rule |
 | 2026-01-04 | 4.3 | Updated to LASSO V6.1 model, added mandatory report structure (TOC, revision history) |
 | 2026-01-02 | 4.1 | Replaced stale "10-Signal" section with accurate LASSO V4 model documentation |

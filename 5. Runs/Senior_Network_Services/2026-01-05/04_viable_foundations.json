@@ -1,0 +1,184 @@
+{
+  "client": "Senior Network Services",
+  "client_short_name": "SNS",
+  "run_date": "2026-01-05",
+  "filter_date": "2026-01-05",
+  "settings": {
+    "top_n_processed": 5,
+    "include_watch": false,
+    "include_skip": false
+  },
+  "summary": {
+    "total_processed": 5,
+    "total_output": 5,
+    "tier_counts": {
+      "ready": 2,
+      "conditional": 3,
+      "watch": 0,
+      "skip": 0
+    },
+    "excluded": 0
+  },
+  "foundations": [
+    {
+      "rank": 1,
+      "foundation_ein": "943339119",
+      "foundation_name": "Touchpoint Foundation",
+      "foundation_state": "NJ",
+      "foundation_city": "Summit",
+      "match_score": 900.0,
+      "adjusted_score": 810.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.90,
+        "reason": "PROVEN SENIOR FUNDER - Senior Coastsiders $15-32K repeatedly"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "loi",
+        "red_flags": ["18_month_wait_between_grants"],
+        "program_priorities": "100% general support - flexible",
+        "geographic_focus": "National (NJ-based)",
+        "grant_range_stated": "$5K - $15K",
+        "last_enriched": "2026-01-05",
+        "enrichment_source": "touchpointfoundation.org",
+        "enrichment_notes": "TOP PICK - Funded Senior Coastsiders for 5+ consecutive years at $15K-$32K. Also funds Meals on Wheels, Legal Assistance to the Elderly, Institute on Aging."
+      },
+      "website": "https://touchpointfoundation.org",
+      "contact_name": "Cindy Labuda",
+      "contact_email": null,
+      "contact_phone": "650-599-7407",
+      "application_url": "https://touchpointfoundation.org/grant-guidelines",
+      "deadline": null,
+      "deadline_notes": "Jan 1, Apr 1, Jul 1, Oct 1 (quarterly)"
+    },
+    {
+      "rank": 2,
+      "foundation_ein": "946073762",
+      "foundation_name": "Annunziata Sanguinetti Foundation",
+      "foundation_state": "MO",
+      "foundation_city": "St. Louis",
+      "match_score": 850.0,
+      "adjusted_score": 510.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.60,
+        "reason": "Bank-managed - contact Wells Fargo"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": "unknown",
+        "red_flags": ["bank_managed", "stated_focus_children"],
+        "program_priorities": "Organizations that benefit children",
+        "geographic_focus": "Unknown",
+        "grant_range_stated": "$50K - $60K (Lighthouse for the Blind)",
+        "last_enriched": "2026-01-05",
+        "enrichment_source": "wellsfargo.com",
+        "enrichment_notes": "Strong disability focus - funded Lighthouse for the Blind $50-60K. Bank-managed (Wells Fargo), stated focus is 'children' but has funded disability orgs."
+      },
+      "website": "https://wellsfargo.com/private-foundations/sanguinetti-foundation/",
+      "contact_name": "Wells Fargo Bank NA (Trustee)",
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": "https://wellsfargo.com/private-foundations/sanguinetti-foundation/",
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 3,
+      "foundation_ein": "770549288",
+      "foundation_name": "The Allison Lee Condit Foundation",
+      "foundation_state": "CA",
+      "foundation_city": "Aptos",
+      "match_score": 800.0,
+      "adjusted_score": 480.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.60,
+        "reason": "Family foundation - contact directly"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": "unknown",
+        "red_flags": ["no_website", "family_foundation"],
+        "program_priorities": "44% disability grants",
+        "geographic_focus": "Aptos, California (local)",
+        "grant_range_stated": "$1K - $5K (small grants)",
+        "last_enriched": "2026-01-05",
+        "enrichment_source": null,
+        "enrichment_notes": "100% disability focus. No website, family foundation - contact Ross Condit directly."
+      },
+      "website": null,
+      "contact_name": "Ross Condit",
+      "contact_email": null,
+      "contact_phone": "831-345-9016",
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 4,
+      "foundation_ein": "943116041",
+      "foundation_name": "The Upjohn Fund of San Francisco",
+      "foundation_state": "DE",
+      "foundation_city": "San Francisco",
+      "match_score": 750.0,
+      "adjusted_score": 712.5,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.95,
+        "reason": "Accepts LOI - SF Bay Area focus matches SNS"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "loi",
+        "red_flags": [],
+        "program_priorities": "67% general support - flexible",
+        "geographic_focus": "San Francisco Bay Area",
+        "grant_range_stated": "$5K - $15K",
+        "last_enriched": "2026-01-05",
+        "enrichment_source": null,
+        "enrichment_notes": "SF Bay Area focus - SNS is in SF, good fit. No senior track record but flexible general support."
+      },
+      "website": null,
+      "contact_name": "Fred Weil",
+      "contact_email": "fweil@hansonbridgett.com",
+      "contact_phone": "800-839-1754",
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 5,
+      "foundation_ein": "941652296",
+      "foundation_name": "Senior Assistance Foundation Eastbay",
+      "foundation_state": "CA",
+      "foundation_city": "Oakland",
+      "match_score": 700.0,
+      "adjusted_score": 420.0,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.60,
+        "reason": "Application process needs research"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": "unknown",
+        "red_flags": ["needs_research"],
+        "program_priorities": "Senior services - direct alignment",
+        "geographic_focus": "East Bay, California",
+        "grant_range_stated": "$18M to 17 senior orgs (historical)",
+        "last_enriched": "2026-01-05",
+        "enrichment_source": null,
+        "enrichment_notes": "PERFECT MISSION ALIGNMENT - $18M to 17 senior organizations. Need to research application process."
+      },
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    }
+  ]
+}

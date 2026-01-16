@@ -1,208 +1,640 @@
-# SOP: Monthly Report Generation
+# SOP: Grant Report Generation
 
-**Version:** 1.0
-**Created:** 2026-01-02
-**Purpose:** Standard procedure for generating monthly grant opportunity reports
+**Version:** 2.0
+**Created:** 2026-01-06
+**Updated:** 2026-01-06
+**Purpose:** Standard procedure for generating high-quality grant opportunity reports
 
 ---
 
 ## Overview
 
-This SOP covers generating grant opportunity reports for TheGrantScout clients using Pipeline V2 scripts and the foundation enrichment system.
+This SOP covers generating grant opportunity reports for TheGrantScout clients. The process is designed to be manual-first with quality checkpoints, prioritizing report quality over speed.
 
-**Time estimate:** 1-2 hours per client (depending on cache hits)
+**Philosophy:** Each report batch is a learning opportunity. We build infrastructure that supports the best possible reports by Claude Code CLI, then automate incrementally.
+
+**Time estimate:** 2-4 hours per client (manual enrichment is the bottleneck)
 **Output:** Client-ready report (markdown + docx)
 
 ---
 
-## Prerequisites
+## Table of Contents
 
-Before starting:
-- [ ] Client has completed questionnaire
-- [ ] Client profile exists or can be created
-- [ ] Database connection working (`psql` to f990_2025)
-- [ ] Pipeline V2 scripts available in `Pipeline v2/scripts/`
-
----
-
-## Workflow
-
-### Phase 1: Client Setup
-
-**Script:** `01_load_client.py`
-
-1. Load client from questionnaire data
-2. Verify these fields are populated:
-   - `specific_ask_text` - What they're specifically looking for
-   - `grant_type_preference` - Capital, program, general, etc.
-   - `target_grant_size` - Their preferred grant range
-   - `geographic_scope` - Where they operate
-
-**Quality Check:**
-- [ ] Client profile has specific_ask_text
-- [ ] Grant type preference makes sense for their ask
-
-**Output:** `runs/{client}/YYYY-MM/01_client.json`
+1. [Phase 0: Pre-Flight Checks](#phase-0-pre-flight-checks)
+2. [Phase 1: Client Understanding](#phase-1-client-understanding)
+3. [Phase 2: Foundation Discovery](#phase-2-foundation-discovery)
+4. [Phase 3: Enrichment & Research](#phase-3-enrichment--research)
+5. [Phase 4: Report Assembly](#phase-4-report-assembly)
+6. [Phase 5: Quality Checkpoints](#phase-5-quality-checkpoints)
+7. [Handling Special Cases](#handling-special-cases)
+8. [Troubleshooting](#troubleshooting)
 
 ---
 
-### Phase 2: Foundation Scoring
+## Phase 0: Pre-Flight Checks
 
-**Script:** `02_score_foundations.py`
+Before starting ANY report generation:
 
-1. Run 10-signal matching algorithm
-2. Generate top 20 scored foundations
+### 0.1 Environment Verification
 
-**Quality Check:**
-- [ ] Review top 10 foundations - do they make sense for this client?
-- [ ] For capital-seeking clients: Are capital funders appearing?
-- [ ] For geographic-specific clients: Are local funders appearing?
+```bash
+# Verify database connection
+psql -h localhost -U postgres -d thegrantscout -c "SELECT COUNT(*) FROM f990_2025.dim_foundations;"
 
-**If poor matches:** Check client profile, may need to adjust parameters.
+# Check pipeline scripts exist
+ls "/Users/aleckleinman/Documents/TheGrantScout/4. Pipeline/scripts/"
+```
 
-**Output:** `runs/{client}/YYYY-MM/02_scored_foundations.csv`
+### 0.2 Client Data Verification
 
----
-
-### Phase 3: Enrichment Check
-
-**Script:** `03_check_enrichment.py`
-
-1. Check database for cached enrichment data
-2. Identify foundations needing research
-
-**Output:** `runs/{client}/YYYY-MM/03_enrichment_status.json`
-
-Categories:
-- `READY` - Have fresh data, proceed
-- `NEEDS_FULL_ENRICHMENT` - No data or >90 days old
-- `NEEDS_VERIFICATION` - Have data but contacts >30 days old
+- [ ] Client exists in `4. Pipeline/config/clients.json`
+- [ ] Questionnaire data is available (6. Business/beta-testing/ or equivalent)
+- [ ] EIN is correct and matches questionnaire
+- [ ] No recent report exists (check `5. Runs/{client}/`)
 
 ---
 
-### Phase 4: Foundation Research
+## Phase 1: Client Understanding
 
-**Skill:** `SKILL_foundation_scraper.md`
+**Goal:** Ensure complete understanding of client needs BEFORE running any algorithms.
 
-For each foundation needing enrichment:
+### 1.1 Required Questions (Verify Before Starting)
 
-1. Find foundation website
-2. Extract fields per skill instructions:
-   - accepts_unsolicited
-   - application_type
-   - application_url
-   - current_deadline
-   - contact_name, contact_email
-   - program_priorities
-   - geographic_focus
-   - grant_range_stated
-   - application_requirements
-   - red_flags
-3. Store via `03b_store_enrichment.py`
+| Question | Why It Matters | Where to Find |
+|----------|----------------|---------------|
+| What is their PRIMARY funding need right now? | Determines search strategy | Questionnaire, specific_ask_text |
+| Do they have MULTIPLE priorities? | May need multiple search passes | Questionnaire, notes |
+| What is their geographic scope? (City/County/State/National) | Algorithm is state-level; may need adjustment | Questionnaire, geographic_scope |
+| What is their grant size target? | Filters foundations by typical grant size | Questionnaire |
+| Who are their known/prior funders? | EXCLUDE from results | prior_funders array |
+| What customer type are they? | Determines report format | See section 1.2 |
 
-**Quality Check:**
-- [ ] Each enrichment record has accepts_unsolicited value
-- [ ] Red flags identified where appropriate
-- [ ] Contact info captured where available
+### 1.2 Identify Customer Type
 
-**Output:** Database records in `foundation_enrichment` table
+**CRITICAL:** Different customer types need different outputs.
 
----
+| Type | Signals | What They Want | Report Approach |
+|------|---------|----------------|-----------------|
+| **Calendar Managers** | "We already know most foundations"; experienced grant writer; values organization | Reminders, deadlines, nothing overlooked | Comprehensive list, emphasis on timeline |
+| **Niche Seekers** | "Help us find new funders"; specific geography like Hawaii; looking outside usual sources | Discovery of unexpected matches | Prioritize novel foundations over obvious ones |
+| **Relationship Builders** | "We prefer LOIs over formal apps"; interested in board connections; multi-mission org | Foundation profiles for prospecting | Fewer foundations (5), deeper research on each |
 
-### Phase 5: Viability Filtering
+**Examples from beta:**
+- **Calendar Manager:** Andy (RHF) - "Info organized in one place was valuable"
+- **Niche Seeker:** Ka Ulukoa - Hawaii-specific foundations prioritized
+- **Relationship Builder:** Consuelo (PSMF) - "Prefers ~5 foundations with relationship-building info"
 
-**Script:** `04_filter_viable.py`
+### 1.3 Handle Multi-Priority Clients
 
-1. Calculate viability tier for each foundation:
-   - **READY** - Clear path to apply (multiplier 0.85-1.0)
-   - **CONDITIONAL** - Possible but needs verification (0.5-0.7)
-   - **WATCH** - Relationship building only (0.2-0.3)
-   - **SKIP** - Exclude from report (0.0)
+**When client has 2+ distinct funding priorities:**
 
-2. Apply multipliers to adjust scores
+```
+Example: FCSD
+- Priority 1: Vocational training bakery (~$100K expansion)
+- Priority 2: Future community center building (capital)
+```
 
-**Quality Check:**
-- [ ] At least 5 foundations are READY or CONDITIONAL
-- [ ] If <5 viable, pull next batch and repeat Phase 3-4
-- [ ] Review SKIP foundations - are exclusions correct?
+**Process:**
+1. Document EACH priority separately in client profile
+2. Run foundation discovery ONCE per priority
+3. Merge results, ensuring coverage of BOTH priorities
+4. Final report should address EACH priority explicitly
 
-**Output:** `runs/{client}/YYYY-MM/04_viable_foundations.json`
+**Minimum coverage rule:** At least 2 foundations per priority in final Top 5.
 
----
+### 1.4 Handle Geographic Specificity
 
-### Phase 6: Select Final 5
+| Client Says | Algorithm Does | Gap | Claude Action |
+|-------------|----------------|-----|---------------|
+| "San Diego" | Matches CA state | City not matched | Add manual filter for SD-area foundations |
+| "National" | Matches HQ state (CT) | Only gets CT | Add curated national foundations manually |
+| "Hawaii" | Matches HI state | OK | Standard process works |
+| "DeKalb County, GA" | Matches GA state | County not matched | Review top 100 for Atlanta-area specifically |
 
-From viable foundations, select top 5 based on:
-1. Viability tier (READY > CONDITIONAL > WATCH)
-2. Adjusted score (original x viability multiplier)
-3. Alignment with client's specific_ask_text
-4. Grant type match
+### 1.5 Output: Client Brief
 
-**Quality Check (CRITICAL):**
-- [ ] Each foundation actually matches client's needs
-- [ ] Mix of tiers is appropriate
-- [ ] No red flags missed
-- [ ] For multi-priority clients (e.g., Friendship Circle): mix covers both priorities
+Before proceeding, create a client brief (can be mental or documented):
 
-**STOP AND REVIEW** - Get approval before proceeding to narratives.
-
----
-
-### Phase 7: Assemble & Generate
-
-**Scripts:** `05_assemble_opportunities.py`, `06_generate_narratives.py`
-
-1. Assemble opportunity objects with all data
-2. Generate positioning narratives for each foundation
-
-**Quality Check:**
-- [ ] Narratives reference client's specific ask
-- [ ] Action types are appropriate (Apply Now / Send LOI / Build Relationship)
-- [ ] Deadlines are accurate and not passed
-
-**Outputs:**
-- `runs/{client}/YYYY-MM/05_opportunities.json`
-- `runs/{client}/YYYY-MM/06_narratives.json`
+```
+CLIENT BRIEF: [Organization Name]
+- Customer Type: [Calendar Manager / Niche Seeker / Relationship Builder]
+- Primary Priority: [What they want funding for]
+- Secondary Priority: [If applicable]
+- Geographic Scope: [City/State/National] - Algorithm adjustment needed? [Y/N]
+- Target Grant Size: [$X - $Y]
+- Known Funders to Exclude: [List]
+- Report Format: [Opportunity-focused / Foundation-focused]
+```
 
 ---
 
-### Phase 8: Build Report
+## Phase 2: Foundation Discovery
 
-**Scripts:** `07_build_report_data.py`, `08_render_report.py`, `09_convert_to_docx.py`
+**Goal:** Identify the best-fit foundations using algorithmic scoring AND manual curation.
 
-1. Structure report data
-2. Render to markdown
-3. Convert to Word document
+### 2.1 Decision: Algorithm vs. Manual Research
 
-**Final Quality Check:**
-- [ ] Report has 5 foundations (or explanation if fewer)
-- [ ] All deadlines are future dates
-- [ ] Contact info present where available
-- [ ] Client's specific ask reflected in recommendations
-- [ ] No broken URLs
-- [ ] Grammar/formatting clean
+| Situation | Approach |
+|-----------|----------|
+| Standard client (state-level geography, common sector) | Use algorithm (Script 02) |
+| Niche geography (city-specific, Hawaii, etc.) | Algorithm + manual curation |
+| National scope | Algorithm flags HQ state; manually add national foundations |
+| Unusual sector (patient safety, maritime, etc.) | Algorithm + keyword search in grant purposes |
+| Capital project | Algorithm + filter for capital funders |
+| Multi-priority | Run algorithm TWICE with different parameters |
 
-**Outputs:**
-- `runs/{client}/YYYY-MM/07_report_data.json`
-- `runs/{client}/YYYY-MM/08_report.md`
-- `runs/{client}/YYYY-MM/08_report.docx`
+### 2.2 Algorithmic Scoring (Standard Path)
+
+**Script:** `02_score_foundations_v6.1.py`
+
+```bash
+cd "/Users/aleckleinman/Documents/TheGrantScout/4. Pipeline"
+python3 scripts/02_score_foundations_v6.1.py --client "{client_name}" --output "runs/{client}/{date}/02_scored_foundations.csv"
+```
+
+**Output:** Top 100 foundations ranked by LASSO V6.1 model
+
+### 2.3 Quality Check: Algorithm Output
+
+**STOP and review the top 20 before proceeding:**
+
+| Check | Pass | Fail |
+|-------|------|------|
+| At least 5 foundations in client's state? | Continue | Add curated foundations |
+| Grant sizes appropriate for client? | Continue | Adjust target_grant_size |
+| Sectors represented match client? | Continue | Check client profile |
+| Any prior funders in list? | Remove them | |
+| For capital clients: Any capital funders? | Continue | Add curated capital funders |
+
+### 2.4 Curated Foundations (Manual Research Path)
+
+**When to use:** Algorithm output doesn't match client needs.
+
+**Process:**
+1. Research foundations manually using:
+   - Candid/GuideStar sector searches
+   - Foundation Directory by geography
+   - Known capital/program funders in sector
+   - Board overlap analysis
+2. Document each curated foundation with EIN
+3. Generate snapshots for curated foundations
+
+**Curated Foundation Research Sources:**
+- Candid Foundation Directory
+- Council on Foundations member list
+- State association of grantmakers
+- Similar organizations' 990s (who funded them?)
+
+### 2.5 Merge Scored + Curated
+
+**Final foundation list should include:**
+- Top 10-15 from algorithm
+- 5-10 curated foundations (if needed)
+- Total: ~20-30 foundations for grant purpose filtering
+
+### 2.6 Sibling Nonprofit Methodology (V3.0 - Added 2026-01-13)
+
+**CRITICAL:** Before deep enrichment, find foundations that have funded organizations SIMILAR to the client.
+
+**Why this matters:**
+- "They funded orgs like you" is stronger evidence than "they fund your sector"
+- Semantic embeddings catch synonyms that keyword search misses
+- Combines mission similarity + budget compatibility
+
+**Sibling Definition:**
+A nonprofit S is a "sibling" of client C if:
+1. `cosine_similarity(S.mission_embedding, C.mission_embedding) >= 0.50`
+2. `S.budget BETWEEN C.budget × 0.2 AND C.budget × 5.0`
+
+**Process:**
+
+**Step 1: Generate client embedding**
+```python
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer('all-MiniLM-L6-v2')
+client_embedding = model.encode(client_mission_text)
+```
+
+**Step 2: Find sibling nonprofits**
+```sql
+-- Find nonprofits similar to client by mission + budget
+SELECT
+    ein,
+    name,
+    total_revenue as budget,
+    1 - (mission_embedding <=> %(client_embedding)s) as similarity
+FROM f990_2025.emb_nonprofit_missions em
+JOIN f990_2025.nonprofit_returns nr ON em.ein = nr.ein
+WHERE nr.total_revenue BETWEEN %(budget_min)s AND %(budget_max)s
+  AND 1 - (mission_embedding <=> %(client_embedding)s) >= 0.50
+ORDER BY similarity DESC;
+```
+
+**Step 3: Find foundations that funded siblings**
+```sql
+SELECT
+    fg.foundation_ein,
+    df.name as foundation_name,
+    COUNT(DISTINCT fg.recipient_ein) as siblings_funded,
+    COUNT(*) as total_grants_to_siblings,
+    SUM(fg.amount) as total_amount,
+    MAX(fg.tax_year) as most_recent_year
+FROM f990_2025.fact_grants fg
+JOIN f990_2025.dim_foundations df ON fg.foundation_ein = df.ein
+WHERE fg.recipient_ein IN (SELECT ein FROM sibling_nonprofits)
+GROUP BY fg.foundation_ein, df.name
+HAVING COUNT(DISTINCT fg.recipient_ein) >= 2
+ORDER BY siblings_funded DESC, total_amount DESC;
+```
+
+**Step 4: Combine with keyword matching**
+Also check grant PURPOSE keywords for foundations that may have funded similar WORK but not the exact siblings.
+
+**Output:** Ranked list of foundations with:
+- Number of siblings funded
+- Total grants to siblings
+- Grant purpose keyword matches
+- LASSO score (for validation)
+
+### 2.7 Grant Purpose Filter (Complementary)
+
+**Use alongside sibling methodology:**
+
+```sql
+SELECT COUNT(*) as matching_grants
+FROM f990_2025.fact_grants
+WHERE foundation_ein = '[EIN]'
+AND purpose_text ILIKE ANY(array['%keyword1%', '%keyword2%', ...]);
+```
+
+Categorize:
+- **VALIDATED:** 3+ matching grants
+- **PARTIAL:** 1-2 matching grants
+- **UNVALIDATED:** 0 matching grants
+
+**Note:** Sibling methodology is PRIMARY; keyword matching is COMPLEMENTARY.
 
 ---
 
-## Batch Processing (Multiple Clients)
+## Phase 3: Quick Eligibility Filtering
 
-When generating reports for multiple clients:
+**Goal:** Quickly filter foundations by eligibility criteria BEFORE deep enrichment.
 
-1. **Group by similarity:**
-   - Program-focused clients together
-   - Capital-seeking clients together
-   - Geographic clusters together
+**Philosophy (Updated 2026-01-13):** Filter first, then research. Don't waste time on deep research for foundations that will be filtered out.
 
-2. **Leverage cache:** Run enrichment-heavy clients first to populate cache for others
+### 3.1 What to Check (Quick Research - 5-10 min per foundation)
 
-3. **Parallel execution:** Can run 2-3 clients simultaneously in different terminals (watch for DB write conflicts)
+For top 15-20 foundations from Phase 2, check ONLY:
 
-4. **Quality gates:** Still review each client's final 5 before generating narratives
+| Check | Source | Action if Fail |
+|-------|--------|----------------|
+| `accepts_unsolicited` | Foundation website | SKIP (unless excellent fit → WATCH) |
+| `eligibility_fit` | Foundation guidelines | SKIP if client doesn't qualify |
+| `geographic_focus` | Foundation website | SKIP if client area excluded |
+| `program_priorities` | Foundation website | SKIP if sector mismatch |
+
+**DO NOT research yet:** contact info, deadline details, application requirements, comparable grant details.
+
+### 3.2 Eligibility Tiers (Updated)
+
+| Tier | Foundations | Research Depth |
+|------|-------------|----------------|
+| **Tier 1** | Top 15 by score with grant match | Quick eligibility check only |
+| **Tier 2** | Ranks 16-25 or partial grant match | Only if Tier 1 yields <8 viable |
+| **Tier 3** | Unvalidated grant match | Last resort |
+
+### 3.2 Essential vs. Nice-to-Have Enrichment
+
+**Essential (MUST have for every foundation in final report):**
+
+| Field | Why Essential | Source |
+|-------|---------------|--------|
+| `accepts_unsolicited` | Determines if actionable | Website guidelines |
+| `application_type` | Determines approach (LOI, RFP, etc.) | Website |
+| `geographic_focus` | Confirms client is eligible | Website, 990 analysis |
+| `program_priorities` | Confirms mission alignment | Website "What We Fund" |
+| `eligibility_fit` | Confirms client qualifies | Website guidelines (see 3.2.1) |
+
+#### 3.2.1 Eligibility Criteria (NEW - Added 2026-01-13)
+
+**CRITICAL:** Before including a foundation in the report, verify the client meets ALL stated eligibility requirements. If client doesn't meet requirements → **SKIP** (not CONDITIONAL).
+
+| Criteria | What to Look For | Where to Find | Example Disqualifier |
+|----------|------------------|---------------|---------------------|
+| `budget_requirement` | Min/max recipient budget | Guidelines, eligibility page | "Orgs must have budget >$1M" |
+| `org_age_requirement` | Years in operation | Guidelines | "Must be operating 3+ years" |
+| `org_type_requirement` | 501(c)(3), public charity, etc. | Guidelines | "Private foundations not eligible" |
+| `grant_size_range` | Typical/max grant amount | Guidelines, 990 analysis | Too small to be meaningful for client |
+| `geographic_restrictions` | Specific city/county/region | Guidelines | "San Diego County only" |
+| `project_type_restrictions` | Capital, program, general operating | Guidelines | "No capital grants" |
+| `other_restrictions` | New grantees only, no repeat, etc. | Guidelines | "Previous grantees not eligible" |
+
+**Eligibility Check Process:**
+1. Read foundation's eligibility/guidelines page completely
+2. Compare EACH stated requirement against client profile
+3. Document any requirement that client does NOT meet
+4. If ANY requirement not met → SKIP (unless requirement is ambiguous → CONDITIONAL)
+
+**Nice-to-Have (include if time permits):**
+
+| Field | Value | Source |
+|-------|-------|--------|
+| `contact_name` | Personalization | Staff page |
+| `contact_email` | Direct outreach | Staff page |
+| `current_deadline` | Action planning | RFP page |
+| `grant_range_stated` | Request sizing | Guidelines |
+| `application_requirements` | Prep planning | Guidelines |
+
+### 3.3 Enrichment Process
+
+**Use SKILL_foundation_scraper.md for each foundation:**
+
+1. **Find website:**
+   - Search: `"{foundation_name}" foundation grants`
+   - Verify EIN matches
+   - Document URL
+
+2. **Navigate to grants page:**
+   - Look for: "Grants", "What We Fund", "How to Apply", "For Grantseekers"
+
+3. **Extract required fields:**
+   - Does it accept unsolicited proposals?
+   - What is the application type?
+   - What are program priorities?
+   - What is geographic focus?
+
+4. **Identify red flags:**
+   - `no_unsolicited`: States "do not accept unsolicited proposals"
+   - `invite_only_strict`: "Grants by invitation only"
+   - `geographic_mismatch`: Excludes client's area
+   - `sector_mismatch`: Doesn't fund client's work
+   - `possibly_dormant`: No recent grants (3+ years)
+
+### 3.4 Track Enrichment (For Future Runs)
+
+**Store enrichment data in database:**
+
+```bash
+python3 scripts/03b_store_enrichment.py --file enrichment_batch.json
+```
+
+**Track what was researched:**
+- Keep log of which foundations were researched
+- Note date of research
+- Flag for refresh if >90 days old
+
+### 3.5 Viability Assessment
+
+After enrichment, categorize each foundation:
+
+| Tier | Criteria | Action |
+|------|----------|--------|
+| **READY** | accepts_unsolicited=true, no red flags, deadline >30 days | Include in report |
+| **CONDITIONAL** | accepts_unsolicited unclear, or minor concerns | Include with caveats |
+| **WATCH** | invite_only but good fit | Include for relationship building |
+| **SKIP** | Red flags, geographic mismatch, dormant | Exclude |
+
+**Minimum viable count:** 5 READY or CONDITIONAL foundations
+
+If <5 viable: Expand to Tier 2/3 foundations or add curated.
+
+---
+
+## Phase 4: Select Final 5 + Deep Enrichment
+
+**Goal:** Select final foundations and gather detailed info for report.
+
+**Philosophy (Updated 2026-01-13):** Only do deep research on foundations that will actually appear in the report.
+
+### 4.1 Select Final 5
+
+From viable foundations (Phase 3 output), select top 5 based on:
+
+1. **Grant purpose validation:** VALIDATED > PARTIAL > UNVALIDATED
+2. **Viability tier:** READY > CONDITIONAL > WATCH
+3. **Alignment score:** From algorithm or manual assessment
+4. **Priority coverage:** For multi-priority clients, ensure both covered
+5. **Diversity:** Mix of grant sizes, application types
+
+### 4.2 Deep Enrichment (NEW - Only for Final 5)
+
+**Now** research the following for ONLY the final 5 foundations:
+
+| Field | Source | Purpose |
+|-------|--------|---------|
+| `contact_name` | Staff page | Personalization |
+| `contact_email` | Staff page | Direct outreach |
+| `current_deadline` | RFP/Guidelines | Action planning |
+| `application_requirements` | Guidelines | Prep planning |
+| `grant_range_stated` | Guidelines | Request sizing |
+| `application_url` | Website | Link in report |
+
+### 4.3 Select Comparable Grants (for Final 5)
+
+For each foundation, use `matching_grant_keywords` to find 2-3 relevant grants:
+
+```sql
+SELECT recipient_name, amount, tax_year, purpose_text
+FROM f990_2025.fact_grants
+WHERE foundation_ein = '[EIN]'
+AND purpose_text ILIKE ANY(array['%keyword1%', '%keyword2%', ...])
+ORDER BY tax_year DESC, amount DESC
+LIMIT 5;
+```
+
+**Select grants that:**
+- Are from last 3 years
+- Match client's sector/work type
+- Have meaningful amounts for client's budget
+
+### 4.4 Generate Narratives
+
+**For each foundation, create:**
+
+| Section | Content | Length |
+|---------|---------|--------|
+| Why This Fits | Specific alignment points between foundation and client | 2-3 sentences |
+| Comparable Grant | Similar org they funded, with amount and purpose | 1 sentence |
+| Positioning Strategy | How to approach (general support vs. program, grant size to request) | 2-3 sentences |
+| Next Steps | Specific actions with deadlines | 3-5 bullets |
+
+### 4.5 Run Report Scripts
+
+```bash
+cd "/Users/aleckleinman/Documents/TheGrantScout/4. Pipeline"
+
+# Assemble opportunities
+python3 scripts/05_assemble_opportunities.py --client "{client}"
+
+# Generate narratives
+python3 scripts/06_generate_narratives.py --client "{client}"
+
+# Build report data
+python3 scripts/07_build_report_data.py --client "{client}"
+
+# Render markdown
+python3 scripts/08_render_report.py --client "{client}"
+
+# Convert to Word
+python3 scripts/09_convert_to_docx.py --client "{client}"
+```
+
+### 4.4 Report Format by Customer Type
+
+| Type | Report Emphasis | Foundations Count |
+|------|-----------------|-------------------|
+| Calendar Manager | Timeline, deadlines, comprehensive | 5-7 |
+| Niche Seeker | Discovery, novel matches, fit explanation | 5 |
+| Relationship Builder | Deep profiles, connection paths, LOI strategy | 3-5 |
+
+---
+
+## Phase 5: Quality Checkpoints
+
+### 5.1 Pre-Delivery Checklist
+
+**MANDATORY - Check every item:**
+
+**Client Alignment:**
+- [ ] Report addresses client's PRIMARY funding priority
+- [ ] Report addresses client's SECONDARY priority (if applicable)
+- [ ] Geographic scope matches client need (not just HQ state)
+- [ ] Grant sizes are appropriate for client budget
+- [ ] No prior funders included in report
+
+**Foundation Quality:**
+- [ ] All 5 foundations have given grants in past 3 years
+- [ ] All foundations' geographic focus includes client's area
+- [ ] All foundations' program priorities align with client mission
+- [ ] No expired deadlines included
+- [ ] All links verified working
+
+**Report Quality:**
+- [ ] Comparable grants are relevant (not just any grant)
+- [ ] "Why This Fits" is specific to THIS client (not generic)
+- [ ] Positioning strategies are actionable
+- [ ] Dollar amounts formatted consistently
+- [ ] No spelling/grammar errors
+
+### 5.2 Alignment Score
+
+**Rate alignment on 1-10 scale:**
+
+| Score | Meaning | Action |
+|-------|---------|--------|
+| 9-10 | Excellent match | Proceed to delivery |
+| 7-8 | Good match with minor gaps | Document gaps, proceed |
+| 5-6 | Partial match | **FLAG FOR HUMAN REVIEW** |
+| <5 | Poor match | **DO NOT DELIVER** - rework |
+
+**Alignment Criteria:**
+- Primary priority addressed? (+3 points)
+- Secondary priority addressed? (+2 points)
+- Geographic scope correct? (+2 points)
+- Customer type format used? (+1 point)
+- At least 3 novel discoveries? (+2 points)
+
+**Minimum acceptable score: 7/10**
+
+### 5.3 Flag for Human Review
+
+**Automatically flag if:**
+- Alignment score <7
+- <5 viable foundations found
+- Client has unusual requirements not in standard process
+- Algorithm output didn't match client needs (had to use >50% curated)
+- Any foundation has red flags that were included anyway
+
+**Review format:**
+```
+FLAG FOR REVIEW: [Client Name]
+- Issue: [What went wrong]
+- Current state: [What report looks like now]
+- Recommended action: [What should happen]
+- Human decision needed: [Specific question]
+```
+
+### 5.4 Post-Delivery Tracking
+
+After report sent:
+- [ ] Log delivery date
+- [ ] Note any client feedback
+- [ ] Update client profile if new information learned
+- [ ] Add to lessons learned if process issues found
+
+---
+
+## Handling Special Cases
+
+### Case: National Organization (Like HN)
+
+**Problem:** Algorithm matches HQ state (CT) but client wants national funders.
+
+**Solution:**
+1. Run algorithm normally (will get CT foundations)
+2. Add curated national foundations:
+   - Search for "national youth education foundations"
+   - Check major national funders (Lilly, Kresge, Ford)
+   - Look at similar national orgs' 990s
+3. Final mix: 2-3 local (CT), 2-3 national
+
+### Case: Multi-Priority Client (Like FCSD)
+
+**Problem:** Two distinct needs (bakery + building) but report only addresses one.
+
+**Solution:**
+1. Run algorithm with Priority 1 keywords
+2. Run algorithm with Priority 2 keywords (or search manually for capital funders)
+3. Merge results
+4. Final report: At least 2 foundations per priority
+5. Label each foundation's relevance: "Best for: Bakery" or "Best for: Building"
+
+### Case: Niche Geography (Like Hawaii)
+
+**Problem:** Limited foundations in state; algorithm may not find enough.
+
+**Solution:**
+1. Run algorithm (will get Hawaii foundations)
+2. If <10 viable, add:
+   - Pacific region foundations
+   - National foundations interested in Hawaii
+   - Foundations that have funded Hawaii orgs before
+3. Final report should have Hawaii foundations first
+
+### Case: Niche Sector (Like Patient Safety)
+
+**Problem:** Generic health funders appear instead of patient-safety-specific.
+
+**Solution:**
+1. Run algorithm normally
+2. Search grant purposes for keywords:
+   ```sql
+   SELECT DISTINCT foundation_ein
+   FROM f990_2025.fact_grants
+   WHERE purpose_text ILIKE '%patient safety%'
+      OR purpose_text ILIKE '%medical error%'
+      OR purpose_text ILIKE '%healthcare quality%';
+   ```
+3. Add foundations that have funded similar work
+4. Final report should lead with sector-specific foundations
+
+### Case: Capital Project
+
+**Problem:** Most foundations fund programs, not buildings.
+
+**Solution:**
+1. Check `grant_type_keywords` for "capital", "building", "facility"
+2. Search grant purposes:
+   ```sql
+   SELECT DISTINCT foundation_ein
+   FROM f990_2025.fact_grants
+   WHERE purpose_text ILIKE '%capital%'
+      OR purpose_text ILIKE '%building%'
+      OR purpose_text ILIKE '%construction%'
+      OR purpose_text ILIKE '%facility%';
+   ```
+3. Research known capital funders (Kresge, local community foundations)
+4. Flag foundations that explicitly exclude capital
 
 ---
 
@@ -210,32 +642,92 @@ When generating reports for multiple clients:
 
 | Issue | Cause | Solution |
 |-------|-------|----------|
-| <5 viable foundations | Narrow niche or strict viability | Expand to top 30-50, consider WATCH tier |
-| Poor matches | Client profile incomplete | Review specific_ask_text and grant_type_preference |
-| Stale enrichment | Cache >90 days | Re-run Phase 4 research |
-| Missing contacts | Foundation website sparse | Note in report, check LinkedIn |
-| Passed deadlines | Data not refreshed | Verify deadlines before finalizing |
+| <5 viable foundations | Narrow niche or strict viability | Expand to top 50, add curated |
+| Poor algorithm matches | Client profile incomplete | Review specific_ask_text, grant_type_keywords |
+| Stale enrichment | Cache >90 days | Re-research foundations |
+| Missing contacts | Foundation website sparse | Note in report, suggest LinkedIn research |
+| All foundations in wrong state | Geographic scope mismatch | Add curated foundations for correct area |
+| Client already knows all 5 | No discovery value | Expand search, find newer/smaller foundations |
 
 ---
 
 ## Output Locations
 
-All outputs saved to: `Pipeline v2/runs/{client_name}/YYYY-MM/`
+All outputs saved to: `5. Runs/{client_name}/YYYY-MM-DD/`
 
-Final deliverables:
-- `08_report.md` - Markdown version
-- `08_report.docx` - Word version for client
-
----
-
-## Monthly Schedule
-
-| Day | Task |
-|-----|------|
-| 25th-30th | Generate reports for all clients |
-| 1st | Send reports to clients |
-| 2nd-5th | Follow-up calls for feedback |
+| File | Description |
+|------|-------------|
+| 01_client.json | Client profile |
+| 02_scored_foundations.csv | Algorithm output |
+| 03_snapshots.json | Foundation profiles |
+| 04_viable_foundations.json | Post-enrichment viability |
+| 05_opportunities.json | Assembled opportunities |
+| 06_narratives.json | Generated narratives |
+| 07_report_data.json | Structured report data |
+| 08_report.md | Markdown report |
+| 08_report.docx | Word document |
 
 ---
 
-*SOP Version 1.0 - Created 2026-01-02*
+## Appendix: What Goes Where
+
+### CLAUDE.md (Reference During All Sessions)
+
+**Include:**
+- Quick reference tables (foundation count, model version)
+- Database connection info
+- Key paths
+- Gotchas and common errors
+- Model coefficients summary
+- Mandatory workflow reminders
+
+**Don't include:**
+- Detailed step-by-step processes
+- Special case handling
+- Troubleshooting guides
+
+### SOP (Reference During Report Generation)
+
+**Include:**
+- Complete step-by-step workflow
+- Quality checkpoints with criteria
+- Special case handling
+- Troubleshooting
+- Decision trees
+
+**Don't include:**
+- Code snippets for scripts
+- Database schema details
+- Client-specific information
+
+### Per-Run Instructions (Provided by User or in PROMPT File)
+
+**Include:**
+- Client name and specific ask
+- Any special requirements for this run
+- Deadlines for delivery
+- Specific foundations to include/exclude
+- Format preferences
+
+**Example per-run instruction:**
+```
+Generate January 2026 report for FCSD.
+- Address BOTH priorities (bakery + building)
+- Include at least 2 capital funders
+- Report due January 8
+- Client prefers relationship-builder format
+```
+
+---
+
+## Changelog
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 2.0 | 2026-01-06 | Complete rewrite: Added customer types, multi-priority handling, geographic specificity, quality checkpoints with alignment scoring, special case handling |
+| 1.0 | 2026-01-02 | Initial version |
+
+---
+
+*SOP Version 2.0 - Created 2026-01-06*
+*Philosophy: High-quality manual reports now, automate incrementally*

@@ -1,0 +1,297 @@
+[
+  {
+    "rank": 1,
+    "foundation_ein": "956025857",
+    "foundation_name": "MARIAN & PINKUS HAPP FUND",
+    "foundation_state": "MO",
+    "match_score": 100.0,
+    "match_probability": 0.9997653160556784,
+    "same_state": false,
+    "fit_score": 10,
+    "effort": "Medium",
+    "status": "HIGH",
+    "quality_tier": "strict",
+    "amount_min": 2500.0,
+    "amount_max": 7500.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 65000.0,
+        "count": 6,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 10000.0,
+        "min": 5000.0,
+        "max": 15000.0,
+        "avg": 8844.444444444445
+      },
+      "geographic_focus": {
+        "top_state": "CA",
+        "top_state_pct": 0.978,
+        "in_state_pct": 0.0,
+        "foundation_state": "MO"
+      },
+      "repeat_funding": {
+        "unique": 31,
+        "repeat": 7,
+        "rate": 0.226
+      },
+      "giving_style": {
+        "general_pct": 1.0,
+        "program_pct": 0.0
+      },
+      "recipient_profile": {
+        "budget_min": 1052108,
+        "budget_max": 17693702,
+        "budget_median": 5646556,
+        "primary_sector": "P",
+        "primary_sector_pct": 0.458
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": -0.071,
+        "oldest_year": 2021,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "CHILDREN'S HOSPITAL LOS ANGELES",
+        "amount": 5000.0,
+        "purpose": "GENERAL OPERATING",
+        "year": 2021
+      },
+      "contact": {
+        "website_url": null,
+        "phone": "8887304933",
+        "email": null,
+        "app_contact_name": null,
+        "app_contact_phone": null,
+        "app_contact_email": null,
+        "deadlines": null,
+        "restrictions": null,
+        "how_to_apply": null
+      },
+      "officers": [
+        {
+          "name": "Wells Fargo Bank N A",
+          "title": "Trustee",
+          "compensation": 17976.0
+        }
+      ],
+      "foundation_ein": "956025857",
+      "foundation_name": "MARIAN & PINKUS HAPP FUND",
+      "match_score": 100.0,
+      "match_rank": 148
+    },
+    "comparable_grant": {
+      "recipient": "CHILDREN'S HOSPITAL LOS ANGELES",
+      "amount": 5000.0,
+      "purpose": "GENERAL OPERATING",
+      "year": 2021
+    },
+    "connections": [
+      {
+        "type": "shared_funder",
+        "description": "THE PFIZER FOUNDATION INC has funded both you and their grantees",
+        "strength": "moderate",
+        "funder_name": "THE PFIZER FOUNDATION INC",
+        "funder_ein": "136083839"
+      }
+    ],
+    "deadline": "2025-06-30 (annual deadline for consideration)",
+    "portal_url": "https://www.wellsfargo.com/private-foundations/happ-fund/",
+    "contact_name": "Wells Fargo Trust Philanthropic Services (fund administrator)",
+    "contact_email": "grantadministration@wellsfargo.com",
+    "contact_phone": "1-888-235-4351",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": [],
+    "viability": {
+      "tier": "ready",
+      "tier_reason": "Strong fit with clear deadline",
+      "multiplier": 1.0,
+      "adjusted_score": 10.0,
+      "unsolicited_status": "open",
+      "unsolicited_reason": "Online application available",
+      "fit_rating_enriched": "strong",
+      "red_flags": [
+        "Small grant size (5-10K) limits potential award amount",
+        "Only ~8 grants given annually - competitive",
+        "Historical data from 2021-2023; verify current activity",
+        "Must demonstrate service to 'underprivileged children' (economic disadvantage emphasis)"
+      ],
+      "recommendation": ""
+    },
+    "deadline_source": "enrichment",
+    "current_opportunities": [
+      {
+        "name": "General Grants Program",
+        "deadline": "June 30 (annual); Rolling applications accepted year-round",
+        "amount_min": 5000,
+        "amount_max": 10000,
+        "focus": "Underprivileged children in California",
+        "url": "https://www.wellsfargo.com/private-foundations/happ-fund/",
+        "notes": "Approximately 8 grants awarded annually from California focus"
+      }
+    ],
+    "foundation_priorities": [
+      "Health services for underprivileged children",
+      "Human services for underprivileged children",
+      "California-based programs benefiting children",
+      "Social services and development"
+    ]
+  },
+  {
+    "rank": 2,
+    "foundation_ein": "131684331",
+    "foundation_name": "THE FORD FOUNDATION",
+    "foundation_state": "NY",
+    "match_score": 100.0,
+    "match_probability": 0.999918857202082,
+    "same_state": false,
+    "fit_score": 10,
+    "effort": "High",
+    "status": "MEDIUM",
+    "quality_tier": "strict",
+    "amount_min": 150000.0,
+    "amount_max": 450000.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 735763273.0,
+        "count": 3718,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 100000.0,
+        "min": 36.0,
+        "max": 10000000,
+        "avg": 208194.51456128265
+      },
+      "geographic_focus": {
+        "top_state": "NY",
+        "top_state_pct": 0.271,
+        "in_state_pct": 0.271,
+        "foundation_state": "NY"
+      },
+      "repeat_funding": {
+        "unique": 7542,
+        "repeat": 3346,
+        "rate": 0.444
+      },
+      "giving_style": {
+        "general_pct": 0.234,
+        "program_pct": 0.766
+      },
+      "recipient_profile": {
+        "budget_min": 1082292,
+        "budget_max": 16066956,
+        "budget_median": 3889823,
+        "primary_sector": "A",
+        "primary_sector_pct": 0.202
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": -0.033,
+        "oldest_year": 2020,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "CHINESE PROGRESSIVE ASSOCIATION",
+        "amount": 300000.0,
+        "purpose": "CORE SUPPORT FOR THE BLACK FUTURES LABS WORK TO TRANSFORM BLACK COMMUNITIES INTO CONSTITUENCIES THAT CHANGE THE WAY POWER OPERATESLOCALLY, STATEWIDE, AND NATIONALLY",
+        "year": 2023
+      },
+      "contact": {
+        "website_url": "https://WWW.FORDFOUNDATION.ORG",
+        "phone": "2125735000",
+        "email": null,
+        "app_contact_name": "THE FORD FOUNDATION",
+        "app_contact_phone": "2125735000",
+        "app_contact_email": null,
+        "deadlines": null,
+        "restrictions": "ACTIVITIES SUPPORTED BY FOUNDATION GRANTS MUST BE CHARITABLE, EDUCATIONAL OR SCIENTIFIC UNDER THE PROVISIONS OF THE U.S. INTERNAL REVENUE CODE AND THE TREASURY REGULATIONS.",
+        "how_to_apply": "PROPOSALS SHOULD SET FORTH A DESCRIPTION OF THE PROPOSED WORK; HOW THE WORK WILL BE CONDUCTED; THE NAMES AND CURRICULUM VITAE OF THOSE ENGAGED IN THE PROJECT; A DETAILED BUDGET, THE PROJECT'S PRESENT MEANS OF SUPPORT, THE PROJECT'S STATUS OF APPLICATIONS TO OTHER FUNDING SOURCES, AND THE PROJECT'S LEGAL AND TAX STATUS."
+      },
+      "officers": [
+        {
+          "name": "Eric W Doppstadt",
+          "title": "Vp & Chief Investment Officer",
+          "compensation": 4543917.0
+        }
+      ],
+      "foundation_ein": "131684331",
+      "foundation_name": "THE FORD FOUNDATION",
+      "match_score": 100.0,
+      "match_rank": 118
+    },
+    "comparable_grant": {
+      "recipient": "CHINESE PROGRESSIVE ASSOCIATION",
+      "amount": 300000.0,
+      "purpose": "CORE SUPPORT FOR THE BLACK FUTURES LABS WORK TO TRANSFORM BLACK COMMUNITIES INTO CONSTITUENCIES THAT CHANGE THE WAY POWER OPERATESLOCALLY, STATEWIDE, AND NATIONALLY",
+      "year": 2023
+    },
+    "connections": [
+      {
+        "type": "shared_funder",
+        "description": "THE PFIZER FOUNDATION INC has funded both you and their grantees",
+        "strength": "moderate",
+        "funder_name": "THE PFIZER FOUNDATION INC",
+        "funder_ein": "136083839"
+      }
+    ],
+    "deadline": "Late Summer 2025 (NYC Good Neighbor Committee opens)",
+    "portal_url": "https://www.fordfoundation.org/work/our-grants/",
+    "contact_name": "Eric W Doppstadt",
+    "contact_email": "",
+    "contact_phone": "212-573-5000",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": [],
+    "viability": {
+      "tier": "watch",
+      "tier_reason": "Does not accept unsolicited proposals",
+      "multiplier": 0.2,
+      "adjusted_score": 2.0,
+      "unsolicited_status": "closed",
+      "unsolicited_reason": "Foundation does not accept unsolicited proposals",
+      "fit_rating_enriched": "moderate",
+      "red_flags": [
+        "Ford does not accept unsolicited proposals - must wait for specific solicitations",
+        "Foundation does not typically fund direct service provision (Friendship Circle's core activity)",
+        "Focus on policy advocacy, not service delivery",
+        "NYC Good Neighbor Committee is geographic-specific (not open to CA)",
+        "Highly competitive with 735M+ annual giving distributed to 3,718+ organizations"
+      ],
+      "recommendation": ""
+    },
+    "deadline_source": "enrichment",
+    "current_opportunities": [
+      {
+        "name": "NYC Good Neighbor Committee",
+        "deadline": "Applications open late Summer/early Fall 2025",
+        "amount_min": 150000,
+        "amount_max": 450000,
+        "focus": "Local NYC organizations",
+        "url": "https://www.fordfoundation.org/work/our-grants/grant-opportunities/",
+        "notes": "Limited to NYC-based organizations. Geographically restricted"
+      },
+      {
+        "name": "Disability Rights and Inclusion Grantmaking",
+        "deadline": "Rolling",
+        "amount_min": null,
+        "amount_max": null,
+        "focus": "Disability rights, economic justice for disabled people, policy advocacy, movement building",
+        "url": "https://www.fordfoundation.org/work/challenging-inequality/disability-rights/",
+        "notes": "15M commitment announced April 2025; at least 25% of all grantmaking inclusive of people with disabilities"
+      }
+    ],
+    "foundation_priorities": [
+      "Disability rights and inclusion",
+      "Challenging inequality",
+      "Economic justice for disabled people",
+      "Building effective disability leaders and networks",
+      "Strengthening the disability field"
+    ]
+  }
+]

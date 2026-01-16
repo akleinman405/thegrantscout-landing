@@ -1,0 +1,991 @@
+{
+  "client": {
+    "organization_name": "Horizons National Student Enrichment Program Inc",
+    "short_name": "HN",
+    "ein": "061468129",
+    "email": "anonymous",
+    "state": "CT",
+    "city": "Boston, MA; West Haven, CT; Fairfield, CT; Pomfret, CT; New Canaan, CT; Greens Farms, CT; New Haven, CT; Simsbury, CT; Norwalk, CT; Greenwich, CT; New York, NY; Buffalo, NY; Rochester, NY; Newark, NJ; Rumson, NJ; Lincroft, NJ; Philadelphia, PA; Lancaster, PA; Wilmington, DE; Centreville, MD; Chestertown, MD; Salisbury, MD; Washington, D.C.; Virginia Beach, VA; Norfolk, VA; San Diego, CA; San Francisco, CA; Salt Lake City, UT; Denver, CO; Albuquerque, NM; St. Louis, MO; Chicago, IL; Charleston, SC; Savannah, GA; Atlanta, GA; Fort Pierce, FL; Nashville, TN; Indianapolis, IN; Asheville, NC; Greenville, NC;",
+    "org_type": "501(c)(3) public charity",
+    "budget": "$1M - $5M",
+    "budget_numeric": 3000000.0,
+    "grant_size_target": "$25,000 - $100,000 (medium grants)",
+    "program_areas": [
+      "Education & Youth Development"
+    ],
+    "populations_served": [
+      "Children (ages 0-12)",
+      "Youth (ages 13-17)",
+      "Low-income individuals",
+      "Rural communities",
+      "Urban communities"
+    ],
+    "geographic_scope": "National",
+    "ntee_code": "B80",
+    "mission_statement": "Horizons is a tuition-free, multi-year academic and enrichment program for students from under-resourced communities who lack access to expanded learning opportunities. In 2025, Horizons programs served over 7,500 students at 71 sites across 21 states."
+  },
+  "report_meta": {
+    "week_number": 1,
+    "report_date": "2025-12-31",
+    "date_range_start": "2025-12-31",
+    "date_range_end": "2026-01-06",
+    "generated_at": "2025-12-31T15:51:31.829127",
+    "pipeline_version": "2.0"
+  },
+  "opportunities": [
+    {
+      "rank": 1,
+      "foundation_ein": "222648036",
+      "foundation_name": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+      "foundation_state": "CT",
+      "match_score": 100.0,
+      "match_probability": 0.999928438635732,
+      "same_state": true,
+      "fit_score": 10,
+      "effort": "Medium",
+      "status": "HIGH",
+      "quality_tier": "strict",
+      "amount_min": 25000.0,
+      "amount_max": 75000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 1896750.0,
+          "count": 50,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 20000.0,
+          "min": 2500.0,
+          "max": 500000.0,
+          "avg": 41223.50993377483
+        },
+        "geographic_focus": {
+          "top_state": "CT",
+          "top_state_pct": 0.947,
+          "in_state_pct": 0.947,
+          "foundation_state": "CT"
+        },
+        "repeat_funding": {
+          "unique": 134,
+          "repeat": 17,
+          "rate": 0.127
+        },
+        "giving_style": {
+          "general_pct": 0.748,
+          "program_pct": 0.252
+        },
+        "recipient_profile": {
+          "budget_min": 662463,
+          "budget_max": 7530231,
+          "budget_median": 2883821,
+          "primary_sector": "A",
+          "primary_sector_pct": 0.181
+        },
+        "funding_trend": {
+          "direction": "Declining",
+          "change_pct": -0.161,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "QUINNIPIAC UNIVERSITY",
+          "amount": 50000.0,
+          "purpose": "HOFFMAN SCHOLARS FUND",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://www.westhartfordct.gov",
+          "phone": "8605212949",
+          "email": null,
+          "app_contact_name": "MARION BARRAK",
+          "app_contact_phone": "8605212949",
+          "app_contact_email": null,
+          "deadlines": "YES",
+          "restrictions": "NONE OTHER THAN POLITICAL LIMITATIONS",
+          "how_to_apply": "PRESCRIBED APPLICATION FORM WHICH MAY BE OBTAINED FROM THE FOUNDATION"
+        },
+        "officers": [
+          {
+            "name": "Marion L Barrak",
+            "title": "President/Director",
+            "compensation": 150480.0
+          }
+        ],
+        "foundation_ein": "222648036",
+        "foundation_name": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+        "match_score": 100.0,
+        "match_rank": 225
+      },
+      "comparable_grant": {
+        "recipient": "QUINNIPIAC UNIVERSITY",
+        "amount": 50000.0,
+        "purpose": "HOFFMAN SCHOLARS FUND",
+        "year": 2023
+      },
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "The Tudor Foundation Inc has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "The Tudor Foundation Inc",
+          "funder_ein": "061502288"
+        },
+        {
+          "type": "shared_funder",
+          "description": "NEWMAN'S OWN FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEWMAN'S OWN FOUNDATION",
+          "funder_ein": "061606588"
+        },
+        {
+          "type": "shared_funder",
+          "description": "NEW YORK LIFE FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEW YORK LIFE FOUNDATION",
+          "funder_ein": "132989476"
+        },
+        {
+          "type": "geographic",
+          "description": "Both based in CT",
+          "strength": "strong"
+        },
+        {
+          "type": "sector_alignment",
+          "description": "Foundation funds 17% Education organizations",
+          "strength": "moderate",
+          "sector": "B",
+          "percentage": 0.173
+        }
+      ],
+      "deadline": "Rolling",
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "THE MAXIMILIAN E AND MARION O HOFFMAN has a track record of supporting organizations like Horizons National Student Enrichment Program Inc. As a CT-based foundation with 95% in-state giving, they prioritize local organizations. Notably, QUINNIPIAC UNIVERSITY received $50,000 in 2023 for: HOFFMAN SCHOLARS FUND",
+      "positioning_strategy": "Lead with an unrestricted operating support request\u201475% of their grants are general support. Consider requesting $16,000 - $30,000 based on their $20,000 median grant. Emphasize your local CT presence and community impact.",
+      "next_steps": [
+        {
+          "action": "Research THE MAXIMILIAN E AND MARION O HOFFMAN's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "foundation_ein": "131684331",
+      "foundation_name": "THE FORD FOUNDATION",
+      "foundation_state": "NY",
+      "match_score": 100.0,
+      "match_probability": 0.9999991864571272,
+      "same_state": false,
+      "fit_score": 10,
+      "effort": "High",
+      "status": "MEDIUM",
+      "quality_tier": "strict",
+      "amount_min": 375000.0,
+      "amount_max": 1125000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 735763273.0,
+          "count": 3718,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 100000.0,
+          "min": 36.0,
+          "max": 10000000,
+          "avg": 208194.51456128265
+        },
+        "geographic_focus": {
+          "top_state": "NY",
+          "top_state_pct": 0.271,
+          "in_state_pct": 0.271,
+          "foundation_state": "NY"
+        },
+        "repeat_funding": {
+          "unique": 7542,
+          "repeat": 3346,
+          "rate": 0.444
+        },
+        "giving_style": {
+          "general_pct": 0.234,
+          "program_pct": 0.766
+        },
+        "recipient_profile": {
+          "budget_min": 1082292,
+          "budget_max": 16066956,
+          "budget_median": 3889823,
+          "primary_sector": "A",
+          "primary_sector_pct": 0.202
+        },
+        "funding_trend": {
+          "direction": "Stable",
+          "change_pct": -0.033,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "YALE UNIVERSITY",
+          "amount": 750000.0,
+          "purpose": "CORE SUPPORT FOR THE CENTER FOR PUBLIC THEOLOGY AND PUBLIC POLICY",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://WWW.FORDFOUNDATION.ORG",
+          "phone": "2125735000",
+          "email": null,
+          "app_contact_name": "THE FORD FOUNDATION",
+          "app_contact_phone": "2125735000",
+          "app_contact_email": null,
+          "deadlines": null,
+          "restrictions": "ACTIVITIES SUPPORTED BY FOUNDATION GRANTS MUST BE CHARITABLE, EDUCATIONAL OR SCIENTIFIC UNDER THE PROVISIONS OF THE U.S. INTERNAL REVENUE CODE AND THE TREASURY REGULATIONS.",
+          "how_to_apply": "PROPOSALS SHOULD SET FORTH A DESCRIPTION OF THE PROPOSED WORK; HOW THE WORK WILL BE CONDUCTED; THE NAMES AND CURRICULUM VITAE OF THOSE ENGAGED IN THE PROJECT; A DETAILED BUDGET, THE PROJECT'S PRESENT MEANS OF SUPPORT, THE PROJECT'S STATUS OF APPLICATIONS TO OTHER FUNDING SOURCES, AND THE PROJECT'S LEGAL AND TAX STATUS."
+        },
+        "officers": [
+          {
+            "name": "Eric W Doppstadt",
+            "title": "Vp & Chief Investment Officer",
+            "compensation": 4543917.0
+          }
+        ],
+        "foundation_ein": "131684331",
+        "foundation_name": "THE FORD FOUNDATION",
+        "match_score": 100.0,
+        "match_rank": 121
+      },
+      "comparable_grant": {
+        "recipient": "YALE UNIVERSITY",
+        "amount": 750000.0,
+        "purpose": "CORE SUPPORT FOR THE CENTER FOR PUBLIC THEOLOGY AND PUBLIC POLICY",
+        "year": 2023
+      },
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "The Tudor Foundation Inc has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "The Tudor Foundation Inc",
+          "funder_ein": "061502288"
+        },
+        {
+          "type": "shared_funder",
+          "description": "THE KITE KEY FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "THE KITE KEY FOUNDATION",
+          "funder_ein": "061518993"
+        },
+        {
+          "type": "shared_funder",
+          "description": "NEWMAN'S OWN FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEWMAN'S OWN FOUNDATION",
+          "funder_ein": "061606588"
+        },
+        {
+          "type": "geographic",
+          "description": "Foundation in NY, adjacent to your CT",
+          "strength": "moderate"
+        },
+        {
+          "type": "sector_alignment",
+          "description": "Foundation funds 14% Education organizations",
+          "strength": "moderate",
+          "sector": "B",
+          "percentage": 0.137
+        }
+      ],
+      "deadline": "Rolling",
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "THE FORD FOUNDATION has a track record of supporting organizations like Horizons National Student Enrichment Program Inc. Notably, YALE UNIVERSITY received $750,000 in 2023 for: CORE SUPPORT FOR THE CENTER FOR PUBLIC THEOLOGY AND PUBLIC POLICY",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (77%). Consider requesting $80,000 - $150,000 based on their $100,000 median grant.",
+      "next_steps": [
+        {
+          "action": "Research THE FORD FOUNDATION's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "foundation_ein": "301214067",
+      "foundation_name": "ELISABETH C DELUCA FOUNDATION INC",
+      "foundation_state": "FL",
+      "match_score": 100.0,
+      "match_probability": 0.9999839601166054,
+      "same_state": false,
+      "fit_score": 10,
+      "effort": "High",
+      "status": "MEDIUM",
+      "quality_tier": "strict",
+      "amount_min": 4900000.0,
+      "amount_max": 14700000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 13980500.0,
+          "count": 14,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 125000.0,
+          "min": 10000.0,
+          "max": 9800000.0,
+          "avg": 696270.8333333334
+        },
+        "geographic_focus": {
+          "top_state": "CT",
+          "top_state_pct": 0.792,
+          "in_state_pct": 0.042,
+          "foundation_state": "FL"
+        },
+        "repeat_funding": {
+          "unique": 18,
+          "repeat": 6,
+          "rate": 0.333
+        },
+        "giving_style": {
+          "general_pct": 0.083,
+          "program_pct": 0.917
+        },
+        "recipient_profile": {
+          "budget_min": 1412959,
+          "budget_max": 43863263,
+          "budget_median": 6649468,
+          "primary_sector": "B",
+          "primary_sector_pct": 0.333
+        },
+        "funding_trend": {
+          "direction": "Growing",
+          "change_pct": 4.121,
+          "oldest_year": 2022,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "UNIVERSITY OF CONNECTICUT FOUNDATION INC",
+          "amount": 9800000.0,
+          "purpose": "TO TRANSFORM LIVES BY PROVIDING RESOURCES FOR STUDENT SCHOLARSHIPS, FUNDING THE RESEARCH OF OUR RENOWNED SCHOLARS AND PROFESSORS, FACILITATING THE DISCOVERY OF INNOVATIVE TREATMENTS AND CURES FOR DISEASES, AND DRIVING ECONOMIC DEVELOPMENT THAT MAKES A POSITIVE DIFFERENCE THROUGHOUT CONNECTICUT",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://www.delucafdn.org",
+          "phone": "9544952309",
+          "email": null,
+          "app_contact_name": null,
+          "app_contact_phone": null,
+          "app_contact_email": null,
+          "deadlines": null,
+          "restrictions": null,
+          "how_to_apply": null
+        },
+        "officers": [
+          {
+            "name": "Elisabeth Deluca",
+            "title": "President",
+            "compensation": 0.0
+          }
+        ],
+        "foundation_ein": "301214067",
+        "foundation_name": "ELISABETH C DELUCA FOUNDATION INC",
+        "match_score": 100.0,
+        "match_rank": 188
+      },
+      "comparable_grant": {
+        "recipient": "UNIVERSITY OF CONNECTICUT FOUNDATION INC",
+        "amount": 9800000.0,
+        "purpose": "TO TRANSFORM LIVES BY PROVIDING RESOURCES FOR STUDENT SCHOLARSHIPS, FUNDING THE RESEARCH OF OUR RENOWNED SCHOLARS AND PROFESSORS, FACILITATING THE DISCOVERY OF INNOVATIVE TREATMENTS AND CURES FOR DISEASES, AND DRIVING ECONOMIC DEVELOPMENT THAT MAKES A POSITIVE DIFFERENCE THROUGHOUT CONNECTICUT",
+        "year": 2023
+      },
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "The Tudor Foundation Inc has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "The Tudor Foundation Inc",
+          "funder_ein": "061502288"
+        },
+        {
+          "type": "shared_funder",
+          "description": "NEWMAN'S OWN FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEWMAN'S OWN FOUNDATION",
+          "funder_ein": "061606588"
+        },
+        {
+          "type": "shared_funder",
+          "description": "THE PITNEY BOWES FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "THE PITNEY BOWES FOUNDATION",
+          "funder_ein": "200523317"
+        },
+        {
+          "type": "sector_alignment",
+          "description": "Foundation funds 40% Education organizations",
+          "strength": "strong",
+          "sector": "B",
+          "percentage": 0.4
+        }
+      ],
+      "deadline": "Rolling",
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "ELISABETH C DELUCA FOUNDATION INC has a track record of supporting organizations like Horizons National Student Enrichment Program Inc. Their top funding state is CT (79% of grants), matching your location. Notably, UNIVERSITY OF CONNECTICUT FOUNDATION INC received $9,800,000 in 2023 for: TO TRANSFORM LIVES BY PROVIDING RESOURCES FOR STUDENT SCHOLARSHIPS, FUNDING THE RESEARCH OF OUR RENOWNED SCHOLARS AND PROFESSORS, FACILITATING THE DISCOVERY OF INNOVATIVE TREATMENTS AND CURES FOR DISEASES, AND DRIVING ECONOMIC DEVELOPMENT THAT MAKES A POSITIVE DIFFERENCE THROUGHOUT CONNECTICUT Their giving has been increasing, suggesting capacity for new grantees.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (92%). Consider requesting $100,000 - $187,500 based on their $125,000 median grant.",
+      "next_steps": [
+        {
+          "action": "Research ELISABETH C DELUCA FOUNDATION INC's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "foundation_ein": "066334519",
+      "foundation_name": "REEVES H J UW FBO GIRLS INC ET",
+      "foundation_state": "TX",
+      "match_score": 100.0,
+      "match_probability": 0.9999667373070512,
+      "same_state": false,
+      "fit_score": 10,
+      "effort": "Low",
+      "status": "HIGH",
+      "quality_tier": "strict",
+      "amount_min": 2748.0,
+      "amount_max": 8244.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 27480.0,
+          "count": 5,
+          "year": 2024
+        },
+        "typical_grant": {
+          "median": 5496.0,
+          "min": 4249.0,
+          "max": 6574.0,
+          "avg": 5363.285714285715
+        },
+        "geographic_focus": {
+          "top_state": "CT",
+          "top_state_pct": 0.8,
+          "in_state_pct": 0.2,
+          "foundation_state": "TX"
+        },
+        "repeat_funding": {
+          "unique": 5,
+          "repeat": 5,
+          "rate": 1.0
+        },
+        "giving_style": {
+          "general_pct": 1.0,
+          "program_pct": 0.0
+        },
+        "recipient_profile": {
+          "budget_min": 2862977,
+          "budget_max": 118661617,
+          "budget_median": 7002713,
+          "primary_sector": "E",
+          "primary_sector_pct": 0.25
+        },
+        "funding_trend": {
+          "direction": "Declining",
+          "change_pct": -0.164,
+          "oldest_year": 2022,
+          "newest_year": 2024
+        },
+        "comparable_grant": {
+          "recipient": "YMCA OF MERIDEN",
+          "amount": 5496.0,
+          "purpose": "UNRESTRICTED GENERAL",
+          "year": 2024
+        },
+        "contact": {
+          "website_url": "https://www.earthcam.com/usa/texas/dallas",
+          "phone": "8888663275",
+          "email": null,
+          "app_contact_name": null,
+          "app_contact_phone": null,
+          "app_contact_email": null,
+          "deadlines": null,
+          "restrictions": null,
+          "how_to_apply": null
+        },
+        "officers": [
+          {
+            "name": "Bank Of America",
+            "title": "Trustee",
+            "compensation": 9698.0
+          }
+        ],
+        "foundation_ein": "066334519",
+        "foundation_name": "REEVES H J UW FBO GIRLS INC ET",
+        "match_score": 100.0,
+        "match_rank": 204
+      },
+      "comparable_grant": {
+        "recipient": "YMCA OF MERIDEN",
+        "amount": 5496.0,
+        "purpose": "UNRESTRICTED GENERAL",
+        "year": 2024
+      },
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "THE PITNEY BOWES FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "THE PITNEY BOWES FOUNDATION",
+          "funder_ein": "200523317"
+        },
+        {
+          "type": "shared_funder",
+          "description": "LEGO COMMUNITY FUND US INC has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "LEGO COMMUNITY FUND US INC",
+          "funder_ein": "205960904"
+        },
+        {
+          "type": "shared_funder",
+          "description": "Horizon Foundation Inc has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "Horizon Foundation Inc",
+          "funder_ein": "232867116"
+        }
+      ],
+      "deadline": "Rolling",
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "REEVES H J UW FBO GIRLS INC ET has a track record of supporting organizations like Horizons National Student Enrichment Program Inc. Their top funding state is CT (80% of grants), matching your location. Notably, YMCA OF MERIDEN received $5,496 in 2024 for: UNRESTRICTED GENERAL",
+      "positioning_strategy": "Lead with an unrestricted operating support request\u2014100% of their grants are general support. Consider requesting $4,396 - $8,244 based on their $5,496 median grant. With a 100% repeat funding rate, plan for multi-year relationship building.",
+      "next_steps": [
+        {
+          "action": "Research REEVES H J UW FBO GIRLS INC ET's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "foundation_ein": "066020281",
+      "foundation_name": "BRUCE N GRIFFING TRUST U W POR 3",
+      "foundation_state": "NV",
+      "match_score": 100.0,
+      "match_probability": 0.99995328117302,
+      "same_state": false,
+      "fit_score": 10,
+      "effort": "Low",
+      "status": "HIGH",
+      "quality_tier": "strict",
+      "amount_min": 3750.0,
+      "amount_max": 11250.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 31150.0,
+          "count": 5,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 5000.0,
+          "min": 1000.0,
+          "max": 11500.0,
+          "avg": 5504.6875
+        },
+        "geographic_focus": {
+          "top_state": "CT",
+          "top_state_pct": 0.875,
+          "in_state_pct": 0.0,
+          "foundation_state": "NV"
+        },
+        "repeat_funding": {
+          "unique": 15,
+          "repeat": 6,
+          "rate": 0.4
+        },
+        "giving_style": {
+          "general_pct": 1.0,
+          "program_pct": 0.0
+        },
+        "recipient_profile": {
+          "budget_min": 257894,
+          "budget_max": 2061088,
+          "budget_median": 776248,
+          "primary_sector": "O",
+          "primary_sector_pct": 0.167
+        },
+        "funding_trend": {
+          "direction": "Stable",
+          "change_pct": 0.038,
+          "oldest_year": 2021,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "GIRL SCOUTS OF CONNECTICUT INC",
+          "amount": 7500.0,
+          "purpose": "GENERAL OPERATING",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://www.wellsfargo.com/private-foundations/griffing-trust",
+          "phone": "8887304933",
+          "email": null,
+          "app_contact_name": null,
+          "app_contact_phone": null,
+          "app_contact_email": null,
+          "deadlines": null,
+          "restrictions": null,
+          "how_to_apply": null
+        },
+        "officers": [
+          {
+            "name": "Wells Fargo Bank N A",
+            "title": "Trustee",
+            "compensation": 9708.0
+          }
+        ],
+        "foundation_ein": "066020281",
+        "foundation_name": "BRUCE N GRIFFING TRUST U W POR 3",
+        "match_score": 100.0,
+        "match_rank": 209
+      },
+      "comparable_grant": {
+        "recipient": "GIRL SCOUTS OF CONNECTICUT INC",
+        "amount": 7500.0,
+        "purpose": "GENERAL OPERATING",
+        "year": 2023
+      },
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "NEWMAN'S OWN FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEWMAN'S OWN FOUNDATION",
+          "funder_ein": "061606588"
+        },
+        {
+          "type": "shared_funder",
+          "description": "THE PITNEY BOWES FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "THE PITNEY BOWES FOUNDATION",
+          "funder_ein": "200523317"
+        },
+        {
+          "type": "shared_funder",
+          "description": "LEGO COMMUNITY FUND US INC has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "LEGO COMMUNITY FUND US INC",
+          "funder_ein": "205960904"
+        }
+      ],
+      "deadline": "Rolling",
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "BRUCE N GRIFFING TRUST U W POR 3 has a track record of supporting organizations like Horizons National Student Enrichment Program Inc. Their top funding state is CT (88% of grants), matching your location. Notably, GIRL SCOUTS OF CONNECTICUT INC received $7,500 in 2023 for: GENERAL OPERATING",
+      "positioning_strategy": "Lead with an unrestricted operating support request\u2014100% of their grants are general support. Consider requesting $4,000 - $7,500 based on their $5,000 median grant.",
+      "next_steps": [
+        {
+          "action": "Research BRUCE N GRIFFING TRUST U W POR 3's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    }
+  ],
+  "executive_summary": {
+    "key_strengths": [
+      "**Geographic Advantage:** 1 of 5 opportunities are in-state funders who prioritize local organizations.",
+      "**Strong Matches:** 3 opportunities rated HIGH priority based on alignment analysis.",
+      "**Funding Potential:** $5,306,498 - $15,919,494 potential across all opportunities."
+    ],
+    "one_thing": "**This week's priority:** Research THE MAXIMILIAN E AND MARION O HOFFMAN and draft an initial Letter of Inquiry.",
+    "urgent_actions": [
+      {
+        "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+        "action": "Research THE MAXIMILIAN E AND MARION O HOFFMAN's recent grants and stated priorities",
+        "deadline": "2026-01-07",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "THE FORD FOUNDATION",
+        "action": "Research THE FORD FOUNDATION's recent grants and stated priorities",
+        "deadline": "2026-01-07",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "ELISABETH C DELUCA FOUNDATION INC",
+        "action": "Research ELISABETH C DELUCA FOUNDATION INC's recent grants and stated priorities",
+        "deadline": "2026-01-07",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "REEVES H J UW FBO GIRLS INC ET",
+        "action": "Research REEVES H J UW FBO GIRLS INC ET's recent grants and stated priorities",
+        "deadline": "2026-01-07",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "BRUCE N GRIFFING TRUST U W POR 3",
+        "action": "Research BRUCE N GRIFFING TRUST U W POR 3's recent grants and stated priorities",
+        "deadline": "2026-01-07",
+        "owner": "Development Director"
+      }
+    ],
+    "funding_scenarios": {
+      "conservative": 400000,
+      "moderate": 10600000,
+      "ambitious": 15919494
+    }
+  },
+  "timeline": [
+    {
+      "week": 1,
+      "date_start": "2025-12-31",
+      "date_end": "2026-01-06",
+      "tasks": [
+        {
+          "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+          "action": "Research THE MAXIMILIAN E AND MARION O HOFFMAN's recent grants and stated priorities",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "THE FORD FOUNDATION",
+          "action": "Research THE FORD FOUNDATION's recent grants and stated priorities",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "ELISABETH C DELUCA FOUNDATION INC",
+          "action": "Research ELISABETH C DELUCA FOUNDATION INC's recent grants and stated priorities",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Research & Prioritization"
+    },
+    {
+      "week": 2,
+      "date_start": "2026-01-07",
+      "date_end": "2026-01-13",
+      "tasks": [
+        {
+          "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+          "action": "Draft Letter of Inquiry for THE MAXIMILIAN E AND MARION O HOFFMAN",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "THE FORD FOUNDATION",
+          "action": "Draft Letter of Inquiry for THE FORD FOUNDATION",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "LOI Drafting"
+    },
+    {
+      "week": 3,
+      "date_start": "2026-01-14",
+      "date_end": "2026-01-20",
+      "tasks": [
+        {
+          "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+          "action": "Submit LOI to THE MAXIMILIAN E AND MARION O HOFFMAN",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "THE FORD FOUNDATION",
+          "action": "Submit LOI to THE FORD FOUNDATION",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Submissions & Outreach"
+    },
+    {
+      "week": 4,
+      "date_start": "2026-01-21",
+      "date_end": "2026-01-27",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Follow up on submitted LOIs",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "ELISABETH C DELUCA FOUNDATION INC",
+          "action": "Research ELISABETH C DELUCA FOUNDATION INC",
+          "owner": "Development Team"
+        },
+        {
+          "foundation": "REEVES H J UW FBO GIRLS INC ET",
+          "action": "Research REEVES H J UW FBO GIRLS INC ET",
+          "owner": "Development Team"
+        }
+      ],
+      "focus": "Follow-up & Next Batch"
+    },
+    {
+      "week": 5,
+      "date_start": "2026-01-28",
+      "date_end": "2026-02-03",
+      "tasks": [
+        {
+          "foundation": "ELISABETH C DELUCA FOUNDATION INC",
+          "action": "Prepare application materials for ELISABETH C DELUCA FOUNDATION INC",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "REEVES H J UW FBO GIRLS INC ET",
+          "action": "Prepare application materials for REEVES H J UW FBO GIRLS INC ET",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "BRUCE N GRIFFING TRUST U W POR 3",
+          "action": "Prepare application materials for BRUCE N GRIFFING TRUST U W POR 3",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "Secondary Opportunities"
+    },
+    {
+      "week": 6,
+      "date_start": "2026-02-04",
+      "date_end": "2026-02-10",
+      "tasks": [
+        {
+          "foundation": "ELISABETH C DELUCA FOUNDATION INC",
+          "action": "Prepare application materials for ELISABETH C DELUCA FOUNDATION INC",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "REEVES H J UW FBO GIRLS INC ET",
+          "action": "Prepare application materials for REEVES H J UW FBO GIRLS INC ET",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "BRUCE N GRIFFING TRUST U W POR 3",
+          "action": "Prepare application materials for BRUCE N GRIFFING TRUST U W POR 3",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "Secondary Opportunities"
+    },
+    {
+      "week": 7,
+      "date_start": "2026-02-11",
+      "date_end": "2026-02-17",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Review responses and adjust strategy",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Review & Adjust"
+    },
+    {
+      "week": 8,
+      "date_start": "2026-02-18",
+      "date_end": "2026-02-24",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Prepare for next report cycle",
+          "owner": "Development Team"
+        }
+      ],
+      "focus": "Planning Next Cycle"
+    }
+  ],
+  "urgent_actions": [
+    {
+      "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+      "action": "Research THE MAXIMILIAN E AND MARION O HOFFMAN's recent grants and stated priorities",
+      "deadline": "2026-01-07",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "THE FORD FOUNDATION",
+      "action": "Research THE FORD FOUNDATION's recent grants and stated priorities",
+      "deadline": "2026-01-07",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "ELISABETH C DELUCA FOUNDATION INC",
+      "action": "Research ELISABETH C DELUCA FOUNDATION INC's recent grants and stated priorities",
+      "deadline": "2026-01-07",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "REEVES H J UW FBO GIRLS INC ET",
+      "action": "Research REEVES H J UW FBO GIRLS INC ET's recent grants and stated priorities",
+      "deadline": "2026-01-07",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "BRUCE N GRIFFING TRUST U W POR 3",
+      "action": "Research BRUCE N GRIFFING TRUST U W POR 3's recent grants and stated priorities",
+      "deadline": "2026-01-07",
+      "owner": "Development Director"
+    }
+  ]
+}

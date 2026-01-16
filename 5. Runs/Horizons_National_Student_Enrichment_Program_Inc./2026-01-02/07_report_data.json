@@ -1,0 +1,1067 @@
+{
+  "client": {
+    "organization_name": "Horizons National Student Enrichment Program Inc.",
+    "short_name": "HN",
+    "ein": "061468129",
+    "email": "info@horizonsnational.org",
+    "state": "CT",
+    "city": "",
+    "org_type": "501(c)(3) public charity",
+    "budget": "$1M - $5M",
+    "budget_numeric": 3000000.0,
+    "grant_size_target": "",
+    "program_areas": [
+      "Education & Youth Development"
+    ],
+    "populations_served": [
+      "Children (ages 0-12)",
+      "Youth (ages 13-17)",
+      "Low-income individuals",
+      "Rural communities",
+      "Urban communities"
+    ],
+    "geographic_scope": "National",
+    "ntee_code": "O50",
+    "mission_statement": ""
+  },
+  "report_meta": {
+    "week_number": 1,
+    "report_date": "2026-01-02",
+    "date_range_start": "2026-01-02",
+    "date_range_end": "2026-01-08",
+    "generated_at": "2026-01-02T13:19:32.748184",
+    "pipeline_version": "2.0"
+  },
+  "opportunities": [
+    {
+      "rank": 1,
+      "foundation_ein": "222648036",
+      "foundation_name": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+      "foundation_state": "CT",
+      "match_score": 100.0,
+      "adjusted_score": 80.0,
+      "match_probability": 0.0,
+      "same_state": true,
+      "fit_score": 10,
+      "effort": "Medium",
+      "status": "HIGH",
+      "quality_tier": "strict",
+      "amount_min": 5000.0,
+      "amount_max": 15000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 1896750.0,
+          "count": 50,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 20000.0,
+          "min": 2500.0,
+          "max": 500000.0,
+          "avg": 41223.50993377483
+        },
+        "geographic_focus": {
+          "top_state": "CT",
+          "top_state_pct": 0.947,
+          "in_state_pct": 0.947,
+          "foundation_state": "CT"
+        },
+        "repeat_funding": {
+          "unique": 134,
+          "repeat": 17,
+          "rate": 0.127
+        },
+        "giving_style": {
+          "general_pct": 0.748,
+          "program_pct": 0.252
+        },
+        "recipient_profile": {
+          "budget_min": 662463,
+          "budget_max": 7530231,
+          "budget_median": 2883821,
+          "primary_sector": "A",
+          "primary_sector_pct": 0.181
+        },
+        "funding_trend": {
+          "direction": "Declining",
+          "change_pct": -0.161,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "BRISTOL BOYS & GIRLS CLUB ASSOCIATION INC",
+          "amount": 10000.0,
+          "purpose": "GENERAL",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://www.westhartfordct.gov",
+          "phone": "8605212949",
+          "email": null,
+          "app_contact_name": "MARION BARRAK",
+          "app_contact_phone": "8605212949",
+          "app_contact_email": null,
+          "deadlines": "YES",
+          "restrictions": "NONE OTHER THAN POLITICAL LIMITATIONS",
+          "how_to_apply": "PRESCRIBED APPLICATION FORM WHICH MAY BE OBTAINED FROM THE FOUNDATION"
+        },
+        "officers": [
+          {
+            "name": "Marion L Barrak",
+            "title": "President/Director",
+            "compensation": 150480.0
+          }
+        ],
+        "foundation_ein": "222648036",
+        "foundation_name": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+        "match_score": 100.0,
+        "match_rank": 20
+      },
+      "comparable_grant": {
+        "recipient": "BRISTOL BOYS & GIRLS CLUB ASSOCIATION INC",
+        "amount": 10000.0,
+        "purpose": "GENERAL",
+        "year": 2023
+      },
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "The Tudor Foundation Inc has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "The Tudor Foundation Inc",
+          "funder_ein": "061502288"
+        },
+        {
+          "type": "shared_funder",
+          "description": "NEWMAN'S OWN FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEWMAN'S OWN FOUNDATION",
+          "funder_ein": "061606588"
+        },
+        {
+          "type": "shared_funder",
+          "description": "NEW YORK LIFE FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEW YORK LIFE FOUNDATION",
+          "funder_ein": "132989476"
+        },
+        {
+          "type": "geographic",
+          "description": "Both based in CT",
+          "strength": "strong"
+        }
+      ],
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.8,
+        "reason": "May accept applications - verify before outreach"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "open",
+        "red_flags": [
+          "Unclear application process - no online applicatio",
+          "Declining giving trend (-16.1% over 2020-2023)",
+          "Low repeat funding rate (12.7%) suggests one-time "
+        ],
+        "program_priorities": "Education programs in Hartford/central Connecticut, Nonprofit support in CT, Community development in West Hartford area, Historically supported: scholarships, university programs",
+        "geographic_focus": null,
+        "last_enriched": "2026-01-01 14:52:34.256875"
+      },
+      "deadline": "Rolling",
+      "deadline_notes": "No published fixed deadlines; contact foundation for review schedule",
+      "portal_url": "Contact foundation directly for application form",
+      "contact_name": "Marion L Barrak",
+      "contact_email": "",
+      "contact_phone": "860-521-2949",
+      "application_requirements": [],
+      "why_this_fits": "THE MAXIMILIAN E AND MARION O HOFFMAN has a track record of supporting organizations like Horizons National Student Enrichment Program Inc.. As a CT-based foundation with 95% in-state giving, they prioritize local organizations. Notably, BRISTOL BOYS & GIRLS CLUB ASSOCIATION INC received $10,000 in 2023 for: GENERAL **Note:** Verify application process before outreach.",
+      "positioning_strategy": "Lead with an unrestricted operating support request\u201475% of their grants are general support. Consider requesting $16,000 - $30,000 based on their $20,000 median grant. Emphasize your local CT presence and community impact. Apply via: Contact foundation directly for application form",
+      "next_steps": [
+        {
+          "action": "Call THE MAXIMILIAN E AND MARION O HOFFMAN at 860-521-2949 to inquire about application process",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Research THE MAXIMILIAN E AND MARION O HOFFMAN's recent grants and stated priorities",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-16",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-12",
+          "owner": "Executive Director"
+        },
+        {
+          "action": "Create account on application portal: Contact foundation directly for application form",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "foundation_ein": "061245402",
+      "foundation_name": "J WALTON BISSELL FOUNDATION INC",
+      "foundation_state": "CT",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "match_probability": 0.0,
+      "same_state": true,
+      "fit_score": 10,
+      "effort": "Medium",
+      "status": "HIGH",
+      "quality_tier": "strict",
+      "amount_min": 7500.0,
+      "amount_max": 22500.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 972500.0,
+          "count": 84,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 12250.0,
+          "min": 1500.0,
+          "max": 150000.0,
+          "avg": 14892.908653846154
+        },
+        "geographic_focus": {
+          "top_state": "CT",
+          "top_state_pct": 0.957,
+          "in_state_pct": 0.957,
+          "foundation_state": "CT"
+        },
+        "repeat_funding": {
+          "unique": 139,
+          "repeat": 61,
+          "rate": 0.439
+        },
+        "giving_style": {
+          "general_pct": 0.587,
+          "program_pct": 0.413
+        },
+        "recipient_profile": {
+          "budget_min": 463585,
+          "budget_max": 4233053,
+          "budget_median": 1386862,
+          "primary_sector": "A",
+          "primary_sector_pct": 0.184
+        },
+        "funding_trend": {
+          "direction": "Stable",
+          "change_pct": -0.094,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "HARTFORD PERFORMS INC",
+          "amount": 15000.0,
+          "purpose": "GENERAL OPERATING SUPPORT",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://WWW.BISSELLFOUNDATION.ORG",
+          "phone": "8605868201",
+          "email": null,
+          "app_contact_name": "SARAH D ANTHONY",
+          "app_contact_phone": "8605868201",
+          "app_contact_email": "BISSELL@BISSELLFOUNDATION.ORG",
+          "deadlines": "BY MIDNIGHT OF THE DATES PUBLISHED ON THE WEBSITE. WWW.BISSELLFOUNDATION.ORG",
+          "restrictions": "RECIPIENTS MUST BE ORGANIZATIONS UNDER 501(C)(3) (OTHER THAN PRIVATE FOUNDATIONS) USING FUNDS EXCLUSIVELY WITHIN THE UNITED STATES.",
+          "how_to_apply": "THE FOUNDATION DOES NOT ACCEPT PAPER GRANT APPLICATIONS. ALL INFORMATION REGARDING TO WHOM APPLICATIONS SHOULD BE DIRECTED, THE FORMAT OF THE APPLICATIONS, AND ANY ADDITIONAL INFORMATION REQUIRED AS WELL AS SUBMISSION DEADLINES CAN BE FOUND AT THE FOUNDATIONS WEBSITE: WWW.BISSELLFOUNDATION.ORG"
+        },
+        "officers": [
+          {
+            "name": "Sarah D Anthony",
+            "title": "President & Ceo",
+            "compensation": 125500.0
+          }
+        ],
+        "foundation_ein": "061245402",
+        "foundation_name": "J WALTON BISSELL FOUNDATION INC",
+        "match_score": 100.0,
+        "match_rank": 23
+      },
+      "comparable_grant": {
+        "recipient": "HARTFORD PERFORMS INC",
+        "amount": 15000.0,
+        "purpose": "GENERAL OPERATING SUPPORT",
+        "year": 2023
+      },
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "The Tudor Foundation Inc has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "The Tudor Foundation Inc",
+          "funder_ein": "061502288"
+        },
+        {
+          "type": "shared_funder",
+          "description": "NEWMAN'S OWN FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEWMAN'S OWN FOUNDATION",
+          "funder_ein": "061606588"
+        },
+        {
+          "type": "shared_funder",
+          "description": "ALTMAN FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "ALTMAN FOUNDATION",
+          "funder_ein": "131623879"
+        },
+        {
+          "type": "geographic",
+          "description": "Both based in CT",
+          "strength": "strong"
+        }
+      ],
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": null,
+        "red_flags": [],
+        "program_priorities": null,
+        "geographic_focus": null,
+        "last_enriched": null
+      },
+      "deadline": "Rolling",
+      "deadline_notes": "",
+      "portal_url": "https://WWW.BISSELLFOUNDATION.ORG",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "J WALTON BISSELL FOUNDATION INC has a track record of supporting organizations like Horizons National Student Enrichment Program Inc.. As a CT-based foundation with 96% in-state giving, they prioritize local organizations. Notably, HARTFORD PERFORMS INC received $15,000 in 2023 for: GENERAL OPERATING SUPPORT **Note:** Verify application process before outreach.",
+      "positioning_strategy": "Lead with an unrestricted operating support request\u201459% of their grants are general support. Consider requesting $9,800 - $18,375 based on their $12,250 median grant. Emphasize your local CT presence and community impact. Apply via: https://WWW.BISSELLFOUNDATION.ORG",
+      "next_steps": [
+        {
+          "action": "Research J WALTON BISSELL FOUNDATION INC's recent grants and stated priorities",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-16",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-12",
+          "owner": "Executive Director"
+        },
+        {
+          "action": "Create account on application portal: https://WWW.BISSELLFOUNDATION.ORG",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "foundation_ein": "832495796",
+      "foundation_name": "Torrington Savings Foundation",
+      "foundation_state": "DE",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "match_probability": 0.0,
+      "same_state": false,
+      "fit_score": 10,
+      "effort": "High",
+      "status": "MEDIUM",
+      "quality_tier": "strict",
+      "amount_min": 4350.0,
+      "amount_max": 13050.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 141350.0,
+          "count": 16,
+          "year": 2024
+        },
+        "typical_grant": {
+          "median": 5000.0,
+          "min": 1000.0,
+          "max": 50000.0,
+          "avg": 8282.920353982301
+        },
+        "geographic_focus": {
+          "top_state": "CT",
+          "top_state_pct": 0.982,
+          "in_state_pct": 0.0,
+          "foundation_state": "DE"
+        },
+        "repeat_funding": {
+          "unique": 67,
+          "repeat": 28,
+          "rate": 0.418
+        },
+        "giving_style": {
+          "general_pct": 0.009,
+          "program_pct": 0.991
+        },
+        "recipient_profile": {
+          "budget_min": 313833,
+          "budget_max": 3870654,
+          "budget_median": 1280158,
+          "primary_sector": "A",
+          "primary_sector_pct": 0.132
+        },
+        "funding_trend": {
+          "direction": "Declining",
+          "change_pct": -0.192,
+          "oldest_year": 2022,
+          "newest_year": 2024
+        },
+        "comparable_grant": {
+          "recipient": "BRISTOL BOYS & GIRLS CLUB ASSOCIATION INC",
+          "amount": 8700.0,
+          "purpose": "Careers for Cambridge: Building Sustainable Pathways to Success",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": null,
+          "phone": "8008391754",
+          "email": null,
+          "app_contact_name": "TINA MILANESI",
+          "app_contact_phone": "8602947224",
+          "app_contact_email": null,
+          "deadlines": "APRIL 29TH AND OCTOBER 29TH",
+          "restrictions": "ANIMALS CAUSES, ANNUAL APPEALS, BEAUTY CONTESTS, CAPITAL REQUESTS OR CAMPAIGNS, ENDOWMENTS, FUNDRAISING ACTIVITIES, GENERAL OPERATING SUPPORT, INDIVIDUALS, OPERATING DEFICITS, PAYMENT ON BANK LOANS, POLITICAL LABOR, PRIVATE FOUNDATIONS OR TRUSTS, PRIVATE SCHOOLS COLLEGES AND PREP SCHOOLS, PUBLIC SCHOOL DISTRICT AND INDIVIDUAL SCHOOLS, RELIGIOUS ORGANIZATIONS. SCHOLARSHIP PROGRAMS, TEAM SPONSORSHIPS, TRIPS AND TOURS.",
+          "how_to_apply": "HTTPS://FSREQUESTS.COM/TORRINGTON-SAVINGS"
+        },
+        "officers": [
+          {
+            "name": "Edwin G Booth Jr",
+            "title": "Dir, Pres",
+            "compensation": 0.0
+          }
+        ],
+        "foundation_ein": "832495796",
+        "foundation_name": "Torrington Savings Foundation",
+        "match_score": 100.0,
+        "match_rank": 24
+      },
+      "comparable_grant": {
+        "recipient": "BRISTOL BOYS & GIRLS CLUB ASSOCIATION INC",
+        "amount": 8700.0,
+        "purpose": "Careers for Cambridge: Building Sustainable Pathways to Success",
+        "year": 2023
+      },
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "NEWMAN'S OWN FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEWMAN'S OWN FOUNDATION",
+          "funder_ein": "061606588"
+        },
+        {
+          "type": "shared_funder",
+          "description": "The Herbert & Nell Singer Foundation Inc has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "The Herbert & Nell Singer Foundation Inc",
+          "funder_ein": "133151548"
+        },
+        {
+          "type": "shared_funder",
+          "description": "THE PITNEY BOWES FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "THE PITNEY BOWES FOUNDATION",
+          "funder_ein": "200523317"
+        }
+      ],
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": null,
+        "red_flags": [],
+        "program_priorities": null,
+        "geographic_focus": null,
+        "last_enriched": null
+      },
+      "deadline": "Rolling",
+      "deadline_notes": "",
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "Torrington Savings Foundation has a track record of supporting organizations like Horizons National Student Enrichment Program Inc.. Their top funding state is CT (98% of grants), matching your location. Notably, BRISTOL BOYS & GIRLS CLUB ASSOCIATION INC received $8,700 in 2023 for: Careers for Cambridge: Building Sustainable Pathways to Success **Note:** Verify application process before outreach.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (99%). Consider requesting $4,000 - $7,500 based on their $5,000 median grant.",
+      "next_steps": [
+        {
+          "action": "Research Torrington Savings Foundation's recent grants and stated priorities",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-16",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-12",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "foundation_ein": "066235627",
+      "foundation_name": "LASZIG IJ TR",
+      "foundation_state": "MO",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "match_probability": 0.0,
+      "same_state": false,
+      "fit_score": 10,
+      "effort": "Low",
+      "status": "HIGH",
+      "quality_tier": "strict",
+      "amount_min": 10000.0,
+      "amount_max": 30000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 37000.0,
+          "count": 5,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 5000.0,
+          "min": 2000.0,
+          "max": 21000.0,
+          "avg": 8666.666666666666
+        },
+        "geographic_focus": {
+          "top_state": "CT",
+          "top_state_pct": 0.905,
+          "in_state_pct": 0.0,
+          "foundation_state": "MO"
+        },
+        "repeat_funding": {
+          "unique": 6,
+          "repeat": 6,
+          "rate": 1.0
+        },
+        "giving_style": {
+          "general_pct": 1.0,
+          "program_pct": 0.0
+        },
+        "recipient_profile": {
+          "budget_min": 914547,
+          "budget_max": 3186050,
+          "budget_median": 1411687,
+          "primary_sector": "P",
+          "primary_sector_pct": 0.4
+        },
+        "funding_trend": {
+          "direction": "Declining",
+          "change_pct": -0.26,
+          "oldest_year": 2021,
+          "newest_year": 2023
+        },
+        "comparable_grant": {
+          "recipient": "TOWN OF RIDGEFIELD",
+          "amount": 20000.0,
+          "purpose": "GENERAL OPERATING",
+          "year": 2023
+        },
+        "contact": {
+          "website_url": "https://www.grantable.co/search/funders/profile/laszig-ij-tr-us-foundation-066235627",
+          "phone": "8887304933",
+          "email": null,
+          "app_contact_name": "WELLS FARGO PHILANTHROPIC SERVICES",
+          "app_contact_phone": "8882341999",
+          "app_contact_email": null,
+          "deadlines": "JUNE 15TH",
+          "restrictions": "LIMITED TO CITIZENS OF RIDGEFIELD, CONNECTICUT, WHO ARE OVER THE AGE OF 62 AND REQUIRE FINANCIAL ASSISTANCE",
+          "how_to_apply": "APPLY ONLINE AT WWW.WELLSFARGO.COM/PRIVATEFOUNDATIONGRANTS"
+        },
+        "officers": [
+          {
+            "name": "Wells Fargo Bank N A",
+            "title": "Trustee",
+            "compensation": 16120.0
+          }
+        ],
+        "foundation_ein": "066235627",
+        "foundation_name": "LASZIG IJ TR",
+        "match_score": 100.0,
+        "match_rank": 28
+      },
+      "comparable_grant": {
+        "recipient": "TOWN OF RIDGEFIELD",
+        "amount": 20000.0,
+        "purpose": "GENERAL OPERATING",
+        "year": 2023
+      },
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "NEWMAN'S OWN FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEWMAN'S OWN FOUNDATION",
+          "funder_ein": "061606588"
+        },
+        {
+          "type": "shared_funder",
+          "description": "JPMORGAN CHASE FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "JPMORGAN CHASE FOUNDATION",
+          "funder_ein": "237049738"
+        }
+      ],
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": null,
+        "red_flags": [],
+        "program_priorities": null,
+        "geographic_focus": null,
+        "last_enriched": null
+      },
+      "deadline": "Rolling",
+      "deadline_notes": "",
+      "portal_url": "https://www.grantable.co/search/funders/profile/laszig-ij-tr-us-foundation-066235627",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "LASZIG IJ TR has a track record of supporting organizations like Horizons National Student Enrichment Program Inc.. Their top funding state is CT (90% of grants), matching your location. Notably, TOWN OF RIDGEFIELD received $20,000 in 2023 for: GENERAL OPERATING **Note:** Verify application process before outreach.",
+      "positioning_strategy": "Lead with an unrestricted operating support request\u2014100% of their grants are general support. Consider requesting $4,000 - $7,500 based on their $5,000 median grant. With a 100% repeat funding rate, plan for multi-year relationship building. Apply via: https://www.grantable.co/search/funders/profile/laszig-ij-tr-us-foundation-066235627",
+      "next_steps": [
+        {
+          "action": "Research LASZIG IJ TR's recent grants and stated priorities",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-16",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-12",
+          "owner": "Executive Director"
+        },
+        {
+          "action": "Create account on application portal: https://www.grantable.co/search/funders/profile/laszig-ij-tr-us-foundation-066235627",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "foundation_ein": "066030489",
+      "foundation_name": "THOMAS ATKINS MEML FD TR UW",
+      "foundation_state": "TX",
+      "match_score": 100.0,
+      "adjusted_score": 70.0,
+      "match_probability": 0.0,
+      "same_state": false,
+      "fit_score": 10,
+      "effort": "Low",
+      "status": "HIGH",
+      "quality_tier": "strict",
+      "amount_min": 5000.0,
+      "amount_max": 15000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 60000.0,
+          "count": 10,
+          "year": 2024
+        },
+        "typical_grant": {
+          "median": 5000.0,
+          "min": 2000.0,
+          "max": 56000.0,
+          "avg": 7207.547169811321
+        },
+        "geographic_focus": {
+          "top_state": "CT",
+          "top_state_pct": 0.962,
+          "in_state_pct": 0.0,
+          "foundation_state": "TX"
+        },
+        "repeat_funding": {
+          "unique": 23,
+          "repeat": 11,
+          "rate": 0.478
+        },
+        "giving_style": {
+          "general_pct": 0.604,
+          "program_pct": 0.396
+        },
+        "recipient_profile": {
+          "budget_min": 1516508,
+          "budget_max": 29031119,
+          "budget_median": 10800809,
+          "primary_sector": "P",
+          "primary_sector_pct": 0.267
+        },
+        "funding_trend": {
+          "direction": "Declining",
+          "change_pct": -0.189,
+          "oldest_year": 2022,
+          "newest_year": 2024
+        },
+        "comparable_grant": {
+          "recipient": "OPERATION FUEL INC",
+          "amount": 10000.0,
+          "purpose": "UNRESTRICTED GENERAL",
+          "year": 2024
+        },
+        "contact": {
+          "website_url": "https://eintaxid.com/company/066030489-thomas-j-atkins-memorial-fund-trust-nect",
+          "phone": "8888663275",
+          "email": null,
+          "app_contact_name": "BANK OF AMERICA CO AMY LYNCH",
+          "app_contact_phone": "8602444870",
+          "app_contact_email": null,
+          "deadlines": null,
+          "restrictions": "RESTRICTED TO MIDDLETOWN CT AREA",
+          "how_to_apply": null
+        },
+        "officers": [
+          {
+            "name": "Bank Of America",
+            "title": "Trustee",
+            "compensation": 15199.0
+          }
+        ],
+        "foundation_ein": "066030489",
+        "foundation_name": "THOMAS ATKINS MEML FD TR UW",
+        "match_score": 100.0,
+        "match_rank": 30
+      },
+      "comparable_grant": {
+        "recipient": "OPERATION FUEL INC",
+        "amount": 10000.0,
+        "purpose": "UNRESTRICTED GENERAL",
+        "year": 2024
+      },
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "The Tudor Foundation Inc has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "The Tudor Foundation Inc",
+          "funder_ein": "061502288"
+        },
+        {
+          "type": "shared_funder",
+          "description": "NEWMAN'S OWN FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "NEWMAN'S OWN FOUNDATION",
+          "funder_ein": "061606588"
+        },
+        {
+          "type": "shared_funder",
+          "description": "The Herbert & Nell Singer Foundation Inc has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "The Herbert & Nell Singer Foundation Inc",
+          "funder_ein": "133151548"
+        }
+      ],
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": null,
+        "red_flags": [],
+        "program_priorities": null,
+        "geographic_focus": null,
+        "last_enriched": null
+      },
+      "deadline": "Rolling",
+      "deadline_notes": "",
+      "portal_url": "https://eintaxid.com/company/066030489-thomas-j-atkins-memorial-fund-trust-nect",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "THOMAS ATKINS MEML FD TR UW has a track record of supporting organizations like Horizons National Student Enrichment Program Inc.. Their top funding state is CT (96% of grants), matching your location. Notably, OPERATION FUEL INC received $10,000 in 2024 for: UNRESTRICTED GENERAL **Note:** Verify application process before outreach.",
+      "positioning_strategy": "Lead with an unrestricted operating support request\u201460% of their grants are general support. Consider requesting $4,000 - $7,500 based on their $5,000 median grant. Apply via: https://eintaxid.com/company/066030489-thomas-j-atkins-memorial-fund-trust-nect",
+      "next_steps": [
+        {
+          "action": "Research THOMAS ATKINS MEML FD TR UW's recent grants and stated priorities",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-16",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-12",
+          "owner": "Executive Director"
+        },
+        {
+          "action": "Create account on application portal: https://eintaxid.com/company/066030489-thomas-j-atkins-memorial-fund-trust-nect",
+          "deadline": "2026-01-09",
+          "owner": "Development Director"
+        }
+      ]
+    }
+  ],
+  "executive_summary": {
+    "key_strengths": [
+      "**Actionable Opportunities:** 5 foundation(s) may accept applications pending verification.",
+      "**Geographic Advantage:** 2 of 5 opportunities are in-state funders who prioritize local organizations.",
+      "**Strong Matches:** 4 opportunities rated HIGH priority based on alignment analysis."
+    ],
+    "one_thing": "**This week's priority:** Verify application process for THE MAXIMILIAN E AND MARION O HOFFMAN before proceeding.",
+    "urgent_actions": [
+      {
+        "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+        "action": "Call THE MAXIMILIAN E AND MARION O HOFFMAN at 860-521-2949 to inquire about application process",
+        "deadline": "2026-01-07",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+        "action": "Research THE MAXIMILIAN E AND MARION O HOFFMAN's recent grants and stated priorities",
+        "deadline": "2026-01-09",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+        "action": "Create account on application portal: Contact foundation directly for application form",
+        "deadline": "2026-01-09",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "J WALTON BISSELL FOUNDATION INC",
+        "action": "Research J WALTON BISSELL FOUNDATION INC's recent grants and stated priorities",
+        "deadline": "2026-01-09",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "J WALTON BISSELL FOUNDATION INC",
+        "action": "Create account on application portal: https://WWW.BISSELLFOUNDATION.ORG",
+        "deadline": "2026-01-09",
+        "owner": "Development Director"
+      }
+    ],
+    "funding_scenarios": {
+      "conservative": 12500,
+      "moderate": 33700,
+      "ambitious": 95550
+    }
+  },
+  "timeline": [
+    {
+      "week": 1,
+      "date_start": "2026-01-02",
+      "date_end": "2026-01-08",
+      "tasks": [
+        {
+          "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+          "action": "Research THE MAXIMILIAN E AND MARION O HOFFMAN's recent grants and stated priorities",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "J WALTON BISSELL FOUNDATION INC",
+          "action": "Research J WALTON BISSELL FOUNDATION INC's recent grants and stated priorities",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "Torrington Savings Foundation",
+          "action": "Research Torrington Savings Foundation's recent grants and stated priorities",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Research & Prioritization"
+    },
+    {
+      "week": 2,
+      "date_start": "2026-01-09",
+      "date_end": "2026-01-15",
+      "tasks": [
+        {
+          "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+          "action": "Draft Letter of Inquiry for THE MAXIMILIAN E AND MARION O HOFFMAN",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "J WALTON BISSELL FOUNDATION INC",
+          "action": "Draft Letter of Inquiry for J WALTON BISSELL FOUNDATION INC",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "LOI Drafting"
+    },
+    {
+      "week": 3,
+      "date_start": "2026-01-16",
+      "date_end": "2026-01-22",
+      "tasks": [
+        {
+          "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+          "action": "Submit LOI to THE MAXIMILIAN E AND MARION O HOFFMAN",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "J WALTON BISSELL FOUNDATION INC",
+          "action": "Submit LOI to J WALTON BISSELL FOUNDATION INC",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Submissions & Outreach"
+    },
+    {
+      "week": 4,
+      "date_start": "2026-01-23",
+      "date_end": "2026-01-29",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Follow up on submitted LOIs",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "Torrington Savings Foundation",
+          "action": "Research Torrington Savings Foundation",
+          "owner": "Development Team"
+        },
+        {
+          "foundation": "LASZIG IJ TR",
+          "action": "Research LASZIG IJ TR",
+          "owner": "Development Team"
+        }
+      ],
+      "focus": "Follow-up & Next Batch"
+    },
+    {
+      "week": 5,
+      "date_start": "2026-01-30",
+      "date_end": "2026-02-05",
+      "tasks": [
+        {
+          "foundation": "Torrington Savings Foundation",
+          "action": "Prepare application materials for Torrington Savings Foundation",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "LASZIG IJ TR",
+          "action": "Prepare application materials for LASZIG IJ TR",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "THOMAS ATKINS MEML FD TR UW",
+          "action": "Prepare application materials for THOMAS ATKINS MEML FD TR UW",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "Secondary Opportunities"
+    },
+    {
+      "week": 6,
+      "date_start": "2026-02-06",
+      "date_end": "2026-02-12",
+      "tasks": [
+        {
+          "foundation": "Torrington Savings Foundation",
+          "action": "Prepare application materials for Torrington Savings Foundation",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "LASZIG IJ TR",
+          "action": "Prepare application materials for LASZIG IJ TR",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "THOMAS ATKINS MEML FD TR UW",
+          "action": "Prepare application materials for THOMAS ATKINS MEML FD TR UW",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "Secondary Opportunities"
+    },
+    {
+      "week": 7,
+      "date_start": "2026-02-13",
+      "date_end": "2026-02-19",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Review responses and adjust strategy",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Review & Adjust"
+    },
+    {
+      "week": 8,
+      "date_start": "2026-02-20",
+      "date_end": "2026-02-26",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Prepare for next report cycle",
+          "owner": "Development Team"
+        }
+      ],
+      "focus": "Planning Next Cycle"
+    }
+  ],
+  "urgent_actions": [
+    {
+      "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+      "action": "Call THE MAXIMILIAN E AND MARION O HOFFMAN at 860-521-2949 to inquire about application process",
+      "deadline": "2026-01-07",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+      "action": "Research THE MAXIMILIAN E AND MARION O HOFFMAN's recent grants and stated priorities",
+      "deadline": "2026-01-09",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "THE MAXIMILIAN E AND MARION O HOFFMAN",
+      "action": "Create account on application portal: Contact foundation directly for application form",
+      "deadline": "2026-01-09",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "J WALTON BISSELL FOUNDATION INC",
+      "action": "Research J WALTON BISSELL FOUNDATION INC's recent grants and stated priorities",
+      "deadline": "2026-01-09",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "J WALTON BISSELL FOUNDATION INC",
+      "action": "Create account on application portal: https://WWW.BISSELLFOUNDATION.ORG",
+      "deadline": "2026-01-09",
+      "owner": "Development Director"
+    }
+  ]
+}

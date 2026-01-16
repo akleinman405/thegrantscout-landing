@@ -1,0 +1,2965 @@
+{
+  "010575520": [],
+  "061600601": [],
+  "132878224": [],
+  "133091620": [],
+  "136099176": [],
+  "161448017": [],
+  "200031992": [],
+  "200721133": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 16% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.164
+    }
+  ],
+  "223622487": [],
+  "223769097": [],
+  "236205505": [],
+  "251202255": [],
+  "251823874": [],
+  "261215559": [],
+  "262502555": [],
+  "264377643": [],
+  "311520982": [],
+  "311810072": [],
+  "364193183": [],
+  "366030614": [],
+  "366192971": [],
+  "376022314": [],
+  "411367441": [],
+  "446006291": [],
+  "460500266": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "510390132": [],
+  "521690493": [],
+  "526068678": [],
+  "596194119": [],
+  "731312965": [],
+  "742316617": [],
+  "814571545": [],
+  "830935284": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "921373884": [],
+  "900918808": [],
+  "911663695": [],
+  "912073258": [],
+  "980543202": [],
+  "061695275": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "756000331": [],
+  "237225395": [],
+  "852632343": [],
+  "411359579": [],
+  "136192029": [],
+  "371904998": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "770252898": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "226062811": [],
+  "592128429": [],
+  "366058062": [],
+  "133073031": [],
+  "810842855": [],
+  "611583546": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "954724825": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "391710914": [],
+  "341606084": [],
+  "263977456": [],
+  "453444341": [],
+  "954658856": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "822800838": [],
+  "471295073": [],
+  "861108441": [],
+  "451742989": [],
+  "621586727": [],
+  "611703255": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "391728908": [],
+  "206425186": [],
+  "593707820": [],
+  "274818015": [],
+  "356042373": [],
+  "061478711": [],
+  "566036515": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "756015828": [],
+  "042399760": [],
+  "200882784": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "562615567": [],
+  "920942110": [],
+  "841605993": [],
+  "316024135": [],
+  "730609599": [],
+  "526200123": [],
+  "237366998": [],
+  "207415160": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "416012374": [],
+  "756037406": [],
+  "527140888": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "133741954": [],
+  "263598470": [],
+  "386124363": [],
+  "300039840": [],
+  "136077350": [
+    {
+      "type": "geographic",
+      "description": "Foundation in AZ, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "770443347": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "742691624": [],
+  "832597810": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "581375066": [],
+  "135562237": [],
+  "256026443": [],
+  "436044736": [],
+  "300206688": [],
+  "986001638": [],
+  "263962795": [],
+  "621533987": [],
+  "237049738": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 14% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.141
+    }
+  ],
+  "746385152": [],
+  "522339484": [],
+  "822535232": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "566036636": [],
+  "953950678": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "300108102": [],
+  "954142346": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "880361180": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "311681542": [],
+  "223048829": [],
+  "832592980": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "205682977": [],
+  "364347781": [],
+  "202006881": [],
+  "943358729": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "956369015": [],
+  "943349884": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "954781115": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 12% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.125
+    }
+  ],
+  "956228286": [],
+  "412205192": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "871174327": [],
+  "421312301": [],
+  "200235689": [],
+  "943332186": [],
+  "131684331": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 14% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.137
+    }
+  ],
+  "363662965": [],
+  "386830448": [],
+  "431262762": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 17% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.165
+    }
+  ],
+  "956028959": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "411784382": [],
+  "261442469": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "046009078": [],
+  "831345809": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "956493545": [],
+  "686222616": [],
+  "843025143": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "387154330": [],
+  "956836176": [],
+  "450471117": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "650031452": [],
+  "831326044": [],
+  "953247772": [],
+  "956042761": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "460500264": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "844161345": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "872402785": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "473482493": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "911884397": [],
+  "316634778": [],
+  "813945624": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 62% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.625
+    }
+  ],
+  "954462051": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "956046963": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "232776475": [],
+  "376517129": [],
+  "336020371": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "872041554": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "330929538": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "236881700": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "271129612": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "330922682": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "236218259": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "251384468": [],
+  "746042565": [],
+  "810799314": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "351528135": [],
+  "391433726": [],
+  "956024217": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "854215442": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "030363118": [],
+  "516015063": [],
+  "680126700": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "464748027": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "872754785": [],
+  "946075293": [],
+  "956010888": [],
+  "813878924": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "770235467": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "721199322": [],
+  "873355718": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "921256297": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "743008087": [],
+  "136060454": [],
+  "741334356": [],
+  "942566167": [],
+  "161653622": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 43% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.429
+    }
+  ],
+  "957104209": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "956381605": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "957116819": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "236917899": [],
+  "946059102": [],
+  "454445454": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "942911210": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "386043971": [],
+  "912056828": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "946646364": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "956010715": [],
+  "866115569": [],
+  "882839886": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "597264807": [],
+  "367410736": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "261532769": [],
+  "946699434": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "262856544": [],
+  "954608361": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "926606241": [],
+  "262856534": [],
+  "352262436": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "463356952": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "306724702": [],
+  "454445554": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "136040014": [],
+  "956983564": [],
+  "256817020": [],
+  "472797897": [],
+  "816571909": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "680220303": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 38% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.375
+    }
+  ],
+  "851166648": [],
+  "133319048": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 28% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.277
+    }
+  ],
+  "943272444": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "136066583": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 22% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.218
+    }
+  ],
+  "346516721": [],
+  "330442316": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "946053444": [],
+  "473812344": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "271052755": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "860873239": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "873711407": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 67% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.667
+    }
+  ],
+  "844064409": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "475518505": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "330099694": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "880465093": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "953663674": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "980066847": [],
+  "946701205": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "946053578": [],
+  "526021749": [],
+  "471576498": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "872718742": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "946099463": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "823710211": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "844011555": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "923130662": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "416028973": [],
+  "631035261": [],
+  "471128288": [],
+  "813775028": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "954019288": [],
+  "061637040": [],
+  "956028099": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "883889703": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "237004804": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "954575007": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "046008853": [],
+  "956819218": [],
+  "866274045": [],
+  "980494935": [],
+  "326615597": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "274361332": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 11% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.111
+    }
+  ],
+  "874124934": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 50% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.5
+    }
+  ],
+  "680309129": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "843976537": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "956024289": [],
+  "832895504": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 40% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.4
+    }
+  ],
+  "274439336": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "046092660": [],
+  "311478522": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "306268080": [],
+  "450678213": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 33% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.333
+    }
+  ],
+  "208876333": [],
+  "136123529": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 17% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.17
+    }
+  ],
+  "236648841": [],
+  "208020006": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "263411122": [],
+  "256037790": [],
+  "261460904": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "953374771": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "953510133": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "946621191": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "946074476": [],
+  "473298129": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 25% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.25
+    }
+  ],
+  "330924586": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "263347594": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 12% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.125
+    }
+  ],
+  "882827921": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 17% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.167
+    }
+  ],
+  "852731051": [],
+  "873917680": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 50% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.5
+    }
+  ],
+  "386060276": [],
+  "462670041": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "871788234": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "208038029": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 33% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.333
+    }
+  ],
+  "833306050": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 54% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.538
+    }
+  ],
+  "203516518": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 22% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.222
+    }
+  ],
+  "300013138": [],
+  "436935548": [],
+  "956047847": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 11% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.111
+    }
+  ],
+  "843831680": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "954594918": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "726213757": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "814710165": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "911544328": [
+    {
+      "type": "geographic",
+      "description": "Foundation in OR, adjacent to your CA",
+      "strength": "moderate"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 33% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.333
+    }
+  ],
+  "834281478": [],
+  "946070629": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "263110098": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "851297909": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "981129085": [],
+  "874127520": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 36% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.364
+    }
+  ],
+  "276987913": [],
+  "364852304": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "264765351": [],
+  "872170115": [],
+  "205502440": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 50% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.5
+    }
+  ],
+  "800267626": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "113129948": [],
+  "680224594": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "274171038": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 31% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.308
+    }
+  ],
+  "396107937": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 14% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.144
+    }
+  ],
+  "873698354": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "943195062": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "461598244": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "824505043": [],
+  "454008366": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "832936937": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "946622075": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "202738913": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "207464063": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 11% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.111
+    }
+  ],
+  "274201906": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 47% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.467
+    }
+  ],
+  "953513989": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "810781960": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "825500116": [],
+  "954523232": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 10% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.104
+    }
+  ],
+  "843835636": [],
+  "812018600": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "956809322": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "136217788": [],
+  "205171559": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "841408199": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "921742868": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "205919762": [],
+  "836582316": [],
+  "943116041": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 28% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.282
+    }
+  ],
+  "853792004": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 25% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.25
+    }
+  ],
+  "876778374": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "481308657": [],
+  "330732872": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 10% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.1
+    }
+  ],
+  "046050716": [],
+  "330296039": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "852330902": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "956386629": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "814796590": [],
+  "872996414": [],
+  "351812631": [],
+  "860653091": [
+    {
+      "type": "geographic",
+      "description": "Foundation in AZ, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "330644620": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "263763305": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "260143833": [],
+  "956018826": [],
+  "133321736": [],
+  "832444562": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "251902771": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "956010289": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 20% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.2
+    }
+  ],
+  "943296757": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 20% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.2
+    }
+  ],
+  "954804766": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "953433806": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "475157787": [],
+  "133503227": [],
+  "911979324": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "363486549": [],
+  "464346024": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "203106952": [],
+  "954509163": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "472574249": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "821511283": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 15% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.146
+    }
+  ],
+  "260347034": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 67% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.667
+    }
+  ],
+  "900737636": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 15% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.148
+    }
+  ],
+  "954438839": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "202349091": [],
+  "472414399": [],
+  "770535253": [],
+  "136083839": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 19% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.19
+    }
+  ],
+  "851216697": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "770315211": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "874032169": [],
+  "472519144": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 19% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.194
+    }
+  ],
+  "330809056": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "311259670": [],
+  "330317955": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "330506841": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "872914178": [],
+  "203510478": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 75% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.75
+    }
+  ],
+  "730709836": [],
+  "844512702": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "943192412": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 18% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.182
+    }
+  ],
+  "274254030": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "884271221": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "680175790": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 14% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.136
+    }
+  ],
+  "954232062": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "876718183": [],
+  "954187111": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 30% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.3
+    }
+  ],
+  "207184850": [],
+  "330085374": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "205578380": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "526058340": [],
+  "946070346": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "421415998": [],
+  "951765157": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "880992719": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "957064609": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 44% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.444
+    }
+  ],
+  "874232285": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "946058647": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "816527172": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "946666488": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "263863383": [
+    {
+      "type": "geographic",
+      "description": "Foundation in AZ, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "953500486": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 15% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.154
+    }
+  ],
+  "852109661": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "461443126": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 17% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.167
+    }
+  ],
+  "381437485": [],
+  "237417287": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 20% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.2
+    }
+  ],
+  "953766429": [],
+  "237364623": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "954664479": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 39% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.389
+    }
+  ],
+  "036088692": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "206620734": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 52% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.522
+    }
+  ],
+  "951732285": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "943288290": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "364684604": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "202303140": [],
+  "832927213": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 38% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.375
+    }
+  ],
+  "946057350": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "710845366": [],
+  "920307119": [],
+  "872848625": [],
+  "453961341": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "854154317": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 33% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.333
+    }
+  ],
+  "954247424": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 59% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.588
+    }
+  ],
+  "261646442": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 41% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.409
+    }
+  ],
+  "873773410": [],
+  "981599776": [],
+  "946088667": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "271467890": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 40% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.4
+    }
+  ],
+  "356027059": [],
+  "770422594": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 24% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.241
+    }
+  ],
+  "956392513": [],
+  "454941625": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 11% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.111
+    }
+  ],
+  "202557737": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 11% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.111
+    }
+  ],
+  "336203973": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "133127947": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 19% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.19
+    }
+  ],
+  "770507984": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "946058648": [],
+  "274160093": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "911823177": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "464260360": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 12% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.125
+    }
+  ],
+  "823756311": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 11% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.111
+    }
+  ],
+  "271600194": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 25% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.25
+    }
+  ],
+  "882190722": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 20% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.2
+    }
+  ],
+  "261325469": [
+    {
+      "type": "shared_funder",
+      "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+      "funder_ein": "010956020"
+    },
+    {
+      "type": "shared_funder",
+      "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+      "strength": "moderate",
+      "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+      "funder_ein": "203959759"
+    },
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 24% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.244
+    }
+  ],
+  "852105615": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 22% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.222
+    }
+  ],
+  "871883337": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 67% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.667
+    }
+  ],
+  "956010705": [],
+  "943338308": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 29% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.29
+    }
+  ],
+  "384187918": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "611817014": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 13% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.133
+    }
+  ],
+  "811000768": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 50% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.5
+    }
+  ],
+  "461606939": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "831421335": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 19% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.19
+    }
+  ],
+  "830580692": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "471872795": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 10% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.1
+    }
+  ],
+  "474395115": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "956487535": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "136066046": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 17% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.167
+    }
+  ],
+  "846444513": [],
+  "873741492": [],
+  "956812685": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 10% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.1
+    }
+  ],
+  "461257450": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "450895398": [],
+  "943274370": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "873491867": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "061830993": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 42% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.417
+    }
+  ],
+  "956042490": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 42% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.417
+    }
+  ],
+  "680438112": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    }
+  ],
+  "943083753": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "954310082": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "331015211": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 20% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.2
+    }
+  ],
+  "942781744": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 13% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.135
+    }
+  ],
+  "770558165": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 17% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.167
+    }
+  ],
+  "843636158": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "454050417": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "630823545": [],
+  "454104693": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 16% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.158
+    }
+  ],
+  "061706302": [],
+  "831261784": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "776280186": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 25% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.25
+    }
+  ],
+  "954487544": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 19% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.188
+    }
+  ],
+  "946073636": [
+    {
+      "type": "geographic",
+      "description": "Foundation in NV, adjacent to your CA",
+      "strength": "moderate"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 31% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.312
+    }
+  ],
+  "473440799": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 50% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 0.5
+    }
+  ],
+  "521448837": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    },
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 23% Education organizations",
+      "strength": "moderate",
+      "sector": "B",
+      "percentage": 0.231
+    }
+  ],
+  "946653322": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "464009968": [
+    {
+      "type": "geographic",
+      "description": "Both based in CA",
+      "strength": "strong"
+    }
+  ],
+  "956025008": [
+    {
+      "type": "sector_alignment",
+      "description": "Foundation funds 100% Education organizations",
+      "strength": "strong",
+      "sector": "B",
+      "percentage": 1.0
+    }
+  ],
+  "814657280": []
+}

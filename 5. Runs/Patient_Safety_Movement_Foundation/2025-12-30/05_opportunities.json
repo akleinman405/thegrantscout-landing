@@ -1,0 +1,356 @@
+[
+  {
+    "rank": 1,
+    "foundation_ein": "131684331",
+    "foundation_name": "THE FORD FOUNDATION",
+    "foundation_state": "NY",
+    "match_score": 99.5,
+    "match_probability": 0.9948297589695996,
+    "same_state": false,
+    "fit_score": 10,
+    "effort": "High",
+    "status": "MEDIUM",
+    "amount_min": 50000.0,
+    "amount_max": 200000.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 735763273.0,
+        "count": 3718,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 100000.0,
+        "min": 36.0,
+        "max": 10000000,
+        "avg": 208194.51456128265
+      },
+      "geographic_focus": {
+        "top_state": "NY",
+        "top_state_pct": 0.271,
+        "in_state_pct": 0.271,
+        "foundation_state": "NY"
+      },
+      "repeat_funding": {
+        "unique": 7542,
+        "repeat": 3346,
+        "rate": 0.444
+      },
+      "giving_style": {
+        "general_pct": 0.234,
+        "program_pct": 0.766
+      },
+      "recipient_profile": {
+        "budget_min": 1082292,
+        "budget_max": 16066956,
+        "budget_median": 3889823,
+        "primary_sector": "A",
+        "primary_sector_pct": 0.202
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": -0.033,
+        "oldest_year": 2020,
+        "newest_year": 2023
+      },
+      "comparable_grant": null,
+      "foundation_ein": "131684331",
+      "foundation_name": "THE FORD FOUNDATION",
+      "match_score": 99.5,
+      "match_rank": 75
+    },
+    "comparable_grant": null,
+    "connections": [
+      {
+        "type": "shared_funder",
+        "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+        "strength": "moderate",
+        "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+        "funder_ein": "010956020"
+      },
+      {
+        "type": "shared_funder",
+        "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+        "strength": "moderate",
+        "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+        "funder_ein": "203959759"
+      },
+      {
+        "type": "sector_alignment",
+        "description": "Foundation funds 14% Education organizations",
+        "strength": "moderate",
+        "sector": "B",
+        "percentage": 0.137
+      }
+    ],
+    "deadline": "Rolling",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 2,
+    "foundation_ein": "880813827",
+    "foundation_name": "FOR WOMEN FOUNDATION INC",
+    "foundation_state": "CA",
+    "match_score": 97.7,
+    "match_probability": 0.9773028400198324,
+    "same_state": true,
+    "fit_score": 10,
+    "effort": "Medium",
+    "status": "HIGH",
+    "amount_min": 32240.0,
+    "amount_max": 128960.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 530168.0,
+        "count": 7,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 64480.0,
+        "min": 17150.0,
+        "max": 226032.0,
+        "avg": 75738.28571428571
+      },
+      "geographic_focus": {
+        "top_state": "HARARE",
+        "top_state_pct": 0.143,
+        "in_state_pct": 0.143,
+        "foundation_state": "CA"
+      },
+      "repeat_funding": {
+        "unique": 7,
+        "repeat": 0,
+        "rate": 0.0
+      },
+      "giving_style": {
+        "general_pct": 0.5,
+        "program_pct": 0.5
+      },
+      "recipient_profile": {
+        "budget_min": 0,
+        "budget_max": 0,
+        "budget_median": 0,
+        "primary_sector": null,
+        "primary_sector_pct": 0.0
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": 0.0,
+        "oldest_year": 2023,
+        "newest_year": 2023
+      },
+      "comparable_grant": null,
+      "foundation_ein": "880813827",
+      "foundation_name": "FOR WOMEN FOUNDATION INC",
+      "match_score": 97.7,
+      "match_rank": 123
+    },
+    "comparable_grant": null,
+    "connections": [
+      {
+        "type": "geographic",
+        "description": "Both based in CA",
+        "strength": "strong"
+      }
+    ],
+    "deadline": "Rolling",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 3,
+    "foundation_ein": "880639274",
+    "foundation_name": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+    "foundation_state": "CA",
+    "match_score": 97.6,
+    "match_probability": 0.9759840556881108,
+    "same_state": true,
+    "fit_score": 10,
+    "effort": "Medium",
+    "status": "HIGH",
+    "amount_min": 137500.0,
+    "amount_max": 550000.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 5028272.0,
+        "count": 9,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 275000.0,
+        "min": 125000.0,
+        "max": 2008164.0,
+        "avg": 463009.64285714284
+      },
+      "geographic_focus": {
+        "top_state": "NY",
+        "top_state_pct": 0.25,
+        "in_state_pct": 0.167,
+        "foundation_state": "CA"
+      },
+      "repeat_funding": {
+        "unique": 9,
+        "repeat": 5,
+        "rate": 0.556
+      },
+      "giving_style": {
+        "general_pct": 0.5,
+        "program_pct": 0.5
+      },
+      "recipient_profile": {
+        "budget_min": 4040443300,
+        "budget_max": 7251500318,
+        "budget_median": 5787226722,
+        "primary_sector": "B",
+        "primary_sector_pct": 1.0
+      },
+      "funding_trend": {
+        "direction": "Growing",
+        "change_pct": 2.459,
+        "oldest_year": 2022,
+        "newest_year": 2023
+      },
+      "comparable_grant": null,
+      "foundation_ein": "880639274",
+      "foundation_name": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+      "match_score": 97.6,
+      "match_rank": 128
+    },
+    "comparable_grant": null,
+    "connections": [
+      {
+        "type": "shared_funder",
+        "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+        "strength": "moderate",
+        "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+        "funder_ein": "010956020"
+      },
+      {
+        "type": "geographic",
+        "description": "Both based in CA",
+        "strength": "strong"
+      },
+      {
+        "type": "sector_alignment",
+        "description": "Foundation funds 75% Education organizations",
+        "strength": "strong",
+        "sector": "B",
+        "percentage": 0.75
+      }
+    ],
+    "deadline": "Rolling",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 4,
+    "foundation_ein": "226029397",
+    "foundation_name": "THE ROBERT WOOD JOHNSON FOUNDATION",
+    "foundation_state": "NJ",
+    "match_score": 97.3,
+    "match_probability": 0.973222126724772,
+    "same_state": false,
+    "fit_score": 9,
+    "effort": "High",
+    "status": "MEDIUM",
+    "amount_min": 7298.25,
+    "amount_max": 29193.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 543575302.0,
+        "count": 2943,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 14596.5,
+        "min": 15.0,
+        "max": 10000000,
+        "avg": 135477.99444988574
+      },
+      "geographic_focus": {
+        "top_state": "NJ",
+        "top_state_pct": 0.19,
+        "in_state_pct": 0.19,
+        "foundation_state": "NJ"
+      },
+      "repeat_funding": {
+        "unique": 6441,
+        "repeat": 3327,
+        "rate": 0.517
+      },
+      "giving_style": {
+        "general_pct": 0.033,
+        "program_pct": 0.967
+      },
+      "recipient_profile": {
+        "budget_min": 752346,
+        "budget_max": 24622171,
+        "budget_median": 4097898,
+        "primary_sector": "B",
+        "primary_sector_pct": 0.128
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": 0.022,
+        "oldest_year": 2020,
+        "newest_year": 2023
+      },
+      "comparable_grant": null,
+      "foundation_ein": "226029397",
+      "foundation_name": "THE ROBERT WOOD JOHNSON FOUNDATION",
+      "match_score": 97.3,
+      "match_rank": 147
+    },
+    "comparable_grant": null,
+    "connections": [
+      {
+        "type": "shared_funder",
+        "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+        "strength": "moderate",
+        "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+        "funder_ein": "010956020"
+      },
+      {
+        "type": "shared_funder",
+        "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+        "strength": "moderate",
+        "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+        "funder_ein": "203959759"
+      },
+      {
+        "type": "sector_alignment",
+        "description": "Foundation funds 13% Education organizations",
+        "strength": "moderate",
+        "sector": "B",
+        "percentage": 0.13
+      }
+    ],
+    "deadline": "Rolling",
+    "portal_url": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "opportunities": [
+    {
+      "foundation_ein": "131684331",
+      "foundation_name": "THE FORD FOUNDATION",
+      "why_this_fits": "THE FORD FOUNDATION has a track record of supporting organizations like Patient Safety Movement Foundation.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (77%). Consider requesting $80,000 - $150,000 based on their $100,000 median grant.",
+      "next_steps": [
+        {
+          "action": "Research THE FORD FOUNDATION's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "foundation_ein": "880813827",
+      "foundation_name": "FOR WOMEN FOUNDATION INC",
+      "why_this_fits": "FOR WOMEN FOUNDATION INC has a track record of supporting organizations like Patient Safety Movement Foundation. As a CA-based foundation with 14% in-state giving, they prioritize local organizations.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (50%). Consider requesting $51,584 - $96,720 based on their $64,480 median grant. Emphasize your local CA presence and community impact.",
+      "next_steps": [
+        {
+          "action": "Research FOR WOMEN FOUNDATION INC's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "foundation_ein": "880639274",
+      "foundation_name": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+      "why_this_fits": "INSTITUTE FOR FOLLICULAR LYMPHOMA has a track record of supporting organizations like Patient Safety Movement Foundation. As a CA-based foundation with 17% in-state giving, they prioritize local organizations. Their giving has been increasing, suggesting capacity for new grantees.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (50%). Consider requesting $220,000 - $412,500 based on their $275,000 median grant. Emphasize your local CA presence and community impact. With a 56% repeat funding rate, plan for multi-year relationship building.",
+      "next_steps": [
+        {
+          "action": "Research INSTITUTE FOR FOLLICULAR LYMPHOMA's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "foundation_ein": "226029397",
+      "foundation_name": "THE ROBERT WOOD JOHNSON FOUNDATION",
+      "why_this_fits": "THE ROBERT WOOD JOHNSON FOUNDATION has a track record of supporting organizations like Patient Safety Movement Foundation.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (97%). Consider requesting $11,677 - $21,894 based on their $14,596 median grant. With a 52% repeat funding rate, plan for multi-year relationship building.",
+      "next_steps": [
+        {
+          "action": "Research THE ROBERT WOOD JOHNSON FOUNDATION's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    }
+  ],
+  "executive_summary": {
+    "key_strengths": [
+      "**Geographic Advantage:** 2 of 4 opportunities are in-state funders who prioritize local organizations.",
+      "**Strong Matches:** 2 opportunities rated HIGH priority based on alignment analysis.",
+      "**Funding Potential:** $227,038 - $908,153 potential across all opportunities."
+    ],
+    "one_thing": "**This week's priority:** Research THE FORD FOUNDATION and draft an initial Letter of Inquiry.",
+    "urgent_actions": [],
+    "funding_scenarios": {
+      "conservative": 82240,
+      "moderate": 549350,
+      "ambitious": 908153
+    }
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "526037034": {
+    "foundation_ein": "526037034",
+    "foundation_name": "THE HARRY AND JEANETTE WEINBERG",
+    "annual_giving": {
+      "total": 505917077.0,
+      "count": 2678,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 50000.0,
+      "min": 325.0,
+      "max": 99655330.0,
+      "avg": 188916.01082897684
+    },
+    "geographic_focus": {
+      "top_state": "MD",
+      "top_state_pct": 0.276,
+      "in_state_pct": 0,
+      "foundation_state": "MD"
+    },
+    "repeat_funding": {
+      "unique": 935,
+      "repeat": 449,
+      "rate": 0.48
+    },
+    "giving_style": {
+      "general_pct": 0.16,
+      "program_pct": 0.84
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0
+    },
+    "funding_trend": {
+      "direction": "Unknown",
+      "change_pct": 0,
+      "oldest_year": null,
+      "newest_year": null
+    },
+    "comparable_grant": {
+      "recipient": "AMERICAN JEWISH JOINT DISTRIBUTION COMMITTEE INC",
+      "amount": 3650000.0,
+      "purpose": "TO SUPPORT JDC-ISRAELS FLAGSHIP INITIATIVES: ESHEL, WHICH SERVES OLDER ADULTS AND ENABLES THEM TO AGE WITH INDEPENDENCE AND QUALITY OF LIFE, TEVET.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "HJWEINBERGFOUNDATION.ORG",
+      "phone": "4106548500",
+      "email": null,
+      "app_contact_name": "GRANTS INTAKE MANAGER - HARRY AND J",
+      "app_contact_phone": "4106548500",
+      "app_contact_email": null,
+      "deadlines": "NONE",
+      "restrictions": "SEE FOUNDATION'S WEBSITE - HJWEINBERGFOUNDATION.ORG",
+      "how_to_apply": "LETTERS OF INQUIRY AS PRESCRIBED ON THE FOUNDATION'S WEBSITE - HJWEINBERGFOUNDATION.ORG"
+    },
+    "officers": [
+      {
+        "name": "ALVIN AWAYA",
+        "title": "VICE PRESIDENT",
+        "compensation": 1172155.0
+      },
+      {
+        "name": "ROBERT T KELLY JR",
+        "title": "TRUSTEE",
+        "compensation": 50000.0
+      },
+      {
+        "name": "ROBERT T KELLY JR",
+        "title": "TRUSTEE",
+        "compensation": 50000.0
+      }
+    ]
+  },
+  "581695425": {
+    "foundation_ein": "581695425",
+    "foundation_name": "Robert W Woodruff Foundation Inc",
+    "annual_giving": {
+      "total": 681827568.0,
+      "count": 129,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 1700000.0,
+      "min": 75000.0,
+      "max": 75000120.0,
+      "avg": 5285485.023255814
+    },
+    "geographic_focus": {
+      "top_state": "GA",
+      "top_state_pct": 0.953,
+      "in_state_pct": 0,
+      "foundation_state": "GA"
+    },
+    "repeat_funding": {
+      "unique": 54,
+      "repeat": 26,
+      "rate": 0.481
+    },
+    "giving_style": {
+      "general_pct": 0.01,
+      "program_pct": 0.99
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0
+    },
+    "funding_trend": {
+      "direction": "Unknown",
+      "change_pct": 0,
+      "oldest_year": null,
+      "newest_year": null
+    },
+    "comparable_grant": {
+      "recipient": "Community Foundation for Greater Atlanta",
+      "amount": 75000120.0,
+      "purpose": "Establishment of the Woodruff and Whitehead Affordable Housing Donor Advised Fund.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "www.woodruff.org",
+      "phone": "4045226755",
+      "email": null,
+      "app_contact_name": "P Russell Hardin President",
+      "app_contact_phone": "4045226755",
+      "app_contact_email": null,
+      "deadlines": "Grant applications are considered in April and November for requests received by Feb. 1 and Aug. 15.",
+      "restrictions": "Grants generally are limited to tax-exempt charities and selected governmental agencies located and operating in Georgia, with most grants awarded to organizations in Atlanta. Grants to qualified public charities headquartered outside Georgia occasionally are considered when it is demonstrated that the proposed project will have particular impact in Georgia and fits within the program interests of the Foundation. These interests are focused on the following program areas: - Elementary, secondary and higher education - Health care and education - Human services, particularly for children and youth - Economic development and civic affairs - Art and cultural activities - Conservation of natural resources and environmental education. Grants for regular operating expenses are avoided. No grants are made to individuals.",
+      "how_to_apply": "Application form not required. Proposals should be submitted via the Foundation's online application portal on its website. Before submitting a formal grant request, prospective grantees are encouraged to submit an informal inquiry to fdns@woodruff.org. The grant request should be made in letter form and include the following information: - A description of the organization, its purposes, programs, staffing and governing board - The organization's latest financial statements including the most recent audit report - A description of the proposed project and full justification for its funding - An itemized project budget, including other sources of support in hand or anticipated - Evidence from the IRS of the organization's tax-exempt status and that the applying organization itself is not a private foundation."
+    },
+    "officers": [
+      {
+        "name": "James B Williams",
+        "title": "Trustee- Chair Emeritus",
+        "compensation": 35000.0
+      },
+      {
+        "name": "James B Williams",
+        "title": "Trustee- Chair Emeritus",
+        "compensation": 25000.0
+      },
+      {
+        "name": "James B Williams",
+        "title": "Trustee- Chair Emeritus",
+        "compensation": 25000.0
+      }
+    ]
+  },
+  "381359217": {
+    "foundation_ein": "381359217",
+    "foundation_name": "THE KRESGE FOUNDATION",
+    "annual_giving": {
+      "total": 781243525.0,
+      "count": 4484,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 100000.0,
+      "min": 50.0,
+      "max": 10000000.0,
+      "avg": 174229.1536574487
+    },
+    "geographic_focus": {
+      "top_state": "MI",
+      "top_state_pct": 0.268,
+      "in_state_pct": 0,
+      "foundation_state": "MI"
+    },
+    "repeat_funding": {
+      "unique": 1264,
+      "repeat": 806,
+      "rate": 0.638
+    },
+    "giving_style": {
+      "general_pct": 0.19,
+      "program_pct": 0.81
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0
+    },
+    "funding_trend": {
+      "direction": "Unknown",
+      "change_pct": 0,
+      "oldest_year": null,
+      "newest_year": null
+    },
+    "comparable_grant": {
+      "recipient": "THE BLACKBAUD GIVING FUND",
+      "amount": 3731049.0,
+      "purpose": "MATCHING GIFT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "WWW.KRESGE.ORG",
+      "phone": "2486439630",
+      "email": null,
+      "app_contact_name": "THE KRESGE FOUNDATION",
+      "app_contact_phone": "2486439630",
+      "app_contact_email": "GRANTSMANAGEMENT@KRESGE.ORG",
+      "deadlines": "SEE WWW.KRESGE.ORG OR EMAIL GRANTSMANAGEMENT@KRESGE.ORG",
+      "restrictions": "SEE WWW.KRESGE.ORG OR EMAIL GRANTSMANAGEMENT@KRESGE.ORG",
+      "how_to_apply": "SEE WWW.KRESGE.ORG OR EMAIL GRANTSMANAGEMENT@KRESGE.ORG"
+    },
+    "officers": [
+      {
+        "name": "RICHARD RIP RAPSON STMT 23",
+        "title": "PRESIDENT, CEO, TRUSTEE",
+        "compensation": 912781.0
+      },
+      {
+        "name": "RICHARD RIP RAPSON STMT 24",
+        "title": "PRESIDENT, CEO, TRUSTEE",
+        "compensation": 893330.0
+      },
+      {
+        "name": "RICHARD RIP RAPSON STMT 26",
+        "title": "PRESIDENT, CEO",
+        "compensation": 850557.0
+      }
+    ]
+  },
+  "866247076": {
+    "foundation_ein": "866247076",
+    "foundation_name": "Virginia G Piper Charitable Trust",
+    "annual_giving": {
+      "total": 127365684.0,
+      "count": 2019,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 10000.0,
+      "min": 32.0,
+      "max": 3370000.0,
+      "avg": 63220.58114143921
+    },
+    "geographic_focus": {
+      "top_state": "AZ",
+      "top_state_pct": 0.891,
+      "in_state_pct": 0,
+      "foundation_state": "AZ"
+    },
+    "repeat_funding": {
+      "unique": 380,
+      "repeat": 238,
+      "rate": 0.626
+    },
+    "giving_style": {
+      "general_pct": 0.18,
+      "program_pct": 0.82
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0
+    },
+    "funding_trend": {
+      "direction": "Unknown",
+      "change_pct": 0,
+      "oldest_year": null,
+      "newest_year": null
+    },
+    "comparable_grant": {
+      "recipient": "Arizona State University Foundation",
+      "amount": 2851173.0,
+      "purpose": "Implement the Knowledge Exchange for Resilience.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "www.pipertrust.org",
+      "phone": "4809485853",
+      "email": null,
+      "app_contact_name": "Angelica Gonzalez",
+      "app_contact_phone": "4809485853",
+      "app_contact_email": "agonzalez@pipertrust.org",
+      "deadlines": "NONE",
+      "restrictions": "ELIGIBLE ORGANIZATIONS MUST: A) BE LOCATED WITHIN OR PRIMARILY SERVING RESIDENTS OF MARICOPA COUNTY, AZ; B) BE TAX EXEMPT UNDER IRC SECTION 501(C)(3) OR AN INSTRUMENTALITY OF GOVERNMENT; C) HAVE BEEN IN ACTIVE EXISTENCE AS A 501(C)(3), UNLESS A GOVERNMENT INSTRUMENTALITY, FOR AT LEAST THREE YEARS; D) DELIVER PROGRAMS WHICH SUPPORT HEALTHCARE AND MEDICAL RESEARCH, CHILDREN, OLDER ADULTS, ARTS AND CULTURE, EDUCATION, OR RELIGIOUS ORGANIZATIONS; E) NOT BE A PRIVATE FOUNDATION OR INELIGIBLE TYPE III SUPPORTING ORGANIZATION.",
+      "how_to_apply": "Grantees are encouraged to talk to a program officer before submitting a Letter of Inquiry (LOI). The Letter of Inquiry (LOI) should describe the project - addressing its impact, effectiveness, feasibility, and sustainability. After review of the inquiry, organizations may be invited to submit a full proposal for consideration. Please refer to \"What Makes a Strong Proposal\" on the Trust's website (www.pipertrust.org). For assistance with the application process, email Angelica Gonzalez, Program Associate at agonzalez@pipertrust.org or call at 480-948-5853."
+    },
+    "officers": [
+      {
+        "name": "Terri Leon",
+        "title": "Chief Comm Officer",
+        "compensation": 204304.0
+      },
+      {
+        "name": "Karen Woodhouse",
+        "title": "Trustee",
+        "compensation": 61000.0
+      },
+      {
+        "name": "Karen Woodhouse",
+        "title": "Trustee",
+        "compensation": 46764.0
+      }
+    ]
+  },
+  "943100217": {
+    "foundation_ein": "943100217",
+    "foundation_name": "CONRAD N HILTON FOUNDATION",
+    "annual_giving": {
+      "total": 1125093968.0,
+      "count": 5493,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 21000.0,
+      "min": 90.0,
+      "max": 15500000.0,
+      "avg": 204823.22373930458
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.416,
+      "in_state_pct": 0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 1637,
+      "repeat": 831,
+      "rate": 0.508
+    },
+    "giving_style": {
+      "general_pct": 0.39,
+      "program_pct": 0.61
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0
+    },
+    "funding_trend": {
+      "direction": "Unknown",
+      "change_pct": 0,
+      "oldest_year": null,
+      "newest_year": null
+    },
+    "comparable_grant": {
+      "recipient": "UNITED WAY INC",
+      "amount": 3108000.0,
+      "purpose": "TO SUPPORT DIRECT INVESTMENTS IN PHYSICAL INFRASTRUCTURE AND SERVICE DELIVERY IN FAITH AND COMMUNITY-BASED ORGANIZATIONS AND TARGETED DAYTIME/SHELTER SERVICE LOCATIONS, AND OVERSEE IMPLEMENTATION AND EVALUATION",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "WWW.HILTONFOUNDATION.ORG",
+      "phone": "8188513724",
+      "email": null,
+      "app_contact_name": "CONRAD N HILTON FOUNDATION",
+      "app_contact_phone": "8188513700",
+      "app_contact_email": null,
+      "deadlines": "SEPTEMBER 30TH",
+      "restrictions": "GOOD NEIGHBOR GRANTS ARE NOT MADE: - TO ORGANIZATIONS THAT DISCRIMINATE AGAINST CERTAIN GROUPS OR INDIVIDUALS IN THE DELIVERY OF PROGRAMS AND SERVICES ON THE BASIS OF RACE, RELIGION, NATIONAL ORIGIN, GENDER, AGE, SEXUAL ORIENTATION OR DISABILITY - FOR INFLUENCING LEGISLATION AND/OR ELECTIONS, PROMOTING VOTER REGISTRATION; FOR POLITICAL CANDIDATES, POLITICAL CAMPAIGNS - FOR SOCIAL OR POLITICAL ISSUES OUTSIDE THE UNITED STATES OF AMERICA - TO INDIVIDUALS - FOR TEMPORARY EXHIBITS, TRAVEL, SURVEYS, FILMS OR PUBLISHING ACTIVITIES - FOR ENDOWMENT FUNDS - FOR FUNDRAISING DINNERS OR EVENTS",
+      "how_to_apply": "- REQUESTED AMOUNT - PURPOSE OF REQUEST - APPLICANT'S: LEGAL NAME, ALSO KNOWN AS, TAX ID (EIN), COMPLETE ADDRESS, MAIN PHONE, WEBSITE, FISCAL YEAR END, CURRENT FISCAL YEAR ORGANIZATION BUDGET, PREVIOUS FISCAL YEAR ORGANIZATION BUDGET, FISCAL SPONSOR REQUIREMENT? YES/NO, HEAD OF ORGANIZATION (NAME, TITLE, AND EMAIL), PRIMARY CONTACT (NAME, TITLE, DIRECT PHONE, AND EMAIL). - TYPE OF SUPPORT REQUESTED: GENERAL OPERATING SUPPORT OR PROJECT SUPPORT - PROPOSAL NARRATIVE"
+    },
+    "officers": [
+      {
+        "name": "PETER A LAUGHARN",
+        "title": "PRESIDENT AND CEO",
+        "compensation": 982226.0
+      },
+      {
+        "name": "PETER A LAUGHARN",
+        "title": "PRESIDENT AND CEO",
+        "compensation": 905122.0
+      },
+      {
+        "name": "PETER A LAUGHARN",
+        "title": "PRESIDENT/CEO",
+        "compensation": 726261.0
+      }
+    ]
+  }
+}

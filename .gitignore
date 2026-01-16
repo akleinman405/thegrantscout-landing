@@ -34,9 +34,27 @@ node_modules/
 out/
 build/
 
-# Large data files - don't track (too big for git)
-1. Database/0. Raw IRS Data/
+# Large data folders - don't track (too big for git)
+1. Database/
+9. Pipeline Legacy (Large CSVs)/
 data/raw/
+
+# Sensitive/private folders
+6. Business/
+
+# Archive/historical folders (not needed for reports)
+4. Pipeline/archive/
+4. Pipeline/logs/
+.claude/archive/
+.claude/1. Enhancements/
+
+# Database dumps
+*.dump
+*.sql.gz
+supabase-migration/
+
+# Temp Excel files
+~$*
 
 # Sensitive business files (audio recordings)
 *.m4a
@@ -49,6 +67,5 @@ data/raw/
 *.h5
 *.model
 
-# Client run outputs (can be regenerated)
-runs/*/
-!runs/.gitkeep
+# Large CSV files
+*.csv.gz

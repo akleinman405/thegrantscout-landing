@@ -1,0 +1,639 @@
+{
+  "client": "Friendship Circle SD",
+  "client_short_name": "FCSD",
+  "run_date": "2026-01-05",
+  "filter_date": "2026-01-06T16:16:18.325028",
+  "settings": {
+    "top_n_processed": 20,
+    "include_watch": false,
+    "include_skip": false
+  },
+  "summary": {
+    "total_processed": 23,
+    "total_output": 23,
+    "tier_counts": {
+      "ready": 3,
+      "conditional": 17,
+      "watch": 0,
+      "skip": 0
+    },
+    "excluded": 0
+  },
+  "foundations": [
+    {
+      "rank": 1,
+      "foundation_ein": "203216993",
+      "foundation_name": "THE CONRAD PREBYS FOUNDATION",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 2003.0,
+      "adjusted_score": 2003.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 1.0,
+        "reason": "Curated - manually researched match"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "online",
+        "red_flags": [],
+        "program_priorities": "Curated foundation - annual giving $53,715,018",
+        "geographic_focus": "National",
+        "grant_range_stated": null,
+        "last_enriched": "2026-01-06T16:14:45.920439",
+        "enrichment_source": "curated",
+        "enrichment_notes": "Manually researched and added to pipeline"
+      },
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null,
+      "source": "curated"
+    },
+    {
+      "rank": 2,
+      "foundation_ein": "330399736",
+      "foundation_name": "McBETH FOUNDATION",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 2002.0,
+      "adjusted_score": 2002.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 1.0,
+        "reason": "Curated - manually researched match"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "online",
+        "red_flags": [],
+        "program_priorities": "Curated foundation - annual giving $2,225,200",
+        "geographic_focus": "National",
+        "grant_range_stated": null,
+        "last_enriched": "2026-01-06T16:14:45.920464",
+        "enrichment_source": "curated",
+        "enrichment_notes": "Manually researched and added to pipeline"
+      },
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null,
+      "source": "curated"
+    },
+    {
+      "rank": 3,
+      "foundation_ein": "956054814",
+      "foundation_name": "WEINGART FOUNDATION",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 2001.0,
+      "adjusted_score": 2001.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 1.0,
+        "reason": "Curated - manually researched match"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "online",
+        "red_flags": [],
+        "program_priorities": "Curated foundation - annual giving $33,896,369",
+        "geographic_focus": "National",
+        "grant_range_stated": null,
+        "last_enriched": "2026-01-06T16:14:45.920473",
+        "enrichment_source": "curated",
+        "enrichment_notes": "Manually researched and added to pipeline"
+      },
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null,
+      "source": "curated"
+    },
+    {
+      "rank": 4,
+      "foundation_ein": "811344384",
+      "foundation_name": "GARY E MILGARD FAMILY FOUNDATION-LORI",
+      "foundation_state": "WA",
+      "foundation_city": "",
+      "match_score": 1235.56,
+      "adjusted_score": 1112.0,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.9,
+        "reason": "Accepts Letters of Inquiry"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "loi",
+        "red_flags": [
+          "geographic_mismatch_for_sd"
+        ],
+        "program_priorities": "General support (11%), health, education",
+        "geographic_focus": "Pierce County WA (primary), Los Angeles CA (secondary)",
+        "grant_range_stated": "$10K - $100K",
+        "last_enriched": "2026-01-05 21:55:17.229870",
+        "enrichment_source": null,
+        "enrichment_notes": "93% of grants go to CA - but LA metro, not SD. Geographic stretch but not disqualifier."
+      },
+      "website": "https://WWW.GARYMILGARDFAMILYFOUNDATION.ORG",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": "253-274-0121",
+      "application_url": "https://garymilgardfamilyfoundation.org/apply/",
+      "deadline": null,
+      "deadline_notes": "12-16 week review"
+    },
+    {
+      "rank": 5,
+      "foundation_ein": "943116041",
+      "foundation_name": "The Upjohn Fund of San Francisco",
+      "foundation_state": "DE",
+      "foundation_city": "",
+      "match_score": 1089.31,
+      "adjusted_score": 1034.84,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.95,
+        "reason": "Accepts Letters of Inquiry"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "loi",
+        "red_flags": [],
+        "program_priorities": "67% general support - flexible",
+        "geographic_focus": "San Francisco Bay Area",
+        "grant_range_stated": "$5K - $15K",
+        "last_enriched": "2026-01-05 21:55:17.227977",
+        "enrichment_source": null,
+        "enrichment_notes": "SF Bay Area focus - SNS is in SF, good fit."
+      },
+      "website": null,
+      "contact_name": "Fred Weil",
+      "contact_email": "fweil@hansonbridgett.com",
+      "contact_phone": "800-839-1754",
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 6,
+      "foundation_ein": "943339119",
+      "foundation_name": "TOUCHPOINT FOUNDATION - HOST",
+      "foundation_state": "NJ",
+      "foundation_city": "",
+      "match_score": 1019.22,
+      "adjusted_score": 917.3,
+      "viability": {
+        "tier": "ready",
+        "multiplier": 0.9,
+        "reason": "Accepts Letters of Inquiry"
+      },
+      "enrichment": {
+        "accepts_unsolicited": true,
+        "application_type": "loi",
+        "red_flags": [
+          "18_month_wait_between_grants"
+        ],
+        "program_priorities": "100% general support - flexible",
+        "geographic_focus": "National (NJ-based)",
+        "grant_range_stated": "$5K - $15K",
+        "last_enriched": "2026-01-05 21:55:17.213960",
+        "enrichment_source": null,
+        "enrichment_notes": "18-month wait between grants. Proven senior funder - Senior Coastsiders $15-32K repeatedly."
+      },
+      "website": null,
+      "contact_name": "Cindy Labuda",
+      "contact_email": null,
+      "contact_phone": "650-599-7407",
+      "application_url": "https://touchpointfoundation.org/grant-guidelines",
+      "deadline": null,
+      "deadline_notes": "Jan 1, Apr 1, Jul 1, Oct 1 (quarterly)"
+    },
+    {
+      "rank": 7,
+      "foundation_ein": "946073636",
+      "foundation_name": "MARINI FAMILY TRUST",
+      "foundation_state": "NV",
+      "foundation_city": "",
+      "match_score": 1107.35,
+      "adjusted_score": 775.14,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 8,
+      "foundation_ein": "956255900",
+      "foundation_name": "KUEHN TRUMAN C TUA",
+      "foundation_state": "NV",
+      "foundation_city": "",
+      "match_score": 998.4,
+      "adjusted_score": 698.88,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 9,
+      "foundation_ein": "956030315",
+      "foundation_name": "PORTER JOHN W TUW",
+      "foundation_state": "NV",
+      "foundation_city": "",
+      "match_score": 993.82,
+      "adjusted_score": 695.67,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 10,
+      "foundation_ein": "954797873",
+      "foundation_name": "PETER AND CANDIS DOERKEN FOUNDATION",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 964.45,
+      "adjusted_score": 675.12,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 11,
+      "foundation_ein": "463559307",
+      "foundation_name": "PEONY FOUNDATION INC",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 950.79,
+      "adjusted_score": 665.55,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.grantable.co/search/funders/profile/peony-foundation-inc-us-foundation-463559307",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 12,
+      "foundation_ein": "920504697",
+      "foundation_name": "Barr-Campbell Family Foundation Inc",
+      "foundation_state": "DE",
+      "foundation_city": "",
+      "match_score": 925.65,
+      "adjusted_score": 647.95,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 13,
+      "foundation_ein": "205578380",
+      "foundation_name": "MILDRED & MARIAN KIGER FOUNDATION",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 922.95,
+      "adjusted_score": 646.06,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 14,
+      "foundation_ein": "271878882",
+      "foundation_name": "A GARY ANDERSON FAMILY FOUNDATION",
+      "foundation_state": "NV",
+      "foundation_city": "",
+      "match_score": 919.65,
+      "adjusted_score": 643.75,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://grantstation.com/grantmakers/gary-anderson-family-foundation",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 15,
+      "foundation_ein": "954438839",
+      "foundation_name": "CARL W JOHNSON FOUNDATION",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 899.89,
+      "adjusted_score": 629.92,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 16,
+      "foundation_ein": "912169259",
+      "foundation_name": "THE RAZI FAMILY FOUNDATION",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 893.26,
+      "adjusted_score": 625.28,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 17,
+      "foundation_ein": "237425882",
+      "foundation_name": "THE AIDLIN FOUNDATION",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 884.16,
+      "adjusted_score": 618.91,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 18,
+      "foundation_ein": "205632706",
+      "foundation_name": "GAINEY FOUNDATION",
+      "foundation_state": "WI",
+      "foundation_city": "",
+      "match_score": 883.29,
+      "adjusted_score": 618.3,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://sbfoundation.org/news-events/press-releases",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 19,
+      "foundation_ein": "237433359",
+      "foundation_name": "AUTRY FOUNDATION",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 876.87,
+      "adjusted_score": 613.81,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": "https://www.autry-usa.com/en",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 20,
+      "foundation_ein": "946079537",
+      "foundation_name": "HARRISON MECHAM RELIEF FUND OF PETALUMA",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 872.81,
+      "adjusted_score": 610.97,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.7,
+        "reason": "No enrichment data - requires web research"
+      },
+      "enrichment": null,
+      "website": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 21,
+      "foundation_ein": "770549288",
+      "foundation_name": "THE ALLISON LEE CONDIT FOUNDATION",
+      "foundation_state": "CA",
+      "foundation_city": "",
+      "match_score": 986.21,
+      "adjusted_score": 591.73,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.6,
+        "reason": "Application process unclear - contact to verify"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": "unknown",
+        "red_flags": [
+          "no_website",
+          "family_foundation"
+        ],
+        "program_priorities": "44% disability grants",
+        "geographic_focus": "Aptos, California (local)",
+        "grant_range_stated": "$1K - $5K (small grants)",
+        "last_enriched": "2026-01-05 21:55:17.227249",
+        "enrichment_source": null,
+        "enrichment_notes": "No website, family foundation - may be selective. Strong disability focus (44% of grants)."
+      },
+      "website": null,
+      "contact_name": "Ross Condit",
+      "contact_email": null,
+      "contact_phone": "831-345-9016",
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 22,
+      "foundation_ein": "946073762",
+      "foundation_name": "ANNUNZIATA SANGUINETTI FOUNDATION",
+      "foundation_state": "MO",
+      "foundation_city": "",
+      "match_score": 981.87,
+      "adjusted_score": 589.12,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.6,
+        "reason": "Application process unclear - contact to verify"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": "unknown",
+        "red_flags": [
+          "bank_managed",
+          "stated_focus_children"
+        ],
+        "program_priorities": "Organizations that benefit children",
+        "geographic_focus": "Unknown",
+        "grant_range_stated": "$50K - $60K (Lighthouse for the Blind)",
+        "last_enriched": "2026-01-05 21:55:17.226484",
+        "enrichment_source": null,
+        "enrichment_notes": "Bank-managed trust (Wells Fargo), may be harder to access. Stated focus is 'children' but has funded disability orgs like Lighthouse for the Blind."
+      },
+      "website": null,
+      "contact_name": "Wells Fargo Bank NA (Trustee)",
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": "https://wellsfargo.com/private-foundations/sanguinetti-foundation/",
+      "deadline": null,
+      "deadline_notes": null
+    },
+    {
+      "rank": 23,
+      "foundation_ein": "954019288",
+      "foundation_name": "HAROLD R SWANTON AND WINIFRED SWANTON",
+      "foundation_state": "WI",
+      "foundation_city": "",
+      "match_score": 940.96,
+      "adjusted_score": 564.58,
+      "viability": {
+        "tier": "conditional",
+        "multiplier": 0.6,
+        "reason": "Application process unclear - contact to verify"
+      },
+      "enrichment": {
+        "accepts_unsolicited": null,
+        "application_type": "unknown",
+        "red_flags": [
+          "33 years of operation but no online presence sugge",
+          "No evidence of interest in healthcare quality/safe",
+          "small_grants",
+          "Administrative structure through bank suggests for",
+          "Foundation appears very traditional/formal in oper"
+        ],
+        "program_priorities": "Medical field organizations (broad), Pulmonary/Pulmonic conditions (specific focus noted), Schools and cultural organizations (per IRS activity codes)",
+        "geographic_focus": null,
+        "grant_range_stated": null,
+        "last_enriched": "2026-01-01 14:52:33.364042",
+        "enrichment_source": "https://www.guidestar.org/profile/95-4019288",
+        "enrichment_notes": "{\"POSITIVE: Foundation has explicit medical field focus\",\"POSITIVE: Located in San Francisco - California-based enables relationship building\",\"POSITIVE: Significantly larger than average foundation assets suggest capacity to fund\",\"POSITIVE: Patient safety could potentially fit within 'medical field' scope if pulmonary-focused\",\"CONCERN: Specific focus on pulmonic/pulmonary conditions may narrow fit unless PSMF has respiratory care alignment\",\"CONCERN: No documented interest in healthcare quality or patient safety specifically\",\"CONCERN: Very limited public information - difficulty assessing true priorities\",\"CONCERN: No published grant guidelines or application process\",\"CONCERN: Administrative structure through bank suggests older foundation with formal giving patterns\"}"
+      },
+      "website": "https://www.guidestar.org/profile/95-4019288",
+      "contact_name": "Not identified",
+      "contact_email": null,
+      "contact_phone": null,
+      "application_url": null,
+      "deadline": null,
+      "deadline_notes": "Available records indicate 'NONE LIMITED TO MEDICAL FIELD' - suggests no specific deadlines but funding restricted to medical field and pulmonary conditions."
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+[
+  {
+    "rank": 1,
+    "foundation_ein": "061600601",
+    "foundation_name": "THE ZOOM FOUNDATION",
+    "foundation_state": "CT",
+    "match_score": 100.0,
+    "adjusted_score": 70.0,
+    "match_probability": 0.0,
+    "same_state": false,
+    "fit_score": 10,
+    "effort": "Medium",
+    "status": "HIGH",
+    "quality_tier": "relaxed_recency",
+    "amount_min": 75000.0,
+    "amount_max": 225000.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 63196700.0,
+        "count": 1,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 49180528.571428575,
+        "min": 150000.0,
+        "max": 10000000,
+        "avg": 49180528.571428575
+      },
+      "geographic_focus": {
+        "top_state": "OH",
+        "top_state_pct": 0.714,
+        "in_state_pct": 0.143,
+        "foundation_state": "CT"
+      },
+      "repeat_funding": {
+        "unique": 3,
+        "repeat": 1,
+        "rate": 0.333
+      },
+      "giving_style": {
+        "general_pct": 0.5,
+        "program_pct": 0.5
+      },
+      "recipient_profile": {
+        "budget_min": 3430998,
+        "budget_max": 7994998,
+        "budget_median": 5712998,
+        "primary_sector": "T",
+        "primary_sector_pct": 1.0
+      },
+      "funding_trend": {
+        "direction": "Declining",
+        "change_pct": -0.297,
+        "oldest_year": 2020,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "SOCIAL IMPACT FUND",
+        "amount": 150000.0,
+        "purpose": "TO FUNDCHARITABLEPROGRAMS",
+        "year": 2020
+      },
+      "contact": {
+        "website_url": "https://zoomfoundation.org",
+        "phone": "2039899044",
+        "email": null,
+        "app_contact_name": null,
+        "app_contact_phone": null,
+        "app_contact_email": null,
+        "deadlines": null,
+        "restrictions": null,
+        "how_to_apply": null
+      },
+      "officers": [
+        {
+          "name": "Stephen F Mandel Jr",
+          "title": "Trustee",
+          "compensation": 0.0
+        }
+      ],
+      "foundation_ein": "061600601",
+      "foundation_name": "THE ZOOM FOUNDATION",
+      "match_score": 100.0,
+      "match_rank": 2
+    },
+    "comparable_grant": {
+      "recipient": "SOCIAL IMPACT FUND",
+      "amount": 150000.0,
+      "purpose": "TO FUNDCHARITABLEPROGRAMS",
+      "year": 2020
+    },
+    "connections": [],
+    "viability": {
+      "tier": "conditional",
+      "multiplier": 0.7,
+      "reason": "No enrichment data - requires web research"
+    },
+    "enrichment": {
+      "accepts_unsolicited": null,
+      "application_type": null,
+      "red_flags": [],
+      "program_priorities": null,
+      "geographic_focus": null,
+      "last_enriched": null
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "https://zoomfoundation.org",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 2,
+    "foundation_ein": "132878224",
+    "foundation_name": "METLIFE FOUNDATION",
+    "foundation_state": "NY",
+    "match_score": 100.0,
+    "adjusted_score": 70.0,
+    "match_probability": 0.0,
+    "same_state": false,
+    "fit_score": 10,
+    "effort": "High",
+    "status": "MEDIUM",
+    "quality_tier": "relaxed_recency",
+    "amount_min": 18700922.0,
+    "amount_max": 56102766.0,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 37401844.0,
+        "count": 1,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 38066826.666666664,
+        "min": 37401844.0,
+        "max": 10000000,
+        "avg": 38066826.666666664
+      },
+      "geographic_focus": {
+        "top_state": "NY",
+        "top_state_pct": 1.0,
+        "in_state_pct": 1.0,
+        "foundation_state": "NY"
+      },
+      "repeat_funding": {
+        "unique": 1,
+        "repeat": 1,
+        "rate": 1.0
+      },
+      "giving_style": {
+        "general_pct": 0.5,
+        "program_pct": 0.5
+      },
+      "recipient_profile": {
+        "budget_min": 0,
+        "budget_max": 0,
+        "budget_median": 0,
+        "primary_sector": null,
+        "primary_sector_pct": 0.0
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": -0.038,
+        "oldest_year": 2020,
+        "newest_year": 2023
+      },
+      "comparable_grant": {
+        "recipient": "SEE DETAIL ON FOOTNOTE 3",
+        "amount": 37401844.0,
+        "purpose": "SEE DETAIL ON FOOTNOTE 3",
+        "year": 2023
+      },
+      "contact": {
+        "website_url": "https://www.metlife.com/sustainability",
+        "phone": "2125784133",
+        "email": null,
+        "app_contact_name": null,
+        "app_contact_phone": null,
+        "app_contact_email": null,
+        "deadlines": null,
+        "restrictions": null,
+        "how_to_apply": null
+      },
+      "officers": [
+        {
+          "name": "Michael Zarcone",
+          "title": "Director, Chair",
+          "compensation": 0.0
+        }
+      ],
+      "foundation_ein": "132878224",
+      "foundation_name": "METLIFE FOUNDATION",
+      "match_score": 100.0,
+      "match_rank": 3
+    },
+    "comparable_grant": {
+      "recipient": "SEE DETAIL ON FOOTNOTE 3",
+      "amount": 37401844.0,
+      "purpose": "SEE DETAIL ON FOOTNOTE 3",
+      "year": 2023
+    },
+    "connections": [],
+    "viability": {
+      "tier": "conditional",
+      "multiplier": 0.7,
+      "reason": "No enrichment data - requires web research"
+    },
+    "enrichment": {
+      "accepts_unsolicited": null,
+      "application_type": null,
+      "red_flags": [],
+      "program_priorities": null,
+      "geographic_focus": null,
+      "last_enriched": null
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "https://www.metlife.com/sustainability",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 3,
+    "foundation_ein": "133091620",
+    "foundation_name": "Bat Hanadiv Foundation No 3",
+    "foundation_state": "NY",
+    "match_score": 100.0,
+    "adjusted_score": 70.0,
+    "match_probability": 0.0,
+    "same_state": false,
+    "fit_score": 8,
+    "effort": "Medium",
+    "status": "HIGH",
+    "quality_tier": "relaxed_recency",
+    "amount_min": 45060085.0,
+    "amount_max": 1000000,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 45060085.0,
+        "count": 1,
+        "year": 2020
+      },
+      "typical_grant": {
+        "median": 45060085.0,
+        "min": 45060085.0,
+        "max": 10000000,
+        "avg": 45060085.0
+      },
+      "geographic_focus": {
+        "top_state": null,
+        "top_state_pct": 0.0,
+        "in_state_pct": 0.0,
+        "foundation_state": "NY"
+      },
+      "repeat_funding": {
+        "unique": 1,
+        "repeat": 0,
+        "rate": 0.0
+      },
+      "giving_style": {
+        "general_pct": 0.5,
+        "program_pct": 0.5
+      },
+      "recipient_profile": {
+        "budget_min": 0,
+        "budget_max": 0,
+        "budget_median": 0,
+        "primary_sector": null,
+        "primary_sector_pct": 0.0
+      },
+      "funding_trend": {
+        "direction": "Stable",
+        "change_pct": 0.0,
+        "oldest_year": 2020,
+        "newest_year": 2020
+      },
+      "comparable_grant": null,
+      "contact": {
+        "website_url": "https://philanthropy.org/resources-top-100-foundations-worldwide",
+        "phone": "2127323200",
+        "email": null,
+        "app_contact_name": "Yad Hanadiv CC",
+        "app_contact_phone": "7225665107",
+        "app_contact_email": null,
+        "deadlines": "Programme managers accept applications at will and when they are submitted for review/approval.",
+        "restrictions": "Conflicts of interest must be declared. Decisions on limitations are taken on a case by case basis,",
+        "how_to_apply": "Applications may be submitted in a variety of formats."
+      },
+      "officers": [
+        {
+          "name": "Yad Hanadiv A Rothschild Foundation",
+          "title": "Corporate Trustee",
+          "compensation": 695000.0
+        }
+      ],
+      "foundation_ein": "133091620",
+      "foundation_name": "Bat Hanadiv Foundation No 3",
+      "match_score": 100.0,
+      "match_rank": 4
+    },
+    "comparable_grant": null,
+    "connections": [],
+    "viability": {
+      "tier": "conditional",
+      "multiplier": 0.7,
+      "reason": "No enrichment data - requires web research"
+    },
+    "enrichment": {
+      "accepts_unsolicited": null,
+      "application_type": null,
+      "red_flags": [],
+      "program_priorities": null,
+      "geographic_focus": null,
+      "last_enriched": null
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "https://philanthropy.org/resources-top-100-foundations-worldwide",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 4,
+    "foundation_ein": "136099176",
+    "foundation_name": "The UPS Foundation Inc",
+    "foundation_state": "GA",
+    "match_score": 100.0,
+    "adjusted_score": 70.0,
+    "match_probability": 0.0,
+    "same_state": false,
+    "fit_score": 8,
+    "effort": "High",
+    "status": "MEDIUM",
+    "quality_tier": "relaxed_recency",
+    "amount_min": 36087684.0,
+    "amount_max": 1000000,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 36087684.0,
+        "count": 1,
+        "year": 2023
+      },
+      "typical_grant": {
+        "median": 45926186.0,
+        "min": 36087684.0,
+        "max": 10000000,
+        "avg": 45926186.0
+      },
+      "geographic_focus": {
+        "top_state": "GA",
+        "top_state_pct": 1.0,
+        "in_state_pct": 1.0,
+        "foundation_state": "GA"
+      },
+      "repeat_funding": {
+        "unique": 1,
+        "repeat": 1,
+        "rate": 1.0
+      },
+      "giving_style": {
+        "general_pct": 0.5,
+        "program_pct": 0.5
+      },
+      "recipient_profile": {
+        "budget_min": 0,
+        "budget_max": 0,
+        "budget_median": 0,
+        "primary_sector": null,
+        "primary_sector_pct": 0.0
+      },
+      "funding_trend": {
+        "direction": "Declining",
+        "change_pct": -0.322,
+        "oldest_year": 2020,
+        "newest_year": 2023
+      },
+      "comparable_grant": null,
+      "contact": {
+        "website_url": "https://about.ups.com/us/en/our-impact/report",
+        "phone": "4048286000",
+        "email": null,
+        "app_contact_name": null,
+        "app_contact_phone": null,
+        "app_contact_email": null,
+        "deadlines": null,
+        "restrictions": null,
+        "how_to_apply": null
+      },
+      "officers": [
+        {
+          "name": "Norman Brothers",
+          "title": "Trustee",
+          "compensation": 0.0
+        }
+      ],
+      "foundation_ein": "136099176",
+      "foundation_name": "The UPS Foundation Inc",
+      "match_score": 100.0,
+      "match_rank": 5
+    },
+    "comparable_grant": null,
+    "connections": [],
+    "viability": {
+      "tier": "conditional",
+      "multiplier": 0.7,
+      "reason": "No enrichment data - requires web research"
+    },
+    "enrichment": {
+      "accepts_unsolicited": null,
+      "application_type": null,
+      "red_flags": [],
+      "program_priorities": null,
+      "geographic_focus": null,
+      "last_enriched": null
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "https://about.ups.com/us/en/our-impact/report",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  },
+  {
+    "rank": 5,
+    "foundation_ein": "161448017",
+    "foundation_name": "M&T Charitable Foundation",
+    "foundation_state": "NY",
+    "match_score": 100.0,
+    "adjusted_score": 70.0,
+    "match_probability": 0.0,
+    "same_state": false,
+    "fit_score": 8,
+    "effort": "Medium",
+    "status": "HIGH",
+    "quality_tier": "relaxed_recency",
+    "amount_min": 29334815.0,
+    "amount_max": 1000000,
+    "funder_snapshot": {
+      "annual_giving": {
+        "total": 48037488.0,
+        "count": 1,
+        "year": 2024
+      },
+      "typical_grant": {
+        "median": 37930177.8,
+        "min": 29334815.0,
+        "max": 10000000,
+        "avg": 37930177.8
+      },
+      "geographic_focus": {
+        "top_state": "NY",
+        "top_state_pct": 1.0,
+        "in_state_pct": 1.0,
+        "foundation_state": "NY"
+      },
+      "repeat_funding": {
+        "unique": 2,
+        "repeat": 1,
+        "rate": 0.5
+      },
+      "giving_style": {
+        "general_pct": 0.5,
+        "program_pct": 0.5
+      },
+      "recipient_profile": {
+        "budget_min": 0,
+        "budget_max": 0,
+        "budget_median": 0,
+        "primary_sector": null,
+        "primary_sector_pct": 0.0
+      },
+      "funding_trend": {
+        "direction": "Growing",
+        "change_pct": 0.166,
+        "oldest_year": 2022,
+        "newest_year": 2024
+      },
+      "comparable_grant": null,
+      "contact": {
+        "website_url": "https://www.mtb.com",
+        "phone": "7168487303",
+        "email": null,
+        "app_contact_name": "Joe Cassidy",
+        "app_contact_phone": "7168483804",
+        "app_contact_email": null,
+        "deadlines": null,
+        "restrictions": "SEE WEBSITE LISTED ABOVE FOR RESTRICTIONS",
+        "how_to_apply": "https://www.mtb.com/about-us/getting-involved/giving-back/charitable-f oundation"
+      },
+      "officers": [
+        {
+          "name": "See Attachment",
+          "title": "0",
+          "compensation": 0.0
+        }
+      ],
+      "foundation_ein": "161448017",
+      "foundation_name": "M&T Charitable Foundation",
+      "match_score": 100.0,
+      "match_rank": 6
+    },
+    "comparable_grant": null,
+    "connections": [],
+    "viability": {
+      "tier": "conditional",
+      "multiplier": 0.7,
+      "reason": "No enrichment data - requires web research"
+    },
+    "enrichment": {
+      "accepts_unsolicited": null,
+      "application_type": null,
+      "red_flags": [],
+      "program_priorities": null,
+      "geographic_focus": null,
+      "last_enriched": null
+    },
+    "deadline": "Rolling",
+    "deadline_notes": "",
+    "portal_url": "https://www.mtb.com",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "application_requirements": [],
+    "why_this_fits": "",
+    "positioning_strategy": "",
+    "next_steps": []
+  }
+]

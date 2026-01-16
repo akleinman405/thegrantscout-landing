@@ -1,0 +1,3447 @@
+[
+  {
+    "annual_giving": {
+      "total": 225641539.0,
+      "count": 58994,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 300.0,
+      "min": 1.0,
+      "max": 5000000.0,
+      "avg": 4850.521687052412
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.111,
+      "in_state_pct": 0.098,
+      "foundation_state": "NC"
+    },
+    "repeat_funding": {
+      "unique": 64667,
+      "repeat": 36529,
+      "rate": 0.565
+    },
+    "giving_style": {
+      "general_pct": 0.803,
+      "program_pct": 0.197
+    },
+    "recipient_profile": {
+      "budget_min": 314055,
+      "budget_max": 6918774,
+      "budget_median": 1525380,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.146
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.264,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "HOMEAID AMERICA INC",
+      "amount": 125000.0,
+      "purpose": "PROGRAM/OPERATING SUPPORT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://WWW.BANKOFAMERICA.COM/FOUNDATION",
+      "phone": "9803869127",
+      "email": null,
+      "app_contact_name": "SEE FOUNDATION WEBPAGE AT WWWBANKOF",
+      "app_contact_phone": "8002189946",
+      "app_contact_email": "WWW.BANKOFAMERICA.COM/FOUNDATION",
+      "deadlines": "SEE ABOVE",
+      "restrictions": "THE ORGANIZATION WILL ONLY CONSIDER PROPOSALS ALIGNED WITH THE FOUNDATION'S COMMUNITY FUNDING PRIORITIES AND LOCATED IN STATES IN WHICH THE BANK OF AMERICA HAS A PRESENCE. SEE THE 'FREQUENTLY ASKED QUESTIONS' UNDER THE 'ABOUT US' SECTION OF THE WEBPAGE AT WWW.BANKOFAMERICA.COM/FOUNDATION",
+      "how_to_apply": "GRANT APPLICATIONS SHOULD BE SUBMITTED ONLINE THROUGH THE FOUNDATION'S WEBPAGE AT WWW.BANKOFAMERICA.COM/FOUNDATION. THE FOUNDATION HAS THE FOLLOWING DEADLINES FOR SUBMISSION FOR CERTAIN TYPES OF GRANTS: 1ST RFP - 1/1/2023 TO 2/17/2023, 2ND RFP - 5/22/2022 TO 6/23/2023, NEIGHBORHOOD BUILDERS PROGRAM - 5/1/2023 TO 5/31/2023, NEIGHBORHOOD CHAMPIONS PROGRAM - 4/3/2023 TO 4/30/2023, STUDENT LEADERS GRANTS - 10/17/2022 TO 7/31/2023 AND THE SUMMER YOUTH EMPLOYMENT PROGRAM (SYEP) 1/1/2023 TO 2/17/2023. PLEASE VISIT THE FOUNDATION'S WEBSITE AT WWW.BANKOFAMERICA.COM/FOUNDATION FOR ADDITIONAL INFORMATION RELATING TO THESE AND OTHER PROGRAMS."
+    },
+    "officers": [
+      {
+        "name": "Steve D Boland",
+        "title": "Chairman/Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "200721133",
+    "foundation_name": "THE BANK OF AMERICA CHARITABLE",
+    "match_score": 100.0,
+    "match_rank": 1
+  },
+  {
+    "annual_giving": {
+      "total": 419861396.0,
+      "count": 3,
+      "year": 2022
+    },
+    "typical_grant": {
+      "median": 101545174.5,
+      "min": 18000000.0,
+      "max": 10000000,
+      "avg": 101545174.5
+    },
+    "geographic_focus": {
+      "top_state": "NY",
+      "top_state_pct": 0.5,
+      "in_state_pct": 0.5,
+      "foundation_state": "NJ"
+    },
+    "repeat_funding": {
+      "unique": 3,
+      "repeat": 3,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 1135661152,
+      "budget_max": 1135661152,
+      "budget_median": 1135661152,
+      "primary_sector": "T",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 22.326,
+      "oldest_year": 2020,
+      "newest_year": 2022
+    },
+    "comparable_grant": {
+      "recipient": "CHDI Foundation Inc Attn Ken Slutsky Tax Exempt Inst Grp",
+      "amount": 245447724.0,
+      "purpose": "To further CHDI's direct charitable activities of promoting and assisting in medical and scientific research in the field of neurodegenerative diseases.",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": "https://www.nj.gov",
+      "phone": "9735972510",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "John L Berger",
+        "title": "Vice President/Asst Secy.",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "223769097",
+    "foundation_name": "NSN Foundation Inc",
+    "match_score": 100.0,
+    "match_rank": 2
+  },
+  {
+    "annual_giving": {
+      "total": 38232206.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 26868975.75,
+      "min": 40000.0,
+      "max": 10000000,
+      "avg": 26868975.75
+    },
+    "geographic_focus": {
+      "top_state": "WI",
+      "top_state_pct": 0.75,
+      "in_state_pct": 0.75,
+      "foundation_state": "WI"
+    },
+    "repeat_funding": {
+      "unique": 2,
+      "repeat": 1,
+      "rate": 0.5
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 43487488,
+      "budget_max": 43487488,
+      "budget_median": 43487488,
+      "primary_sector": "C",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.027,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": null,
+    "contact": {
+      "website_url": "http://www.usbank.com/en/AboutHome.cfm",
+      "phone": "6123030738",
+      "email": null,
+      "app_contact_name": "ONLINE APPLICATIONS",
+      "app_contact_phone": "6123037364",
+      "app_contact_email": null,
+      "deadlines": "SUBMISSION DEADLINES ROLL THROUGHOUT THE YEAR",
+      "restrictions": "AWARDS ARE LIMITED TO THE STATES OF AZ, AR, CA, CO, ID, IA, IL, IN, KS KY, MN, MO, MT, NE, NV, NC, ND, NM, OH, OR, SD, TN, UT, WA, WI, WY",
+      "how_to_apply": "SEE FOOTNOTES"
+    },
+    "officers": [
+      {
+        "name": "Revathi Dominski",
+        "title": "Chair & President",
+        "compensation": 754488.0
+      }
+    ],
+    "foundation_ein": "411359579",
+    "foundation_name": "US BANK FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 3
+  },
+  {
+    "annual_giving": {
+      "total": 50500000.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 28807142.85714286,
+      "min": 13550000.0,
+      "max": 10000000,
+      "avg": 28807142.85714286
+    },
+    "geographic_focus": {
+      "top_state": "WI",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "WI"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.836,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "BADER PHILANTHROPIES INC",
+      "amount": 50500000.0,
+      "purpose": "GENERAL",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://bader.org/who-we-are",
+      "phone": null,
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "David Bader",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "471295073",
+    "foundation_name": "ALFRED AND ISABEL BADER 2014 CHARITABLE TRUST",
+    "match_score": 100.0,
+    "match_rank": 4
+  },
+  {
+    "annual_giving": {
+      "total": 18398341.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 15348690.5,
+      "min": 610600.0,
+      "max": 10000000,
+      "avg": 15348690.5
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.8,
+      "in_state_pct": 0.8,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 4,
+      "repeat": 3,
+      "rate": 0.75
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 85703644,
+      "budget_max": 85703644,
+      "budget_median": 85703644,
+      "primary_sector": "T",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.286,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "See Statement 18",
+      "amount": 17787741.0,
+      "purpose": "Various",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://cisco.com/c/en/us/about/csr/impact/cisco-foun",
+      "phone": "4085253918",
+      "email": null,
+      "app_contact_name": "Statement 19",
+      "app_contact_phone": "4085273040",
+      "app_contact_email": null,
+      "deadlines": "Statement 19",
+      "restrictions": "See Statement 19 for details.",
+      "how_to_apply": "See Statement 19 for details."
+    },
+    "officers": [
+      {
+        "name": "John P Morgridge",
+        "title": "Trustee/Pres.",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "770443347",
+    "foundation_name": "Cisco Systems Foundation",
+    "match_score": 100.0,
+    "match_rank": 5
+  },
+  {
+    "annual_giving": {
+      "total": 202504945.0,
+      "count": 10334,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 550.0,
+      "min": 1.0,
+      "max": 9600000.0,
+      "avg": 27558.16829939873
+    },
+    "geographic_focus": {
+      "top_state": "NY",
+      "top_state_pct": 0.152,
+      "in_state_pct": 0.152,
+      "foundation_state": "NY"
+    },
+    "repeat_funding": {
+      "unique": 20479,
+      "repeat": 12330,
+      "rate": 0.602
+    },
+    "giving_style": {
+      "general_pct": 0.93,
+      "program_pct": 0.07
+    },
+    "recipient_profile": {
+      "budget_min": 598256,
+      "budget_max": 10935758,
+      "budget_median": 2906126,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.133
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.054,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "CHICANO FEDERATION OF SAN DIEGO COUNTY INC",
+      "amount": 272500.0,
+      "purpose": "IN SUPPORT OF NEIGHBORHOOD REVITALIZATION",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": "https://WWW.JPMORGANCHASE.COM/IMPACT",
+      "phone": "2122706000",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Timothy Berry",
+        "title": "Director And Chairman",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "237049738",
+    "foundation_name": "JPMORGAN CHASE FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 6
+  },
+  {
+    "annual_giving": {
+      "total": 72865681.0,
+      "count": 9500,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 2500.0,
+      "min": 3.0,
+      "max": 6000000.0,
+      "avg": 8190.387732275859
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.099,
+      "in_state_pct": 0.044,
+      "foundation_state": "MO"
+    },
+    "repeat_funding": {
+      "unique": 15797,
+      "repeat": 8335,
+      "rate": 0.528
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 444301,
+      "budget_max": 12355004,
+      "budget_median": 2296715,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.202
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.101,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "LARKIN STREET YOUTH SERVICES",
+      "amount": 30000.0,
+      "purpose": "Program Support",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://WWW.GUIDESTAR.ORG",
+      "phone": "3145125000",
+      "email": null,
+      "app_contact_name": "JO ANN KINDLE",
+      "app_contact_phone": "3145125000",
+      "app_contact_email": null,
+      "deadlines": "APPLICATIONS ACCEPTED ANY TIME; NOTICE OF APPROVAL, REJECTION, OR REQUEST FOR INFORMATION W/IN 3 WKS",
+      "restrictions": "PREFERENCE IS GIVEN TO CHARITABLE AND EDUCATIONAL ORGANIZATIONS",
+      "how_to_apply": "OUTLINE OF PURPOSE AND ACTIVITIES OF ORGANIZATION AND WHAT MONIES WOULD BE USED FOR."
+    },
+    "officers": [
+      {
+        "name": "Jo Ann Kindle",
+        "title": "Chairperson/Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "431262762",
+    "foundation_name": "Enterprise Holdings Foundation",
+    "match_score": 100.0,
+    "match_rank": 7
+  },
+  {
+    "annual_giving": {
+      "total": 735763273.0,
+      "count": 3718,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 100000.0,
+      "min": 36.0,
+      "max": 10000000,
+      "avg": 208194.51456128265
+    },
+    "geographic_focus": {
+      "top_state": "NY",
+      "top_state_pct": 0.271,
+      "in_state_pct": 0.271,
+      "foundation_state": "NY"
+    },
+    "repeat_funding": {
+      "unique": 7542,
+      "repeat": 3346,
+      "rate": 0.444
+    },
+    "giving_style": {
+      "general_pct": 0.234,
+      "program_pct": 0.766
+    },
+    "recipient_profile": {
+      "budget_min": 1082292,
+      "budget_max": 16066956,
+      "budget_median": 3889823,
+      "primary_sector": "A",
+      "primary_sector_pct": 0.202
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.033,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "TIDES CENTER",
+      "amount": 1500000.0,
+      "purpose": "CORE SUPPORT FOR THE MARIA FUND TO STRENGTHEN A POWERFUL AND ALIGNED ECOSYSTEM OF SOCIAL JUSTICE LEADERS, ORGANIZATIONS AND INITIATIVES THAT ARE BUILDING COMMUNITY POWER IN PUERTO RICO",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://WWW.FORDFOUNDATION.ORG",
+      "phone": "2125735000",
+      "email": null,
+      "app_contact_name": "THE FORD FOUNDATION",
+      "app_contact_phone": "2125735000",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "ACTIVITIES SUPPORTED BY FOUNDATION GRANTS MUST BE CHARITABLE, EDUCATIONAL OR SCIENTIFIC UNDER THE PROVISIONS OF THE U.S. INTERNAL REVENUE CODE AND THE TREASURY REGULATIONS.",
+      "how_to_apply": "PROPOSALS SHOULD SET FORTH A DESCRIPTION OF THE PROPOSED WORK; HOW THE WORK WILL BE CONDUCTED; THE NAMES AND CURRICULUM VITAE OF THOSE ENGAGED IN THE PROJECT; A DETAILED BUDGET, THE PROJECT'S PRESENT MEANS OF SUPPORT, THE PROJECT'S STATUS OF APPLICATIONS TO OTHER FUNDING SOURCES, AND THE PROJECT'S LEGAL AND TAX STATUS."
+    },
+    "officers": [
+      {
+        "name": "Eric W Doppstadt",
+        "title": "Vp & Chief Investment Officer",
+        "compensation": 4543917.0
+      }
+    ],
+    "foundation_ein": "131684331",
+    "foundation_name": "THE FORD FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 8
+  },
+  {
+    "annual_giving": {
+      "total": 40000.0,
+      "count": 3,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 15000.0,
+      "min": 10000.0,
+      "max": 515000.0,
+      "avg": 131875.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.75,
+      "in_state_pct": 0.75,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 4,
+      "repeat": 4,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 1328206,
+      "budget_max": 3769140,
+      "budget_median": 2473409,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.667
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.922,
+      "oldest_year": 2019,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "PACIFICA RESOURCE CENTER",
+      "amount": 20000.0,
+      "purpose": "TO SUPPORT CHARITABLE PROGRAMS.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://WWW.GOODKARMAFOUNDATION.ORG",
+      "phone": "4152971914",
+      "email": null,
+      "app_contact_name": "VASUDEV NARAYANAN",
+      "app_contact_phone": "4154567416",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "FUNDS ARE TO BE USED FOR EDUCATIONAL AND CHARITABLE PURPOSES IN THE STATE OF KERALA IN INDIA.",
+      "how_to_apply": "NO FORMAL APPLICATION HAS BEEN DEVELOPED."
+    },
+    "officers": [
+      {
+        "name": "Vasudev Narayanan",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "800316636",
+    "foundation_name": "GOOD KARMA FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 9
+  },
+  {
+    "annual_giving": {
+      "total": 20855.0,
+      "count": 3,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 7250.0,
+      "min": 6355.0,
+      "max": 25000.0,
+      "avg": 11463.75
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 3,
+      "repeat": 1,
+      "rate": 0.333
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 612694,
+      "budget_max": 1028808,
+      "budget_median": 762974,
+      "primary_sector": "C",
+      "primary_sector_pct": 0.5
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.166,
+      "oldest_year": 2022,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "WELLS BRING HOPE",
+      "amount": 6355.0,
+      "purpose": "TO SUPPORT SOLAR POWERED WELLS TO BRING WATER TO MUCH NEEDED AREAS TO INCREASE THE CHANCES OF EDUCATING WOMEN AND CHILDREN",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3107662858",
+      "email": null,
+      "app_contact_name": "JONATHAN PORT",
+      "app_contact_phone": "3107662858",
+      "app_contact_email": "JONATHAN.PORT@JONATHANPORTFOUNDATION.ORG",
+      "deadlines": "YEAR ROUND.",
+      "restrictions": "PROGRAM MUST ALIGN WITH THE FOUNDATION'S CHARITABLE MISSION.",
+      "how_to_apply": "SUMMARY OF PROJECT, WITH BUDGET, ACTION PLAN, TEAM AND TIMELINE."
+    },
+    "officers": [
+      {
+        "name": "Jonathan Port",
+        "title": "Chairman Of The Board",
+        "compensation": 51000.0
+      }
+    ],
+    "foundation_ein": "873698354",
+    "foundation_name": "JONATHAN PORT FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 10
+  },
+  {
+    "annual_giving": {
+      "total": 351700.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 100000.0,
+      "min": 7500.0,
+      "max": 251700.0,
+      "avg": 111325.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.8,
+      "in_state_pct": 0.8,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 6,
+      "repeat": 2,
+      "rate": 0.333
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 1559057,
+      "budget_max": 68029683,
+      "budget_median": 16230366,
+      "primary_sector": "O",
+      "primary_sector_pct": 0.25
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.883,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "FIRST PLACE FOR YOUTH",
+      "amount": 100000.0,
+      "purpose": "TO SUPPORT THE ART + PRACTICE SCHOLARS PROGRAM AS DESCRIBED IN FIRST PLACE FOR YOUTH'S PROPOSAL",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://WWW.ARTANDPRACTICE.ORG",
+      "phone": "3233376887",
+      "email": null,
+      "app_contact_name": "ALLAN DICASTRO",
+      "app_contact_phone": "3236303907",
+      "app_contact_email": "ALLAN@ARTANDPRACTICE.ORG",
+      "deadlines": "PLEASE CONTACT ORGANIZATION FOR MORE DETAILS.",
+      "restrictions": "PLEASE CONTACT ORGANIZATION FOR MORE DETAILS.",
+      "how_to_apply": "PLEASE CONTACT ORGANIZATION FOR MORE DETAILS."
+    },
+    "officers": [
+      {
+        "name": "Mark Bradford",
+        "title": "President Of The Board Of Directors",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "461471404",
+    "foundation_name": "ART & PRACTICE",
+    "match_score": 100.0,
+    "match_rank": 11
+  },
+  {
+    "annual_giving": {
+      "total": 21000.0,
+      "count": 6,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 1000.0,
+      "min": 250.0,
+      "max": 17000.0,
+      "avg": 2601.3888888888887
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.972,
+      "in_state_pct": 0.972,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 12,
+      "repeat": 8,
+      "rate": 0.667
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 321150,
+      "budget_max": 13108228,
+      "budget_median": 1938746,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.75
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 1.1,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "LIFE SERVICES ALTERNATIVES",
+      "amount": 17000.0,
+      "purpose": "COMMUNITY LIVING PROGRAMS FOR ADULTS WITH DEVELOPMENTAL DISABILITIES.",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8313459016",
+      "email": null,
+      "app_contact_name": "ROSS CONDIT",
+      "app_contact_phone": "8314761011",
+      "app_contact_email": null,
+      "deadlines": "90 DAYS PRIOR TO NEEDS",
+      "restrictions": "HANDICAPPED CHILDREN & ADULTS NEEDS",
+      "how_to_apply": "LETTER OF REQUEST; IRS QUALIFICATION LETTER; PURPOSE"
+    },
+    "officers": [
+      {
+        "name": "Ross Condit",
+        "title": "Officer",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "770549288",
+    "foundation_name": "THE ALLISON LEE CONDIT FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 12
+  },
+  {
+    "annual_giving": {
+      "total": 28300.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 20500.0,
+      "min": 1000.0,
+      "max": 29000.0,
+      "avg": 16883.333333333332
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.833,
+      "in_state_pct": 0.167,
+      "foundation_state": "WA"
+    },
+    "repeat_funding": {
+      "unique": 3,
+      "repeat": 1,
+      "rate": 0.333
+    },
+    "giving_style": {
+      "general_pct": 0.167,
+      "program_pct": 0.833
+    },
+    "recipient_profile": {
+      "budget_min": 552222,
+      "budget_max": 995850,
+      "budget_median": 774036,
+      "primary_sector": "Z",
+      "primary_sector_pct": 0.5
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.068,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SISKIYOU FAMILY YMCA",
+      "amount": 24500.0,
+      "purpose": "YOUNG MUSICIANS PROGRAM",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "5419730622",
+      "email": null,
+      "app_contact_name": "PAULA K MORGAN",
+      "app_contact_phone": "5419730622",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "GRANTS TO QUALIFIED ORGANIZATIONS AND INDIVIDUALS FOR EDUCATIONAL PURPOSES THAT ARE PRIMARILY LOCATED AND/OR RESIDENTS OF SISKIYOU COUNTY, CALIFORNIA",
+      "how_to_apply": "COMPLETE DESCRIPTION IN WRITING OF NATURE AND AMOUNT OF GRANT REQUEST, THE NATURE OF THE NEED, WHETHER OTHER SOURCES OF FUNDS MAY BE AVAILABLE, IDENTIFYING/CONTACT INFORMATION, AND TAX IDENTIFICATION NUMBER"
+    },
+    "officers": [
+      {
+        "name": "Paula K Morgan",
+        "title": "Ceo & Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "680395555",
+    "foundation_name": "THE MORGAN SISKIYOU FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 13
+  },
+  {
+    "annual_giving": {
+      "total": 29000.0,
+      "count": 5,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 10000.0,
+      "min": 1000.0,
+      "max": 25000.0,
+      "avg": 10642.857142857143
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 6,
+      "repeat": 2,
+      "rate": 0.333
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 3028450,
+      "budget_max": 23262030,
+      "budget_median": 6053498,
+      "primary_sector": "Z",
+      "primary_sector_pct": 0.333
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 1.9,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "SELF-HELP FOR THE ELDERLY",
+      "amount": 10000.0,
+      "purpose": "MAINTAINING SERVICES TO SENIORS",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "4089771117",
+      "email": null,
+      "app_contact_name": "MANDY AU",
+      "app_contact_phone": "4089771117",
+      "app_contact_email": null,
+      "deadlines": "SEE ATTACHED",
+      "restrictions": "SEE ATTACHED",
+      "how_to_apply": "SEE ATTACHED"
+    },
+    "officers": [
+      {
+        "name": "Sik-Kee Au",
+        "title": "Ceo",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "770210442",
+    "foundation_name": "THE SIK-KEE AU FAMILY FOUNDATION",
+    "match_score": 100.0,
+    "match_rank": 14
+  },
+  {
+    "annual_giving": {
+      "total": 115900.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 121700.0,
+      "min": 97000.0,
+      "max": 145000.0,
+      "avg": 121350.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 0.0,
+      "foundation_state": "HI"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.201,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "Massen Greene Foundation",
+      "amount": 115900.0,
+      "purpose": "GENERAL CHARITABLE PURPOSES",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://sogoreate-landtrust.org/land-sites",
+      "phone": "8085258119",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "First Hawaiian Bank",
+        "title": "Trustee",
+        "compensation": 45216.0
+      }
+    ],
+    "foundation_ein": "262856534",
+    "foundation_name": "MASSEN-GREENE CHARITABLE TRUST",
+    "match_score": 100.0,
+    "match_rank": 15
+  },
+  {
+    "annual_giving": {
+      "total": 3762144.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 4118940.0,
+      "min": 3762144.0,
+      "max": 4740661.0,
+      "avg": 4207248.333333333
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.667,
+      "in_state_pct": 0.333,
+      "foundation_state": "UT"
+    },
+    "repeat_funding": {
+      "unique": 2,
+      "repeat": 1,
+      "rate": 0.5
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 0,
+      "budget_max": 0,
+      "budget_median": 0,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.087,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "The Nora Eccles Treadwell Foundation",
+      "amount": 3762144.0,
+      "purpose": "primarily in support of medical research and organizations performing medical research",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8015320934",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Spencer Eccles",
+        "title": "Trustee",
+        "compensation": 30000.0
+      }
+    ],
+    "foundation_ein": "942566167",
+    "foundation_name": "Nora Eccles Treadwell Charitable Trust",
+    "match_score": 100.0,
+    "match_rank": 16
+  },
+  {
+    "annual_giving": {
+      "total": 85000.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 44500.0,
+      "min": 8500.0,
+      "max": 112500.0,
+      "avg": 54250.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 0.0,
+      "foundation_state": "HI"
+    },
+    "repeat_funding": {
+      "unique": 2,
+      "repeat": 2,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 98508,
+      "budget_max": 98508,
+      "budget_median": 98508,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.241,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "Massen Greene Foundation",
+      "amount": 76500.0,
+      "purpose": "GENERAL CHARITABLE PURPOSES",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://platform.grantexec.com/foundations/262856544-massen-greene-charitable-fund",
+      "phone": "8085258119",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "First Hawaiian Bank",
+        "title": "Trustee",
+        "compensation": 38428.0
+      }
+    ],
+    "foundation_ein": "262856544",
+    "foundation_name": "MASSEN-GREENE CHARITABLE FUND",
+    "match_score": 99.9,
+    "match_rank": 17
+  },
+  {
+    "annual_giving": {
+      "total": 27350.0,
+      "count": 1,
+      "year": 2019
+    },
+    "typical_grant": {
+      "median": 27350.0,
+      "min": 27350.0,
+      "max": 27350.0,
+      "avg": 27350.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 0,
+      "rate": 0.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 43571,
+      "budget_max": 43571,
+      "budget_median": 43571,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.0,
+      "oldest_year": 2019,
+      "newest_year": 2019
+    },
+    "comparable_grant": {
+      "recipient": "ROTARY CLUB OF PETALUMA",
+      "amount": 27350.0,
+      "purpose": "PROVIDE SUPPLIES TO SCHOOLS",
+      "year": 2019
+    },
+    "contact": {
+      "website_url": "HTTP://WWW.PETALUMAROTARY.ORG/FOUNDATION",
+      "phone": "7075670797",
+      "email": null,
+      "app_contact_name": "RICHARD MOSSI",
+      "app_contact_phone": "7072830520",
+      "app_contact_email": null,
+      "deadlines": "FOR THE FISCAL YEAR OF THE TAX RETURN BEING FILED, APPLICATIONS WERE DUE MAY 24, 2020",
+      "restrictions": "THE ROTARY CLUB OF PETALUMA FOUNDATION AWARDS GRANTS ONLY TO ORGANIZATIONS WITHIN THE PETALUMA SHCOOL DISTRICT ATTENDANCE AREA. APPLICATIONS FROM NON-PROFIT ORGANIZATIONS IN THIS AREA, OTHER THAN SCHOOLS, ARE ALSO ELIGIBLE.",
+      "how_to_apply": "FILL OUT AND SUBMIT THE ONLINE APPLICATION FORM AT WWW.PETALUMAROTARY.ORG. RESPOND WITH ALL REQUESTED INFORMATION, INCLUDING AN ITEMIZED BUDGET, AND ATTACH SUPPORTING INFORMATION AS NECESSARY. IN THE PROJECT SUMMARY AREA BE SURE TO ANSWER THE FOLLING QUESTIONS: A) WHAT WILL STUDENTS/CITIZENS EXPERIENCE AND WHAT DO YOU HOPE WILL BE THE OUTCOME AS A RESULT OF THE EXPERIENCE? B) HOW WILL THIS PROJECT IMPACT STUDENT SUCCESS OR SERVE A CURRENT NEED IN THE COMMUNITY? C) WHAT SEGMENT OF THE PETALLUMA AREA POPULATION WILL THIS GRANT SERVE (E.G. GRADE LEVEL/POPULATION, TOTAL NUMBER OF STUDENTS/INDIVIDUALD SERVED)? D)IF YOU EVER APPLIED FOR OR RECEIVED A ROTARY FOUNDATION GRANT IN THE PAST, PLEASE LIST THE GRANT AND YEAR OF APPLICATION/AWARD. E)IF THE TOTAL GRANT CANNOT BE FULLY FUNDED, WHAT IS THE MINIMUM AMOUNT OF ANY SUBMISSION DEADLINES."
+    },
+    "officers": [
+      {
+        "name": "Tawny Tesconi",
+        "title": "Co Treasurer",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "942911210",
+    "foundation_name": "ROTARY CLUB OF PETALUMA FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 18
+  },
+  {
+    "annual_giving": {
+      "total": 9000.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 8000.0,
+      "min": 2000.0,
+      "max": 20000.0,
+      "avg": 8785.714285714286
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 6,
+      "repeat": 4,
+      "rate": 0.667
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 4379473,
+      "budget_max": 8516030,
+      "budget_median": 6447752,
+      "primary_sector": "P",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.69,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CALLED TO SUPPORT MISSIONS",
+      "amount": 6000.0,
+      "purpose": "MISSIONARY",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://www.grantable.co/search/funders/profile/peony-foundation-inc-us-foundation-463559307",
+      "phone": "3237333800",
+      "email": null,
+      "app_contact_name": "YOUNG JUN KIM",
+      "app_contact_phone": "3237333800",
+      "app_contact_email": null,
+      "deadlines": "DECEMBER 31",
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Karen Choi",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "463559307",
+    "foundation_name": "PEONY FOUNDATION INC",
+    "match_score": 99.9,
+    "match_rank": 19
+  },
+  {
+    "annual_giving": {
+      "total": 48500.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 39500.0,
+      "min": 33000.0,
+      "max": 50000.0,
+      "avg": 40716.666666666664
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 3,
+      "budget_max": 3,
+      "budget_median": 3,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.128,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "VISTA CENTER",
+      "amount": 48500.0,
+      "purpose": "TO PROVIDE FUNDS TO SUPPORT THE CONTINUED WORK OF THE VISTA CENTER OF EMPOWERING INDIVIDUALS WHO ARE BLIND OR VISUALLY IMPAIRED TO EMBRACE LIFE TO THE FULLEST.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "6503360652",
+      "email": null,
+      "app_contact_name": "THE TAE FOUNDATION",
+      "app_contact_phone": "6503660652",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "THE TAE FOUNDATION CHARTER CALLS FOR SUPPORTING THE EDUCATION OF YOUTH, PRIMARILY IN THE LOCAL REGION. THE FOCUS IS ON SUPPORT OF PUBLIC AND PRIVATE SCHOOLS, GRADES 7-12 THAT HAVE NEED AND DEMONSTRATE EFFICIENCY IN USE OF FUNDS TO MEET GOALS. THE SECONDARY GOAL OF THE TAE FOUNDATION IS TO ASSIST THE VISUALLY IMPAIRED.",
+      "how_to_apply": "LETTER OF INTRODUCTION AND OR BROCHURE WITH CONTACT INFORMATION."
+    },
+    "officers": [
+      {
+        "name": "Maria Peuse",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "943272444",
+    "foundation_name": "THE TAE FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 20
+  },
+  {
+    "annual_giving": {
+      "total": 93232.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 59850.0,
+      "min": 48975.0,
+      "max": 93232.0,
+      "avg": 63851.4
+    },
+    "geographic_focus": {
+      "top_state": "PA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "PA"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 50710,
+      "budget_max": 50710,
+      "budget_median": 50710,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.517,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CHARITIES",
+      "amount": 93232.0,
+      "purpose": "GENERAL SUPPORT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://www.grantable.co/search/funders/profile/freedom-forge-corp-foundation-kish-bank-us-foundation-346516721",
+      "phone": "7172424613",
+      "email": null,
+      "app_contact_name": "FREEDOM FORGE CORP FOUNDATION",
+      "app_contact_phone": "7172424613",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "IN WRITTEN FORM COMPLETE WITH APPROPRIATE SUPPORTING DOCUMEN"
+    },
+    "officers": [
+      {
+        "name": "Kish Bank",
+        "title": "Trustee",
+        "compensation": 7041.0
+      }
+    ],
+    "foundation_ein": "346516721",
+    "foundation_name": "FREEDOM FORGE CORP FOUNDATION KISH BANK",
+    "match_score": 99.9,
+    "match_rank": 21
+  },
+  {
+    "annual_giving": {
+      "total": 45624.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 42952.0,
+      "min": 41061.0,
+      "max": 45624.0,
+      "avg": 43212.333333333336
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 1798102,
+      "budget_max": 1798102,
+      "budget_median": 1798102,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.111,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "KOREAN AMERICAN FEDERATION OF LA",
+      "amount": 45624.0,
+      "purpose": "WELFARE AND BENEFIT OF SOUTHERN CAS KOREAN COMMUN",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": null,
+      "email": null,
+      "app_contact_name": "C JAY WON",
+      "app_contact_phone": "2132828254",
+      "app_contact_email": "KAUFLA.INFO@GMAIL.COM",
+      "deadlines": "OPEN",
+      "restrictions": "CALL OR EMAIL FOR INFORMATION",
+      "how_to_apply": "CALL OR EMAIL FOR INFORMATION"
+    },
+    "officers": [
+      {
+        "name": "C Jay Won",
+        "title": "President",
+        "compensation": 60975.0
+      }
+    ],
+    "foundation_ein": "953663674",
+    "foundation_name": "KOREAN AMERICAN UNITED FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 22
+  },
+  {
+    "annual_giving": {
+      "total": 5000.0,
+      "count": 1,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 10000.0,
+      "min": 560.0,
+      "max": 12500.0,
+      "avg": 7612.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 1,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 126506,
+      "budget_max": 126506,
+      "budget_median": 126506,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.6,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "SAN JOAQUIN DELTA COLLEGE",
+      "amount": 5000.0,
+      "purpose": "GENERAL SUPPORT",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "2096101600",
+      "email": null,
+      "app_contact_name": "HURLEY MEMORIAL COLLEGE SCHOLARHIP",
+      "app_contact_phone": "2096101600",
+      "app_contact_email": null,
+      "deadlines": "3/18/22",
+      "restrictions": "MUST BE A HIGH SCHOOL SENIOR IN THE STOCKTON OR CALAVERAS HIGH SCHOOL ATTENDANCE AREA.",
+      "how_to_apply": "HURLEY MEMORIAL SCHOLARSHIP APPLICATION"
+    },
+    "officers": [
+      {
+        "name": "David E Hurley",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "816571909",
+    "foundation_name": "HURLEY MEMORIAL COLLEGE SCHOLARSHIP",
+    "match_score": 99.9,
+    "match_rank": 23
+  },
+  {
+    "annual_giving": {
+      "total": 273500.0,
+      "count": 6,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 15000.0,
+      "min": 500.0,
+      "max": 200000.0,
+      "avg": 40928.57142857143
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 0.0,
+      "foundation_state": "NV"
+    },
+    "repeat_funding": {
+      "unique": 13,
+      "repeat": 9,
+      "rate": 0.692
+    },
+    "giving_style": {
+      "general_pct": 0.943,
+      "program_pct": 0.057
+    },
+    "recipient_profile": {
+      "budget_min": 3245713,
+      "budget_max": 553015973,
+      "budget_median": 72815518,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.4
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.524,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "GUIDE DOGS FOR THE BLIND INC",
+      "amount": 21000.0,
+      "purpose": "GENERAL OPERATING",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8887304933",
+      "email": null,
+      "app_contact_name": "MICHAEL BLACKBURG WELLS FARGO BANK",
+      "app_contact_phone": "8887304933",
+      "app_contact_email": null,
+      "deadlines": "AUGUST OF EACH YEAR",
+      "restrictions": "RESTRICTED BY TRUST INSTRUMENT TO THOSE CHARITIES IN SAN FRANCISCO BAY AREA TO WHOM MR MANINI CONTRIBUTED IN HIS LIFETIME",
+      "how_to_apply": "COMPLETE DETAILS OF PROGRAMS, NEEDS, GOALS, METHODS, BUDGET, ECT NAMES AND ADDRESSES OF PERSONS TO CONTACT"
+    },
+    "officers": [
+      {
+        "name": "Wells Fargo Bank N A",
+        "title": "Trustee",
+        "compensation": 71268.0
+      }
+    ],
+    "foundation_ein": "946073636",
+    "foundation_name": "MARINI FAMILY TRUST",
+    "match_score": 99.9,
+    "match_rank": 24
+  },
+  {
+    "annual_giving": {
+      "total": 25711713.0,
+      "count": 9499,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 100.0,
+      "min": 1.0,
+      "max": 2090000.0,
+      "avg": 2290.011711506555
+    },
+    "geographic_focus": {
+      "top_state": "NY",
+      "top_state_pct": 0.207,
+      "in_state_pct": 0.207,
+      "foundation_state": "NY"
+    },
+    "repeat_funding": {
+      "unique": 4820,
+      "repeat": 3449,
+      "rate": 0.716
+    },
+    "giving_style": {
+      "general_pct": 0.996,
+      "program_pct": 0.004
+    },
+    "recipient_profile": {
+      "budget_min": 645291,
+      "budget_max": 20318429,
+      "budget_median": 3661636,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.16
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.096,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CHALLENGED ATHLETES INC",
+      "amount": 13000.0,
+      "purpose": "GENERAL SUPPORT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://accessphilanthropy.com/funder/american-express-foundation",
+      "phone": "8595762845",
+      "email": null,
+      "app_contact_name": "AMERICAN EXPRESS PHILANTHROPY",
+      "app_contact_phone": "8595762845",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "- NAME AND ADDRESS OF ORGANIZATION - CONTACT PERSON, TITLE, PHONE NUMBER - GEOGRAPHIC AREA SERVED BY ORGANIZATION - HISTORY OF PREVIOUS SUPPORT FROM THE AMERICAN EXPRESS PHILANTHROPIC PROGRAM, FOUNDATION OR AN AMERICAN EXPRESS SUBSIDIARY - AMOUNT OF FUNDS REQUESTED AND DETAILED PROJECT BUDGET - DESCRIPTION OF PROJECT, INCLUDING INFO ON TARGET GROUPS TO BE SERVED, NEEDS ADDRESSED, PROGRAM OBJECTIVES, ACTIVITIES TO BE UNDERTAKEN, TIMETABLE - DETAILED PROJECT BUDGET - PROOF OF NONPROFIT STATUS, 501(C)(3) TAX-EXEMPT NOTIFICATION - BOARD OF DIRECTORS - LATEST ANNUAL REPORT (IF NOT AVAILABLE, DESCRIPTION OF ORGANIZATION'S OVERALL MISSION AND LATEST ACCOMPLISHMENTS) - FUNDING SOURCES"
+    },
+    "officers": [
+      {
+        "name": "Laureen Seeger",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "136123529",
+    "foundation_name": "AMERICAN EXPRESS FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 25
+  },
+  {
+    "annual_giving": {
+      "total": 147500.0,
+      "count": 5,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 13750.0,
+      "min": 1000.0,
+      "max": 89000.0,
+      "avg": 24695.5
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.875,
+      "in_state_pct": 0.875,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 15,
+      "repeat": 5,
+      "rate": 0.333
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 559657,
+      "budget_max": 9975461,
+      "budget_median": 1882696,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.333
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.229,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "JOVENES INC",
+      "amount": 75000.0,
+      "purpose": "GRANT - GENERAL SUPPORT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3107399299",
+      "email": null,
+      "app_contact_name": "CANDIS DUKE-DOERKEN CARE OF PETER A",
+      "app_contact_phone": "3107399299",
+      "app_contact_email": "PCDOERKENFOUNDATION@GMAIL.COM",
+      "deadlines": "PROPOSALS ARE REVIEWED QUARTERLY",
+      "restrictions": "PRIMARILY SUPPORT CHARITABLE ORGANIZATIONS IN THE GREATER LOS ANGELES AREA THAT FOCUS ON WOMEN AND CHILDREN.",
+      "how_to_apply": "CHARITABLE ORGANIZATIONS SUBMIT A LETTER OF INQUIRY"
+    },
+    "officers": [
+      {
+        "name": "Peter W Doerken",
+        "title": "Chairman Of The Board And Treasurer",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "954797873",
+    "foundation_name": "PETER AND CANDIS DOERKEN FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 26
+  },
+  {
+    "annual_giving": {
+      "total": 29000.0,
+      "count": 2,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 5000.0,
+      "min": 1500.0,
+      "max": 24500.0,
+      "avg": 8033.333333333333
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 8,
+      "repeat": 7,
+      "rate": 0.875
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 111810,
+      "budget_max": 6565425,
+      "budget_median": 253730,
+      "primary_sector": "X",
+      "primary_sector_pct": 0.25
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.159,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "PETALUMA PEOPLE SERVICES CENTER",
+      "amount": 24000.0,
+      "purpose": "INDIRECT ASSISTANCE",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "7077631911",
+      "email": null,
+      "app_contact_name": "WARREN THOM KNUDSON",
+      "app_contact_phone": "7077631911",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "FUND SHALL BE USED IN RELIEVING THE NECESSITIES OF THE UNFORTUNATE AND DESERVING POOR OF THE CITY OF PETALUMA.",
+      "how_to_apply": "LETTER REQUEST"
+    },
+    "officers": [
+      {
+        "name": "Warren Thom Knudson",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "946079537",
+    "foundation_name": "HARRISON MECHAM RELIEF FUND OF PETALUMA",
+    "match_score": 99.9,
+    "match_rank": 27
+  },
+  {
+    "annual_giving": {
+      "total": 63024.0,
+      "count": 11,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 3000.0,
+      "min": 2000.0,
+      "max": 25965.0,
+      "avg": 6288.163265306122
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 25,
+      "repeat": 14,
+      "rate": 0.56
+    },
+    "giving_style": {
+      "general_pct": 0.816,
+      "program_pct": 0.184
+    },
+    "recipient_profile": {
+      "budget_min": 576703,
+      "budget_max": 4455657,
+      "budget_median": 1592352,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.533
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.04,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CHILD GUIDANCE CENTER",
+      "amount": 10000.0,
+      "purpose": "TO PROVIDE GENERAL SUPPORT.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "9497531514",
+      "email": null,
+      "app_contact_name": "MILDRED MARIAN KIGER FOUNDATION",
+      "app_contact_phone": "9497531535",
+      "app_contact_email": null,
+      "deadlines": "THERE ARE NO DEADLINES.",
+      "restrictions": "THE FOUNDATION'S TRUSTEE'S HAVE BEEN DIRECTED TO PROVIDE SUPPORT TO QUALIFIED CHARITABLE ORGANIZATIONS INVOLVED IN CAUSES PREDOMINANTLY ON BEHALF OF CHILDREN. AREAS OF INTEREST TO INCLUDE, BUT NOT LIMITED TO: MEDICARE CARE, SOCIAL PROGRAMS, EDUCATIONAL PROGRAMS AND FINANCIAL SUPPORT OF FAMILIES WITH CHILDREN IN NEED.TO MAKE A DIFFERENCE AT THE LOCAL LEVEL, PREFERENCE WILL BE GIVEN TO CHARITIES IN ORANGE AND LOS ANGELES COUNTIES BUT THE TRUSTESS ARE NOT PRECLUDED FROM MAKING AWARDS TO NATIONAL AND INTERNATIONAL ORGANIZATIONS.",
+      "how_to_apply": "A LETTER ON THE ORGANIZATION'S LETTERHEAD. INFORMATION SHOULD INCLUDE A FINANCIAL STATEMENT AND FEDERAL TAX ID#."
+    },
+    "officers": [
+      {
+        "name": "Elvira Evanoff",
+        "title": "Trustee",
+        "compensation": 2000.0
+      }
+    ],
+    "foundation_ein": "205578380",
+    "foundation_name": "MILDRED & MARIAN KIGER FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 28
+  },
+  {
+    "annual_giving": {
+      "total": 405000.0,
+      "count": 17,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 15000.0,
+      "min": 2500.0,
+      "max": 60000.0,
+      "avg": 20181.255102040817
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.939,
+      "in_state_pct": 0.939,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 20,
+      "repeat": 17,
+      "rate": 0.85
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 3000812,
+      "budget_max": 58279835,
+      "budget_median": 6594348,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.2
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.191,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CANINE COMPANIONS FOR INDEPENDENCE",
+      "amount": 15000.0,
+      "purpose": "GENERAL",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3236342400",
+      "email": null,
+      "app_contact_name": "SUSAN J OLLWEILER EXEC DIR CARL W J",
+      "app_contact_phone": "3236342400",
+      "app_contact_email": null,
+      "deadlines": "AUGUST 1ST OF EACH YEAR",
+      "restrictions": "THE FOUNDATION CONCENTRATES ITS SUPPORT IN THE AREAS OF EDUCATION, HEALTH CARE AND AIDING INDIVIDUALS WITH DEVELOPMENTAL NEEDS. THE FOUNDATION DIRECTS THE MAJORITY OF ITS SUPPORT TO ORGANIZATIONS IN SOUTHERN CALIFORNIA.",
+      "how_to_apply": "APPLICATIONS SHOULD BE IN WRITING AND MUST INCLDE A DESCRIPTION OF THE CHARITABLE PURPOSE. ADDITIONALLY, PLEASE INCLUDE THE MOST RECENT FORM 990/ 990PF, BUDGET, 501(C)(3) LETTER AND LIST OF MAJOR CONTRIBUTORS."
+    },
+    "officers": [
+      {
+        "name": "Wallace D Franson",
+        "title": "Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "954438839",
+    "foundation_name": "CARL W JOHNSON FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 29
+  },
+  {
+    "annual_giving": {
+      "total": 2346.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 2346.0,
+      "min": 2346.0,
+      "max": 2346.0,
+      "avg": 2346.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 0,
+      "rate": 0.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 135250,
+      "budget_max": 135250,
+      "budget_median": 135250,
+      "primary_sector": "P",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.0,
+      "oldest_year": 2023,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "United Armenian Diaspora",
+      "amount": 2346.0,
+      "purpose": "To support organization's projects in Armenia",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://allforarmenia.org",
+      "phone": "8189267486",
+      "email": null,
+      "app_contact_name": "ALL FOR ARMENIA",
+      "app_contact_phone": "8189267486",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Alec Ohanian",
+        "title": "Secretary",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "861941486",
+    "foundation_name": "ALL FOR ARMENIA",
+    "match_score": 99.9,
+    "match_rank": 30
+  },
+  {
+    "annual_giving": {
+      "total": 723031.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 361515.5,
+      "min": 74813.0,
+      "max": 742965.0,
+      "avg": 369726.9
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 2,
+      "repeat": 2,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 14382753,
+      "budget_max": 14382753,
+      "budget_median": 14382753,
+      "primary_sector": "P",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.042,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CHALLENGED ATHLETES FOUNDATION",
+      "amount": 195766.0,
+      "purpose": "DIRECT SPONSOR OF FUNDRAISING EVENT",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://grantstation.com/grantmakers/rc-baker-foundation",
+      "phone": "7606323600",
+      "email": null,
+      "app_contact_name": "FRANK LAURENCE SCOTT JR",
+      "app_contact_phone": "7606323600",
+      "app_contact_email": null,
+      "deadlines": "MAY 1, OCTOBER 1",
+      "restrictions": "SEE MULTI LINE 1",
+      "how_to_apply": "WE RESPOND TO WRITTEN REQUESTS ONLY, SPECIAL FORM REQUIRED."
+    },
+    "officers": [
+      {
+        "name": "F Laurence Scott",
+        "title": "President",
+        "compensation": 93000.0
+      }
+    ],
+    "foundation_ein": "453850225",
+    "foundation_name": "R C BAKER FOUNDATION",
+    "match_score": 99.9,
+    "match_rank": 31
+  },
+  {
+    "annual_giving": {
+      "total": 895050.0,
+      "count": 34,
+      "year": 2018
+    },
+    "typical_grant": {
+      "median": 27500.0,
+      "min": 250.0,
+      "max": 50000.0,
+      "avg": 26325.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.941,
+      "in_state_pct": 0.941,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 33,
+      "repeat": 1,
+      "rate": 0.03
+    },
+    "giving_style": {
+      "general_pct": 0.088,
+      "program_pct": 0.912
+    },
+    "recipient_profile": {
+      "budget_min": 2586757,
+      "budget_max": 13719170,
+      "budget_median": 5239731,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.292
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.0,
+      "oldest_year": 2018,
+      "newest_year": 2018
+    },
+    "comparable_grant": {
+      "recipient": "PARENT SERVICES PROJECT INC",
+      "amount": 30000.0,
+      "purpose": "TO EXPAND AND SUSTAIN EXISTING RAISING A READER PROGRAMMING IN MARIN",
+      "year": 2018
+    },
+    "contact": {
+      "website_url": "https://GGSFOUNDATION.ORG",
+      "phone": "4155616540",
+      "email": null,
+      "app_contact_name": "ANNIE YATES",
+      "app_contact_phone": "4155616540",
+      "app_contact_email": null,
+      "deadlines": "FOR GUIDELINES AND MORE INFO ABOUT THIS FOUNDATION, SEE WWW.GGSFOUNDATION.ORG",
+      "restrictions": "FOR GUIDELINES AND MORE INFO ABOUT THIS FOUNDATION, SEE WWW.GGSFOUNDATION.ORG",
+      "how_to_apply": "FOR GUIDELINES AND MORE INFO ABOUT THIS FOUNDATION, SEE WWW.GGSFOUNDATION.ORG"
+    },
+    "officers": [
+      {
+        "name": "Jean K Casey",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "943155521",
+    "foundation_name": "GGS FOUNDATION",
+    "match_score": 99.8,
+    "match_rank": 32
+  },
+  {
+    "annual_giving": {
+      "total": 1010.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 5000.0,
+      "min": 1010.0,
+      "max": 15000.0,
+      "avg": 6188.75
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.875,
+      "in_state_pct": 0.875,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 6,
+      "repeat": 1,
+      "rate": 0.167
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 8096455,
+      "budget_max": 40784308,
+      "budget_median": 18662532,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.5
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.944,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SACRAMENTO CHILDREN'S HOME",
+      "amount": 8000.0,
+      "purpose": "PROVIDE HIGH QUALITY CARE TO SACRAMENTO'S MOST VULNERABLE CHILDREN AND FAMILIES",
+      "year": 2021
+    },
+    "contact": {
+      "website_url": "https://www.bizprofile.net/ca/roseville/the-collet-foundation",
+      "phone": "9166629383",
+      "email": null,
+      "app_contact_name": "BARRET C COLLET",
+      "app_contact_phone": "9498570477",
+      "app_contact_email": "CHRISTIAN_COLLET@PM.ME",
+      "deadlines": null,
+      "restrictions": "ANY CHARITABLE, SCIENTIFIC OR EDUCATIONAL PURPOSE.",
+      "how_to_apply": "NO STANDARD FORM REQUIRED. WRITTEN REQUESTS SHOULD INCLUDE PURPOSE FOR AND AMOUNT OF REQUEST, AND A COPY OF IRS NOTIFICATION OF TAX-EXEMPT STATUS FOR QUALIFICATION OF CHARITABLE ORGANIZATION."
+    },
+    "officers": [
+      {
+        "name": "Barret C Collet",
+        "title": "Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "200422957",
+    "foundation_name": "THE COLLET FOUNDATION",
+    "match_score": 99.8,
+    "match_rank": 33
+  },
+  {
+    "annual_giving": {
+      "total": 981050.0,
+      "count": 16,
+      "year": 2024
+    },
+    "typical_grant": {
+      "median": 10000.0,
+      "min": 1000.0,
+      "max": 1283920.0,
+      "avg": 104648.83333333333
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.939,
+      "in_state_pct": 0.939,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 29,
+      "repeat": 13,
+      "rate": 0.448
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 2993007,
+      "budget_max": 41246502,
+      "budget_median": 16402949,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.3
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.006,
+      "oldest_year": 2022,
+      "newest_year": 2024
+    },
+    "comparable_grant": {
+      "recipient": "AMERICAN RED CROSS",
+      "amount": 100000.0,
+      "purpose": "GENERAL OPERATING SUPPORT",
+      "year": 2024
+    },
+    "contact": {
+      "website_url": "https://www.autry-usa.com/en",
+      "phone": "8187527770",
+      "email": null,
+      "app_contact_name": "JACQUELINE AUTRY",
+      "app_contact_phone": "8187527770",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "WRITTEN REQUEST ON ORGANIZATION'S LETTERHEAD."
+    },
+    "officers": [
+      {
+        "name": "Jacqueline Autry",
+        "title": "Vice President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "237433359",
+    "foundation_name": "AUTRY FOUNDATION",
+    "match_score": 99.8,
+    "match_rank": 34
+  },
+  {
+    "annual_giving": {
+      "total": 50000.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 34390.5,
+      "min": 18781.0,
+      "max": 50000.0,
+      "avg": 34390.5
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 2,
+      "repeat": 0,
+      "rate": 0.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 581614929,
+      "budget_max": 1267164732,
+      "budget_median": 924389830,
+      "primary_sector": "E",
+      "primary_sector_pct": 0.5
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 1.662,
+      "oldest_year": 2022,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CHILDREN'S HOSPITAL LOS ANGELES",
+      "amount": 50000.0,
+      "purpose": "FUND PURCHASE OF EQUIPMENT TO DOCUMENT CONTINUATION OF DOCTOR PATIENT RELATIONSHIP STUDY",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3103953950",
+      "email": null,
+      "app_contact_name": "JOAN MANNING",
+      "app_contact_phone": "3103953950",
+      "app_contact_email": "JOAN@JEMGROUP.COM",
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Robert Adler Md",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "822535232",
+    "foundation_name": "BARBARA KORSCH WARD FOUNDATION",
+    "match_score": 99.8,
+    "match_rank": 35
+  },
+  {
+    "annual_giving": {
+      "total": 1130000.0,
+      "count": 9,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 40000.0,
+      "min": 5000.0,
+      "max": 403000.0,
+      "avg": 96627.90697674418
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.977,
+      "in_state_pct": 0.977,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 17,
+      "repeat": 13,
+      "rate": 0.765
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 10729920,
+      "budget_max": 56176450,
+      "budget_median": 30099608,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.4
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 2.054,
+      "oldest_year": 2019,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "UNION RESCUE MISSION",
+      "amount": 140000.0,
+      "purpose": "TO ASSIST THE RECIPIENT IN CARRYING OUT ITS CHARITABLE ACTIVITIES.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3236661910",
+      "email": null,
+      "app_contact_name": "THE AIDLIN FOUNDATION ALICE M COX T",
+      "app_contact_phone": "3236661910",
+      "app_contact_email": null,
+      "deadlines": "NONE. APPLICATIONS ARE ACCEPTED AT ANY TIME.",
+      "restrictions": "NONE, EXCEPT THE ORGANIZATION MUST BE A TAX-EXEMPT ENTITY.",
+      "how_to_apply": "APPLICATIONS MAY BE IN LETTER FORM, STATING INFORMATION AS TO THE APPLICANT'S PURPOSE, GRANT, PROPOSED BUDGET, AND OTHER INFORMATION AS CONSIDERED NECESSARY."
+    },
+    "officers": [
+      {
+        "name": "Alice M Cox",
+        "title": "Trustee",
+        "compensation": 50000.0
+      }
+    ],
+    "foundation_ein": "237425882",
+    "foundation_name": "THE AIDLIN FOUNDATION",
+    "match_score": 99.8,
+    "match_rank": 36
+  },
+  {
+    "annual_giving": {
+      "total": 215917483.0,
+      "count": 1125,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 50000.0,
+      "min": 54.0,
+      "max": 9782434.0,
+      "avg": 125569.00774139554
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.906,
+      "in_state_pct": 0.906,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 1963,
+      "repeat": 1237,
+      "rate": 0.63
+    },
+    "giving_style": {
+      "general_pct": 0.126,
+      "program_pct": 0.874
+    },
+    "recipient_profile": {
+      "budget_min": 806344,
+      "budget_max": 12149818,
+      "budget_median": 3304402,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.132
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.301,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "THE CHILDREN'S PARTNERSHIP",
+      "amount": 2000000.0,
+      "purpose": "PROTECTING MEDI-CAL HEALTH COVERAGE IN CALIFORNIA: TO SUPPORT A NETWORK OF ORGANIZATIONS WORKING TO PROTECT HEALTH COVERAGE AND OTHER BENEFITS FOR INDIVIDUALS IMPACTED BY THE ENDING OF THE FEDERAL PUBLIC HEALTH EMERGENCY IN CALIFORNIA.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://WWW.CALENDOW.ORG",
+      "phone": "2139288800",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Maria Blanco",
+        "title": "Director/Chair",
+        "compensation": 43000.0
+      }
+    ],
+    "foundation_ein": "954523232",
+    "foundation_name": "THE CALIFORNIA ENDOWMENT",
+    "match_score": 99.8,
+    "match_rank": 37
+  },
+  {
+    "annual_giving": {
+      "total": 324000.0,
+      "count": 12,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 26000.0,
+      "min": 5000.0,
+      "max": 50000.0,
+      "avg": 25279.06976744186
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 14,
+      "repeat": 13,
+      "rate": 0.929
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 4354264,
+      "budget_max": 59056070,
+      "budget_median": 10565559,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.714
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.076,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "On Lok Day Services",
+      "amount": 47000.0,
+      "purpose": "Elder Services",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "4154335446",
+      "email": null,
+      "app_contact_name": "Clifton W Ohman",
+      "app_contact_phone": "4154335446",
+      "app_contact_email": null,
+      "deadlines": "August 31.",
+      "restrictions": "501(c)(3)Public charities benefiting the elderly & needy, by helping them to live in their own homes or apts.in the San Francisco Area; (such as, food, health care, and transportation)",
+      "how_to_apply": "No Particular Form"
+    },
+    "officers": [
+      {
+        "name": "Clifton W Ohman",
+        "title": "President & CEO",
+        "compensation": 37500.0
+      }
+    ],
+    "foundation_ein": "943343590",
+    "foundation_name": "JOSEPH L BARBONCHIELLI AND",
+    "match_score": 99.7,
+    "match_rank": 38
+  },
+  {
+    "annual_giving": {
+      "total": 11900.0,
+      "count": 1,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 9600.0,
+      "min": 135.0,
+      "max": 12000.0,
+      "avg": 6706.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 5,
+      "repeat": 1,
+      "rate": 0.2
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 138243704,
+      "budget_max": 413572390,
+      "budget_median": 275908047,
+      "primary_sector": "B",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.062,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "Chinese Church In Christ",
+      "amount": 11900.0,
+      "purpose": "Charity",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://www.bizprofile.net/ca/saratoga/lin-chang-family-foundation",
+      "phone": "4082099992",
+      "email": null,
+      "app_contact_name": "Chih-Chang Lin",
+      "app_contact_phone": "4088676678",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "No Specific Requirement"
+    },
+    "officers": [
+      {
+        "name": "Chih-Chang Lin",
+        "title": "Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "208020006",
+    "foundation_name": "Lin-Chang Family Foundation",
+    "match_score": 99.7,
+    "match_rank": 39
+  },
+  {
+    "annual_giving": {
+      "total": 79720.0,
+      "count": 7,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 9000.0,
+      "min": 720.0,
+      "max": 35000.0,
+      "avg": 13840.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 7,
+      "repeat": 1,
+      "rate": 0.143
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 1105030,
+      "budget_max": 36958201,
+      "budget_median": 18403889,
+      "primary_sector": "X",
+      "primary_sector_pct": 0.5
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 1.572,
+      "oldest_year": 2022,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "DIAMOND BAR CHINESE-AMERICAN ASSOCI",
+      "amount": 1000.0,
+      "purpose": "PAYMENT TO HELP DIAMOND BAR CHINESE-AMERICAN ASSOCIATION ASSIST THE COMMUNITY WITH HEALTH, EDUCATION, AND ENVIRONMENTAL MISSION.",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": null,
+      "email": null,
+      "app_contact_name": "ANDY WANG FAMILY FOUNDATION",
+      "app_contact_phone": "5629081688",
+      "app_contact_email": null,
+      "deadlines": "DECEMBER 31ST",
+      "restrictions": "CHARITABLE ORGANIZATIONS: SUPPORT AND ENRICHMENT FOR VICTIMS OF NATURAL DISASTER WORLDWIDE, FUNDING FOR LOCAL COMMUNITY DEVELOPMENT, UNIVERSITY STUDENT SUPPORT.",
+      "how_to_apply": "PLEASE INCLUDE CHARITY'S NAME, ADDRESS, PHONE NUMBER, PERSON OF CONTACT, AND PURPOSE OF GRANT."
+    },
+    "officers": [
+      {
+        "name": "Andy H Wang",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "882827921",
+    "foundation_name": "ANDY WANG FAMILY FOUNDATION",
+    "match_score": 99.7,
+    "match_rank": 40
+  },
+  {
+    "annual_giving": {
+      "total": 29941850.0,
+      "count": 22,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 27500.0,
+      "min": 50.0,
+      "max": 10000000,
+      "avg": 976908.0645161291
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.516,
+      "in_state_pct": 0.516,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 20,
+      "repeat": 6,
+      "rate": 0.3
+    },
+    "giving_style": {
+      "general_pct": 0.161,
+      "program_pct": 0.839
+    },
+    "recipient_profile": {
+      "budget_min": 566646,
+      "budget_max": 26115586,
+      "budget_median": 5298684,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.294
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 86.473,
+      "oldest_year": 2022,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "SERVING SENIORS",
+      "amount": 261000.0,
+      "purpose": "TO SUPPORT INTEGRATED CARE COORDINATION",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8583693160",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Shelley Lyford",
+        "title": "Ceo And Chair",
+        "compensation": 298990.0
+      }
+    ],
+    "foundation_ein": "873374164",
+    "foundation_name": "GARY AND MARY WEST CHARITABLE TRUST",
+    "match_score": 99.7,
+    "match_rank": 41
+  },
+  {
+    "annual_giving": {
+      "total": 66500.0,
+      "count": 13,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 5000.0,
+      "min": 1000.0,
+      "max": 20500.0,
+      "avg": 7055.555555555556
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.944,
+      "in_state_pct": 0.944,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 14,
+      "repeat": 4,
+      "rate": 0.286
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 1626602,
+      "budget_max": 42074654,
+      "budget_median": 6041290,
+      "primary_sector": "T",
+      "primary_sector_pct": 0.286
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.099,
+      "oldest_year": 2022,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CANINE COMPANIONS FOR INDEPENDENCE INC",
+      "amount": 10000.0,
+      "purpose": "IN FURTHERANCE OF SECTION 501(C)(3) EXEMPT PURPOSE",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3033218188",
+      "email": null,
+      "app_contact_name": "GEORGE AND BETH WOOD CO IMPACT FAMI",
+      "app_contact_phone": "8059631837",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "WRITTEN LETTER"
+    },
+    "officers": [
+      {
+        "name": "George Wood",
+        "title": "Co-President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "841408199",
+    "foundation_name": "GEORGE AND BETH WOOD FOUNDATION",
+    "match_score": 99.7,
+    "match_rank": 42
+  },
+  {
+    "annual_giving": {
+      "total": 999600.0,
+      "count": 12,
+      "year": 2022
+    },
+    "typical_grant": {
+      "median": 73710.0,
+      "min": 39445.0,
+      "max": 148412.0,
+      "avg": 77406.45161290323
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 12,
+      "repeat": 10,
+      "rate": 0.833
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 253293,
+      "budget_max": 15761483,
+      "budget_median": 3274871,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.375
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.666,
+      "oldest_year": 2019,
+      "newest_year": 2022
+    },
+    "comparable_grant": {
+      "recipient": "ANGELS OF GRACE INC",
+      "amount": 82410.0,
+      "purpose": "SUPPORT",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "5594360900",
+      "email": null,
+      "app_contact_name": "DARIUS ASSEMI",
+      "app_contact_phone": "5594360900",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": "NO AWARDS GRANTED TO RELATIVES OF OFFICERS, DIRECTORS, OR MANAGERS.",
+      "how_to_apply": "APPLICATIONS SHOULD BE IN LETTER FORM AND INCLUDE ALL INFORMATION THE APPLICANT WANTS CONSIDERED."
+    },
+    "officers": [
+      {
+        "name": "Darius Assemi",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "770437521",
+    "foundation_name": "WATERFORD FOUNDATION",
+    "match_score": 99.6,
+    "match_rank": 43
+  },
+  {
+    "annual_giving": {
+      "total": 20000.0,
+      "count": 1,
+      "year": 2022
+    },
+    "typical_grant": {
+      "median": 20000.0,
+      "min": 20000.0,
+      "max": 20000.0,
+      "avg": 20000.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 0.0,
+      "foundation_state": "NJ"
+    },
+    "repeat_funding": {
+      "unique": 1,
+      "repeat": 0,
+      "rate": 0.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 26653,
+      "budget_max": 26653,
+      "budget_median": 26653,
+      "primary_sector": null,
+      "primary_sector_pct": 0.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.0,
+      "oldest_year": 2022,
+      "newest_year": 2022
+    },
+    "comparable_grant": {
+      "recipient": "SJC CGC ALUMNI USA INC",
+      "amount": 20000.0,
+      "purpose": "EDUCATION",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": null,
+      "phone": null,
+      "email": null,
+      "app_contact_name": "SUBRA E RAMANAN",
+      "app_contact_phone": "8008294933",
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": "SJC CGC ALUMNI USA"
+    },
+    "officers": [
+      {
+        "name": "Stephen Slusher",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "824505043",
+    "foundation_name": "SWIM FOR LIFE SRI LANKA",
+    "match_score": 99.6,
+    "match_rank": 44
+  },
+  {
+    "annual_giving": {
+      "total": 345000.0,
+      "count": 19,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 15000.0,
+      "min": 5000.0,
+      "max": 50000.0,
+      "avg": 17416.666666666668
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 0.9,
+      "in_state_pct": 0.9,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 27,
+      "repeat": 20,
+      "rate": 0.741
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 4633932,
+      "budget_max": 208968104,
+      "budget_median": 21362944,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.389
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.131,
+      "oldest_year": 2021,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "CATHOLIC CHARITIES OF LOS ANGELES",
+      "amount": 20000.0,
+      "purpose": "GENERAL",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "3236342400",
+      "email": null,
+      "app_contact_name": "SUSAN J OLLWEILER",
+      "app_contact_phone": "3236342400",
+      "app_contact_email": null,
+      "deadlines": "AUGUST 1ST OF EACH YEAR",
+      "restrictions": null,
+      "how_to_apply": "APPLICATIONS SHOULD BE IN WRITING AND MUST INCLUDE A DESCRIPTION OF CHARITABLE PURPOSE. ADDITIONALLY, PLEASE INCLUDE THE MOST RECENT FORM 990/ 990PF, BUDGET, 501(C)(3) LETTER AND LIST OF MAJOR CONTRIBUTORS."
+    },
+    "officers": [
+      {
+        "name": "Gary Levenstein",
+        "title": "Secretary & Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "954279684",
+    "foundation_name": "THE JESS AND PALMA MORGAN FOUNDATION",
+    "match_score": 99.6,
+    "match_rank": 45
+  },
+  {
+    "annual_giving": {
+      "total": 10220000.0,
+      "count": 2,
+      "year": 2022
+    },
+    "typical_grant": {
+      "median": 5000000.0,
+      "min": 500000.0,
+      "max": 10000000,
+      "avg": 5242000.0
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 6,
+      "repeat": 3,
+      "rate": 0.5
+    },
+    "giving_style": {
+      "general_pct": 0.3,
+      "program_pct": 0.7
+    },
+    "recipient_profile": {
+      "budget_min": 9571598023,
+      "budget_max": 9631634400,
+      "budget_median": 9601616212,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.5
+    },
+    "funding_trend": {
+      "direction": "Declining",
+      "change_pct": -0.476,
+      "oldest_year": 2020,
+      "newest_year": 2022
+    },
+    "comparable_grant": {
+      "recipient": "SCHWAB CHARITABLE FUND",
+      "amount": 9500000.0,
+      "purpose": "TO INCREASE CHARITABLE GIVING IN THE UNITED STATES.",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": "https://www.insidephilanthropy.com/find-a-grant/grants-f/doris-and-donald-fisher-fund",
+      "phone": "4152880540",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Doris F Fisher",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "207464063",
+    "foundation_name": "DORIS & DONALD FISHER FOUNDATION",
+    "match_score": 99.6,
+    "match_rank": 46
+  },
+  {
+    "annual_giving": {
+      "total": 106500.0,
+      "count": 11,
+      "year": 2022
+    },
+    "typical_grant": {
+      "median": 5000.0,
+      "min": 2500.0,
+      "max": 35000.0,
+      "avg": 9650.90909090909
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 0.0,
+      "foundation_state": "DE"
+    },
+    "repeat_funding": {
+      "unique": 36,
+      "repeat": 12,
+      "rate": 0.333
+    },
+    "giving_style": {
+      "general_pct": 0.673,
+      "program_pct": 0.327
+    },
+    "recipient_profile": {
+      "budget_min": 547390,
+      "budget_max": 18291186,
+      "budget_median": 1266303,
+      "primary_sector": "B",
+      "primary_sector_pct": 0.226
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 0.268,
+      "oldest_year": 2020,
+      "newest_year": 2022
+    },
+    "comparable_grant": {
+      "recipient": "MARIN LINK INC",
+      "amount": 5000.0,
+      "purpose": "PD-Connect program",
+      "year": 2022
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "8008391754",
+      "email": null,
+      "app_contact_name": "Grant Applications to Fred Weil",
+      "app_contact_phone": null,
+      "app_contact_email": "fweil@hansonbridgett.com",
+      "deadlines": null,
+      "restrictions": "Priority is given to smaller public charities located in the San Francisco Bay Area, including Sacramento, California. Education and human services are favored. The foregoing is not intended to be a complete list of priorities. Written solicitations only. The Foundation has no paid staff and does not acknowledge the receipt of applications. Successful applicants will be notified by mail, which mail will include a check for the amount of the grant authorized by the Foundation. Grants generally do not exceed $5,000.",
+      "how_to_apply": "A simple statement of the purpose of the proposed grant-how it will be used, what project will be supported, etc. Required application materials: 1. IRS tax exemption determination letter. The charity must be recognized as a public charity-not a private foundation. 2. The charity's employer identification number. 3. The charity's most recent financial statements showing: a. A statement of the charity's revenue and expense, showing the charity's sources of support and expenditures for its most recent year. Expense categories should include compensation of management and interest paid on loans secured by real property, if any. b. The charity's balance sheet. 4. The charity's budget for revenue and expense for the current year and, if available, the charity's budget for revenue and expense for the coming year. 5. The average percentage of donations to the charity used for fund raising during the last 2 years."
+    },
+    "officers": [
+      {
+        "name": "Peter Larson",
+        "title": "Dir, VP",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "943116041",
+    "foundation_name": "The Upjohn Fund of San Francisco",
+    "match_score": 99.6,
+    "match_rank": 47
+  },
+  {
+    "annual_giving": {
+      "total": 98000.0,
+      "count": 8,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 12500.0,
+      "min": 2500.0,
+      "max": 20000.0,
+      "avg": 11749.588235294117
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 13,
+      "repeat": 4,
+      "rate": 0.308
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 492870,
+      "budget_max": 2025141,
+      "budget_median": 1700667,
+      "primary_sector": "P",
+      "primary_sector_pct": 0.429
+    },
+    "funding_trend": {
+      "direction": "Growing",
+      "change_pct": 11.657,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "Camps in Common",
+      "amount": 11500.0,
+      "purpose": "SUPPORT LGBTQ+ ACTIVITIES",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://www.ponybarnesfoundation.org",
+      "phone": "7813096800",
+      "email": null,
+      "app_contact_name": "PONY BARNES FOUNDATION",
+      "app_contact_phone": "9162340228",
+      "app_contact_email": "info@ponybarnesfoundation.org",
+      "deadlines": "OCTOBER 31",
+      "restrictions": "A nonprofit in good standing,Based in CaliforniaAn established camp of 3+ yearsAligned with organizational values",
+      "how_to_apply": "https://form.jotform.com/222366395811156"
+    },
+    "officers": [
+      {
+        "name": "Marion Soloway",
+        "title": "President",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "824154533",
+    "foundation_name": "PONY BARNES FOUNDATION",
+    "match_score": 99.6,
+    "match_rank": 48
+  },
+  {
+    "annual_giving": {
+      "total": 2437000.0,
+      "count": 2,
+      "year": 2023
+    },
+    "typical_grant": {
+      "median": 25750.0,
+      "min": 5000.0,
+      "max": 2538000.0,
+      "avg": 1080329.5454545454
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 3,
+      "repeat": 3,
+      "rate": 1.0
+    },
+    "giving_style": {
+      "general_pct": 1.0,
+      "program_pct": 0.0
+    },
+    "recipient_profile": {
+      "budget_min": 14257904,
+      "budget_max": 14257904,
+      "budget_median": 14257904,
+      "primary_sector": "P",
+      "primary_sector_pct": 1.0
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": -0.045,
+      "oldest_year": 2020,
+      "newest_year": 2023
+    },
+    "comparable_grant": {
+      "recipient": "JEWISH COMMUNITY CENTER OF ORANGE COUNTY",
+      "amount": 17000.0,
+      "purpose": "GENERAL OPERATIONS",
+      "year": 2023
+    },
+    "contact": {
+      "website_url": "https://platform.grantexec.com/foundations/20657534-andre-katherine-merage-foundation-of-nevada",
+      "phone": "9494745800",
+      "email": null,
+      "app_contact_name": null,
+      "app_contact_phone": null,
+      "app_contact_email": null,
+      "deadlines": null,
+      "restrictions": null,
+      "how_to_apply": null
+    },
+    "officers": [
+      {
+        "name": "Katherine Merage",
+        "title": "Pres/Director",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "020657534",
+    "foundation_name": "ANDRE & KATHERINE MERAGE FOUNDATION",
+    "match_score": 99.5,
+    "match_rank": 49
+  },
+  {
+    "annual_giving": {
+      "total": 495250.0,
+      "count": 3,
+      "year": 2018
+    },
+    "typical_grant": {
+      "median": 25000.0,
+      "min": 3096.0,
+      "max": 467154.0,
+      "avg": 165083.33333333334
+    },
+    "geographic_focus": {
+      "top_state": "CA",
+      "top_state_pct": 1.0,
+      "in_state_pct": 1.0,
+      "foundation_state": "CA"
+    },
+    "repeat_funding": {
+      "unique": 3,
+      "repeat": 0,
+      "rate": 0.0
+    },
+    "giving_style": {
+      "general_pct": 0.5,
+      "program_pct": 0.5
+    },
+    "recipient_profile": {
+      "budget_min": 27744040,
+      "budget_max": 4858260191,
+      "budget_median": 54867794,
+      "primary_sector": "T",
+      "primary_sector_pct": 0.333
+    },
+    "funding_trend": {
+      "direction": "Stable",
+      "change_pct": 0.0,
+      "oldest_year": 2018,
+      "newest_year": 2018
+    },
+    "comparable_grant": {
+      "recipient": "CANINE COMPANIONS FOR INDEPENDENCE",
+      "amount": 3096.0,
+      "purpose": "DONATION",
+      "year": 2018
+    },
+    "contact": {
+      "website_url": null,
+      "phone": "5103006330",
+      "email": null,
+      "app_contact_name": "RICHARD GROENIGER",
+      "app_contact_phone": "5103006330",
+      "app_contact_email": null,
+      "deadlines": "NO SPECIFIC DEADLINES",
+      "restrictions": null,
+      "how_to_apply": "APPLICANTS SHOULD BE HIGH SCHOOL SENIORS. APPLICANTS ALSO NEED TO WRITE AN ESSAY REGARDING WHY THEY SHOULD BE GRANTED THE SCHOLARSHIP."
+    },
+    "officers": [
+      {
+        "name": "Richard Groeniger",
+        "title": "Trustee",
+        "compensation": 0.0
+      }
+    ],
+    "foundation_ein": "946757910",
+    "foundation_name": "MIKE & BEV GROENIGER COLLEGE SCHOLARSHIP",
+    "match_score": 99.5,
+    "match_rank": 50
+  }
+]

@@ -1,0 +1,677 @@
+{
+  "client": {
+    "organization_name": "Patient Safety Movement Foundation",
+    "short_name": "PSMF",
+    "ein": "462730379",
+    "email": "anonymous",
+    "state": "CA",
+    "city": "Irvine",
+    "org_type": "501(c)(3) public charity",
+    "budget": "Over $1,000,000",
+    "budget_numeric": 2000000.0,
+    "grant_size_target": "$25,000 - $100,000 (medium grants)",
+    "program_areas": [
+      "Healthcare & Mental Health",
+      "Research & Innovation",
+      "Social Services (broad)",
+      "Education & Youth Development"
+    ],
+    "populations_served": [
+      "General public (no specific target)"
+    ],
+    "geographic_scope": "National",
+    "ntee_code": "B00",
+    "mission_statement": "We protect patients because everyone will be a patient one day, and preventable harm can be reduced through proper training. Our work strengthens patient safety by expanding access to evidence-based clinical education. Through our fellowship program for clinicians from low- and middle-income countries, we screened more than 1,000 applicants and trained 47 fellows who are now applying their skills to reduce preventable harm in their hospitals. An estimated 26,200 patients each year will benefit from the knowledge and training these fellows have received and will continue to receive. This growing network of PSMF-trained professionals enhances clinical expertise, mentorship, and system capacity to build safer healthcare for all."
+  },
+  "report_meta": {
+    "week_number": 1,
+    "report_date": "2025-12-31",
+    "date_range_start": "2025-12-31",
+    "date_range_end": "2026-01-06",
+    "generated_at": "2025-12-31T09:50:31.267519",
+    "pipeline_version": "2.0"
+  },
+  "opportunities": [
+    {
+      "rank": 1,
+      "foundation_ein": "131684331",
+      "foundation_name": "THE FORD FOUNDATION",
+      "foundation_state": "NY",
+      "match_score": 99.5,
+      "match_probability": 0.9948297589695996,
+      "same_state": false,
+      "fit_score": 10,
+      "effort": "High",
+      "status": "MEDIUM",
+      "amount_min": 50000.0,
+      "amount_max": 200000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 735763273.0,
+          "count": 3718,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 100000.0,
+          "min": 36.0,
+          "max": 10000000,
+          "avg": 208194.51456128265
+        },
+        "geographic_focus": {
+          "top_state": "NY",
+          "top_state_pct": 0.271,
+          "in_state_pct": 0.271,
+          "foundation_state": "NY"
+        },
+        "repeat_funding": {
+          "unique": 7542,
+          "repeat": 3346,
+          "rate": 0.444
+        },
+        "giving_style": {
+          "general_pct": 0.234,
+          "program_pct": 0.766
+        },
+        "recipient_profile": {
+          "budget_min": 1082292,
+          "budget_max": 16066956,
+          "budget_median": 3889823,
+          "primary_sector": "A",
+          "primary_sector_pct": 0.202
+        },
+        "funding_trend": {
+          "direction": "Stable",
+          "change_pct": -0.033,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": null,
+        "foundation_ein": "131684331",
+        "foundation_name": "THE FORD FOUNDATION",
+        "match_score": 99.5,
+        "match_rank": 75
+      },
+      "comparable_grant": null,
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+          "funder_ein": "010956020"
+        },
+        {
+          "type": "shared_funder",
+          "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+          "funder_ein": "203959759"
+        },
+        {
+          "type": "sector_alignment",
+          "description": "Foundation funds 14% Education organizations",
+          "strength": "moderate",
+          "sector": "B",
+          "percentage": 0.137
+        }
+      ],
+      "deadline": "Rolling",
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "THE FORD FOUNDATION has a track record of supporting organizations like Patient Safety Movement Foundation.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (77%). Consider requesting $80,000 - $150,000 based on their $100,000 median grant.",
+      "next_steps": [
+        {
+          "action": "Research THE FORD FOUNDATION's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "foundation_ein": "880813827",
+      "foundation_name": "FOR WOMEN FOUNDATION INC",
+      "foundation_state": "CA",
+      "match_score": 97.7,
+      "match_probability": 0.9773028400198324,
+      "same_state": true,
+      "fit_score": 10,
+      "effort": "Medium",
+      "status": "HIGH",
+      "amount_min": 32240.0,
+      "amount_max": 128960.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 530168.0,
+          "count": 7,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 64480.0,
+          "min": 17150.0,
+          "max": 226032.0,
+          "avg": 75738.28571428571
+        },
+        "geographic_focus": {
+          "top_state": "HARARE",
+          "top_state_pct": 0.143,
+          "in_state_pct": 0.143,
+          "foundation_state": "CA"
+        },
+        "repeat_funding": {
+          "unique": 7,
+          "repeat": 0,
+          "rate": 0.0
+        },
+        "giving_style": {
+          "general_pct": 0.5,
+          "program_pct": 0.5
+        },
+        "recipient_profile": {
+          "budget_min": 0,
+          "budget_max": 0,
+          "budget_median": 0,
+          "primary_sector": null,
+          "primary_sector_pct": 0.0
+        },
+        "funding_trend": {
+          "direction": "Stable",
+          "change_pct": 0.0,
+          "oldest_year": 2023,
+          "newest_year": 2023
+        },
+        "comparable_grant": null,
+        "foundation_ein": "880813827",
+        "foundation_name": "FOR WOMEN FOUNDATION INC",
+        "match_score": 97.7,
+        "match_rank": 123
+      },
+      "comparable_grant": null,
+      "connections": [
+        {
+          "type": "geographic",
+          "description": "Both based in CA",
+          "strength": "strong"
+        }
+      ],
+      "deadline": "Rolling",
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "FOR WOMEN FOUNDATION INC has a track record of supporting organizations like Patient Safety Movement Foundation. As a CA-based foundation with 14% in-state giving, they prioritize local organizations.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (50%). Consider requesting $51,584 - $96,720 based on their $64,480 median grant. Emphasize your local CA presence and community impact.",
+      "next_steps": [
+        {
+          "action": "Research FOR WOMEN FOUNDATION INC's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "foundation_ein": "880639274",
+      "foundation_name": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+      "foundation_state": "CA",
+      "match_score": 97.6,
+      "match_probability": 0.9759840556881108,
+      "same_state": true,
+      "fit_score": 10,
+      "effort": "Medium",
+      "status": "HIGH",
+      "amount_min": 137500.0,
+      "amount_max": 550000.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 5028272.0,
+          "count": 9,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 275000.0,
+          "min": 125000.0,
+          "max": 2008164.0,
+          "avg": 463009.64285714284
+        },
+        "geographic_focus": {
+          "top_state": "NY",
+          "top_state_pct": 0.25,
+          "in_state_pct": 0.167,
+          "foundation_state": "CA"
+        },
+        "repeat_funding": {
+          "unique": 9,
+          "repeat": 5,
+          "rate": 0.556
+        },
+        "giving_style": {
+          "general_pct": 0.5,
+          "program_pct": 0.5
+        },
+        "recipient_profile": {
+          "budget_min": 4040443300,
+          "budget_max": 7251500318,
+          "budget_median": 5787226722,
+          "primary_sector": "B",
+          "primary_sector_pct": 1.0
+        },
+        "funding_trend": {
+          "direction": "Growing",
+          "change_pct": 2.459,
+          "oldest_year": 2022,
+          "newest_year": 2023
+        },
+        "comparable_grant": null,
+        "foundation_ein": "880639274",
+        "foundation_name": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+        "match_score": 97.6,
+        "match_rank": 128
+      },
+      "comparable_grant": null,
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+          "funder_ein": "010956020"
+        },
+        {
+          "type": "geographic",
+          "description": "Both based in CA",
+          "strength": "strong"
+        },
+        {
+          "type": "sector_alignment",
+          "description": "Foundation funds 75% Education organizations",
+          "strength": "strong",
+          "sector": "B",
+          "percentage": 0.75
+        }
+      ],
+      "deadline": "Rolling",
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "INSTITUTE FOR FOLLICULAR LYMPHOMA has a track record of supporting organizations like Patient Safety Movement Foundation. As a CA-based foundation with 17% in-state giving, they prioritize local organizations. Their giving has been increasing, suggesting capacity for new grantees.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (50%). Consider requesting $220,000 - $412,500 based on their $275,000 median grant. Emphasize your local CA presence and community impact. With a 56% repeat funding rate, plan for multi-year relationship building.",
+      "next_steps": [
+        {
+          "action": "Research INSTITUTE FOR FOLLICULAR LYMPHOMA's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "foundation_ein": "226029397",
+      "foundation_name": "THE ROBERT WOOD JOHNSON FOUNDATION",
+      "foundation_state": "NJ",
+      "match_score": 97.3,
+      "match_probability": 0.973222126724772,
+      "same_state": false,
+      "fit_score": 9,
+      "effort": "High",
+      "status": "MEDIUM",
+      "amount_min": 7298.25,
+      "amount_max": 29193.0,
+      "funder_snapshot": {
+        "annual_giving": {
+          "total": 543575302.0,
+          "count": 2943,
+          "year": 2023
+        },
+        "typical_grant": {
+          "median": 14596.5,
+          "min": 15.0,
+          "max": 10000000,
+          "avg": 135477.99444988574
+        },
+        "geographic_focus": {
+          "top_state": "NJ",
+          "top_state_pct": 0.19,
+          "in_state_pct": 0.19,
+          "foundation_state": "NJ"
+        },
+        "repeat_funding": {
+          "unique": 6441,
+          "repeat": 3327,
+          "rate": 0.517
+        },
+        "giving_style": {
+          "general_pct": 0.033,
+          "program_pct": 0.967
+        },
+        "recipient_profile": {
+          "budget_min": 752346,
+          "budget_max": 24622171,
+          "budget_median": 4097898,
+          "primary_sector": "B",
+          "primary_sector_pct": 0.128
+        },
+        "funding_trend": {
+          "direction": "Stable",
+          "change_pct": 0.022,
+          "oldest_year": 2020,
+          "newest_year": 2023
+        },
+        "comparable_grant": null,
+        "foundation_ein": "226029397",
+        "foundation_name": "THE ROBERT WOOD JOHNSON FOUNDATION",
+        "match_score": 97.3,
+        "match_rank": 147
+      },
+      "comparable_grant": null,
+      "connections": [
+        {
+          "type": "shared_funder",
+          "description": "THE MASIMO FOUNDATION FOR ETHICS has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "THE MASIMO FOUNDATION FOR ETHICS",
+          "funder_ein": "010956020"
+        },
+        {
+          "type": "shared_funder",
+          "description": "THE NIMA TAGHAVI FOUNDATION has funded both you and their grantees",
+          "strength": "moderate",
+          "funder_name": "THE NIMA TAGHAVI FOUNDATION",
+          "funder_ein": "203959759"
+        },
+        {
+          "type": "sector_alignment",
+          "description": "Foundation funds 13% Education organizations",
+          "strength": "moderate",
+          "sector": "B",
+          "percentage": 0.13
+        }
+      ],
+      "deadline": "Rolling",
+      "portal_url": "",
+      "contact_name": "",
+      "contact_email": "",
+      "contact_phone": "",
+      "application_requirements": [],
+      "why_this_fits": "THE ROBERT WOOD JOHNSON FOUNDATION has a track record of supporting organizations like Patient Safety Movement Foundation.",
+      "positioning_strategy": "Frame your request around a specific program or initiative, as this foundation favors program-specific grants (97%). Consider requesting $11,677 - $21,894 based on their $14,596 median grant. With a 52% repeat funding rate, plan for multi-year relationship building.",
+      "next_steps": [
+        {
+          "action": "Research THE ROBERT WOOD JOHNSON FOUNDATION's recent grants and stated priorities",
+          "deadline": "2026-01-07",
+          "owner": "Development Director"
+        },
+        {
+          "action": "Draft Letter of Inquiry highlighting alignment with foundation priorities",
+          "deadline": "2026-01-14",
+          "owner": "Grant Writer"
+        },
+        {
+          "action": "Identify potential board or staff connections for warm introduction",
+          "deadline": "2026-01-10",
+          "owner": "Executive Director"
+        }
+      ]
+    }
+  ],
+  "executive_summary": {
+    "key_strengths": [
+      "**Geographic Advantage:** 2 of 4 opportunities are in-state funders who prioritize local organizations.",
+      "**Strong Matches:** 2 opportunities rated HIGH priority based on alignment analysis.",
+      "**Funding Potential:** $227,038 - $908,153 potential across all opportunities."
+    ],
+    "one_thing": "**This week's priority:** Research THE FORD FOUNDATION and draft an initial Letter of Inquiry.",
+    "urgent_actions": [
+      {
+        "foundation": "THE FORD FOUNDATION",
+        "action": "Research THE FORD FOUNDATION's recent grants and stated priorities",
+        "deadline": "2026-01-07",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "FOR WOMEN FOUNDATION INC",
+        "action": "Research FOR WOMEN FOUNDATION INC's recent grants and stated priorities",
+        "deadline": "2026-01-07",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+        "action": "Research INSTITUTE FOR FOLLICULAR LYMPHOMA's recent grants and stated priorities",
+        "deadline": "2026-01-07",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+        "action": "Research THE ROBERT WOOD JOHNSON FOUNDATION's recent grants and stated priorities",
+        "deadline": "2026-01-07",
+        "owner": "Development Director"
+      },
+      {
+        "foundation": "THE FORD FOUNDATION",
+        "action": "Identify potential board or staff connections for warm introduction",
+        "deadline": "2026-01-10",
+        "owner": "Executive Director"
+      }
+    ],
+    "funding_scenarios": {
+      "conservative": 82240,
+      "moderate": 549350,
+      "ambitious": 908153
+    }
+  },
+  "timeline": [
+    {
+      "week": 1,
+      "date_start": "2025-12-31",
+      "date_end": "2026-01-06",
+      "tasks": [
+        {
+          "foundation": "THE FORD FOUNDATION",
+          "action": "Research THE FORD FOUNDATION's recent grants and stated priorities",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "FOR WOMEN FOUNDATION INC",
+          "action": "Research FOR WOMEN FOUNDATION INC's recent grants and stated priorities",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+          "action": "Research INSTITUTE FOR FOLLICULAR LYMPHOMA's recent grants and stated priorities",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Research & Prioritization"
+    },
+    {
+      "week": 2,
+      "date_start": "2026-01-07",
+      "date_end": "2026-01-13",
+      "tasks": [
+        {
+          "foundation": "THE FORD FOUNDATION",
+          "action": "Draft Letter of Inquiry for THE FORD FOUNDATION",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "FOR WOMEN FOUNDATION INC",
+          "action": "Draft Letter of Inquiry for FOR WOMEN FOUNDATION INC",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "LOI Drafting"
+    },
+    {
+      "week": 3,
+      "date_start": "2026-01-14",
+      "date_end": "2026-01-20",
+      "tasks": [
+        {
+          "foundation": "THE FORD FOUNDATION",
+          "action": "Submit LOI to THE FORD FOUNDATION",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "FOR WOMEN FOUNDATION INC",
+          "action": "Submit LOI to FOR WOMEN FOUNDATION INC",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Submissions & Outreach"
+    },
+    {
+      "week": 4,
+      "date_start": "2026-01-21",
+      "date_end": "2026-01-27",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Follow up on submitted LOIs",
+          "owner": "Development Director"
+        },
+        {
+          "foundation": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+          "action": "Research INSTITUTE FOR FOLLICULAR LYMPHOMA",
+          "owner": "Development Team"
+        },
+        {
+          "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+          "action": "Research THE ROBERT WOOD JOHNSON FOUNDATION",
+          "owner": "Development Team"
+        }
+      ],
+      "focus": "Follow-up & Next Batch"
+    },
+    {
+      "week": 5,
+      "date_start": "2026-01-28",
+      "date_end": "2026-02-03",
+      "tasks": [
+        {
+          "foundation": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+          "action": "Prepare application materials for INSTITUTE FOR FOLLICULAR LYMPHOMA",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+          "action": "Prepare application materials for THE ROBERT WOOD JOHNSON FOUNDATION",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "Secondary Opportunities"
+    },
+    {
+      "week": 6,
+      "date_start": "2026-02-04",
+      "date_end": "2026-02-10",
+      "tasks": [
+        {
+          "foundation": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+          "action": "Prepare application materials for INSTITUTE FOR FOLLICULAR LYMPHOMA",
+          "owner": "Grant Writer"
+        },
+        {
+          "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+          "action": "Prepare application materials for THE ROBERT WOOD JOHNSON FOUNDATION",
+          "owner": "Grant Writer"
+        }
+      ],
+      "focus": "Secondary Opportunities"
+    },
+    {
+      "week": 7,
+      "date_start": "2026-02-11",
+      "date_end": "2026-02-17",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Review responses and adjust strategy",
+          "owner": "Development Director"
+        }
+      ],
+      "focus": "Review & Adjust"
+    },
+    {
+      "week": 8,
+      "date_start": "2026-02-18",
+      "date_end": "2026-02-24",
+      "tasks": [
+        {
+          "foundation": "All",
+          "action": "Prepare for next report cycle",
+          "owner": "Development Team"
+        }
+      ],
+      "focus": "Planning Next Cycle"
+    }
+  ],
+  "urgent_actions": [
+    {
+      "foundation": "THE FORD FOUNDATION",
+      "action": "Research THE FORD FOUNDATION's recent grants and stated priorities",
+      "deadline": "2026-01-07",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "FOR WOMEN FOUNDATION INC",
+      "action": "Research FOR WOMEN FOUNDATION INC's recent grants and stated priorities",
+      "deadline": "2026-01-07",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "INSTITUTE FOR FOLLICULAR LYMPHOMA",
+      "action": "Research INSTITUTE FOR FOLLICULAR LYMPHOMA's recent grants and stated priorities",
+      "deadline": "2026-01-07",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "THE ROBERT WOOD JOHNSON FOUNDATION",
+      "action": "Research THE ROBERT WOOD JOHNSON FOUNDATION's recent grants and stated priorities",
+      "deadline": "2026-01-07",
+      "owner": "Development Director"
+    },
+    {
+      "foundation": "THE FORD FOUNDATION",
+      "action": "Identify potential board or staff connections for warm introduction",
+      "deadline": "2026-01-10",
+      "owner": "Executive Director"
+    }
+  ]
+}
