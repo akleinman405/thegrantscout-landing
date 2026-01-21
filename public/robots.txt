@@ -1,15 +1,55 @@
 # robots.txt for TheGrantScout
 # https://thegrantscout.com
+# Last updated: 2026-01-20
 
+# ===========================================
+# DEFAULT RULES
+# ===========================================
 User-agent: *
 Allow: /
-
-# Block API and internal routes
 Disallow: /api/
 Disallow: /_next/
-
-# Sitemap location
-Sitemap: https://thegrantscout.com/sitemap.xml
-
-# Crawl-delay (optional, respected by some crawlers)
+Disallow: /_vercel/
 Crawl-delay: 1
+
+# ===========================================
+# AI CRAWLER PERMISSIONS (Explicit Allow)
+# ===========================================
+
+# OpenAI Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Crawlers
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity Crawler
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI (for AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft/Bing AI
+User-agent: Bingbot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# ===========================================
+# SITEMAP & METADATA
+# ===========================================
+Sitemap: https://thegrantscout.com/sitemap.xml

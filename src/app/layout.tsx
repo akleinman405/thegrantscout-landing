@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     default: 'TheGrantScout - AI-Powered Grant Matching for Nonprofits',
     template: '%s | TheGrantScout',
   },
-  description: 'Find foundations already funding work like yours. TheGrantScout uses AI to match nonprofits with grant opportunities from 85,000+ foundations and 1.6M+ grants. The smarter way to find nonprofit funding.',
+  description: 'Find foundations already funding work like yours. TheGrantScout uses AI to match nonprofits with grant opportunities from 143,000+ foundations and 8.3M+ grants. The smarter way to find nonprofit funding.',
   keywords: 'TheGrantScout, The Grant Scout, GrantScout, Grant Scout, grant matching, grant finder, find grants, new grants, nonprofit grants, foundation funding, AI grant search, find foundation grants, nonprofit funding, private foundation grants, grant opportunities, foundation grants database, nonprofit grant research, grant prospecting',
   authors: [{ name: 'TheGrantScout' }],
   icons: {

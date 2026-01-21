@@ -615,5 +615,21 @@ const faqData = [
   {
     question: "How do I get started?",
     answer: "Book a call with us to discuss your organization's needs. We'll walk you through how TheGrantScout works and answer any questions. If it's a good fit, we'll get you set up as a Founding Member."
+  },
+  {
+    question: "What is grant matching?",
+    answer: "Grant matching is the process of identifying foundations whose giving history and priorities align with your nonprofit's mission, programs, and geography. TheGrantScout uses AI to analyze 8.3M+ grants to find foundations most likely to fund your work."
+  },
+  {
+    question: "How much does grant research typically cost?",
+    answer: "Grant research services range from $50-500+ per month. TheGrantScout offers founding member pricing at $83-99/month for comprehensive monthly reports with curated opportunities, funder profiles, and positioning strategies."
+  },
+  {
+    question: "What are IRS 990-PF forms?",
+    answer: "IRS Form 990-PF is an annual tax return filed by private foundations. It contains detailed information about every grant made, including recipient names, amounts, and purposes. TheGrantScout analyzes these public filings to identify funding patterns."
+  },
+  {
+    question: "How is TheGrantScout different from grant writing services?",
+    answer: "Grant writing services help you write proposals; TheGrantScout helps you find the right foundations to approach in the first place. We focus on the research and matching phase, providing intelligence about which funders are most likely to fund work like yours."
   }
 ]

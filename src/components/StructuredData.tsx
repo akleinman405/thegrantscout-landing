@@ -6,11 +6,6 @@ export default function StructuredData() {
     alternateName: ['The Grant Scout', 'GrantScout', 'Grant Scout'],
     url: 'https://thegrantscout.com',
     description: 'AI-powered grant matching service for nonprofits. Find foundations already funding work like yours.',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: 'https://thegrantscout.com/?q={search_term_string}',
-      'query-input': 'required name=search_term_string',
-    },
   }
 
   const organizationSchema = {
@@ -116,6 +111,38 @@ export default function StructuredData() {
         acceptedAnswer: {
           '@type': 'Answer',
           text: 'Absolutely. All monthly subscriptions can be cancelled at any time. You\'ll continue to have access through the end of your billing period.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What is grant matching?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Grant matching is the process of identifying foundations whose giving history and priorities align with your nonprofit\'s mission, programs, and geography. TheGrantScout uses AI to analyze 8.3M+ grants to find foundations most likely to fund your work.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How much does grant research typically cost?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Grant research services range from $50-500+ per month. TheGrantScout offers founding member pricing at $83-99/month for comprehensive monthly reports with curated opportunities, funder profiles, and positioning strategies.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are IRS 990-PF forms?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'IRS Form 990-PF is an annual tax return filed by private foundations. It contains detailed information about every grant made, including recipient names, amounts, and purposes. TheGrantScout analyzes these public filings to identify funding patterns.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How is TheGrantScout different from grant writing services?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Grant writing services help you write proposals; TheGrantScout helps you find the right foundations to approach in the first place. We focus on the research and matching phase, providing intelligence about which funders are most likely to fund work like yours.',
         },
       },
     ],

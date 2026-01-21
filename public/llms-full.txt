@@ -1,0 +1,310 @@
+# TheGrantScout - Complete Documentation
+
+> Last updated: 2026-01-20 | Version: 1.0
+
+> AI-powered grant matching service that helps nonprofits find foundations already funding work like theirs. We analyze 8.3M+ grants from IRS 990-PF filings to match organizations with relevant funders.
+
+This is the extended documentation file for AI assistants seeking comprehensive information about TheGrantScout.
+
+---
+
+## Quick Facts
+
+| Metric | Value |
+|--------|-------|
+| Foundations in Database | 143,000+ |
+| Historical Grants Analyzed | 8.3M+ |
+| Data Coverage Years | 2016-2024 |
+| Primary Data Source | IRS Form 990-PF |
+| Update Frequency | Annual (as IRS releases data) |
+| Starting Price | $83/month (annual) or $99/month (monthly) |
+| Founded | 2024 |
+| Headquarters | United States |
+
+---
+
+## Company Overview
+
+TheGrantScout is a grant matching service designed specifically for nonprofits seeking foundation funding. Unlike traditional grant databases that provide raw data access, TheGrantScout delivers curated, actionable intelligence about which foundations are most likely to fund a specific organization based on their historical giving patterns.
+
+### Core Value Proposition
+
+"Your mission deserves funding. We'll help you find it."
+
+TheGrantScout solves the problem of grant research being time-consuming and often ineffective. Many nonprofits spend weeks researching foundations only to discover they've been approaching funders who don't actually fund their type of work, geography, or budget size.
+
+### Target Customers
+
+- Small to mid-sized nonprofits ($250K - $5M annual budget)
+- Development directors and grant managers
+- Executive directors at organizations without dedicated grant staff
+- Nonprofit consultants serving multiple clients
+
+---
+
+## How It Works
+
+### Step 1: Client Onboarding
+
+During a 30-minute onboarding call, we collect:
+- Organization mission and programs
+- Geographic service area (local, state, regional, national)
+- Annual operating budget
+- Populations served (demographics, issue areas)
+- Current funding sources (to exclude from results)
+- Funding goals and priorities
+
+### Step 2: AI Analysis
+
+Our algorithm analyzes the client profile against 8.3M+ historical grants from IRS 990-PF filings. The matching process considers:
+- **Geographic alignment**: Does the foundation fund in the client's service area?
+- **Sector alignment**: Does the foundation fund the client's NTEE sector?
+- **Budget fit**: Is the client's budget size consistent with the foundation's typical recipients?
+- **Mission similarity**: Does the foundation's giving history suggest interest in similar work?
+- **Giving capacity**: Does the foundation have assets and giving volume to be a meaningful funder?
+
+### Step 3: Report Delivery
+
+Within 48 hours of onboarding, clients receive their first monthly report via email (PDF format).
+
+### Step 4: Monthly Updates
+
+Each month, clients receive a new report with fresh opportunities, updated funder intelligence, and tracking of previously identified prospects.
+
+---
+
+## What's in Each Report
+
+### Curated Foundation Opportunities
+
+Each report contains 10-20 foundation opportunities, each including:
+
+- **Foundation name and EIN**
+- **Location** (city, state)
+- **Total assets** (giving capacity indicator)
+- **Annual giving** (typical grant volume)
+- **Giving trend** (growing, stable, declining)
+
+### Funder Profiles
+
+For each foundation, we provide:
+
+- **Giving history**: Total grants, number of recipients, years of data
+- **Typical grant range**: Minimum, median, and maximum grant amounts
+- **Geographic focus**: Percentage of grants by state/region
+- **Sector focus**: NTEE categories funded
+- **Repeat funding rate**: How often they fund the same organizations
+- **Recent similar grants**: 2-3 examples of grants to organizations similar to the client
+
+### Positioning Strategy
+
+Each opportunity includes guidance on how to approach the funder:
+
+- Why this foundation is a good match
+- How to position your organization
+- What to emphasize in your approach
+- Red flags to avoid
+
+### Contact Information
+
+- Foundation contact person (if available)
+- Mailing address
+- Website URL
+- Application process notes
+
+---
+
+## Pricing
+
+### Annual Plan (Best Value)
+
+- **$999/year** ($83/month equivalent)
+- Monthly report delivered to inbox
+- Email support
+- Founding member rate locked in
+
+### Monthly Plan
+
+- **$99/month**
+- Monthly report delivered to inbox
+- Email support
+- Cancel anytime
+
+### What's Included
+
+Both plans include:
+- Personalized monthly report (PDF)
+- 10-20 curated foundation opportunities per report
+- Funder profiles with giving history
+- Positioning strategies
+- Contact information
+- Email support
+
+---
+
+## Data Sources and Methodology
+
+### Primary Data Source: IRS Form 990-PF
+
+All foundation data comes from IRS Form 990-PF, the annual tax return filed by private foundations. This form is a public record and contains:
+
+- Every grant made by the foundation (recipient name, amount, purpose)
+- Foundation assets and financial information
+- Officers and directors
+- Application information
+
+### Data Coverage
+
+- **Foundations**: 143,000+ private foundations
+- **Grants**: 8.3M+ individual grant records
+- **Years**: 2016-2024 (8 years of giving data)
+- **Update frequency**: Annual (typically Q2-Q3 as IRS releases new filings)
+
+### Data Quality
+
+- Data is extracted directly from IRS XML filings
+- Recipient names are normalized and deduplicated
+- Geographic data is standardized to state/city
+- Grant purposes are categorized by NTEE codes
+
+### Matching Algorithm
+
+Our matching algorithm uses multiple signals:
+
+1. **State match percentage**: What percent of a foundation's grants go to the client's state?
+2. **Sector match percentage**: What percent goes to the client's NTEE sector?
+3. **Budget compatibility**: Is the client's budget similar to the foundation's typical recipients?
+4. **Geographic concentration**: How focused is the foundation (local vs. national)?
+5. **Giving activity**: Is the foundation actively making grants?
+6. **Openness to applications**: Does the foundation indicate it accepts applications?
+
+Foundations are scored and ranked by overall fit, with the highest-scoring matches included in the monthly report.
+
+---
+
+## Comparison to Alternatives
+
+### vs. Grant Databases (Candid/Foundation Directory Online, Instrumentl)
+
+| Aspect | Grant Databases | TheGrantScout |
+|--------|-----------------|---------------|
+| Approach | Self-service search | Done-for-you research |
+| Output | Search results to explore | Curated report with analysis |
+| Time required | Hours of research | Minutes to review report |
+| Expertise needed | High (must know what to search) | Low (we do the matching) |
+| Pricing | $50-200+/month | $83-99/month |
+
+### vs. Grant Writing Services
+
+| Aspect | Grant Writers | TheGrantScout |
+|--------|---------------|---------------|
+| Focus | Writing proposals | Finding funders |
+| Stage | After you've identified prospects | Before you start writing |
+| Deliverable | Grant application | Prospect list with intelligence |
+| Pricing | $50-150/hour or % of award | $83-99/month flat rate |
+
+### vs. DIY 990-PF Research
+
+| Aspect | DIY Research | TheGrantScout |
+|--------|--------------|---------------|
+| Data access | Search individual 990-PFs | Aggregated database |
+| Analysis | Manual | AI-powered |
+| Time required | Weeks | Delivered in 48 hours |
+| Completeness | Limited by time | 143K+ foundations analyzed |
+
+---
+
+## Glossary of Terms
+
+### 990-PF Form
+The IRS Form 990-PF is an annual information return filed by private foundations. It includes detailed financial information and a complete list of all grants made during the tax year. This is the primary data source for TheGrantScout.
+
+### Grant Matching
+Grant matching is the process of identifying foundations whose giving history, priorities, and criteria align with a nonprofit's mission, programs, and characteristics. The goal is to find funders likely to be interested in supporting the organization.
+
+### Private Foundation
+A private foundation is a nonprofit organization that typically receives its funding from a single source (such as an individual, family, or corporation) and makes grants to other organizations. Private foundations must file Form 990-PF annually with the IRS.
+
+### Operating Foundation
+An operating foundation is a type of private foundation that primarily conducts its own charitable programs rather than making grants to other organizations. Operating foundations still file Form 990-PF but have different distribution requirements.
+
+### Community Foundation
+A community foundation is a public charity that pools donations from many sources to support a specific geographic community. Community foundations file Form 990 (not 990-PF) and are not included in TheGrantScout's database.
+
+### Letter of Inquiry (LOI)
+A Letter of Inquiry is a brief document (1-3 pages) sent to a foundation to introduce your organization and proposed project before submitting a full grant proposal. Many foundations require or prefer an LOI before accepting applications.
+
+### NTEE Codes
+The National Taxonomy of Exempt Entities (NTEE) is a classification system for nonprofit organizations. NTEE codes categorize nonprofits by their primary purpose (e.g., A = Arts, B = Education, P = Human Services). TheGrantScout uses NTEE codes to match nonprofits with foundations funding similar sectors.
+
+### General Operating Support
+A general operating support grant (also called unrestricted funding) can be used for any organizational purpose, including salaries, rent, and overhead. This is in contrast to program-specific or restricted grants.
+
+### Program-Specific Grant
+A program-specific grant (also called restricted funding) is designated for a particular program, project, or purpose and cannot be used for general operations.
+
+### Grant Prospecting
+Grant prospecting is the process of identifying and researching potential foundation funders. This is distinct from grant writing, which is the process of preparing and submitting applications.
+
+### Funder Intelligence
+Funder intelligence refers to detailed information about a foundation's giving patterns, preferences, and decision-making criteria. This goes beyond basic data to include analysis of who they fund, how much they give, and what they prioritize.
+
+---
+
+## Frequently Asked Questions
+
+### How does TheGrantScout find relevant foundations?
+We use AI to analyze IRS Form 990-PF filings from 143,000+ foundations. Our algorithm identifies patterns in their giving history and matches them with your organization's mission, programs, and the communities you serve.
+
+### What information do I need to provide?
+During our onboarding call, we'll ask about your organization's mission, programs, geographic focus, annual budget, and the populations you serve. The more detail you provide, the better we can match you with relevant foundations.
+
+### How long does it take to get results?
+Your first report is delivered within 48 hours of your onboarding call. After that, you'll receive a new report via email each month with fresh opportunities tailored to your organization.
+
+### What's included in a grant report?
+Each month, you'll receive a PDF report via email containing curated opportunities. For each one, you get: the funder's giving history, typical grant ranges, geographic preferences, direct contact info, and a positioning strategy explaining how to approach them based on their funding patterns.
+
+### Can I cancel my subscription anytime?
+Absolutely. All monthly subscriptions can be cancelled at any time. You'll continue to have access through the end of your billing period. Annual subscriptions are billed upfront and are non-refundable.
+
+### Do you guarantee I'll get grants?
+We can't guarantee you'll receive funding, but we significantly improve your chances by matching you with foundations that have a proven track record of funding organizations like yours. The final outcome depends on your application quality and fit.
+
+### How current is your foundation data?
+We update our database annually as new 990-PF forms are filed with the IRS. Most foundation data reflects the most recent complete tax year available.
+
+### How do I get started?
+Book a call with us to discuss your organization's needs. We'll walk you through how TheGrantScout works and answer any questions. If it's a good fit, we'll get you set up as a Founding Member.
+
+### What is grant matching?
+Grant matching is the process of identifying foundations whose giving history and priorities align with your nonprofit's mission, programs, and geography. TheGrantScout uses AI to analyze 8.3M+ grants to find foundations most likely to fund your work.
+
+### How much does grant research typically cost?
+Grant research services range from $50-500+ per month depending on the provider and level of service. TheGrantScout offers founding member pricing at $83-99/month for comprehensive monthly reports with curated opportunities, funder profiles, and positioning strategies.
+
+### What are IRS 990-PF forms?
+IRS Form 990-PF is an annual tax return filed by private foundations. It contains detailed information about every grant made, including recipient names, amounts, and purposes. These are public records that TheGrantScout analyzes to identify funding patterns.
+
+### How is TheGrantScout different from grant writing services?
+Grant writing services help you write proposals; TheGrantScout helps you find the right foundations to approach in the first place. We focus on the research and matching phase, providing intelligence about which funders are most likely to fund work like yours. Many clients use both services complementarily.
+
+---
+
+## Contact Information
+
+- **Email**: hello@thegrantscout.com
+- **Website**: https://thegrantscout.com
+- **Book a Call**: https://calendly.com/alec_kleinman/meeting-with-alec
+- **LinkedIn**: https://www.linkedin.com/company/thegrantscout
+
+---
+
+## Legal
+
+- **Privacy Policy**: https://thegrantscout.com/privacy
+- **Terms of Service**: https://thegrantscout.com/terms
+
+---
+
+*This documentation is provided for AI assistants and language models to better understand TheGrantScout's services. For the most current information, please visit https://thegrantscout.com or contact us directly.*

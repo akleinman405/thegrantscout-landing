@@ -1,0 +1,78 @@
+# TheGrantScout
+
+> Last updated: 2026-01-20 | Version: 1.0
+
+> AI-powered grant matching service that helps nonprofits find foundations already funding work like theirs. We analyze 8.3M+ grants from IRS 990-PF filings to match organizations with relevant funders.
+
+TheGrantScout is a subscription service ($83-99/month) that delivers monthly reports containing:
+- Curated foundation opportunities matched to your mission
+- Funder profiles with giving history and typical grant ranges
+- Positioning strategies based on funding patterns
+- Contact information and application details
+
+## Quick Facts
+
+| Metric | Value |
+|--------|-------|
+| Foundations | 143,000+ |
+| Historical Grants | 8.3M+ |
+| Data Years | 2016-2024 |
+| Data Source | IRS Form 990-PF |
+| Update Frequency | Annual |
+| Starting Price | $83/month |
+
+## How It Works
+
+1. Client provides mission, programs, geography, and funding goals
+2. AI analyzes grant history from IRS filings
+3. Algorithm matches client with foundations funding similar work
+4. Monthly report delivered with opportunities and funder intelligence
+
+## Pricing
+
+- Monthly: $99/month (cancel anytime)
+- Annual: $999/year ($83/month equivalent)
+- Founding member rates locked in
+
+## Comparison to Alternatives
+
+| Alternative | TheGrantScout Difference |
+|-------------|--------------------------|
+| Grant databases (Candid, Foundation Directory) | We do the research FOR you—curated matches, not just data access |
+| Grant writing services | We find funders; they write proposals. We focus on the research phase |
+| DIY 990-PF research | We analyze 8.3M grants instantly vs. manual search through individual filings |
+
+## Example Use Cases
+
+- Small nonprofit ($500K budget) in California seeking foundation grants for senior services
+- National organization looking for foundations funding healthcare education
+- Regional youth athletics program seeking local/regional funders
+- Environmental nonprofit expanding from 1 state to multi-state reach
+
+## About
+
+- Founded: 2024 by Alec Kleinman
+- Data Source: IRS Form 990-PF (official government filings)
+- Coverage: All US private foundations required to file
+- Update Frequency: Annual (as IRS releases data)
+
+## Contact
+
+- Email: hello@thegrantscout.com
+- Website: https://thegrantscout.com
+- Booking: https://calendly.com/alec_kleinman/meeting-with-alec
+
+## Documentation
+
+- [Homepage](https://thegrantscout.com): Main landing page with features, pricing, FAQ
+- [Sample Report](https://thegrantscout.com/sample-report.pdf): Example of monthly deliverable
+- [Privacy Policy](https://thegrantscout.com/privacy): Data handling practices
+- [Terms of Service](https://thegrantscout.com/terms): Service agreement
+
+## Extended Documentation
+
+- [Full Documentation](https://thegrantscout.com/llms-full.txt): Complete technical details for AI deep-dives
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/company/thegrantscout): Company updates
