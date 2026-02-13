@@ -1,58 +1,66 @@
 # Resume From Last Session
 
-Pick up where the last development session left off. Quickly load context and present a summary.
+Pick up where the last session left off. Load context from the memory directory (primary) or project folders (fallback) and present a task-focused summary.
 
-Optional: Load a specific date's context by passing a date: $ARGUMENTS
+Optional argument: a date (YYYY-MM-DD) or keyword (e.g., "vetsboats"): $ARGUMENTS
 
 ## Instructions
 
-1. **Determine which session to resume**:
-   - If `$ARGUMENTS` contains a date (YYYY-MM-DD format), use that date
-   - Otherwise, find the most recent folder that contains session files by checking:
-     - `4. Pipeline/Enhancements/YYYY-MM-DD/` folders (newest first)
-     - `5. Runs/*/YYYY-MM-DD/` folders (for recent client work)
+**Step 1: Check memory directory first.**
 
-2. **Gather context** by running these in parallel:
-   - `git status` to check for uncommitted work-in-progress
-   - `git log --oneline -10` for recent commit history
-   - List files in the target enhancement or run folder
+Read `~/.claude/projects/-Users-aleckleinman-Documents-TheGrantScout/memory/session_state.md`.
 
-3. **Read session files in priority order** (stop once you have enough context, but read all that exist):
-   - **Priority 1:** `SESSION_STATE_*.md` or `CONTINUITY_*.md` files — these have the most actionable resume info
-   - **Priority 2:** Highest-numbered `REPORT_YYYY-MM-DD.N_*.md` — most recent work
-   - **Priority 3:** Any `GUIDE_*.md` or `PLAN_*.md` files for broader context
+- If `$ARGUMENTS` is empty or blank AND the file exists, use it as the primary source. Skip to Step 3.
+- If `$ARGUMENTS` contains a date (YYYY-MM-DD) or keyword, proceed to Step 2 (folder search) regardless of whether the memory file exists.
+- If the memory file doesn't exist, proceed to Step 2.
 
-4. **Check for active blockers**:
-   - Look for "Blockers" or "Next Actions" sections in any files read
-   - Check for incomplete todo items (items marked with a spinner or "IN PROGRESS")
-   - Note any database or pipeline issues mentioned
+**Step 2: Search project folders (fallback or targeted search).**
 
-5. **Present a compact resume summary**:
+Search for session state files by checking these locations (newest first):
+- `4. Pipeline/Enhancements/YYYY-MM-DD/` folders
+- `5. Runs/*/YYYY-MM-DD/` folders (for client work)
+- `6. Business/` (for sales/marketing work)
+
+How to search:
+- **If a date was given:** Look specifically in folders matching that date. Read any `SESSION_STATE_*.md` or `CONTINUITY_*.md` files found there.
+- **If a keyword was given** (e.g., "vetsboats", "psmf"): Search for `SESSION_STATE_*` files whose name or content matches the keyword (case-insensitive). Use Glob to find candidates, then read the best match.
+- **If memory file was missing (no args):** Find the most recent folder across Enhancements and Runs that contains a `SESSION_STATE_*.md` file.
+
+Read session files in priority order:
+1. `SESSION_STATE_*.md` or `CONTINUITY_*.md` files (most actionable)
+2. Highest-numbered `REPORT_YYYY-MM-DD.N_*.md` (most recent work)
+3. Any `GUIDE_*.md` or `PLAN_*.md` files for broader context
+
+**Step 3: Gather supplementary git context.** Run these in parallel:
+- `git status` to check for uncommitted work-in-progress
+- `git log --oneline -10` for recent commit history
+
+These are informational, not the main event.
+
+**Step 4: Present a task-focused resume summary:**
 
 ```
 ## Session Resume
 
-**Last session:** YYYY-MM-DD
-**Source:** [SESSION_STATE / CONTINUITY / REPORT file name]
-**Folder:** [path to the session folder]
+**Last session:** YYYY-MM-DD [HH:MM if available]
+**Task:** [task description from session state]
+**Source:** [file name and path used]
+**Status:** [In Progress / Blocked / Complete]
 
 ### Resume Point
-[The most critical "what to do next" from the source file]
+[The "Do This Next" item from the session state, or the most critical next action]
 
-### Recent Commits
-[Last 5-10 commits from git log]
-
-### Uncommitted Changes
-[From git status — or "Working tree clean"]
+### What Was Accomplished
+[Key accomplishments from the session state]
 
 ### Pending Items
-[Any items marked as in-progress or untested in the source files]
+[Items marked as partially done or not started]
 
 ### Active Blockers
-[Any blockers found — or "None"]
+[Any blockers found, or "None"]
 
-### Quick Context
-[2-3 sentence summary of where the project stands]
+### Git Context
+[Brief: last 3-5 commits + uncommitted changes summary, or "Working tree clean"]
 ```
 
-6. **Ask the user**: "Ready to continue from here, or would you like to focus on something specific?"
+**Step 5: Ask the user:** "Ready to continue from here, or would you like to focus on something specific?"

@@ -69,3 +69,6 @@ supabase-migration/
 
 # Large CSV files
 *.csv.gz
+
+# Local Netlify folder
+.netlify

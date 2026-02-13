@@ -259,19 +259,44 @@
 
 **Folder:** `phases/phase4_report_assembly/`
 
+| Step | What | Input | Output |
+|------|------|-------|--------|
+| 4.1 | Gather enrichment details | Foundation websites | Contacts, deadlines, application process |
+| 4.2 | Calculate Funder Snapshot metrics | fact_grants | Annual giving, typical grant, trends, etc. |
+| 4.3 | Find proof-of-fit grants | fact_grants + client profile | 3-5 grants per foundation showing they fund orgs like client |
+| 4.4 | Generate positioning strategies | All above | Why client is a fit, how to frame the ask |
+| 4.5 | Generate action plans | Enrichment + positioning | Specific next steps with contacts |
+| 4.6 | Assemble into template | All outputs | Final report document |
+
+### Step 4.3: Find Proof-of-Fit Grants
+
+**Purpose:** Provide evidence that the foundation funds organizations like the client. This is NOT discovery (Phase 3) - it's building the case for the report.
+
+**What to find (per foundation):**
+- 3-5 grants that match the client's:
+  - Program type (e.g., fellowship, training program)
+  - Sector (e.g., healthcare, education)
+  - Grant size range client is seeking
+- Each grant should include: recipient name, amount, purpose, year
+
+**Why multiple grants matter:**
+- One grant could be an outlier
+- Multiple grants show a PATTERN of funding similar work
+- Client can cite several examples in their pitch
+
+**Output:** Table of proof-of-fit grants for each foundation, stored in database
+
 **Files:**
 | File | Purpose |
 |------|---------|
 | `annual_giving.sql` | Foundation annual giving metrics |
-| `comparable_grant.sql` | Find similar grant for positioning |
+| `proof_of_fit_grants.sql` | Find grants matching client's program type |
 | `funding_trend.sql` | 3-year giving trend |
 | `geographic_focus.sql` | Geographic concentration |
 | `giving_style.sql` | General support vs program-specific |
 | `recipient_profile.sql` | Typical recipient size/sector |
 | `repeat_funding.sql` | Repeat funding rate |
 | `typical_grant.sql` | Median/range grant size |
-
-*To be documented*
 
 ---
 

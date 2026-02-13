@@ -1,8 +1,8 @@
 # f990_2025 Data Dictionary
 
-**Last Updated:** 2025-12-22
+**Last Updated:** 2026-02-13
 **Schema:** f990_2025
-**Total Tables:** 30
+**Total Tables:** 35 (including 1 materialized view)
 
 ---
 
@@ -509,6 +509,114 @@ Fundraising event data for prospecting.
 | event_url | varchar(1000) | YES | Event URL |
 | matched_ein | varchar(20) | YES | Matched organization EIN |
 | match_confidence | smallint | YES | Match confidence (0-100) |
+
+---
+
+## Web Scraping Tables
+
+### org_url_enrichment (scrape tracking columns)
+Added columns for website scraping pipeline status tracking.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| scrape_status | varchar(20) | YES | Scraping pipeline status: pending/fetched/extracted/failed/blocked |
+| scrape_pages_fetched | integer | YES | Number of pages successfully fetched |
+| scrape_started_at | timestamp | YES | When scraping began for this org |
+| scrape_completed_at | timestamp | YES | When scraping completed |
+| scrape_error | text | YES | Error message if scrape_status = 'failed' |
+
+### web_pages
+Metadata for fetched HTML pages (HTML stored on disk in gzip cache).
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| id | serial | NO | Primary key |
+| ein | varchar(20) | NO | Organization EIN |
+| url | text | NO | Page URL |
+| page_type | varchar(30) | YES | Page type: homepage/contact/about/team/leadership/grants |
+| http_status | smallint | YES | HTTP status code |
+| html_hash | varchar(64) | YES | SHA-256 hash of HTML content |
+| html_size_bytes | integer | YES | Size of HTML in bytes |
+| fetched_at | timestamp | NO | When page was fetched |
+
+### web_emails
+All emails extracted from organization websites, one row per unique email per org.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| id | serial | NO | Primary key |
+| ein | varchar(20) | NO | Organization EIN |
+| email | varchar(255) | NO | Email address |
+| email_type | varchar(20) | NO | Classification: general/role/person |
+| email_domain | varchar(255) | YES | Email domain part |
+| domain_matches_website | boolean | YES | Does email domain match org website? |
+| person_name | text | YES | Associated person name (when email_type='person') |
+| person_title | text | YES | Associated person title |
+| source_url | text | YES | URL where email was found |
+| source_page_type | varchar(30) | YES | Page type where found |
+| extraction_method | varchar(30) | YES | How email was extracted: regex/mailto/cfemail/at_dot/json_ld |
+| confidence | numeric(3,2) | YES | Confidence score 0.00-1.00 |
+| syntax_valid | boolean | YES | Email syntax is valid? |
+| mx_valid | boolean | YES | Domain has valid MX records? |
+| validated_at | timestamp | YES | When validation was performed |
+| extracted_at | timestamp | NO | When email was extracted |
+
+UNIQUE constraint on (ein, email).
+
+### web_org_metadata
+Organization metadata extracted from websites.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| ein | varchar(20) | NO | Primary key - Organization EIN |
+| meta_description | text | YES | HTML meta description tag |
+| og_description | text | YES | OpenGraph description |
+| mission_text | text | YES | Mission statement text from website |
+| twitter_url | text | YES | Twitter/X profile URL |
+| linkedin_url | text | YES | LinkedIn company page URL |
+| facebook_url | text | YES | Facebook page URL |
+| instagram_url | text | YES | Instagram profile URL |
+| youtube_url | text | YES | YouTube channel URL |
+| phone_numbers | text[] | YES | Array of discovered phone numbers |
+| physical_address | text | YES | Physical address from website |
+| has_cloudflare | boolean | YES | Site uses Cloudflare? |
+| has_js_rendering | boolean | YES | Site uses JS frameworks (React/Vue/Angular)? |
+| cms_platform | varchar(50) | YES | Detected CMS: wordpress/squarespace/wix/etc. |
+| json_ld_types | text[] | YES | JSON-LD @type values found |
+| extracted_at | timestamp | NO | When metadata was extracted |
+
+### web_staff
+Staff members extracted from team/leadership/board pages.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| id | serial | NO | Primary key |
+| ein | varchar(20) | NO | Organization EIN |
+| person_name | text | NO | Person's name |
+| title | text | YES | Job title |
+| email | varchar(255) | YES | Person's email (if found) |
+| phone | varchar(50) | YES | Person's phone (if found) |
+| staff_type | varchar(30) | YES | Classification: board/executive/staff/leadership/advisory |
+| source_url | text | YES | URL where person was found |
+| source_page_type | varchar(30) | YES | Page type where found |
+| extraction_confidence | numeric(3,2) | YES | Extraction confidence 0.00-1.00 |
+| extracted_at | timestamp | NO | When staff was extracted |
+
+### web_best_email (Materialized View)
+Best email per organization, ranked by domain match, MX validity, email type, and confidence.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| ein | varchar(20) | NO | Organization EIN |
+| email | varchar(255) | NO | Best email address |
+| email_type | varchar(20) | NO | Email classification |
+| person_name | text | YES | Associated person name |
+| person_title | text | YES | Associated person title |
+| confidence | numeric(3,2) | YES | Confidence score |
+| mx_valid | boolean | YES | MX record validity |
+| rank | bigint | YES | Always 1 (best per org) |
+
+Only includes emails where syntax_valid=TRUE AND domain_matches_website=TRUE.
 
 ---
 

@@ -491,6 +491,8 @@ python3 scripts/09_convert_to_docx.py --client "{client}"
 
 ## Phase 5: Quality Checkpoints
 
+> **For full automated review:** See `SOP_report_review.md` — a 44-test, 4-agent review protocol that expands on the checklist below with specific pass/fail criteria, SQL verification queries, and a scoring system.
+
 ### 5.1 Pre-Delivery Checklist
 
 **MANDATORY - Check every item:**
