@@ -152,6 +152,15 @@ Every report MUST include these elements in order:
 - Output files go in same folder as prompt unless specified
 - Response length: brief unless asked for detail
 
+**IMPORTANT - Word Documents (.docx):**
+When generating Word documents, always produce BOTH formats:
+1. **Write the .md first** — this is the source of truth (Claude and terminals can read it)
+2. **Convert to .docx second** — for human reading, printing, and sharing
+- Use `pandoc input.md -o output.docx` for simple docs (pandoc is installed)
+- Use `09_convert_to_docx.py` for client-facing reports (branded styling)
+- Both files share the same base name: `OUTPUT_YYYY-MM-DD.N_description.md` + `.docx`
+- If only a .docx exists, create the .md with: `pandoc input.docx -t gfm --wrap=none -o output.md`
+
 **IMPORTANT - Excel Files:**
 When generating Excel files, follow these standards:
 - **Layout:** Blank row 1 and column A (data starts at B2)
