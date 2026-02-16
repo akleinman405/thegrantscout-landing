@@ -1,6 +1,6 @@
 # TheGrantScout Email Pipeline: Technical Reference
 
-**Version:** 1.0
+**Version:** 1.2
 **Date:** 2026-02-16
 **Status:** Living document
 **Owner:** Aleck Kleinman
@@ -11,6 +11,8 @@
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
+| 1.2 | 2026-02-16 | Claude Code | Restructured from 5 phases to 6: merged old Phase 3 (Validate/Enrich) into Phase 2, added Phase 3 (Build Prospect Profiles) and Phase 6 (Track & Respond) |
+| 1.1 | 2026-02-16 | Claude Code | Added 3 missing items from email scraper analysis: disposable domain blocklist (B.6), officer staleness penalty (C.5), Hunter.io API (Phase D) |
 | 1.0 | 2026-02-16 | Claude Code | Initial consolidation from 6 source documents |
 
 ---
@@ -19,20 +21,21 @@
 
 1. [Pipeline Overview](#pipeline-overview)
 2. [Phase 1: Get URLs (Scripts 01-03)](#phase-1-get-urls)
-3. [Phase 2: Get Emails from Websites (Scripts 04-05)](#phase-2-get-emails-from-websites)
-4. [Phase 3: Validate and Enrich (Scripts 06-07)](#phase-3-validate-and-enrich)
+3. [Phase 2: Get Emails & Contacts (Scripts 04-07)](#phase-2-get-emails--contacts)
+4. [Phase 3: Build Prospect Profiles](#phase-3-build-prospect-profiles)
 5. [Phase 4: Write Emails (Campaign Content)](#phase-4-write-emails)
 6. [Phase 5: Send Emails (Campaign Delivery)](#phase-5-send-emails)
-7. [Database Quick-Reference](#database-quick-reference)
-8. [Infrastructure](#infrastructure)
-9. [Known Issues and Risks](#known-issues-and-risks)
-10. [Improvement Roadmap](#improvement-roadmap)
+7. [Phase 6: Track & Respond](#phase-6-track--respond)
+8. [Database Quick-Reference](#database-quick-reference)
+9. [Infrastructure](#infrastructure)
+10. [Known Issues and Risks](#known-issues-and-risks)
+11. [Improvement Roadmap](#improvement-roadmap)
 
 ---
 
 ## Pipeline Overview
 
-TheGrantScout's email pipeline turns 813,698 IRS 990 organization records into deliverable email contacts for two purposes: (1) foundation contact data for client grant reports (product), and (2) nonprofit prospect emails for cold outreach campaigns (sales). The pipeline has 7 Python scripts organized into 5 phases, from raw URL discovery through email delivery.
+TheGrantScout's email pipeline turns 813,698 IRS 990 organization records into deliverable email contacts for two purposes: (1) foundation contact data for client grant reports (product), and (2) nonprofit prospect emails for cold outreach campaigns (sales). The pipeline has 7+ Python scripts organized into 6 phases, from raw URL discovery through email delivery and response tracking.
 
 ```
 IRS 990 Filings (raw XML)
@@ -48,13 +51,14 @@ org_url_enrichment (813,698 rows)
     |   |-- [02] Validate URLs ------> 308K alive (81.6% of cleaned)
     |   |-- [03] Search DuckDuckGo --> Fill gaps for orgs without URLs
     |
-    |-- Phase 2: Get Emails from Websites
+    |-- Phase 2: Get Emails & Contacts
     |   |-- [04] Fetch pages --------> HTML cached to disk (gzip)
     |   |-- [05] Extract data -------> Emails + Staff + Metadata
-    |
-    |-- Phase 3: Validate and Enrich
     |   |-- [06] Validate emails ----> Syntax + MX records
     |   |-- [07] Materialize --------> Best email per org
+    |
+    |-- Phase 3: Build Prospect Profiles
+    |   |-- (not started) -----------> Per-contact data for personalized outreach
     |
     |-- Phase 4: Write Emails
     |   |-- generate_emails.py ------> AI-generated campaign content
@@ -63,7 +67,10 @@ org_url_enrichment (813,698 rows)
     |-- Phase 5: Send Emails
     |   |-- campaign_manager.py -----> Multi-sender delivery
     |   |-- send_generated_emails.py > Send from PostgreSQL queue
+    |
+    |-- Phase 6: Track & Respond
     |   |-- track_response.py -------> Bounce/reply monitoring
+    |   |-- (not started) -----------> Response classification + follow-ups
     |
     v
 Campaign Tables (grantscout_campaign)
@@ -170,14 +177,14 @@ What it does:
 
 ---
 
-## Phase 2: Get Emails from Websites
+## Phase 2: Get Emails & Contacts
 
-**Scripts:** 04, 05
+**Scripts:** 04, 05, 06, 07
 **Status:** BUILT, smoke-tested on 5 foundations. NOT RUN AT SCALE.
 **Schema:** f990_2025
-**Tables:** web_pages, web_emails, web_org_metadata, web_staff (NOT YET CREATED in database)
+**Tables:** web_pages, web_emails, web_org_metadata, web_staff, web_best_email (NOT YET CREATED in database)
 
-This phase scrapes validated websites to extract email addresses, staff names/titles, and organization metadata. The scripts are fully written and tested but the database tables have not been created yet.
+This phase scrapes validated websites to extract email addresses, staff names/titles, and organization metadata, then validates and materializes the best contact per org. The scripts are fully written and tested but the database tables have not been created yet.
 
 ### Script 04: Fetch Website Pages
 
@@ -330,30 +337,6 @@ Tested on Gates, Ford, MacArthur, Lilly Endowment, Hewlett:
 
 **Bug fixed during testing:** AT/DOT regex was matching within English words ("foundation" produced `found@ion.to`). Fixed by requiring bracket delimiters. Reduced 56 emails to 8 clean emails (0 false positives).
 
-### Phase 2 Known Issues
-
-- Database tables (web_pages, web_emails, web_org_metadata, web_staff) do not exist yet
-- 14GB estimated cache vs 16GB free disk; must process in waves
-- web_staff INSERT has no ON CONFLICT clause (duplicates on crash/restart)
-- Only 13.4% of foundations have discoverable websites (19,119 of 143,184)
-- Of 12,653 Tier 1 foundations, only ~6,816 (54%) have live websites
-- At 15-30% email yield, web scraping will produce emails for 1,000-2,000 Tier 1 foundations (8-16%)
-
-### Phase 2 Next Steps
-
-1. Create the 4 database tables + materialized view
-2. Fix web_staff ON CONFLICT
-3. Run pipeline on Tier 1 foundations (~6,816 with live URLs), process in disk-space waves
-4. Add Playwright for JS-rendered foundation sites (15-20% of sites need it)
-
----
-
-## Phase 3: Validate and Enrich
-
-**Scripts:** 06, 07
-**Status:** BUILT, smoke-tested. Missing SMTP/catch-all validation.
-**Schema:** f990_2025 (enrichment) bridging to grantscout_campaign (prospects)
-
 ### Script 06: Validate Emails
 
 **File:** `06_validate_emails.py`
@@ -388,6 +371,8 @@ Only emails with syntax_valid = TRUE and domain_matches_website = TRUE are consi
 
 With `--backfill` flag, copies best email into grantscout_campaign.nonprofit_prospects and foundation_prospects.
 
+**Note:** Separate materialized views for foundations vs nonprofits are planned. Foundations prefer role emails (grants@, info@); nonprofits prefer person emails for cold outreach.
+
 **Database view: web_best_email (materialized)**
 
 | Column | Type | Description |
@@ -400,19 +385,107 @@ With `--backfill` flag, copies best email into grantscout_campaign.nonprofit_pro
 | confidence | NUMERIC(3,2) | Confidence score |
 | mx_valid | BOOLEAN | MX validation result |
 
-### Phase 3 Known Issues
+### Phase 2 Known Issues
 
+- Database tables (web_pages, web_emails, web_org_metadata, web_staff) do not exist yet
+- 14GB estimated cache vs 16GB free disk; must process in waves
+- web_staff INSERT has no ON CONFLICT clause (duplicates on crash/restart)
+- Only 13.4% of foundations have discoverable websites (19,119 of 143,184)
+- Of 12,653 Tier 1 foundations, only ~6,816 (54%) have live websites
+- At 15-30% email yield, web scraping will produce emails for 1,000-2,000 Tier 1 foundations (8-16%)
 - Confidence score not updated by validation (only sets mx_valid/syntax_valid booleans)
 - Two different quality emails can both score 0.65 (narrow band around 0.55-0.65)
 - No catch-all detection (~30-40% of nonprofit domains are catch-all)
 - No commercial SMTP verification (self-hosted probing risks residential IP blacklisting)
 - Need separate materialized views for foundations vs nonprofits (different email type preferences)
 
+### Phase 2 Next Steps
+
+1. Create the 5 database tables (web_pages, web_emails, web_org_metadata, web_staff) + materialized view (web_best_email)
+2. Fix web_staff ON CONFLICT
+3. Run pipeline on Tier 1 foundations (~6,816 with live URLs), process in disk-space waves
+4. Add Playwright for JS-rendered foundation sites (15-20% of sites need it)
+5. Add validation_status column (pending/mx_valid/mx_invalid/smtp_verified/smtp_rejected/catch_all) separate from extraction confidence
+6. Commercial email verification API (ZeroBounce/NeverBounce, ~$100-750 one-time for full corpus)
+7. Split into foundation-specific and nonprofit-specific best-email views
+
+---
+
+## Phase 3: Build Prospect Profiles
+
+**Scripts:** TBD
+**Status:** NOT STARTED
+**Schema:** grantscout_campaign (prospect data), f990_2025 (source data)
+
+This phase assembles per-contact profiles that power personalized outreach. Before writing any email, we need structured intelligence about each prospect: who they are, what their org does, and what hooks make our pitch relevant. Profiles differ for foundations (potential B2B partners) vs nonprofits (potential customers).
+
+### Profile Data Model
+
+**Person info:**
+
+| Field | Source | Description |
+|-------|--------|-------------|
+| name | web_staff, officers | Contact name |
+| title | web_staff, officers | Job title |
+| email | web_best_email | Best validated email |
+| linkedin_url | org_url_enrichment | LinkedIn profile (if discovered) |
+
+**Organization info:**
+
+| Field | Source | Description |
+|-------|--------|-------------|
+| org_name | dim_foundations / nonprofit_returns | Legal name |
+| org_website | org_url_enrichment | Validated URL |
+| org_mission | web_org_metadata, nonprofit_returns | Mission statement |
+| org_state | pf_returns / nonprofit_returns | HQ state |
+| org_budget | pf_returns / nonprofit_returns | Total revenue or assets |
+| ntee_code | dim_foundations / dim_recipients | NTEE classification |
+
+**Hooks (personalization signals):**
+
+| Field | Source | Description |
+|-------|--------|-------------|
+| recent_grants | fact_grants | Notable recent grants made or received |
+| geographic_overlap | calc_foundation_profiles | Shared state/region with TGS clients |
+| sector_overlap | calc_foundation_profiles | Shared NTEE sector with TGS clients |
+| giving_trend | fact_grants aggregation | Growing, stable, or declining giving |
+| board_connections | officers | Shared board members across orgs |
+
+**Foundation-specific (B2B targets):**
+
+| Field | Source | Description |
+|-------|--------|-------------|
+| num_managed_foundations | TBD | Foundations managed by this company |
+| aum_total | pf_returns aggregation | Total assets under management |
+| services_offered | web_org_metadata | Grant management, admin, investment |
+
+**Nonprofit-specific (customers):**
+
+| Field | Source | Description |
+|-------|--------|-------------|
+| grant_readiness | nonprofit_returns | Revenue size, filing history |
+| num_foundation_funders | fact_grants | How many foundations fund them |
+| funding_concentration | fact_grants aggregation | % from top funder (high = risky) |
+| has_grant_writer | web_staff | Staff with "grant" in title |
+
+### Data Sources
+
+- **f990_2025:** pf_returns, nonprofit_returns, fact_grants, dim_foundations, dim_recipients, officers, calc_foundation_profiles, org_url_enrichment, web_staff, web_org_metadata, web_best_email
+- **grantscout_campaign:** nonprofit_prospects, foundation_prospects
+- **External (future):** LinkedIn, Candid/GuideStar API
+
+### Phase 3 Known Issues
+
+- No scripts or tables built yet
+- Profile schema not finalized; fields above are a starting point
+- Foundation management company identification is manual today
+
 ### Phase 3 Next Steps
 
-1. Add validation_status column (pending/mx_valid/mx_invalid/smtp_verified/smtp_rejected/catch_all) separate from extraction confidence
-2. Commercial email verification API (ZeroBounce/NeverBounce, ~$100-750 one-time for full corpus)
-3. Split into foundation-specific and nonprofit-specific best-email views (foundations prefer role emails like grants@; nonprofits prefer person emails)
+1. Design prospect_profiles table schema (or foundation_profiles + nonprofit_profiles split)
+2. Build profile assembly script that joins across data sources
+3. Define minimum viable profile (what fields are required before emailing)
+4. Integrate with Phase 4 email templates as template variables
 
 ---
 
@@ -434,21 +507,29 @@ Campaign email generation scripts that create personalized outreach content usin
 
 Stores AI-generated email content ready for sending.
 
+**Template strategy:** Different templates for foundations vs nonprofits. Foundation emails pitch TGS as a data/intelligence partner. Nonprofit emails pitch TGS as a grant prospecting service. Phase 3 prospect profiles provide the template variables for personalization.
+
+**Review/QC pipeline:** Before sending, generated emails should pass through a review step: check personalization accuracy, tone, and that no template variables are unfilled (e.g., `{{org_name}}`).
+
 ### Phase 4 Known Issues
 
 - No emails generated yet from new PostgreSQL-based system
 - Scripts were rewired from CSV/Supabase to PostgreSQL on Feb 9; need testing with live data
+- No foundation-specific vs nonprofit-specific templates yet
+- No review/QC step before emails move to Phase 5
 
 ### Phase 4 Next Steps
 
 - Generate first batch using populated email data from Phases 2-3
 - Test A/B variant assignment
+- Build separate templates for foundation vs nonprofit outreach
+- Add review/QC gate between generation and sending
 
 ---
 
 ## Phase 5: Send Emails
 
-**Scripts:** campaign_manager.py, send_generated_emails.py, sender_pool.py, track_response.py
+**Scripts:** campaign_manager.py, send_generated_emails.py, sender_pool.py
 **Status:** PARTIAL. Infrastructure built, no sends from new system.
 **Schema:** grantscout_campaign
 
@@ -472,7 +553,6 @@ Built on Feb 9, 2026:
 | campaign_manager.py | Multi-sender delivery with subdomain rotation, business-hours pacing (Mon-Fri 9am-7pm), 15 emails/day per sender |
 | send_generated_emails.py | Send from PostgreSQL queue |
 | sender_pool.py | Manage sender rotation and daily limits |
-| track_response.py | Bounce and reply monitoring via Gmail API |
 
 ### Gmail Filters
 
@@ -490,7 +570,6 @@ Built on Feb 10, 2026. 5 filters auto-sort campaign email:
 |-------|------|---------|
 | senders | 10 | Sender email accounts for rotation |
 | send_log | 0 | Record of every email sent |
-| responses | 0 | Bounce/reply tracking |
 | sender_daily_stats | 0 | Daily send counts per sender |
 
 ### Previous Campaign Results (Nov 2025, old scraper)
@@ -515,6 +594,84 @@ Built on Feb 10, 2026. 5 filters auto-sort campaign email:
 
 ---
 
+## Phase 6: Track & Respond
+
+**Scripts:** track_response.py (+ planned scripts)
+**Status:** NOT STARTED (track_response.py exists but untested)
+**Schema:** grantscout_campaign
+
+This phase monitors campaign outcomes after emails are sent: tracking opens, bounces, and replies, classifying responses, and triggering follow-up sequences. Currently only track_response.py exists (bounce/reply monitoring via Gmail API), but the classification and follow-up logic is not built.
+
+### Response Tracking
+
+| Signal | Source | Detection |
+|--------|--------|-----------|
+| Bounce | Gmail API | mailer-daemon / postmaster sender |
+| Auto-reply | Gmail API | OOO keywords, vacation responder headers |
+| Real reply | Gmail API | Human response (not bounce or auto-reply) |
+| Open | Future | Tracking pixel (not implemented) |
+| Link click | Future | Redirect URL tracking (not implemented) |
+
+### Response Classification
+
+Replies need to be classified to determine next action:
+
+| Category | Examples | Next Action |
+|----------|----------|-------------|
+| Interested | "Tell me more", "Can we schedule a call?" | Fast manual follow-up, move to pipeline |
+| Not interested | "Not interested", "Remove me" | Add to suppression list, no follow-up |
+| Wrong person | "I'm not the right contact", "Try reaching..." | Update contact, re-route |
+| Auto-reply | OOO, vacation | Queue for re-send after return date |
+| Bounce (soft) | Mailbox full, temporary failure | Retry once after 48 hours |
+| Bounce (hard) | Address not found, domain doesn't exist | Mark invalid, update web_emails.mx_valid |
+
+### Follow-Up Sequences
+
+Planned multi-touch cadence for non-responders:
+
+| Touch | Timing | Content |
+|-------|--------|---------|
+| Initial email | Day 0 | Phase 4 generated content |
+| Follow-up 1 | Day 3-4 | Short bump ("wanted to make sure you saw...") |
+| Follow-up 2 | Day 7-8 | New angle or value add |
+| Break-up | Day 14 | Final touch ("closing the loop...") |
+
+### Feedback Loop
+
+Tracking data flows back to improve earlier phases:
+
+- **Hard bounces** update web_emails validation status (Phase 2)
+- **Wrong person** responses trigger contact re-discovery (Phase 2)
+- **Reply rates by template** inform A/B testing (Phase 4)
+- **Reply rates by prospect type** refine targeting (Phase 3)
+
+### Database Tables
+
+| Table | Rows | Purpose | Status |
+|-------|------|---------|--------|
+| responses | 0 | Bounce/reply tracking | EXISTS (empty) |
+| response_classifications | N/A | Classified response categories | NOT CREATED |
+| follow_up_queue | N/A | Scheduled follow-up sends | NOT CREATED |
+| suppression_list | N/A | Do-not-contact addresses | NOT CREATED |
+
+### Phase 6 Known Issues
+
+- track_response.py exists but has not been tested with live sends
+- No response classification logic built
+- No follow-up sequence automation
+- No open/click tracking infrastructure
+- Gmail API rate limits not characterized for response polling
+
+### Phase 6 Next Steps
+
+1. Test track_response.py with a small live send batch
+2. Build response classification (rule-based first, AI-assisted later)
+3. Create suppression_list table and honor it in Phase 5 sends
+4. Design follow-up sequence automation
+5. Add feedback loop: bounces update Phase 2 validation, reply rates feed Phase 4 A/B tests
+
+---
+
 ## Database Quick-Reference
 
 All tables across both schemas, with current row counts.
@@ -532,16 +689,20 @@ All tables across both schemas, with current row counts.
 
 ### grantscout_campaign Schema (sales/campaign)
 
-| Table | Rows | Purpose | Status |
-|-------|------|---------|--------|
-| nonprofit_prospects | 74,175 | Campaign prospect list | Active |
-| foundation_prospects | 761 | Foundation prospects | Active |
-| generated_emails | 0 | AI-generated campaign content | Empty |
-| senders | 10 | Sender email accounts | Active |
-| send_log | 0 | Email send records | Empty |
-| responses | 0 | Bounce/reply tracking | Empty |
-| sender_daily_stats | 0 | Daily stats per sender | Empty |
-| scrape_jobs | 0 | Scraping job tracking | Empty |
+| Table | Rows | Purpose | Status | Phase |
+|-------|------|---------|--------|-------|
+| nonprofit_prospects | 74,175 | Campaign prospect list | Active | — |
+| foundation_prospects | 761 | Foundation prospects | Active | — |
+| prospect_profiles | N/A | Per-contact intelligence for personalization | NOT CREATED | 3 |
+| generated_emails | 0 | AI-generated campaign content | Empty | 4 |
+| senders | 10 | Sender email accounts | Active | 5 |
+| send_log | 0 | Email send records | Empty | 5 |
+| responses | 0 | Bounce/reply tracking | Empty | 6 |
+| response_classifications | N/A | Classified response categories | NOT CREATED | 6 |
+| follow_up_queue | N/A | Scheduled follow-up sends | NOT CREATED | 6 |
+| suppression_list | N/A | Do-not-contact addresses | NOT CREATED | 6 |
+| sender_daily_stats | 0 | Daily stats per sender | Empty | 5 |
+| scrape_jobs | 0 | Scraping job tracking | Empty | — |
 
 ### CRM Tables (grantscout_campaign)
 
@@ -632,6 +793,8 @@ Prioritized by business value. Product improvements (foundation contacts for cli
 
 ### Phase A: Foundation Contact Intelligence (Next Priority)
 
+Unblocks Pipeline Phases 2-3.
+
 | # | Task | Effort | Why First |
 |---|------|--------|-----------|
 | A.1 | Create the 5 database tables | 1 hour | Nothing runs without this |
@@ -643,6 +806,8 @@ Prioritized by business value. Product improvements (foundation contacts for cli
 
 ### Phase B: Validation and Coverage (Following Month)
 
+Improves Pipeline Phase 2 data quality.
+
 | # | Task | Effort |
 |---|------|--------|
 | B.1 | Add validation_status column (separate from confidence) | 2 hours |
@@ -650,8 +815,11 @@ Prioritized by business value. Product improvements (foundation contacts for cli
 | B.3 | Commercial email verification API (~$100-750) | 2-3 hours |
 | B.4 | Process in disk-space waves | 1 hour |
 | B.5 | Playwright for JS-rendered foundation sites | 4-6 hours |
+| B.6 | Add disposable email domain blocklist (disposable-email-domains GitHub list, 2K+ throwaway domains) | 30 min |
 
 ### Phase C: Officer Cross-Reference (Further Out)
+
+Feeds Pipeline Phase 3 (prospect profiles).
 
 | # | Task | Effort |
 |---|------|--------|
@@ -659,13 +827,16 @@ Prioritized by business value. Product improvements (foundation contacts for cli
 | C.2 | Fuzzy match officers + web_staff by EIN | 8-10 hours |
 | C.3 | Foundation-specific extraction (deadlines, LOI process) | 4-6 hours |
 | C.4 | Re-verification scheduling (every 90 days) | 2-3 hours |
+| C.5 | Staleness penalty for officer data (-0.05 confidence per year since tax_year, accounting for 2-3 year IRS data lag) | 1 hour |
 
 ### Phase D: Future / Lower Priority
 
-- Bounce feedback loop (parse bounces, update validation retroactively)
-- Email pattern inference (officer name + domain, then verify)
+- Bounce feedback loop: now part of Pipeline Phase 6 (parse bounces, update validation retroactively)
+- Email pattern inference via Hunter.io API (pay-per-use: officer name + domain, then verify; fills gaps where we have officer names but no scraped email)
 - Candid/GuideStar API (premium)
 - Alternative contact channels for 86% of foundations with no website
+- Open/click tracking infrastructure (Pipeline Phase 6)
+- AI-assisted response classification (Pipeline Phase 6)
 
 ### Key Targets
 
