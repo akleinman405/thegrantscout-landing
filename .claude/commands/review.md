@@ -1,3 +1,9 @@
+---
+description: Run TheGrantScout-specific code review on current changes
+argument-hint: Files or scope (optional)
+allowed-tools: Read, Grep, Glob, Bash(git *), Task
+---
+
 # Structured Code Review
 
 Run a directed code review against current changes using TheGrantScout-specific checks.

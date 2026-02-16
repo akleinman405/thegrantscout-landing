@@ -1,3 +1,9 @@
+---
+description: Research codebase and produce a structured implementation plan
+argument-hint: Feature or task to plan
+allowed-tools: Read, Grep, Glob, Bash(git *), Bash(ls *), Write
+---
+
 # Research & Plan Before Coding
 
 Research the codebase and produce a structured plan before implementing: $ARGUMENTS

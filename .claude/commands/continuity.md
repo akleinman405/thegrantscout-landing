@@ -1,3 +1,9 @@
+---
+description: Save current session state as a handoff document for next time
+argument-hint: Task description to capture
+allowed-tools: Read, Grep, Glob, Bash(git *), Bash(ls *), Write, Edit
+---
+
 # Create a Session State File (Handoff Document)
 
 This command WRITES a new session state file. It does NOT read or load existing session files.

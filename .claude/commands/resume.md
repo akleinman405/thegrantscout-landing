@@ -1,3 +1,9 @@
+---
+description: Load session state and resume where you left off
+argument-hint: Date (YYYY-MM-DD) or keyword (optional)
+allowed-tools: Read, Grep, Glob, Bash(git *)
+---
+
 # Resume From Last Session
 
 Pick up where the last session left off. Load context from the memory directory (primary) or project folders (fallback) and present a task-focused summary.

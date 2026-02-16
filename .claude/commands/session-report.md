@@ -1,3 +1,8 @@
+---
+description: Auto-generate daily session report from git history and reports
+allowed-tools: Read, Grep, Glob, Bash(git *), Bash(ls *), Write
+---
+
 # Generate Daily Session Report
 
 Auto-generate the daily SESSION_REPORT by scanning git history, individual REPORT files, and current state.
