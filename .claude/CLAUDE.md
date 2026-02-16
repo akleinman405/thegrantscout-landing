@@ -157,24 +157,20 @@ When generating Word documents, always produce BOTH formats:
 1. **Write the .md first** — this is the source of truth (Claude and terminals can read it)
 2. **Convert to .docx second** — for human reading, printing, and sharing
 - Use `pandoc input.md -o output.docx` for simple docs (pandoc is installed)
-- Use `09_convert_to_docx.py` for client-facing reports (branded styling)
+- Use `python3 "0. Tools/md_to_docx.py" -i input.md -o output.docx` for client-facing reports (branded styling)
 - Both files share the same base name: `OUTPUT_YYYY-MM-DD.N_description.md` + `.docx`
 - If only a .docx exists, create the .md with: `pandoc input.docx -t gfm --wrap=none -o output.md`
 
 **IMPORTANT - Excel Files:**
-When generating Excel files, follow these standards:
+Use `0. Tools/xlsx_utils.py` for creating/editing Excel files. It implements all standards below:
+- **Create:** `from xlsx_utils import create_workbook` → `create_workbook(data, headers, path, col_formats={"Col": "currency"})`
+- **Edit:** `from xlsx_utils import edit_workbook` → `edit_workbook(path, {"B3": new_value})`
 - **Layout:** Blank row 1 and column A (data starts at B2)
-- **Zoom:** Set to 140% (`ws.sheet_view.zoomScale = 140`)
-- **Table:** Use Excel Table for filtering/sorting (`openpyxl.worksheet.table.Table`)
-- **Numbers:** Format with commas (`#,##0`)
-- **Currency:** Format as `"$"#,##0`
-- **Percentages:** Store as decimal, format as `0%`
-- **Style:** Use `TableStyleMedium2` with row stripes
-- **Font:** Calibri 10pt
-- **Headers:** Bold white text on dark blue (#2F5496)
-- **Borders:** Bold (medium) border around table edges and header row; thin borders inside
-- **Text:** No wrap (`wrap_text=False`)
-- **Freeze panes:** Keep headers and first data column visible
+- **Zoom:** 140%, **Font:** Calibri 10pt, **Style:** TableStyleMedium2 with row stripes
+- **Headers:** Bold white text on dark blue (#2F5496), medium borders around edges, thin inside
+- **Formats:** Numbers `#,##0`, Currency `"$"#,##0`, Percentages `0%` (stored as decimal)
+- **Freeze panes:** Header row + column A visible
+- **Editing existing files:** Read first, modify only what's requested, preserve formatting. Never regenerate from scratch unless told to.
 
 ---
 
@@ -182,21 +178,25 @@ When generating Excel files, follow these standards:
 
 | # | Folder | Contents |
 |---|--------|----------|
+| 0 | `0. Tools/` | Reusable converter scripts (Word, PDF, Excel) + branding module |
 | 1 | `1. Database/` | Raw IRS data, PostgreSQL credentials, embeddings scripts |
 | 2 | `2. Docs/` | Documentation, data dictionary, specs |
 | 3 | `3. Models/` | Model versions (current → v6.1) |
-| 4 | `4. Pipeline/` | Scripts, config, client profiles |
+| 4 | `4. Pipeline/` | `process_client.py` (single-file pipeline), config, client profiles |
 | 5 | `5. Runs/` | Client run outputs: `{client}/{date}/` |
 | 6 | `6. Business/` | Sales, marketing, beta testing, admin |
 | 7 | `7. Research/` | Research outputs, archived files |
 | 8 | `8. Data/` | Symlink to `1. Database/` |
-| 9 | `9. Pipeline Legacy/` | Training CSVs (large files) |
+| 9 | `9. Pipeline Legacy/` | Training CSVs, Pipeline v2 scripts (01-09) |
+| — | `Enhancements/` | Session work organized by date |
 
 **Quick reference:**
 | Item | Path |
 |------|------|
+| Tools (converters) | `0. Tools/` |
 | Data dictionary | `2. Docs/data-dictionary.md` |
-| Pipeline scripts | `4. Pipeline/scripts/` |
+| Pipeline (current) | `4. Pipeline/process_client.py` |
+| Pipeline (v2 legacy) | `9. Pipeline Legacy (Large CSVs)/Pipeline v2/scripts/` |
 | Pipeline config | `4. Pipeline/config/` |
 | Client runs | `5. Runs/{client}/{date}/` |
 | DB credentials | `1. Database/Postgresql Info.txt` |
@@ -225,6 +225,8 @@ When generating Excel files, follow these standards:
 | DB connection refused | Check PostgreSQL service is running (`brew services start postgresql`) |
 | pip command not found | Use `pip3` instead of `pip` on macOS |
 | python command not found | Use `python3` instead of `python` on macOS |
+| MCP postgres "aborted" state | After SQL error, all queries fail. Use psql via Bash for multi-query research |
+| MCP postgres "Only SELECT" error | SQL comments (`--`) trigger this. Remove comments from queries |
 
 ---
 
@@ -269,9 +271,11 @@ Foundations are scored using a **LASSO logistic regression model** with size-mat
 
 ---
 
-## Report Generation Pipeline (V2)
+## Report Generation Pipeline
 
-Location: `4. Pipeline/scripts/`
+**Current approach:** `4. Pipeline/process_client.py` (single-file pipeline)
+
+**Legacy v2 scripts:** `9. Pipeline Legacy (Large CSVs)/Pipeline v2/scripts/`
 
 | Script | Purpose | Input | Output |
 |--------|---------|-------|--------|
@@ -284,7 +288,10 @@ Location: `4. Pipeline/scripts/`
 | 06_generate_narratives.py | Create positioning | Opportunities | 06_narratives.json |
 | 07_build_report_data.py | Structure report | Narratives | 07_report_data.json |
 | 08_render_report.py | Generate markdown | Report data | 08_report.md |
-| 09_convert_to_docx.py | Export to Word | Markdown | 08_report.docx |
+
+**Report format conversion** is now handled by `0. Tools/` (not pipeline scripts):
+- Word: `python3 "0. Tools/md_to_docx.py" -i report.md`
+- PDF: `python3 "0. Tools/md_to_pdf.py" -i report.md`
 
 See `SOP_report_generation.md` for full workflow with quality checkpoints.
 
@@ -329,6 +336,49 @@ See `SOP_report_generation.md` for full workflow with quality checkpoints.
 
 ---
 
+## Tools Reference (`0. Tools/`)
+
+Reusable scripts for document generation. **Always use these instead of building converters from scratch.**
+
+| Script | Purpose | Usage |
+|--------|---------|-------|
+| `branding.py` | Shared brand constants (colors, fonts, sizes) | `import branding` (imported by all other tools) |
+| `md_to_docx.py` | Markdown → branded Word document | `python3 "0. Tools/md_to_docx.py" -i input.md -o output.docx` |
+| `md_to_pdf.py` | Markdown → branded PDF (via HTML + WeasyPrint) | `python3 "0. Tools/md_to_pdf.py" -i input.md -o output.pdf` |
+| `xlsx_utils.py` | Excel create/edit helper module | `from xlsx_utils import create_workbook, edit_workbook` |
+
+**Dependencies:** `pip3 install python-docx markdown weasyprint openpyxl` + `brew install pango`
+
+---
+
+## TGS Branding Reference
+
+Canonical source: `0. Tools/branding.py`. Full guide: `6. Business/4. website/docs/SPEC_2025-11-30_branding_guide.md`.
+
+| Element | Value | Usage |
+|---------|-------|-------|
+| Navy Primary | `#1e3a5f` | Headings, headers, links |
+| Navy Dark | `#152b47` | H2/H3 variants |
+| Gold Accent | `#d4a853` | Borders, accents, horizontal rules |
+| Charcoal | `#2C3E50` | Body text |
+| Gray | `#6c757d` | Secondary text, footers |
+| Heading font | Calibri Light | Title, H1, H2, H3 |
+| Body font | Calibri | Body text, tables, metadata |
+| Logo (512px) | `6. Business/4. website/thegrantscout-landing/public/logo.png` | Reports, website |
+
+---
+
+## File Generation Rules
+
+1. **Always use `0. Tools/` scripts** for Word, PDF, and Excel generation. Do not rebuild converters each session.
+2. **Write content as markdown first**, then convert using the tool script.
+3. **For PDF formatting**, follow `memory/pdf_formatting_rules.md` (blank lines before lists/tables, no code blocks, no em dashes).
+4. **For Word documents**, produce both `.md` and `.docx` (see Word Documents rule above).
+5. **For Excel**, use `xlsx_utils.create_workbook()` for new files, `xlsx_utils.edit_workbook()` for modifications.
+6. **When editing existing Excel files:** read first, modify only what's requested, preserve all formatting, formulas, and manual edits. Never regenerate from scratch unless explicitly told to.
+
+---
+
 ## See Also
 
 Detailed documentation in `.claude/`:
@@ -345,6 +395,7 @@ Detailed documentation in `.claude/`:
 
 | Date | Version | Changes |
 |------|---------|---------|
+| 2026-02-16 | 6.0 | Added `0. Tools/` (branding.py, md_to_docx.py, md_to_pdf.py, xlsx_utils.py), Tools Reference, Branding Reference, File Generation Rules sections, fixed pipeline paths, added MCP gotchas |
 | 2026-01-04 | 5.2 | Archived embedding tables (52GB freed), updated references |
 | 2026-01-04 | 5.1 | Renumbered folders for sorting (2. Docs, 3. Models, etc.), cleaned up root directory |
 | 2026-01-04 | 5.0 | Cookie Cutter migration: updated all paths to new structure, added README maintenance rule |
