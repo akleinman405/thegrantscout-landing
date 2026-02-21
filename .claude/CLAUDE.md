@@ -302,6 +302,9 @@ See `SOP_report_generation.md` for full workflow with quality checkpoints.
 | Skill | Purpose | Location |
 |-------|---------|----------|
 | Foundation Scraper | Extract enrichment data from foundation websites | SKILL_foundation_scraper.md |
+| Client Viability Check | GO/CONDITIONAL/NO GO verdict for new prospect onboarding | SKILL_client_viability_check.md |
+| Grant Report | Generate monthly grant opportunity reports with DB-backed funder snapshots | skills/grant-report/SKILL.md |
+| Additional Funders | Companion document listing secondary foundation leads beyond top 5 | skills/additional-funders/SKILL.md |
 
 ---
 
@@ -388,6 +391,37 @@ Detailed documentation in `.claude/`:
 - `rules/clients.md` - Beta testers, feedback, customer types
 - `SOP_report_generation.md` - Full report workflow with quality checkpoints
 - `SKILL_foundation_scraper.md` - Foundation enrichment data extraction
+
+---
+
+## Review Conventions
+
+When running a comprehensive review on this project, apply these project-specific checks in addition to the standard review passes:
+
+**SQL Safety (Pass 4 focus):**
+- All psycopg2 queries MUST use parameterized placeholders (`%s`) — never f-strings, `.format()`, or `%` string interpolation for values
+- Cursors and connections must be closed (use `with` blocks or explicit `.close()` in `finally`)
+- Write operations require explicit `conn.commit()` — psycopg2 does not autocommit
+
+**Data Integrity (Pass 3 + Pass 4 focus):**
+- EINs are VARCHAR with leading zeros — any code that casts EIN to `int`, strips zeros, or adds dashes is a Critical finding
+- All table references must include the `f990_2025.` schema prefix — omitting it silently queries the wrong schema or errors
+- `foundation_ein` (not `filer_ein`) must be used when joining `fact_grants` to `dim_foundations`
+
+**Branding & Output (Pass 6 focus):**
+- Client-facing documents must use `0. Tools/` converters (branding.py, md_to_docx.py, md_to_pdf.py) — never build ad-hoc formatting
+- Color values must match `branding.py` constants (Navy: `#1e3a5f`, Gold: `#d4a853`, etc.)
+- Client deliverables require dual format: `.md` source of truth + `.docx` for delivery
+
+**Naming & Organization (Pass 6 focus):**
+- All files must follow `DOCTYPE_YYYY-MM-DD.N_description.ext` convention (see Document Naming Convention section)
+- New folders must include a README.md
+- Outputs must be traceable to their prompt via the `.N` sequence number
+
+**SOP Compliance (Pass 1 focus):**
+- Report generation work must follow `SOP_report_generation.md` quality checkpoints
+- Reports must include required sections: Revision History, TOC, Executive Summary, Files Created/Modified
+- See `.claude/rules/reports.md` for client-facing report quality criteria
 
 ---
 
