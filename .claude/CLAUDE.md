@@ -140,6 +140,8 @@ Every report MUST include these elements in order:
 - Database name: `thegrantscout` (NOT postgres)
 - Use `foundation_ein` (not `filer_ein`) in fact_grants joins
 - EINs are VARCHAR - preserve leading zeros, no dashes
+- NEVER run SQL queries in parallel — execute one at a time, wait for results
+- After any MCP SQL error, switch to psql via Bash (MCP connection is permanently poisoned)
 
 **IMPORTANT - Data Quality:**
 - `only_contri_to_preselected_ind = FALSE` = open to applications
@@ -205,11 +207,14 @@ Use `0. Tools/xlsx_utils.py` for creating/editing Excel files. It implements all
 
 ## Database Reference
 
-- **Schema:** f990_2025
-- **Data Dictionary:** `docs/data-dictionary.md`
-- **Latest Stats:** `docs/database-summary.md`
+- **Schema:** f990_2025 | **Host:** localhost:5432 | **Database:** thegrantscout
+- **Schema reference (auto-loaded):** `rules/schema.md` — column gotchas, joins, all table definitions
+- **Data Dictionary:** `2. Docs/data-dictionary.md`
+- **Column References:** `2. Docs/*_column_reference.md` (per-table detail)
+- **Combined Overview:** `2. Docs/DATABASE_SCHEMA_REFERENCE.md`
+- **JSON (for Claude Chat):** `2. Docs/thegrantscout_schema.json`
 - **Embeddings:** ARCHIVED - tables dropped 2026-01-04, backups in `1. Database/4. Semantic Embeddings/archive/`
-- **Table Prefixes:** `dim_` (dimension), `fact_` (fact), `calc_` (calculated), `emb_` (embeddings - archived), `stg_` (staging), `ref_` (reference)
+- **Table Prefixes:** `dim_` (dimension), `fact_` (fact), `calc_` (calculated), `emb_` (archived), `stg_` (staging), `ref_` (reference)
 
 ---
 
@@ -227,6 +232,9 @@ Use `0. Tools/xlsx_utils.py` for creating/editing Excel files. It implements all
 | python command not found | Use `python3` instead of `python` on macOS |
 | MCP postgres "aborted" state | After SQL error, all queries fail. Use psql via Bash for multi-query research |
 | MCP postgres "Only SELECT" error | SQL comments (`--`) trigger this. Remove comments from queries |
+| MCP `describe_table` fails | Use `information_schema.columns` via `execute_query` instead |
+| MCP parallel query cascade | NEVER run SQL in parallel — sequential only |
+| psql shell escaping (`!~`) | Use heredoc `<<'EOSQL'` syntax, never `-c "..."` |
 
 ---
 
@@ -305,6 +313,7 @@ See `SOP_report_generation.md` for full workflow with quality checkpoints.
 | Client Viability Check | GO/CONDITIONAL/NO GO verdict for new prospect onboarding | SKILL_client_viability_check.md |
 | Grant Report | Generate monthly grant opportunity reports with DB-backed funder snapshots | skills/grant-report/SKILL.md |
 | Additional Funders | Companion document listing secondary foundation leads beyond top 5 | skills/additional-funders/SKILL.md |
+| Foundation List Export | Branded "Top N Foundations" PDF + CSV for LinkedIn lead gen | `/foundation-list` command + `0. Tools/generate_foundation_list.py` |
 
 ---
 
@@ -349,6 +358,7 @@ Reusable scripts for document generation. **Always use these instead of building
 | `md_to_docx.py` | Markdown → branded Word document | `python3 "0. Tools/md_to_docx.py" -i input.md -o output.docx` |
 | `md_to_pdf.py` | Markdown → branded PDF (via HTML + WeasyPrint) | `python3 "0. Tools/md_to_pdf.py" -i input.md -o output.pdf` |
 | `xlsx_utils.py` | Excel create/edit helper module | `from xlsx_utils import create_workbook, edit_workbook` |
+| `generate_foundation_list.py` | Geography + topic → branded PDF + CSV | `python3 "0. Tools/generate_foundation_list.py" --state CA --topic-regex "..." --topic-label "..."` |
 
 **Dependencies:** `pip3 install python-docx markdown weasyprint openpyxl` + `brew install pango`
 
@@ -385,7 +395,8 @@ Canonical source: `0. Tools/branding.py`. Full guide: `6. Business/4. website/do
 ## See Also
 
 Detailed documentation in `.claude/`:
-- `rules/database.md` - Schema details, common queries, data conventions
+- `rules/schema.md` - Column gotchas, joins, all table definitions (auto-loaded)
+- `rules/database.md` - Behavioral rules, common queries, data conventions
 - `rules/reports.md` - Report quality criteria, required elements
 - `rules/naming.md` - DOCTYPE taxonomy, naming conventions
 - `rules/clients.md` - Beta testers, feedback, customer types
@@ -429,6 +440,7 @@ When running a comprehensive review on this project, apply these project-specifi
 
 | Date | Version | Changes |
 |------|---------|---------|
+| 2026-02-25 | 6.1 | Added SQL Execution Rules (sequential-only, MCP vs psql decision table, broken tools warning), MCP timeout config, expanded gotchas table |
 | 2026-02-16 | 6.0 | Added `0. Tools/` (branding.py, md_to_docx.py, md_to_pdf.py, xlsx_utils.py), Tools Reference, Branding Reference, File Generation Rules sections, fixed pipeline paths, added MCP gotchas |
 | 2026-01-04 | 5.2 | Archived embedding tables (52GB freed), updated references |
 | 2026-01-04 | 5.1 | Renumbered folders for sorting (2. Docs, 3. Models, etc.), cleaned up root directory |

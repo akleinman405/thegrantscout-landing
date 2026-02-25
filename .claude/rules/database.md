@@ -1,41 +1,46 @@
 # Database Rules - TheGrantScout
 
-**Schema:** f990_2025
-**Host:** localhost:5432
+**Schema:** f990_2025 | **Host:** localhost:5432 | **Database:** thegrantscout
+
+For table/column details, see `rules/schema.md` (auto-loaded).
 
 ---
 
-## Core Tables
+## SQL Execution Rules (MANDATORY)
 
-| Table | Purpose | Key Columns |
-|-------|---------|-------------|
-| pf_returns | Private foundation 990-PF filings | ein, business_name, state, total_assets_eoy_amt, grants_to_organizations_ind, only_contri_to_preselected_ind |
-| pf_grants | Individual grant records (raw) | filer_ein, recipient_name, recipient_state, amount, purpose, tax_year |
-| fact_grants | Cleaned grant records | foundation_ein, recipient_ein, amount, purpose_text, tax_year |
-| dim_foundations | Foundation dimension table | ein, name, state, ntee_code |
-| dim_recipients | Recipient dimension table | ein, name, state, ntee_code |
-| nonprofit_returns | 990/990-EZ filings | ein, organization_name, state, total_revenue, mission_description |
-| officers | Board/officers from all forms | ein, person_nm, title_txt, compensation_amt |
-| prospects | Sales prospects | ein, org_name, mission_statement, icp_score |
+**IMPORTANT — Follow for EVERY database query:**
 
-### Embedding Tables
+1. **Pre-flight:** Before writing SQL, verify column names against `rules/schema.md` COLUMN GOTCHAS. For unfamiliar tables, run: `SELECT column_name, data_type FROM information_schema.columns WHERE table_schema = 'f990_2025' AND table_name = '<table>'`
+2. **Sequential only:** NEVER run SQL queries in parallel. Execute one at a time, wait for result before the next.
+3. **No SQL comments:** Never include `--` or `/* */` in MCP queries (triggers "Only SELECT" error).
+4. **After any MCP error:** The connection is permanently poisoned. Do NOT retry via MCP. Switch immediately to psql via Bash with heredoc syntax.
+5. **psql default for 3+ queries:** For sessions needing 3+ queries, start with psql from the beginning.
+6. **psql heredoc syntax:** Always use `<<'EOSQL'` (single-quoted), never `-c "..."`. This prevents shell escaping issues with `!~`, `%`, and backslashes.
 
-| Table | Records | Purpose |
-|-------|---------|---------|
-| grant_embeddings | 8.3M | Semantic embeddings of grant purposes |
-| prospect_embeddings | 74K | Prospect mission embeddings |
-| nonprofit_mission_embeddings | 529K | Nonprofit mission embeddings |
-| program_embeddings | 317K | Program description embeddings |
-| client_embeddings | 7 | Client mission/project embeddings |
+### MCP vs psql Decision
+
+| Scenario | Tool |
+|----------|------|
+| 1-2 quick lookups | MCP `execute_query` |
+| 3+ queries in a session | psql via Bash (heredoc) |
+| After any MCP error | psql via Bash (only option) |
+| Queries with regex (`!~`, `~*`) | psql via Bash |
+| Write operations (INSERT/UPDATE) | Either (MCP has transaction safety) |
+| Schema inspection | MCP `execute_query` with information_schema (NOT `describe_table`) |
+
+### Broken MCP Tools (Do NOT Use)
+
+- `list_tables` — returns only `public` schema tables
+- `describe_table` — prepends `public.`, fails for f990_2025
 
 ---
 
-## Key Relationships
+## Pre-Flight Check (before writing SQL)
 
-- `fact_grants.foundation_ein` → `dim_foundations.ein`
-- `fact_grants.recipient_ein` → `dim_recipients.ein`
-- `pf_grants.return_id` → `pf_returns.id` (CASCADE delete)
-- `grant_embeddings.grant_id` → `fact_grants.id`
+1. Check `rules/schema.md` COLUMN GOTCHAS section for confusable names
+2. Use `f990_2025.` schema prefix on every table reference
+3. For grant analysis, use `fact_grants` (not `pf_grants`) with `foundation_ein` (not `filer_ein`)
+4. EINs are always VARCHAR — never cast to integer, never add dashes
 
 ---
 
@@ -43,11 +48,11 @@
 
 | Field Type | Format | Notes |
 |------------|--------|-------|
-| Amounts | NUMERIC(15,2) | Dollars with cents, NULL = not reported |
+| Amounts | NUMERIC(15,2) or BIGINT | fact_grants.amount is bigint (no cents) |
 | Dates | YYYY-MM-DD | ISO 8601 |
-| EINs | VARCHAR(20) | Preserve leading zeros, no dashes |
+| EINs | VARCHAR | Preserve leading zeros, no dashes, 9 chars standard |
 | Booleans | TRUE/FALSE/NULL | NULL = not applicable |
-| Embeddings | float[384] | all-MiniLM-L6-v2 model |
+| Embeddings | ARCHIVED | Tables dropped 2026-01-04 |
 
 ---
 
@@ -58,9 +63,13 @@
 grants_to_organizations_ind = TRUE
 
 -- Foundation is open to applications (KEY!)
-only_contri_to_preselected_ind = FALSE
--- Note: NULL often means open, so use:
+-- NULL often means open, so use:
 (only_contri_to_preselected_ind = FALSE OR only_contri_to_preselected_ind IS NULL)
+
+-- Valid website (exclude junk values)
+website_url IS NOT NULL AND website_url NOT IN ('N/A', 'NONE', '0', '')
+
+-- Use tax_year for temporal analysis (grant dates often NULL)
 ```
 
 ---
@@ -78,31 +87,10 @@ ORDER BY total_assets_eoy_amt DESC NULLS LAST;
 
 ### Get grant history for a foundation
 ```sql
-SELECT recipient_name, recipient_state, amount, purpose_text, tax_year
+SELECT recipient_name_raw, recipient_state, amount, purpose_text, tax_year
 FROM f990_2025.fact_grants
 WHERE foundation_ein = '123456789'
 ORDER BY tax_year DESC, amount DESC;
-```
-
-### Check field population rates
-```sql
-SELECT
-    'purpose_text' as field,
-    COUNT(*) as total,
-    COUNT(purpose_text) as populated,
-    ROUND(100.0 * COUNT(purpose_text) / COUNT(*), 1) as pct
-FROM f990_2025.fact_grants;
-```
-
-### Find similar grants (with embeddings)
-```sql
--- Requires pgvector extension for production use
--- Current: float[] arrays, use Python cosine similarity
-SELECT ge.grant_id, fg.purpose_text, fg.amount
-FROM f990_2025.grant_embeddings ge
-JOIN f990_2025.fact_grants fg ON ge.grant_id = fg.id
-WHERE fg.foundation_ein = '123456789'
-LIMIT 100;
 ```
 
 ### Foundation profile with calculated metrics
@@ -110,21 +98,7 @@ LIMIT 100;
 SELECT *
 FROM f990_2025.calc_foundation_profiles
 WHERE ein = '123456789';
--- Includes: openness_score, repeat_rate, geographic_focus, sector_focus
 ```
-
----
-
-## Table Counts (as of 2025-12-16)
-
-| Table | Records |
-|-------|---------|
-| dim_foundations | 143,184 |
-| fact_grants | 8,310,650 |
-| grant_embeddings | 8,310,431 |
-| nonprofit_returns | 2,953,274 |
-| prospects | 73,836 |
-| dim_recipients | 263,895 |
 
 ---
 
@@ -133,10 +107,14 @@ WHERE ein = '123456789';
 | Error | Cause | Fix |
 |-------|-------|-----|
 | Column not found: filer_ein | Wrong table | Use `foundation_ein` in fact_grants |
-| UNIQUE constraint on filename | Duplicate XML | Check processed_xml_files first |
-| NULL purpose text (0%) | Wrong XPath | Use `GrantOrContributionPurposeTxt` |
-| Connection refused | PostgreSQL not running | Run `brew services start postgresql` |
+| Column not found: purpose | Wrong table | Use `purpose_text` in fact_grants |
+| Column not found: mission_statement | Wrong column | Use `mission_text` in dim_clients |
+| UNIQUE constraint on filename | Duplicate XML | Check stg_processed_xml_files first |
+| NULL purpose text | Wrong XPath | Use `GrantOrContributionPurposeTxt` |
+| Connection refused | PostgreSQL not running | `brew services start postgresql` |
+| MCP "aborted" state | SQL error in prior query | Use psql via Bash for multi-query research |
+| MCP "Only SELECT" | SQL comments (--) | Remove comments from queries |
 
 ---
 
-*See CLAUDE.md for quick reference. See SCHEMA_SUMMARY.md for full schema documentation.*
+*For full schema: `rules/schema.md`. For column details: `2. Docs/data-dictionary.md`.*
