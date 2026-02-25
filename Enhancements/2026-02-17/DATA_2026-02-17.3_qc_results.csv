@@ -1,0 +1,21 @@
+prospect_ein,contact_email,template_used,passed,checks,subject_line
+201334546,info@mcallenedc.org,A,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: count=75 | OK: subject present,Private funders for community improvement in Texas
+954422640,contact@schoolonwheels.org,A,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: count=75 | OK: subject present,Private funders for education in California
+131677400,comcoor@cda1890.org,A,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: count=75 | OK: subject present,Private funders for arts and culture in New York
+852409722,info@lindabenfoundation.org,A,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: count=75 | OK: subject present,Private funders for human services in Maryland
+430652636,jeffersonj@gasastl.org,A,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: count=75 | OK: subject present,Private funders for human services in Missouri
+231352617,info@asor.org,A,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: count=60 | OK: subject present,Private funders for social science research in Virginia
+752198418,info@cowtownmarathon.org,A,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: count=75 | OK: subject present,Private funders for recreation in Texas
+440656877,LyceumTheatre@LyceumTheatre.org,A,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: count=75 | OK: subject present,Private funders for arts and culture in Missouri
+753166533,info@thesummitprep.org,A,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: count=75 | OK: subject present,Private funders for education in Missouri
+815257039,Communications@PhalenAcademies.org,A,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: count=75 | OK: subject present,Private funders for education in Ohio
+853477757,info@rcwpri.org,C,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: mission_short present | OK: subject present,Foundation funding for Residential Construction Workforce
+853300505,info@frontporcharts.org,C,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: mission_short present | OK: subject present,Foundation funding for Front Porch Arts Collective
+631106040,ccranford@betterbasics.org,C,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: mission_short present | OK: subject present,Foundation funding for Better Basics
+454394892,newsite26@vultr.guest,C,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: mission_short present | OK: subject present,Foundation funding for Alpha Charter of Excellence
+271010441,info@tampabayedc.com,C,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: mission_short present | OK: subject present,Foundation funding for Tampa Hillsborough Economic Development
+161005743,bsgvp@brockport.edu,C,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: mission_short present | OK: subject present,Foundation funding for Brockport Student Government
+742942646,info@texasibschools.org,C,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: mission_short present | OK: subject present,Foundation funding for Texas International Baccalaureate Schools Tibs
+200379279,info@lincolnvillage.org,C,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: mission_short present | OK: subject present,Foundation funding for Lincoln Village Preservation Corporation
+061053241,PlayerDevelopment@YaleYouthHockey.com,C,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: mission_short present | OK: subject present,Foundation funding for Yale Youth Hockey Association
+850411367,lisa.runyan@goevans.com,C,PASS,OK: real name | OK: no broken merges | OK: no em dashes | OK: mission_short present | OK: subject present,Foundation funding for New Mexico Association of Soil and Water Conservat

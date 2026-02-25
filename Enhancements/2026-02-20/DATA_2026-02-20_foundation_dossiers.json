@@ -1,0 +1,1330 @@
+[
+  {
+    "ein": "954560243",
+    "name": "Foundation for Global Sports Development",
+    "website": "https://globalsportsdevelopment.org",
+    "eligibility": {
+      "who_can_apply": "501(c)(3) organizations across the United States and international partners advancing health, education, and equity through fitness, public health, and enrichment programs. Previous BOOST athlete grant required US citizenship and individual athlete status (that program is closed).",
+      "who_cannot_apply": "No explicit exclusions stated for org-type. The closed BOOST athlete grant excluded previous GSD award recipients and Classroom Champions mentors.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "The grantmaking page states GSD is 'proud to support 501(c)(3) organizations across the United States' without specifying 'public charity.' VetsBoats is a 501(c)(3) private foundation and technically meets this literal standard. However, no current open grant program was found on the website \u2014 the BOOST athlete grant (2020-2021) is closed and grantmaking appears to be by discretion rather than open application.",
+      "geographic_restrictions": "Primarily US; international grants also made (Agitos Foundation, ITTF Foundation). No specific state restrictions.",
+      "org_type_requirements": "501(c)(3) organizations; international partners also funded via expenditure responsibility",
+      "budget_requirements": "None stated",
+      "other_requirements": "No active open grant application process found. Current grantmaking appears discretionary/invitation-based."
+    },
+    "application": {
+      "process": "UNKNOWN",
+      "process_description": "No active open grant application process was found on the website as of the crawl date. The BOOST2020 Athlete Grant Program is closed. The grantmaking page describes their philosophy but provides no application portal or instructions for organizations seeking grants. Past grants to organizations appear to have been made through direct relationships or discretionary giving.",
+      "portal_url": null,
+      "guidelines_url": "https://globalsportsdevelopment.org/programs/grant/",
+      "deadlines": "None found \u2014 no active cycle",
+      "materials_required": "Unknown \u2014 no application instructions for org grants"
+    },
+    "funding": {
+      "focus_areas": [
+        "Adaptive sports and Paralympic programs",
+        "Youth development through sport",
+        "Health equity and fitness",
+        "Education and enrichment",
+        "Veteran therapeutic programs",
+        "Sexual abuse prevention in sport",
+        "Documentary films about sport and social issues"
+      ],
+      "grant_size_range": "pf_grants show $6,000\u2013$50,000; top_grants show up to $250,000 for major partners",
+      "geographic_focus": "Primarily national US; international grants given to organizations like Agitos Foundation, ITTF Foundation via expenditure responsibility",
+      "veteran_relevance": "HIGH \u2014 pf_grants include Hearts and Horses 'Therapeutic Riding Program for Veterans' ($17,000 x2, 2020 and 2022) and 'Changing Leads Therapeutic Riding Program' ($15,000\u2013$17,000). Agitos Foundation supports Paralympic movement including veteran para-athletes.",
+      "adaptive_recreation_relevance": "HIGH \u2014 Agitos Foundation (International Paralympic Committee's development arm) funded at $200,000 level. Hearts and Horses therapeutic riding. BOOST program included para alpine skiing and Paralympic snowboarding recipients. Positive All The Way documentary explores adaptive sport."
+    },
+    "contacts": {
+      "primary_contact": "Not listed on website",
+      "email": "Not found on website (contact form only)",
+      "phone": "Not found",
+      "address": "Not listed on website"
+    },
+    "vetsboats_verdict": {
+      "verdict": "WEAK_FIT",
+      "confidence": "MEDIUM",
+      "key_quote": "The Foundation for Global Sports Development is proud to support 501(c)(3) organizations across the United States \u2014 and international partners \u2014 that are advancing health, education, and equity through fitness, public health, and enrichment programs.",
+      "reasoning": "The mission alignment is genuinely strong \u2014 GSD has a track record of funding adaptive sports (Agitos Foundation, Hearts and Horses therapeutic riding for veterans) and the PF eligibility question is technically unresolved (says '501(c)(3)' without specifying 'public charity'). However, there is no active open grant program for organizations on the website; all current grantmaking appears to be discretionary or by invitation. VetsBoats would need a warm introduction or to wait for a future grant cycle to open.",
+      "recommended_action": "Do not apply cold \u2014 no application process exists. Research GSD's board members and staff for network connections to VetsBoats leadership or the SF Bay sailing community. If a connection is found, request an introduction. Monitor the website for any future grant cycle announcements."
+    },
+    "key_urls": {
+      "application_page": null,
+      "eligibility_page": "https://globalsportsdevelopment.org/programs/grant/",
+      "guidelines_page": "https://globalsportsdevelopment.org/programs/grant/",
+      "grant_list_page": "https://globalsportsdevelopment.org/2021-boost-athlete-grant/",
+      "contact_page": "https://globalsportsdevelopment.org (contact form in nav)"
+    },
+    "website_grantees_mentioned": [
+      "Hearts and Horses (therapeutic riding, Colorado)",
+      "LA84 Foundation (California)",
+      "Sonoma County Vintners Foundation (California)",
+      "Agitos Foundation (International Paralympic Committee development arm)",
+      "ITTF Foundation (International Table Tennis)",
+      "International Tennis Federation",
+      "End Well Foundation (California)",
+      "Healthcare Foundation (California)",
+      "SCOPA Has a Dream (California)",
+      "The Healdsburg School (California)",
+      "Oregon Health & Science University",
+      "Child USA (Pennsylvania)",
+      "Childhelp (Courage First partner)",
+      "Challenged Athletes Foundation (mentioned in press)"
+    ]
+  },
+  {
+    "ein": "942797249",
+    "name": "Charles H Stout Foundation",
+    "website": "https://www.chstoutfoundation.org",
+    "eligibility": {
+      "who_can_apply": "Organizations that have been granted federal tax-exempt status under section 501(c)(3) of the Internal Revenue Code. Organizations that were actively supported by Charles H. Stout during his lifetime, or that promote values treasured by the founder. Preference given to organizations with low administrative and overhead costs, and organizations in geographic localities where foundation trustees reside or visit frequently.",
+      "who_cannot_apply": "Institutions that do not have tax-exempt status from the Federal and applicable state government. Organizations that discriminate by race, ethnic origin, gender or creed. Applications for loans to individuals or organizations. Applications that do not comply with stated procedures. No exclusion of private foundations stated.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "The foundation states 'Grants shall be made only to organizations which have been granted federal tax-exempt status under section 501(c)(3) of the Internal Revenue Code.' This language does not distinguish between public charities and private foundations \u2014 both are 501(c)(3) entities. The 'What will NOT be Considered' section does not exclude private foundations. Additionally, the pf_grants data shows the foundation has funded Waves Project Inc (a CA nonprofit serving disabled veterans through scuba diving) four separate times across 2018\u20132023, suggesting comfort with small, mission-specific nonprofits in the veteran adaptive recreation space.",
+      "geographic_restrictions": "Preference given to organizations in geographic localities where trustees reside or visit frequently. Trustees are located in: Houston TX, Las Vegas NV, London UK, Murrieta CA, and Las Vegas NV. California connection is present via Christopher H. Stout (Murrieta, CA). No hard geographic exclusion.",
+      "org_type_requirements": "501(c)(3) tax-exempt status required. No public charity vs. private foundation distinction made.",
+      "budget_requirements": "Preference for low administrative and overhead costs. No explicit minimum or maximum budget stated.",
+      "other_requirements": "Capital improvement requests considered. Pledge/annual/continuing grants only in unusual circumstances \u2014 one-time grants preferred. Organization must avoid adding Foundation to generic mailing lists."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Online application via the foundation's website. New applicants must create an account by clicking 'Sign In.' Applications for FY2027 grants are open January 1, 2026 through June 15, 2026. Approved grants are dispersed January 1, 2027 through June 30, 2027. All applications and correspondence handled via the website and email.",
+      "portal_url": "https://www.chstoutfoundation.org (Sign In button)",
+      "guidelines_url": "https://www.chstoutfoundation.org",
+      "deadlines": "June 15, 2026 (for FY2027 grants). Window opened January 1, 2026.",
+      "materials_required": "Application submitted through online portal. No specific document checklist listed on public website \u2014 likely requested through portal after account creation."
+    },
+    "funding": {
+      "focus_areas": [
+        "Charitable, scientific, literary, educational, and religious purposes",
+        "Prevention of child abuse and cruelty to animals",
+        "Education and scholarships",
+        "Historical and cultural preservation",
+        "Veterans and adaptive recreation",
+        "Humanitarian aid and refugee support",
+        "Health and science research"
+      ],
+      "grant_size_range": "pf_grants (directly relevant small grants): $3,000\u2013$50,000. top_grants show range of $30,000\u2013$55,000 for larger institutional grants.",
+      "geographic_focus": "No hard geographic restriction. Trustees in Houston TX, Las Vegas NV, Murrieta CA, London UK. California-based organizations funded (University of SF, Scripps Institution of Oceanography, Safe Parking LA, Ebell Friends, Waves Project). San Francisco Bay Area connection plausible.",
+      "veteran_relevance": "VERY HIGH \u2014 pf_grants show Waves Project Inc funded 4 times specifically for disabled veteran aquatic programs: 'Vitamin Sea Therapy for Veterans' ($5,000, 2023), 'Diving Vet' ($3,000, 2021), 'Mission Oriented Diving for Wounded' ($3,416, 2019), 'Disabled Veteran Scuba Diving Training' ($3,500, 2018). This is the single closest analog to VetsBoats in the entire grant history.",
+      "adaptive_recreation_relevance": "VERY HIGH \u2014 Waves Project is an adaptive scuba diving program for disabled veterans, directly parallel to VetsBoats' adaptive sailing program for disabled veterans. The foundation has funded this mission profile repeatedly for 5+ years."
+    },
+    "contacts": {
+      "primary_contact": "Richard M. Stout, President & Trustee (Houston, Texas)",
+      "email": "Available through website contact form",
+      "phone": "Not listed",
+      "address": "Not listed (website only)"
+    },
+    "vetsboats_verdict": {
+      "verdict": "STRONG_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Waves Project Inc \u2014 'Vitamin Sea Therapy for Veterans' $5,000 (2023); 'Mission Oriented Diving for Wounded' $3,416 (2019); 'Disabled Veteran Scuba Diving Training' $3,500 (2018) \u2014 funded 4 separate times",
+      "reasoning": "The Stout Foundation has funded Waves Project Inc \u2014 an adaptive aquatic therapy program for disabled veterans \u2014 four separate times over five years (2018\u20132023). VetsBoats' mission (adaptive sailing on SF Bay for disabled military veterans) is nearly identical in mission profile to Waves Project (adaptive scuba diving for wounded veterans). The foundation's PF language is silent on the public charity distinction, application is open through June 15, 2026, and California organizations are in their funding history. This is the strongest analog match in the batch.",
+      "recommended_action": "Apply before June 15, 2026 deadline. Create account at chstoutfoundation.org. In the application, explicitly draw the parallel to Waves Project as a comparable organization the foundation has supported. Emphasize low overhead, focus on disabled veterans, California location. Request $5,000\u2013$10,000 aligned with their historical giving to Waves Project."
+    },
+    "key_urls": {
+      "application_page": "https://www.chstoutfoundation.org (Sign In / account creation)",
+      "eligibility_page": "https://www.chstoutfoundation.org",
+      "guidelines_page": "https://www.chstoutfoundation.org",
+      "grant_list_page": null,
+      "contact_page": "https://www.chstoutfoundation.org"
+    },
+    "website_grantees_mentioned": [
+      "No specific grantees listed on the public website \u2014 all content is on the application portal side"
+    ]
+  },
+  {
+    "ein": "366068724",
+    "name": "Dr Scholl Foundation",
+    "website": "https://www.drschollfoundation.com",
+    "eligibility": {
+      "who_can_apply": "Organizations with a valid IRS 501(c)(3) determination letter that can provide at least 3 years of financial activity. Focus areas: Education, Social Service, Healthcare, Civic and Cultural, Environmental. Average grants $5,000\u2013$25,000.",
+      "who_cannot_apply": "Organizations without a valid IRS 501(c)(3) determination letter. Organizations with fewer than 3 years of financial activity. Political organizations and PACs. FOUNDATIONS THAT ARE THEMSELVES GRANTMAKING BODIES. Individuals. Endowments or capital campaigns (rarely). Event sponsorships. Government organizations (rarely). More than one request per grant cycle.",
+      "pf_eligible": "NO",
+      "pf_evidence": "The Limitations section states explicitly: 'Foundations that are themselves grantmaking bodies' are excluded from funding consideration. VetsBoats is a private foundation (990-PF filer) and by definition is a grantmaking body. This is an absolute disqualifying exclusion.",
+      "geographic_restrictions": "Primarily US. Non-US grants given to organizations where directors have direct knowledge. No US state restrictions. Based in Northbrook, Illinois.",
+      "org_type_requirements": "Valid IRS 501(c)(3) determination letter required. Private foundations explicitly excluded as a category.",
+      "budget_requirements": "At least 3 years of financial activity required.",
+      "other_requirements": "One application per grant cycle. Grants are for one year only (no multi-year). LOI required before full application."
+    },
+    "application": {
+      "process": "LOI",
+      "process_description": "Two-stage process: (1) LOI submitted via online portal between October 1 and January 31. If invited, (2) full application due March 1 at 4:00 p.m. CST. Portal opens annually on October 1. Staff cannot help choose programs. Account portal used for status tracking and final reports.",
+      "portal_url": "https://www.drschollfoundation.com (login portal referenced in FAQs)",
+      "guidelines_url": "https://www.drschollfoundation.com/application-procedures/preferences-limitations/",
+      "deadlines": "LOI deadline: January 31 (at 4:00 p.m. CST). Full application deadline: March 1. Decisions communicated mid-October.",
+      "materials_required": "LOI via online portal. Full application if invited. Final reports due December 1 for prior-year grantees."
+    },
+    "funding": {
+      "focus_areas": [
+        "Education",
+        "Social Service",
+        "Healthcare",
+        "Civic and Cultural",
+        "Environmental",
+        "Scientific research (University of Notre Dame, Weizmann Institute)",
+        "Humanitarian aid"
+      ],
+      "grant_size_range": "$5,000\u2013$25,000 on average per FAQ. Largest grants in database reach $1,000,000 (Trust for the National Mall).",
+      "geographic_focus": "Primarily US but national scope. Strong connection to Illinois (Notre Dame, Rosalind Franklin University, BUILD Inc, Weizmann Committee in IL). No California-focused giving evident in grant history.",
+      "veteran_relevance": "LOW \u2014 No veteran-focused grants found in either top_grants or pf_grants history. Grant recipients skew toward universities, scientific research, museums, and major institutions.",
+      "adaptive_recreation_relevance": "LOW \u2014 No adaptive recreation grants found. No sports or recreation focus evident."
+    },
+    "contacts": {
+      "primary_contact": "Not named on website",
+      "email": "Not listed",
+      "phone": "(847) 559-7430",
+      "address": "Dr. Scholl Foundation, 1033 Skokie Boulevard, Suite 230, Northbrook, Illinois 60062"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Foundation does not consider the following for funding: Foundations that are themselves grantmaking bodies",
+      "reasoning": "VetsBoats is a private foundation (990-PF filer), which by IRS definition is a grantmaking body. The Dr. Scholl Foundation explicitly excludes 'Foundations that are themselves grantmaking bodies' from eligibility. This is an absolute hard disqualification with no ambiguity. Even setting aside this disqualification, VetsBoats' mission (adaptive sailing for veterans) has no precedent in Scholl's grant history, which is dominated by universities, scientific research institutions, and civic organizations in the Midwest.",
+      "recommended_action": "Do not apply. VetsBoats is explicitly ineligible as a private foundation. Remove from prospect list."
+    },
+    "key_urls": {
+      "application_page": "https://www.drschollfoundation.com/application-procedures/preferences-limitations/",
+      "eligibility_page": "https://www.drschollfoundation.com/application-procedures/preferences-limitations/",
+      "guidelines_page": "https://www.drschollfoundation.com/application-procedures/preferences-limitations/",
+      "grant_list_page": null,
+      "contact_page": "https://www.drschollfoundation.com/about-us/contact-us/"
+    },
+    "website_grantees_mentioned": [
+      "No grantees listed on public website"
+    ]
+  },
+  {
+    "ein": "946073084",
+    "name": "Henry Mayo Newhall Foundation",
+    "website": "https://www.newhallfoundation.org",
+    "eligibility": {
+      "who_can_apply": "Nonprofit, tax-exempt charitable institutions as defined under Section 501(c)(3) of the Internal Revenue Code. The word 'charitable institutions' implies public charity status is expected. New applicants or those not funded in the past 2+ years must schedule a conversation with staff before submitting.",
+      "who_cannot_apply": "Individuals (no grants, loans, or scholarships to individuals). Organizations without 501(c)(3) status. Unsolicited proposals will not be considered \u2014 must schedule staff conversation first.",
+      "pf_eligible": "NO",
+      "pf_evidence": "The Funding Guidelines state: 'The Foundation accepts grant proposals only from nonprofit, tax-exempt charitable institutions as defined under Section 501(c)(3) of the Internal Revenue Code.' The phrase 'charitable institutions' (as opposed to simply '501(c)(3) organizations') strongly implies public charity status, as private foundations are not typically described as 'charitable institutions' in grant guidelines. Furthermore, VetsBoats is ALREADY a known funder of this foundation (pf_grants show 'WOODEN BOATS FOR VETERANS FOUNDATION' received $15,000 in 2023 for 'TO PROVIDE VETERANS WITH SAILING OUTINGS AND LESSONS AS A WAY TO PROVIDE EMOTIONAL SUPPORT AND HEALING') \u2014 meaning Henry Mayo Newhall IS a prior funder and must be excluded per the known funders exclusion list.",
+      "geographic_restrictions": "Strictly limited to communities associated with Henry Mayo Newhall's career and legacy: San Francisco, Santa Clarita Valley (Los Angeles County), and Santa Maria Valley (central California). This is a hard geographic restriction.",
+      "org_type_requirements": "501(c)(3) charitable institutions. Language implies public charity status.",
+      "budget_requirements": "Grants typically $5,000\u2013$20,000 per year. Multi-year funding considered.",
+      "other_requirements": "Organizations not funded in 2+ years must schedule a staff conversation first. Unsolicited proposals not accepted. Proposals due March 15 and September 15."
+    },
+    "application": {
+      "process": "LOI",
+      "process_description": "Pre-application staff conversation required for new applicants or those not funded in 2+ years. Proposals submitted as two PDF files via email to info@newhallfoundation.org. No standard form. Proposals reviewed twice per year: due March 15 and September 15. One PDF (max 10 pages) covers cover letter, proposal, budgets, and IRS letter; a second PDF contains all other supporting materials.",
+      "portal_url": null,
+      "guidelines_url": "https://www.newhallfoundation.org/funding-guidelines.php",
+      "deadlines": "March 15 and September 15 (twice annually)",
+      "materials_required": "Cover letter, proposal narrative, project budget, organizational budget, copy of IRS tax exemption letter, audited financial statements (or 990 if unaudited), description of personnel, organizational history, list of other funders approached with amounts requested/received, measurable objectives."
+    },
+    "funding": {
+      "focus_areas": [
+        "Academic and cultural enrichment for children and youth",
+        "Agriculture, animal welfare, and conservation",
+        "College scholarship programs",
+        "Historical preservation",
+        "Outreach programs for the disadvantaged",
+        "Veteran support services",
+        "Arts and music education",
+        "Environmental education"
+      ],
+      "grant_size_range": "$5,000\u2013$173,000 (most in $15,000\u2013$50,000 range); some larger grants to schools for scholarship programs",
+      "geographic_focus": "STRICTLY: San Francisco, Santa Clarita Valley (LA County), and Santa Maria Valley (Santa Barbara/San Luis Obispo area). VetsBoats is in San Francisco, which is an eligible geography.",
+      "veteran_relevance": "HIGH \u2014 pf_grants confirm prior funding of 'Wooden Boats for Veterans Foundation' ($15,000, 2023) specifically for 'sailing outings and lessons' for veterans. Additional 2025 grant recipients include 'New Beginnings Counseling Center \u2014 housing assistance and support services for 275 low-income veterans and their families in the Santa Maria Valley' ($25,000) and 'Swords to Plowshares \u2014 case management and other services to low-income and homeless veterans in San Francisco' ($30,000).",
+      "adaptive_recreation_relevance": "HIGH \u2014 Direct prior funding of VetsBoats (Wooden Boats for Veterans Foundation) for sailing programs for veterans. 2025 grantees include NatureTrack Foundation providing nature field trips for wheelchair users."
+    },
+    "contacts": {
+      "primary_contact": "Foundation staff (name not listed on website)",
+      "email": "info@newhallfoundation.org",
+      "phone": "Not listed",
+      "address": "Not listed on website"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "WOODEN BOATS FOR VETERANS FOUNDATION \u2014 'To provide veterans with sailing outings and lessons as a way to provide emotional support and healing' \u2014 $15,000 (2023)",
+      "reasoning": "Henry Mayo Newhall Foundation is listed as a KNOWN FUNDER of VetsBoats and must be excluded from prospecting per client instructions. Beyond the exclusion, the foundation likely requires public charity status ('charitable institutions') and VetsBoats is a private foundation. Mission and geography alignment are otherwise excellent \u2014 SF is an eligible geography, prior funding of VetsBoats is confirmed, and the foundation actively funds veteran services in San Francisco. If VetsBoats' public charity status changes in the future, this would be a strong prospect.",
+      "recommended_action": "EXCLUDE \u2014 Henry Mayo Newhall Foundation is a confirmed known funder of VetsBoats. Remove from active prospect list. Do not contact or apply."
+    },
+    "key_urls": {
+      "application_page": "https://www.newhallfoundation.org/how-to-apply-for-grants.php",
+      "eligibility_page": "https://www.newhallfoundation.org/funding-guidelines.php",
+      "guidelines_page": "https://www.newhallfoundation.org/funding-guidelines.php",
+      "grant_list_page": "https://www.newhallfoundation.org/grant-recipients.php",
+      "contact_page": "https://www.newhallfoundation.org (email: info@newhallfoundation.org)"
+    },
+    "website_grantees_mentioned": [
+      "AAUW Santa Clarita Branch",
+      "Agape Village",
+      "ARTree Community Center",
+      "Boys and Girls Club of Santa Clara Valley",
+      "Boys and Girls Club of Santa Clarita Valley",
+      "Child and Family Center",
+      "College of the Canyons Foundation",
+      "Fillmore Unified School District",
+      "Gibbon Conservation Center",
+      "Hart Union School District",
+      "One Step a la Vez",
+      "Samuel Dixon Family Health Center",
+      "San Cayetano Elementary School",
+      "Santa Clarita Valley Education Foundation",
+      "Santa Clarita Valley Food Pantry",
+      "Santa Clarita Valley Youth Orchestra",
+      "Single Mothers Outreach of Santa Clarita",
+      "Boxtales Theater Company",
+      "Boys and Girls Clubs of Mid Central Coast",
+      "California Rangeland Trust",
+      "C.A.R.E.4Paws",
+      "Central Coast Rescue Mission",
+      "Children's Resource Network",
+      "Firebaugh High School",
+      "Firebaugh High School FFA",
+      "Food Bank of Santa Barbara County",
+      "Future Leaders of America",
+      "Good Samaritan Shelter",
+      "Healing Heroes through Horsemanship",
+      "Leading from Within",
+      "Mark Richardson CTE Center",
+      "NatureTrack Foundation",
+      "New Beginnings Counseling Center",
+      "OASIS",
+      "Planned Parenthood Central Coast",
+      "Santa Barbara Humane Society",
+      "Santa Barbara Maritime Museum",
+      "Santa Maria FFA",
+      "Santa Maria Joint Union High School District",
+      "Santa Maria Philharmonic",
+      "Santa Maria Valley Discovery Museum",
+      "Santa Maria Valley YMCA",
+      "SEEAG",
+      "Transitions Mental Health Association",
+      "Veggie Rescue",
+      "Access Institute",
+      "Call of the Sea",
+      "Community Music Center",
+      "Fort Mason Center for Arts & Culture",
+      "Gardens of Golden Gate Park",
+      "Gateway Public Schools",
+      "ICA Cristo Rey Academy",
+      "Life Learning Academy",
+      "Literacy for Environmental Justice",
+      "National AIDS Memorial",
+      "Outward Bound of California",
+      "San Francisco Opera Guild",
+      "SCRAP",
+      "Special Operations Finding Kids",
+      "Sprouts Chef Training",
+      "Swords to Plowshares",
+      "California 4-H Foundation",
+      "Dana Adobe Nipomo Amigos Inc",
+      "Point Blue Conservation Science",
+      "University of California Merced"
+    ]
+  },
+  {
+    "ein": "452713666",
+    "name": "Bob & Renee Parsons Foundation",
+    "website": "https://www.tbrpf.org",
+    "eligibility": {
+      "who_can_apply": "Organizations that: (1) are 501(c)(3) under IRS code, (2) provide a recent Form 990, (3) provide audited financial statements, (4) do charitable work within the state of Arizona, (5) do not discriminate based on race, religion, sexual orientation, gender identity, or immigration status, (6) have an annual budget of $1,000,000 or more, (7) have operated for at least three years, and (8) align with the Foundation's specific areas of focus.",
+      "who_cannot_apply": "Organizations outside Arizona, organizations with annual budgets under $1,000,000, organizations operating less than three years. Note: 'We are not currently seeking new proposals in the area of Military & First Responders.'",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Eligibility page states 'Be a 501(c)3 under IRS code' without specifying 'public charity.' Private foundations are 501(c)(3) organizations, so the requirement does not explicitly exclude PFs. However, the $1M+ budget requirement and Arizona-only geography make this moot for VetsBoats regardless.",
+      "geographic_restrictions": "Arizona only \u2014 'Do charitable work within the state of Arizona'",
+      "org_type_requirements": "501(c)(3) under IRS code; must provide Form 990 and audited financial statements",
+      "budget_requirements": "Annual budget of $1,000,000 or more",
+      "other_requirements": "Minimum 3 years of operation; alignment with focus areas; no discrimination policy required"
+    },
+    "application": {
+      "process": "LOI",
+      "process_description": "Four-step process: (1) Take a 10-question eligibility quiz online, (2) Submit a Letter of Interest with organization and project details, (3) Foundation conducts due diligence \u2014 if fit, responds within 30 days, (4) Invited applicants receive an email with a portal link to complete a formal grant application including proposal, audited financials, and organizational questionnaire.",
+      "portal_url": "https://tbrpf.org/grants/eligibility/",
+      "guidelines_url": "https://tbrpf.org/grants/eligibility/",
+      "deadlines": "No specific deadlines mentioned; rolling review with 30-day response window after LOI submission",
+      "materials_required": "Eligibility quiz, Letter of Interest, formal grant proposal, audited financial statements, organizational questionnaire covering leadership, vision/strategy, and financial health"
+    },
+    "funding": {
+      "focus_areas": [
+        "Youth & Education",
+        "Health & Home",
+        "Military & First Responders (currently CLOSED to new proposals)",
+        "American Dream (immigration/equity)"
+      ],
+      "grant_size_range": "$5,000 to $10,000,000+ (typical range $25,000-$2,500,000 based on grant history; major grants to Semper Fi Fund at $10M each year)",
+      "geographic_focus": "Primarily Arizona; some national and international grants in grant history (Semper Fi Fund CA, Team Rubicon CA, University of Baltimore MD)",
+      "veteran_relevance": "HIGH \u2014 Major funder of veteran causes including $10M/year to Semper Fi Fund for injured/critically ill military members, $1M+ to Headstrong Project for veteran mental health, MAPS grants for PTSD psychedelic therapy. However, Military & First Responders category is currently CLOSED to new proposals.",
+      "adaptive_recreation_relevance": "LOW \u2014 No evidence of adaptive recreation or sailing programs in grant history. Veteran giving is focused on financial assistance, mental health, and medical care."
+    },
+    "contacts": {
+      "primary_contact": "Not specified on website",
+      "email": "[email protected] (listed as general foundation email in footer)",
+      "phone": "Not found",
+      "address": "Not found on crawled pages (Arizona-based)"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "To be considered for a grant, an organization must: Have an annual budget of $1,000,000 or more... Do charitable work within the state of Arizona... Please Note: We are not currently seeking new proposals in the area of Military & First Responders.",
+      "reasoning": "Three independent disqualifiers exist: (1) VetsBoats has ~$200K annual budget, far below the $1M minimum requirement; (2) VetsBoats is in California, and the Foundation funds Arizona-only; (3) the Military & First Responders category is currently closed to new proposals. Even if VetsBoats met all other criteria, all three barriers would need to be resolved simultaneously.",
+      "recommended_action": "Do not apply. Monitor the Military & First Responders category for future reopening and reassess if VetsBoats grows its budget to $1M+, but the Arizona-only restriction is a permanent geographic barrier."
+    },
+    "key_urls": {
+      "application_page": "https://tbrpf.org/grants/eligibility/",
+      "eligibility_page": "https://tbrpf.org/grants/eligibility/",
+      "guidelines_page": "https://tbrpf.org/grants/eligibility/",
+      "grant_list_page": "https://tbrpf.org/grants/",
+      "contact_page": "Not found in crawled pages"
+    },
+    "website_grantees_mentioned": [
+      "Boys & Girls Club of The Valley (Phoenix, AZ)",
+      "New Pathways for Youth (Phoenix, AZ)",
+      "Armed Services YMCA Camp Pendleton (Camp Pendleton, CA)",
+      "Hualalai Ohana Foundation (Kailua Kona, HI)",
+      "Central Michigan University (Mt. Pleasant, MI)",
+      "One N Ten (Phoenix, AZ)",
+      "First Tee - Phoenix (Phoenix, AZ)",
+      "Zack Johnson Foundation (Cedar Rapids, IA)",
+      "Earn to Learn (Tucson, AZ)",
+      "Jobs for Arizona's Graduates (Phoenix, AZ)",
+      "Education Action Alliance (Phoenix, AZ)",
+      "Make-A-Wish Foundation of Arizona (Scottsdale, AZ)",
+      "McDowell Sonoran Conservancy (Scottsdale, AZ)",
+      "Boys & Girls Club of Greater Scottsdale (Scottsdale, AZ)",
+      "Elevate Phoenix (Phoenix, AZ)",
+      "National Center for Youth Law / FosterEd (Phoenix, AZ)",
+      "Free Arts for Abused Children of Arizona (Phoenix, AZ)",
+      "Arizona Friends of Foster Children Foundation (Phoenix, AZ)",
+      "Homeless Youth Connection (Phoenix, AZ)",
+      "Junior Achievement of Arizona (Tempe, AZ)",
+      "Girl Scouts Arizona Cactus-Pine Council (Phoenix, AZ)",
+      "Child Crisis Arizona (Mesa, AZ)",
+      "Arizona Legal Women and Youth Services (Phoenix, AZ)",
+      "Fresh Start Caring for Kids Foundation (Schaumburg, IL)",
+      "Semper Fi Fund / Semper Fi America's Fund (CA)",
+      "University of California Berkeley (CA)",
+      "Team Rubicon (CA)",
+      "Hawaii Island Humane Society (HI)",
+      "Barrow Neurological Foundation (AZ)",
+      "100 Club of Arizona (AZ)",
+      "Headstrong Project Inc (NY)",
+      "MAPS (CA)",
+      "University of Baltimore Foundation (Baltimore, MD)",
+      "Year Up (Phoenix, AZ)",
+      "ASU Foundation (Tempe, AZ)",
+      "Grand Canyon University (Phoenix, AZ)",
+      "GLSEN Inc / Arizona Chapter (Phoenix, AZ)",
+      "Rosie's House (Phoenix, AZ)",
+      "Read Better Be Better (Phoenix, AZ)",
+      "Kaboom! (Phoenix, AZ)",
+      "Aliento Education Fund (Gilbert, AZ)",
+      "TheDream.US (via Scholarship America)",
+      "Teach for America (Phoenix, AZ)"
+    ]
+  },
+  {
+    "ein": "203198081",
+    "name": "Stanley W Ekstrom Foundation",
+    "website": "https://www.swefoundation.org",
+    "eligibility": {
+      "who_can_apply": "UNKNOWN \u2014 website returned zero content during crawl (26 pages crawled, 0 characters retrieved). No eligibility information was accessible.",
+      "who_cannot_apply": "UNKNOWN \u2014 no website content available",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "No website content available to determine PF policy. However, grant history (pf_grants field) shows the foundation gave $300 to 'Sweet Geeks Foundation' (TX, 2022), which appears to be another foundation. This is weak evidence of PF eligibility given the very small amount. Grant history also shows giving to Armed Services YMCA Camp Pendleton ($120K, 2022), Pacific Youth Boating Association (yacht donation, $789K, 2018), and multiple medical/research institutions \u2014 all appearing to be public charities.",
+      "geographic_restrictions": "Likely California-focused based on grant history \u2014 18 of 20 top grants went to California recipients; two Nevada grants also present",
+      "org_type_requirements": "UNKNOWN \u2014 no website content",
+      "budget_requirements": "UNKNOWN \u2014 no website content",
+      "other_requirements": "UNKNOWN \u2014 no website content"
+    },
+    "application": {
+      "process": "UNKNOWN",
+      "process_description": "Website was inaccessible during crawl (0 characters retrieved across 26 pages). No application process information is available.",
+      "portal_url": "Not found",
+      "guidelines_url": "Not found",
+      "deadlines": "Unknown",
+      "materials_required": "Unknown"
+    },
+    "funding": {
+      "focus_areas": [
+        "Biomedical research and healthcare (City of Hope, Lundquist Institute, St Joseph Hospital, Children's Hospital LA)",
+        "Military / veteran support (Armed Services YMCA Camp Pendleton)",
+        "Maritime / boating (Pacific Youth Boating Association \u2014 major yacht donation)",
+        "Animal welfare (Pet Adoption Center of Orange County, Wildlife Waystation)",
+        "Education and cultural (MOB Museum, Cal Poly)",
+        "Jewish community services (Chabad Center for Jewish Life)",
+        "Children's welfare (Make-A-Wish Foundation)"
+      ],
+      "grant_size_range": "$300 to $789,000 (most grants appear in the $100,000-$350,000 range based on top 20 grants; typical appears to be $100K-$250K)",
+      "geographic_focus": "California-centric (Southern California focus \u2014 Orange County, LA area); occasional Nevada and Arizona grants",
+      "veteran_relevance": "MODERATE \u2014 Has given $120,000 to Armed Services YMCA Camp Pendleton specifically for military families' activities and services. This is the clearest veteran-related grant in history.",
+      "adaptive_recreation_relevance": "MODERATE \u2014 Donated a $789K 55-foot Fleming yacht to Pacific Youth Boating Association (CA) in 2018. This is a direct maritime/boating connection and shows interest in youth boating programs, though not specifically veteran or adaptive contexts."
+    },
+    "contacts": {
+      "primary_contact": "Not found \u2014 website inaccessible",
+      "email": "Not found",
+      "phone": "Not found",
+      "address": "Not found"
+    },
+    "vetsboats_verdict": {
+      "verdict": "POSSIBLE_FIT",
+      "confidence": "LOW",
+      "key_quote": "DONATION OF 2002 55' FLEMING YACHT. BOOK VALUE OF $690,375. FAIR MARKET VALUE OF $789,000 PER APPRAISAL. GIFTED ON 7/10/18. [to Pacific Youth Boating Association, CA]",
+      "reasoning": "The foundation's grant history reveals two relevant signals: a major maritime donation (yacht to a CA youth boating association) and a military families grant (YMCA Camp Pendleton). VetsBoats combines both maritime and veteran programming in California, which is the foundation's primary geography. However, the website was completely inaccessible, so eligibility requirements, application process, and PF policy are entirely unknown \u2014 this is the fundamental risk.",
+      "recommended_action": "Research further before approaching. Call or email the foundation directly to inquire about application process and whether they accept proposals from private foundations. Check IRS Form 990 for fiscal year 2022-2023 to find officer contacts and any application information in Part XV. The yacht donation to Pacific Youth Boating Association is a strong conversation anchor \u2014 VetsBoats could frame itself as the veteran-focused evolution of that type of program."
+    },
+    "key_urls": {
+      "application_page": "Not found \u2014 website inaccessible",
+      "eligibility_page": "Not found \u2014 website inaccessible",
+      "guidelines_page": "Not found \u2014 website inaccessible",
+      "grant_list_page": "Not found \u2014 website inaccessible",
+      "contact_page": "Not found \u2014 website inaccessible"
+    },
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "843123162",
+    "name": "LB Charitable Foundation",
+    "website": "https://lbcharitablefoundation.org",
+    "eligibility": {
+      "who_can_apply": "Non-profit organizations providing human and health services, homeless shelters, military veteran support, religious causes, humane societies, sex/human trafficking services, and victims of crimes and calamities. Website says 'To provide financial support to non-profit organizations' broadly.",
+      "who_cannot_apply": "Not explicitly stated. No exclusions mentioned on website. No private foundation exclusion found.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Website says 'non-profit organizations' without specifying public charity status. The foundation's own pf_grants history shows grants to: 'New Life' ($100K, VA, 2021), 'JIR Foundation' ($20K-$30K, CA, 2021-2022), 'St Alexius Foundation' ($10K, CA, 2022), 'Indian Hills Christian Camp' ($35K, CA, 2022) \u2014 at least two of these ('JIR Foundation' and 'St Alexius Foundation') appear to be other foundations rather than public charities, suggesting the foundation does not categorically exclude other foundation-type entities. However, this is inferred from grant names, not confirmed.",
+      "geographic_restrictions": "Not explicitly stated. Grant history shows California as primary focus (San Diego area) with some Virginia and Hawaii grants. Website mentions 'starting locally and expanding globally' suggesting the foundation is open beyond a single geography but has local roots.",
+      "org_type_requirements": "Stated as 'non-profit organizations' \u2014 no specific 501(c)(3) or public charity language",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Must align with focus areas (homeless, disabled veterans, cancer research, animal shelters, drug rehab, gun violence victims, Christian ministry). Application requires completion of Initial Funding Request Form or Returning Grantee Application Form."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Open application process via web forms. Two forms available: an 'Initial Funding Request Form' for new applicants and a 'Returning Grantee Application Form' for previous recipients. Contact can also be made via email at grants@lbcharitablefoundation.org.",
+      "portal_url": "https://lbcharitablefoundation.org (Grant Seekers section \u2014 specific form URLs not captured in crawl)",
+      "guidelines_url": "https://lbcharitablefoundation.org",
+      "deadlines": "Not mentioned \u2014 appears to be rolling/open",
+      "materials_required": "Initial Funding Request Form (contents not specified in crawled content)"
+    },
+    "funding": {
+      "focus_areas": [
+        "Cancer patients and cancer research",
+        "Homeless individuals and community shelters",
+        "Disabled veterans and military veteran aid",
+        "Natural disaster relief and rebuilding",
+        "Substance abuse rehabilitation",
+        "Gang and gun violence victims (youth focus)",
+        "Christian ministries and outreach",
+        "Local humane societies and animal shelters",
+        "Sex trafficking and human trafficking victims"
+      ],
+      "grant_size_range": "$10,000 to $100,000 (based on grant history; majority of grants are $25,000-$100,000; very few exceed $100,000)",
+      "geographic_focus": "Southern California (San Diego area) as primary focus based on grant history; also Virginia, Hawaii, and Florida grantees observed \u2014 appears flexible geographically",
+      "veteran_relevance": "HIGH \u2014 Explicitly lists 'disabled veterans' and 'military veterans' as a focus area. Website states: 'We never want to take our freedom for granted and especially not to forget the sacrifice that was and is made everyday to protect our freedom. We want to help to make the transition from soldier to civilian a little easier.' Grant history shows Warriors Rest (OK, $50K) and other veteran-adjacent organizations.",
+      "adaptive_recreation_relevance": "LOW-MODERATE \u2014 No specific adaptive recreation or sailing grants found in history. Focus on veterans is primarily around housing transition, shelter, and general aid rather than recreational therapy. However, adaptive sailing as a means of veteran rehabilitation and dignity could resonate with stated mission of 'uplifting and aiding veterans... to make them feel appreciated and never forgotten.'"
+    },
+    "contacts": {
+      "primary_contact": "Not named on website",
+      "email": "grants@lbcharitablefoundation.org",
+      "phone": "Not found",
+      "address": "California-based (San Diego area inferred from grant history)"
+    },
+    "vetsboats_verdict": {
+      "verdict": "POSSIBLE_FIT",
+      "confidence": "MEDIUM",
+      "key_quote": "AID AND RELIEF TO DISABLED VETERANS \u2014 We never want to take our freedom for granted and especially not to forget the sacrifice that was and is made everyday to protect our freedom. We want to help to make the transition from soldier to civilian a little easier. Uplifting and aiding veterans of all walks of life and experience to make them feel appreciated and never forgotten.",
+      "reasoning": "LB Charitable Foundation explicitly funds disabled veterans as a named priority category, uses language that aligns with VetsBoats' mission of dignity and appreciation for veterans, and has an open application process with a direct email contact. The PF eligibility question is SILENT \u2014 the website says 'non-profit organizations' without explicitly requiring public charity status, and pf_grants history shows grants to entities with 'Foundation' in their name. The main risks are: (1) grant sizes ($10K-$100K) may be on the smaller end for VetsBoats' needs, (2) California/San Diego focus may not extend to San Francisco Bay Area, and (3) the Christian ministry orientation of the foundation may influence priority ranking.",
+      "recommended_action": "Email grants@lbcharitablefoundation.org with a brief initial inquiry before submitting the formal form. In the inquiry, state that VetsBoats is a private foundation (be transparent) and ask whether they accept applications from private foundations. If they confirm eligibility, complete the Initial Funding Request Form framing the program around veteran dignity, adaptive access, and the transition from service to civilian life. Request $25,000-$50,000 for program operations."
+    },
+    "key_urls": {
+      "application_page": "https://lbcharitablefoundation.org (Grant Seekers section)",
+      "eligibility_page": "Not a separate page \u2014 eligibility inferred from homepage mission statement",
+      "guidelines_page": "https://lbcharitablefoundation.org",
+      "grant_list_page": "https://lbcharitablefoundation.org (Past Recipients section \u2014 specific URL not captured)",
+      "contact_page": "https://lbcharitablefoundation.org (Contact Us section)"
+    },
+    "website_grantees_mentioned": [
+      "Cancer patients (general category)",
+      "Homeless individuals and shelters (general category)",
+      "Military veterans (general category)",
+      "Disaster victims (general category)",
+      "Substance abuse individuals (general category)",
+      "Gang and gun violence victims (general category)",
+      "Christian ministries (general category)",
+      "Humane societies and animal shelters (general category)",
+      "Sex and human trafficking victims (general category)"
+    ]
+  },
+  {
+    "ein": "941236937",
+    "name": "James Irvine Foundation",
+    "website": "https://www.irvine.org",
+    "eligibility": {
+      "who_can_apply": "The foundation does not accept unsolicited applications. Grantmaking is structured into initiatives with specific goals and timelines. Organizations must be working on low-income worker economic advancement in California.",
+      "who_cannot_apply": "Anyone submitting unsolicited inquiries \u2014 the website states explicitly: 'We are not accepting unsolicited inquiries for our initiatives or current grantmaking at this time.'",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "The website makes no mention of 501(c)(3) public charity requirements or private foundation exclusions. Grant history includes grants to Rockefeller Philanthropy Advisors (a public charity), Tides Center, and various community foundations \u2014 all public charities. However, pf_grants data shows grants to College Futures Foundation (a public charity/operating foundation) and other entities. No explicit PF bar found, but given closed/invite-only nature, the question is moot.",
+      "geographic_restrictions": "California only. The foundation's stated mission is 'a California where all low-income workers have the power to advance economically.'",
+      "org_type_requirements": "Not stated explicitly. The foundation is invite-only with initiative-based grantmaking.",
+      "budget_requirements": "Not stated. Grants range from $1,950 to $18M; most are $1M+, suggesting large-budget organizations are preferred.",
+      "other_requirements": "Organizations must align with one of the four active initiatives: Better Careers, Fair Work, Just Prosperity, Priority Communities. Also: Housing Affordability, Leadership Awards, and Exploratory Grantmaking as additional grantmaking areas."
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "The foundation does not accept unsolicited inquiries. All grantmaking is initiative-based with specific goals, budgets, and timelines. Organizations are engaged as part of the foundation's strategy rather than through open applications.",
+      "portal_url": "https://www.irvine.org/grants-portal (for existing grantees only)",
+      "guidelines_url": "https://www.irvine.org/our-grants/grantseekers/",
+      "deadlines": "None stated \u2014 grantmaking is ongoing and initiative-driven, not cycle-based.",
+      "materials_required": "Not applicable \u2014 unsolicited applications not accepted. Existing grantees submit reports and financial statements through the grants portal."
+    },
+    "funding": {
+      "focus_areas": [
+        "Workforce development / Better Careers",
+        "Worker rights and fairness / Fair Work",
+        "Economic justice / Just Prosperity",
+        "Priority Communities (geographic equity)",
+        "Housing Affordability",
+        "Leadership development"
+      ],
+      "grant_size_range": "Observed range: $1,950 to $18,085,000. Typical large grants are $1M\u2013$15M. Very small grants appear to be anomalies.",
+      "geographic_focus": "California only. No out-of-state grantees in observed recent history.",
+      "veteran_relevance": "None. The foundation's entire focus is on low-income worker economic advancement. Veteran programs are not mentioned anywhere on the site.",
+      "adaptive_recreation_relevance": "None. Recreation, sports, sailing, or adaptive programming are not within the foundation's scope."
+    },
+    "contacts": {
+      "primary_contact": "Grants Administration Team",
+      "email": "GrantsAdmin@irvine.org",
+      "phone": "Not found",
+      "address": "Not found on crawled pages"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "We are not accepting unsolicited inquiries for our initiatives or current grantmaking at this time.",
+      "reasoning": "The James Irvine Foundation does not accept unsolicited applications under any circumstances \u2014 grantmaking is entirely initiative-driven and invite-only. Even if VetsBoats could apply, the foundation's singular focus is on low-income worker economic advancement in California, with no intersection with veteran services, adaptive recreation, sailing, or disability programming. Geographic fit (California) is the only positive factor, but it is entirely outweighed by the closed application process and mission mismatch.",
+      "recommended_action": "Do not pursue. This foundation is closed to unsolicited applications and the mission is entirely misaligned. Remove from prospect list."
+    },
+    "key_urls": {
+      "application_page": "https://www.irvine.org/our-grants/grantseekers/",
+      "eligibility_page": "https://www.irvine.org/our-grants/grantseekers/",
+      "guidelines_page": "https://www.irvine.org/our-grants/grantseekers/",
+      "grant_list_page": "https://www.irvine.org/about-us/past-grantmaking/",
+      "contact_page": "https://www.irvine.org/contact/"
+    },
+    "website_grantees_mentioned": [
+      "Rockefeller Philanthropy Advisors Inc",
+      "Tides Center",
+      "Sierra Health Foundation Center for Health Promotion",
+      "Central Valley Community Foundation",
+      "Inland Empire Community Foundation",
+      "Community Foundation of San Joaquin Inc",
+      "San Francisco Foundation",
+      "Regents of the University of California (Merced)",
+      "Amalgamated Charitable Foundation Inc",
+      "Reinvent Stockton Foundation",
+      "Latino Community Foundation",
+      "PowerSwitch Action",
+      "Silicon Valley Community Foundation",
+      "United Way Inc",
+      "Liberty Hill Foundation",
+      "Ventures",
+      "Housing California",
+      "College Futures Foundation"
+    ]
+  },
+  {
+    "ein": "526037034",
+    "name": "Harry and Jeanette Weinberg Foundation",
+    "website": "https://hjweinbergfoundation.org",
+    "eligibility": {
+      "who_can_apply": "Nonprofit organizations providing direct services to vulnerable populations in priority communities (Baltimore, Hawaii, Israel, New York City, Northeastern Pennsylvania, San Francisco Bay Area) and rural communities. Organizations must work in at least one focus area: Aging, Education, Health, Housing, or Jobs.",
+      "who_cannot_apply": "Not stated explicitly on crawled pages. The focus on 'direct service providers' and 'nonprofits' implies 501(c)(3) public charities; however, no explicit PF exclusion language was found in crawled pages.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "The website consistently refers to 'nonprofits' without specifying public charity status. Grant history data shows grants to several private foundations: McFarlan Charitable Corporation (MI, $375K), Michael Reese Health Trust (IL, $50K x2), Wood Family Foundation (IL, $50K), Foundation to Combat Anti-Semitism (MA, $36K), and Unbound Philanthropy (NY, $25K). These pf_grants entries are strong evidence that the Weinberg Foundation has previously funded private foundations, suggesting PF eligibility is plausible. However, these appear to be exceptional/relationship-driven grants, not typical program grants.",
+      "geographic_restrictions": "Priority communities: Baltimore, Hawaii, Israel, New York City, Northeastern Pennsylvania, San Francisco Bay Area (Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Solano, and Sonoma counties). Rural communities adjacent to priority areas are also eligible. VetsBoats in San Francisco falls within the SF priority community.",
+      "org_type_requirements": "Described as 'nonprofits' \u2014 public charity status implied but not explicitly required based on website language.",
+      "budget_requirements": "Not stated. Grant sizes range from small grants ($12M pool for 160 grants = ~$77K avg) up to $3.65M. Typical operating grants appear to be $50K\u2013$500K.",
+      "other_requirements": "Must focus on direct services to vulnerable populations. San Francisco grantmaking particularly interested in 'youth and family homelessness' and 'out-of-school time and/or college and career-preparedness programs.' Capital, program, and operating grants all available."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "The foundation has a Grant FAQ page and accepts applications. Specific application process details were not fully captured in the crawl, but the presence of 'Grant FAQ', 'How We Give', and 'Search Our Grants' sections indicates a structured application process. Contact appears to be through the foundation directly.",
+      "portal_url": "Not captured in crawl \u2014 check hjweinbergfoundation.org/grants/grant-faq/",
+      "guidelines_url": "https://hjweinbergfoundation.org/grants/how-we-give/",
+      "deadlines": "Not captured. Likely rolling or annual cycles \u2014 check Grant FAQ page.",
+      "materials_required": "Not captured from crawled pages. Likely includes narrative, budget, and organizational information based on standard foundation practice."
+    },
+    "funding": {
+      "focus_areas": [
+        "Aging / older adult services",
+        "Education (K-12, out-of-school time, college and career prep)",
+        "Health (FQHCs, behavioral health, dental)",
+        "Housing (affordable housing, homelessness)",
+        "Jobs / workforce development",
+        "Signature initiatives (collaborative, multi-funder)"
+      ],
+      "grant_size_range": "Small grants: ~$12K\u2013$100K. Program/operating: $50K\u2013$500K. Capital: $375K\u2013$3M+. Annual grantmaking approximately $90M\u2013$158M across all geographies.",
+      "geographic_focus": "Six priority communities: Baltimore, Hawaii, Israel, New York City, Northeastern Pennsylvania, San Francisco Bay Area. Also rural communities. San Francisco Bay Area (9-county region) is a confirmed priority community.",
+      "veteran_relevance": "Low. No veteran-specific programming mentioned anywhere on the website. The Jobs focus area funds workforce training for vulnerable populations including 'adults with disabilities,' which could potentially include disabled veterans, but there is no veteran focus.",
+      "adaptive_recreation_relevance": "Very low. Sports mentioned only in Baltimore Summer Funding Collaborative as 'enrichment, including sports.' No adaptive recreation, sailing, or disability-sport programming mentioned."
+    },
+    "contacts": {
+      "primary_contact": "Not named on crawled pages",
+      "email": "Not found on crawled pages",
+      "phone": "Maryland HQ: 410-654-8500 | Hawaii: 808-924-1000",
+      "address": "Maryland (HQ): 7 Park Center Court, Owings Mills, MD 21117 | Hawaii: 3660 Waialae Avenue, Suite 400, Honolulu, HI 96816"
+    },
+    "vetsboats_verdict": {
+      "verdict": "WEAK_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Foundation's grantmaking covers the entire Bay Area, including Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Solano, and Sonoma counties. All grants must align with the Foundation's focus areas: Housing, Health, Jobs, Education, and Community Services.",
+      "reasoning": "The Weinberg Foundation funds in San Francisco (VetsBoats' home geography), which is a positive signal. However, the foundation's SF focus is specifically on youth/family homelessness and out-of-school time programs \u2014 not veteran services, sailing, or adaptive recreation. VetsBoats' mission does not align with any of the five focus areas (Aging, Education, Health, Housing, Jobs). The private foundation eligibility question is also unresolved; while pf_grants data shows some historical grants to PFs, these appear to be exceptional cases. The fundamental mission mismatch makes this a weak fit regardless of geography.",
+      "recommended_action": "Do not prioritize. Mission alignment is poor (no veteran, adaptive recreation, or sailing focus). If pursuing, VetsBoats would need to frame adaptive sailing as a 'health' or 'human services' program for veterans with disabilities \u2014 a stretch. Check the Grant FAQ page (https://hjweinbergfoundation.org/grants/grant-faq/) for explicit PF eligibility language before any outreach."
+    },
+    "key_urls": {
+      "application_page": "https://hjweinbergfoundation.org/grants/grant-faq/",
+      "eligibility_page": "https://hjweinbergfoundation.org/grants/how-we-give/",
+      "guidelines_page": "https://hjweinbergfoundation.org/grants/how-we-give/",
+      "grant_list_page": "https://hjweinbergfoundation.org/grants/search-our-grants/",
+      "contact_page": "https://hjweinbergfoundation.org/contact-us/"
+    },
+    "website_grantees_mentioned": [
+      "American Jewish Joint Distribution Committee Inc",
+      "The Associated Jewish Community Federation of Baltimore",
+      "Goodwill Industries of Hawaii",
+      "Non-Profit Technology Enterprise Network",
+      "Health Care for the Homeless",
+      "Waimanalo Health Center",
+      "Catholic Relief Services Inc",
+      "Benefits Data Trust",
+      "UJA-Federation of New York",
+      "Henry Street Settlement",
+      "Reinvent Stockton Foundation",
+      "Advance Peace",
+      "Housing Accelerator Fund",
+      "McFarlan Charitable Corporation",
+      "Michael Reese Health Trust",
+      "Wood Family Foundation",
+      "Foundation to Combat Anti-Semitism Inc",
+      "Unbound Philanthropy"
+    ]
+  },
+  {
+    "ein": "956089998",
+    "name": "Ahmanson Foundation",
+    "website": "https://www.theahmansonfoundation.org",
+    "eligibility": {
+      "who_can_apply": "501(c)(3) public charity organizations, based in and serving Los Angeles County, that have been in operation for a minimum of 3-5 years and reflect established and stable leadership.",
+      "who_cannot_apply": "Private foundations (explicitly excluded by IRC sections 509(a)(1) or 509(a)(2) definition). Also excluded: individuals, religious organizations for sectarian purposes, organizations limiting services to one religious group, organizations engaged in lobbying or political activities.",
+      "pf_eligible": "NO",
+      "pf_evidence": "Explicit and unambiguous: 'The Foundation reviews funding requests from 501(c)(3) public charity organizations, based in and serving Los Angeles County, that are not private foundations as defined in sections 509(a)(1) or 509(a)(2) of the U.S. Internal Revenue Code.' VetsBoats is a private foundation \u2014 it is categorically ineligible.",
+      "geographic_restrictions": "Los Angeles County only. Organizations must be 'based in and serving Los Angeles County.' VetsBoats operates in San Francisco \u2014 a complete geographic disqualifier independent of PF status.",
+      "org_type_requirements": "Must be a 501(c)(3) public charity (not a private foundation). Must be classified under IRC 509(a)(1) or 509(a)(2). Must have been operating for 3-5 years minimum.",
+      "budget_requirements": "Not stated explicitly. Observed grants range from ~$82K to $12M, with most capital grants in the $1M\u2013$5M range. Capital campaigns must be 60-80% funded before applying.",
+      "other_requirements": "Organizations that submit requests regularly or annually receive less preference \u2014 the foundation prefers to consider requests that are 'one-time or short-term in nature.' Prior applicants must wait 12-18 months from last decision before reapplying. Re-granting purposes explicitly excluded. Pilot projects generally not funded. Annual campaigns/ongoing operational support generally not approved."
+    },
+    "application": {
+      "process": "LOI",
+      "process_description": "Two-stage process: (1) Submit a Letter of Inquiry (LOI) via the Foundation's online portal or by email PDF to the Grants Administrator. LOI must be 1-3 pages and include contact information, organizational narrative, current programs, operating budget, top five recent grants, and project description. (2) If invited, submit a full grant proposal.",
+      "portal_url": "https://theahmansonfoundation.org/grantee-portal/",
+      "guidelines_url": "https://theahmansonfoundation.org/funding-guidelines/",
+      "deadlines": "Not stated \u2014 appears to be rolling LOI submissions.",
+      "materials_required": "LOI stage: contact info, org narrative (1-3 pages), current programs description, operating budget, top 5 recent grants from foundations/corporations (last 2 fiscal years), project description, secured/pledged/pending funders, project budget attachment. Full proposal: formal grant application after LOI invitation."
+    },
+    "funding": {
+      "focus_areas": [
+        "Arts and Humanities",
+        "Education",
+        "Health and Medicine",
+        "Human Services"
+      ],
+      "grant_size_range": "Observed: $82K (Fountain Theatre) to $12M (Huntington Library art acquisition). Most capital grants range $1M\u2013$5M. Capital support is primary \u2014 construction, renovation, equipment, furnishings, technology.",
+      "geographic_focus": "Los Angeles County exclusively. All grantees must be based in and serve LA County.",
+      "veteran_relevance": "None. No veteran-specific programs, grants, or focus areas mentioned. Human Services focus area is general.",
+      "adaptive_recreation_relevance": "None. Sports and recreation not mentioned. One athletics-adjacent grant (Occidental College De Mandel Aquatics Center, $2.7M) and Polytechnic School land for athletic facilities ($2M) indicate capital support for educational athletics, not adaptive recreation or disability sports."
+    },
+    "contacts": {
+      "primary_contact": "Grants Administrator",
+      "email": "info@theahmansonfoundation.org (general); email link for LOI submission on letter-of-inquiry page",
+      "phone": "(310) 278-0770",
+      "address": "9215 Wilshire Boulevard, Beverly Hills, CA 90210"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Foundation reviews funding requests from 501(c)(3) public charity organizations, based in and serving Los Angeles County, that are not private foundations as defined in sections 509(a)(1) or 509(a)(2) of the U.S. Internal Revenue Code.",
+      "reasoning": "VetsBoats is disqualified on two independent and absolute grounds: (1) VetsBoats is a private foundation, and Ahmanson explicitly excludes private foundations by statute; (2) VetsBoats operates in San Francisco, and Ahmanson funds Los Angeles County organizations only. Either disqualifier alone would be fatal. Additionally, veteran adaptive sailing does not align with the Arts, Education, Health, or Human Services focus areas as Ahmanson defines them (capital-intensive LA County institutions).",
+      "recommended_action": "Remove from prospect list immediately. VetsBoats cannot apply under any circumstances \u2014 both the organization type (private foundation) and geography (San Francisco vs. Los Angeles County) are hard disqualifiers explicitly stated in Ahmanson's eligibility criteria."
+    },
+    "key_urls": {
+      "application_page": "https://theahmansonfoundation.org/letter-of-inquiry/",
+      "eligibility_page": "https://theahmansonfoundation.org/eligibility-limitations/",
+      "guidelines_page": "https://theahmansonfoundation.org/funding-guidelines/",
+      "grant_list_page": "https://theahmansonfoundation.org/grants-search/",
+      "contact_page": "https://theahmansonfoundation.org/contact-us/"
+    },
+    "website_grantees_mentioned": [
+      "Henry E. Huntington Library and Art Gallery",
+      "California Science Center Foundation",
+      "Union Rescue Mission",
+      "Joslyn Art Museum",
+      "Occidental College",
+      "Center Theatre Group of Los Angeles",
+      "Loyola High School of Los Angeles",
+      "Los Angeles County Museum of Natural History Foundation",
+      "Polytechnic School",
+      "The Shakespeare Center of LA Inc",
+      "Pasadena Hospital Association Ltd",
+      "The People Concern",
+      "Childrens Hospital Los Angeles",
+      "Dignity Community Care",
+      "Fountain Theatre"
+    ]
+  },
+  {
+    "ein": "201858883",
+    "name": "Trinka Davis Foundation",
+    "website": "https://www.trinkadavisfoundation.org",
+    "eligibility": {
+      "who_can_apply": "UNKNOWN \u2014 website returned 0 characters of content. No eligibility criteria could be extracted from the crawl.",
+      "who_cannot_apply": "UNKNOWN \u2014 no website content available.",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "No website content was crawled (0 chars across 26 pages). CRITICAL NOTE: The grant data shows the foundation transferred 100% of its assets ($3,547,934) to KATHARINE DAVIS FOUNDATION (another private foundation) in 2024, strongly suggesting the Trinka Davis Foundation has dissolved or wound down operations. No active grant program can be confirmed. Additionally, the base URL 'trinkadavisfoundation.org' may have returned empty/inaccessible pages \u2014 this is NOT the trinka.ai domain (which is a different AI tool company). The real foundation site appears to be defunct or inaccessible.",
+      "geographic_restrictions": "UNKNOWN \u2014 no website content. Historical grants were concentrated in Alabama and Illinois with some California activity.",
+      "org_type_requirements": "UNKNOWN \u2014 no website content.",
+      "budget_requirements": "UNKNOWN \u2014 no website content.",
+      "other_requirements": "UNKNOWN \u2014 no website content. IMPORTANT: Foundation may be dissolved; the 2024 transfer of 100% of assets to Katharine Davis Foundation is a strong dissolution signal."
+    },
+    "application": {
+      "process": "UNKNOWN",
+      "process_description": "No website content available. Foundation may no longer be accepting applications \u2014 the 2024 transfer of all assets to Katharine Davis Foundation suggests dissolution.",
+      "portal_url": null,
+      "guidelines_url": null,
+      "deadlines": "UNKNOWN \u2014 no active grant cycle can be confirmed.",
+      "materials_required": "UNKNOWN"
+    },
+    "funding": {
+      "focus_areas": [
+        "Veterans services (women veterans, disabled veterans, homeless veterans)",
+        "Legal/civic education (ABA programs)",
+        "Wildlife conservation (Birmingham Zoo)",
+        "Housing for veterans with disabilities"
+      ],
+      "grant_size_range": "Historical range: $25,000 to $125,000 (based on IRS data). Largest grant was $3,547,934 asset transfer to Katharine Davis Foundation in 2024.",
+      "geographic_focus": "Historical giving in Alabama (Birmingham Zoo), Illinois (National Women Veterans United, A Safe Haven), California (Wounded Warrior Homes). Foundation founder likely based in Alabama area.",
+      "veteran_relevance": "HIGH \u2014 Multiple grants directly to veteran-serving organizations: National Women Veterans United ($125K + multi-year), Wounded Warrior Homes CA ($100K multi-year), A Safe Haven (healthcare for homeless veterans), Women Veterans Interactive Inc.",
+      "adaptive_recreation_relevance": "LOW \u2014 No grants identified for adaptive recreation, sailing, or sports programs. Focus is on housing, healthcare, and advocacy for veterans."
+    },
+    "contacts": {
+      "primary_contact": "UNKNOWN \u2014 no website content extracted.",
+      "email": null,
+      "phone": null,
+      "address": "UNKNOWN \u2014 historically associated with Alabama based on grant recipients."
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "RECIPIENT OF 100% OF TRINKA DAVIS FOUNDATION'S ASSETS [transferred to Katharine Davis Foundation, 2024]",
+      "reasoning": "The Trinka Davis Foundation appears to have dissolved in 2024, transferring its entire asset base to the Katharine Davis Foundation. No website content is accessible, confirming no active grant program exists. Even if the foundation were active, VetsBoats as a private foundation (990-PF filer) would face eligibility barriers that could not be determined without website data.",
+      "recommended_action": "DO NOT PURSUE. Verify dissolution status via IRS EO Select Check or ProPublica Nonprofit Explorer. If Katharine Davis Foundation inherited the assets and mission, research that foundation separately as a potential prospect."
+    },
+    "key_urls": {
+      "application_page": null,
+      "eligibility_page": null,
+      "guidelines_page": null,
+      "grant_list_page": null,
+      "contact_page": null
+    },
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "844957804",
+    "name": "Rosendin Foundation",
+    "website": "https://www.therosendinfoundation.org",
+    "eligibility": {
+      "who_can_apply": "Non-profit organizations with 501(c)(3) charitable nonprofit status in good standing with the IRS and the Secretary of State of the state where the nonprofit provides services and seeks funding. Must submit 501(c)(3) determination letter, current board member list, and confirm good standing on GuideStar/Candid and Charity Navigator.",
+      "who_cannot_apply": "Organizations that discriminate based on protected characteristics; political candidates/organizations/lobbying; religious organization activities/capital expenditures; scientific research; individual school projects; re-granting programs; organizations seeking reimbursement for prior purchases; single grant requests greater than $100,000; multi-year or ongoing annual funding requests; fundraising event underwriting; organizations outside Rosendin and MPS geographic/office locations; organizations not in good standing with IRS and Secretary of State.",
+      "pf_eligible": "NO",
+      "pf_evidence": "The grants page states: 'Applicants must be in good standing with the IRS as a 501(c)(3) charitable nonprofit and in good standing with their state.' And: 'There are no exceptions to this policy, and no other types of tax-exempt organizations will be considered.' Furthermore, the exclusion of 're-granting programs' implies no pass-through funding. While the site says '501(c)(3)' without the words 'public charity,' the phrase 'charitable nonprofit' combined with 'no other types of tax-exempt organizations will be considered' effectively excludes private foundations, which are 501(c)(3) organizations but not 'charitable nonprofits' in the colloquial sense used by grantmakers. The Rosendin Foundation is itself a 501(c)(3) public charity, not a private foundation, and its grant history shows all grants to public charities.",
+      "geographic_restrictions": "Programs must operate within 100 miles of Rosendin & MPS office and project areas in: Alabama, Arizona, California, Colorado, District of Columbia, Hawaii, Idaho, Maryland, North Carolina, Nevada, Oregon, Tennessee, Texas, and Virginia. San Francisco Bay Area is within California coverage.",
+      "org_type_requirements": "501(c)(3) charitable nonprofit. Must be in good standing with IRS and relevant Secretary of State. Must submit tax determination letter. No other types of tax-exempt organizations accepted.",
+      "budget_requirements": "None explicitly stated, but maximum single grant is $50,000 (annual) or $5,000 (emergency). No minimum budget stated.",
+      "other_requirements": "Must submit: (1) 501(c)(3) determination letter, (2) current board member list, (3) confirmation of IRS good standing, state good standing, GuideStar/Candid rating, Charity Navigator rating. Current address must match determination letter or explanation letter required."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Online application portal. Annual grant cycle with committee review and board of directors final approval. Emergency grants available year-round for unplanned/unbudgeted needs under $5,000. Applicants notified approximately two weeks after board meeting by email.",
+      "portal_url": "https://www.therosendinfoundation.org/grants/",
+      "guidelines_url": "https://www.therosendinfoundation.org/grants/",
+      "deadlines": "Annual grants: May 29, 2026 (deadline). Awards made September 2026 (Q4 annually). Emergency grants: rolling basis.",
+      "materials_required": "Completed grant application, 501(c)(3) determination letter, current board member list. If affiliate of parent org, also need parent determination letter and affiliate confirmation letter."
+    },
+    "funding": {
+      "focus_areas": [
+        "Emotional health (mental health, connectedness, well-being)",
+        "Nutritional health (food insecurity, food banks)",
+        "Occupational health (workplace safety, injury prevention, employee education)"
+      ],
+      "grant_size_range": "Annual grants up to $50,000; Emergency grants up to $5,000. Historical grants show $15,000 to $50,000 range for annual awards.",
+      "geographic_focus": "National, within 100 miles of Rosendin/MPS offices in CA, AZ, NV, TX, VA, MD, NC, CO, DC, HI, ID, OR, TN, AL. California (including Bay Area/Silicon Valley) is explicitly covered.",
+      "veteran_relevance": "LOW \u2014 Focus areas are emotional, nutritional, and occupational health for general community, not veterans specifically. No veteran-focused grants identified in IRS history. The construction industry focus (Rosendin is an electrical contractor) means their occupational health interest is construction-worker-centric, not veteran-centric.",
+      "adaptive_recreation_relevance": "VERY LOW \u2014 No adaptive recreation, sailing, or sports programs in their focus areas. Mission is health-focused with construction industry ties."
+    },
+    "contacts": {
+      "primary_contact": "Not named on website. Grant decisions made by Rosendin Foundation Board of Directors.",
+      "email": "Not found on website.",
+      "phone": "Not found on website.",
+      "address": "Not explicitly listed. Parent company Rosendin Electric is headquartered in San Jose, CA."
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Applicants must be in good standing with the IRS as a 501(c)(3) charitable nonprofit and in good standing with their state. There are no exceptions to this policy, and no other types of tax-exempt organizations will be considered.",
+      "reasoning": "VetsBoats is a private foundation (990-PF filer), and the Rosendin Foundation's explicit 'no exceptions' language for 501(c)(3) charitable nonprofit status almost certainly excludes private foundations. Even if VetsBoats could clear the org-type hurdle, the Rosendin Foundation's focus areas (emotional, nutritional, occupational health for construction workers) do not align with adaptive sailing for veterans. There is no veteran programming or adaptive recreation in their grant history.",
+      "recommended_action": "DO NOT APPLY. Org type is the blocking issue \u2014 private foundations are almost certainly excluded. Mission mismatch is a secondary disqualifier even if the org type question could be resolved."
+    },
+    "key_urls": {
+      "application_page": "https://www.therosendinfoundation.org/grants/",
+      "eligibility_page": "https://www.therosendinfoundation.org/grants/",
+      "guidelines_page": "https://www.therosendinfoundation.org/grants/",
+      "grant_list_page": "https://www.therosendinfoundation.org/focus-area/",
+      "contact_page": "https://www.therosendinfoundation.org/contact-us/"
+    },
+    "website_grantees_mentioned": [
+      "Clackamas Women's Services (OR)",
+      "DISCOVERY Children's Museum (NV)",
+      "The Junior League of Austin (TX)",
+      "ATLAST: Aspiring Texas Latinos Achieving Success Together (TX)"
+    ]
+  },
+  {
+    "ein": "471247608",
+    "name": "Umpqua Bank Charitable Foundation",
+    "website": "https://www.umpquabank.com/community",
+    "eligibility": {
+      "who_can_apply": "Beginning in 2026: BY INVITATION ONLY. Must have strong current associate (employee) volunteer engagement and clear strategic alignment with Columbia Bank's Priority Focus Areas (Financial Mobility, Housing Stability, Community Resilience). Previously open to 501(c)(3) nonprofits in the bank's footprint states.",
+      "who_cannot_apply": "All unsolicited applicants as of 2026. The website explicitly states: 'We are unable to accept unsolicited grant requests or Letters of Intent from nonprofit organizations, and there are no open grant application cycles.'",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "The website does not specify org type requirements because the program is now invitation-only with no open application cycle. Previous eligibility criteria are no longer published. The IRS grant history shows grants to public charities (Kiva Microfunds, LISC, Centro Community Partners, Financial Beginnings, etc.) with no evidence of grants to private foundations. However, the lack of published eligibility criteria means PF eligibility cannot be determined from website content.",
+      "geographic_restrictions": "Must operate within Columbia Bank's footprint. Columbia Bank (formerly Umpqua Bank, now merged with Columbia Banking System) operates primarily in California, Oregon, Washington, Idaho, Nevada, and Arizona. Grants historically concentrated in OR, WA, CA.",
+      "org_type_requirements": "Invitation-only; specific org type requirements not currently published. Historical grants suggest preference for public charities.",
+      "budget_requirements": "Not specified in current published materials.",
+      "other_requirements": "Must have strong current associate volunteer engagement. Strategic alignment with Priority Focus Areas (financial mobility, housing stability, community resilience) is required for consideration."
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "As of 2026, the Columbia Bank Community Impact Fund (which absorbed Umpqua Bank Charitable Foundation after merger) is invitation-only. No unsolicited grant requests or LOIs accepted. No open application cycles exist. The bank emphasizes associate volunteer engagement as a prerequisite for philanthropic investment.",
+      "portal_url": null,
+      "guidelines_url": "https://www.umpquabank.com/community",
+      "deadlines": "No open cycles \u2014 invitation only.",
+      "materials_required": "Not applicable \u2014 no open applications accepted."
+    },
+    "funding": {
+      "focus_areas": [
+        "Financial Mobility (microbusiness development, access to capital, financial literacy, small business accelerators, rural entrepreneurship)",
+        "Housing Stability (affordable housing, homeownership pathways, transitional housing, housing counseling)",
+        "Community Resilience (youth development, workforce readiness, food security, community health, nonprofit capacity building, climate resilience)"
+      ],
+      "grant_size_range": "Historical range: $3,500 to $1,000,000. Typical grants $100,000 to $500,000 for major recipients. Small community grants in the $5,000 to $15,000 range also seen.",
+      "geographic_focus": "Columbia Bank footprint: primarily Oregon, Washington, California, and expanding footprint states. Historically strong in Portland, Seattle, and Sacramento metro areas.",
+      "veteran_relevance": "LOW \u2014 No veteran-specific grants identified in IRS history. Focus is on financial mobility, housing, and economic empowerment for under-resourced communities broadly. Veterans not mentioned in current priority focus areas.",
+      "adaptive_recreation_relevance": "VERY LOW \u2014 No adaptive recreation, sailing, or sports programming in their funding history or stated priorities."
+    },
+    "contacts": {
+      "primary_contact": "Not listed \u2014 invitation-only program with no public contact for grant requests.",
+      "email": "Not listed for grant purposes.",
+      "phone": "(866) 486-7782 (general Columbia Bank customer service)",
+      "address": "Columbia Bank, Member FDIC. Headquarters in Tacoma, WA (Columbia Banking System). NMLS #401867."
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Beginning in 2026, philanthropic investments and grants through the Columbia Bank Community Impact Fund will be by invitation only...We are unable to accept unsolicited grant requests or Letters of Intent from nonprofit organizations, and there are no open grant application cycles.",
+      "reasoning": "The Umpqua Bank Charitable Foundation is now operating as the Columbia Bank Community Impact Fund and has closed all unsolicited grant applications as of 2026. There is no pathway for VetsBoats to apply. Even if there were a pathway, VetsBoats's mission (adaptive sailing for veterans) does not align with the fund's Priority Focus Areas of financial mobility, housing stability, and community resilience, and VetsBoats's status as a private foundation would likely be an additional barrier.",
+      "recommended_action": "DO NOT PURSUE. Program is invitation-only with no open cycles. No viable pathway exists for unsolicited outreach to this funder."
+    },
+    "key_urls": {
+      "application_page": null,
+      "eligibility_page": "https://www.umpquabank.com/community",
+      "guidelines_page": "https://www.umpquabank.com/community",
+      "grant_list_page": null,
+      "contact_page": "https://www.umpquabank.com/community"
+    },
+    "website_grantees_mentioned": [
+      "Kiva Microfunds (CA)",
+      "Local Initiatives Support Corporation (NY)",
+      "Centro Community Partners (CA)",
+      "Seattle Economic Development Fund (WA)",
+      "Financial Beginnings (OR)",
+      "Portland Workforce Alliance (OR)",
+      "Rebuilding Together South Sound (WA)",
+      "Mary Bridge Children's Foundation (WA)",
+      "American Red Cross - Cascades Region"
+    ]
+  },
+  {
+    "ein": "205702192",
+    "name": "Deacon Charitable Foundation",
+    "website": "https://www.deaconcharitablefoundation.org",
+    "eligibility": {
+      "who_can_apply": "Organizations must: (1) Have 501(c)(3) tax-exempt status and a valid Tax Exempt ID number; (2) Request support for work in Washington, Oregon, or California (closest to Seattle, Portland, Sacramento, or Pleasanton offices); (3) Serve at least one focus area: Community (Children/Families, Domestic Violence, Hunger, Housing/Homelessness), Arts/Education (School Programs, Art Enrichment), Animal Welfare/Environment (Animals, Environment), or Health (Medical, Seniors, Veterans); (4) Provide equal opportunity regardless of protected characteristics; (5) Not require religious participation as condition of service; (6) Have no other pending Deacon proposals.",
+      "who_cannot_apply": "Direct grant/scholarship/loan recipients (individuals); endowments; general fund drives/annual appeals/special events/sponsorships; elimination of operating deficits; sectarian organizations principally benefiting own members; replacement of government funding; organizations violating tax-exempt status; political parties and trade associations; organizations that discriminate; advertising/promotion; team sponsorships; PRIVATE OR FAMILY FOUNDATIONS.",
+      "pf_eligible": "NO",
+      "pf_evidence": "The Support Guidelines page explicitly lists under 'The Deacon Charitable Foundation generally does not fund the following:' \u2014 'Private or family foundations.' This is a direct, unambiguous exclusion of private foundations. VetsBoats, as a 990-PF filer, is a private foundation and is categorically ineligible.",
+      "geographic_restrictions": "Washington, Oregon, or California only. Programs closest to Seattle, Portland, Sacramento, and Pleasanton offices have the greatest chance of funding. San Francisco/Bay Area (where VetsBoats operates) is within the California coverage zone and close to Pleasanton office.",
+      "org_type_requirements": "501(c)(3) tax-exempt status required. Private or family foundations explicitly excluded.",
+      "budget_requirements": "Grants generally $1,000 to $10,000. No explicit budget minimum for applicants.",
+      "other_requirements": "Invitation-only application process via Common Grant Application (commongrantapplication.com). Must contact local Giving Committee first. Applications managed through CGA platform. Review process takes 60 days or less. Grant season starts in Spring."
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "Applications accepted by invitation only. Process: (1) Review Support Guidelines for eligibility; (2) Sign up with Common Grant Application at commongrantapplication.com; (3) Contact the Giving Committee closest to the applicant's location; (4) Local committee responds and may issue a Grant Application Invitation through the CGA platform. Applications reviewed by Giving Committee of the closest Deacon office. Possible site visit or presentation to committee. Final decisions made by local Giving Committee.",
+      "portal_url": "https://commongrantapplication.com",
+      "guidelines_url": "https://www.deaconcharitablefoundation.org/support-guidelines",
+      "deadlines": "Grant season starts in Spring each year. Each local committee has separate dates. Review process takes 60 days or less.",
+      "materials_required": "Common Grant Application (through commongrantapplication.com). 501(c)(3) determination letter. Possibly a site visit or presentation to the Giving Committee."
+    },
+    "funding": {
+      "focus_areas": [
+        "Community: Children/Families, Domestic Violence, Hunger, Housing/Homelessness",
+        "Arts/Education: School Programs, Art Enrichment Programs",
+        "Animal Welfare/Environment: Animals, Environment",
+        "Health: Medical, Seniors, Veterans"
+      ],
+      "grant_size_range": "$1,000 to $10,000 per grant. May fund operating support, program development, or facility renovation.",
+      "geographic_focus": "Washington, Oregon, and California. Offices in Seattle, Portland, Sacramento, and Pleasanton. Programs near these offices have highest likelihood of funding.",
+      "veteran_relevance": "MODERATE \u2014 Veterans is explicitly listed as a Health sub-category in their focus areas. Grant history shows a $13,000 grant to Growing Veterans (WA, 2023). However, VetsBoats's adaptive sailing program is recreational/therapeutic, which may or may not align with their Health/Veterans sub-category interpretation.",
+      "adaptive_recreation_relevance": "LOW to MODERATE \u2014 No explicit adaptive recreation or sailing grants in history. Growing Veterans (WA) is an outdoor agriculture/horticulture therapy program for veterans, which is the closest analog. Adaptive sailing could potentially fit the Health/Veterans category, but this is not confirmed."
+    },
+    "contacts": {
+      "primary_contact": "Veronica Wences (mentioned in employee FAQ for donation matching). Local Giving Committee Leaders for Sacramento/Pleasanton would be relevant for VetsBoats.",
+      "email": "Not publicly listed for grant inquiries. Contact via Giving Committee Leaders.",
+      "phone": "Not listed.",
+      "address": "Deacon Construction, EIN: 20-5702192. Offices in Seattle (WA), Portland (OR), Sacramento (CA), and Pleasanton (CA)."
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Private or family foundations [are among organizations The Deacon Charitable Foundation generally does not fund].",
+      "reasoning": "VetsBoats is explicitly excluded from eligibility as a private foundation (990-PF filer). The Deacon Charitable Foundation's Support Guidelines list 'Private or family foundations' as a categorical exclusion under organizations they do not fund. This is a hard, non-negotiable barrier. Even setting aside the org-type issue, the grant size ($1,000-$10,000) is very small relative to VetsBoats's operational needs, the application is invitation-only, and while veterans is listed as a focus area, adaptive sailing is not a clear fit for their typical grantees.",
+      "recommended_action": "DO NOT APPLY. Private foundation status is a categorical, explicit disqualifier per their published guidelines. No pathway exists for VetsBoats with this funder."
+    },
+    "key_urls": {
+      "application_page": "https://www.deaconcharitablefoundation.org/how-to-apply",
+      "eligibility_page": "https://www.deaconcharitablefoundation.org/support-guidelines",
+      "guidelines_page": "https://www.deaconcharitablefoundation.org/support-guidelines",
+      "grant_list_page": null,
+      "contact_page": "https://www.deaconcharitablefoundation.org/contact"
+    },
+    "website_grantees_mentioned": [
+      "Growing Veterans (WA)",
+      "Friendship Adventures (WA)",
+      "Montley Zoo Animal Rescue (WA)",
+      "Mary's Place (WA)",
+      "Plymouth Housing (WA)",
+      "Bridge Receiving Center (WA)",
+      "Sky Valley Food Bank (WA)",
+      "Food Lifeline (WA)",
+      "Hart of Folsom (CA)",
+      "All Animal Rescue & Friends (CA)",
+      "Upper Room Dining Hall (CA)",
+      "FosterHope Sacramento (CA)",
+      "CASA for Children Inc (OR)",
+      "HomePlate Youth Services (OR)",
+      "Rose Haven (OR)",
+      "Community Transitional School (OR)",
+      "Constructing Hope Pre-Apprenticeship Program (OR)",
+      "Children's Center (OR)"
+    ]
+  },
+  {
+    "ein": "276985468",
+    "name": "Peter & Jeri Dejana Foundation",
+    "website": "https://www.dejanafoundation.org",
+    "eligibility": {
+      "who_can_apply": "501(c)(3) non-profit organizations. Application form asks for IRS determination letter indicating 501(c)(3) status, copies of recent 990 tax returns, letters of support, and annual reports/audited financial statements.",
+      "who_cannot_apply": "Not stated explicitly. No mention of excluding private foundations.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Contact page states: 'Donations of varying amounts are given to 501(c)(3) non-profit organizations.' Does not specify 'public charity' \u2014 merely says 501(c)(3). However, the foundation has a documented history of giving to other private foundations (The ED Foundation, Lucerna Fund) across multiple years (2018-2022), which is strong evidence that private foundations are not excluded in practice.",
+      "geographic_restrictions": "Primarily local and regional to Port Washington, NY area. About page says 'local and regional organizations.' Website tagline is 'Supporting our community, locally and beyond.' Address is Port Washington, NY 11050.",
+      "org_type_requirements": "501(c)(3) status required. IRS determination letter required with application.",
+      "budget_requirements": "None stated.",
+      "other_requirements": "Required attachments: IRS determination letter, recent 990 tax returns, letters of support, annual reports and/or audited financial statements. First-time applicants and renewed applicants have separate forms."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Download and complete either the First Time Applicant Form or Renewed Applicant Form PDF. Submit by email to info@dejanafoundation.org or by mail to 30 Sagamore Hill Drive, Port Washington, NY 11050.",
+      "portal_url": null,
+      "guidelines_url": "https://www.dejanafoundation.org/contact-us",
+      "deadlines": "No deadlines mentioned. Website notes it is 'under construction' \u2014 no cycle information available.",
+      "materials_required": "Completed application form, IRS determination letter (501(c)(3)), recent 990 tax returns, letters of support, annual reports and/or audited financial statements."
+    },
+    "funding": {
+      "focus_areas": [
+        "Community services",
+        "Children's programs and education",
+        "Healthcare and hospitals",
+        "Senior services",
+        "Local arts and theater",
+        "Food security (food pantries)",
+        "Local civic causes",
+        "Emergency services"
+      ],
+      "grant_size_range": "Roughly $10,000 to $500,000+ (top grants). Most observed community grants in the $10,000 to $90,000 range. Website says 'donations of varying amounts.'",
+      "geographic_focus": "Port Washington, NY and surrounding Long Island/New York area. Occasional out-of-state giving (PA for Penn Medicine). Predominantly NY-based grantees.",
+      "veteran_relevance": "None evident. No veteran-focused grants observed in grant history.",
+      "adaptive_recreation_relevance": "None evident. No adaptive recreation or disability sport grants observed."
+    },
+    "contacts": {
+      "primary_contact": "Not named on website.",
+      "email": "info@dejanafoundation.org",
+      "phone": "516.490.9352",
+      "address": "30 Sagamore Hill Drive, Port Washington, NY 11050"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Foundation focuses on helping those that support the broadest possible number of residents and in the most life-enriching way possible.",
+      "reasoning": "The Dejana Foundation is deeply rooted in Port Washington, NY and its surrounding Long Island community. VetsBoats is based in San Francisco, CA \u2014 far outside the foundation's geographic focus. While PF eligibility is technically SILENT (they say '501(c)(3)' without specifying 'public charity'), the geographic mismatch alone is a disqualifying factor. Additionally, the foundation's grant history shows no veteran, disability, or adaptive recreation funding.",
+      "recommended_action": "Do not pursue. Geographic mismatch is disqualifying \u2014 this foundation funds organizations near Port Washington, NY, not California."
+    },
+    "key_urls": {
+      "application_page": "https://www.dejanafoundation.org/contact-us",
+      "eligibility_page": "https://www.dejanafoundation.org/contact-us",
+      "guidelines_page": "https://www.dejanafoundation.org/contact-us",
+      "grant_list_page": null,
+      "contact_page": "https://www.dejanafoundation.org/contact-us"
+    },
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "136406825",
+    "name": "Union Pacific Foundation",
+    "website": "https://www.up.com/aboutup/community/foundation/index.htm",
+    "eligibility": {
+      "who_can_apply": "Non-profit, charitable organizations tax-exempt under 501(c)(3) AND classified as a public charity under sections 509(a)(1) or 509(a)(2) under 170(b)(1)(A)(vii). Organization must serve a community served by Union Pacific railroad. Program must primarily benefit a UP community.",
+      "who_cannot_apply": "Private foundations (explicitly excluded). Governmental entities without 501(c)(3) public charity designation. Organizations that channel grants to third parties (except local United Way chapters). Organizations that have received three consecutive years of UP local grants. International organizations. Individuals. Sports teams and organizations. Political organizations. Labor, alumni, fraternal organizations. Event sponsorships, fundraising events. Organizations with general operating support requests.",
+      "pf_eligible": "NO",
+      "pf_evidence": "Explicit exclusion on the eligibility page: 'Applications will not be accepted from private foundations or a disqualified supporting organization with the meaning of section 4966(d)(4) of the Internal Revenue Code.' This is an absolute bar.",
+      "geographic_restrictions": "Must serve a community served by Union Pacific railroad (23 states in western two-thirds of US). San Francisco IS served by Union Pacific. However, organization must be located in or serve a UP community.",
+      "org_type_requirements": "Must be 501(c)(3) AND classified as 509(a)(1) or 509(a)(2) public charity. Private foundations are explicitly excluded.",
+      "budget_requirements": "None stated.",
+      "other_requirements": "Must align with Community Ties Giving Program funding priorities. Must demonstrate capacity, need, and potential for positive social benefit. Demonstrated commitment to inclusion within grantee organization."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Annual local grant program through the Community Ties Giving Program. Applications are submitted online. Must select a U.S. state served by Union Pacific and identify which community the grant will serve.",
+      "portal_url": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility",
+      "guidelines_url": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility",
+      "deadlines": "Annual cycle \u2014 specific deadlines not found in crawled content.",
+      "materials_required": "Organization must meet public charity classification requirements. Application includes program description, community served, funding priorities alignment."
+    },
+    "funding": {
+      "focus_areas": [
+        "Community and civic organizations",
+        "Health and wellness",
+        "Education (higher education, workforce training)",
+        "Public spaces and recreation",
+        "Environmental stewardship",
+        "Rail safety and community safety",
+        "Inclusion and diversity initiatives"
+      ],
+      "grant_size_range": "Local grants appear to range from approximately $5,000 to $50,000 (based on pf_grants data: $5,000 to $10,000). Major grants to flagship institutions are much larger ($500K+) but those are corporate directed, not through the local grants program.",
+      "geographic_focus": "23 states served by Union Pacific railroad in western two-thirds of US. California is served. Local grants focus on communities where UP operates.",
+      "veteran_relevance": "No veteran-specific grants observed in grant data. Some 'vocational and career training' giving noted in pf_grants. General community focus, not veteran-specific.",
+      "adaptive_recreation_relevance": "None evident. Sports organizations and teams are explicitly INELIGIBLE. No adaptive recreation grants observed."
+    },
+    "contacts": {
+      "primary_contact": "Union Pacific Community Ties Giving Program",
+      "email": "upf@up.com",
+      "phone": "1-888-877-7267 (general emergencies line \u2014 not grants-specific)",
+      "address": "Union Pacific Corporation, 1400 Douglas Street, Omaha, NE 68179"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Applications will not be accepted from private foundations or a disqualified supporting organization with the meaning of section 4966(d)(4) of the Internal Revenue Code.",
+      "reasoning": "VetsBoats is a private foundation (990-PF filer), and Union Pacific Foundation explicitly and categorically bars private foundations from applying. This is a hard ineligibility with no exceptions. Additionally, sports organizations are listed as ineligible, which could further complicate any future eligibility even if VetsBoats converted to public charity status.",
+      "recommended_action": "Do not pursue. VetsBoats is ineligible as a private foundation \u2014 this is an explicit, categorical exclusion with no pathway around it."
+    },
+    "key_urls": {
+      "application_page": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility",
+      "eligibility_page": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility",
+      "guidelines_page": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility",
+      "grant_list_page": null,
+      "contact_page": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility"
+    },
+    "website_grantees_mentioned": [
+      "White Buffalo Land Trust (CA)",
+      "Notley Fund (TX)"
+    ]
+  },
+  {
+    "ein": "236257083",
+    "name": "Annenberg Foundation",
+    "website": "https://annenberg.org",
+    "eligibility": {
+      "who_can_apply": "Not stated on website. All eligibility, apply, and guidelines subpages (annenberg.org/eligibility, /apply, /guidelines, /how-to-apply, /funding-guidelines, /support-guidelines, /for-grantseekers, /grant-seekers) redirect back to the homepage with no eligibility content. Grantmaking appears to be invitation-only or relationship-based based on website structure and grant history.",
+      "who_cannot_apply": "Not stated.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Website provides no eligibility information. However, grant data from pf_grants shows the Annenberg Foundation has made grants to multiple other private foundations, including: The Wallis Annenberg Legacy Foundation ($150M, 2023), The Farrah Fawcett Foundation ($10,000, 2023), and J Paul Getty Trust ($10,000, 2023). This is strong historical evidence that Annenberg has no blanket prohibition on funding private foundations. Note: most of their PF-to-PF giving appears to be transfers to affiliated family foundations, not arm's-length grants to outside PFs.",
+      "geographic_restrictions": "Strong Los Angeles/California focus based on grant history. Also funds Philadelphia institutions, and select national/global organizations (National Wildlife Federation, Institut Curie). Not strictly limited to California but LA-centric.",
+      "org_type_requirements": "Unknown \u2014 not stated on website.",
+      "budget_requirements": "Unknown. Grant sizes range from very small to very large ($150M to related entities; $10K-$6M to external grantees).",
+      "other_requirements": "Based on grant history and About page, the foundation funds through established relationships and initiative-driven grantmaking, not open solicitation. The Annenberg Alchemy program suggests some capacity-building grantmaking for LA-based nonprofits."
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "Website provides no application information. All application-related URLs redirect to the homepage which shows only mission statement and email signup. No portal, no guidelines, no contact for grants. Based on website structure (only 3 nav items: About Us, Our Work, Contact Us) and the large dollar amounts to related/established institutions, this appears to be an invitation-only or proactive grantmaking foundation.",
+      "portal_url": null,
+      "guidelines_url": null,
+      "deadlines": "None found.",
+      "materials_required": "Unknown."
+    },
+    "funding": {
+      "focus_areas": [
+        "Arts and culture (performing arts, visual arts, photography)",
+        "Education (K-12 reform, public broadcasting, higher education)",
+        "Animal welfare",
+        "Environmental conservation and wildlife",
+        "Community spaces and civic life",
+        "Food equity and security",
+        "Aging and senior programs",
+        "Indigenous cultural heritage",
+        "Journalism and media",
+        "Technology and civic engagement"
+      ],
+      "grant_size_range": "Highly variable. External grants to independent grantees appear to range from approximately $10,000 to $6,250,000. Signature grants to anchor institutions run much higher (up to $150M to affiliated foundations, $500M historically for education).",
+      "geographic_focus": "Primarily Los Angeles and California. Some national scope (Philadelphia Orchestra, National Wildlife Federation). Some international (Institut Curie in France for pediatric oncology).",
+      "veteran_relevance": "Low. One related initiative via explore.org funded therapy/service dog training for veterans (Charles Annenberg Weingarten's initiative). No direct veteran sailing or adaptive recreation grants observed.",
+      "adaptive_recreation_relevance": "Very low. No adaptive recreation or disability sport grants identified. Some disability-adjacent giving (service dogs for veterans noted above) but not a stated focus area."
+    },
+    "contacts": {
+      "primary_contact": "Leadership: Lauren Bon, Gregory Annenberg Weingarten, Charles Annenberg Weingarten (trustees as of 2025)",
+      "email": "Not listed on website for grant inquiries.",
+      "phone": "Not listed for grant inquiries.",
+      "address": "Annenberg Foundation, 2000 Avenue of the Stars, Suite 1000, Los Angeles, CA 90067 (based on prior public records; not confirmed on current website)"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Annenberg Foundation supports people working to make their communities more equitable. innovative. resilient. Our mission is guided by listening, connection, and the shared work of stewarding the practices that hold our communities together.",
+      "reasoning": "The Annenberg Foundation appears to be an invitation-only grantmaker with no open application process \u2014 all grant-related subpages redirect to a sparse homepage with no application information. The foundation's grant history shows a deep focus on Los Angeles institutions (USC, LACMA, LA Opera, Wallis Center), performing arts, education, and environmental/civic causes \u2014 none of which align with adaptive veteran sailing. While they have historically funded some veteran-adjacent programs (service dog training), VetsBoats would have no pathway to apply and the mission alignment is weak.",
+      "recommended_action": "Do not pursue. No open application process exists, and VetsBoats mission does not align with Annenberg's primary funding areas. Relationship-based approach would require extremely strong connections to Annenberg family members or staff."
+    },
+    "key_urls": {
+      "application_page": null,
+      "eligibility_page": null,
+      "guidelines_page": null,
+      "grant_list_page": "https://annenberg.org/our-work",
+      "contact_page": "https://annenberg.org"
+    },
+    "website_grantees_mentioned": [
+      "Wallis Annenberg Legacy Foundation",
+      "Wilshire Boulevard Temple",
+      "Armand Hammer Museum of Art (Hammer Museum)",
+      "University of Southern California (USC)",
+      "Downtown Women's Center (Los Angeles)",
+      "Wallis Annenberg Center for the Performing Arts (The Wallis)",
+      "California Science Center",
+      "National Wildlife Federation",
+      "Annenberg Space for Photography",
+      "Annenberg Community Beach House",
+      "Wallis Annenberg GenSpace",
+      "Los Angeles County Museum of Art (LACMA)",
+      "Musee des Arts Decoratifs",
+      "Museum of Modern Art (MoMA)",
+      "Polar Bears International",
+      "Philadelphia Orchestra",
+      "KCRW",
+      "Institut Curie"
+    ]
+  },
+  {
+    "ein": "946068564",
+    "name": "Walter & Elise Haas Fund",
+    "website": "https://www.haassr.org",
+    "eligibility": {
+      "who_can_apply": "Organizations whose work supports the Bay Area where all people can reach their fullest potential and live with a sense of purpose, dignity, and joy. Grantees appear to be primarily nonprofits focused on economic well-being, social well-being, arts, education, and racial justice in the San Francisco Bay Area.",
+      "who_cannot_apply": "Not explicitly stated on the crawled pages. No language found excluding private foundations.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Website does not mention public charity vs. private foundation distinction. The pf_grants data shows two very small grants to 'The 500 Capp Street Foundation' ($280 in 2023 and $295 in 2022) for 'costs associated with applying to the Creative Work Fund' \u2014 these appear to be administrative pass-through payments, not arm's-length grants to an outside private foundation. This is insufficient evidence to confirm PF eligibility. The grantee directory shows exclusively public charities (Vital Arts Inc, Oakland Leaf Foundation, Anti Police-Terror Project Inc, etc.). Standard Bay Area foundation practice strongly implies public charity-only grantmaking, though this is not confirmed in the crawled text.",
+      "geographic_restrictions": "Strong San Francisco Bay Area focus. Grant directory shows 'Regions Served: Israel, Nepal, United States.' The Bay Area is the primary region. Description: 'Our grants support a Bay Area where all people can reach their fullest potential.' Some international and national giving exists but Bay Area is the core geography.",
+      "org_type_requirements": "Not explicitly stated on crawled pages. Implied to be nonprofits ('the organizations we fund'). No public charity language found.",
+      "budget_requirements": "None stated.",
+      "other_requirements": "Based on grant directory, the Fund uses a Grantee Portal for existing grantees. Strategy page (not fully crawled) describes trust-based philanthropy and long-term relationship grantmaking. New applicants appear to need to go through a formal inquiry process."
+    },
+    "application": {
+      "process": "UNKNOWN",
+      "process_description": "The /apply URL redirected to a Careers page (no positions open), suggesting no open application portal. The Grantee Portal login is for existing grantees only. The grantmaking page indicates a focus on established partnerships ('trust-based philanthropy that centers community and builds right relationship'). There may be an inquiry or nomination process, but it was not found in crawled content. The fund likely requires relationship initiation before formal applications.",
+      "portal_url": "https://haassr.org/grantmaking/",
+      "guidelines_url": "https://haassr.org/grantmaking/",
+      "deadlines": "None found. May operate on rolling or relationship-based timeline.",
+      "materials_required": "Unknown for new applicants. Existing grantees use a Grantee Portal for reporting."
+    },
+    "funding": {
+      "focus_areas": [
+        "Racial and gender wealth gap reduction",
+        "Economic well-being and worker rights",
+        "Social well-being and belonging",
+        "Arts and cultural preservation",
+        "Education and youth empowerment",
+        "Jewish life and identity",
+        "Housing and homeless prevention",
+        "Climate resilience and disaster preparedness",
+        "Civic engagement and leadership",
+        "Nonprofit capacity building"
+      ],
+      "grant_size_range": "Approximately $300 to $500,000, with most grants in the $10,000 to $250,000 range. Seven-year general operating support grants of $500,000 observed for anchor grantees in 2023.",
+      "geographic_focus": "San Francisco Bay Area (primary). Some Israel and Nepal-focused grantees. Limited national scope.",
+      "veteran_relevance": "Very low. No veteran-focused grants identified in any crawled content or top grant data. Funding focuses on economic equity, racial justice, and arts \u2014 not veteran services or military-affiliated programs.",
+      "adaptive_recreation_relevance": "None evident. No adaptive recreation, disability sport, or sailing-related grants identified. Some parks and recreation grantmaking noted in historical program areas but not a current focus."
+    },
+    "contacts": {
+      "primary_contact": "Staff team (fourth generation Haas family descendants) \u2014 specific contacts not listed in crawled pages.",
+      "email": "Not provided in crawled content.",
+      "phone": "(415) 398-4474",
+      "address": "One Lombard Street, Suite 305, San Francisco, CA 94111"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The guiding purpose of the Walter & Elise Haas Fund's grantmaking is community well-being, and recognizes that thriving communities require both economic stability and social cohesion.",
+      "reasoning": "The Walter & Elise Haas Fund focuses exclusively on Bay Area community well-being through economic equity, racial justice, arts, and social cohesion \u2014 none of which align with adaptive sailing for disabled veterans. While the fund is geographically proximate to VetsBoats (both SF Bay Area), the program priorities are misaligned. VetsBoats' mission around veteran rehabilitation and adaptive recreation does not fit the fund's current focus areas of economic well-being, racial equity, and social belonging. Additionally, the fund appears to use relationship-based/trust-based grantmaking with no open application process, and PF eligibility is uncertain.",
+      "recommended_action": "Do not pursue. Mission misalignment is the primary barrier \u2014 Haas Fund focuses on economic equity and racial justice, not veteran services or adaptive recreation. Geographic proximity does not overcome the program mismatch."
+    },
+    "key_urls": {
+      "application_page": null,
+      "eligibility_page": null,
+      "guidelines_page": "https://haassr.org/grantmaking/",
+      "grant_list_page": "https://haassr.org/grants/",
+      "contact_page": "https://haassr.org/grantmaking/"
+    },
+    "website_grantees_mentioned": [
+      "Vital Arts Inc",
+      "Nonprofit Finance Fund",
+      "Legal Services For Children Inc",
+      "Dads Evoking Change",
+      "Oakland Leaf Foundation",
+      "Anti Police-Terror Project Inc",
+      "Marin Country Day School",
+      "Head-Royce School",
+      "Stern Grove Festival Association",
+      "1947 Partition Archive",
+      "3rd I South Asian Independent Film",
+      "3rd Street Youth Center And Clinic",
+      "5 Elements Youth Program",
+      "Californians for Justice Education Fund (Youth Organize California)",
+      "Young Women's Freedom Center",
+      "Oakland Promise",
+      "East Bay Community Law Center",
+      "La Cocina Inc",
+      "Oakland Kids First",
+      "East Bay Alliance for a Sustainable Economy",
+      "A Philip Randolph Institute San Francisco (Resilient Bayview)",
+      "Attitudinal Healing Connection Inc",
+      "Tides Center (Youth Art Exchange)",
+      "Mission Cultural Center for Latino Arts",
+      "Anti-Defamation League",
+      "Jews of Color Initiative",
+      "Rockefeller Philanthropy Advisors (New Pluralists)",
+      "The 500 Capp Street Foundation"
+    ]
+  }
+]

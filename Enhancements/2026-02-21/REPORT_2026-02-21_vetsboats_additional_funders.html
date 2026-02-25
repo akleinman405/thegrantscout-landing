@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+
+@page {
+    size: letter;
+    margin: 0.75in 1in;
+    @top-right {
+        content: "TheGrantScout";
+        font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 10pt;
+        color: #1e3a5f;
+        font-weight: bold;
+    }
+    @bottom-center {
+        content: "thegrantscout.com  |  Your mission deserves funding. We'll help you find it.";
+        font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 8pt;
+        color: #6c757d;
+    }
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 8pt;
+        color: #6c757d;
+    }
+}
+
+body {
+    font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11pt;
+    color: #2c3e50;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Calibri Light', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #1e3a5f;
+    font-size: 28pt;
+    margin-top: 0;
+    margin-bottom: 4pt;
+    page-break-after: avoid;
+}
+
+h1 + h1 {
+    font-size: 16pt;
+    color: #6c757d;
+    font-weight: 300;
+    margin-bottom: 12pt;
+}
+
+h2 {
+    font-family: 'Calibri Light', 'Helvetica Neue', sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #1e3a5f;
+    margin-top: 24pt;
+    margin-bottom: 10pt;
+    border-bottom: 2px solid #d4a853;
+    padding-bottom: 4pt;
+    page-break-after: avoid;
+}
+
+h3 {
+    font-family: 'Calibri Light', 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #152b47;
+    margin-top: 16pt;
+    margin-bottom: 8pt;
+    page-break-after: avoid;
+}
+
+h4 {
+    font-family: 'Calibri Light', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+}
+
+p {
+    margin-bottom: 8pt;
+}
+
+a {
+    color: #1e3a5f;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d4a853;
+}
+
+/* TOC styling */
+ol {
+    padding-left: 20pt;
+}
+
+ol li {
+    margin-bottom: 4pt;
+}
+
+ol li a {
+    color: #1e3a5f;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12pt 0;
+    font-size: 10pt;
+    page-break-inside: avoid;
+}
+
+thead th, th {
+    background-color: #1e3a5f;
+    color: white;
+    font-weight: bold;
+    padding: 8pt 10pt;
+    text-align: left;
+    border-bottom: 3px solid #d4a853;
+}
+
+td {
+    padding: 6pt 10pt;
+    border-bottom: 1px solid #e8ebed;
+    vertical-align: top;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+tr:nth-child(even) td {
+    background-color: #f5f7fa;
+}
+
+tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+/* Blockquotes as callout boxes */
+blockquote {
+    background-color: #fef9e7;
+    border-left: 4px solid #d4a853;
+    padding: 12pt 16pt;
+    margin: 12pt 0;
+    font-weight: bold;
+    color: #1e3a5f;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+/* Horizontal rules */
+hr {
+    border: none;
+    border-top: 1px solid #d4a853;
+    margin: 16pt 0;
+}
+
+/* Code blocks */
+code, pre {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    background-color: #f5f7fa;
+    border: 1px solid #e8ebed;
+    border-radius: 3pt;
+}
+
+pre {
+    padding: 12pt;
+    margin: 10pt 0;
+    white-space: pre-wrap;
+    page-break-inside: avoid;
+}
+
+code {
+    padding: 1pt 4pt;
+}
+
+/* Bullet lists */
+ul {
+    padding-left: 20pt;
+    margin-bottom: 8pt;
+}
+
+ul li {
+    margin-bottom: 4pt;
+}
+
+/* Page breaks */
+.page-break {
+    page-break-after: always;
+}
+
+/* Bold metadata lines */
+strong {
+    color: #1e3a5f;
+}
+
+/* Keep headings with following content */
+h2, h3, h4 {
+    page-break-after: avoid;
+}
+
+/* Prevent orphan rows */
+tr {
+    page-break-inside: avoid;
+}
+
+    </style>
+</head>
+<body>
+<h1 id="wooden-boats-for-veterans-vetsboats">Wooden Boats for Veterans (VetsBoats)</h1>
+<h1 id="additional-foundation-leads">Additional Foundation Leads</h1>
+<p><strong>Companion to:</strong> Supplemental Grant Opportunities Report (February 2026)</p>
+<p><strong>Foundations Listed:</strong> 5</p>
+<p><strong>Data Source:</strong> IRS Form 990-PF and 990 filings (2016-2024), foundation websites, public sources</p>
+<hr />
+<h2 id="how-to-use-this-document">How to Use This Document</h2>
+<p>These foundations showed strong alignment with VetsBoats' mission during our deeper research but didn't make the top 5 for this month's report, either because of eligibility questions that need to be resolved first, or because they require a different approach than a standard application.</p>
+<p><strong>Next steps for any foundation that interests you:</strong></p>
+<ol>
+<li>Contact the foundation using the information below to resolve any open questions</li>
+<li>Let us know which ones to profile in depth next month</li>
+<li>We'll move confirmed-eligible foundations into your main report with full dossiers</li>
+</ol>
+<hr />
+<h2 id="tier-a-strong-fit-eligibility-confirmation-needed">Tier A: Strong Fit (Eligibility Confirmation Needed)</h2>
+<p>These foundations have strong mission alignment with VetsBoats. Each has an open question that needs to be resolved before applying.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Foundation</th>
+<th>State</th>
+<th>Assets</th>
+<th>Annual Giving</th>
+<th>Why Relevant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://lbcharitablefoundation.org">LB Charitable Foundation</a></td>
+<td>CA</td>
+<td>$50M</td>
+<td>$1.7M</td>
+<td>"Uplifting and aiding veterans" in mission. $290K in veteran grants across 11 organizations. California-based.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://www.bobwoodrufffoundation.org">Bob Woodruff Foundation</a></td>
+<td>NY</td>
+<td>$72M</td>
+<td>$10.1M</td>
+<td>Strongest programmatic fit found. Core mission is veteran services. Funds adaptive sports including water-based programs through Move United ($2.5M+). Rolling applications.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>LB Charitable Foundation</strong></p>
+<ul>
+<li><strong>Why relevant:</strong> Veterans are explicitly named in their mission statement. They have funded 11 veteran organizations totaling $290,000. No restriction on private foundation applicants found. California-based with $50M in assets.</li>
+<li><strong>Caveat:</strong> Application pages returned 404 errors during research. Direct email outreach may be needed.</li>
+<li><strong>Next step:</strong> Email grants@lbcharitablefoundation.org to introduce VetsBoats and confirm the application process. Disclose private foundation status upfront.</li>
+<li><strong>Contact:</strong> grants@lbcharitablefoundation.org</li>
+<li><strong>Website:</strong> <a href="https://lbcharitablefoundation.org">lbcharitablefoundation.org</a></li>
+</ul>
+<p><strong>Bob Woodruff Foundation</strong></p>
+<ul>
+<li><strong>Why relevant:</strong> Core mission is veteran services. Funds adaptive sports including water-based programs through Move United ($2.5M+) and Disabled Sports USA. Average grant is $80,000 with a median of $30,000. Rolling applications year-round.</li>
+<li><strong>Caveat:</strong> Their application requires filing Form 990 or 990-EZ (not 990-PF). This may be a hard disqualifier for VetsBoats.</li>
+<li><strong>Next step:</strong> Email grants@bobwoodrufffoundation.org to confirm whether organizations filing 990-PF are eligible. If confirmed, this becomes a top-priority application.</li>
+<li><strong>Contact:</strong> grants@bobwoodrufffoundation.org</li>
+<li><strong>Website:</strong> <a href="https://www.bobwoodrufffoundation.org">bobwoodrufffoundation.org</a></li>
+</ul>
+<hr />
+<h2 id="tier-b-good-fit-partial-match">Tier B: Good Fit (Partial Match)</h2>
+<p>Strong on one dimension (adaptive recreation or veteran services) with partial match on others.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Foundation</th>
+<th>State</th>
+<th>Assets</th>
+<th>Annual Giving</th>
+<th>Why Relevant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td><a href="https://richardreedfoundation.org">Richard Reed Foundation</a></td>
+<td>AZ</td>
+<td>$9M</td>
+<td>$560K</td>
+<td>Funded Achieve Tahoe $55K for adaptive sports for people with disabilities. Also funded equine therapy for veterans ($40K).</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://www.christopherreeve.org">Christopher &amp; Dana Reeve Foundation</a></td>
+<td>NJ</td>
+<td>$11M</td>
+<td>$3.4M</td>
+<td>Quality of Life grants up to $25K for adaptive sports. Veterans receive "special consideration." Funded BORP in Bay Area.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Richard Reed Foundation</strong></p>
+<ul>
+<li><strong>Why relevant:</strong> Funded Achieve Tahoe $55,000 for "adaptive sports and recreational activities for individuals of all ages and all disabilities." Also funded equine therapy for veterans ($40,000). Median grant is $10,000 with 57 grants across the portfolio. Best adaptive recreation giving track record outside our primary leads.</li>
+<li><strong>Caveat:</strong> Based in Arizona (filed from AZ) with no California sailing grants in our database. Small foundation driven by founder interests.</li>
+<li><strong>Next step:</strong> Email info@richardreedfoundation.org. Lead with the adaptive recreation angle and cite the Achieve Tahoe parallel. VetsBoats is doing similar work through sailing.</li>
+<li><strong>Contact:</strong> info@richardreedfoundation.org</li>
+<li><strong>Website:</strong> <a href="https://richardreedfoundation.org">richardreedfoundation.org</a></li>
+</ul>
+<p><strong>Christopher &amp; Dana Reeve Foundation</strong></p>
+<ul>
+<li><strong>Why relevant:</strong> Awarded $25,000 to Achieve Tahoe for adaptive sports. Funds adaptive sports programs nationally, with Bay Area precedent (BORP received grants). Quality of Life grants up to $25,000. Veterans receive "special consideration." Median grant is $25,000 across 137 grants.</li>
+<li><strong>Caveat:</strong> Programs must serve people with paralysis specifically (spinal cord injury, stroke, MS). Private foundation eligibility is unconfirmed. One source lists PFs as ineligible.</li>
+<li><strong>Next step:</strong> Email QOL@Reeve.org to confirm whether private foundations can apply. If eligible, next deadline is March 12, 2026. Action needed immediately.</li>
+<li><strong>Contact:</strong> QOL@Reeve.org</li>
+<li><strong>Website:</strong> <a href="https://www.christopherreeve.org">christopherreeve.org</a></li>
+</ul>
+<hr />
+<h2 id="tier-c-worth-watching">Tier C: Worth Watching</h2>
+<p>Lower immediacy but notable for exceptional mission alignment.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Foundation</th>
+<th>State</th>
+<th>Assets</th>
+<th>Annual Giving</th>
+<th>Why Relevant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td><a href="https://www.widgeonpoint.org">Widgeon Point Charitable Foundation</a></td>
+<td>NY</td>
+<td>$39M</td>
+<td>$3.9M</td>
+<td>Funds Sail to Prevail (adaptive sailing) + Sail Maine + NY Sailing Foundation + Maine Adaptive Sports. Exceptional sailing + adaptive sports combination.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Widgeon Point Charitable Foundation</strong></p>
+<ul>
+<li><strong>Why relevant:</strong> Funds Sail to Prevail, an adaptive sailing program for people with disabilities in Rhode Island, the closest analog to VetsBoats in any foundation's portfolio. Also funds Sail Maine, NY Sailing Foundation, and Maine Adaptive Sports. Exceptional sailing + adaptive sports fit. $39M in assets with $3.9M in annual giving.</li>
+<li><strong>Caveat:</strong> Was invite-only in 2025 due to volume of AI-generated applications. Historically accepts LOIs from March 1 through September 15.</li>
+<li><strong>Next step:</strong> Monitor for 2026 application reopening. If they reopen, submit LOI immediately citing VetsBoats' parallel to Sail to Prevail.</li>
+<li><strong>Contact:</strong> Not publicly available. Monitor foundation website for updates.</li>
+<li><strong>Website:</strong> <a href="https://www.widgeonpoint.org">widgeonpoint.org</a></li>
+</ul>
+<hr />
+<h2 id="summary-immediate-actions">Summary: Immediate Actions</h2>
+<table>
+<thead>
+<tr>
+<th>Priority</th>
+<th>Foundation</th>
+<th>Action</th>
+<th>Contact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>This week</strong></td>
+<td>Reeve Foundation</td>
+<td>Email to confirm PF eligibility (March 12 deadline)</td>
+<td>QOL@Reeve.org</td>
+</tr>
+<tr>
+<td><strong>This month</strong></td>
+<td>Bob Woodruff</td>
+<td>Email to confirm 990-PF eligibility</td>
+<td>grants@bobwoodrufffoundation.org</td>
+</tr>
+<tr>
+<td><strong>This month</strong></td>
+<td>LB Charitable</td>
+<td>Email to introduce VetsBoats, confirm process</td>
+<td>grants@lbcharitablefoundation.org</td>
+</tr>
+<tr>
+<td><strong>This month</strong></td>
+<td>Richard Reed</td>
+<td>Email to introduce VetsBoats, cite Achieve Tahoe</td>
+<td>info@richardreedfoundation.org</td>
+</tr>
+<tr>
+<td><strong>Monitor</strong></td>
+<td>Widgeon Point</td>
+<td>Watch for 2026 application reopening</td>
+<td>--</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Prepared by:</strong> TheGrantScout Research Team</p>
+<p><strong>Date:</strong> February 21, 2026</p>
+</body>
+</html>

@@ -1,0 +1,594 @@
+[
+  {
+    "ein": "452713666",
+    "name": "Bob & Renee Parsons Foundation",
+    "base_url": "https://www.tbrpf.org",
+    "tier": 2,
+    "crawl_status": "completed",
+    "total_pages_crawled": 38,
+    "total_chars_raw": 96010,
+    "chars_for_analysis": 50000,
+    "pages_for_analysis": 2,
+    "grant_pages_found": 20,
+    "pdfs_found": [],
+    "pages": [
+      {
+        "url": "https://www.tbrpf.org/eligibility",
+        "final_url": "https://tbrpf.org/grants/eligibility/",
+        "page_type": "eligibility",
+        "priority": 1,
+        "depth": 1,
+        "text": "Menu Our focus Our grants Our impact Our story The news\nMenu\n- Our focus\n- Our grants\n- Our impact\n- Our story\n- The news\nHome / Our grants / Eligibility Eligibility. To be considered for a grant, an organization must: Be a 501(c)3 under IRS code Provide a recent Form 990 Provide audited financial statements Do charitable work within the state of Arizona Not discriminate based upon race, religion, sexual orientation, gender identity or immigration status Have an annual budget of $1,000,000 or more Have operated for at least three years Align with the Foundation\u2019s specific areas of focus Please Note: We are not currently seeking new proposals in the area of Military & First Responders. Step 1 Click to begin the process.\nHome / Our grants / Eligibility\n- Home\n- Eligibility\n## Eligibility.\nTo be considered for a grant, an organization must:\n- Be a 501(c)3 under IRS code\n- Provide a recent Form 990\n- Provide audited financial statements\n- Do charitable work within the state of Arizona\n- Not discriminate based upon race, religion, sexual orientation, gender identity or immigration status\n- Have an annual budget of $1,000,000 or more\n- Have operated for at least three years\n- Align with the Foundation\u2019s specific areas of focus\nPlease Note: We are not currently seeking new proposals in the area of Military & First Responders.\nStep 1 Click to begin the process.\nClick to begin the process.\nWe deal in hope. \u00ae Our Focus Youth & Education Health & Home Military & First Responders American Dream Follow Us\n## We deal in hope. \u00ae\nWe deal in hope. \u00ae\nOur Focus Youth & Education Health & Home Military & First Responders American Dream Follow Us\nOur Focus Youth & Education Health & Home Military & First Responders American Dream\n## Our Focus\n- Youth & Education\n- Health & Home\n- Military & First Responders\n- American Dream\nFollow Us\n## Follow Us\nThe Bob & Renee Parsons Foundation | [email\u00a0protected] Copyright 2026. The Bob & Renee Parsons Foundation. All rights reserved.\nThe Bob & Renee Parsons Foundation | [email\u00a0protected]\n[email\u00a0protected]\nCopyright 2026. The Bob & Renee Parsons Foundation. All rights reserved.",
+        "title": "Grant Eligibility Standards | TBRPF.org",
+        "anchor_text": "direct:/eligibility",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 2131,
+        "fetch_method": "aiohttp"
+      },
+      {
+        "url": "https://www.tbrpf.org/grants",
+        "final_url": "https://tbrpf.org/grants/",
+        "page_type": "grants",
+        "priority": 1,
+        "depth": 1,
+        "text": "Menu Our focus Our grants Our impact Our story The news\nMenu\n- Our focus\n- Our grants\n- Our impact\n- Our story\n- The news\nHome / Our grants Our grants. The Bob & Renee Parsons Foundation was formed to reach low-income and underserved populations, marginalized communities, and causes often overlooked or underfunded by mainstream philanthropy. The Foundation focuses on the areas of youth & education, health & home, military & first responders, and the American dream. The Foundation provides transformational gifts to nonprofit organizations that are successfully addressing these areas and can demonstrate and measure the impact of their work. See if you are eligible Our process. To apply for a grant we\u2019ll ask you to: FIRST Take an eligibility quiz. Ten short questions will verify your eligibility. SECOND Submit your letter of interest, providing additional information about your organization and the specific projects or campaigns you wish to fund. THIRD We\u2019ll now take some time to carefully review your submission and conduct our due diligence using publicly available information. If we believe your organization may be a fit, we\u2019ll be in touch within 30 days to learn more about your request and the work you do. If you do not hear from us within that time frame, however, it means your request is unfortunately not the right fit at this time. FOURTH Apply for a grant. You will receive an email invitation from Foundation staff with a link to our grants portal where you will create an account to complete a formal grant application. During this process you will: Submit a formal proposal Provide audited financial statements and other documents Complete a questionnaire to assess your organization, leadership and staff, vision and strategy, and financial health and outlook Get started Past grants. Grants for Youth & Education Grantee Location Grant Name Grant Amount Grant Year Boys & Girls Club of The Valley Phoenix, AZ 2026 Renee Parsons Girls Leadership Award Up to $80k $20,000 2026 Boys & Girls Club of The Valley Phoenix, AZ 2026 Renee Parsons Girls Excellence Award Up to $40k $10,000 2026 New Pathways for Youth Phoenix, AZ General Operating Support $150,000 2025 Armed Services YMCA Camp Pendleton Camp Pendleton, CA General Operating Support $300,000 2025 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $300,000 2025 Central Michigan University Mt. Pleasant, MI EmpowHER Leadership Program Support $350,000 2025 One N Ten Phoenix, AZ Camp OUTdoors and Satellite Program Expansion $500,000 2025 First Tee - Phoenix Phoenix, AZ General Operating Support $5,000 2025 Zack Johnson Foundation Cedar Rapids, IA Zach Johnson Foundation Classic & Kids on Course Program $100,000 2025 Earn to Learn Tucson, AZ Capacity Building $250,000 2025 Jobs for Arizona's Graduates Phoenix, AZ General Operating Support $300,000 2025 Education Action Alliance Phoenix, AZ General Operating Support $350,000 2025 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Wish Granting $785,750 2025 Boys & Girls Club of The Valley Phoenix, AZ 2025 Renee Parsons Girls Leadership Award Up to $80k $20,000 2025 Boys & Girls Club of The Valley Phoenix, AZ 2025 Renee Parsons Girls Excellence Award Up to $40k $10,000 2025 McDowell Sonoran Conservancy Scottsdale, AZ General Operating Support $186,000 2025 Hualalai Ohana Foundation Kailua Kona, HI 100 Holes of Golf Fundraiser $100,000 2025 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ The Bob & Renee Parsons Gymnasium at Tonalea Middle School $2,500,000 2024 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $300,000 2024 Hualalai Ohana Foundation Kailau Kona, HI 100 Holes of Golf Fundraiser $100,000 2024 Armed Services YMCA Camp Pendleton Camp Pendleton, CA Childcare Vouchers for Military Families $300,000 2024 Elevate Phoenix Phoenix, AZ General Operating Support $500,000 2024 National Center for Youth Law (FosterEd) Phoenix, AZ FosterEd in Arizona $250,000 2024 Children's Vision Collaborative Fund Phoenix, AZ Donation $50,000 2024 Free Arts for Abused Children of Arizona Phoenix, AZ General Operating Support $250,000 2024 Arizona Friends of Foster Children Foundation Phoenix, AZ Keys to Success $375,000 2024 Homeless Youth Connection Phoenix, AZ Empowering Youth for the Future (EYFTF) $600,000 2024 Boys & Girls Club of The Valley Phoenix, AZ 2024 Renee Parsons Girls Leadership Award Up to $80k $20,000 2024 Boys & Girls Club of The Valley Phoenix, AZ 2024 Renee Parsons Girls Excellence Award Up to $40k $10,000 2024 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ 2024 Wish Ball Sponsorship $30,000 2024 Boys & Girls Clubs of The Valley Phoenix, AZ 2024 Today's Kids, Tomorrow's Stars Gala Event $25,000 2024 First Tee - Phoenix Phoenix, AZ General Operating Support $150,000 2023 Junior Achievement of Arizona Tempe, AZ Financial Literacy and Career Readiness Program Support $300,000 2023 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ 2023 Badge Bash $25,000 2023 Child Crisis Arizona Mesa, AZ Support for the Center for Child & Family Wellness $1,000,000 2023 Free Arts for Abused Children of Arizona Phoenix, AZ 30th Anniversary Gala Event $20,000 2023 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $100,000 2023 Hualalai Ohana Foundation Kailau Kona, HI 100 Holes of Golf Fundraiser $100,000 2023 Arizona Legal Women and Youth Services (ALWAYS) Phoenix, AZ General Operating Support $25,000 2023 Fresh Start Caring for Kids Foundation Schaumburg, IL 2023 Celebrity Golf Classic Donation $300,000 2023 Armed Services YMCA Camp Pendleton Camp Pendleton, CA Childcare Vouchers for Military Families $312,000 2023 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Wish Granting $2,000,000 2023 Boys & Girls Club of The Valley Phoenix, AZ 2023 Renee Parsons Girls Leadership Award Up to $80k $20,000 2023 Boys & Girls Club of The Valley Phoenix, AZ 2023 Renee Parsons Girls Excellence Award Up to $40k $10,000 2023 Boys & Girls Clubs of The Valley Phoenix, AZ Support for Summer Programs and General Operations $1,156,000 2023 Boys & Girls Clubs of The Valley Phoenix, AZ 2023 Today's Kids, Tomorrow's Stars Gala Event $25,000 2023 Boys & Girls Club of The Valley Phoenix, AZ 2022 Renee Parsons Girls Leadership Award Up to $80k $20,000 2022 Boys & Girls Club of The Valley Phoenix, AZ 2022 Renee Parsons Girls Excellence Award Up to $40k $10,000 2022 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $300,000 2022 Read Better Be Better\u00ae Phoenix, AZ Expansion of Afterschool Reading Program $250,000 2022 Kaboom! Phoenix, AZ Community Playspace $40,000 2022 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ Support for Expansion of Outdoor Programming $2,250,000 2022 Boys & Girls Clubs of The Valley Phoenix, AZ Whole Child Approach Program $1,500,000 2022 Aliento Education Fund Gilbert, AZ General Operating Support $250,000 2022 Rosie's House - A Music Academy for Children Phoenix, AZ Support for Program Expansion $300,000 2022 Armed Services YMCA Camp Pendleton Camp Pendleton, CA General Operating Support $250,000 2022 Make Way for Books Tucson, AZ Support for Maricopa County Expansion $500,000 2022 Homeless Youth Connection Phoenix, AZ Empowering Youth for the Future (EYFTF) $250,000 2022 Free Arts for Abused Children of Arizona Phoenix, AZ 2022 Art from the Heart Art Auction $10,000 2022 One N Ten Phoenix, AZ Camp OUTdoors, Satellite and Digital Program Expansion $500,000 2022 Robinson Ranch Phoenix, AZ Donation $25,000 2022 All in Education Phoenix, AZ General Operating Support $200,000 2022 Almost Famous Theatre Company Phoenix, AZ Donation $10,000 2022 Fresh Start Caring for Kids Foundation Schaumburg, IL 2022 Celebrity Golf Classic Donation $100,000 2022 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Wish Granting $1,000,000 2022 International School of Arizona Scottsdale, AZ Annual Fund Donation $25,000 2022 Boys & Girls Clubs of The Valley Phoenix, AZ 2022 Today's Kids, Tomorrow's Stars Gala Event $25,000 2022 University of Baltimore Foundation Baltimore, MD Support for the Bob Parsons Veterans Student Center & Advocacy Clinic $2,427,610 2021 McDowell Sonoran Conservancy Scottsdale, AZ The Parsons Field Institute $1,500,000 2021 BRG Group Vietnam Support Educational Scholarships $100,000 2021 Hualalai Ohana Foundation Kailua Kona, HI Donation $10,000 2021 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Wish Granting $2,000,000 2021 GLSEN, Inc. Phoenix, AZ Support of GLSEN, Inc (Arizona Chapter) $1,500,000 2021 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $600,000 2021 Boys & Girls Clubs of The Valley Phoenix, AZ 2021 Today's Kids, Tomorrow's Stars Gala Event $25,000 2021 Fresh Start Caring for Kids Foundation Schaumburg, IL 2021 Celebrity Golf Classic Donation $25,000 2021 International School of Arizona Scottsdale, AZ Enhancing Technology, Building Improvements and Campus Safety $25,000 2021 Opportunity Network New York, NY Donation $10,000 2021 Almost Famous Theatre Company Phoenix, AZ Donation $10,000 2021 ASU Foundation for a New American University Tempe, AZ Math and Computer Science (MACS) Accelerator $2,000,000 2020 Grand Canyon University Phoenix, AZ The Parsons' Dreamers Scholarship Fund $2,000,000 2020 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ Support a Successful Cookie Season $665,000 2020 Free Arts for Abused Children of Arizona Phoenix, AZ General Operating Support $500,000 2020 National Center for Youth Law (FosterEd) Phoenix, AZ FosterEd in Arizona $500,000 2020 Boys & Girls Club of The Valley Phoenix, AZ General Operating Support $500,000 2020 Homeless Youth Connection Phoenix, AZ Empowering Youth for the Future (EYFTF) $250,000 2020 New Pathways for Youth Phoenix, AZ General Operating Support $150,000 2020 Boys & Girls Club of The Valley Phoenix, AZ 2020 Renee Parsons Girls Excellence Award Up to $40k $10,000 2020 Boys & Girls Club of The Valley Phoenix, AZ 2020 Renee Parsons Girls Leadership Award Up to $80k $20,000 2020 Aliento Education Fund Gilbert, AZ General Operating Support $25,000 2020 ResilientMe, Inc. Chandler, AZ General Operating Support $25,000 2020 Read Better Be Better Phoenix, AZ General Operating Support $25,000 2020 Armed Services YMCA Camp Pendleton Camp Pendleton, CA Fisher Children's Center $25,000 2020 Arizona Community Foundation Phoenix, AZ Early Childhood Funders Collaborative $15,000 2020 Grand Canyon University Phoenix, AZ Students Inspiring Students Scholarship $500,000 2020 The Ideal School of Manhattan New York, NY Donation $10,000 2020 International School of Arizona Scottsdale, AZ Technology Improvements $25,000 2020 University of Baltimore Foundation Baltimore, MD Up to $5M over 5 years for the Bob Parsons Scholarship Fund $5,000,000 2020 Opportunity Network New York, NY Donation $10,000 2020 Rosie's House - A Music Academy for Children Phoenix, AZ Program Support $25,000 2019 One N Ten Phoenix, AZ Camp OUTdoors Program Expansion $150,000 2019 ASU Foundation for a New American University Tempe, AZ Parsons Scholars $937,000 2019 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $300,000 2019 Association for Supportive Child Care Phoenix, AZ Play & Learn $744,000 2019 Arizona Friends of Foster Children Foundation Phoenix, AZ Keys to Success $150,000 2019 Arizona Community Foundation Phoenix, AZ Early Childhood Funders Collaborative $15,000 2019 Almost Famous Theatre Company Phoenix, AZ Donation $10,000 2019 Robinson Ranch Phoenix, AZ Donation $20,645 2019 Free Arts for Abused Children of Arizona Phoenix, AZ 2019 Every Child Matters Luncheon Sponsorship $7,500 2019 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ 2019 Fueling Our Future Breakfast Sponsorship $10,000 2019 Hualalai Ohana Foundation Kailau Kona, HI 100 Holes of Golf Fundraiser $20,000 2019 Hualalai Ohana Foundation Kailau Kona, HI 2019 Wacky Golf Outing Sponsorship $5,000 2019 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ 2019 Renee Parsons Girls Leadership Award Up to $80k $20,000 2019 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Wish Granting $1,000,000 2019 Fresh Start Caring for Kids Foundation Schaumburg, IL 2019 Celebrity Golf Classic Donation $25,000 2019 International School of Arizona Scottsdale, AZ Support for Multi-Sport Courts $25,000 2019 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ 2019 Blue Door Ball Event Donation and Live Auction Match $289,750 2019 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ Ensuring Post-Secondary Success of Scholars $120,000 2019 Junior Achievement of Arizona Tempe, AZ Financial Literacy, Entrepreneurship & Work Readiness Education $300,000 2019 ASU Foundation Phoenix, AZ 2019 Children of Incarcerated Parents Conference Sponsorship $15,000 2019 Opportunity Network New York, NY Donation $10,000 2019 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ 2019 Today's Kids, Tomorrow's Stars Gala Event $25,000 2019 Free Arts for Abused Children of Arizona Phoenix, AZ Building Renovation and Program Support $1,100,000 2018 New Pathways for Youth Phoenix, AZ Capacity Building to Serve Youth Experiencing Extreme Adversity $150,000 2018 Almost Famous Theatre Company Phoenix, AZ Youth Troupe $10,000 2018 Free Arts for Abused Children of Arizona Phoenix, AZ 25th Anniversary Gala Platinum Sponsorship $15,000 2018 Boys & Girls Club of Metropolitan Phoenix Phoenix, AZ 2018 Fueling Our Future Breakfast Sponsorship $10,000 2018 One N Ten Phoenix, AZ Dancing with One N Ten Fundraiser $10,000 2018 Hualalai Ohana Foundation Kailua Kona, HI 100 Holes of Golf Fundraiser $10,000 2018 Hualalai Ohana Foundation Kailua Kona, HI 2018 Wacky Golf Outing Event Match $120,350 2018 Hualalai Ohana Foundation Kailua Kona, HI 2018 Wacky Golf Outing Sponsorship $5,000 2018 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ 2018 Badge Bash Senior Sponsorship $15,000 2018 McDowell Sonoran Conservancy Scottsdale, AZ The Parsons Field Institute $600,000 2018 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ 2018 Renee Parsons Girls Leadership Award $20,000 2018 Year Up Phoenix, AZ Year Up Arizona Expansion $750,000 2018 Arizona Chamber Foundation (A for Arizona) Phoenix, AZ A for Arizona Expansion Fund $400,000 2018 Read Better Be Better Phoenix, AZ General Operating Support $25,000 2018 National Center for Youth Law (FosterEd) Phoenix, AZ FosterEd in Arizona $500,000 2018 Jobs for Arizona's Graduates Phoenix, AZ Sustaining Growth & Quality $300,000 2018 GLSEN, Inc. (Arizona Chapter) Phoenix, AZ Addressing Anti-LGBTQ Discrimination in K-12 Schools $150,000 2018 Child Crisis Arizona Mesa, AZ Mesa Head Start Expansion Project $200,000 2018 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Supporting Continued Wish Growth $1,300,000 2018 Robinson Ranch Phoenix, AZ Building Bridges $25,000 2018 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ 2018 Blue Door Ball Event Donation $100,000 2018 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ Youth of the Year Scholarships $180,000 2018 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ 2018 Today's Kids, Tomorrow's Stars Gala Event $25,000 2018 Opportunity Network New York, NY Donation $10,000 2018 International School of Arizona Scottsdale, AZ Art Room $25,000 2018 BRG Group Vietnam Support of Vietnam Programs $200,000 2018 Gilder Lehrman Institute of American History Phoenix, AZ EduHam Program $204,975 2018 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ 2018 Wish Ball SuperStar Sponsorship $25,000 2017 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ 2017 Phoenix Walk for Wishes YAM Team Match $9,400 2017 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ Million Dollar Day of the Girl $214,300 2017 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ 2017 Badge Bash Senior Sponsorship $15,000 2017 Free Arts for Abused Children of Arizona Phoenix, AZ The Bob & Renee Parsons Center for Hope & Healing $2,500,000 2017 Hualalai Ohana Foundation Kailua Kona, HI 13th Annual Golf & Auction Event Match $311,500 2017 Hualalai Ohana Foundation Kailua Kona, HI 100 Holes of Golf Event Sponsorship $5,000 2017 Hualalai Ohana Foundation Kailua Kona, HI 2017 Event Sponsorship & Donation $120,900 2017 Arizona Community Foundation Phoenix, AZ Early Childhood Funders Collaborative $10,000 2017 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ Campaign for Girls $1.6M Matching Grant $1,600,000 2017 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Supporting the Goal of Reaching 400 Wishes $645,300 2017 International School of Arizona Scottsdale, AZ General Operating Support $25,000 2017 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ Technology Center & Celebrate Youth at Blue Door Ball Match $126,000 2017 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ Youth of the Year Scholarships $160,000 2017 Golf Fore Africa Scottsdale, AZ Golf Fore Africa Pro Am Sponsorship $10,000 2017 Boys & Girls Club of Metro Phoenix Phoenix, AZ 2017 Today's Kids, Tomorrow's Stars Gala Event $12,000 2017 Opportunity Network New York, NY Donation $25,000 2017 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ 2017 Wish Ball Platinum Sponsorship $15,000 2017 One N Ten Phoenix, AZ Tenant Improvements at Parsons Center for Health & Wellness $275,000 2017 Make-A-Wish Foundation of  Arizona, Inc. Scottsdale, AZ 2016 Phoenix Walk for Wishes YAM Team Match $12,500 2016 Hualalai Ohana Foundation Kailua Kona, HI 12th Annual Golf & Auction Event Donation $82,500 2016 Arizona Chamber Foundation- (A for Arizona) Phoenix, AZ General Operating Support $185,000 2016 Kuki'o Community Fund Honolulu, HI General Operating Support $5,000 2016 Hualalai Ohana Foundation Kailua Kona, HI 12th Annual Golf & Auction Event Sponsorship $86,900 2016 Hualalai Ohana Foundation Kailua Kona, HI 12th Annual Golf & Auction Event Match $343,000 2016 Camp Agape Maui Maui, HI General Operating Support $25,000 2016 Zach Johnson Foundation Cedar Rapids, IA Zach Johnson Foundation Classic & Kids on Course Program $25,000 2016 Elevate Phoenix Phoenix, AZ DREAMer Scholarships $115,875 2016 City of Scottsdale Scottsdale, AZ Mayor's Constitution Day Contest Sponsorship $5,000 2016 Mt. Pleasant Public Schools Mt. Pleasant, MI Mt. Pleasant Community Baseball Complex $40,000 2016 One N Ten Phoenix, AZ Camp OUTdoors Sponsorship $50,000 2016 Boys & Girls Club of Metro Phoenix Phoenix, AZ Today's Kids, Tomorrow's Stars Gala Event Match $406,000 2016 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ General Support to Reach 400 Wishes $500,000 2016 Boys & Girls Clubs of Metro Phoenix Phoenix, AZ Youth of the Year Scholarships $260,000 2016 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ 2016 Wishball Platinum Sponsorship $15,000 2016 Kona Crush Academy Hawai, HI 100 Holes of Golf Event Sponsorship $5,000 2016 Year Up Phoenix, AZ General Operating Support for Year Up Arizona Launch $500,000 2015 The Dougy Center Portland, OR Capital Campaign Support $100,000 2015 Perry Hall Recreation Council Perry Hall, MD Support for Creation of Angel Park $10,001 2015 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ 12th Annual Walk for Wishes Employee Match $10,706 2015 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ Wish Ball Event Sponsorship and Auction Match $46,000 2015 Kuki'o Community Fund of Hawaii Foundation Hawai, HI General Operating Support $5,000 2015 Joe Foss Institute Scottsdale, AZ Stars in Service Event Support $25,000 2015 Hualalai Ohana Foundation Kailua Kona, HI 11th Annual Golf & Summer Bash Event Match $526,000 2015 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ The Bob & Renee Parsons Leadership Center for Girls & Women $5,000,000 2015 Free Arts for Abused Children of Arizona Phoenix, AZ General Operating Support $2,000 2015 Free Arts for Abused Children of Arizona Phoenix, AZ Tax Credit Program Match, Support for Professional Artist Series, Free Arts Camp Series $250,000 2015 Child Crisis Center/ Crisis Nursery Phoenix, AZ Integration Costs for Merger of Child Crisis Center & Crisis Nursery $876,000 2015 Camp Agape Maui (via Hope Chapel) Kihei, HI Summer Camp Support $25,000 2015 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ Multiyear General Operating Support for Parsons Branch $1,250,000 2015 Mt. Pleasant Public Schools Education Foundation Mt. Pleasant, MI NWEA Computer Adaptive Testing $89,910 2015 Elevate Phoenix Phoenix, AZ DREAMer Scholarships $58,298 2015 Arizona Charter Schools Association (New Schools for Phoenix) Phoenix, AZ Multiyear General Operating Support $750,000 2015 Arizona Chamber Foundation- (A for Arizona) Phoenix, AZ General Operating Support $348,375 2015 Scottsdale Training & Rehabilitation Services Scottsdale, AZ Therapeutic Autism Program (TAP) Support $30,000 2014 Scottsdale Aquatic Club Scottsdale, AZ Cactus Pool Annual Golf Event Sponsorship $10,000 2014 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ 11th Annual Walk for Wishes Employee Match $17,319 2014 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ Construction of The Bob & Renee Parsons Wish House $2,775,000 2014 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ General Support to Reach 400 Wishes $2,000,000 2014 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ Wish Ball Event Sponsorship and Auction Match $15,000 2014 Kona Crush Academy Kailua Kona, HI 100 Holes of Golf Event $5,000 2014 Joe Foss Institute Scottsdale, AZ Stars in Service Event Support $25,000 2014 Hualalai Ohana Foundation Kailua Kona, HI 100 Holes of Golf Event $5,000 2014 Hualalai Ohana Foundation Kailua Kona, HI 10th Annual Golf & Summer Bash & Event Match $180,000 2014 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $20,000 2014 Golf Fore Africa Scottsdale, AZ Golf Fore Africa Pro Am Sponsorship $15,000 2014 Golf Fore Africa Scottsdale, AZ General Operating Support $25,000 2014 Go Campaign Santa Monica, CA Go Go Gala Event Match $424,020 2014 Go Campaign Santa Monica, CA Go Go Gala Event Sponsorship $5,000 2014 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ Girls Scouts Beyond Bars Program $288,000 2014 Free Arts for Abused Children of Arizona Phoenix, AZ General Operating Support $5,000 2014 Crisis Nursery, Inc. Phoenix, AZ Friends of Crisis Nursery Fundraising Event $2,700 2014 Camp Agape Maui (via Hope Chapel) Kihei, HI Summer Camp Support $10,000 2014 CAF America (Andrea Bocelli Foundation) Alexandria, VA EDU Project in Haiti $264,583 2014 Boys & Girls Club of North Mississippi Tupelo, MS Renovation of Three Club Locations $500,000 2014 Boys & Girls Club of North Mississippi Tupelo, MS General Operating Support $100,000 2014 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ Construction of New Club in Balsz District:  Bob & Renee Parsons Branch $4,000,000 2014 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ General Operating Support $1,000,000 2014 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ General Operating Support for the Stewart Branch Teen Center $250,000 2014 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ Fine Arts Program & Live & Local Sponsorship $80,000 2014 McDowell Sonoran Conservancy Scottsdale, AZ Capacity Builidng for the McDowell Sonoran Field Institute $250,000 2014 TheDream.US (via Scholarship America, Inc.) Saint Peter, MN Arizona DREAMers Scholarships $1,000,000 2014 Teach for America Phoenix, AZ Matching Challenge $1,000,000 2014 Elevate Phoenix Phoenix, AZ DREAMer Scholarships $132,426 2014 Educare Phoenix, AZ Bridge Funding For Capacity Building $800,000 2014 A Stepping Stone Foundation Phoenix, AZ Multiyear Operating Support for Early Childhood Education and Parent Education Programs $360,000 2014 Patterson High School Baltimore, MD Sports, Study, Camp and Medical/Nutritional Needs $10,000 2013 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ 10th Annual Walk for Wishes Employee Match $15,533 2013 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ Evening of Wishes Event Donation $100,000 2013 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ Wish Ball Event Support & Match $1,395,000 2013 Joe Foss Institute Scottsdale, AZ Partnership with Elevate Phoenix $100,000 2013 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $20,000 2013 Friends of Public Radio Arizona Phoenix, AZ SPOT 127 Youth Program $100,000 2013 Free Arts for Abused Children of Arizona Phoenix, AZ Capacity Bulding Support $250,000 2013 Free Arts for Abused Children of Arizona Phoenix, AZ Support for Professional Artist Series & Media $75,000 2013 CAF America (Andrea Bocelli Foundation) Alexandria, VA W.H.E.A.T. Project in Haiti $108,333 2013 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ General Operating Support for The Bob & Renee Parsons Dental Clinic $500,000 2013 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ Construction of a new Teen Center inside the Stewart Branch $250,000 2013 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ Fine Arts Program and Live & Local Sponsorship $75,000 2013 The Center for the Future of AZ Phoenix, AZ Multiyear Support of The AZ We Want Institute $225,000 2013 Hope for Haiti, Inc. Naples, FL Support for Community Improvement Projects $1,633,050 2013 Elevate Phoenix Phoenix, AZ DREAMer Scholarships $58,000 2013 Crisis Nursery, Inc. Phoenix, AZ Early Education FACES Program $475,000 2013 Crisis Nursery, Inc. Phoenix, AZ Early Education FACES Program $375,000 2013 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ Wish Ball Event Sponsorship $25,500 2012 Hampstead Wildcat Football Sandown, NH Support for ESPN Nationals $8,000 2012 Free Arts for Abused Children of Arizona Phoenix, AZ Support for Professional Artist Series $10,000 2012 Child Crisis Center Mesa, AZ Classroom Improvements $200,000 2012 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ Next Step Program $75,000 2012 Hope for Haiti, Inc. Naples, FL Bi-Annual Donation Until 2016 $2,000,000 2012\nHome / Our grants Our grants. The Bob & Renee Parsons Foundation was formed to reach low-income and underserved populations, marginalized communities, and causes often overlooked or underfunded by mainstream philanthropy. The Foundation focuses on the areas of youth & education, health & home, military & first responders, and the American dream. The Foundation provides transformational gifts to nonprofit organizations that are successfully addressing these areas and can demonstrate and measure the impact of their work. See if you are eligible Our process. To apply for a grant we\u2019ll ask you to: FIRST Take an eligibility quiz. Ten short questions will verify your eligibility. SECOND Submit your letter of interest, providing additional information about your organization and the specific projects or campaigns you wish to fund. THIRD We\u2019ll now take some time to carefully review your submission and conduct our due diligence using publicly available information. If we believe your organization may be a fit, we\u2019ll be in touch within 30 days to learn more about your request and the work you do. If you do not hear from us within that time frame, however, it means your request is unfortunately not the right fit at this time. FOURTH Apply for a grant. You will receive an email invitation from Foundation staff with a link to our grants portal where you will create an account to complete a formal grant application. During this process you will: Submit a formal proposal Provide audited financial statements and other documents Complete a questionnaire to assess your organization, leadership and staff, vision and strategy, and financial health and outlook Get started\nHome / Our grants\n- Home\n## Our grants.\nThe Bob & Renee Parsons Foundation was formed to reach low-income and underserved populations, marginalized communities, and causes often overlooked or underfunded by mainstream philanthropy. The Foundation focuses on the areas of youth & education, health & home, military & first responders, and the American dream. The Foundation provides transformational gifts to nonprofit organizations that are successfully addressing these areas and can demonstrate and measure the impact of their work.\n## Our process.\nTo apply for a grant we\u2019ll ask you to:\n## FIRST\nTake an eligibility quiz. Ten short questions will verify your eligibility.\n## SECOND\nSubmit your letter of interest, providing additional information about your organization and the specific projects or campaigns you wish to fund.\n## THIRD\nWe\u2019ll now take some time to carefully review your submission and conduct our due diligence using publicly available information. If we believe your organization may be a fit, we\u2019ll be in touch within 30 days to learn more about your request and the work you do. If you do not hear from us within that time frame, however, it means your request is unfortunately not the right fit at this time.\n## FOURTH\nApply for a grant. You will receive an email invitation from Foundation staff with a link to our grants portal where you will create an account to complete a formal grant application. During this process you will:\n- Submit a formal proposal\n- Provide audited financial statements and other documents\n- Complete a questionnaire to assess your organization, leadership and staff, vision and strategy, and financial health and outlook\nPast grants. Grants for Youth & Education Grantee Location Grant Name Grant Amount Grant Year Boys & Girls Club of The Valley Phoenix, AZ 2026 Renee Parsons Girls Leadership Award Up to $80k $20,000 2026 Boys & Girls Club of The Valley Phoenix, AZ 2026 Renee Parsons Girls Excellence Award Up to $40k $10,000 2026 New Pathways for Youth Phoenix, AZ General Operating Support $150,000 2025 Armed Services YMCA Camp Pendleton Camp Pendleton, CA General Operating Support $300,000 2025 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $300,000 2025 Central Michigan University Mt. Pleasant, MI EmpowHER Leadership Program Support $350,000 2025 One N Ten Phoenix, AZ Camp OUTdoors and Satellite Program Expansion $500,000 2025 First Tee - Phoenix Phoenix, AZ General Operating Support $5,000 2025 Zack Johnson Foundation Cedar Rapids, IA Zach Johnson Foundation Classic & Kids on Course Program $100,000 2025 Earn to Learn Tucson, AZ Capacity Building $250,000 2025 Jobs for Arizona's Graduates Phoenix, AZ General Operating Support $300,000 2025 Education Action Alliance Phoenix, AZ General Operating Support $350,000 2025 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Wish Granting $785,750 2025 Boys & Girls Club of The Valley Phoenix, AZ 2025 Renee Parsons Girls Leadership Award Up to $80k $20,000 2025 Boys & Girls Club of The Valley Phoenix, AZ 2025 Renee Parsons Girls Excellence Award Up to $40k $10,000 2025 McDowell Sonoran Conservancy Scottsdale, AZ General Operating Support $186,000 2025 Hualalai Ohana Foundation Kailua Kona, HI 100 Holes of Golf Fundraiser $100,000 2025 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ The Bob & Renee Parsons Gymnasium at Tonalea Middle School $2,500,000 2024 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $300,000 2024 Hualalai Ohana Foundation Kailau Kona, HI 100 Holes of Golf Fundraiser $100,000 2024 Armed Services YMCA Camp Pendleton Camp Pendleton, CA Childcare Vouchers for Military Families $300,000 2024 Elevate Phoenix Phoenix, AZ General Operating Support $500,000 2024 National Center for Youth Law (FosterEd) Phoenix, AZ FosterEd in Arizona $250,000 2024 Children's Vision Collaborative Fund Phoenix, AZ Donation $50,000 2024 Free Arts for Abused Children of Arizona Phoenix, AZ General Operating Support $250,000 2024 Arizona Friends of Foster Children Foundation Phoenix, AZ Keys to Success $375,000 2024 Homeless Youth Connection Phoenix, AZ Empowering Youth for the Future (EYFTF) $600,000 2024 Boys & Girls Club of The Valley Phoenix, AZ 2024 Renee Parsons Girls Leadership Award Up to $80k $20,000 2024 Boys & Girls Club of The Valley Phoenix, AZ 2024 Renee Parsons Girls Excellence Award Up to $40k $10,000 2024 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ 2024 Wish Ball Sponsorship $30,000 2024 Boys & Girls Clubs of The Valley Phoenix, AZ 2024 Today's Kids, Tomorrow's Stars Gala Event $25,000 2024 First Tee - Phoenix Phoenix, AZ General Operating Support $150,000 2023 Junior Achievement of Arizona Tempe, AZ Financial Literacy and Career Readiness Program Support $300,000 2023 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ 2023 Badge Bash $25,000 2023 Child Crisis Arizona Mesa, AZ Support for the Center for Child & Family Wellness $1,000,000 2023 Free Arts for Abused Children of Arizona Phoenix, AZ 30th Anniversary Gala Event $20,000 2023 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $100,000 2023 Hualalai Ohana Foundation Kailau Kona, HI 100 Holes of Golf Fundraiser $100,000 2023 Arizona Legal Women and Youth Services (ALWAYS) Phoenix, AZ General Operating Support $25,000 2023 Fresh Start Caring for Kids Foundation Schaumburg, IL 2023 Celebrity Golf Classic Donation $300,000 2023 Armed Services YMCA Camp Pendleton Camp Pendleton, CA Childcare Vouchers for Military Families $312,000 2023 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Wish Granting $2,000,000 2023 Boys & Girls Club of The Valley Phoenix, AZ 2023 Renee Parsons Girls Leadership Award Up to $80k $20,000 2023 Boys & Girls Club of The Valley Phoenix, AZ 2023 Renee Parsons Girls Excellence Award Up to $40k $10,000 2023 Boys & Girls Clubs of The Valley Phoenix, AZ Support for Summer Programs and General Operations $1,156,000 2023 Boys & Girls Clubs of The Valley Phoenix, AZ 2023 Today's Kids, Tomorrow's Stars Gala Event $25,000 2023 Boys & Girls Club of The Valley Phoenix, AZ 2022 Renee Parsons Girls Leadership Award Up to $80k $20,000 2022 Boys & Girls Club of The Valley Phoenix, AZ 2022 Renee Parsons Girls Excellence Award Up to $40k $10,000 2022 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $300,000 2022 Read Better Be Better\u00ae Phoenix, AZ Expansion of Afterschool Reading Program $250,000 2022 Kaboom! Phoenix, AZ Community Playspace $40,000 2022 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ Support for Expansion of Outdoor Programming $2,250,000 2022 Boys & Girls Clubs of The Valley Phoenix, AZ Whole Child Approach Program $1,500,000 2022 Aliento Education Fund Gilbert, AZ General Operating Support $250,000 2022 Rosie's House - A Music Academy for Children Phoenix, AZ Support for Program Expansion $300,000 2022 Armed Services YMCA Camp Pendleton Camp Pendleton, CA General Operating Support $250,000 2022 Make Way for Books Tucson, AZ Support for Maricopa County Expansion $500,000 2022 Homeless Youth Connection Phoenix, AZ Empowering Youth for the Future (EYFTF) $250,000 2022 Free Arts for Abused Children of Arizona Phoenix, AZ 2022 Art from the Heart Art Auction $10,000 2022 One N Ten Phoenix, AZ Camp OUTdoors, Satellite and Digital Program Expansion $500,000 2022 Robinson Ranch Phoenix, AZ Donation $25,000 2022 All in Education Phoenix, AZ General Operating Support $200,000 2022 Almost Famous Theatre Company Phoenix, AZ Donation $10,000 2022 Fresh Start Caring for Kids Foundation Schaumburg, IL 2022 Celebrity Golf Classic Donation $100,000 2022 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Wish Granting $1,000,000 2022 International School of Arizona Scottsdale, AZ Annual Fund Donation $25,000 2022 Boys & Girls Clubs of The Valley Phoenix, AZ 2022 Today's Kids, Tomorrow's Stars Gala Event $25,000 2022 University of Baltimore Foundation Baltimore, MD Support for the Bob Parsons Veterans Student Center & Advocacy Clinic $2,427,610 2021 McDowell Sonoran Conservancy Scottsdale, AZ The Parsons Field Institute $1,500,000 2021 BRG Group Vietnam Support Educational Scholarships $100,000 2021 Hualalai Ohana Foundation Kailua Kona, HI Donation $10,000 2021 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Wish Granting $2,000,000 2021 GLSEN, Inc. Phoenix, AZ Support of GLSEN, Inc (Arizona Chapter) $1,500,000 2021 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $600,000 2021 Boys & Girls Clubs of The Valley Phoenix, AZ 2021 Today's Kids, Tomorrow's Stars Gala Event $25,000 2021 Fresh Start Caring for Kids Foundation Schaumburg, IL 2021 Celebrity Golf Classic Donation $25,000 2021 International School of Arizona Scottsdale, AZ Enhancing Technology, Building Improvements and Campus Safety $25,000 2021 Opportunity Network New York, NY Donation $10,000 2021 Almost Famous Theatre Company Phoenix, AZ Donation $10,000 2021 ASU Foundation for a New American University Tempe, AZ Math and Computer Science (MACS) Accelerator $2,000,000 2020 Grand Canyon University Phoenix, AZ The Parsons' Dreamers Scholarship Fund $2,000,000 2020 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ Support a Successful Cookie Season $665,000 2020 Free Arts for Abused Children of Arizona Phoenix, AZ General Operating Support $500,000 2020 National Center for Youth Law (FosterEd) Phoenix, AZ FosterEd in Arizona $500,000 2020 Boys & Girls Club of The Valley Phoenix, AZ General Operating Support $500,000 2020 Homeless Youth Connection Phoenix, AZ Empowering Youth for the Future (EYFTF) $250,000 2020 New Pathways for Youth Phoenix, AZ General Operating Support $150,000 2020 Boys & Girls Club of The Valley Phoenix, AZ 2020 Renee Parsons Girls Excellence Award Up to $40k $10,000 2020 Boys & Girls Club of The Valley Phoenix, AZ 2020 Renee Parsons Girls Leadership Award Up to $80k $20,000 2020 Aliento Education Fund Gilbert, AZ General Operating Support $25,000 2020 ResilientMe, Inc. Chandler, AZ General Operating Support $25,000 2020 Read Better Be Better Phoenix, AZ General Operating Support $25,000 2020 Armed Services YMCA Camp Pendleton Camp Pendleton, CA Fisher Children's Center $25,000 2020 Arizona Community Foundation Phoenix, AZ Early Childhood Funders Collaborative $15,000 2020 Grand Canyon University Phoenix, AZ Students Inspiring Students Scholarship $500,000 2020 The Ideal School of Manhattan New York, NY Donation $10,000 2020 International School of Arizona Scottsdale, AZ Technology Improvements $25,000 2020 University of Baltimore Foundation Baltimore, MD Up to $5M over 5 years for the Bob Parsons Scholarship Fund $5,000,000 2020 Opportunity Network New York, NY Donation $10,000 2020 Rosie's House - A Music Academy for Children Phoenix, AZ Program Support $25,000 2019 One N Ten Phoenix, AZ Camp OUTdoors Program Expansion $150,000 2019 ASU Foundation for a New American University Tempe, AZ Parsons Scholars $937,000 2019 Hualalai Ohana Foundation Kailua Kona, HI General Operating Support $300,000 2019 Association for Supportive Child Care Phoenix, AZ Play & Learn $744,000 2019 Arizona Friends of Foster Children Foundation Phoenix, AZ Keys to Success $150,000 2019 Arizona Community Foundation Phoenix, AZ Early Childhood Funders Collaborative $15,000 2019 Almost Famous Theatre Company Phoenix, AZ Donation $10,000 2019 Robinson Ranch Phoenix, AZ Donation $20,645 2019 Free Arts for Abused Children of Arizona Phoenix, AZ 2019 Every Child Matters Luncheon Sponsorship $7,500 2019 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ 2019 Fueling Our Future Breakfast Sponsorship $10,000 2019 Hualalai Ohana Foundation Kailau Kona, HI 100 Holes of Golf Fundraiser $20,000 2019 Hualalai Ohana Foundation Kailau Kona, HI 2019 Wacky Golf Outing Sponsorship $5,000 2019 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ 2019 Renee Parsons Girls Leadership Award Up to $80k $20,000 2019 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Wish Granting $1,000,000 2019 Fresh Start Caring for Kids Foundation Schaumburg, IL 2019 Celebrity Golf Classic Donation $25,000 2019 International School of Arizona Scottsdale, AZ Support for Multi-Sport Courts $25,000 2019 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ 2019 Blue Door Ball Event Donation and Live Auction Match $289,750 2019 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ Ensuring Post-Secondary Success of Scholars $120,000 2019 Junior Achievement of Arizona Tempe, AZ Financial Literacy, Entrepreneurship & Work Readiness Education $300,000 2019 ASU Foundation Phoenix, AZ 2019 Children of Incarcerated Parents Conference Sponsorship $15,000 2019 Opportunity Network New York, NY Donation $10,000 2019 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ 2019 Today's Kids, Tomorrow's Stars Gala Event $25,000 2019 Free Arts for Abused Children of Arizona Phoenix, AZ Building Renovation and Program Support $1,100,000 2018 New Pathways for Youth Phoenix, AZ Capacity Building to Serve Youth Experiencing Extreme Adversity $150,000 2018 Almost Famous Theatre Company Phoenix, AZ Youth Troupe $10,000 2018 Free Arts for Abused Children of Arizona Phoenix, AZ 25th Anniversary Gala Platinum Sponsorship $15,000 2018 Boys & Girls Club of Metropolitan Phoenix Phoenix, AZ 2018 Fueling Our Future Breakfast Sponsorship $10,000 2018 One N Ten Phoenix, AZ Dancing with One N Ten Fundraiser $10,000 2018 Hualalai Ohana Foundation Kailua Kona, HI 100 Holes of Golf Fundraiser $10,000 2018 Hualalai Ohana Foundation Kailua Kona, HI 2018 Wacky Golf Outing Event Match $120,350 2018 Hualalai Ohana Foundation Kailua Kona, HI 2018 Wacky Golf Outing Sponsorship $5,000 2018 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ 2018 Badge Bash Senior Sponsorship $15,000 2018 McDowell Sonoran Conservancy Scottsdale, AZ The Parsons Field Institute $600,000 2018 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ 2018 Renee Parsons Girls Leadership Award $20,000 2018 Year Up Phoenix, AZ Year Up Arizona Expansion $750,000 2018 Arizona Chamber Foundation (A for Arizona) Phoenix, AZ A for Arizona Expansion Fund $400,000 2018 Read Better Be Better Phoenix, AZ General Operating Support $25,000 2018 National Center for Youth Law (FosterEd) Phoenix, AZ FosterEd in Arizona $500,000 2018 Jobs for Arizona's Graduates Phoenix, AZ Sustaining Growth & Quality $300,000 2018 GLSEN, Inc. (Arizona Chapter) Phoenix, AZ Addressing Anti-LGBTQ Discrimination in K-12 Schools $150,000 2018 Child Crisis Arizona Mesa, AZ Mesa Head Start Expansion Project $200,000 2018 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Supporting Continued Wish Growth $1,300,000 2018 Robinson Ranch Phoenix, AZ Building Bridges $25,000 2018 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ 2018 Blue Door Ball Event Donation $100,000 2018 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ Youth of the Year Scholarships $180,000 2018 Boys & Girls Club of Metropolitan Phoenix, Inc. Phoenix, AZ 2018 Today's Kids, Tomorrow's Stars Gala Event $25,000 2018 Opportunity Network New York, NY Donation $10,000 2018 International School of Arizona Scottsdale, AZ Art Room $25,000 2018 BRG Group Vietnam Support of Vietnam Programs $200,000 2018 Gilder Lehrman Institute of American History Phoenix, AZ EduHam Program $204,975 2018 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ 2018 Wish Ball SuperStar Sponsorship $25,000 2017 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ 2017 Phoenix Walk for Wishes YAM Team Match $9,400 2017 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ Million Dollar Day of the Girl $214,300 2017 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ 2017 Badge Bash Senior Sponsorship $15,000 2017 Free Arts for Abused Children of Arizona Phoenix, AZ The Bob & Renee Parsons Center for Hope & Healing $2,500,000 2017 Hualalai Ohana Foundation Kailua Kona, HI 13th Annual Golf & Auction Event Match $311,500 2017 Hualalai Ohana Foundation Kailua Kona, HI 100 Holes of Golf Event Sponsorship $5,000 2017 Hualalai Ohana Foundation Kailua Kona, HI 2017 Event Sponsorship & Donation $120,900 2017 Arizona Community Foundation Phoenix, AZ Early Childhood Funders Collaborative $10,000 2017 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ Campaign for Girls $1.6M Matching Grant $1,600,000 2017 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ Supporting the Goal of Reaching 400 Wishes $645,300 2017 International School of Arizona Scottsdale, AZ General Operating Support $25,000 2017 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ Technology Center & Celebrate Youth at Blue Door Ball Match $126,000 2017 Boys & Girls Club of Greater Scottsdale, Inc. Scottsdale, AZ Youth of the Year Scholarships $160,000 2017 Golf Fore Africa Scottsdale, AZ Golf Fore Africa Pro Am Sponsorship $10,000 2017 Boys & Girls Club of Metro Phoenix Phoenix, AZ 2017 Today's Kids, Tomorrow's Stars Gala Event $12,000 2017 Opportunity Network New York, NY Donation $25,000 2017 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ 2017 Wish Ball Platinum Sponsorship $15,000 2017 One N Ten Phoenix, AZ Tenant Improvements at Parsons Center for Health & Wellness $275,000 2017 Make-A-Wish Foundation of  Arizona, Inc. Scottsdale, AZ 2016 Phoenix Walk for Wishes YAM Team Match $12,500 2016 Hualalai Ohana Foundation Kailua Kona, HI 12th Annual Golf & Auction Event Donation $82,500 2016 Arizona Chamber Foundation- (A for Arizona) Phoenix, AZ General Operating Support $185,000 2016 Kuki'o Community Fund Honolulu, HI General Operating Support $5,000 2016 Hualalai Ohana Foundation Kailua Kona, HI 12th Annual Golf & Auction Event Sponsorship $86,900 2016 Hualalai Ohana Foundation Kailua Kona, HI 12th Annual Golf & Auction Event Match $343,000 2016 Camp Agape Maui Maui, HI General Operating Support $25,000 2016 Zach Johnson Foundation Cedar Rapids, IA Zach Johnson Foundation Classic & Kids on Course Program $25,000 2016 Elevate Phoenix Phoenix, AZ DREAMer Scholarships $115,875 2016 City of Scottsdale Scottsdale, AZ Mayor's Constitution Day Contest Sponsorship $5,000 2016 Mt. Pleasant Public Schools Mt. Pleasant, MI Mt. Pleasant Community Baseball Complex $40,000 2016 One N Ten Phoenix, AZ Camp OUTdoors Sponsorship $50,000 2016 Boys & Girls Club of Metro Phoenix Phoenix, AZ Today's Kids, Tomorrow's Stars Gala Event Match $406,000 2016 Make-A-Wish Foundation of Arizona, Inc. Scottsdale, AZ General Support to Reach 400 Wishes $500,000 2016 Boys & Girls Clubs of Metro Phoenix Phoenix, AZ Youth of the Year Scholarships $260,000 2016 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ 2016 Wishball Platinum Sponsorship $15,000 2016 Kona Crush Academy Hawai, HI 100 Holes of Golf Event Sponsorship $5,000 2016 Year Up Phoenix, AZ General Operating Support for Year Up Arizona Launch $500,000 2015 The Dougy Center Portland, OR Capital Campaign Support $100,000 2015 Perry Hall Recreation Council Perry Hall, MD Support for Creation of Angel Park $10,001 2015 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ 12th Annual Walk for Wishes Employee Match $10,706 2015 Make-A-Wish Foundation of Arizona, Inc. Phoenix, AZ Wish Ball Event Sponsorship and Auction Match $46,000 2015 Kuki'o Community Fund of Hawaii Foundation Hawai, HI General Operating Support $5,000 2015 Joe Foss Institute Scottsdale, AZ Stars in Service Event Support $25,000 2015 Hualalai Ohana Foundation Kailua Kona, HI 11th Annual Golf & Summer Bash Event Match $526,000 2015 Girl Scouts\u2014Arizona Cactus-Pine Council Phoenix, AZ The Bob & Renee Parsons Leadership Center for Girls & Women $5,000,000 2015 Free Arts for Abused Children of Arizona Phoenix, AZ General Operating Support $2,000 2015 Free Arts for Abused Children of Arizona Phoenix, AZ Tax Credit Program Match, Support for Professional Artist Series, Free Arts Camp Series $250,000 2015 Child Crisis Center/ Crisis Nursery Phoenix, AZ Integration Costs for Merger of Child Crisis Center & Crisis Nursery $876,000 2015 Camp",
+        "title": "Transformational Grants to Help Fund Nonprofits | TBRPG.org",
+        "anchor_text": "direct:/grants",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 47869,
+        "fetch_method": "aiohttp",
+        "truncated": true
+      }
+    ],
+    "top_grants": [
+      {
+        "recipient": "Semper Fi Fund",
+        "state": "CA",
+        "amount": 10079500.0,
+        "purpose": "To provide immediate financial support for injured and critically ill members of the U.S. Armed Forces and their families.",
+        "year": 2018
+      },
+      {
+        "recipient": "Semper Fi America's Fund",
+        "state": "CA",
+        "amount": 10000000.0,
+        "purpose": "To provide immediate financial support for injured and critically ill members of the U.S. Armed Forces and their families.",
+        "year": 2022
+      },
+      {
+        "recipient": "Semper Fi America's Fund",
+        "state": "CA",
+        "amount": 10000000.0,
+        "purpose": "General Operating Support and payment of 2022 grant for the Double Down for Veterans program",
+        "year": 2023
+      },
+      {
+        "recipient": "Semper Fi Fund",
+        "state": "CA",
+        "amount": 10000000.0,
+        "purpose": "To provide immediate financial support for injured and critically ill members of the U.S. Armed Forces and their families.",
+        "year": 2019
+      },
+      {
+        "recipient": "Semper Fi Fund",
+        "state": "CA",
+        "amount": 10000000.0,
+        "purpose": "To provide immediate financial support for injured and critically ill members of the U.S. Armed Forces and their families.",
+        "year": 2020
+      },
+      {
+        "recipient": "Semper Fi Fund",
+        "state": "CA",
+        "amount": 10000000.0,
+        "purpose": "To provide immediate financial support for injured and critically ill members of the U.S. Armed Forces and their families.",
+        "year": 2021
+      },
+      {
+        "recipient": "University of California Berkeley",
+        "state": "CA",
+        "amount": 3000000.0,
+        "purpose": "The Renee & U.S. Marine LCpl Bob Parsons Endowed Chair - Berkeley Center for the Science of Psychedelics",
+        "year": 2023
+      },
+      {
+        "recipient": "Team Rubicon",
+        "state": "CA",
+        "amount": 2005921.0,
+        "purpose": "Hurricane Laura Relief Support",
+        "year": 2020
+      },
+      {
+        "recipient": "Hawaii Island Humane Society",
+        "state": "HI",
+        "amount": 1510000.0,
+        "purpose": "Funding for the Anne Barasch Ryan Animal Hospital and General Operating Support",
+        "year": 2022
+      },
+      {
+        "recipient": "Make-A-Wish Foundation of Arizona",
+        "state": "AZ",
+        "amount": 1300000.0,
+        "purpose": "To enrich the lives of children with life-threatening medical conditions through wish-granting work.",
+        "year": 2018
+      },
+      {
+        "recipient": "Free Arts for Abused Children of AZ",
+        "state": "AZ",
+        "amount": 1250000.0,
+        "purpose": "To support The Bob and Renee Parsons Center for Hope and Healing for children who have experienced abuse, neglect, poverty and homelessness, allowing them to experience art as therapy and have positive interactions with caring adult volunteers.",
+        "year": 2019
+      },
+      {
+        "recipient": "Barrow Neurological Foundation",
+        "state": "AZ",
+        "amount": 1200000.0,
+        "purpose": "To fund programs and services that improve research, education and patient care within the Muhammad Ali Parkinson's center.",
+        "year": 2021
+      },
+      {
+        "recipient": "100 Club of Arizona",
+        "state": "AZ",
+        "amount": 1200000.0,
+        "purpose": "To provide immediate financial assistance to families of public safety officers and firefighters who are seriously injured or killed in the line of duty, and to provide resources to enhance their safety and welfare.",
+        "year": 2021
+      },
+      {
+        "recipient": "Boys Girls Club of the Valley",
+        "state": "AZ",
+        "amount": 1156000.0,
+        "purpose": "To support Summer Programs at the Boys & Girls Clubs",
+        "year": 2023
+      },
+      {
+        "recipient": "Free Arts for Abused Children of AZ",
+        "state": "AZ",
+        "amount": 1115000.0,
+        "purpose": "To support The Bob and Renee Parsons Center for Hope and Healing for children who have experienced abuse, neglect, poverty and homelessness, allowing them to experience art as therapy and have positive interactions with caring adult volunteers.",
+        "year": 2018
+      },
+      {
+        "recipient": "Headstrong Project Inc",
+        "state": "NY",
+        "amount": 1024060.0,
+        "purpose": "To provide confidential, cost-free, and frictionless mental health care treatment for military veterans and their families that works.",
+        "year": 2019
+      },
+      {
+        "recipient": "Barrow Neurological Foundation",
+        "state": "AZ",
+        "amount": 1000000.0,
+        "purpose": "To fund programs and services that improve research, education and patient care within the Muhammad Ali Parkinson's center.",
+        "year": 2018
+      },
+      {
+        "recipient": "MAPS",
+        "state": "CA",
+        "amount": 1000000.0,
+        "purpose": "Support for the Advancement of Psychedelic Therapies for the Treatment of PTSD",
+        "year": 2021
+      },
+      {
+        "recipient": "Child Crisis Arizona",
+        "state": "AZ",
+        "amount": 1000000.0,
+        "purpose": "General Operating Support and Foster Bright Futures Campaign",
+        "year": 2023
+      },
+      {
+        "recipient": "MAPS",
+        "state": "CA",
+        "amount": 1000000.0,
+        "purpose": "Support for the Advancement of Psychedelic Therapies for the Treatment of PTSD",
+        "year": 2020
+      }
+    ],
+    "pf_grants": [
+      {
+        "recipient": "NYC Marine Corps Birthday Gala Inc",
+        "state": "NY",
+        "amount": 25000.0,
+        "purpose": "2023 NYC Marine Corps Birthday Gala Sponsorship",
+        "year": 2023
+      },
+      {
+        "recipient": "NYC Marine Corps Birthday Gala Inc",
+        "state": "NY",
+        "amount": 25000.0,
+        "purpose": "Support for the Annual Marine Corps Ball",
+        "year": 2022
+      },
+      {
+        "recipient": "NYC Marine Corps Birthday Gala Inc",
+        "state": "NY",
+        "amount": 25000.0,
+        "purpose": "Support for the Annual Marine Corp Ball",
+        "year": 2021
+      },
+      {
+        "recipient": "NYC Marine Corps Birthday Gala Inc",
+        "state": "NY",
+        "amount": 100000.0,
+        "purpose": "Support for the Annual Marine Corp Ball",
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "ein": "203198081",
+    "name": "Stanley W Ekstrom Foundation",
+    "base_url": "https://www.swefoundation.org",
+    "tier": 2,
+    "crawl_status": "completed",
+    "total_pages_crawled": 26,
+    "total_chars_raw": 0,
+    "chars_for_analysis": 0,
+    "pages_for_analysis": 0,
+    "grant_pages_found": 14,
+    "pdfs_found": [],
+    "pages": [],
+    "top_grants": [
+      {
+        "recipient": "PACIFIC YOUTH BOATING ASSOCIATION",
+        "state": "CA",
+        "amount": 789000.0,
+        "purpose": "DONATION OF 2002 55' FLEMING YACHT. BOOK VALUE OF $690,375. FAIR MARKET VALUE OF $789,000 PER APPRAISAL. GIFTED ON 7/10/18.",
+        "year": 2018
+      },
+      {
+        "recipient": "CITY OF HOPE",
+        "state": "CA",
+        "amount": 348334.0,
+        "purpose": "PROVIDING CARE, INNOVATIVE RESEARCH AND VITAL EDUCATION FOCUSED ON ELIMINATING CANCER.",
+        "year": 2020
+      },
+      {
+        "recipient": "ST JOSEPH HOSPITAL FOUNDATION",
+        "state": "CA",
+        "amount": 280000.0,
+        "purpose": "FOR THE HEART AND VASCULAR CENTER",
+        "year": 2019
+      },
+      {
+        "recipient": "CAL POLY WCTC EXPANSION PROJECT",
+        "state": "CA",
+        "amount": 250000.0,
+        "purpose": "WESTERN COATINGS TECHNOLOGY CENTER EXPANSION",
+        "year": 2019
+      },
+      {
+        "recipient": "ST JOSEPH HOSPITAL FOUNDATION",
+        "state": "CA",
+        "amount": 250000.0,
+        "purpose": "FOR THE HEART AND VASCULAR CENTER",
+        "year": 2018
+      },
+      {
+        "recipient": "LUNDQUIST INSTITUTE",
+        "state": "CA",
+        "amount": 200000.0,
+        "purpose": "TO ENGAGE IN BIOMEDICAL RESEARCH, EDUCATE & PROVIDE COMMUNITY HEALTH SERVICES",
+        "year": 2022
+      },
+      {
+        "recipient": "LUNDQUIST INSTITUTE",
+        "state": "CA",
+        "amount": 200000.0,
+        "purpose": "TO ENGAGE IN BIOMEDICAL RESEARCH, EDUCATE & PROVIDE COMMUNITY HEALTH SERVICES",
+        "year": 2023
+      },
+      {
+        "recipient": "CITY OF HOPE",
+        "state": "CA",
+        "amount": 166667.0,
+        "purpose": "PROVIDING CARE, INNOVATIVE RESEARCH AND VITAL EDUCATION FOCUSED ON ELIMINATING CANCER.",
+        "year": 2022
+      },
+      {
+        "recipient": "CITY OF HOPE",
+        "state": "CA",
+        "amount": 166667.0,
+        "purpose": "PROVIDING CARE, INNOVATIVE RESEARCH AND VITAL EDUCATION FOCUSED ON ELIMINATING CANCER.",
+        "year": 2023
+      },
+      {
+        "recipient": "PET ADOPTION CENTER OF ORANGE COUNTY",
+        "state": "CA",
+        "amount": 150000.0,
+        "purpose": "START-UP FUNDING & TENANT IMPROVEMENTS FOR A PET ADOPTION CENTER",
+        "year": 2019
+      },
+      {
+        "recipient": "PET ADOPTION CENTER OF ORANGE COUNTY",
+        "state": "CA",
+        "amount": 150000.0,
+        "purpose": "START-UP FUNDING & TENANT IMPROVEMENTS FOR A PET ADOPTION CENTER",
+        "year": 2020
+      },
+      {
+        "recipient": "PET ADOPTION CENTER OF ORANGE COUNTY",
+        "state": "CA",
+        "amount": 150000.0,
+        "purpose": "START-UP FUNDING & TENANT IMPROVEMENTS FOR A PET ADOPTION CENTER",
+        "year": 2018
+      },
+      {
+        "recipient": "MOB MUSEUM",
+        "state": "NV",
+        "amount": 135000.0,
+        "purpose": "EDUCATIONAL PROGRAM FOR LOCAL HIGH SCHOOL STUDENTS. TO ADVANCE THE PUBLIC UNDERSTANDING OF ORGANIZED CRIME'S HISTORY AND IMPACT ON AMERICAN SOCIETY.",
+        "year": 2023
+      },
+      {
+        "recipient": "WILDLIFE - WAYSTATION",
+        "state": "CA",
+        "amount": 130000.0,
+        "purpose": "X-RAY MACHINE, SOFTWARE & POWER GENERATOR & ULTRA-SOUND MACHINE",
+        "year": 2019
+      },
+      {
+        "recipient": "ARMED SERVICES YMCA CAMP PENDLETON",
+        "state": "CA",
+        "amount": 120000.0,
+        "purpose": "PROVIDE ACTIVITIES & SERVICES TO OUR MILITARY AND THEIR FAMILIES.",
+        "year": 2022
+      },
+      {
+        "recipient": "CHILDREN'S HOSPITAL OF LOS ANGELES",
+        "state": "CA",
+        "amount": 115000.0,
+        "purpose": "PROMOTION & ADVANCEMENT OF CHILDREN'S HEALTH",
+        "year": 2020
+      },
+      {
+        "recipient": "CHABAD CENTER FOR JEWISH LIFE",
+        "state": "NY",
+        "amount": 110000.0,
+        "purpose": "DEVOTED TO STRENGTHENING THE JEWISH COMMUNITY THROUGH EDUCATION & SOCIAL SERVICES.",
+        "year": 2023
+      },
+      {
+        "recipient": "MAKE A WISH FOUNDATION",
+        "state": "AZ",
+        "amount": 100000.0,
+        "purpose": "TO CREATE LIFE-CHANGING WISHES FOR CHILDREN WITH CRITICAL ILLNESSES.",
+        "year": 2022
+      },
+      {
+        "recipient": "MOB MUSEUM",
+        "state": "NV",
+        "amount": 100000.0,
+        "purpose": "EDUCATIONAL PROGRAM FOR LOCAL HIGH SCHOOL STUDENTS. TO ADVANCE THE PUBLIC UNDERSTANDING OF ORGANIZED CRIME'S HISTORY AND IMPACT ON AMERICAN SOCIETY.",
+        "year": 2020
+      },
+      {
+        "recipient": "CHILDREN'S HOSPITAL OF LOS ANGELES",
+        "state": "CA",
+        "amount": 100000.0,
+        "purpose": "PROMOTION & ADVANCEMENT OF CHILDREN'S HEALTH",
+        "year": 2019
+      }
+    ],
+    "pf_grants": [
+      {
+        "recipient": "SWEET GEEKS FOUNDATION",
+        "state": "TX",
+        "amount": 300.0,
+        "purpose": "TO EXTEND A CULTURE OF CARE THROUGH PROVIDING GRANTS TO LOCAL CHARITIES THAT ADDRESS ARETS, YOUTH HOMELESSNESS & CANCER RELIEF",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "ein": "843123162",
+    "name": "LB Charitable Foundation",
+    "base_url": "https://lbcharitablefoundation.org",
+    "tier": 2,
+    "crawl_status": "completed",
+    "total_pages_crawled": 27,
+    "total_chars_raw": 45575,
+    "chars_for_analysis": 45575,
+    "pages_for_analysis": 1,
+    "grant_pages_found": 14,
+    "pdfs_found": [],
+    "pages": [
+      {
+        "url": "https://lbcharitablefoundation.org",
+        "final_url": "https://lbcharitablefoundation.org",
+        "page_type": "homepage",
+        "priority": 0,
+        "depth": 0,
+        "text": "HOME ABOUT Who We Are Meet The Team What We Do How We Work Past Recipients Photo Gallery WHO WE HELP Cancer Patients Homeless Veterans Disaster Victims Individuals With Substance Abuse Victims of Gangs and Gun Violence Christian Ministries Local Humane Societies and Animal Shelters Sex and Human Trafficking GRANT SEEKERS CONTACT US EVENTS Select Page Our Mission To provide financial support to non-profit organizations, human and health services, homeless shelters, military veterans, religious causes, humane societies, sex and human trafficking, and victims of crimes and calamities. Our vision To serve with compassion and faith, uplifting lives through support for those in need and advancing the work of organizations grounded in hope, healing, and human dignity. LB CHARITABLE FOUNDATION PURPOSE This corporation is a nonprofit public benefit corporation and is not organized for the private gain of any person. It is organized under the California Nonprofit Public Benefit Corporation Law for public and charitable purposes. The specific purposes of this corporation are to support organizations that benefit the homeless, animal shelters, cancer research, disabled veterans, drug rehabilitation clinics, and victims of gun violence, and to engage in any other lawful activities permitted under the California Nonprofit Public Benefit Corporation Law. This corporation has been formed for such public and charitable purposes only. WHO WE ARE LBCF, at its core, is a family-led foundation whose primary objectives are philanthropy and social well-being (e.g. educational, religious, or other activities serving the public interest or common good). We work together to lead the foundation and create access to opportunity for people and surrounding communities. WHAT WE DO As we set our eyes on making an impact that improves lives today in surrounding communities and organizations, we also want to ensure that it lasts to benefit future generations. That\u2019s why we here at LBCF are committed to the issues we work on for the long term, and why we\u2019re constantly evaluating our efforts to make sure our investments and solutions are effective and long lasting. HOW WE WORK LBCF identifies important \u201cneed\u201d gaps in our areas of interest or communities. Develops and tests promising solutions through financial contribution to narrow those gaps and then broadly share new ideas with the community or leadership. who we help Cure for Cancer and Other Diseases through provided support of Advanced Medical Research When it comes to cancer and other diseases we want to be an organization that is not only ready to help but to support financially. We know how much diseases and unexpected diagnoses can be out of our control but we want to focus on things we can control. Through grants and donations we can help your organization get moving on research and a cure. who we help THE HOMELESS AND COMMUNITY SHELTERS We here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need. who we help AID AND RELIEF TO DISABLED VETERANS We never want to take our freedom for granted and especially not to forget the sacrifice that was and is made everyday to protect our freedom. We want to help to make the transition from soldier to civilian a little easier. Uplifting and aiding veterans of all walks of life and experience to make them feel appreciated and never forgotten. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We want to rebuild, restructure and help when disaster happens in our country and surrounding communities. We not only are here when it happens but to prepare and fund strategies to help prevent disasters. With the parameters in place we can do our best to be ahead and ready. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We want to rebuild, restructure and help when disaster happens in our country and surrounding communities. We not only are here when it happens but to prepare and fund strategies to help prevent disasters. With the parameters in place we can do our best to be ahead and ready. who we help INDIVIDUALS SUFFERING FROM SUBSTANCE ABUSE PROBLEMS There\u2019s not a lot of life halting things like a family member or people stuck in an addiction. We want to either fund or provide the right routes of recovery to the best of our abilities. We care about their well-being and want them to get on their feet. Professional help is expensive and we here at LBCF don\u2019t want the lack of financials to be the reason someone cant get the help they need. who we help VICTIMS OF GANG AND GUN VIOLENCE The youth and the direction they are headed in is so vital to our community. With gangs and gun violence on the constant rise, we want to help. We want to be there when an unexpected gun injury to a loved one happens. Being a bridge from gangs and violence to a healthier path is what our aim is here at the LBCF. who we help VICTIMS OF GANG AND GUN VIOLENCE The youth and the direction they are headed in is so vital to our community. With gangs and gun violence on the constant rise, we want to help. We want to be there when an unexpected gun injury to a loved one happens. Being a bridge from gangs and violence to a healthier path is what our aim is here at the LBCF. who we help CHRISTIAN MINISTRIES AND OUTREACH EFFORTS Supporting the spread of the gospel of Jesus Christ throughout our world and community is with utmost importance here at LBCF. We know how much impact it can have and we are here to support any efforts locally or globally. With the spread of the hope and love that Jesus Christ offers we know that we can have an everlasting impact on the world. Supporting and providing means to make disciples through the great commission is one of our goals here at LBCF. who we help local humane societies and animal shelters We know and understand how important our animals are, not only to our homes but how they affect the communities and global resources. We want to aid the effort to keep our world and animal population healthy and thriving. Also helping with the training of service animals as well as training for the individual to receive one. who we help local humane societies and animal shelters We know and understand how important our animals are, not only to our homes but how they affect the communities and global resources. We want to aid the effort to keep our world and animal population healthy and thriving. Also helping with the training of service animals as well as training for the individual to receive one. who we help VICTIMS OF SEX TRAFFICKING AND HUMAN TRAFFICKING We recognize the devastating impact human trafficking has on individuals, families, and communities. As a modern form of slavery, sex trafficking exploits vulnerable people through force, fraud, or coercion for commercial sex acts. We aim to support survivors, raise awareness, and assist in prevention efforts. By addressing the root causes\u2014such as child abuse, intimate partner violence, and youth exploitation\u2014we help restore safety, dignity, and hope to those affected, including women, men, and children across the U.S. and the world. we can help GRANT SEEKERS FORM Interested in grant funding? Please click the links below. INITIAL FUNDING REQUEST FORM RETURNING GRANTEE APPLICATION FORM contact us GET IN TOUCH WITH US We would love to hear from you. Please fill out the contact form and we will be in touch as soon as possible. Email:\u00a0grants@lbcharitablefoundation.org Follow Follow Your Name * Your Email * Subject Your Message HOME ABOUT WHO WE HELP GRANT SEEKERS CONTACT US EVENTS\nHOME ABOUT Who We Are Meet The Team What We Do How We Work Past Recipients Photo Gallery WHO WE HELP Cancer Patients Homeless Veterans Disaster Victims Individuals With Substance Abuse Victims of Gangs and Gun Violence Christian Ministries Local Humane Societies and Animal Shelters Sex and Human Trafficking GRANT SEEKERS CONTACT US EVENTS Select Page\n- HOME\n- ABOUT Who We Are Meet The Team What We Do How We Work Past Recipients Photo Gallery\n- Who We Are\n- Meet The Team\n- What We Do\n- How We Work\n- Past Recipients\n- Photo Gallery\n- WHO WE HELP Cancer Patients Homeless Veterans Disaster Victims Individuals With Substance Abuse Victims of Gangs and Gun Violence Christian Ministries Local Humane Societies and Animal Shelters Sex and Human Trafficking\n- Cancer Patients\n- Homeless\n- Veterans\n- Disaster Victims\n- Individuals With Substance Abuse\n- Victims of Gangs and Gun Violence\n- Christian Ministries\n- Local Humane Societies and Animal Shelters\n- Sex and Human Trafficking\n- GRANT SEEKERS\n- CONTACT US\n- EVENTS\nSelect Page\nOur Mission To provide financial support to non-profit organizations, human and health services, homeless shelters, military veterans, religious causes, humane societies, sex and human trafficking, and victims of crimes and calamities. Our vision To serve with compassion and faith, uplifting lives through support for those in need and advancing the work of organizations grounded in hope, healing, and human dignity. LB CHARITABLE FOUNDATION PURPOSE This corporation is a nonprofit public benefit corporation and is not organized for the private gain of any person. It is organized under the California Nonprofit Public Benefit Corporation Law for public and charitable purposes. The specific purposes of this corporation are to support organizations that benefit the homeless, animal shelters, cancer research, disabled veterans, drug rehabilitation clinics, and victims of gun violence, and to engage in any other lawful activities permitted under the California Nonprofit Public Benefit Corporation Law. This corporation has been formed for such public and charitable purposes only. WHO WE ARE LBCF, at its core, is a family-led foundation whose primary objectives are philanthropy and social well-being (e.g. educational, religious, or other activities serving the public interest or common good). We work together to lead the foundation and create access to opportunity for people and surrounding communities. WHAT WE DO As we set our eyes on making an impact that improves lives today in surrounding communities and organizations, we also want to ensure that it lasts to benefit future generations. That\u2019s why we here at LBCF are committed to the issues we work on for the long term, and why we\u2019re constantly evaluating our efforts to make sure our investments and solutions are effective and long lasting. HOW WE WORK LBCF identifies important \u201cneed\u201d gaps in our areas of interest or communities. Develops and tests promising solutions through financial contribution to narrow those gaps and then broadly share new ideas with the community or leadership. who we help Cure for Cancer and Other Diseases through provided support of Advanced Medical Research When it comes to cancer and other diseases we want to be an organization that is not only ready to help but to support financially. We know how much diseases and unexpected diagnoses can be out of our control but we want to focus on things we can control. Through grants and donations we can help your organization get moving on research and a cure. who we help THE HOMELESS AND COMMUNITY SHELTERS We here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need. who we help AID AND RELIEF TO DISABLED VETERANS We never want to take our freedom for granted and especially not to forget the sacrifice that was and is made everyday to protect our freedom. We want to help to make the transition from soldier to civilian a little easier. Uplifting and aiding veterans of all walks of life and experience to make them feel appreciated and never forgotten. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We want to rebuild, restructure and help when disaster happens in our country and surrounding communities. We not only are here when it happens but to prepare and fund strategies to help prevent disasters. With the parameters in place we can do our best to be ahead and ready. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We want to rebuild, restructure and help when disaster happens in our country and surrounding communities. We not only are here when it happens but to prepare and fund strategies to help prevent disasters. With the parameters in place we can do our best to be ahead and ready. who we help INDIVIDUALS SUFFERING FROM SUBSTANCE ABUSE PROBLEMS There\u2019s not a lot of life halting things like a family member or people stuck in an addiction. We want to either fund or provide the right routes of recovery to the best of our abilities. We care about their well-being and want them to get on their feet. Professional help is expensive and we here at LBCF don\u2019t want the lack of financials to be the reason someone cant get the help they need. who we help VICTIMS OF GANG AND GUN VIOLENCE The youth and the direction they are headed in is so vital to our community. With gangs and gun violence on the constant rise, we want to help. We want to be there when an unexpected gun injury to a loved one happens. Being a bridge from gangs and violence to a healthier path is what our aim is here at the LBCF. who we help VICTIMS OF GANG AND GUN VIOLENCE The youth and the direction they are headed in is so vital to our community. With gangs and gun violence on the constant rise, we want to help. We want to be there when an unexpected gun injury to a loved one happens. Being a bridge from gangs and violence to a healthier path is what our aim is here at the LBCF. who we help CHRISTIAN MINISTRIES AND OUTREACH EFFORTS Supporting the spread of the gospel of Jesus Christ throughout our world and community is with utmost importance here at LBCF. We know how much impact it can have and we are here to support any efforts locally or globally. With the spread of the hope and love that Jesus Christ offers we know that we can have an everlasting impact on the world. Supporting and providing means to make disciples through the great commission is one of our goals here at LBCF. who we help local humane societies and animal shelters We know and understand how important our animals are, not only to our homes but how they affect the communities and global resources. We want to aid the effort to keep our world and animal population healthy and thriving. Also helping with the training of service animals as well as training for the individual to receive one. who we help local humane societies and animal shelters We know and understand how important our animals are, not only to our homes but how they affect the communities and global resources. We want to aid the effort to keep our world and animal population healthy and thriving. Also helping with the training of service animals as well as training for the individual to receive one. who we help VICTIMS OF SEX TRAFFICKING AND HUMAN TRAFFICKING We recognize the devastating impact human trafficking has on individuals, families, and communities. As a modern form of slavery, sex trafficking exploits vulnerable people through force, fraud, or coercion for commercial sex acts. We aim to support survivors, raise awareness, and assist in prevention efforts. By addressing the root causes\u2014such as child abuse, intimate partner violence, and youth exploitation\u2014we help restore safety, dignity, and hope to those affected, including women, men, and children across the U.S. and the world. we can help GRANT SEEKERS FORM Interested in grant funding? Please click the links below. INITIAL FUNDING REQUEST FORM RETURNING GRANTEE APPLICATION FORM contact us GET IN TOUCH WITH US We would love to hear from you. Please fill out the contact form and we will be in touch as soon as possible. Email:\u00a0grants@lbcharitablefoundation.org Follow Follow Your Name * Your Email * Subject Your Message HOME ABOUT WHO WE HELP GRANT SEEKERS CONTACT US EVENTS\nOur Mission To provide financial support to non-profit organizations, human and health services, homeless shelters, military veterans, religious causes, humane societies, sex and human trafficking, and victims of crimes and calamities. Our vision To serve with compassion and faith, uplifting lives through support for those in need and advancing the work of organizations grounded in hope, healing, and human dignity. LB CHARITABLE FOUNDATION PURPOSE This corporation is a nonprofit public benefit corporation and is not organized for the private gain of any person. It is organized under the California Nonprofit Public Benefit Corporation Law for public and charitable purposes. The specific purposes of this corporation are to support organizations that benefit the homeless, animal shelters, cancer research, disabled veterans, drug rehabilitation clinics, and victims of gun violence, and to engage in any other lawful activities permitted under the California Nonprofit Public Benefit Corporation Law. This corporation has been formed for such public and charitable purposes only. WHO WE ARE LBCF, at its core, is a family-led foundation whose primary objectives are philanthropy and social well-being (e.g. educational, religious, or other activities serving the public interest or common good). We work together to lead the foundation and create access to opportunity for people and surrounding communities. WHAT WE DO As we set our eyes on making an impact that improves lives today in surrounding communities and organizations, we also want to ensure that it lasts to benefit future generations. That\u2019s why we here at LBCF are committed to the issues we work on for the long term, and why we\u2019re constantly evaluating our efforts to make sure our investments and solutions are effective and long lasting. HOW WE WORK LBCF identifies important \u201cneed\u201d gaps in our areas of interest or communities. Develops and tests promising solutions through financial contribution to narrow those gaps and then broadly share new ideas with the community or leadership. who we help Cure for Cancer and Other Diseases through provided support of Advanced Medical Research When it comes to cancer and other diseases we want to be an organization that is not only ready to help but to support financially. We know how much diseases and unexpected diagnoses can be out of our control but we want to focus on things we can control. Through grants and donations we can help your organization get moving on research and a cure. who we help THE HOMELESS AND COMMUNITY SHELTERS We here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need. who we help AID AND RELIEF TO DISABLED VETERANS We never want to take our freedom for granted and especially not to forget the sacrifice that was and is made everyday to protect our freedom. We want to help to make the transition from soldier to civilian a little easier. Uplifting and aiding veterans of all walks of life and experience to make them feel appreciated and never forgotten. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We want to rebuild, restructure and help when disaster happens in our country and surrounding communities. We not only are here when it happens but to prepare and fund strategies to help prevent disasters. With the parameters in place we can do our best to be ahead and ready. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We want to rebuild, restructure and help when disaster happens in our country and surrounding communities. We not only are here when it happens but to prepare and fund strategies to help prevent disasters. With the parameters in place we can do our best to be ahead and ready. who we help INDIVIDUALS SUFFERING FROM SUBSTANCE ABUSE PROBLEMS There\u2019s not a lot of life halting things like a family member or people stuck in an addiction. We want to either fund or provide the right routes of recovery to the best of our abilities. We care about their well-being and want them to get on their feet. Professional help is expensive and we here at LBCF don\u2019t want the lack of financials to be the reason someone cant get the help they need. who we help VICTIMS OF GANG AND GUN VIOLENCE The youth and the direction they are headed in is so vital to our community. With gangs and gun violence on the constant rise, we want to help. We want to be there when an unexpected gun injury to a loved one happens. Being a bridge from gangs and violence to a healthier path is what our aim is here at the LBCF. who we help VICTIMS OF GANG AND GUN VIOLENCE The youth and the direction they are headed in is so vital to our community. With gangs and gun violence on the constant rise, we want to help. We want to be there when an unexpected gun injury to a loved one happens. Being a bridge from gangs and violence to a healthier path is what our aim is here at the LBCF. who we help CHRISTIAN MINISTRIES AND OUTREACH EFFORTS Supporting the spread of the gospel of Jesus Christ throughout our world and community is with utmost importance here at LBCF. We know how much impact it can have and we are here to support any efforts locally or globally. With the spread of the hope and love that Jesus Christ offers we know that we can have an everlasting impact on the world. Supporting and providing means to make disciples through the great commission is one of our goals here at LBCF. who we help local humane societies and animal shelters We know and understand how important our animals are, not only to our homes but how they affect the communities and global resources. We want to aid the effort to keep our world and animal population healthy and thriving. Also helping with the training of service animals as well as training for the individual to receive one. who we help local humane societies and animal shelters We know and understand how important our animals are, not only to our homes but how they affect the communities and global resources. We want to aid the effort to keep our world and animal population healthy and thriving. Also helping with the training of service animals as well as training for the individual to receive one. who we help VICTIMS OF SEX TRAFFICKING AND HUMAN TRAFFICKING We recognize the devastating impact human trafficking has on individuals, families, and communities. As a modern form of slavery, sex trafficking exploits vulnerable people through force, fraud, or coercion for commercial sex acts. We aim to support survivors, raise awareness, and assist in prevention efforts. By addressing the root causes\u2014such as child abuse, intimate partner violence, and youth exploitation\u2014we help restore safety, dignity, and hope to those affected, including women, men, and children across the U.S. and the world. we can help GRANT SEEKERS FORM Interested in grant funding? Please click the links below. INITIAL FUNDING REQUEST FORM RETURNING GRANTEE APPLICATION FORM contact us GET IN TOUCH WITH US We would love to hear from you. Please fill out the contact form and we will be in touch as soon as possible. Email:\u00a0grants@lbcharitablefoundation.org Follow Follow Your Name * Your Email * Subject Your Message\nOur Mission To provide financial support to non-profit organizations, human and health services, homeless shelters, military veterans, religious causes, humane societies, sex and human trafficking, and victims of crimes and calamities.\n## Our Mission\nTo provide financial support to non-profit organizations, human and health services, homeless shelters, military veterans, religious causes, humane societies, sex and human trafficking, and victims of crimes and calamities.\nOur vision To serve with compassion and faith, uplifting lives through support for those in need and advancing the work of organizations grounded in hope, healing, and human dignity.\n## Our vision\nTo serve with compassion and faith, uplifting lives through support for those in need and advancing the work of organizations grounded in hope, healing, and human dignity.\nLB CHARITABLE FOUNDATION PURPOSE This corporation is a nonprofit public benefit corporation and is not organized for the private gain of any person. It is organized under the California Nonprofit Public Benefit Corporation Law for public and charitable purposes. The specific purposes of this corporation are to support organizations that benefit the homeless, animal shelters, cancer research, disabled veterans, drug rehabilitation clinics, and victims of gun violence, and to engage in any other lawful activities permitted under the California Nonprofit Public Benefit Corporation Law. This corporation has been formed for such public and charitable purposes only. WHO WE ARE LBCF, at its core, is a family-led foundation whose primary objectives are philanthropy and social well-being (e.g. educational, religious, or other activities serving the public interest or common good). We work together to lead the foundation and create access to opportunity for people and surrounding communities. WHAT WE DO As we set our eyes on making an impact that improves lives today in surrounding communities and organizations, we also want to ensure that it lasts to benefit future generations. That\u2019s why we here at LBCF are committed to the issues we work on for the long term, and why we\u2019re constantly evaluating our efforts to make sure our investments and solutions are effective and long lasting. HOW WE WORK LBCF identifies important \u201cneed\u201d gaps in our areas of interest or communities. Develops and tests promising solutions through financial contribution to narrow those gaps and then broadly share new ideas with the community or leadership.\nLB CHARITABLE FOUNDATION PURPOSE This corporation is a nonprofit public benefit corporation and is not organized for the private gain of any person. It is organized under the California Nonprofit Public Benefit Corporation Law for public and charitable purposes. The specific purposes of this corporation are to support organizations that benefit the homeless, animal shelters, cancer research, disabled veterans, drug rehabilitation clinics, and victims of gun violence, and to engage in any other lawful activities permitted under the California Nonprofit Public Benefit Corporation Law. This corporation has been formed for such public and charitable purposes only.\n## LB CHARITABLE FOUNDATION PURPOSE\nThis corporation is a nonprofit public benefit corporation and is not organized for the private gain of any person. It is organized under the California Nonprofit Public Benefit Corporation Law for public and charitable purposes. The specific purposes of this corporation are to support organizations that benefit the homeless, animal shelters, cancer research, disabled veterans, drug rehabilitation clinics, and victims of gun violence, and to engage in any other lawful activities permitted under the California Nonprofit Public Benefit Corporation Law. This corporation has been formed for such public and charitable purposes only.\nWHO WE ARE LBCF, at its core, is a family-led foundation whose primary objectives are philanthropy and social well-being (e.g. educational, religious, or other activities serving the public interest or common good). We work together to lead the foundation and create access to opportunity for people and surrounding communities. WHAT WE DO As we set our eyes on making an impact that improves lives today in surrounding communities and organizations, we also want to ensure that it lasts to benefit future generations. That\u2019s why we here at LBCF are committed to the issues we work on for the long term, and why we\u2019re constantly evaluating our efforts to make sure our investments and solutions are effective and long lasting.\nWHO WE ARE LBCF, at its core, is a family-led foundation whose primary objectives are philanthropy and social well-being (e.g. educational, religious, or other activities serving the public interest or common good). We work together to lead the foundation and create access to opportunity for people and surrounding communities.\n## WHO WE ARE\nLBCF, at its core, is a family-led foundation whose primary objectives are philanthropy and social well-being (e.g. educational, religious, or other activities serving the public interest or common good). We work together to lead the foundation and create access to opportunity for people and surrounding communities.\nWHAT WE DO As we set our eyes on making an impact that improves lives today in surrounding communities and organizations, we also want to ensure that it lasts to benefit future generations. That\u2019s why we here at LBCF are committed to the issues we work on for the long term, and why we\u2019re constantly evaluating our efforts to make sure our investments and solutions are effective and long lasting.\n## WHAT WE DO\nAs we set our eyes on making an impact that improves lives today in surrounding communities and organizations, we also want to ensure that it lasts to benefit future generations. That\u2019s why we here at LBCF are committed to the issues we work on for the long term, and why we\u2019re constantly evaluating our efforts to make sure our investments and solutions are effective and long lasting.\nHOW WE WORK LBCF identifies important \u201cneed\u201d gaps in our areas of interest or communities. Develops and tests promising solutions through financial contribution to narrow those gaps and then broadly share new ideas with the community or leadership.\n## HOW WE WORK\nLBCF identifies important \u201cneed\u201d gaps in our areas of interest or communities. Develops and tests promising solutions through financial contribution to narrow those gaps and then broadly share new ideas with the community or leadership.\nwho we help Cure for Cancer and Other Diseases through provided support of Advanced Medical Research When it comes to cancer and other diseases we want to be an organization that is not only ready to help but to support financially. We know how much diseases and unexpected diagnoses can be out of our control but we want to focus on things we can control. Through grants and donations we can help your organization get moving on research and a cure. who we help THE HOMELESS AND COMMUNITY SHELTERS We here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need. who we help AID AND RELIEF TO DISABLED VETERANS We never want to take our freedom for granted and especially not to forget the sacrifice that was and is made everyday to protect our freedom. We want to help to make the transition from soldier to civilian a little easier. Uplifting and aiding veterans of all walks of life and experience to make them feel appreciated and never forgotten. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We want to rebuild, restructure and help when disaster happens in our country and surrounding communities. We not only are here when it happens but to prepare and fund strategies to help prevent disasters. With the parameters in place we can do our best to be ahead and ready. who we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We want to rebuild, restructure and help when disaster happens in our country and surrounding communities. We not only are here when it happens but to prepare and fund strategies to help prevent disasters. With the parameters in place we can do our best to be ahead and ready. who we help INDIVIDUALS SUFFERING FROM SUBSTANCE ABUSE PROBLEMS There\u2019s not a lot of life halting things like a family member or people stuck in an addiction. We want to either fund or provide the right routes of recovery to the best of our abilities. We care about their well-being and want them to get on their feet. Professional help is expensive and we here at LBCF don\u2019t want the lack of financials to be the reason someone cant get the help they need. who we help VICTIMS OF GANG AND GUN VIOLENCE The youth and the direction they are headed in is so vital to our community. With gangs and gun violence on the constant rise, we want to help. We want to be there when an unexpected gun injury to a loved one happens. Being a bridge from gangs and violence to a healthier path is what our aim is here at the LBCF. who we help VICTIMS OF GANG AND GUN VIOLENCE The youth and the direction they are headed in is so vital to our community. With gangs and gun violence on the constant rise, we want to help. We want to be there when an unexpected gun injury to a loved one happens. Being a bridge from gangs and violence to a healthier path is what our aim is here at the LBCF. who we help CHRISTIAN MINISTRIES AND OUTREACH EFFORTS Supporting the spread of the gospel of Jesus Christ throughout our world and community is with utmost importance here at LBCF. We know how much impact it can have and we are here to support any efforts locally or globally. With the spread of the hope and love that Jesus Christ offers we know that we can have an everlasting impact on the world. Supporting and providing means to make disciples through the great commission is one of our goals here at LBCF. who we help local humane societies and animal shelters We know and understand how important our animals are, not only to our homes but how they affect the communities and global resources. We want to aid the effort to keep our world and animal population healthy and thriving. Also helping with the training of service animals as well as training for the individual to receive one. who we help local humane societies and animal shelters We know and understand how important our animals are, not only to our homes but how they affect the communities and global resources. We want to aid the effort to keep our world and animal population healthy and thriving. Also helping with the training of service animals as well as training for the individual to receive one. who we help VICTIMS OF SEX TRAFFICKING AND HUMAN TRAFFICKING We recognize the devastating impact human trafficking has on individuals, families, and communities. As a modern form of slavery, sex trafficking exploits vulnerable people through force, fraud, or coercion for commercial sex acts. We aim to support survivors, raise awareness, and assist in prevention efforts. By addressing the root causes\u2014such as child abuse, intimate partner violence, and youth exploitation\u2014we help restore safety, dignity, and hope to those affected, including women, men, and children across the U.S. and the world.\nwho we help Cure for Cancer and Other Diseases through provided support of Advanced Medical Research When it comes to cancer and other diseases we want to be an organization that is not only ready to help but to support financially. We know how much diseases and unexpected diagnoses can be out of our control but we want to focus on things we can control. Through grants and donations we can help your organization get moving on research and a cure.\n## who we help\n## Cure for Cancer and Other Diseases through provided support of Advanced Medical Research\nWhen it comes to cancer and other diseases we want to be an organization that is not only ready to help but to support financially. We know how much diseases and unexpected diagnoses can be out of our control but we want to focus on things we can control. Through grants and donations we can help your organization get moving on research and a cure.\nwho we help THE HOMELESS AND COMMUNITY SHELTERS We here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need.\n## THE HOMELESS AND COMMUNITY SHELTERS\nWe here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need.\nwho we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We here at LBCF don\u2019t want anyone without a roof over their head. We want to battle and do our part in overcoming the homeless epidemic across the country. With efforts starting locally and expanding globally we know we can partner up with the right leaders and help those who are in need.\n## COMMUNITIES SUFFERING FROM NATURAL DISASTERS\nwho we help AID AND RELIEF TO DISABLED VETERANS We never want to take our freedom for granted and especially not to forget the sacrifice that was and is made everyday to protect our freedom. We want to help to make the transition from soldier to civilian a little easier. Uplifting and aiding veterans of all walks of life and experience to make them feel appreciated and never forgotten.\n## AID AND RELIEF TO DISABLED VETERANS\nWe never want to take our freedom for granted and especially not to forget the sacrifice that was and is made everyday to protect our freedom. We want to help to make the transition from soldier to civilian a little easier. Uplifting and aiding veterans of all walks of life and experience to make them feel appreciated and never forgotten.\nwho we help COMMUNITIES SUFFERING FROM NATURAL DISASTERS We want to rebuild, restructure and help when disaster happens in our country and surrounding communities. We not only are here when it happens but to prepare and fund strategies to help prevent disasters. With the parameters in place we can do our best to be ahead and ready.\nWe want to rebuild, restructure and help when disaster happens in our country and surrounding communities. We not only are here when it happens but to prepare and fund strategies to help prevent disasters. With the parameters in place we can do our best to be ahead and ready.\nwho we help INDIVIDUALS SUFFERING FROM SUBSTANCE ABUSE PROBLEMS There\u2019s not a lot of life halting things like a family member or people stuck in an addiction. We want to either fund or provide the right routes of recovery to the best of our abilities. We care about their well-being and want them to get on their feet. Professional help is expensive and we here at LBCF don\u2019t want the lack of financials to be the reason someone cant get the help they need.\n## INDIVIDUALS SUFFERING FROM SUBSTANCE ABUSE PROBLEMS\nThere\u2019s not a lot of life halting things like a family member or people stuck in an addiction. We want to either fund or provide the right routes of recovery to the best of our abilities. We care about their well-being and want them to get on their feet. Professional help is expensive and we here at LBCF don\u2019t want the lack of financials to be the reason someone cant get the help they need.\nwho we help VICTIMS OF GANG AND GUN VIOLENCE The youth and the direction they are headed in is so vital to our community. With gangs and gun violence on the constant rise, we want to help. We want to be there when an unexpected gun injury to a loved one happens. Being a bridge from gangs and violence to a healthier path is what our aim is here at the LBCF.\n## VICTIMS OF GANG AND GUN VIOLENCE\nThe youth and the direction they are headed in is so vital to our community. With gangs and gun violence on the constant rise, we want to help. We want to be there when an unexpected gun injury to a loved one happens. Being a bridge from gangs and violence to a healthier path is what our aim is here at the LBCF.\nwho we help CHRISTIAN MINISTRIES AND OUTREACH EFFORTS Supporting the spread of the gospel of Jesus Christ throughout our world and community is with utmost importance here at LBCF. We know how much impact it can have and we are here to support any efforts locally or globally. With the spread of the hope and love that Jesus Christ offers we know that we can have an everlasting impact on the world. Supporting and providing means to make disciples through the great commission is one of our goals here at LBCF.\n## CHRISTIAN MINISTRIES AND OUTREACH EFFORTS\nSupporting the spread of the gospel of Jesus Christ throughout our world and community is with utmost importance here at LBCF. We know how much impact it can have and we are here to support any efforts locally or globally. With the spread of the hope and love that Jesus Christ offers we know that we can have an everlasting impact on the world. Supporting and providing means to make disciples through the great commission is one of our goals here at LBCF.\nwho we help local humane societies and animal shelters We know and understand how important our animals are, not only to our homes but how they affect the communities and global resources. We want to aid the effort to keep our world and animal population healthy and thriving. Also helping with the training of service animals as well as training for the individual to receive one.\n## local humane societies and animal shelters\nWe know and understand how important our animals are, not only to our homes but how they affect the communities and global resources. We want to aid the effort to keep our world and animal population healthy and thriving. Also helping with the training of service animals as well as training for the individual to receive one.\nwho we help VICTIMS OF SEX TRAFFICKING AND HUMAN TRAFFICKING We recognize the devastating impact human trafficking has on individuals, families, and communities. As a modern form of slavery, sex trafficking exploits vulnerable people through force, fraud, or coercion for commercial sex acts. We aim to support survivors, raise awareness, and assist in prevention efforts. By addressing the root causes\u2014such as child abuse, intimate partner violence, and youth exploitation\u2014we help restore safety, dignity, and hope to those affected, including women, men, and children across the U.S. and the world.\n## VICTIMS OF SEX TRAFFICKING AND HUMAN TRAFFICKING\nWe recognize the devastating impact human trafficking has on individuals, families, and communities. As a modern form of slavery, sex trafficking exploits vulnerable people through force, fraud, or coercion for commercial sex acts. We aim to support survivors, raise awareness, and assist in prevention efforts. By addressing the root causes\u2014such as child abuse, intimate partner violence, and youth exploitation\u2014we help restore safety, dignity, and hope to those affected, including women, men, and children across the U.S. and the world.\nwe can help GRANT SEEKERS FORM Interested in grant funding? Please click the links below. INITIAL FUNDING REQUEST FORM RETURNING GRANTEE APPLICATION FORM\n## we can help\n## GRANT SEEKERS FORM\nInterested in grant funding? Please click the links below.\nINITIAL FUNDING REQUEST FORM\nRETURNING GRANTEE APPLICATION FORM\ncontact us GET IN TOUCH WITH US We would love to hear from you. Please fill out the contact form and we will be in touch as soon as possible. Email:\u00a0grants@lbcharitablefoundation.org Follow Follow Your Name * Your Email * Subject Your Message\ncontact us GET IN TOUCH WITH US We would love to hear from you. Please fill out the contact form and we will be in touch as soon as possible. Email:\u00a0grants@lbcharitablefoundation.org Follow Follow\ncontact us GET IN TOUCH WITH US We would love to hear from you. Please fill out the contact form and we will be in touch as soon as possible. Email:\u00a0grants@lbcharitablefoundation.org\n## contact us\n## GET IN TOUCH WITH US\nWe would love to hear from you. Please fill out the contact form and we will be in touch as soon as possible.\nEmail:\u00a0grants@lbcharitablefoundation.org\n- Follow\nFollow\nYour Name * Your Email * Subject Your Message\nHOME ABOUT WHO WE HELP GRANT SEEKERS CONTACT US EVENTS\n- ABOUT\n- WHO WE HELP",
+        "title": "Home - LB Charitable Foundation",
+        "anchor_text": "homepage",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 45575,
+        "fetch_method": "aiohttp"
+      }
+    ],
+    "top_grants": [
+      {
+        "recipient": "HAWAII CHILDREN CANCER",
+        "state": "HI",
+        "amount": 100000.0,
+        "purpose": "TO HELP FUND THE FINANCIAL ASSISTANCE PROGRAM USED BY CANCER PATIENTS TO PAY FAMILY EXPENSES DUE TO INCOME DISRUPTION",
+        "year": 2020
+      },
+      {
+        "recipient": "EAST COUNTY TRANSITIONAL LC",
+        "state": "CA",
+        "amount": 100000.0,
+        "purpose": "TO PROVIDE EMERGENCY SHELTER FOR FAMILIES IN NEED",
+        "year": 2020
+      },
+      {
+        "recipient": "ARIS ELIJAH PUGAL FOUNDATION",
+        "state": "CA",
+        "amount": 100000.0,
+        "purpose": "TO PROVIDE FUNDING FOR SCHOLARSHIPS AND GRANTS TO ENRICH THE LIVES OF YOUTH THROUGH ARTS.",
+        "year": 2021
+      },
+      {
+        "recipient": "NEW LIFE",
+        "state": "VA",
+        "amount": 100000.0,
+        "purpose": "TO PROVIDE SUPERVISED SHELTER AND MEALS TO MEN AND WOMEN RECOVERING FROM ADDICTION",
+        "year": 2021
+      },
+      {
+        "recipient": "THE VESSEL CHURCH",
+        "state": "VA",
+        "amount": 100000.0,
+        "purpose": "FUNDING TO FURTHER CHURCH'S EFFORTS TO WORSHIP, TEACH AND PREACH THE GOSPEL TO THE FILIPINO AND OTHERS IN THE COMMUNITY. ALSO TO CONDUCT EVANGELISTIC AND HUMANITARIAN OUTREACH AND TO LICENSE OR ORDAIN MINISTERS",
+        "year": 2022
+      },
+      {
+        "recipient": "ARIS ELIJAH PUGAL FOUNDATION",
+        "state": "CA",
+        "amount": 100000.0,
+        "purpose": "FUNDING TO UTILIZE FINE ART AND CULTURE OF SAN DIEGO TO PROMOTE PEACE IN OUR COMMUNITY",
+        "year": 2022
+      },
+      {
+        "recipient": "EAST COUNTY TRANSITIONAL LIVING CEN",
+        "state": "CA",
+        "amount": 100000.0,
+        "purpose": "TO PROVIDE EMERGENCY SHELTER FOR AN ADDITIONAL 5 MONTHS IN THE 2021-2022 YEAR FOR HOMELESS FAMILIES",
+        "year": 2021
+      },
+      {
+        "recipient": "NEW LIFE FOR YOUTH INC",
+        "state": "VA",
+        "amount": 100000.0,
+        "purpose": "TO REPAIR CURRENT FACILITIES, PROVIDE FOOD AND SHELTER TO HOMELESS YOUTH",
+        "year": 2020
+      },
+      {
+        "recipient": "LOVE OF CHRIST FELLOWSHIP CHURCH",
+        "state": "CA",
+        "amount": 85000.0,
+        "purpose": "TO PROVIDE FUNDING FOR HOMELESS MINISTRY, MENTAL HEALTH SUPPORT GROUP, AFTER SCHOOL PROGRAM, ORPHANAGE SUPPORT AND OTHER MINISTRIES",
+        "year": 2020
+      },
+      {
+        "recipient": "COLLECTIVE CHURCH",
+        "state": "CA",
+        "amount": 75000.0,
+        "purpose": "TO FURTHER CHURCH MISSION OF PRIORITIZING DISCIPLESHIP AND NURTURING RELATIONSHIPS",
+        "year": 2022
+      },
+      {
+        "recipient": "COLLECTIVE CHURCH",
+        "state": "CA",
+        "amount": 75000.0,
+        "purpose": "FUNDING FOR CHURCH FACILITY, MINISTRY MATERIALS & STAFF",
+        "year": 2021
+      },
+      {
+        "recipient": "LOVE OF CHRIST FELLOWSHIP",
+        "state": "CA",
+        "amount": 75000.0,
+        "purpose": "TO TRAIN AND GROW BELIEVERS INTO MATURE AND OBEDIENT FOLLOWERS OF JESUS CHRIST.",
+        "year": 2022
+      },
+      {
+        "recipient": "FAVOR INTERNATIONAL",
+        "state": "FL",
+        "amount": 75000.0,
+        "purpose": "TO EQUIPM EMPOWER AND ENGAGE INDIGENOUS NATIONALS THROUGH NORTHERN AFRICA AND BEYONE TO TRANSFORM THEIR COMMUNITIES",
+        "year": 2022
+      },
+      {
+        "recipient": "AGAPE CHURCH OF SAN DIEGO",
+        "state": "CA",
+        "amount": 60000.0,
+        "purpose": "TO PROVIDE FINANCIAL SUPPORT FOR PLANTING OF HOME CHURCHES. TO BUILD COMMUNITIES THAT ARE SPIRITUALLY HEALTHY, MORALLY UPRIGHT, PYSICALLY FIT, AND FINANCIALLY STABLE",
+        "year": 2022
+      },
+      {
+        "recipient": "CANCER ANGELS OF SAN DIEGO",
+        "state": "CA",
+        "amount": 50000.0,
+        "purpose": "TO PROVIDE SERVICES TO PATIENTS AND FAMILIES AFFECTED BY CANCER",
+        "year": 2021
+      },
+      {
+        "recipient": "WARRIORS REST",
+        "state": "OK",
+        "amount": 50000.0,
+        "purpose": "TO FACILITATE EXPERIENCE FOR REST, RECREATION AND RESTORATION FOR THOSE WHO LABOR ON THE FRONT LINES AGAINST EVIL",
+        "year": 2022
+      },
+      {
+        "recipient": "LOVE OF CHRIST FELLOWSHIP CHURCH TE",
+        "state": "CA",
+        "amount": 50000.0,
+        "purpose": "TO FUND CHURCH MINISTRIES IN TEMECULA AND ABROAD INCLUDING THEIR FEEDING PROGRAMS AND PASTOR SUPPORT AND LEADERSHIP TRAINING",
+        "year": 2020
+      },
+      {
+        "recipient": "JACOBS AND CUSHMAN SD FOOD BANK",
+        "state": "CA",
+        "amount": 50000.0,
+        "purpose": "FUNDING FOR SAN DIEGO'S FRESH PRODUCE INITIATIVE TO PROVIDE FRESH FRUITS AND VEGETABLES TO THOSE IN NEED",
+        "year": 2020
+      },
+      {
+        "recipient": "THRIVE IN JOY",
+        "state": "CA",
+        "amount": 50000.0,
+        "purpose": "TO PROVIDE CAPITAL IMPROVEMENT & FUNDING FOR TIA TATIANA PRESCHOOL FOR CHILDREN & PROVIDE WORKSHOPS FOR TEENS",
+        "year": 2020
+      },
+      {
+        "recipient": "ROCK CHURCH CANCER CARE",
+        "state": "CA",
+        "amount": 50000.0,
+        "purpose": "TO PROVIDE FINANCIAL ASSISTANCE TO CANCER PATIENTS.",
+        "year": 2020
+      }
+    ],
+    "pf_grants": [
+      {
+        "recipient": "INDIAN HILLS CHRISTIAN CAMP",
+        "state": "CA",
+        "amount": 35000.0,
+        "purpose": "TO SERVE KIDS OF ALL AGES, RACE, RELIGION, ABILITY AND SOCIOECONOMIC BACKGROUNG IN THE SO CALIFORNIA AREA",
+        "year": 2022
+      },
+      {
+        "recipient": "JIR FOUNDATION",
+        "state": "CA",
+        "amount": 30000.0,
+        "purpose": "TO SUPPORT CHRISTIAN WORKERS",
+        "year": 2022
+      },
+      {
+        "recipient": "ST ALEXIUS FOUNDATION",
+        "state": "CA",
+        "amount": 10000.0,
+        "purpose": "TO HELP THE UNDERSERVED THROUGH TARGETED CHARITABLE EFFORTS",
+        "year": 2022
+      },
+      {
+        "recipient": "NEW LIFE",
+        "state": "VA",
+        "amount": 100000.0,
+        "purpose": "TO PROVIDE SUPERVISED SHELTER AND MEALS TO MEN AND WOMEN RECOVERING FROM ADDICTION",
+        "year": 2021
+      },
+      {
+        "recipient": "JIR FOUNDATION",
+        "state": "CA",
+        "amount": 20000.0,
+        "purpose": "FUNDING TO SUPPORT PASTORS AND MISSIONARIES IN THE PHILIPPINES",
+        "year": 2021
+      }
+    ]
+  }
+]

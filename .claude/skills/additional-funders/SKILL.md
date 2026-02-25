@@ -36,15 +36,19 @@ This document is lighter than the main report: no deep profiles, no action plans
 
 ## Process Steps
 
-### Step 1: Select Foundations
+### Step 1: Read Inputs
 
-From the scored foundation list, take positions 6-25 (or however many are viable). Apply these filters:
+- Read the input JSON (client profile + additional funders list)
+- Print summary: client name, N funder names
+- Validate: all have EINs, none overlap with top 5 in main report
 
-- Must have grant activity in the past 3 years
-- Must not be on the client's known funders list
-- Must pass production filters (assets >= $100K, unique recipients >= 5, accepts applications)
+### Step 2: Write the Document
 
-### Step 2: Pull Summary Data
+Follow the format in `references/format_guide.md`. Group foundations into tiers:
+
+- **Tier A: Strong Fit** - High model score, strong geographic/sector match
+- **Tier B: Good Fit** - Moderate score, partial match on geography or sector
+- **Tier C: Worth Watching** - Lower score but notable for specific reasons
 
 For each foundation, gather (from database or snapshot script):
 - Name, EIN, state, city
@@ -53,26 +57,29 @@ For each foundation, gather (from database or snapshot script):
 - Median grant size
 - Geographic relevance (% in client's state)
 - Most recent grant year
+- One comparable grantee if available
 
-### Step 3: Write Document
+Save draft to `Enhancements/[DATE]/REPORT_[DATE]_[client]_additional_funders.md`
 
-Follow the format in `references/format_guide.md`. Group foundations into tiers:
+### STOP: Review Draft
 
-- **Tier A: Strong Fit** - High model score, strong geographic/sector match
-- **Tier B: Good Fit** - Moderate score, partial match on geography or sector
-- **Tier C: Worth Watching** - Lower score but notable for specific reasons
+Tell Alec the document is ready for review at the file path above.
 
-### Step 4: Output
+**Wait for Alec to approve or request edits.** Apply any edits.
 
-Save as:
-`OUTPUT_YYYY-MM-DD.N_{client}_additional_funders.md`
+### Step 3: Finalize
 
-Convert to .docx if the client prefers Word format:
-```bash
-python3 "0. Tools/md_to_docx.py" -i additional_funders.md -o additional_funders.docx
-```
+1. Save final version to `Enhancements/[DATE]/REPORT_[DATE]_[client]_additional_funders.md`
 
-Save alongside the main report in `5. Runs/{Client}/{date}/`.
+2. Convert to .docx if the client prefers Word format:
+   ```bash
+   python3 "0. Tools/md_to_docx.py" -i additional_funders.md -o additional_funders.docx
+   ```
+
+3. Save alongside the main report in `5. Runs/{Client}/{date}/`
+
+4. Write session report using `references/session_report_template.md`:
+   Save to `Enhancements/[DATE]/REPORT_[DATE]_[client]_additional_funders_session.md`
 
 ---
 
@@ -94,14 +101,16 @@ Save alongside the main report in `5. Runs/{Client}/{date}/`.
 - [ ] Tier assignments match the data (don't inflate)
 - [ ] At least 10 foundations listed (or explain why fewer)
 - [ ] Dollar amounts formatted consistently
+- [ ] Session report written
 
 ---
 
 ## Reference Files
 
 - **Format guide:** `references/format_guide.md`
+- **Session report template:** `references/session_report_template.md`
 - **Snapshot script:** `../grant-report/scripts/pull_funder_snapshots.py`
 
 ---
 
-*Skill version 1.0 - Created 2026-02-21*
+*Skill version 1.1 - Updated 2026-02-21 (added pause gate + session report)*

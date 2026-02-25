@@ -9,6 +9,8 @@ Commands:
     clean           Remove junk emails (cross-org duplicates in 3+ orgs)
     classify        Classify emails by type (junk/role/generic/personal)
     validate-mx     Validate MX records for all email domains
+    fix-existing    Fix existing emails (delete junk, strip @www., reclassify)
+    rescrape        Reset not_found sites for re-scraping with enhanced extraction
 
 Usage:
     python3 cli.py scrape-emails --limit 1000 --concurrency 10
@@ -18,6 +20,10 @@ Usage:
     python3 cli.py clean --execute
     python3 cli.py classify --execute
     python3 cli.py validate-mx --concurrency 50
+    python3 cli.py fix-existing --dry-run
+    python3 cli.py fix-existing --execute
+    python3 cli.py rescrape --dry-run
+    python3 cli.py rescrape --execute
 """
 
 import sys
@@ -64,6 +70,11 @@ async def cmd_scrape_emails(args, logger):
     """Scrape a single batch of nonprofit websites."""
     db = DatabaseManager()
     try:
+        # Reset any stuck in_progress rows from previous crashed runs
+        reset_count = db.reset_stuck_in_progress(hours=2)
+        if reset_count:
+            logger.info(f"Reset {reset_count} stuck in_progress rows from previous run")
+
         # Fetch prospects
         logger.info(f"Fetching up to {args.limit} prospects to scrape...")
         prospects = db.get_prospects_to_scrape(limit=args.limit)
@@ -379,6 +390,38 @@ async def cmd_validate_mx(args, logger):
         db.close()
 
 
+def cmd_fix_existing(args, logger):
+    """Fix existing emails: delete junk, strip @www., reclassify types."""
+    db = DatabaseManager()
+    try:
+        counts = db.fix_existing_emails(dry_run=not args.execute)
+        mode = "EXECUTED" if args.execute else "DRY RUN"
+        logger.info(f"\n[{mode}] Fix existing emails:")
+        logger.info(f"  Junk emails to delete:  {counts['junk_deleted']:>8,}")
+        logger.info(f"  @www. emails to fix:    {counts['www_fixed']:>8,}")
+        logger.info(f"  Types to reclassify:    {counts['types_reclassified']:>8,}")
+        if not args.execute:
+            print(f"\nDry run. Use --execute to apply fixes.")
+    finally:
+        db.close()
+
+
+def cmd_rescrape(args, logger):
+    """Reset not_found sites for re-scraping."""
+    db = DatabaseManager()
+    try:
+        count = db.reset_not_found_for_rescrape(dry_run=not args.execute)
+        mode = "EXECUTED" if args.execute else "DRY RUN"
+        logger.info(f"\n[{mode}] Rescrape not_found sites:")
+        logger.info(f"  Sites to reset:  {count:>8,}")
+        if not args.execute:
+            print(f"\nDry run. Use --execute to reset {count:,} sites for re-scraping.")
+        else:
+            logger.info(f"  Reset {count:,} sites. Run scrape-emails to process them.")
+    finally:
+        db.close()
+
+
 def cmd_status(args, logger):
     """Show pipeline progress statistics."""
     db = DatabaseManager()
@@ -479,6 +522,14 @@ def main():
     p_mx = subparsers.add_parser('validate-mx', help='Validate MX records for email domains')
     p_mx.add_argument('--concurrency', type=int, default=50, help='Concurrent DNS lookups (default: 50)')
 
+    # fix-existing
+    p_fix = subparsers.add_parser('fix-existing', help='Fix existing emails (junk, @www., reclassify)')
+    p_fix.add_argument('--execute', action='store_true', help='Actually apply fixes (default: dry run)')
+
+    # rescrape
+    p_rescrape = subparsers.add_parser('rescrape', help='Reset not_found sites for re-scraping')
+    p_rescrape.add_argument('--execute', action='store_true', help='Actually reset (default: dry run)')
+
     args = parser.parse_args()
 
     if not args.command:
@@ -504,6 +555,10 @@ def main():
         cmd_classify(args, logger)
     elif args.command == 'validate-mx':
         asyncio.run(cmd_validate_mx(args, logger))
+    elif args.command == 'fix-existing':
+        cmd_fix_existing(args, logger)
+    elif args.command == 'rescrape':
+        cmd_rescrape(args, logger)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,255 @@
+[
+  {
+    "ein": "452713666",
+    "name": "Bob & Renee Parsons Foundation",
+    "website": "https://www.tbrpf.org",
+
+    "eligibility": {
+      "who_can_apply": "Organizations that: (1) are 501(c)(3) under IRS code, (2) provide a recent Form 990, (3) provide audited financial statements, (4) do charitable work within the state of Arizona, (5) do not discriminate based on race, religion, sexual orientation, gender identity, or immigration status, (6) have an annual budget of $1,000,000 or more, (7) have operated for at least three years, and (8) align with the Foundation's specific areas of focus.",
+      "who_cannot_apply": "Organizations outside Arizona, organizations with annual budgets under $1,000,000, organizations operating less than three years. Note: 'We are not currently seeking new proposals in the area of Military & First Responders.'",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Eligibility page states 'Be a 501(c)3 under IRS code' without specifying 'public charity.' Private foundations are 501(c)(3) organizations, so the requirement does not explicitly exclude PFs. However, the $1M+ budget requirement and Arizona-only geography make this moot for VetsBoats regardless.",
+      "geographic_restrictions": "Arizona only — 'Do charitable work within the state of Arizona'",
+      "org_type_requirements": "501(c)(3) under IRS code; must provide Form 990 and audited financial statements",
+      "budget_requirements": "Annual budget of $1,000,000 or more",
+      "other_requirements": "Minimum 3 years of operation; alignment with focus areas; no discrimination policy required"
+    },
+
+    "application": {
+      "process": "LOI",
+      "process_description": "Four-step process: (1) Take a 10-question eligibility quiz online, (2) Submit a Letter of Interest with organization and project details, (3) Foundation conducts due diligence — if fit, responds within 30 days, (4) Invited applicants receive an email with a portal link to complete a formal grant application including proposal, audited financials, and organizational questionnaire.",
+      "portal_url": "https://tbrpf.org/grants/eligibility/",
+      "guidelines_url": "https://tbrpf.org/grants/eligibility/",
+      "deadlines": "No specific deadlines mentioned; rolling review with 30-day response window after LOI submission",
+      "materials_required": "Eligibility quiz, Letter of Interest, formal grant proposal, audited financial statements, organizational questionnaire covering leadership, vision/strategy, and financial health"
+    },
+
+    "funding": {
+      "focus_areas": [
+        "Youth & Education",
+        "Health & Home",
+        "Military & First Responders (currently CLOSED to new proposals)",
+        "American Dream (immigration/equity)"
+      ],
+      "grant_size_range": "$5,000 to $10,000,000+ (typical range $25,000-$2,500,000 based on grant history; major grants to Semper Fi Fund at $10M each year)",
+      "geographic_focus": "Primarily Arizona; some national and international grants in grant history (Semper Fi Fund CA, Team Rubicon CA, University of Baltimore MD)",
+      "veteran_relevance": "HIGH — Major funder of veteran causes including $10M/year to Semper Fi Fund for injured/critically ill military members, $1M+ to Headstrong Project for veteran mental health, MAPS grants for PTSD psychedelic therapy. However, Military & First Responders category is currently CLOSED to new proposals.",
+      "adaptive_recreation_relevance": "LOW — No evidence of adaptive recreation or sailing programs in grant history. Veteran giving is focused on financial assistance, mental health, and medical care."
+    },
+
+    "contacts": {
+      "primary_contact": "Not specified on website",
+      "email": "[email protected] (listed as general foundation email in footer)",
+      "phone": "Not found",
+      "address": "Not found on crawled pages (Arizona-based)"
+    },
+
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "To be considered for a grant, an organization must: Have an annual budget of $1,000,000 or more... Do charitable work within the state of Arizona... Please Note: We are not currently seeking new proposals in the area of Military & First Responders.",
+      "reasoning": "Three independent disqualifiers exist: (1) VetsBoats has ~$200K annual budget, far below the $1M minimum requirement; (2) VetsBoats is in California, and the Foundation funds Arizona-only; (3) the Military & First Responders category is currently closed to new proposals. Even if VetsBoats met all other criteria, all three barriers would need to be resolved simultaneously.",
+      "recommended_action": "Do not apply. Monitor the Military & First Responders category for future reopening and reassess if VetsBoats grows its budget to $1M+, but the Arizona-only restriction is a permanent geographic barrier."
+    },
+
+    "key_urls": {
+      "application_page": "https://tbrpf.org/grants/eligibility/",
+      "eligibility_page": "https://tbrpf.org/grants/eligibility/",
+      "guidelines_page": "https://tbrpf.org/grants/eligibility/",
+      "grant_list_page": "https://tbrpf.org/grants/",
+      "contact_page": "Not found in crawled pages"
+    },
+
+    "website_grantees_mentioned": [
+      "Boys & Girls Club of The Valley (Phoenix, AZ)",
+      "New Pathways for Youth (Phoenix, AZ)",
+      "Armed Services YMCA Camp Pendleton (Camp Pendleton, CA)",
+      "Hualalai Ohana Foundation (Kailua Kona, HI)",
+      "Central Michigan University (Mt. Pleasant, MI)",
+      "One N Ten (Phoenix, AZ)",
+      "First Tee - Phoenix (Phoenix, AZ)",
+      "Zack Johnson Foundation (Cedar Rapids, IA)",
+      "Earn to Learn (Tucson, AZ)",
+      "Jobs for Arizona's Graduates (Phoenix, AZ)",
+      "Education Action Alliance (Phoenix, AZ)",
+      "Make-A-Wish Foundation of Arizona (Scottsdale, AZ)",
+      "McDowell Sonoran Conservancy (Scottsdale, AZ)",
+      "Boys & Girls Club of Greater Scottsdale (Scottsdale, AZ)",
+      "Elevate Phoenix (Phoenix, AZ)",
+      "National Center for Youth Law / FosterEd (Phoenix, AZ)",
+      "Free Arts for Abused Children of Arizona (Phoenix, AZ)",
+      "Arizona Friends of Foster Children Foundation (Phoenix, AZ)",
+      "Homeless Youth Connection (Phoenix, AZ)",
+      "Junior Achievement of Arizona (Tempe, AZ)",
+      "Girl Scouts Arizona Cactus-Pine Council (Phoenix, AZ)",
+      "Child Crisis Arizona (Mesa, AZ)",
+      "Arizona Legal Women and Youth Services (Phoenix, AZ)",
+      "Fresh Start Caring for Kids Foundation (Schaumburg, IL)",
+      "Semper Fi Fund / Semper Fi America's Fund (CA)",
+      "University of California Berkeley (CA)",
+      "Team Rubicon (CA)",
+      "Hawaii Island Humane Society (HI)",
+      "Barrow Neurological Foundation (AZ)",
+      "100 Club of Arizona (AZ)",
+      "Headstrong Project Inc (NY)",
+      "MAPS (CA)",
+      "University of Baltimore Foundation (Baltimore, MD)",
+      "Year Up (Phoenix, AZ)",
+      "ASU Foundation (Tempe, AZ)",
+      "Grand Canyon University (Phoenix, AZ)",
+      "GLSEN Inc / Arizona Chapter (Phoenix, AZ)",
+      "Rosie's House (Phoenix, AZ)",
+      "Read Better Be Better (Phoenix, AZ)",
+      "Kaboom! (Phoenix, AZ)",
+      "Aliento Education Fund (Gilbert, AZ)",
+      "TheDream.US (via Scholarship America)",
+      "Teach for America (Phoenix, AZ)"
+    ]
+  },
+
+  {
+    "ein": "203198081",
+    "name": "Stanley W Ekstrom Foundation",
+    "website": "https://www.swefoundation.org",
+
+    "eligibility": {
+      "who_can_apply": "UNKNOWN — website returned zero content during crawl (26 pages crawled, 0 characters retrieved). No eligibility information was accessible.",
+      "who_cannot_apply": "UNKNOWN — no website content available",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "No website content available to determine PF policy. However, grant history (pf_grants field) shows the foundation gave $300 to 'Sweet Geeks Foundation' (TX, 2022), which appears to be another foundation. This is weak evidence of PF eligibility given the very small amount. Grant history also shows giving to Armed Services YMCA Camp Pendleton ($120K, 2022), Pacific Youth Boating Association (yacht donation, $789K, 2018), and multiple medical/research institutions — all appearing to be public charities.",
+      "geographic_restrictions": "Likely California-focused based on grant history — 18 of 20 top grants went to California recipients; two Nevada grants also present",
+      "org_type_requirements": "UNKNOWN — no website content",
+      "budget_requirements": "UNKNOWN — no website content",
+      "other_requirements": "UNKNOWN — no website content"
+    },
+
+    "application": {
+      "process": "UNKNOWN",
+      "process_description": "Website was inaccessible during crawl (0 characters retrieved across 26 pages). No application process information is available.",
+      "portal_url": "Not found",
+      "guidelines_url": "Not found",
+      "deadlines": "Unknown",
+      "materials_required": "Unknown"
+    },
+
+    "funding": {
+      "focus_areas": [
+        "Biomedical research and healthcare (City of Hope, Lundquist Institute, St Joseph Hospital, Children's Hospital LA)",
+        "Military / veteran support (Armed Services YMCA Camp Pendleton)",
+        "Maritime / boating (Pacific Youth Boating Association — major yacht donation)",
+        "Animal welfare (Pet Adoption Center of Orange County, Wildlife Waystation)",
+        "Education and cultural (MOB Museum, Cal Poly)",
+        "Jewish community services (Chabad Center for Jewish Life)",
+        "Children's welfare (Make-A-Wish Foundation)"
+      ],
+      "grant_size_range": "$300 to $789,000 (most grants appear in the $100,000-$350,000 range based on top 20 grants; typical appears to be $100K-$250K)",
+      "geographic_focus": "California-centric (Southern California focus — Orange County, LA area); occasional Nevada and Arizona grants",
+      "veteran_relevance": "MODERATE — Has given $120,000 to Armed Services YMCA Camp Pendleton specifically for military families' activities and services. This is the clearest veteran-related grant in history.",
+      "adaptive_recreation_relevance": "MODERATE — Donated a $789K 55-foot Fleming yacht to Pacific Youth Boating Association (CA) in 2018. This is a direct maritime/boating connection and shows interest in youth boating programs, though not specifically veteran or adaptive contexts."
+    },
+
+    "contacts": {
+      "primary_contact": "Not found — website inaccessible",
+      "email": "Not found",
+      "phone": "Not found",
+      "address": "Not found"
+    },
+
+    "vetsboats_verdict": {
+      "verdict": "POSSIBLE_FIT",
+      "confidence": "LOW",
+      "key_quote": "DONATION OF 2002 55' FLEMING YACHT. BOOK VALUE OF $690,375. FAIR MARKET VALUE OF $789,000 PER APPRAISAL. GIFTED ON 7/10/18. [to Pacific Youth Boating Association, CA]",
+      "reasoning": "The foundation's grant history reveals two relevant signals: a major maritime donation (yacht to a CA youth boating association) and a military families grant (YMCA Camp Pendleton). VetsBoats combines both maritime and veteran programming in California, which is the foundation's primary geography. However, the website was completely inaccessible, so eligibility requirements, application process, and PF policy are entirely unknown — this is the fundamental risk.",
+      "recommended_action": "Research further before approaching. Call or email the foundation directly to inquire about application process and whether they accept proposals from private foundations. Check IRS Form 990 for fiscal year 2022-2023 to find officer contacts and any application information in Part XV. The yacht donation to Pacific Youth Boating Association is a strong conversation anchor — VetsBoats could frame itself as the veteran-focused evolution of that type of program."
+    },
+
+    "key_urls": {
+      "application_page": "Not found — website inaccessible",
+      "eligibility_page": "Not found — website inaccessible",
+      "guidelines_page": "Not found — website inaccessible",
+      "grant_list_page": "Not found — website inaccessible",
+      "contact_page": "Not found — website inaccessible"
+    },
+
+    "website_grantees_mentioned": []
+  },
+
+  {
+    "ein": "843123162",
+    "name": "LB Charitable Foundation",
+    "website": "https://lbcharitablefoundation.org",
+
+    "eligibility": {
+      "who_can_apply": "Non-profit organizations providing human and health services, homeless shelters, military veteran support, religious causes, humane societies, sex/human trafficking services, and victims of crimes and calamities. Website says 'To provide financial support to non-profit organizations' broadly.",
+      "who_cannot_apply": "Not explicitly stated. No exclusions mentioned on website. No private foundation exclusion found.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Website says 'non-profit organizations' without specifying public charity status. The foundation's own pf_grants history shows grants to: 'New Life' ($100K, VA, 2021), 'JIR Foundation' ($20K-$30K, CA, 2021-2022), 'St Alexius Foundation' ($10K, CA, 2022), 'Indian Hills Christian Camp' ($35K, CA, 2022) — at least two of these ('JIR Foundation' and 'St Alexius Foundation') appear to be other foundations rather than public charities, suggesting the foundation does not categorically exclude other foundation-type entities. However, this is inferred from grant names, not confirmed.",
+      "geographic_restrictions": "Not explicitly stated. Grant history shows California as primary focus (San Diego area) with some Virginia and Hawaii grants. Website mentions 'starting locally and expanding globally' suggesting the foundation is open beyond a single geography but has local roots.",
+      "org_type_requirements": "Stated as 'non-profit organizations' — no specific 501(c)(3) or public charity language",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Must align with focus areas (homeless, disabled veterans, cancer research, animal shelters, drug rehab, gun violence victims, Christian ministry). Application requires completion of Initial Funding Request Form or Returning Grantee Application Form."
+    },
+
+    "application": {
+      "process": "OPEN",
+      "process_description": "Open application process via web forms. Two forms available: an 'Initial Funding Request Form' for new applicants and a 'Returning Grantee Application Form' for previous recipients. Contact can also be made via email at grants@lbcharitablefoundation.org.",
+      "portal_url": "https://lbcharitablefoundation.org (Grant Seekers section — specific form URLs not captured in crawl)",
+      "guidelines_url": "https://lbcharitablefoundation.org",
+      "deadlines": "Not mentioned — appears to be rolling/open",
+      "materials_required": "Initial Funding Request Form (contents not specified in crawled content)"
+    },
+
+    "funding": {
+      "focus_areas": [
+        "Cancer patients and cancer research",
+        "Homeless individuals and community shelters",
+        "Disabled veterans and military veteran aid",
+        "Natural disaster relief and rebuilding",
+        "Substance abuse rehabilitation",
+        "Gang and gun violence victims (youth focus)",
+        "Christian ministries and outreach",
+        "Local humane societies and animal shelters",
+        "Sex trafficking and human trafficking victims"
+      ],
+      "grant_size_range": "$10,000 to $100,000 (based on grant history; majority of grants are $25,000-$100,000; very few exceed $100,000)",
+      "geographic_focus": "Southern California (San Diego area) as primary focus based on grant history; also Virginia, Hawaii, and Florida grantees observed — appears flexible geographically",
+      "veteran_relevance": "HIGH — Explicitly lists 'disabled veterans' and 'military veterans' as a focus area. Website states: 'We never want to take our freedom for granted and especially not to forget the sacrifice that was and is made everyday to protect our freedom. We want to help to make the transition from soldier to civilian a little easier.' Grant history shows Warriors Rest (OK, $50K) and other veteran-adjacent organizations.",
+      "adaptive_recreation_relevance": "LOW-MODERATE — No specific adaptive recreation or sailing grants found in history. Focus on veterans is primarily around housing transition, shelter, and general aid rather than recreational therapy. However, adaptive sailing as a means of veteran rehabilitation and dignity could resonate with stated mission of 'uplifting and aiding veterans... to make them feel appreciated and never forgotten.'"
+    },
+
+    "contacts": {
+      "primary_contact": "Not named on website",
+      "email": "grants@lbcharitablefoundation.org",
+      "phone": "Not found",
+      "address": "California-based (San Diego area inferred from grant history)"
+    },
+
+    "vetsboats_verdict": {
+      "verdict": "POSSIBLE_FIT",
+      "confidence": "MEDIUM",
+      "key_quote": "AID AND RELIEF TO DISABLED VETERANS — We never want to take our freedom for granted and especially not to forget the sacrifice that was and is made everyday to protect our freedom. We want to help to make the transition from soldier to civilian a little easier. Uplifting and aiding veterans of all walks of life and experience to make them feel appreciated and never forgotten.",
+      "reasoning": "LB Charitable Foundation explicitly funds disabled veterans as a named priority category, uses language that aligns with VetsBoats' mission of dignity and appreciation for veterans, and has an open application process with a direct email contact. The PF eligibility question is SILENT — the website says 'non-profit organizations' without explicitly requiring public charity status, and pf_grants history shows grants to entities with 'Foundation' in their name. The main risks are: (1) grant sizes ($10K-$100K) may be on the smaller end for VetsBoats' needs, (2) California/San Diego focus may not extend to San Francisco Bay Area, and (3) the Christian ministry orientation of the foundation may influence priority ranking.",
+      "recommended_action": "Email grants@lbcharitablefoundation.org with a brief initial inquiry before submitting the formal form. In the inquiry, state that VetsBoats is a private foundation (be transparent) and ask whether they accept applications from private foundations. If they confirm eligibility, complete the Initial Funding Request Form framing the program around veteran dignity, adaptive access, and the transition from service to civilian life. Request $25,000-$50,000 for program operations."
+    },
+
+    "key_urls": {
+      "application_page": "https://lbcharitablefoundation.org (Grant Seekers section)",
+      "eligibility_page": "Not a separate page — eligibility inferred from homepage mission statement",
+      "guidelines_page": "https://lbcharitablefoundation.org",
+      "grant_list_page": "https://lbcharitablefoundation.org (Past Recipients section — specific URL not captured)",
+      "contact_page": "https://lbcharitablefoundation.org (Contact Us section)"
+    },
+
+    "website_grantees_mentioned": [
+      "Cancer patients (general category)",
+      "Homeless individuals and shelters (general category)",
+      "Military veterans (general category)",
+      "Disaster victims (general category)",
+      "Substance abuse individuals (general category)",
+      "Gang and gun violence victims (general category)",
+      "Christian ministries (general category)",
+      "Humane societies and animal shelters (general category)",
+      "Sex and human trafficking victims (general category)"
+    ]
+  }
+]

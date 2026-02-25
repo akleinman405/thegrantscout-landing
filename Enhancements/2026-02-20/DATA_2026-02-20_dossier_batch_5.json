@@ -1,0 +1,327 @@
+[
+  {
+    "ein": "276985468",
+    "name": "Peter & Jeri Dejana Foundation",
+    "website": "https://www.dejanafoundation.org",
+
+    "eligibility": {
+      "who_can_apply": "501(c)(3) non-profit organizations. Application form asks for IRS determination letter indicating 501(c)(3) status, copies of recent 990 tax returns, letters of support, and annual reports/audited financial statements.",
+      "who_cannot_apply": "Not stated explicitly. No mention of excluding private foundations.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Contact page states: 'Donations of varying amounts are given to 501(c)(3) non-profit organizations.' Does not specify 'public charity' — merely says 501(c)(3). However, the foundation has a documented history of giving to other private foundations (The ED Foundation, Lucerna Fund) across multiple years (2018-2022), which is strong evidence that private foundations are not excluded in practice.",
+      "geographic_restrictions": "Primarily local and regional to Port Washington, NY area. About page says 'local and regional organizations.' Website tagline is 'Supporting our community, locally and beyond.' Address is Port Washington, NY 11050.",
+      "org_type_requirements": "501(c)(3) status required. IRS determination letter required with application.",
+      "budget_requirements": "None stated.",
+      "other_requirements": "Required attachments: IRS determination letter, recent 990 tax returns, letters of support, annual reports and/or audited financial statements. First-time applicants and renewed applicants have separate forms."
+    },
+
+    "application": {
+      "process": "OPEN",
+      "process_description": "Download and complete either the First Time Applicant Form or Renewed Applicant Form PDF. Submit by email to info@dejanafoundation.org or by mail to 30 Sagamore Hill Drive, Port Washington, NY 11050.",
+      "portal_url": null,
+      "guidelines_url": "https://www.dejanafoundation.org/contact-us",
+      "deadlines": "No deadlines mentioned. Website notes it is 'under construction' — no cycle information available.",
+      "materials_required": "Completed application form, IRS determination letter (501(c)(3)), recent 990 tax returns, letters of support, annual reports and/or audited financial statements."
+    },
+
+    "funding": {
+      "focus_areas": [
+        "Community services",
+        "Children's programs and education",
+        "Healthcare and hospitals",
+        "Senior services",
+        "Local arts and theater",
+        "Food security (food pantries)",
+        "Local civic causes",
+        "Emergency services"
+      ],
+      "grant_size_range": "Roughly $10,000 to $500,000+ (top grants). Most observed community grants in the $10,000 to $90,000 range. Website says 'donations of varying amounts.'",
+      "geographic_focus": "Port Washington, NY and surrounding Long Island/New York area. Occasional out-of-state giving (PA for Penn Medicine). Predominantly NY-based grantees.",
+      "veteran_relevance": "None evident. No veteran-focused grants observed in grant history.",
+      "adaptive_recreation_relevance": "None evident. No adaptive recreation or disability sport grants observed."
+    },
+
+    "contacts": {
+      "primary_contact": "Not named on website.",
+      "email": "info@dejanafoundation.org",
+      "phone": "516.490.9352",
+      "address": "30 Sagamore Hill Drive, Port Washington, NY 11050"
+    },
+
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Foundation focuses on helping those that support the broadest possible number of residents and in the most life-enriching way possible.",
+      "reasoning": "The Dejana Foundation is deeply rooted in Port Washington, NY and its surrounding Long Island community. VetsBoats is based in San Francisco, CA — far outside the foundation's geographic focus. While PF eligibility is technically SILENT (they say '501(c)(3)' without specifying 'public charity'), the geographic mismatch alone is a disqualifying factor. Additionally, the foundation's grant history shows no veteran, disability, or adaptive recreation funding.",
+      "recommended_action": "Do not pursue. Geographic mismatch is disqualifying — this foundation funds organizations near Port Washington, NY, not California."
+    },
+
+    "key_urls": {
+      "application_page": "https://www.dejanafoundation.org/contact-us",
+      "eligibility_page": "https://www.dejanafoundation.org/contact-us",
+      "guidelines_page": "https://www.dejanafoundation.org/contact-us",
+      "grant_list_page": null,
+      "contact_page": "https://www.dejanafoundation.org/contact-us"
+    },
+
+    "website_grantees_mentioned": []
+  },
+
+  {
+    "ein": "136406825",
+    "name": "Union Pacific Foundation",
+    "website": "https://www.up.com/aboutup/community/foundation/index.htm",
+
+    "eligibility": {
+      "who_can_apply": "Non-profit, charitable organizations tax-exempt under 501(c)(3) AND classified as a public charity under sections 509(a)(1) or 509(a)(2) under 170(b)(1)(A)(vii). Organization must serve a community served by Union Pacific railroad. Program must primarily benefit a UP community.",
+      "who_cannot_apply": "Private foundations (explicitly excluded). Governmental entities without 501(c)(3) public charity designation. Organizations that channel grants to third parties (except local United Way chapters). Organizations that have received three consecutive years of UP local grants. International organizations. Individuals. Sports teams and organizations. Political organizations. Labor, alumni, fraternal organizations. Event sponsorships, fundraising events. Organizations with general operating support requests.",
+      "pf_eligible": "NO",
+      "pf_evidence": "Explicit exclusion on the eligibility page: 'Applications will not be accepted from private foundations or a disqualified supporting organization with the meaning of section 4966(d)(4) of the Internal Revenue Code.' This is an absolute bar.",
+      "geographic_restrictions": "Must serve a community served by Union Pacific railroad (23 states in western two-thirds of US). San Francisco IS served by Union Pacific. However, organization must be located in or serve a UP community.",
+      "org_type_requirements": "Must be 501(c)(3) AND classified as 509(a)(1) or 509(a)(2) public charity. Private foundations are explicitly excluded.",
+      "budget_requirements": "None stated.",
+      "other_requirements": "Must align with Community Ties Giving Program funding priorities. Must demonstrate capacity, need, and potential for positive social benefit. Demonstrated commitment to inclusion within grantee organization."
+    },
+
+    "application": {
+      "process": "OPEN",
+      "process_description": "Annual local grant program through the Community Ties Giving Program. Applications are submitted online. Must select a U.S. state served by Union Pacific and identify which community the grant will serve.",
+      "portal_url": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility",
+      "guidelines_url": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility",
+      "deadlines": "Annual cycle — specific deadlines not found in crawled content.",
+      "materials_required": "Organization must meet public charity classification requirements. Application includes program description, community served, funding priorities alignment."
+    },
+
+    "funding": {
+      "focus_areas": [
+        "Community and civic organizations",
+        "Health and wellness",
+        "Education (higher education, workforce training)",
+        "Public spaces and recreation",
+        "Environmental stewardship",
+        "Rail safety and community safety",
+        "Inclusion and diversity initiatives"
+      ],
+      "grant_size_range": "Local grants appear to range from approximately $5,000 to $50,000 (based on pf_grants data: $5,000 to $10,000). Major grants to flagship institutions are much larger ($500K+) but those are corporate directed, not through the local grants program.",
+      "geographic_focus": "23 states served by Union Pacific railroad in western two-thirds of US. California is served. Local grants focus on communities where UP operates.",
+      "veteran_relevance": "No veteran-specific grants observed in grant data. Some 'vocational and career training' giving noted in pf_grants. General community focus, not veteran-specific.",
+      "adaptive_recreation_relevance": "None evident. Sports organizations and teams are explicitly INELIGIBLE. No adaptive recreation grants observed."
+    },
+
+    "contacts": {
+      "primary_contact": "Union Pacific Community Ties Giving Program",
+      "email": "upf@up.com",
+      "phone": "1-888-877-7267 (general emergencies line — not grants-specific)",
+      "address": "Union Pacific Corporation, 1400 Douglas Street, Omaha, NE 68179"
+    },
+
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Applications will not be accepted from private foundations or a disqualified supporting organization with the meaning of section 4966(d)(4) of the Internal Revenue Code.",
+      "reasoning": "VetsBoats is a private foundation (990-PF filer), and Union Pacific Foundation explicitly and categorically bars private foundations from applying. This is a hard ineligibility with no exceptions. Additionally, sports organizations are listed as ineligible, which could further complicate any future eligibility even if VetsBoats converted to public charity status.",
+      "recommended_action": "Do not pursue. VetsBoats is ineligible as a private foundation — this is an explicit, categorical exclusion with no pathway around it."
+    },
+
+    "key_urls": {
+      "application_page": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility",
+      "eligibility_page": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility",
+      "guidelines_page": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility",
+      "grant_list_page": null,
+      "contact_page": "https://www.up.com/communities/philanthropic-giving/local-grants/criteria-eligibility"
+    },
+
+    "website_grantees_mentioned": [
+      "White Buffalo Land Trust (CA)",
+      "Notley Fund (TX)"
+    ]
+  },
+
+  {
+    "ein": "236257083",
+    "name": "Annenberg Foundation",
+    "website": "https://annenberg.org",
+
+    "eligibility": {
+      "who_can_apply": "Not stated on website. All eligibility, apply, and guidelines subpages (annenberg.org/eligibility, /apply, /guidelines, /how-to-apply, /funding-guidelines, /support-guidelines, /for-grantseekers, /grant-seekers) redirect back to the homepage with no eligibility content. Grantmaking appears to be invitation-only or relationship-based based on website structure and grant history.",
+      "who_cannot_apply": "Not stated.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Website provides no eligibility information. However, grant data from pf_grants shows the Annenberg Foundation has made grants to multiple other private foundations, including: The Wallis Annenberg Legacy Foundation ($150M, 2023), The Farrah Fawcett Foundation ($10,000, 2023), and J Paul Getty Trust ($10,000, 2023). This is strong historical evidence that Annenberg has no blanket prohibition on funding private foundations. Note: most of their PF-to-PF giving appears to be transfers to affiliated family foundations, not arm's-length grants to outside PFs.",
+      "geographic_restrictions": "Strong Los Angeles/California focus based on grant history. Also funds Philadelphia institutions, and select national/global organizations (National Wildlife Federation, Institut Curie). Not strictly limited to California but LA-centric.",
+      "org_type_requirements": "Unknown — not stated on website.",
+      "budget_requirements": "Unknown. Grant sizes range from very small to very large ($150M to related entities; $10K-$6M to external grantees).",
+      "other_requirements": "Based on grant history and About page, the foundation funds through established relationships and initiative-driven grantmaking, not open solicitation. The Annenberg Alchemy program suggests some capacity-building grantmaking for LA-based nonprofits."
+    },
+
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "Website provides no application information. All application-related URLs redirect to the homepage which shows only mission statement and email signup. No portal, no guidelines, no contact for grants. Based on website structure (only 3 nav items: About Us, Our Work, Contact Us) and the large dollar amounts to related/established institutions, this appears to be an invitation-only or proactive grantmaking foundation.",
+      "portal_url": null,
+      "guidelines_url": null,
+      "deadlines": "None found.",
+      "materials_required": "Unknown."
+    },
+
+    "funding": {
+      "focus_areas": [
+        "Arts and culture (performing arts, visual arts, photography)",
+        "Education (K-12 reform, public broadcasting, higher education)",
+        "Animal welfare",
+        "Environmental conservation and wildlife",
+        "Community spaces and civic life",
+        "Food equity and security",
+        "Aging and senior programs",
+        "Indigenous cultural heritage",
+        "Journalism and media",
+        "Technology and civic engagement"
+      ],
+      "grant_size_range": "Highly variable. External grants to independent grantees appear to range from approximately $10,000 to $6,250,000. Signature grants to anchor institutions run much higher (up to $150M to affiliated foundations, $500M historically for education).",
+      "geographic_focus": "Primarily Los Angeles and California. Some national scope (Philadelphia Orchestra, National Wildlife Federation). Some international (Institut Curie in France for pediatric oncology).",
+      "veteran_relevance": "Low. One related initiative via explore.org funded therapy/service dog training for veterans (Charles Annenberg Weingarten's initiative). No direct veteran sailing or adaptive recreation grants observed.",
+      "adaptive_recreation_relevance": "Very low. No adaptive recreation or disability sport grants identified. Some disability-adjacent giving (service dogs for veterans noted above) but not a stated focus area."
+    },
+
+    "contacts": {
+      "primary_contact": "Leadership: Lauren Bon, Gregory Annenberg Weingarten, Charles Annenberg Weingarten (trustees as of 2025)",
+      "email": "Not listed on website for grant inquiries.",
+      "phone": "Not listed for grant inquiries.",
+      "address": "Annenberg Foundation, 2000 Avenue of the Stars, Suite 1000, Los Angeles, CA 90067 (based on prior public records; not confirmed on current website)"
+    },
+
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Annenberg Foundation supports people working to make their communities more equitable. innovative. resilient. Our mission is guided by listening, connection, and the shared work of stewarding the practices that hold our communities together.",
+      "reasoning": "The Annenberg Foundation appears to be an invitation-only grantmaker with no open application process — all grant-related subpages redirect to a sparse homepage with no application information. The foundation's grant history shows a deep focus on Los Angeles institutions (USC, LACMA, LA Opera, Wallis Center), performing arts, education, and environmental/civic causes — none of which align with adaptive veteran sailing. While they have historically funded some veteran-adjacent programs (service dog training), VetsBoats would have no pathway to apply and the mission alignment is weak.",
+      "recommended_action": "Do not pursue. No open application process exists, and VetsBoats mission does not align with Annenberg's primary funding areas. Relationship-based approach would require extremely strong connections to Annenberg family members or staff."
+    },
+
+    "key_urls": {
+      "application_page": null,
+      "eligibility_page": null,
+      "guidelines_page": null,
+      "grant_list_page": "https://annenberg.org/our-work",
+      "contact_page": "https://annenberg.org"
+    },
+
+    "website_grantees_mentioned": [
+      "Wallis Annenberg Legacy Foundation",
+      "Wilshire Boulevard Temple",
+      "Armand Hammer Museum of Art (Hammer Museum)",
+      "University of Southern California (USC)",
+      "Downtown Women's Center (Los Angeles)",
+      "Wallis Annenberg Center for the Performing Arts (The Wallis)",
+      "California Science Center",
+      "National Wildlife Federation",
+      "Annenberg Space for Photography",
+      "Annenberg Community Beach House",
+      "Wallis Annenberg GenSpace",
+      "Los Angeles County Museum of Art (LACMA)",
+      "Musee des Arts Decoratifs",
+      "Museum of Modern Art (MoMA)",
+      "Polar Bears International",
+      "Philadelphia Orchestra",
+      "KCRW",
+      "Institut Curie"
+    ]
+  },
+
+  {
+    "ein": "946068564",
+    "name": "Walter & Elise Haas Fund",
+    "website": "https://www.haassr.org",
+
+    "eligibility": {
+      "who_can_apply": "Organizations whose work supports the Bay Area where all people can reach their fullest potential and live with a sense of purpose, dignity, and joy. Grantees appear to be primarily nonprofits focused on economic well-being, social well-being, arts, education, and racial justice in the San Francisco Bay Area.",
+      "who_cannot_apply": "Not explicitly stated on the crawled pages. No language found excluding private foundations.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Website does not mention public charity vs. private foundation distinction. The pf_grants data shows two very small grants to 'The 500 Capp Street Foundation' ($280 in 2023 and $295 in 2022) for 'costs associated with applying to the Creative Work Fund' — these appear to be administrative pass-through payments, not arm's-length grants to an outside private foundation. This is insufficient evidence to confirm PF eligibility. The grantee directory shows exclusively public charities (Vital Arts Inc, Oakland Leaf Foundation, Anti Police-Terror Project Inc, etc.). Standard Bay Area foundation practice strongly implies public charity-only grantmaking, though this is not confirmed in the crawled text.",
+      "geographic_restrictions": "Strong San Francisco Bay Area focus. Grant directory shows 'Regions Served: Israel, Nepal, United States.' The Bay Area is the primary region. Description: 'Our grants support a Bay Area where all people can reach their fullest potential.' Some international and national giving exists but Bay Area is the core geography.",
+      "org_type_requirements": "Not explicitly stated on crawled pages. Implied to be nonprofits ('the organizations we fund'). No public charity language found.",
+      "budget_requirements": "None stated.",
+      "other_requirements": "Based on grant directory, the Fund uses a Grantee Portal for existing grantees. Strategy page (not fully crawled) describes trust-based philanthropy and long-term relationship grantmaking. New applicants appear to need to go through a formal inquiry process."
+    },
+
+    "application": {
+      "process": "UNKNOWN",
+      "process_description": "The /apply URL redirected to a Careers page (no positions open), suggesting no open application portal. The Grantee Portal login is for existing grantees only. The grantmaking page indicates a focus on established partnerships ('trust-based philanthropy that centers community and builds right relationship'). There may be an inquiry or nomination process, but it was not found in crawled content. The fund likely requires relationship initiation before formal applications.",
+      "portal_url": "https://haassr.org/grantmaking/",
+      "guidelines_url": "https://haassr.org/grantmaking/",
+      "deadlines": "None found. May operate on rolling or relationship-based timeline.",
+      "materials_required": "Unknown for new applicants. Existing grantees use a Grantee Portal for reporting."
+    },
+
+    "funding": {
+      "focus_areas": [
+        "Racial and gender wealth gap reduction",
+        "Economic well-being and worker rights",
+        "Social well-being and belonging",
+        "Arts and cultural preservation",
+        "Education and youth empowerment",
+        "Jewish life and identity",
+        "Housing and homeless prevention",
+        "Climate resilience and disaster preparedness",
+        "Civic engagement and leadership",
+        "Nonprofit capacity building"
+      ],
+      "grant_size_range": "Approximately $300 to $500,000, with most grants in the $10,000 to $250,000 range. Seven-year general operating support grants of $500,000 observed for anchor grantees in 2023.",
+      "geographic_focus": "San Francisco Bay Area (primary). Some Israel and Nepal-focused grantees. Limited national scope.",
+      "veteran_relevance": "Very low. No veteran-focused grants identified in any crawled content or top grant data. Funding focuses on economic equity, racial justice, and arts — not veteran services or military-affiliated programs.",
+      "adaptive_recreation_relevance": "None evident. No adaptive recreation, disability sport, or sailing-related grants identified. Some parks and recreation grantmaking noted in historical program areas but not a current focus."
+    },
+
+    "contacts": {
+      "primary_contact": "Staff team (fourth generation Haas family descendants) — specific contacts not listed in crawled pages.",
+      "email": "Not provided in crawled content.",
+      "phone": "(415) 398-4474",
+      "address": "One Lombard Street, Suite 305, San Francisco, CA 94111"
+    },
+
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The guiding purpose of the Walter & Elise Haas Fund's grantmaking is community well-being, and recognizes that thriving communities require both economic stability and social cohesion.",
+      "reasoning": "The Walter & Elise Haas Fund focuses exclusively on Bay Area community well-being through economic equity, racial justice, arts, and social cohesion — none of which align with adaptive sailing for disabled veterans. While the fund is geographically proximate to VetsBoats (both SF Bay Area), the program priorities are misaligned. VetsBoats' mission around veteran rehabilitation and adaptive recreation does not fit the fund's current focus areas of economic well-being, racial equity, and social belonging. Additionally, the fund appears to use relationship-based/trust-based grantmaking with no open application process, and PF eligibility is uncertain.",
+      "recommended_action": "Do not pursue. Mission misalignment is the primary barrier — Haas Fund focuses on economic equity and racial justice, not veteran services or adaptive recreation. Geographic proximity does not overcome the program mismatch."
+    },
+
+    "key_urls": {
+      "application_page": null,
+      "eligibility_page": null,
+      "guidelines_page": "https://haassr.org/grantmaking/",
+      "grant_list_page": "https://haassr.org/grants/",
+      "contact_page": "https://haassr.org/grantmaking/"
+    },
+
+    "website_grantees_mentioned": [
+      "Vital Arts Inc",
+      "Nonprofit Finance Fund",
+      "Legal Services For Children Inc",
+      "Dads Evoking Change",
+      "Oakland Leaf Foundation",
+      "Anti Police-Terror Project Inc",
+      "Marin Country Day School",
+      "Head-Royce School",
+      "Stern Grove Festival Association",
+      "1947 Partition Archive",
+      "3rd I South Asian Independent Film",
+      "3rd Street Youth Center And Clinic",
+      "5 Elements Youth Program",
+      "Californians for Justice Education Fund (Youth Organize California)",
+      "Young Women's Freedom Center",
+      "Oakland Promise",
+      "East Bay Community Law Center",
+      "La Cocina Inc",
+      "Oakland Kids First",
+      "East Bay Alliance for a Sustainable Economy",
+      "A Philip Randolph Institute San Francisco (Resilient Bayview)",
+      "Attitudinal Healing Connection Inc",
+      "Tides Center (Youth Art Exchange)",
+      "Mission Cultural Center for Latino Arts",
+      "Anti-Defamation League",
+      "Jews of Color Initiative",
+      "Rockefeller Philanthropy Advisors (New Pluralists)",
+      "The 500 Capp Street Foundation"
+    ]
+  }
+]

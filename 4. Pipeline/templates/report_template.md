@@ -45,6 +45,12 @@
 |---|--------|--------|----------|-----|--------|--------|
 {top5_rows}
 
+### Contact Quick Reference
+
+| Foundation | Contact Person | Title | Email | Phone | Website |
+|------------|---------------|-------|-------|-------|---------|
+{contact_quick_reference_rows}
+
 ---
 
 {opportunity_sections}
@@ -61,17 +67,17 @@
 
 ## Quick Reference
 
-### Foundation Contacts
+### Contact Quick Reference
 
-| Foundation | Contact | Email | Phone |
-|------------|---------|-------|-------|
-{contacts_rows}
+| Foundation | Contact Person | Title | Email | Phone | Website |
+|------------|---------------|-------|-------|-------|---------|
+{contact_quick_reference_rows}
 
-### Application Portals
+### All Contacts
 
-| Foundation | Portal URL |
-|------------|------------|
-{portals_rows}
+| Foundation | Name | Role | Email | Phone | Website |
+|------------|------|------|-------|-------|---------|
+{all_contacts_rows}
 
 ---
 

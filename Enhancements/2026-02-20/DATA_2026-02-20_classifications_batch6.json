@@ -1,0 +1,426 @@
+[
+  {
+    "index": 145,
+    "ein": "930491360",
+    "name": "THE CARPENTER FOUNDATION",
+    "state": "OR",
+    "assets": 18649940,
+    "annual_giving": 641430,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "weak",
+    "reasoning": "The Carpenter Foundation explicitly funds only organizations serving residents of Jackson and Josephine Counties, Oregon. VetsBoats is in San Francisco, California and does not serve those counties. The two small veteran grants ($5K total) were to Divide Camp in Oregon. Geographic mismatch is absolute.",
+    "application_url": "https://carpenter-foundation.org/application/",
+    "red_flags": [
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 146,
+    "ein": "273420282",
+    "name": "THE CEDARCREST CHARITABLE FOUNDATION AKA",
+    "state": "DE",
+    "assets": 42810860,
+    "annual_giving": 1771877,
+    "eligible": "NO",
+    "pf_eligible": "NO",
+    "accepts_applications": "YES",
+    "mission_overlap": "weak",
+    "reasoning": "BLBB Charitable (the Cedarcrest Foundation's operating name) explicitly states it does not provide financial support to private foundations. VetsBoats is a private foundation and is categorically excluded. Additionally, funding is restricted to the Greater Philadelphia area (Montgomery and Bucks Counties), creating a geographic mismatch as well.",
+    "application_url": "https://blbb.com/charitable/apply/",
+    "red_flags": [
+      "pf_exclusion",
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 147,
+    "ein": "936021893",
+    "name": "THE COLLINS FOUNDATION",
+    "state": "OR",
+    "assets": 227675139,
+    "annual_giving": 11471530,
+    "eligible": "NO",
+    "pf_eligible": "NO",
+    "accepts_applications": "YES",
+    "mission_overlap": "weak",
+    "reasoning": "The Collins Foundation explicitly requires applicants to be 501(c)(3) public charities, and states IRS-recognized public charity status is required. Their FAQ specifies eligibility for Section 501(c)(3) organizations but private foundations are excluded by definition. Additionally, all grantmaking requires Oregon-based staff and programs benefiting Oregon residents. VetsBoats is in California.",
+    "application_url": "https://www.collinsfoundation.org/apply",
+    "red_flags": [
+      "pf_exclusion",
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 148,
+    "ein": "133533359",
+    "name": "THE DAVID ROCKEFELLER FUND INC",
+    "state": "NY",
+    "assets": 63250282,
+    "annual_giving": 3968099,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "NO",
+    "mission_overlap": "weak",
+    "reasoning": "The David Rockefeller Fund does not accept unsolicited proposals and identifies grantees proactively. Their three focus areas are ecological regeneration, justice system transformation, and arts for social change — none of which align with adaptive sailing for veterans. The two veteran grants were to climate advocacy organizations (Veterans for Climate Justice), not recreational or adaptive programs.",
+    "application_url": null,
+    "red_flags": [
+      "invite_only",
+      "mission_mismatch",
+      "no_application_process"
+    ]
+  },
+  {
+    "index": 149,
+    "ein": "596135403",
+    "name": "THE DR P PHILLIPS FOUNDATION",
+    "state": "FL",
+    "assets": 44523995,
+    "annual_giving": 1767179,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "The Dr. P. Phillips Foundation exclusively funds organizations serving the Central Florida community. VetsBoats is based in San Francisco. The foundation has zero veteran grants in their history and focuses on health, education, arts, children, youth, and social services in Central Florida only. Geographic mismatch is absolute.",
+    "application_url": "https://www.drphillips.org",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 150,
+    "ein": "943362163",
+    "name": "THE DUFFIELD FAMILY FOUNDATION",
+    "state": "CA",
+    "assets": 266741354,
+    "annual_giving": 8109411,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "NO",
+    "mission_overlap": "none",
+    "reasoning": "The Duffield Family Foundation's public-facing website is Maddie's Fund, which exclusively focuses on animal welfare, shelter medicine, and keeping pets with people. The veteran-linked grants in their history were entirely pet-related (service dogs and pet wellness kits for veterans), not adaptive recreation or sailing programs. Maddie's Fund does not appear to accept general unsolicited applications in traditional grant form.",
+    "application_url": null,
+    "red_flags": [
+      "mission_mismatch",
+      "no_application_process"
+    ]
+  },
+  {
+    "index": 151,
+    "ein": "560529965",
+    "name": "THE DUKE ENDOWMENT",
+    "state": "NC",
+    "assets": 3502993986,
+    "annual_giving": 156282313,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "NO",
+    "mission_overlap": "weak",
+    "reasoning": "The Duke Endowment restricts all grantmaking to North Carolina and South Carolina. VetsBoats operates in San Francisco. The website explicitly states they fund four institutional partners named in Mr. Duke's Indenture of Trust for higher education, and broader health, child welfare, and rural church programs exclusively in the Carolinas. Geographic mismatch is absolute.",
+    "application_url": null,
+    "red_flags": [
+      "geographic_mismatch",
+      "invite_only"
+    ]
+  },
+  {
+    "index": 153,
+    "ein": "621134070",
+    "name": "THE FRIST FOUNDATION",
+    "state": "TN",
+    "assets": 200236459,
+    "annual_giving": 14094584,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "weak",
+    "reasoning": "The Frist Foundation explicitly requires that funded organizations primarily serve Davidson County (Nashville), Tennessee residents. VetsBoats is in San Francisco and would not qualify. Their veteran grants were to Nashville-area organizations focused on housing and business development for veterans, not adaptive recreation.",
+    "application_url": "https://fristfoundation.org/grants/application-process/",
+    "red_flags": [
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 154,
+    "ein": "616031406",
+    "name": "THE GHEENS FOUNDATION INC",
+    "state": "KY",
+    "assets": 158801956,
+    "annual_giving": 5904114,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "weak",
+    "reasoning": "The Gheens Foundation's mission explicitly focuses on Metropolitan Louisville, Kentucky, and Lafourche and Terrebonne Parishes in Louisiana. VetsBoats is in San Francisco, California. The foundation's veteran grants were to Louisville-area organizations. Geographic mismatch is absolute.",
+    "application_url": "https://gheensfoundation.org",
+    "red_flags": [
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 155,
+    "ein": "526037034",
+    "name": "THE HARRY AND JEANETTE WEINBERG",
+    "state": "MD",
+    "assets": 1751272254,
+    "annual_giving": 81252349,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "NO",
+    "mission_overlap": "weak",
+    "reasoning": "The Harry and Jeanette Weinberg Foundation is invitation-only and explicitly states it does not accept or review unsolicited proposals. Their grantmaking focuses on poverty alleviation (housing, health, jobs, education, aging) in specific priority communities. Although San Francisco is one of their priority communities, their vet grants were all for housing, IT training, and direct services — not adaptive recreation. The invitation-only policy is a hard barrier.",
+    "application_url": null,
+    "red_flags": [
+      "invite_only",
+      "no_application_process",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 156,
+    "ein": "946073084",
+    "name": "THE HENRY MAYO NEWHALL FOUNDATION",
+    "state": "CA",
+    "assets": 33692557,
+    "annual_giving": 1878240,
+    "eligible": "MAYBE",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "moderate",
+    "reasoning": "Henry Mayo Newhall Foundation is a CA-based private family foundation funding organizations in San Francisco, Santa Maria Valley, and Santa Clarita Valley. They have 14 veteran grants ($335K), including multiple grants to SF Bay Area veteran services orgs like Swords to Plowshares. The website main page scraped but grant/eligibility subpages returned empty — the Funding Guidelines and How to Apply pages exist on the site but content did not load. The foundation funds SF-area nonprofits addressing quality of life. However, no private foundation eligibility language could be confirmed either way. VetsBoats IS a private foundation and most family foundations require 501(c)(3) public charity status.",
+    "application_url": "https://www.newhallfoundation.org",
+    "red_flags": []
+  },
+  {
+    "index": 159,
+    "ein": "452195649",
+    "name": "THE JAMES FOUNDATION INC",
+    "state": "IN",
+    "assets": 17335518,
+    "annual_giving": 6555299,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "weak",
+    "reasoning": "The James Foundation focuses on education, scholarship programs, and arts and culture, primarily based in Indiana. While they have some veteran grants (equestrian program, honor flights, wreaths), the 501(c)(3) requirement language and the Indiana-centric nature of the funding makes this a geographic and mission mismatch for a San Francisco-based adaptive sailing private foundation.",
+    "application_url": "https://thejamesfoundation.org/grant-process-and-application/",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 160,
+    "ein": "731256122",
+    "name": "THE KERR FOUNDATION INC",
+    "state": "OK",
+    "assets": 18624951,
+    "annual_giving": 117792,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "UNKNOWN",
+    "mission_overlap": "weak",
+    "reasoning": "The Kerr Foundation website returned only a shared IP error page with no usable content. Based on their Oklahoma state registration and small annual giving ($117K), their veteran grants were to organizations across multiple states with no California presence. Insufficient website data to verify eligibility, and the small grant size and Oklahoma base suggest poor fit.",
+    "application_url": null,
+    "red_flags": [
+      "geographic_mismatch",
+      "too_small"
+    ]
+  },
+  {
+    "index": 161,
+    "ein": "814349224",
+    "name": "THE LOH FOUNDATION",
+    "state": "TX",
+    "assets": 10186,
+    "annual_giving": 62001,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "UNKNOWN",
+    "mission_overlap": "none",
+    "reasoning": "The LOH Foundation has essentially no assets ($10K) and minimal annual giving ($62K). They focus on scholarships, cultural education, and Asian-American community programs in Texas. Their very minimal veteran-linked grants were tangential. This foundation is far too small to be viable, geographically mismatched, and mission-unaligned.",
+    "application_url": null,
+    "red_flags": [
+      "too_small",
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 162,
+    "ein": "261846876",
+    "name": "THE MULVEHILL FAMILY FOUNDATION",
+    "state": "MN",
+    "assets": 2365105,
+    "annual_giving": 110600,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "UNKNOWN",
+    "mission_overlap": "weak",
+    "reasoning": "The Mulvehill Family Foundation's website resolved to GoFundMe — a clear sign the foundation has no active public-facing website. The scraped data is entirely from GoFundMe and contains no information about the foundation's application process. Their veteran grants ($25K) went to Minnesota-based military support organizations. With $2.4M assets and Minnesota focus, this is a poor geographic and size fit for VetsBoats.",
+    "application_url": null,
+    "red_flags": [
+      "geographic_mismatch",
+      "too_small",
+      "no_application_process"
+    ]
+  },
+  {
+    "index": 163,
+    "ein": "341595929",
+    "name": "THE NORD FAMILY FOUNDATION",
+    "state": "OH",
+    "assets": 198037055,
+    "annual_giving": 7510550,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "The Nord Family Foundation primarily funds organizations in Lorain County, Ohio, with selective grants in areas where board members reside. VetsBoats is in San Francisco. Their single veteran grant ($50K for veteran housing in OH) reflects an Ohio focus. The foundation requires 501(c)(3) status for eligible organizations.",
+    "application_url": "https://www.nordff.org/apply",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 164,
+    "ein": "311810011",
+    "name": "THE OAK HILL FUND",
+    "state": "VA",
+    "assets": 83598521,
+    "annual_giving": 3138706,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "The Oak Hill Fund focuses exclusively on climate change, renewable energy, chesapeake bay conservation, food security, mesoamerican reef conservation, and reproductive rights. There is zero mission overlap with adaptive sailing for veterans. Their single 'veteran' grant was for longleaf pine restoration near a military installation — an environmental project. Program areas are entirely environmental and do not include veteran services or recreation.",
+    "application_url": "https://oakhillfund.org/faq/",
+    "red_flags": [
+      "mission_mismatch",
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 166,
+    "ein": "276985468",
+    "name": "THE PETER AND JERI DEJANA FAMILY FOUNDATION",
+    "state": "NY",
+    "assets": 33617454,
+    "annual_giving": 1749474,
+    "eligible": "MAYBE",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "moderate",
+    "reasoning": "The Peter and Jeri Dejana Foundation has a clear pattern of veteran support (VFW, Semper Fi Fund, American Legion, Injured Marine Fund) totaling $59K across 5 grants. Their website is under construction but lists a downloadable grant application form and mailing address indicating open applications. No explicit PF exclusion found. Mission overlap is moderate given consistent veteran giving. Geographic focus is NY-based but grants appear national. The extremely minimal website text leaves PF eligibility status uncertain.",
+    "application_url": "https://www.dejanafoundation.org",
+    "red_flags": []
+  },
+  {
+    "index": 167,
+    "ein": "521611434",
+    "name": "THE PHASE FOUNDATION",
+    "state": "MD",
+    "assets": 3687471,
+    "annual_giving": 225200,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "UNKNOWN",
+    "mission_overlap": "none",
+    "reasoning": "The Phase Foundation's website resolved to parosfoundation.org, a different organization based in Berkeley CA that supports international development projects. This is clearly the wrong website for the Phase Foundation (MD). No useful information about the Phase Foundation's application process was scraped. With $3.7M assets and a single tangential veteran grant ($7K to caregiver support org), this is too small and the website data is unreliable.",
+    "application_url": null,
+    "red_flags": [
+      "too_small",
+      "no_application_process"
+    ]
+  },
+  {
+    "index": 168,
+    "ein": "300130499",
+    "name": "THE POKAGON FUND INC",
+    "state": "MI",
+    "assets": 9502517,
+    "annual_giving": 577127,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "The Pokagon Fund funds communities in southwest Michigan and Northern Indiana only (Hartford MI, Dowagiac MI, South Bend IN, and New Buffalo MI area). VetsBoats is in San Francisco. Their single veteran grant was for a tiny house village in Indiana. Geographic mismatch is absolute — the fund was created specifically for communities surrounding Pokagon Band of Potawatomi tribal lands in Michigan.",
+    "application_url": "https://pokagonfund.org/grants-for-band-trust-lands-communities/",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 169,
+    "ein": "956085895",
+    "name": "THE RALPH M PARSONS FOUNDATION",
+    "state": "CA",
+    "assets": 438732767,
+    "annual_giving": 16520248,
+    "eligible": "MAYBE",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "moderate",
+    "reasoning": "The Ralph M. Parsons Foundation funds exclusively in Los Angeles County — VetsBoats is in San Francisco (different county and metro area), which is a geographic mismatch. However, the foundation does fund veteran-serving orgs in California ($518K across 14 veteran grants, including housing and mental health for LA vets), focuses on human services, and has an open LOI process. If VetsBoats could demonstrate LA County reach, this could be a fit, but realistically the SF Bay Area focus rules this out. Application is via LOI.",
+    "application_url": "https://www.rmpf.org",
+    "red_flags": [
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 170,
+    "ein": "133187074",
+    "name": "THE RAYMOND FRANKEL FOUNDATION",
+    "state": "IL",
+    "assets": 48113886,
+    "annual_giving": 2984262,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "UNKNOWN",
+    "mission_overlap": "weak",
+    "reasoning": "The Raymond Frankel Foundation's website resolved to grantable.co — an AI grant writing software company — indicating the foundation's website is defunct or incorrect. Veteran grants in their history ($12K total) show support for Israeli military veterans (IDF) and small donations to Wounded Warrior, Gary Sinise Foundation, and a CA veterans park — scattered national giving at very small amounts. Without a valid website, the application process is unknown. The apparent focus on Jewish-affiliated causes and Israeli veterans does not align with VetsBoats.",
+    "application_url": null,
+    "red_flags": [
+      "no_application_process",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 172,
+    "ein": "844957804",
+    "name": "THE ROSENDIN FOUNDATION",
+    "state": "TX",
+    "assets": 2665633,
+    "annual_giving": 266500,
+    "eligible": "MAYBE",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "moderate",
+    "reasoning": "The Rosendin Foundation funds programs nationally, explicitly including California, in the areas of emotional, occupational, and nutritional health. They have 6 veteran grants totaling $60K including service dogs for disabled veterans (CA-based) and wounded warrior programs. Their 2026 grant cycle is open with a May 29 deadline. They require 501(c)(3) status but do not explicitly exclude private foundations on the website. The $266K annual giving and $2.7M assets are on the smaller side. No explicit PF exclusion found — eligible organizations must simply be 501(c)(3) in good standing, which could apply to a 501(c)(3) private foundation.",
+    "application_url": "https://www.therosendinfoundation.org/grants/",
+    "red_flags": [
+      "too_small"
+    ]
+  },
+  {
+    "index": 173,
+    "ein": "226930631",
+    "name": "THE ROUNDHOUSE FOUNDATION",
+    "state": "OR",
+    "assets": 358883108,
+    "annual_giving": 7967949,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "weak",
+    "reasoning": "The Roundhouse Foundation exclusively supports rural Oregon communities, requiring a clear and compelling benefit to rural Oregon. VetsBoats is in urban San Francisco. Their eligibility guidelines require IRS-designated 501(c)(3) non-profits and explicitly state all proposals must benefit rural Oregon. The veteran grants ($8.5K to Oregon rural veteran support orgs) confirm their Oregon-only focus. Geographic mismatch is absolute.",
+    "application_url": "https://roundhousefoundation.org/how-to-apply-for-roundhouse-grants/",
+    "red_flags": [
+      "geographic_mismatch"
+    ]
+  }
+]

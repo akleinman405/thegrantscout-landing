@@ -1,0 +1,416 @@
+[
+  {
+    "index": 88,
+    "ein": "392076346",
+    "name": "Joseph and Vera Zilber Family Foundation Inc",
+    "state": "WI",
+    "assets": 396066804.0,
+    "annual_giving": 9416968.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "MAYBE",
+    "mission_overlap": "none",
+    "reasoning": "Zilber Family Foundation explicitly funds only in Milwaukee, Wisconsin and Oahu, Hawaii. Most programs are invitation-only; only 'economic stability' track accepts initial inquiry. No mission overlap with adaptive sailing or veterans programming.",
+    "application_url": "https://zilberfamilyfoundation.org/grant-seekers/",
+    "red_flags": [
+      "geographic_mismatch",
+      "invite_only",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 89,
+    "ein": "680175739",
+    "name": "KELLY FOUNDATION",
+    "state": "CA",
+    "assets": 39032244.0,
+    "annual_giving": 932272.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "Kelly Foundation serves the Greater Sacramento/Northern California region with focus on children's education, homelessness, food insecurity, health and conservation. VetsBoats is in San Francisco (different region) and adaptive sailing for veterans is not among their priority areas.",
+    "application_url": "https://kellyfoundationsacramento.org/faq/",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 90,
+    "ein": "591885997",
+    "name": "KOCH FOUNDATION",
+    "state": "FL",
+    "assets": 71661279.0,
+    "annual_giving": 4827424.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "Koch Foundation exclusively supports Roman Catholic evangelization programs worldwide. Their veteran-related grants all fund Catholic military chaplaincy programs. VetsBoats is a secular adaptive sailing program and does not fit this religious-only mandate.",
+    "application_url": "https://www.thekochfoundation.org",
+    "red_flags": [
+      "religious_only",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 91,
+    "ein": "843123162",
+    "name": "LB CHARITABLE FOUNDATION",
+    "state": "CA",
+    "assets": 50416848.0,
+    "annual_giving": 990112.0,
+    "eligible": "MAYBE",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "UNKNOWN",
+    "mission_overlap": "moderate",
+    "reasoning": "LB Charitable Foundation (California-based) explicitly lists military veterans and disabled veterans as a core mission focus, with 11 veteran grants totaling $290K. However, their website application pages all return 404 errors, so no clear open application process exists, and it's unknown whether they accept private foundations.",
+    "application_url": "https://lbcharitablefoundation.org",
+    "red_flags": [
+      "no_application_process"
+    ]
+  },
+  {
+    "index": 93,
+    "ein": "141893520",
+    "name": "LIBERTY MUTUAL FOUNDATION INC",
+    "state": "MA",
+    "assets": 46556209.0,
+    "annual_giving": 38364407.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "MAYBE",
+    "mission_overlap": "weak",
+    "reasoning": "Liberty Mutual Foundation is a corporate foundation focused on food/shelter security and community resiliency via invitation/RFP-based grantmaking. Their veteran grants are concentrated in New England (tied to headquarters). Adaptive sailing for CA veterans is outside their strategic focus and geographic preference.",
+    "application_url": "https://www.libertymutualfoundation.org",
+    "red_flags": [
+      "corporate_foundation",
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 94,
+    "ein": "873731514",
+    "name": "LIBRA GLOBAL PHILANTHROPIES FOUNDATION",
+    "state": "NY",
+    "assets": 364621.0,
+    "annual_giving": 797876.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "UNKNOWN",
+    "mission_overlap": "weak",
+    "reasoning": "Libra Global Philanthropies is primarily focused on education, global social impact, and international programs. Their single veteran grant was to David Lynch Foundation for PTSD meditation programs - not adaptive recreation. No open grant application process found on website.",
+    "application_url": "https://libraphilanthropies.org",
+    "red_flags": [
+      "no_application_process",
+      "mission_mismatch",
+      "too_small"
+    ]
+  },
+  {
+    "index": 95,
+    "ein": "350868122",
+    "name": "LILLY ENDOWMENT INC",
+    "state": "IN",
+    "assets": 62180012552.0,
+    "annual_giving": 873920344.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "MAYBE",
+    "mission_overlap": "none",
+    "reasoning": "Lilly Endowment is focused on Indiana community development, education, and religion, with a stated preference for Indiana-based organizations. Their veteran-related grants ($11.9M) were all large academic research grants to Purdue University's Military Family Research Institute. Adaptive sailing for SF Bay Area veterans has no alignment.",
+    "application_url": "https://www.lillyendowment.org/faq/",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 96,
+    "ein": "351813228",
+    "name": "Lumina Foundation for Education Inc",
+    "state": "IN",
+    "assets": 1447572232.0,
+    "annual_giving": 25613912.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "MAYBE",
+    "mission_overlap": "none",
+    "reasoning": "Lumina Foundation focuses exclusively on post-secondary education and workforce credentials. Their veteran grants support military students earning academic credentials and veteran education policy advocacy. Adaptive sailing and veteran wellness are completely outside their mission.",
+    "application_url": "https://www.luminafoundation.org",
+    "red_flags": [
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 97,
+    "ein": "261147137",
+    "name": "MADISON CHARITABLE FOUNDATION INC",
+    "state": "TX",
+    "assets": 2444721.0,
+    "annual_giving": 1719778.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "UNKNOWN",
+    "mission_overlap": "weak",
+    "reasoning": "Madison Charitable Foundation (TX) has a website that resolves to University of Mississippi Foundation - likely a URL mismatch or DNS redirect. Small Texas-based foundation with one veteran grant ($100K to Code of Vets in TN); no evidence of application process or California/sailing focus.",
+    "application_url": null,
+    "red_flags": [
+      "geographic_mismatch",
+      "no_application_process"
+    ]
+  },
+  {
+    "index": 99,
+    "ein": "931254171",
+    "name": "MARIE LAMFROM CHARITABLE FOUNDATION",
+    "state": "OR",
+    "assets": 374872001.0,
+    "annual_giving": 14186478.0,
+    "eligible": "NO",
+    "pf_eligible": "NO",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "Marie Lamfrom Charitable Foundation explicitly states 'We do not issue funding to private foundations' and also requires grantees to serve Oregon communities. VetsBoats is disqualified on both grounds: it is a private foundation operating in California.",
+    "application_url": "https://www.marielamfrom.org/programs",
+    "red_flags": [
+      "pf_exclusion",
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 100,
+    "ein": "131687573",
+    "name": "MAX & VICTORIA DREYFUS FOUNDATION INC",
+    "state": "DC",
+    "assets": 60402786.0,
+    "annual_giving": 984360.0,
+    "eligible": "NO",
+    "pf_eligible": "NO",
+    "accepts_applications": "YES",
+    "mission_overlap": "weak",
+    "reasoning": "Max & Victoria Dreyfus Foundation explicitly requires applicants to submit 'IRS letter stating your Section 501(c)(3) tax-exempt / not a private foundation status.' VetsBoats is a private foundation and is directly excluded. Small grants ($1K-$20K) would also be too small to matter.",
+    "application_url": "https://www.mvdreyfusfoundation.org/application-guidelines",
+    "red_flags": [
+      "pf_exclusion"
+    ]
+  },
+  {
+    "index": 102,
+    "ein": "473197993",
+    "name": "MESARA FAMILY FOUNDATION",
+    "state": "MI",
+    "assets": 6301734.0,
+    "annual_giving": 302663.0,
+    "eligible": "NO",
+    "pf_eligible": "NO",
+    "accepts_applications": "YES",
+    "mission_overlap": "weak",
+    "reasoning": "Mesara Family Foundation explicitly states they 'only give to appropriate 501(c)(3) organizations,' excluding private foundations. Focus is education and conservation primarily in Michigan. While they funded High Fives Foundation's military-to-mountains program ($5K), the 501c3-only requirement disqualifies VetsBoats.",
+    "application_url": "https://www.mesarafamilyfoundation.org/grants",
+    "red_flags": [
+      "pf_exclusion",
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 103,
+    "ein": "930806316",
+    "name": "MEYER MEMORIAL TRUST",
+    "state": "OR",
+    "assets": 885167113.0,
+    "annual_giving": 33440842.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "Meyer Memorial Trust is focused exclusively on racial, social and economic justice for Oregon's lands and peoples. Their veteran grants are affordable housing projects in Oregon. VetsBoats is in California with no Oregon presence; adaptive sailing is not within their justice-focused portfolios.",
+    "application_url": "https://www.mmt.org",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 104,
+    "ein": "431871586",
+    "name": "MONETA GROUP CHARITABLE FOUNDATION",
+    "state": "MO",
+    "assets": 1740325.0,
+    "annual_giving": 265067.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "NO",
+    "mission_overlap": "none",
+    "reasoning": "Moneta Group Charitable Foundation is a small corporate employee-giving foundation ($1.7M assets) tied to a St. Louis wealth management firm. Veteran grants average under $1K each and appear to be employee donation matching. No public grant application process exists.",
+    "application_url": null,
+    "red_flags": [
+      "corporate_foundation",
+      "no_application_process",
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 105,
+    "ein": "411958621",
+    "name": "MORTENSON FAMILY FOUNDATION",
+    "state": "MN",
+    "assets": 136619117.0,
+    "annual_giving": 4013700.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "Mortenson Family Foundation focuses on equity and opportunity in Minneapolis/St. Paul, environmental systems in Minnesota, and international development. Their two veteran grants ($2K total) were small donations to a Minnesota military appreciation fund. No mission or geographic alignment with VetsBoats.",
+    "application_url": "https://www.mortensonfamily.org/faq/",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 106,
+    "ein": "830590263",
+    "name": "MOTHER CABRINI HEALTH FOUNDATION INC",
+    "state": "NY",
+    "assets": 3696313328.0,
+    "annual_giving": 94177513.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "Mother Cabrini Health Foundation exclusively serves New York State and is focused on health and wellbeing of New Yorkers. Their 51 veteran grants are all New York-based health/mental health programs. VetsBoats is in California and adaptive sailing is not a healthcare program.",
+    "application_url": "https://www.cabrinihealth.org/grants-programs/",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 107,
+    "ein": "010535144",
+    "name": "Maine Health Access Foundation Inc",
+    "state": "ME",
+    "assets": 144323858.0,
+    "annual_giving": 3297526.0,
+    "eligible": "NO",
+    "pf_eligible": "NO",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "Maine Health Access Foundation explicitly requires organizations to be 'based in Maine' and funds only 501(c)(3)s, government entities, and educational institutions - excluding private foundations. VetsBoats is in California and not a public charity.",
+    "application_url": "https://mehaf.org/grants-center/funding-opportunites",
+    "red_flags": [
+      "pf_exclusion",
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 108,
+    "ein": "756015322",
+    "name": "Meadows Foundation Inc",
+    "state": "TX",
+    "assets": 694306466.0,
+    "annual_giving": 15048701.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "Meadows Foundation explicitly serves Texas institutions and Texans, with all grantmaking 'throughout Texas.' Their veteran grants (including mental health and homeless housing) are all Texas-based programs. VetsBoats in California is geographically ineligible.",
+    "application_url": "https://www.mfi.org/how-to-apply/",
+    "red_flags": [
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 109,
+    "ein": "364336415",
+    "name": "Michael & Susan Dell Foundation",
+    "state": "TX",
+    "assets": 5415306792.0,
+    "annual_giving": 124522011.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "Michael & Susan Dell Foundation focuses on education, economic opportunity, and health for children and families, primarily in Texas, US, India, and Africa. Their one veteran-related grant was for military-career education readiness in Texas. Adaptive sailing for SF Bay veterans has no alignment.",
+    "application_url": "https://dell.org/apply/",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 110,
+    "ein": "943250195",
+    "name": "NAMES FAMILY FOUNDATION",
+    "state": "WA",
+    "assets": 159866686.0,
+    "annual_giving": 3708037.0,
+    "eligible": "MAYBE",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "moderate",
+    "reasoning": "Names Family Foundation funds sports, physical activity, and adaptive recreation programs with a history of funding veteran therapeutic programs (Museum of Glass hot shop for veterans, Warriors and Horses program). However, they primarily invest in Pierce County, WA region, which excludes SF Bay Area. They say 'areas that have a direct link to the Names Family' may be considered.",
+    "application_url": "https://www.namesfoundation.org/applyhere",
+    "red_flags": [
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 111,
+    "ein": "204818866",
+    "name": "NATIONAL LIFE GROUP CHARITABLE",
+    "state": "VT",
+    "assets": 24058202.0,
+    "annual_giving": 1774289.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "NO",
+    "mission_overlap": "none",
+    "reasoning": "National Life Group Charitable is a Vermont-based corporate foundation whose website is the National Life insurance company's main site with no grant application process. Their 5 veteran grants average under $1,100 each, typical of employee donation matching. No public grantmaking process exists.",
+    "application_url": null,
+    "red_flags": [
+      "corporate_foundation",
+      "no_application_process",
+      "geographic_mismatch"
+    ]
+  },
+  {
+    "index": 112,
+    "ein": "300127892",
+    "name": "NEW YORK STATE HEALTH FDN",
+    "state": "NY",
+    "assets": 360607673.0,
+    "annual_giving": 10964022.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "YES",
+    "mission_overlap": "none",
+    "reasoning": "New York State Health Foundation is dedicated to improving health for New Yorkers and explicitly targets New York state projects. Their 97 veteran grants are all New York-based health and mental health programs. VetsBoats is in California and outside their geographic scope.",
+    "application_url": "https://nyhealthfoundation.org/apply-for-funding/",
+    "red_flags": [
+      "geographic_mismatch",
+      "mission_mismatch"
+    ]
+  },
+  {
+    "index": 116,
+    "ein": "137029285",
+    "name": "OPEN SOCIETY INSTITUTE",
+    "state": "NY",
+    "assets": 5268526545.0,
+    "annual_giving": 123828823.0,
+    "eligible": "NO",
+    "pf_eligible": "UNKNOWN",
+    "accepts_applications": "MAYBE",
+    "mission_overlap": "none",
+    "reasoning": "Open Society Foundations focuses on democratic governance, human rights, and social justice. They state 'the vast majority of our grants are awarded to organizations that we approach directly.' Their minimal veteran grants are unrelated to adaptive recreation. VetsBoats has no mission alignment with democracy and justice work.",
+    "application_url": "https://www.opensocietyfoundations.org/grants",
+    "red_flags": [
+      "invite_only",
+      "mission_mismatch"
+    ]
+  }
+]

@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+
+@page {
+    size: letter;
+    margin: 0.75in 1in;
+    @top-right {
+        content: "TheGrantScout";
+        font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 10pt;
+        color: #1e3a5f;
+        font-weight: bold;
+    }
+    @bottom-center {
+        content: "thegrantscout.com  |  Your mission deserves funding. We'll help you find it.";
+        font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 8pt;
+        color: #6c757d;
+    }
+    @bottom-right {
+        content: counter(page);
+        font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 8pt;
+        color: #6c757d;
+    }
+}
+
+body {
+    font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11pt;
+    color: #2c3e50;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Calibri Light', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #1e3a5f;
+    font-size: 28pt;
+    margin-top: 0;
+    margin-bottom: 4pt;
+    page-break-after: avoid;
+}
+
+h1 + h1 {
+    font-size: 16pt;
+    color: #6c757d;
+    font-weight: 300;
+    margin-bottom: 12pt;
+}
+
+h2 {
+    font-family: 'Calibri Light', 'Helvetica Neue', sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #1e3a5f;
+    margin-top: 24pt;
+    margin-bottom: 10pt;
+    border-bottom: 2px solid #d4a853;
+    padding-bottom: 4pt;
+    page-break-after: avoid;
+}
+
+h3 {
+    font-family: 'Calibri Light', 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #152b47;
+    margin-top: 16pt;
+    margin-bottom: 8pt;
+    page-break-after: avoid;
+}
+
+h4 {
+    font-family: 'Calibri Light', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+}
+
+p {
+    margin-bottom: 8pt;
+}
+
+a {
+    color: #1e3a5f;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d4a853;
+}
+
+/* TOC styling */
+ol {
+    padding-left: 20pt;
+}
+
+ol li {
+    margin-bottom: 4pt;
+}
+
+ol li a {
+    color: #1e3a5f;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12pt 0;
+    font-size: 10pt;
+    page-break-inside: auto;
+}
+
+thead th, th {
+    background-color: #1e3a5f;
+    color: white;
+    font-weight: bold;
+    padding: 8pt 10pt;
+    text-align: left;
+    border-bottom: 3px solid #d4a853;
+}
+
+td {
+    padding: 6pt 10pt;
+    border-bottom: 1px solid #e8ebed;
+    vertical-align: top;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+tr:nth-child(even) td {
+    background-color: #f5f7fa;
+}
+
+tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+/* Blockquotes as callout boxes */
+blockquote {
+    background-color: #fef9e7;
+    border-left: 4px solid #d4a853;
+    padding: 12pt 16pt;
+    margin: 12pt 0;
+    font-weight: bold;
+    color: #1e3a5f;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+/* Horizontal rules */
+hr {
+    border: none;
+    border-top: 1px solid #d4a853;
+    margin: 16pt 0;
+}
+
+/* Code blocks */
+code, pre {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    background-color: #f5f7fa;
+    border: 1px solid #e8ebed;
+    border-radius: 3pt;
+}
+
+pre {
+    padding: 12pt;
+    margin: 10pt 0;
+    white-space: pre-wrap;
+    page-break-inside: avoid;
+}
+
+code {
+    padding: 1pt 4pt;
+}
+
+/* Bullet lists */
+ul {
+    padding-left: 20pt;
+    margin-bottom: 8pt;
+}
+
+ul li {
+    margin-bottom: 4pt;
+}
+
+/* Page breaks */
+.page-break {
+    page-break-after: always;
+}
+
+/* Bold metadata lines */
+strong {
+    color: #1e3a5f;
+}
+
+/* Keep headings with following content */
+h2, h3, h4 {
+    page-break-after: avoid;
+}
+
+/* Prevent orphan rows */
+tr {
+    page-break-inside: avoid;
+}
+
+    </style>
+</head>
+<body>
+<h1 id="top-150-bay-area-foundations-funding-youth-and-education">Top 150 Bay Area Foundations Funding Youth and Education</h1>
+<h1 id="a-free-resource-from-thegrantscout">A Free Resource from TheGrantScout</h1>
+<p><strong>Prepared by:</strong> TheGrantScout</p>
+<p><strong>Date:</strong> February 2026</p>
+<p><strong>Data Source:</strong> IRS 990-PF filings (2022-2024)</p>
+<hr />
+<h2 id="about-this-list">About This List</h2>
+<p>This list identifies the top 150 private foundations in the Bay Area that have funded youth and education programs between 2022 and 2024. Together, these foundations awarded $1.5 billion across 6,881 grants to organizations working in K-12 education, scholarships, literacy, after-school programs, and youth development.</p>
+<p>All figures reflect giving specifically to youth and education programs. Grant data comes from IRS 990-PF filings for tax years 2022 through 2024, the most recent available.</p>
+<hr />
+<h2 id="foundation-rankings">Foundation Rankings</h2>
+<table>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Foundation</th>
+<th>City</th>
+<th>Total Giving</th>
+<th>Grants</th>
+<th>Median Grant</th>
+<th>Largest Grant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>The Ann &amp; Gordon Getty Foundation</td>
+<td>San Francisco</td>
+<td>$152,390,000</td>
+<td>28</td>
+<td>$1,500,000</td>
+<td>$28,400,000</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tosa Foundation</td>
+<td>Portola Valley</td>
+<td>$88,414,340</td>
+<td>52</td>
+<td>$10,000</td>
+<td>$25,003,646</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Valhalla Foundation</td>
+<td>Woodside</td>
+<td>$73,332,058</td>
+<td>76</td>
+<td>$405,000</td>
+<td>$8,333,333</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Crankstart Foundation</td>
+<td>San Jose</td>
+<td>$62,014,000</td>
+<td>167</td>
+<td>$50,000</td>
+<td>$12,300,000</td>
+</tr>
+<tr>
+<td>5</td>
+<td>The William &amp; Flora Hewlett Foundation</td>
+<td>Menlo Park</td>
+<td>$61,753,318</td>
+<td>234</td>
+<td>$200,000</td>
+<td>$3,000,000</td>
+</tr>
+<tr>
+<td>6</td>
+<td>XQ Institute</td>
+<td>Oakland</td>
+<td>$53,270,009</td>
+<td>49</td>
+<td>$500,000</td>
+<td>$7,000,000</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Gordon E and Betty I Moore Foundation</td>
+<td>Palo Alto</td>
+<td>$51,430,929</td>
+<td>123</td>
+<td>$50,000</td>
+<td>$8,904,426</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Charles and Helen Schwab Foundation</td>
+<td>San Francisco</td>
+<td>$45,342,052</td>
+<td>111</td>
+<td>$250,000</td>
+<td>$4,000,000</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Salesforce Foundation</td>
+<td>San Francisco</td>
+<td>$42,895,000</td>
+<td>33</td>
+<td>$745,000</td>
+<td>$6,500,000</td>
+</tr>
+<tr>
+<td>10</td>
+<td>The Leonard &amp; Sophie Davis Fund</td>
+<td>San Francisco</td>
+<td>$40,637,020</td>
+<td>259</td>
+<td>$50,000</td>
+<td>$3,560,000</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Koret Foundation</td>
+<td>San Francisco</td>
+<td>$38,375,159</td>
+<td>160</td>
+<td>$50,000</td>
+<td>$2,000,000</td>
+</tr>
+<tr>
+<td>12</td>
+<td>The Heising-Simons Foundation</td>
+<td>Los Altos</td>
+<td>$32,998,194</td>
+<td>124</td>
+<td>$152,500</td>
+<td>$1,550,000</td>
+</tr>
+<tr>
+<td>13</td>
+<td>The Sobrato Family Foundation</td>
+<td>Mountain View</td>
+<td>$30,368,750</td>
+<td>163</td>
+<td>$100,000</td>
+<td>$3,200,000</td>
+</tr>
+<tr>
+<td>14</td>
+<td>The David and Lucile Packard Foundation</td>
+<td>Los Altos</td>
+<td>$29,892,011</td>
+<td>118</td>
+<td>$180,000</td>
+<td>$1,107,000</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Priem Family Foundation</td>
+<td>Burlingame</td>
+<td>$28,920,743</td>
+<td>10</td>
+<td>$130,076</td>
+<td>$17,528,500</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Stupski Foundation</td>
+<td>San Francisco</td>
+<td>$25,733,500</td>
+<td>93</td>
+<td>$100,000</td>
+<td>$4,000,000</td>
+</tr>
+<tr>
+<td>17</td>
+<td>The Eric and Wendy Schmidt Fund for Strategic Innovation</td>
+<td>Palo Alto</td>
+<td>$25,082,030</td>
+<td>70</td>
+<td>$30,000</td>
+<td>$11,035,000</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Chan Zuckerberg Initiative Foundation</td>
+<td>Palo Alto</td>
+<td>$22,144,853</td>
+<td>28</td>
+<td>$500,000</td>
+<td>$2,211,219</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Enlight Foundation</td>
+<td>Palo Alto</td>
+<td>$20,588,602</td>
+<td>19</td>
+<td>$412,000</td>
+<td>$5,000,000</td>
+</tr>
+<tr>
+<td>20</td>
+<td>The Walt and Lilly Disney Foundation</td>
+<td>San Francisco</td>
+<td>$19,302,775</td>
+<td>8</td>
+<td>$100,000</td>
+<td>$9,458,450</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Evelyn and Walter Haas Jr Fund</td>
+<td>San Francisco</td>
+<td>$17,865,650</td>
+<td>82</td>
+<td>$88,500</td>
+<td>$2,404,500</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Caldwell Fisher Family Foundation</td>
+<td>Menlo Park</td>
+<td>$17,863,000</td>
+<td>26</td>
+<td>$25,000</td>
+<td>$12,350,000</td>
+</tr>
+<tr>
+<td>23</td>
+<td>RJM Foundation</td>
+<td>San Francisco</td>
+<td>$17,575,000</td>
+<td>11</td>
+<td>$1,000,000</td>
+<td>$10,000,000</td>
+</tr>
+<tr>
+<td>24</td>
+<td>The Carl Gellert and Celia Berta Gellert Foundation</td>
+<td>San Francisco</td>
+<td>$15,700,000</td>
+<td>12</td>
+<td>$262,500</td>
+<td>$4,750,000</td>
+</tr>
+<tr>
+<td>25</td>
+<td>AAM Foundation</td>
+<td>Novato</td>
+<td>$15,559,965</td>
+<td>2</td>
+<td>$7,779,982</td>
+<td>$9,009,965</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Good Ventures Foundation</td>
+<td>Palo Alto</td>
+<td>$15,449,967</td>
+<td>199</td>
+<td>$37,000</td>
+<td>$3,908,161</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Amar Foundation</td>
+<td>San Jose</td>
+<td>$14,504,600</td>
+<td>5</td>
+<td>$450,000</td>
+<td>$8,300,000</td>
+</tr>
+<tr>
+<td>28</td>
+<td>The O'Donnell Foundation</td>
+<td>Palo Alto</td>
+<td>$13,945,000</td>
+<td>15</td>
+<td>$800,000</td>
+<td>$5,500,000</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Wayne and Gladys Valley Foundation</td>
+<td>Oakland</td>
+<td>$13,350,001</td>
+<td>15</td>
+<td>$100,000</td>
+<td>$7,333,334</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Imaginable Futures Foundation</td>
+<td>Redwood City</td>
+<td>$12,749,333</td>
+<td>29</td>
+<td>$250,000</td>
+<td>$1,500,000</td>
+</tr>
+<tr>
+<td>31</td>
+<td>College Futures Foundation</td>
+<td>Oakland</td>
+<td>$12,531,667</td>
+<td>58</td>
+<td>$163,834</td>
+<td>$1,050,000</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Delta Dental Community Care Foundation</td>
+<td>San Francisco</td>
+<td>$11,583,840</td>
+<td>58</td>
+<td>$100,000</td>
+<td>$1,080,000</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Robert and Ruth Halperin Foundation</td>
+<td>San Francisco</td>
+<td>$11,555,790</td>
+<td>70</td>
+<td>$75,000</td>
+<td>$1,985,000</td>
+</tr>
+<tr>
+<td>34</td>
+<td>UCSF Discovery Fellows Fund</td>
+<td>San Francisco</td>
+<td>$11,079,383</td>
+<td>2</td>
+<td>$5,539,692</td>
+<td>$5,874,166</td>
+</tr>
+<tr>
+<td>35</td>
+<td>Walter S Johnson Foundation</td>
+<td>San Francisco</td>
+<td>$10,788,000</td>
+<td>112</td>
+<td>$100,000</td>
+<td>$696,000</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Gilead Foundation</td>
+<td>Foster City</td>
+<td>$10,140,000</td>
+<td>31</td>
+<td>$150,000</td>
+<td>$1,000,000</td>
+</tr>
+<tr>
+<td>37</td>
+<td>Solid Rock Foundation</td>
+<td>San Francisco</td>
+<td>$9,200,000</td>
+<td>56</td>
+<td>$150,000</td>
+<td>$400,000</td>
+</tr>
+<tr>
+<td>38</td>
+<td>Quest Foundation</td>
+<td>Danville</td>
+<td>$8,974,313</td>
+<td>207</td>
+<td>$35,000</td>
+<td>$150,000</td>
+</tr>
+<tr>
+<td>39</td>
+<td>The Bernard Osher Foundation</td>
+<td>San Francisco</td>
+<td>$8,913,500</td>
+<td>25</td>
+<td>$50,000</td>
+<td>$1,050,000</td>
+</tr>
+<tr>
+<td>40</td>
+<td>The Schmidt Family Foundation</td>
+<td>Palo Alto</td>
+<td>$8,897,000</td>
+<td>98</td>
+<td>$62,500</td>
+<td>$591,500</td>
+</tr>
+<tr>
+<td>41</td>
+<td>Mitchell Kapor Foundation</td>
+<td>Oakland</td>
+<td>$8,310,565</td>
+<td>16</td>
+<td>$80,000</td>
+<td>$2,510,000</td>
+</tr>
+<tr>
+<td>42</td>
+<td>The Binkley Foundation</td>
+<td>Mill Valley</td>
+<td>$7,880,209</td>
+<td>4</td>
+<td>$2,624,403</td>
+<td>$2,624,403</td>
+</tr>
+<tr>
+<td>43</td>
+<td>The Shimon Ben Joseph Foundation</td>
+<td>San Francisco</td>
+<td>$7,571,094</td>
+<td>57</td>
+<td>$50,000</td>
+<td>$1,000,000</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Crescent Porter Hale Foundation</td>
+<td>San Francisco</td>
+<td>$7,559,000</td>
+<td>87</td>
+<td>$50,000</td>
+<td>$1,380,000</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Kenneth Rainin Foundation</td>
+<td>Oakland</td>
+<td>$7,466,359</td>
+<td>71</td>
+<td>$40,000</td>
+<td>$900,000</td>
+</tr>
+<tr>
+<td>46</td>
+<td>William K Bowes Jr Foundation</td>
+<td>San Francisco</td>
+<td>$7,371,239</td>
+<td>16</td>
+<td>$291,666</td>
+<td>$2,292,906</td>
+</tr>
+<tr>
+<td>47</td>
+<td>The James Irvine Foundation</td>
+<td>San Francisco</td>
+<td>$6,746,300</td>
+<td>33</td>
+<td>$10,000</td>
+<td>$4,425,000</td>
+</tr>
+<tr>
+<td>48</td>
+<td>Walter and Elise Haas Fund</td>
+<td>San Francisco</td>
+<td>$6,719,050</td>
+<td>107</td>
+<td>$50,000</td>
+<td>$200,000</td>
+</tr>
+<tr>
+<td>49</td>
+<td>Ross Stores Foundation</td>
+<td>Dublin</td>
+<td>$6,613,911</td>
+<td>292</td>
+<td>$3,321</td>
+<td>$1,240,000</td>
+</tr>
+<tr>
+<td>50</td>
+<td>The Kyupin Philip and C. Gemma Hwang Foundation</td>
+<td>Los Altos Hills</td>
+<td>$6,227,000</td>
+<td>9</td>
+<td>$500,000</td>
+<td>$2,000,000</td>
+</tr>
+<tr>
+<td>51</td>
+<td>Ann &amp; Gordon Getty Foundation</td>
+<td>San Francisco</td>
+<td>$6,223,000</td>
+<td>304</td>
+<td>$13,750</td>
+<td>$100,000</td>
+</tr>
+<tr>
+<td>52</td>
+<td>Skywords Family Foundation</td>
+<td>Tiburon</td>
+<td>$5,704,066</td>
+<td>18</td>
+<td>$125,000</td>
+<td>$1,425,000</td>
+</tr>
+<tr>
+<td>53</td>
+<td>Visa Foundation</td>
+<td>San Francisco</td>
+<td>$5,575,000</td>
+<td>4</td>
+<td>$725,000</td>
+<td>$4,000,000</td>
+</tr>
+<tr>
+<td>54</td>
+<td>Simpson PSB Fund</td>
+<td>Orinda</td>
+<td>$5,405,833</td>
+<td>42</td>
+<td>$24,870</td>
+<td>$1,571,950</td>
+</tr>
+<tr>
+<td>55</td>
+<td>Paramitas Foundation</td>
+<td>Saratoga</td>
+<td>$5,339,250</td>
+<td>24</td>
+<td>$20,000</td>
+<td>$1,820,000</td>
+</tr>
+<tr>
+<td>56</td>
+<td>Sergey Brin Family Foundation</td>
+<td>San Francisco</td>
+<td>$5,310,383</td>
+<td>10</td>
+<td>$137,500</td>
+<td>$2,000,192</td>
+</tr>
+<tr>
+<td>57</td>
+<td>The Draper Foundation</td>
+<td>San Mateo</td>
+<td>$5,145,415</td>
+<td>73</td>
+<td>$20,000</td>
+<td>$666,666</td>
+</tr>
+<tr>
+<td>58</td>
+<td>S.H. Cowell Foundation</td>
+<td>San Francisco</td>
+<td>$5,108,300</td>
+<td>62</td>
+<td>$65,000</td>
+<td>$225,000</td>
+</tr>
+<tr>
+<td>59</td>
+<td>Stephen M Silberstein Foundation</td>
+<td>Belvedere</td>
+<td>$5,096,000</td>
+<td>17</td>
+<td>$50,000</td>
+<td>$2,500,000</td>
+</tr>
+<tr>
+<td>60</td>
+<td>Fredrick W Petri Foundation</td>
+<td>Pleasanton</td>
+<td>$5,000,000</td>
+<td>2</td>
+<td>$2,500,000</td>
+<td>$2,996,675</td>
+</tr>
+<tr>
+<td>61</td>
+<td>Arrillaga Foundation</td>
+<td>Palo Alto</td>
+<td>$5,000,000</td>
+<td>1</td>
+<td>$5,000,000</td>
+<td>$5,000,000</td>
+</tr>
+<tr>
+<td>62</td>
+<td>Sandberg Goldberg Bernthal Family Foundation</td>
+<td>San Francisco</td>
+<td>$4,914,000</td>
+<td>20</td>
+<td>$100,000</td>
+<td>$1,000,000</td>
+</tr>
+<tr>
+<td>63</td>
+<td>P.J. and K.A. Dougherty Foundation</td>
+<td>San Jose</td>
+<td>$4,894,209</td>
+<td>2</td>
+<td>$2,447,104</td>
+<td>$4,394,209</td>
+</tr>
+<tr>
+<td>64</td>
+<td>The Schauble Family Foundation</td>
+<td>Larkspur</td>
+<td>$4,480,236</td>
+<td>17</td>
+<td>$10,000</td>
+<td>$1,197,818</td>
+</tr>
+<tr>
+<td>65</td>
+<td>Mimi and Peter Haas Fund</td>
+<td>San Francisco</td>
+<td>$4,446,019</td>
+<td>99</td>
+<td>$17,706</td>
+<td>$400,000</td>
+</tr>
+<tr>
+<td>66</td>
+<td>Coyote Foundation</td>
+<td>San Jose</td>
+<td>$4,409,159</td>
+<td>3</td>
+<td>$50,000</td>
+<td>$4,309,159</td>
+</tr>
+<tr>
+<td>67</td>
+<td>MZ Foundation</td>
+<td>San Francisco</td>
+<td>$4,351,320</td>
+<td>96</td>
+<td>$25,000</td>
+<td>$235,000</td>
+</tr>
+<tr>
+<td>68</td>
+<td>The Silver Lining Foundation</td>
+<td>San Francisco</td>
+<td>$4,134,888</td>
+<td>40</td>
+<td>$50,000</td>
+<td>$1,085,388</td>
+</tr>
+<tr>
+<td>69</td>
+<td>Hopelab Foundation</td>
+<td>San Francisco</td>
+<td>$3,717,315</td>
+<td>41</td>
+<td>$50,000</td>
+<td>$1,265,000</td>
+</tr>
+<tr>
+<td>70</td>
+<td>Sandberg Goldberg Bernthal Family Foundation</td>
+<td>San Francisco</td>
+<td>$3,660,861</td>
+<td>305</td>
+<td>$13,500</td>
+<td>$28,500</td>
+</tr>
+<tr>
+<td>71</td>
+<td>The Nancy P. and Richard K. Robbins Family Foundation</td>
+<td>San Rafael</td>
+<td>$3,546,750</td>
+<td>2</td>
+<td>$1,773,375</td>
+<td>$2,142,500</td>
+</tr>
+<tr>
+<td>72</td>
+<td>Pantas and Ting Sutardja Foundation</td>
+<td>Foster City</td>
+<td>$3,500,000</td>
+<td>2</td>
+<td>$1,750,000</td>
+<td>$2,117,465</td>
+</tr>
+<tr>
+<td>73</td>
+<td>The Grove Foundation</td>
+<td>Los Altos</td>
+<td>$3,490,000</td>
+<td>13</td>
+<td>$150,000</td>
+<td>$780,000</td>
+</tr>
+<tr>
+<td>74</td>
+<td>Bryan Cameron Education Foundation</td>
+<td>Palo Alto</td>
+<td>$3,463,861</td>
+<td>76</td>
+<td>$57,686</td>
+<td>$68,978</td>
+</tr>
+<tr>
+<td>75</td>
+<td>Hobson/Lucas Family Foundation</td>
+<td>San Rafael</td>
+<td>$3,463,500</td>
+<td>13</td>
+<td>$10,000</td>
+<td>$1,650,000</td>
+</tr>
+<tr>
+<td>76</td>
+<td>Skyline Foundation</td>
+<td>San Francisco</td>
+<td>$3,429,700</td>
+<td>15</td>
+<td>$200,000</td>
+<td>$750,000</td>
+</tr>
+<tr>
+<td>77</td>
+<td>KLA Foundation</td>
+<td>Milpitas</td>
+<td>$3,255,136</td>
+<td>176</td>
+<td>$6,290</td>
+<td>$375,000</td>
+</tr>
+<tr>
+<td>78</td>
+<td>KHR Family Fund</td>
+<td>Sonoma</td>
+<td>$3,150,000</td>
+<td>8</td>
+<td>$100,000</td>
+<td>$2,200,000</td>
+</tr>
+<tr>
+<td>79</td>
+<td>California Physicians' Service Foundation</td>
+<td>San Francisco</td>
+<td>$3,080,501</td>
+<td>13</td>
+<td>$200,000</td>
+<td>$500,000</td>
+</tr>
+<tr>
+<td>80</td>
+<td>J-P Conte Family Foundation</td>
+<td>San Francisco</td>
+<td>$3,058,500</td>
+<td>15</td>
+<td>$200,000</td>
+<td>$500,000</td>
+</tr>
+<tr>
+<td>81</td>
+<td>The Swanson Foundation</td>
+<td>Burlingame</td>
+<td>$3,050,000</td>
+<td>11</td>
+<td>$200,000</td>
+<td>$500,000</td>
+</tr>
+<tr>
+<td>82</td>
+<td>Waverley Street Foundation</td>
+<td>Palo Alto</td>
+<td>$3,050,000</td>
+<td>4</td>
+<td>$1,000,000</td>
+<td>$1,000,000</td>
+</tr>
+<tr>
+<td>83</td>
+<td>The Isabel Allende Foundation</td>
+<td>Sausalito</td>
+<td>$3,006,250</td>
+<td>86</td>
+<td>$15,000</td>
+<td>$320,000</td>
+</tr>
+<tr>
+<td>84</td>
+<td>Jonathan Logan Family Foundation</td>
+<td>Berkeley</td>
+<td>$2,983,000</td>
+<td>13</td>
+<td>$100,000</td>
+<td>$1,300,000</td>
+</tr>
+<tr>
+<td>85</td>
+<td>The Jem Project</td>
+<td>Tiburon</td>
+<td>$2,952,670</td>
+<td>72</td>
+<td>$24,494</td>
+<td>$348,251</td>
+</tr>
+<tr>
+<td>86</td>
+<td>Gitlab Foundation</td>
+<td>San Francisco</td>
+<td>$2,938,307</td>
+<td>13</td>
+<td>$250,000</td>
+<td>$456,000</td>
+</tr>
+<tr>
+<td>87</td>
+<td>Eastern European Jewish Heritage Foundation</td>
+<td>Palo Alto</td>
+<td>$2,866,305</td>
+<td>11</td>
+<td>$125,000</td>
+<td>$822,000</td>
+</tr>
+<tr>
+<td>88</td>
+<td>The Jean &amp; E Floyd Kvamme Foundation</td>
+<td>Scotts Valley</td>
+<td>$2,632,000</td>
+<td>11</td>
+<td>$25,000</td>
+<td>$750,000</td>
+</tr>
+<tr>
+<td>89</td>
+<td>The William G Irwin Charity Foundation</td>
+<td>San Francisco</td>
+<td>$2,612,340</td>
+<td>27</td>
+<td>$75,000</td>
+<td>$226,000</td>
+</tr>
+<tr>
+<td>90</td>
+<td>The Guzik Foundation</td>
+<td>Mountain View</td>
+<td>$2,575,799</td>
+<td>28</td>
+<td>$10,000</td>
+<td>$1,501,116</td>
+</tr>
+<tr>
+<td>91</td>
+<td>Dean and Margaret Lesher Foundation</td>
+<td>Walnut Creek</td>
+<td>$2,564,700</td>
+<td>73</td>
+<td>$25,000</td>
+<td>$230,000</td>
+</tr>
+<tr>
+<td>92</td>
+<td>Rippleworks</td>
+<td>Redwood City</td>
+<td>$2,525,000</td>
+<td>2</td>
+<td>$1,262,500</td>
+<td>$2,500,000</td>
+</tr>
+<tr>
+<td>93</td>
+<td>The Rock Foundation</td>
+<td>San Francisco</td>
+<td>$2,474,850</td>
+<td>27</td>
+<td>$20,000</td>
+<td>$1,009,225</td>
+</tr>
+<tr>
+<td>94</td>
+<td>Capital Impact Foundation</td>
+<td>Palo Alto</td>
+<td>$2,432,294</td>
+<td>27</td>
+<td>$5,000</td>
+<td>$1,124,040</td>
+</tr>
+<tr>
+<td>95</td>
+<td>The Scott Foundation</td>
+<td>Palo Alto</td>
+<td>$2,315,800</td>
+<td>12</td>
+<td>$42,500</td>
+<td>$855,800</td>
+</tr>
+<tr>
+<td>96</td>
+<td>Dhanam Foundation</td>
+<td>Palo Alto</td>
+<td>$2,280,000</td>
+<td>9</td>
+<td>$260,000</td>
+<td>$350,000</td>
+</tr>
+<tr>
+<td>97</td>
+<td>Chandna Foundation</td>
+<td>Menlo Park</td>
+<td>$2,231,000</td>
+<td>10</td>
+<td>$44,500</td>
+<td>$935,000</td>
+</tr>
+<tr>
+<td>98</td>
+<td>The Henry Mayo Newhall Foundation</td>
+<td>San Rafael</td>
+<td>$2,124,400</td>
+<td>76</td>
+<td>$20,000</td>
+<td>$173,000</td>
+</tr>
+<tr>
+<td>99</td>
+<td>The Davidson Family Foundation</td>
+<td>San Jose</td>
+<td>$2,110,000</td>
+<td>21</td>
+<td>$70,000</td>
+<td>$355,000</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Mae Philanthropies</td>
+<td>Palo Alto</td>
+<td>$2,100,000</td>
+<td>2</td>
+<td>$1,050,000</td>
+<td>$1,100,000</td>
+</tr>
+<tr>
+<td>101</td>
+<td>City Fields Foundation</td>
+<td>San Francisco</td>
+<td>$2,100,000</td>
+<td>1</td>
+<td>$2,100,000</td>
+<td>$2,100,000</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Harvey L &amp; Maud C Sorensen Foundation</td>
+<td>San Rafael</td>
+<td>$2,079,179</td>
+<td>6</td>
+<td>$20,000</td>
+<td>$1,014,865</td>
+</tr>
+<tr>
+<td>103</td>
+<td>Bella Vista Foundation</td>
+<td>San Francisco</td>
+<td>$2,053,000</td>
+<td>54</td>
+<td>$37,500</td>
+<td>$70,000</td>
+</tr>
+<tr>
+<td>104</td>
+<td>The Zeng Foundation</td>
+<td>Atherton</td>
+<td>$2,000,000</td>
+<td>1</td>
+<td>$2,000,000</td>
+<td>$2,000,000</td>
+</tr>
+<tr>
+<td>105</td>
+<td>The Joseph and Vera Long Foundation</td>
+<td>Walnut Creek</td>
+<td>$1,991,592</td>
+<td>67</td>
+<td>$25,000</td>
+<td>$100,000</td>
+</tr>
+<tr>
+<td>106</td>
+<td>The Brandenburg Family Foundation</td>
+<td>San Jose</td>
+<td>$1,949,288</td>
+<td>60</td>
+<td>$5,000</td>
+<td>$578,000</td>
+</tr>
+<tr>
+<td>107</td>
+<td>Sand Hill Foundation</td>
+<td>Menlo Park</td>
+<td>$1,941,300</td>
+<td>28</td>
+<td>$50,000</td>
+<td>$200,000</td>
+</tr>
+<tr>
+<td>108</td>
+<td>The John Martin Foundation</td>
+<td>San Francisco</td>
+<td>$1,925,520</td>
+<td>4</td>
+<td>$455,260</td>
+<td>$1,000,000</td>
+</tr>
+<tr>
+<td>109</td>
+<td>Agilent Technologies Foundation</td>
+<td>Santa Clara</td>
+<td>$1,900,570</td>
+<td>10</td>
+<td>$29,000</td>
+<td>$1,515,000</td>
+</tr>
+<tr>
+<td>110</td>
+<td>William Fries II Foundation</td>
+<td>Lafayette</td>
+<td>$1,800,000</td>
+<td>5</td>
+<td>$250,000</td>
+<td>$800,000</td>
+</tr>
+<tr>
+<td>111</td>
+<td>Lillian Lincoln Foundation</td>
+<td>Hillsborough</td>
+<td>$1,799,080</td>
+<td>35</td>
+<td>$25,000</td>
+<td>$522,080</td>
+</tr>
+<tr>
+<td>112</td>
+<td>The Changebox Foundation</td>
+<td>Pleasanton</td>
+<td>$1,745,000</td>
+<td>5</td>
+<td>$25,000</td>
+<td>$1,500,000</td>
+</tr>
+<tr>
+<td>113</td>
+<td>The Eucalyptus Foundation</td>
+<td>San Francisco</td>
+<td>$1,736,300</td>
+<td>9</td>
+<td>$126,300</td>
+<td>$500,000</td>
+</tr>
+<tr>
+<td>114</td>
+<td>The Lindley Foundation</td>
+<td>San Francisco</td>
+<td>$1,666,666</td>
+<td>2</td>
+<td>$833,333</td>
+<td>$833,333</td>
+</tr>
+<tr>
+<td>115</td>
+<td>Intuitive Foundation</td>
+<td>Sunnyvale</td>
+<td>$1,662,411</td>
+<td>34</td>
+<td>$32,500</td>
+<td>$259,511</td>
+</tr>
+<tr>
+<td>116</td>
+<td>The Elizabeth R. and William J. Patterson Foundation</td>
+<td>Ross</td>
+<td>$1,650,001</td>
+<td>6</td>
+<td>$166,667</td>
+<td>$850,000</td>
+</tr>
+<tr>
+<td>117</td>
+<td>Northern California Scholarship Foundation</td>
+<td>Oakland</td>
+<td>$1,616,815</td>
+<td>2</td>
+<td>$808,408</td>
+<td>$809,415</td>
+</tr>
+<tr>
+<td>118</td>
+<td>Ishiyama Foundation</td>
+<td>San Francisco</td>
+<td>$1,615,700</td>
+<td>25</td>
+<td>$20,000</td>
+<td>$300,000</td>
+</tr>
+<tr>
+<td>119</td>
+<td>Room to Breathe Project</td>
+<td>San Francisco</td>
+<td>$1,604,230</td>
+<td>9</td>
+<td>$50,000</td>
+<td>$1,000,000</td>
+</tr>
+<tr>
+<td>120</td>
+<td>Randall A. Wolf Family Foundation</td>
+<td>Fremont</td>
+<td>$1,567,000</td>
+<td>40</td>
+<td>$25,000</td>
+<td>$250,000</td>
+</tr>
+<tr>
+<td>121</td>
+<td>The Richard and Jean Coyne Family Foundation</td>
+<td>Belmont</td>
+<td>$1,565,000</td>
+<td>51</td>
+<td>$25,000</td>
+<td>$60,000</td>
+</tr>
+<tr>
+<td>122</td>
+<td>K5 Foundation</td>
+<td>San Francisco</td>
+<td>$1,520,000</td>
+<td>5</td>
+<td>$175,000</td>
+<td>$1,015,000</td>
+</tr>
+<tr>
+<td>123</td>
+<td>Kung Guerra Foundation</td>
+<td>Los Altos</td>
+<td>$1,510,000</td>
+<td>4</td>
+<td>$300,000</td>
+<td>$660,000</td>
+</tr>
+<tr>
+<td>124</td>
+<td>Sunlight Giving</td>
+<td>Palo Alto</td>
+<td>$1,505,000</td>
+<td>23</td>
+<td>$50,000</td>
+<td>$150,000</td>
+</tr>
+<tr>
+<td>125</td>
+<td>The Morris Stulsaft Foundation</td>
+<td>San Francisco</td>
+<td>$1,490,000</td>
+<td>54</td>
+<td>$25,000</td>
+<td>$50,000</td>
+</tr>
+<tr>
+<td>126</td>
+<td>Omidyar Network Fund</td>
+<td>Redwood City</td>
+<td>$1,466,300</td>
+<td>17</td>
+<td>$75,000</td>
+<td>$190,300</td>
+</tr>
+<tr>
+<td>127</td>
+<td>The Christensen Fund</td>
+<td>San Francisco</td>
+<td>$1,430,000</td>
+<td>12</td>
+<td>$62,500</td>
+<td>$500,000</td>
+</tr>
+<tr>
+<td>128</td>
+<td>Crabill Family Foundation</td>
+<td>San Francisco</td>
+<td>$1,412,000</td>
+<td>19</td>
+<td>$25,000</td>
+<td>$600,000</td>
+</tr>
+<tr>
+<td>129</td>
+<td>Leo M Shortino Family Foundation</td>
+<td>San Jose</td>
+<td>$1,375,000</td>
+<td>34</td>
+<td>$26,000</td>
+<td>$185,000</td>
+</tr>
+<tr>
+<td>130</td>
+<td>The Fat Tire Foundation</td>
+<td>Los Altos</td>
+<td>$1,346,000</td>
+<td>20</td>
+<td>$12,500</td>
+<td>$333,333</td>
+</tr>
+<tr>
+<td>131</td>
+<td>Koshland Foundation</td>
+<td>Menlo Park</td>
+<td>$1,343,333</td>
+<td>8</td>
+<td>$167,500</td>
+<td>$333,333</td>
+</tr>
+<tr>
+<td>132</td>
+<td>Next Gen Personal Finance</td>
+<td>Palo Alto</td>
+<td>$1,298,137</td>
+<td>40</td>
+<td>$500</td>
+<td>$144,166</td>
+</tr>
+<tr>
+<td>133</td>
+<td>Kalmanovitz Charitable Foundation</td>
+<td>Mill Valley</td>
+<td>$1,256,800</td>
+<td>5</td>
+<td>$257,970</td>
+<td>$375,000</td>
+</tr>
+<tr>
+<td>134</td>
+<td>The Anne Wojcicki Foundation</td>
+<td>Los Altos</td>
+<td>$1,250,000</td>
+<td>4</td>
+<td>$250,000</td>
+<td>$500,000</td>
+</tr>
+<tr>
+<td>135</td>
+<td>Bothin Foundation</td>
+<td>San Francisco</td>
+<td>$1,244,300</td>
+<td>37</td>
+<td>$35,000</td>
+<td>$50,000</td>
+</tr>
+<tr>
+<td>136</td>
+<td>The Applied Materials Foundation</td>
+<td>Santa Clara</td>
+<td>$1,227,107</td>
+<td>5</td>
+<td>$193,304</td>
+<td>$541,226</td>
+</tr>
+<tr>
+<td>137</td>
+<td>Danford Foundation</td>
+<td>San Carlos</td>
+<td>$1,205,500</td>
+<td>93</td>
+<td>$7,000</td>
+<td>$100,000</td>
+</tr>
+<tr>
+<td>138</td>
+<td>Greenbridge Family Foundation</td>
+<td>San Francisco</td>
+<td>$1,198,900</td>
+<td>42</td>
+<td>$25,000</td>
+<td>$100,000</td>
+</tr>
+<tr>
+<td>139</td>
+<td>Institute of Mental Chronometry</td>
+<td>Walnut Creek</td>
+<td>$1,192,549</td>
+<td>9</td>
+<td>$113,049</td>
+<td>$173,282</td>
+</tr>
+<tr>
+<td>140</td>
+<td>128 Collective Foundation</td>
+<td>Palo Alto</td>
+<td>$1,191,000</td>
+<td>14</td>
+<td>$90,500</td>
+<td>$200,000</td>
+</tr>
+<tr>
+<td>141</td>
+<td>Girlsmart Literacy Program</td>
+<td>Orinda</td>
+<td>$1,164,425</td>
+<td>8</td>
+<td>$126,000</td>
+<td>$304,425</td>
+</tr>
+<tr>
+<td>142</td>
+<td>Give Forward Foundation</td>
+<td>San Francisco</td>
+<td>$1,151,565</td>
+<td>10</td>
+<td>$114,282</td>
+<td>$215,000</td>
+</tr>
+<tr>
+<td>143</td>
+<td>The Fremont Group Foundation</td>
+<td>San Francisco</td>
+<td>$1,136,884</td>
+<td>48</td>
+<td>$10,000</td>
+<td>$343,280</td>
+</tr>
+<tr>
+<td>144</td>
+<td>Emerald Sky Foundation</td>
+<td>Mill Valley</td>
+<td>$1,124,500</td>
+<td>14</td>
+<td>$10,000</td>
+<td>$1,000,000</td>
+</tr>
+<tr>
+<td>145</td>
+<td>Foundation for Global Sports Development</td>
+<td>San Francisco</td>
+<td>$1,118,000</td>
+<td>56</td>
+<td>$10,000</td>
+<td>$100,000</td>
+</tr>
+<tr>
+<td>146</td>
+<td>UD LD Mellam for Mellam Family Foundation</td>
+<td>Redwood City</td>
+<td>$1,117,500</td>
+<td>2</td>
+<td>$558,750</td>
+<td>$563,500</td>
+</tr>
+<tr>
+<td>147</td>
+<td>Bernard E. and Alba Witkin Charitable Foundation</td>
+<td>Berkeley</td>
+<td>$1,100,162</td>
+<td>52</td>
+<td>$15,000</td>
+<td>$110,000</td>
+</tr>
+<tr>
+<td>148</td>
+<td>Ronald and Ann Williams Charitable Foundation</td>
+<td>San Francisco</td>
+<td>$1,100,000</td>
+<td>10</td>
+<td>$75,000</td>
+<td>$300,000</td>
+</tr>
+<tr>
+<td>149</td>
+<td>Davidow Family Foundation</td>
+<td>Woodside</td>
+<td>$1,100,000</td>
+<td>3</td>
+<td>$50,000</td>
+<td>$1,000,000</td>
+</tr>
+<tr>
+<td>150</td>
+<td>Buchheit Foundation</td>
+<td>Palo Alto</td>
+<td>$1,071,500</td>
+<td>1</td>
+<td>$1,071,500</td>
+<td>$1,071,500</td>
+</tr>
+</tbody>
+</table>
+<div class="page-break"></div>
+
+<h2 id="about-thegrantscout">About TheGrantScout</h2>
+<p>TheGrantScout analyzes IRS data on 143,000+ foundations to find the funders most likely to say yes to your nonprofit. Each month you get:</p>
+<ul>
+<li>Personalized foundation matches ranked by fit with your mission, geography, and budget</li>
+<li>Contact info, application details, and giving pattern intelligence for each funder</li>
+<li>Positioning strategies based on which similar organizations they have already funded</li>
+</ul>
+<p>Schedule a call to learn more: <a href="mailto:aleck@thegrantscout.com">aleck@thegrantscout.com</a></p>
+<p><a href="https://thegrantscout.com">thegrantscout.com</a> | <em>Your mission deserves funding. We will help you find it.</em></p>
+</body>
+</html>

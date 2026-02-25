@@ -1,0 +1,938 @@
+[
+  {
+    "ein": "201858883",
+    "name": "Trinka Davis Foundation",
+    "base_url": "https://www.trinkadavisfoundation.org",
+    "tier": 3,
+    "crawl_status": "completed",
+    "total_pages_crawled": 26,
+    "total_chars_raw": 0,
+    "chars_for_analysis": 0,
+    "pages_for_analysis": 0,
+    "grant_pages_found": 14,
+    "pdfs_found": [],
+    "pages": [],
+    "top_grants": [
+      {
+        "recipient": "KATHARINE DAVIS FOUNDATION",
+        "state": "AL",
+        "amount": 3547934.0,
+        "purpose": "RECIPIENT OF 100% OF TRINKA DAVIS FOUNDATION'S ASSETS",
+        "year": 2024
+      },
+      {
+        "recipient": "NATIONAL WOMEN VETERANS UNITED",
+        "state": "IL",
+        "amount": 125000.0,
+        "purpose": "ADVOCATE, EDUCATE AND BOND WITH ALL MILITARY WOMEN VETERANS WITH SPECIAL EMPHASIS ON WOMEN WHO ARE DISABLED, HOMELESS, AT RISK OR RETURNING FROM DEPLOYMENT, TO ENSURE THEY ARE CONNECTED TO APPROPRIATE DIRECT SERVICES AND RESOURCES FOR READJUSTMENT AND COPING SKILLS, AS THEY RETURN TO EMPLOYMENT, SCH",
+        "year": 2018
+      },
+      {
+        "recipient": "ABA FUND FOR JUSTICE AND EDUCATION",
+        "state": "IL",
+        "amount": 100000.0,
+        "purpose": "SUPPORT THE AMERICAN BAR ASSOCIATIONS ABA LAW-RELATED AND PUBLIC SERVICES EDUCATION PROGRAMS",
+        "year": 2020
+      },
+      {
+        "recipient": "WOUNDED WARRIOR HOMES INC",
+        "state": "CA",
+        "amount": 100000.0,
+        "purpose": "2023 INSTALLMENT TO SUPPORT THE MISSION TO PROVIDE HOUSING TO VETERANS WITH COMBAT-RELATED DISABILITIES AND SEVERE FINANCIAL CRISES",
+        "year": 2023
+      },
+      {
+        "recipient": "ABA FUND FOR JUSTICE AND EDUCATION",
+        "state": "IL",
+        "amount": 100000.0,
+        "purpose": "SUPPORT THE AMERICAN BAR ASSOCIATIONS ABA LAW-RELATED AND PUBLIC SERVICES EDUCATION PROGRAMS.",
+        "year": 2019
+      },
+      {
+        "recipient": "WOUNDED WARRIOR HOMES INC",
+        "state": "CA",
+        "amount": 100000.0,
+        "purpose": "3RD INSTALLMENT TO SUPPORT THE MISSION TO PROVIDE HOUSING TO VETERANS WITH COMBAT-RELATED DISABILITIES AND SEVERE FINANCIAL CRISES",
+        "year": 2024
+      },
+      {
+        "recipient": "WOUNDED WARRIOR HOMES INC",
+        "state": "CA",
+        "amount": 100000.0,
+        "purpose": "2022 INSTALLMENT TO SUPPORT THE MISSION TO PROVIDE HOUSING TO VETERANS WITH COMBAT-RELATED DISABILITIES AND SEVER FINANCIAL CRISES",
+        "year": 2022
+      },
+      {
+        "recipient": "ABA FUND FOR JUSTICE AND EDUCATION",
+        "state": "IL",
+        "amount": 100000.0,
+        "purpose": "SUPPORT THE AMERICAN BAR ASSOCIATIONS ABA LAW-RELATED AND PUBLIC SERVICES EDUCATION PROGRAMS",
+        "year": 2021
+      },
+      {
+        "recipient": "BIRMINGHAM ZOO",
+        "state": "AL",
+        "amount": 50000.0,
+        "purpose": "INSPIRING PASSION TO CONSERVE THE NATURAL WORLD",
+        "year": 2020
+      },
+      {
+        "recipient": "BIRMINGHAM ZOO",
+        "state": "AL",
+        "amount": 50000.0,
+        "purpose": "INSPIRING PASSION TO CONSERVE THE NATURAL WORLD",
+        "year": 2019
+      },
+      {
+        "recipient": "NATIONAL WOMEN VETERANS UNITED",
+        "state": "IL",
+        "amount": 30000.0,
+        "purpose": "ADVOCATE, EDUCATE AND BOND WITH ALL MILITARY WOMEN VETERANS WITH SPECIAL EMPHASIS ON WOMEN WHO ARE DISABLED, HOMELESS, AT RISK OR RETURNING FROM DEPLOYMENT, TO ENSURE THEY ARE CONNECTED TO APPROPRIATE DIRECT SERVICES AND RESOURCES FOR READJUSTMENT AND COPING SKILLS, AS THEY RETURN TO EMPLOYMENT, SCH",
+        "year": 2019
+      },
+      {
+        "recipient": "NATIONAL WOMEN VETERANS UNITED",
+        "state": "IL",
+        "amount": 30000.0,
+        "purpose": "ADVOCATE, EDUCATE AND BOND WITH ALL MILITARY WOMEN VETERANS WITH SPECIAL EMPHASIS ON WOMEN WHO ARE",
+        "year": 2020
+      },
+      {
+        "recipient": "A SAFE HAVEN",
+        "state": "IL",
+        "amount": 25000.0,
+        "purpose": "PROVIDE HEALTH CARE FOR HOMELESS VETERANS",
+        "year": 2020
+      },
+      {
+        "recipient": "WOMEN VETERANS INTERACTIVE INC",
+        "state": "MD",
+        "amount": 25000.0,
+        "purpose": "ADVOCACY PROGRAM MEETING NEEDS OF WOMEN VETERANS WHILE BREAKING DOWN THE BARRIERS LEADING TO HOMELESSNESS.",
+        "year": 2018
+      },
+      {
+        "recipient": "BIRMINGHAM ZOO",
+        "state": "AL",
+        "amount": 25000.0,
+        "purpose": "INSPIRING PASSION TO CONSERVE THE NATURAL WORLD",
+        "year": 2022
+      },
+      {
+        "recipient": "A SAFE HAVEN",
+        "state": "IL",
+        "amount": 25000.0,
+        "purpose": "PROVIDE HEALTH CARE FOR HOMELESS VETERANS",
+        "year": 2018
+      },
+      {
+        "recipient": "NATIONAL WOMEN VETERANS UNITED",
+        "state": "IL",
+        "amount": 25000.0,
+        "purpose": "ADVOCATE, EDUCATE AND BOND WITH ALL MILITARY WOMEN VETERANS WITH SPECIAL EMPHASIS ON WOMEN WHO ARE (INSTALLMENT 1 OF 4)",
+        "year": 2024
+      },
+      {
+        "recipient": "BIRMINGHAM ZOO",
+        "state": "AL",
+        "amount": 25000.0,
+        "purpose": "GRANT FOR MILITARY & FAMILY ZOO ENTRANCE FEES",
+        "year": 2024
+      },
+      {
+        "recipient": "BIRMINGHAM ZOO",
+        "state": "AL",
+        "amount": 25000.0,
+        "purpose": "INSPIRING PASSION TO CONSERVE THE NATURAL WORLD",
+        "year": 2021
+      },
+      {
+        "recipient": "BIRMINGHAM ZOO",
+        "state": "AL",
+        "amount": 25000.0,
+        "purpose": "GRANT FOR MILITARY & FAMILY ZOO ENTRANCE FEES",
+        "year": 2023
+      }
+    ],
+    "pf_grants": [
+      {
+        "recipient": "KATHARINE DAVIS FOUNDATION",
+        "state": "AL",
+        "amount": 3547934.0,
+        "purpose": "RECIPIENT OF 100% OF TRINKA DAVIS FOUNDATION'S ASSETS",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "ein": "844957804",
+    "name": "Rosendin Foundation",
+    "base_url": "https://www.therosendinfoundation.org",
+    "tier": 3,
+    "crawl_status": "completed",
+    "total_pages_crawled": 27,
+    "total_chars_raw": 55331,
+    "chars_for_analysis": 50000,
+    "pages_for_analysis": 3,
+    "grant_pages_found": 14,
+    "pdfs_found": [],
+    "pages": [
+      {
+        "url": "https://www.therosendinfoundation.org/grants",
+        "final_url": "https://www.therosendinfoundation.org/grants/",
+        "page_type": "grants",
+        "priority": 1,
+        "depth": 1,
+        "text": "Rosendin.com | ModularPowerSolutions.com | Contact Us The Foundation Who We Are Focus Area Events News & Press Contact Us Donate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours. Who We Support Who Supports Us Grants TRF Camp Build Home\nRosendin.com | ModularPowerSolutions.com | Contact Us\nRosendin.com\nModularPowerSolutions.com\nContact Us\nThe Foundation Who We Are Focus Area Events News & Press Contact Us Donate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours. Who We Support Who Supports Us Grants TRF Camp Build Home\n- The Foundation Who We Are Focus Area Events News & Press Contact Us Donate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours.\nThe Foundation\n- Who We Are\nWho We Are\n- Focus Area\nFocus Area\n- Events\nEvents\n- News & Press\nNews & Press\n- Contact Us\nDonate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours.\n## Donate Today!\nThe Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours.\n- Who We Support\nWho We Support\n- Who Supports Us\nWho Supports Us\n- Grants\nGrants\n- TRF Camp Build\nTRF Camp Build\n- Home\nHome\nGrants Grants are awarded in support of the Foundation\u2019s current focus areas (emotional, occupational, and nutritional health) that align with our mission.\n## Grants\nGrants are awarded in support of the Foundation\u2019s current focus areas (emotional, occupational, and nutritional health) that align with our mission.\nThe Rosendin Foundation's 2026 Grant Cycle (for annual and emergency grants) has officially opened! The Rosendin Foundations supports programming nationally and in the following states within 100 miles of Rosendin & MPS' office and project areas: Alabama, Arizona, California, Colorado, District of Columbia, Hawaii, Idaho, Maryland, North Carolina, Nevada, Oregon, Tennessee, Texas, and Virginia.\nThe Rosendin Foundation's 2026 Grant Cycle (for annual and emergency grants) has officially opened!\nThe Rosendin Foundations supports programming nationally and in the following states within 100 miles of Rosendin & MPS' office and project areas: Alabama, Arizona, California, Colorado, District of Columbia, Hawaii, Idaho, Maryland, North Carolina, Nevada, Oregon, Tennessee, Texas, and Virginia.\nAnnual Grants Annual Grant applications for the 2026 funding cycle must be received by Friday, May 29th. All eligible applications\u00a0will be reviewed by a committee. We plan to\u00a0award grants\u00a0in September 2026. Apply Online Emergency Grant Application Emergency grant requests constitute unplanned/unbudgeted expenditures arising due to unforeseen circumstances (i.e. fire, tornado, flooding, pandemic, loss of funding). Apply Online How Grants Are Made The Foundation has one major grant issuance cycle annually (for financial grants larger than $5,000.00). The deadline for this grant cycle is May 29. The Foundation will issue annual grants in Quarter 4 annually. The Foundation also reviews grant applications from qualifying organizations on an as-needed basis for one-time emergency grant requests less than $5,000.00. Non-profit organizations wishing to be considered for funding must first submit a completed Grant Application, along with copies of the organization\u2019s (or their sponsoring organization\u2019s) 501(c)(3) determination letter and list of current board members. Applicants must be in good standing with the IRS as a 501(c)(3) charitable nonprofit and in good standing with their state. The Rosendin Foundation confirms IRS good standing, state good standing, GuideStar/Candid rating, and Charity Navigator rating when evaluating applicants. We recommend that your organization confirm its good standing with each in advance of applying. Our grant making committee reviews all qualified grants and makes recommendations to The Rosendin Foundation Board of Directors. Staff notify grant applicants by email approximately two weeks after the board meeting if their application has been funded, denied, or held for consideration during the next grant cycle. Funding Exceptions In general, The Rosendin Foundation does not provide financial support for: Organizations that discriminate on the basis of race, ethnicity, color, religion, gender, gender identity or expression, sexual orientation, ability/disability, age, status as a veteran, national origin or any other protected class; Political candidates, organizations, committees, or lobbying efforts; Activities, programs and/or capital expenditures affiliated with a religious organization; Scientific research; Projects for an individual school; Grants to subsidize participation (scholarships or loans) or re-granting programs; Reimbursement for purchases or activities that occur prior to grant decisions; For singular grant requests greater than $100,000; Multi-year or ongoing annual funding requests for an organization; To underwrite the costs of fundraising events, such as luncheons, dinners, golf tournaments, bowl-a-thons, charity runs, etc. Programming outside of Rosendin and MPS\u2019 geographic and office locations Organizations not in good standing with the IRS and Secretary of State\u2019s office of the state where the nonprofit provides services and seeks funding. Important Grant Application Info 1) Verification of Tax-Exempt Status. Applicants must be able to verify their 501(c)(3) status by submitting a copy of their tax determination letter from the Internal Revenue Service. There are no exceptions to this policy, and no other types of tax-exempt organizations will be considered. 2) Verification of Current Address. The address on the tax exemption letter must match the current address of the organization. If it does not, the organization must submit a copy of the first sheet of its most recent Form 990 filing showing the current address of the organization. If the organization is not required to file a Form 990, it may alternatively submit to the Foundation a letter, signed by the Executive Director or other official with authority to bind the organization, explaining the change of address (when, where, etc.) and affirmatively stating that, but for the change in address, the organization is the same organization that has been designated by the IRS as a 501(c)(3) organization, that there has been no change in that status since the issuance of the IRS letter and that, to the best of the writer\u2019s knowledge, there are no circumstances that would warrant a change in that status. 3) Recognition as an Affiliate of another Organization. If the organization applying for a grant is an affiliate of a parent organization that holds 501(c)(3) tax-exempt status, the applicant must submit a copy of the parent organization\u2019s tax-exemption letter along with a letter from the parent organization, on the parent organization\u2019s letterhead, recognizing the affiliate and confirming the affiliate\u2019s current address.\nAnnual Grants Annual Grant applications for the 2026 funding cycle must be received by Friday, May 29th. All eligible applications\u00a0will be reviewed by a committee. We plan to\u00a0award grants\u00a0in September 2026. Apply Online Emergency Grant Application Emergency grant requests constitute unplanned/unbudgeted expenditures arising due to unforeseen circumstances (i.e. fire, tornado, flooding, pandemic, loss of funding). Apply Online\nAnnual Grants Annual Grant applications for the 2026 funding cycle must be received by Friday, May 29th. All eligible applications\u00a0will be reviewed by a committee. We plan to\u00a0award grants\u00a0in September 2026. Apply Online\n## Annual Grants\nAnnual Grant applications for the 2026 funding cycle must be received by Friday, May 29th. All eligible applications\u00a0will be reviewed by a committee. We plan to\u00a0award grants\u00a0in September 2026.\nApply Online\nEmergency Grant Application Emergency grant requests constitute unplanned/unbudgeted expenditures arising due to unforeseen circumstances (i.e. fire, tornado, flooding, pandemic, loss of funding). Apply Online\n## Emergency Grant Application\nEmergency grant requests constitute unplanned/unbudgeted expenditures arising due to unforeseen circumstances (i.e. fire, tornado, flooding, pandemic, loss of funding).\nHow Grants Are Made The Foundation has one major grant issuance cycle annually (for financial grants larger than $5,000.00). The deadline for this grant cycle is May 29. The Foundation will issue annual grants in Quarter 4 annually. The Foundation also reviews grant applications from qualifying organizations on an as-needed basis for one-time emergency grant requests less than $5,000.00. Non-profit organizations wishing to be considered for funding must first submit a completed Grant Application, along with copies of the organization\u2019s (or their sponsoring organization\u2019s) 501(c)(3) determination letter and list of current board members. Applicants must be in good standing with the IRS as a 501(c)(3) charitable nonprofit and in good standing with their state. The Rosendin Foundation confirms IRS good standing, state good standing, GuideStar/Candid rating, and Charity Navigator rating when evaluating applicants. We recommend that your organization confirm its good standing with each in advance of applying. Our grant making committee reviews all qualified grants and makes recommendations to The Rosendin Foundation Board of Directors. Staff notify grant applicants by email approximately two weeks after the board meeting if their application has been funded, denied, or held for consideration during the next grant cycle. Funding Exceptions In general, The Rosendin Foundation does not provide financial support for: Organizations that discriminate on the basis of race, ethnicity, color, religion, gender, gender identity or expression, sexual orientation, ability/disability, age, status as a veteran, national origin or any other protected class; Political candidates, organizations, committees, or lobbying efforts; Activities, programs and/or capital expenditures affiliated with a religious organization; Scientific research; Projects for an individual school; Grants to subsidize participation (scholarships or loans) or re-granting programs; Reimbursement for purchases or activities that occur prior to grant decisions; For singular grant requests greater than $100,000; Multi-year or ongoing annual funding requests for an organization; To underwrite the costs of fundraising events, such as luncheons, dinners, golf tournaments, bowl-a-thons, charity runs, etc. Programming outside of Rosendin and MPS\u2019 geographic and office locations Organizations not in good standing with the IRS and Secretary of State\u2019s office of the state where the nonprofit provides services and seeks funding. Important Grant Application Info 1) Verification of Tax-Exempt Status. Applicants must be able to verify their 501(c)(3) status by submitting a copy of their tax determination letter from the Internal Revenue Service. There are no exceptions to this policy, and no other types of tax-exempt organizations will be considered. 2) Verification of Current Address. The address on the tax exemption letter must match the current address of the organization. If it does not, the organization must submit a copy of the first sheet of its most recent Form 990 filing showing the current address of the organization. If the organization is not required to file a Form 990, it may alternatively submit to the Foundation a letter, signed by the Executive Director or other official with authority to bind the organization, explaining the change of address (when, where, etc.) and affirmatively stating that, but for the change in address, the organization is the same organization that has been designated by the IRS as a 501(c)(3) organization, that there has been no change in that status since the issuance of the IRS letter and that, to the best of the writer\u2019s knowledge, there are no circumstances that would warrant a change in that status. 3) Recognition as an Affiliate of another Organization. If the organization applying for a grant is an affiliate of a parent organization that holds 501(c)(3) tax-exempt status, the applicant must submit a copy of the parent organization\u2019s tax-exemption letter along with a letter from the parent organization, on the parent organization\u2019s letterhead, recognizing the affiliate and confirming the affiliate\u2019s current address.\nHow Grants Are Made The Foundation has one major grant issuance cycle annually (for financial grants larger than $5,000.00). The deadline for this grant cycle is May 29. The Foundation will issue annual grants in Quarter 4 annually. The Foundation also reviews grant applications from qualifying organizations on an as-needed basis for one-time emergency grant requests less than $5,000.00. Non-profit organizations wishing to be considered for funding must first submit a completed Grant Application, along with copies of the organization\u2019s (or their sponsoring organization\u2019s) 501(c)(3) determination letter and list of current board members. Applicants must be in good standing with the IRS as a 501(c)(3) charitable nonprofit and in good standing with their state. The Rosendin Foundation confirms IRS good standing, state good standing, GuideStar/Candid rating, and Charity Navigator rating when evaluating applicants. We recommend that your organization confirm its good standing with each in advance of applying. Our grant making committee reviews all qualified grants and makes recommendations to The Rosendin Foundation Board of Directors. Staff notify grant applicants by email approximately two weeks after the board meeting if their application has been funded, denied, or held for consideration during the next grant cycle.\nHow Grants Are Made\n## How Grants Are Made\nThe Foundation has one major grant issuance cycle annually (for financial grants larger than $5,000.00). The deadline for this grant cycle is May 29. The Foundation will issue annual grants in Quarter 4 annually. The Foundation also reviews grant applications from qualifying organizations on an as-needed basis for one-time emergency grant requests less than $5,000.00. Non-profit organizations wishing to be considered for funding must first submit a completed Grant Application, along with copies of the organization\u2019s (or their sponsoring organization\u2019s) 501(c)(3) determination letter and list of current board members. Applicants must be in good standing with the IRS as a 501(c)(3) charitable nonprofit and in good standing with their state. The Rosendin Foundation confirms IRS good standing, state good standing, GuideStar/Candid rating, and Charity Navigator rating when evaluating applicants. We recommend that your organization confirm its good standing with each in advance of applying. Our grant making committee reviews all qualified grants and makes recommendations to The Rosendin Foundation Board of Directors. Staff notify grant applicants by email approximately two weeks after the board meeting if their application has been funded, denied, or held for consideration during the next grant cycle.\nThe Foundation has one major grant issuance cycle annually (for financial grants larger than $5,000.00). The deadline for this grant cycle is May 29. The Foundation will issue annual grants in Quarter 4 annually.\nThe Foundation also reviews grant applications from qualifying organizations on an as-needed basis for one-time emergency grant requests less than $5,000.00.\nNon-profit organizations wishing to be considered for funding must first submit a completed Grant Application, along with copies of the organization\u2019s (or their sponsoring organization\u2019s) 501(c)(3) determination letter and list of current board members. Applicants must be in good standing with the IRS as a 501(c)(3) charitable nonprofit and in good standing with their state.\nThe Rosendin Foundation confirms IRS good standing, state good standing, GuideStar/Candid rating, and Charity Navigator rating when evaluating applicants. We recommend that your organization confirm its good standing with each in advance of applying.\nOur grant making committee reviews all qualified grants and makes recommendations to The Rosendin Foundation Board of Directors. Staff notify grant applicants by email approximately two weeks after the board meeting if their application has been funded, denied, or held for consideration during the next grant cycle.\nFunding Exceptions In general, The Rosendin Foundation does not provide financial support for: Organizations that discriminate on the basis of race, ethnicity, color, religion, gender, gender identity or expression, sexual orientation, ability/disability, age, status as a veteran, national origin or any other protected class; Political candidates, organizations, committees, or lobbying efforts; Activities, programs and/or capital expenditures affiliated with a religious organization; Scientific research; Projects for an individual school; Grants to subsidize participation (scholarships or loans) or re-granting programs; Reimbursement for purchases or activities that occur prior to grant decisions; For singular grant requests greater than $100,000; Multi-year or ongoing annual funding requests for an organization; To underwrite the costs of fundraising events, such as luncheons, dinners, golf tournaments, bowl-a-thons, charity runs, etc. Programming outside of Rosendin and MPS\u2019 geographic and office locations Organizations not in good standing with the IRS and Secretary of State\u2019s office of the state where the nonprofit provides services and seeks funding.\nFunding Exceptions\n## Funding Exceptions\nIn general, The Rosendin Foundation does not provide financial support for: Organizations that discriminate on the basis of race, ethnicity, color, religion, gender, gender identity or expression, sexual orientation, ability/disability, age, status as a veteran, national origin or any other protected class; Political candidates, organizations, committees, or lobbying efforts; Activities, programs and/or capital expenditures affiliated with a religious organization; Scientific research; Projects for an individual school; Grants to subsidize participation (scholarships or loans) or re-granting programs; Reimbursement for purchases or activities that occur prior to grant decisions; For singular grant requests greater than $100,000; Multi-year or ongoing annual funding requests for an organization; To underwrite the costs of fundraising events, such as luncheons, dinners, golf tournaments, bowl-a-thons, charity runs, etc. Programming outside of Rosendin and MPS\u2019 geographic and office locations Organizations not in good standing with the IRS and Secretary of State\u2019s office of the state where the nonprofit provides services and seeks funding.\nIn general, The Rosendin Foundation does not provide financial support for:\n- Organizations that discriminate on the basis of race, ethnicity, color, religion, gender, gender identity or expression, sexual orientation, ability/disability, age, status as a veteran, national origin or any other protected class;\n- Political candidates, organizations, committees, or lobbying efforts;\n- Activities, programs and/or capital expenditures affiliated with a religious organization;\n- Scientific research;\n- Projects for an individual school;\n- Grants to subsidize participation (scholarships or loans) or re-granting programs;\n- Reimbursement for purchases or activities that occur prior to grant decisions;\n- For singular grant requests greater than $100,000;\n- Multi-year or ongoing annual funding requests for an organization;\n- To underwrite the costs of fundraising events, such as luncheons, dinners, golf tournaments, bowl-a-thons, charity runs, etc.\n- Programming outside of Rosendin and MPS\u2019 geographic and office locations\n- Organizations not in good standing with the IRS and Secretary of State\u2019s office of the state where the nonprofit provides services and seeks funding.\nImportant Grant Application Info 1) Verification of Tax-Exempt Status. Applicants must be able to verify their 501(c)(3) status by submitting a copy of their tax determination letter from the Internal Revenue Service. There are no exceptions to this policy, and no other types of tax-exempt organizations will be considered. 2) Verification of Current Address. The address on the tax exemption letter must match the current address of the organization. If it does not, the organization must submit a copy of the first sheet of its most recent Form 990 filing showing the current address of the organization. If the organization is not required to file a Form 990, it may alternatively submit to the Foundation a letter, signed by the Executive Director or other official with authority to bind the organization, explaining the change of address (when, where, etc.) and affirmatively stating that, but for the change in address, the organization is the same organization that has been designated by the IRS as a 501(c)(3) organization, that there has been no change in that status since the issuance of the IRS letter and that, to the best of the writer\u2019s knowledge, there are no circumstances that would warrant a change in that status. 3) Recognition as an Affiliate of another Organization. If the organization applying for a grant is an affiliate of a parent organization that holds 501(c)(3) tax-exempt status, the applicant must submit a copy of the parent organization\u2019s tax-exemption letter along with a letter from the parent organization, on the parent organization\u2019s letterhead, recognizing the affiliate and confirming the affiliate\u2019s current address.\nImportant Grant Application Info\n## Important Grant Application Info\n1) Verification of Tax-Exempt Status. Applicants must be able to verify their 501(c)(3) status by submitting a copy of their tax determination letter from the Internal Revenue Service. There are no exceptions to this policy, and no other types of tax-exempt organizations will be considered. 2) Verification of Current Address. The address on the tax exemption letter must match the current address of the organization. If it does not, the organization must submit a copy of the first sheet of its most recent Form 990 filing showing the current address of the organization. If the organization is not required to file a Form 990, it may alternatively submit to the Foundation a letter, signed by the Executive Director or other official with authority to bind the organization, explaining the change of address (when, where, etc.) and affirmatively stating that, but for the change in address, the organization is the same organization that has been designated by the IRS as a 501(c)(3) organization, that there has been no change in that status since the issuance of the IRS letter and that, to the best of the writer\u2019s knowledge, there are no circumstances that would warrant a change in that status. 3) Recognition as an Affiliate of another Organization. If the organization applying for a grant is an affiliate of a parent organization that holds 501(c)(3) tax-exempt status, the applicant must submit a copy of the parent organization\u2019s tax-exemption letter along with a letter from the parent organization, on the parent organization\u2019s letterhead, recognizing the affiliate and confirming the affiliate\u2019s current address.\n1) Verification of Tax-Exempt Status. Applicants must be able to verify their 501(c)(3) status by submitting a copy of their tax determination letter from the Internal Revenue Service. There are no exceptions to this policy, and no other types of tax-exempt organizations will be considered.\n2) Verification of Current Address. The address on the tax exemption letter must match the current address of the organization. If it does not, the organization must submit a copy of the first sheet of its most recent Form 990 filing showing the current address of the organization. If the organization is not required to file a Form 990, it may alternatively submit to the Foundation a letter, signed by the Executive Director or other official with authority to bind the organization, explaining the change of address (when, where, etc.) and affirmatively stating that, but for the change in address, the organization is the same organization that has been designated by the IRS as a 501(c)(3) organization, that there has been no change in that status since the issuance of the IRS letter and that, to the best of the writer\u2019s knowledge, there are no circumstances that would warrant a change in that status.\n3) Recognition as an Affiliate of another Organization. If the organization applying for a grant is an affiliate of a parent organization that holds 501(c)(3) tax-exempt status, the applicant must submit a copy of the parent organization\u2019s tax-exemption letter along with a letter from the parent organization, on the parent organization\u2019s letterhead, recognizing the affiliate and confirming the affiliate\u2019s current address.\n\"Clackamas Women's Services is grateful to the Rosendin Foundation for their support. At no other time in our history have our resources for survivors of domestic and sexual violence been more necessary; thanks to support like this we are able to expand the availability of our programming to meet the needs of our community.\" Brenda Kinoshita, Director of Development and Communications Clackamas Women's Services\n\"Clackamas Women's Services is grateful to the Rosendin Foundation for their support. At no other time in our history have our resources for survivors of domestic and sexual violence been more necessary; thanks to support like this we are able to expand the availability of our programming to meet the needs of our community.\"\nBrenda Kinoshita, Director of Development and Communications Clackamas Women's Services\nBrenda Kinoshita, Director of Development and Communications\nClackamas Women's Services\n@mentions of The Rosendin Foundation Connect with us\n@mentions of The Rosendin Foundation\nConnect with us\nWho We Are Focus Area Who We Support Who Supports Us Events TRF Camp Build Grants News & Press Contact Us Donate Today Newsletter Signup Sign up to receive the latest news and updates from The Rosendin Foundation. Signup Now \u00a9 2026 The Rosendin Foundation (A 501c3 Charitable Organization). All Rights Reserved. Site By\nWho We Are Focus Area Who We Support Who Supports Us Events TRF Camp Build Grants News & Press Contact Us Donate Today Newsletter Signup Sign up to receive the latest news and updates from The Rosendin Foundation. Signup Now\nWho We Are Focus Area Who We Support Who Supports Us Events TRF Camp Build\nGrants News & Press Contact Us Donate Today\n- Donate Today\nNewsletter Signup Sign up to receive the latest news and updates from The Rosendin Foundation. Signup Now\n## Newsletter Signup\nNewsletter Signup\nSign up to receive the latest news and updates from The Rosendin Foundation.\nSignup Now\n\u00a9 2026 The Rosendin Foundation (A 501c3 Charitable Organization). All Rights Reserved. Site By\n\u00a9 2026 The Rosendin Foundation (A 501c3 Charitable Organization). All Rights Reserved.\n\u00a9 2026 The Rosendin Foundation\n(A 501c3 Charitable Organization).\nAll Rights Reserved.\nSite By\nDonate Today!\nOur Website uses cookies. Cookies are small text files held on your computer that help us understand how you use our Website. Our cookies do not store any personal information about you, and you can delete and block cookies via your browser settings at any time. By clicking \u201cOk\u201d you agree to accept our use of cookies. Ok\nOur Website uses cookies. Cookies are small text files held on your computer that help us understand how you use our Website. Our cookies do not store any personal information about you, and you can delete and block cookies via your browser settings at any time. By clicking \u201cOk\u201d you agree to accept our use of cookies.",
+        "title": "Grants - The Rosendin Foundation",
+        "anchor_text": "direct:/grants",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 28095,
+        "fetch_method": "aiohttp"
+      },
+      {
+        "url": "https://www.therosendinfoundation.org",
+        "final_url": "https://www.therosendinfoundation.org",
+        "page_type": "homepage",
+        "priority": 0,
+        "depth": 0,
+        "text": "Rosendin.com | ModularPowerSolutions.com | Contact Us The Foundation Who We Are Focus Area Events News & Press Contact Us Donate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours. Who We Support Who Supports Us Grants TRF Camp Build Home\nRosendin.com | ModularPowerSolutions.com | Contact Us\nRosendin.com\nModularPowerSolutions.com\nContact Us\nThe Foundation Who We Are Focus Area Events News & Press Contact Us Donate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours. Who We Support Who Supports Us Grants TRF Camp Build Home\n- The Foundation Who We Are Focus Area Events News & Press Contact Us Donate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours.\nThe Foundation\n- Who We Are\nWho We Are\n- Focus Area\nFocus Area\n- Events\nEvents\n- News & Press\nNews & Press\n- Contact Us\nDonate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours.\n## Donate Today!\nThe Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours.\n- Who We Support\nWho We Support\n- Who Supports Us\nWho Supports Us\n- Grants\nGrants\n- TRF Camp Build\nTRF Camp Build\n- Home\nHome\nIMPACT. EMPOWER. INSPIRE. The Rosendin Foundation was established to positively impact communities, build and empower people, and inspire innovation. Learn More\n## IMPACT. EMPOWER. INSPIRE.\nIMPACT. EMPOWER. INSPIRE.\nThe Rosendin Foundation was established to positively impact communities, build and empower people, and inspire innovation.\nLearn More\nOrganizations Supported by The Rosendin Foundation Who We Support\nOrganizations Supported by The Rosendin Foundation\nRecent Foundation News Press Release January 12, 2026 The Rosendin Foundation Doubles Grant Awards to $100,000 Read More Announcement January 8, 2026 TRF Earns Platinum Seal of Transparency Read More Monthly Update January 1, 2026 Happy New Year from The Rosendin Foundation! Read More View All News\n## Recent Foundation News\nPress Release January 12, 2026 The Rosendin Foundation Doubles Grant Awards to $100,000 Read More Announcement January 8, 2026 TRF Earns Platinum Seal of Transparency Read More Monthly Update January 1, 2026 Happy New Year from The Rosendin Foundation! Read More\nPress Release January 12, 2026 The Rosendin Foundation Doubles Grant Awards to $100,000 Read More\nPress Release January 12, 2026 The Rosendin Foundation Doubles Grant Awards to $100,000\nPress Release\nJanuary 12, 2026 The Rosendin Foundation Doubles Grant Awards to $100,000\nJanuary 12, 2026\n## The Rosendin Foundation Doubles Grant Awards to $100,000\nRead More\nAnnouncement January 8, 2026 TRF Earns Platinum Seal of Transparency Read More\nAnnouncement January 8, 2026 TRF Earns Platinum Seal of Transparency\nAnnouncement\nJanuary 8, 2026 TRF Earns Platinum Seal of Transparency\nJanuary 8, 2026\n## TRF Earns Platinum Seal of Transparency\nMonthly Update January 1, 2026 Happy New Year from The Rosendin Foundation! Read More\nMonthly Update January 1, 2026 Happy New Year from The Rosendin Foundation!\nMonthly Update\nJanuary 1, 2026 Happy New Year from The Rosendin Foundation!\nJanuary 1, 2026\n## Happy New Year from The Rosendin Foundation!\nView All News\nFocus Area We partner with community-focused non-profit organizations to support health including emotional, nutritional, and occupational programs. Our Focus Grants We have one annual financial grant cycle up to $50,000 and we review grant applications from qualifying organizations on an as-needed basis for one-time emergency grant requests up to $5,000. Apply Online\nFocus Area We partner with community-focused non-profit organizations to support health including emotional, nutritional, and occupational programs. Our Focus\n## Focus Area\nWe partner with community-focused non-profit organizations to support health including emotional, nutritional, and occupational programs.\nOur Focus\nGrants We have one annual financial grant cycle up to $50,000 and we review grant applications from qualifying organizations on an as-needed basis for one-time emergency grant requests up to $5,000. Apply Online\n## Grants\nWe have one annual financial grant cycle up to $50,000 and we review grant applications from qualifying organizations on an as-needed basis for one-time emergency grant requests up to $5,000.\nApply Online\n\"The mission of addressing food insecurity and workforce development in black and brown communities has been, and is, of the utmost urgency. The Emergency Grant from The Rosendin Foundation will help us achieve our mission sooner rather than later.\" Jason Hernandez, Founder and Executive Director ATLAST: Aspiring Texas Latinos Achieving Success Together\n\"The mission of addressing food insecurity and workforce development in black and brown communities has been, and is, of the utmost urgency. The Emergency Grant from The Rosendin Foundation will help us achieve our mission sooner rather than later.\"\nJason Hernandez, Founder and Executive Director ATLAST: Aspiring Texas Latinos Achieving Success Together\nJason Hernandez, Founder and Executive Director\nATLAST: Aspiring Texas Latinos Achieving Success Together\n@mentions of The Rosendin Foundation Connect with us\n@mentions of The Rosendin Foundation\nConnect with us\nWho We Are Focus Area Who We Support Who Supports Us Events TRF Camp Build Grants News & Press Contact Us Donate Today Newsletter Signup Sign up to receive the latest news and updates from The Rosendin Foundation. Signup Now \u00a9 2026 The Rosendin Foundation (A 501c3 Charitable Organization). All Rights Reserved. Site By\nWho We Are Focus Area Who We Support Who Supports Us Events TRF Camp Build Grants News & Press Contact Us Donate Today Newsletter Signup Sign up to receive the latest news and updates from The Rosendin Foundation. Signup Now\nWho We Are Focus Area Who We Support Who Supports Us Events TRF Camp Build\nGrants News & Press Contact Us Donate Today\n- Donate Today\nNewsletter Signup Sign up to receive the latest news and updates from The Rosendin Foundation. Signup Now\n## Newsletter Signup\nNewsletter Signup\nSign up to receive the latest news and updates from The Rosendin Foundation.\nSignup Now\n\u00a9 2026 The Rosendin Foundation (A 501c3 Charitable Organization). All Rights Reserved. Site By\n\u00a9 2026 The Rosendin Foundation (A 501c3 Charitable Organization). All Rights Reserved.\n\u00a9 2026 The Rosendin Foundation\n(A 501c3 Charitable Organization).\nAll Rights Reserved.\nSite By\nDonate Today!\nOur Website uses cookies. Cookies are small text files held on your computer that help us understand how you use our Website. Our cookies do not store any personal information about you, and you can delete and block cookies via your browser settings at any time. By clicking \u201cOk\u201d you agree to accept our use of cookies. Ok\nOur Website uses cookies. Cookies are small text files held on your computer that help us understand how you use our Website. Our cookies do not store any personal information about you, and you can delete and block cookies via your browser settings at any time. By clicking \u201cOk\u201d you agree to accept our use of cookies.",
+        "title": "The Rosendin Foundation | Impact. Empower. Inspire.",
+        "anchor_text": "homepage",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 7397,
+        "fetch_method": "aiohttp"
+      },
+      {
+        "url": "https://www.therosendinfoundation.org/focus-area",
+        "final_url": "https://www.therosendinfoundation.org/focus-area/",
+        "page_type": "programs",
+        "priority": 2,
+        "depth": 1,
+        "text": "Rosendin.com | ModularPowerSolutions.com | Contact Us The Foundation Who We Are Focus Area Events News & Press Contact Us Donate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours. Who We Support Who Supports Us Grants TRF Camp Build Home\nRosendin.com | ModularPowerSolutions.com | Contact Us\nRosendin.com\nModularPowerSolutions.com\nContact Us\nThe Foundation Who We Are Focus Area Events News & Press Contact Us Donate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours. Who We Support Who Supports Us Grants TRF Camp Build Home\n- The Foundation Who We Are Focus Area Events News & Press Contact Us Donate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours.\nThe Foundation\n- Who We Are\nWho We Are\n- Focus Area\nFocus Area\n- Events\nEvents\n- News & Press\nNews & Press\n- Contact Us\nDonate Today! The Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours.\n## Donate Today!\nThe Rosendin Foundation, a 501(c)(3) non-profit incorporated to positively impact communities through financial grants and volunteer hours.\n- Who We Support\nWho We Support\n- Who Supports Us\nWho Supports Us\n- Grants\nGrants\n- TRF Camp Build\nTRF Camp Build\n- Home\nHome\nFocus Area Our community voted and The Rosendin Foundation is continuing to focus our efforts on supporting our community's health: emotional, nutritional, and occupational programs through 2026. This means all financial grants will be used to support healthy communities. In This Section Who We Are Focus Area Events News & Press Contact Us\nFocus Area Our community voted and The Rosendin Foundation is continuing to focus our efforts on supporting our community's health: emotional, nutritional, and occupational programs through 2026. This means all financial grants will be used to support healthy communities.\n## Focus Area\nOur community voted and The Rosendin Foundation is continuing to focus our efforts on supporting our community's health: emotional, nutritional, and occupational programs through 2026. This means all financial grants will be used to support healthy communities.\nIn This Section\nWho We Are Focus Area Events News & Press Contact Us\nEmotional Health Emotional health ensures that individuals have control over their thoughts, feelings, and behaviors. Industries such as construction, place additional pressures on workers and their families as they are essential workers. The Rosendin Foundation understands that instilling a sense of connectedness helps people, especially in the construction industry, achieve positive emotional health. As workers and families face unprecedented levels of unemployment, concerns about respiratory health, exposure to COVID-19, and coping with managing it all at once with limited outside assistance, emotional health and well-being are critical for surviving the next few years. Nutritional Health Before the COVID pandemic, 1 in 6 Americans went hungry. In 2021, Feeding America projected 42 million people (1 in 8) including 13 million children (1 in 6), may experience food insecurity. Globally, the United National (UN) World Food Programme\u2019s live Hunger Map predicts 957 million people across 93 countries who do not have enough to eat. Food scarcity, high unemployment, and other factors are depleting our food banks. Our local communities need additional assistance to overcome the food insecurity crisis, and that is where The Rosendin Foundation can provide some support. Occupational Health Occupational health is dedicated to the well-being and safety of employees in the workplace, with a strong focus on injury prevention and employee education. The Rosendin Foundation seeks to ensure that the construction industry continues to work toward improved health with a commitment to injury prevention and employee education while prioritizing safety.\nEmotional Health Emotional health ensures that individuals have control over their thoughts, feelings, and behaviors. Industries such as construction, place additional pressures on workers and their families as they are essential workers. The Rosendin Foundation understands that instilling a sense of connectedness helps people, especially in the construction industry, achieve positive emotional health. As workers and families face unprecedented levels of unemployment, concerns about respiratory health, exposure to COVID-19, and coping with managing it all at once with limited outside assistance, emotional health and well-being are critical for surviving the next few years.\n## Emotional Health\nEmotional health ensures that individuals have control over their thoughts, feelings, and behaviors. Industries such as construction, place additional pressures on workers and their families as they are essential workers. The Rosendin Foundation understands that instilling a sense of connectedness helps people, especially in the construction industry, achieve positive emotional health. As workers and families face unprecedented levels of unemployment, concerns about respiratory health, exposure to COVID-19, and coping with managing it all at once with limited outside assistance, emotional health and well-being are critical for surviving the next few years.\nNutritional Health Before the COVID pandemic, 1 in 6 Americans went hungry. In 2021, Feeding America projected 42 million people (1 in 8) including 13 million children (1 in 6), may experience food insecurity. Globally, the United National (UN) World Food Programme\u2019s live Hunger Map predicts 957 million people across 93 countries who do not have enough to eat. Food scarcity, high unemployment, and other factors are depleting our food banks. Our local communities need additional assistance to overcome the food insecurity crisis, and that is where The Rosendin Foundation can provide some support.\n## Nutritional Health\nBefore the COVID pandemic, 1 in 6 Americans went hungry. In 2021, Feeding America projected 42 million people (1 in 8) including 13 million children (1 in 6), may experience food insecurity. Globally, the United National (UN) World Food Programme\u2019s live Hunger Map predicts 957 million people across 93 countries who do not have enough to eat. Food scarcity, high unemployment, and other factors are depleting our food banks. Our local communities need additional assistance to overcome the food insecurity crisis, and that is where The Rosendin Foundation can provide some support.\nOccupational Health Occupational health is dedicated to the well-being and safety of employees in the workplace, with a strong focus on injury prevention and employee education. The Rosendin Foundation seeks to ensure that the construction industry continues to work toward improved health with a commitment to injury prevention and employee education while prioritizing safety.\n## Occupational Health\nOccupational health is dedicated to the well-being and safety of employees in the workplace, with a strong focus on injury prevention and employee education. The Rosendin Foundation seeks to ensure that the construction industry continues to work toward improved health with a commitment to injury prevention and employee education while prioritizing safety.\nWho We Support Impact. Empower. Inspire. Discovery Children's Museum Clackamas Women's Services The Junior League of Austin\nWho We Support Impact. Empower. Inspire.\n## Who We Support\n## Impact. Empower. Inspire.\nDiscovery Children's Museum Clackamas Women's Services The Junior League of Austin\nDiscovery Children's Museum\n## Discovery Children's Museum\nClackamas Women's Services\n## Clackamas Women's Services\nThe Junior League of Austin\n## The Junior League of Austin\n\u201cThe gift from The Rosendin Foundation supported DISCOVERY Children\u2019s Study Hall pandemic response program, which provided free supervised distance learning to 50 students from Title I schools near the Museum for the full 2020-2021 school year. Study Hall students also participated in extracurricular after-school activities at the Museum and through partnerships with UNLV Tech Trekkers, Las Vegas Philharmonic Music Van and Las Vegas-Clark County Library District.\u201d Melissa Kaiser, Chief Executive Officer Discovery Children's Museum \"Clackamas Women's Services is grateful to the Rosendin Foundation for their support. At no other time in our history have our resources for survivors of domestic and sexual violence been more necessary; thanks to support like this we are able to expand the availability of our programming to meet the needs of our community.\" Brenda Kinoshita, Director of Development and Communications Clackamas Women's Services \"The Junior League of Austin is grateful for the support from The Rosendin Foundation. This funding is essential for the success of our signature program FIT-Food In Tummies. The mission of FIT is to promote nutritional health and maximize student potential by providing meals to students who may otherwise go without access to food during the weekend. By using our $5,000 award to provide these children FIT backpacks full of food to get them through the weekend, we hope to not only keep their bodies nourished and healthy but their minds as well. We want to make sure students are ready to learn when they walk into school on Monday. Thank you for your support of this important work.\" Pim Mayo, Grants Chair The Junior League of Austin\n\u201cThe gift from The Rosendin Foundation supported DISCOVERY Children\u2019s Study Hall pandemic response program, which provided free supervised distance learning to 50 students from Title I schools near the Museum for the full 2020-2021 school year. Study Hall students also participated in extracurricular after-school activities at the Museum and through partnerships with UNLV Tech Trekkers, Las Vegas Philharmonic Music Van and Las Vegas-Clark County Library District.\u201d Melissa Kaiser, Chief Executive Officer Discovery Children's Museum\n\u201cThe gift from The Rosendin Foundation supported DISCOVERY Children\u2019s Study Hall pandemic response program, which provided free supervised distance learning to 50 students from Title I schools near the Museum for the full 2020-2021 school year. Study Hall students also participated in extracurricular after-school activities at the Museum and through partnerships with UNLV Tech Trekkers, Las Vegas Philharmonic Music Van and Las Vegas-Clark County Library District.\u201d\nMelissa Kaiser, Chief Executive Officer Discovery Children's Museum\nMelissa Kaiser, Chief Executive Officer\n\"Clackamas Women's Services is grateful to the Rosendin Foundation for their support. At no other time in our history have our resources for survivors of domestic and sexual violence been more necessary; thanks to support like this we are able to expand the availability of our programming to meet the needs of our community.\" Brenda Kinoshita, Director of Development and Communications Clackamas Women's Services\n\"Clackamas Women's Services is grateful to the Rosendin Foundation for their support. At no other time in our history have our resources for survivors of domestic and sexual violence been more necessary; thanks to support like this we are able to expand the availability of our programming to meet the needs of our community.\"\nBrenda Kinoshita, Director of Development and Communications Clackamas Women's Services\nBrenda Kinoshita, Director of Development and Communications\n\"The Junior League of Austin is grateful for the support from The Rosendin Foundation. This funding is essential for the success of our signature program FIT-Food In Tummies. The mission of FIT is to promote nutritional health and maximize student potential by providing meals to students who may otherwise go without access to food during the weekend. By using our $5,000 award to provide these children FIT backpacks full of food to get them through the weekend, we hope to not only keep their bodies nourished and healthy but their minds as well. We want to make sure students are ready to learn when they walk into school on Monday. Thank you for your support of this important work.\" Pim Mayo, Grants Chair The Junior League of Austin\n\"The Junior League of Austin is grateful for the support from The Rosendin Foundation. This funding is essential for the success of our signature program FIT-Food In Tummies. The mission of FIT is to promote nutritional health and maximize student potential by providing meals to students who may otherwise go without access to food during the weekend. By using our $5,000 award to provide these children FIT backpacks full of food to get them through the weekend, we hope to not only keep their bodies nourished and healthy but their minds as well. We want to make sure students are ready to learn when they walk into school on Monday. Thank you for your support of this important work.\"\nPim Mayo, Grants Chair The Junior League of Austin\nPim Mayo, Grants Chair\n@mentions of The Rosendin Foundation Connect with us\n@mentions of The Rosendin Foundation\nConnect with us\nWho We Are Focus Area Who We Support Who Supports Us Events TRF Camp Build Grants News & Press Contact Us Donate Today Newsletter Signup Sign up to receive the latest news and updates from The Rosendin Foundation. Signup Now \u00a9 2026 The Rosendin Foundation (A 501c3 Charitable Organization). All Rights Reserved. Site By\nWho We Are Focus Area Who We Support Who Supports Us Events TRF Camp Build Grants News & Press Contact Us Donate Today Newsletter Signup Sign up to receive the latest news and updates from The Rosendin Foundation. Signup Now\nWho We Are Focus Area Who We Support Who Supports Us Events TRF Camp Build\nGrants News & Press Contact Us Donate Today\n- Donate Today\nNewsletter Signup Sign up to receive the latest news and updates from The Rosendin Foundation. Signup Now\n## Newsletter Signup\nNewsletter Signup\nSign up to receive the latest news and updates from The Rosendin Foundation.\nSignup Now\n\u00a9 2026 The Rosendin Foundation (A 501c3 Charitable Organization). All Rights Reserved. Site By\n\u00a9 2026 The Rosendin Foundation (A 501c3 Charitable Organization). All Rights Reserved.\n\u00a9 2026 The Rosendin Foundation\n(A 501c3 Charitable Organization).\nAll Rights Reserved.\nSite By\nDonate Today!\nOur Website uses cookies. Cookies are small text files held on your comp",
+        "title": "Focus Area - The Rosendin Foundation",
+        "anchor_text": "Focus Area",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 14508,
+        "fetch_method": "aiohttp",
+        "truncated": true
+      }
+    ],
+    "top_grants": [
+      {
+        "recipient": "MOBILE HOPE ASSOCIATION",
+        "state": "VA",
+        "amount": 50000.0,
+        "purpose": "TO PROVIDE, THROUGH THEIR MOBILE SERVICES AND LEESBURG FACILITY, ESSENTIAL NEEDS, EMOTIONAL SUPPORT AND REFERRALS FOR AT-RISK, PRECARIOUSLY HOUSE AND HOMELESS YOUTH 24 YEARS OF AGE AND YOUNGER LIVING IN LOUDOUN COUNTY.",
+        "year": 2022
+      },
+      {
+        "recipient": "BOYS & GIRLS CLUBS OF SILICON VALLEY",
+        "state": "CA",
+        "amount": 50000.0,
+        "purpose": "TO INSPIRE AND EMPOWER ALL YOUNG PEOPLE, ESPECIALLY THOSE WHO NEED US MOST, TO REALIZE THEIR FULL POTENTIAL AS PRODUCTIVE, RESPONSIBLE, AND CARING ADULTS.",
+        "year": 2022
+      },
+      {
+        "recipient": "LIFEOLOGY AZ INC",
+        "state": "AZ",
+        "amount": 25000.0,
+        "purpose": "TO EMPOWER SELF-SUFFICIENCY IN YOUTH AND YOUNG ADULTS BETWEEN THE AGES OF 14-29.",
+        "year": 2022
+      },
+      {
+        "recipient": "BACKPACK FRIENDS INC",
+        "state": "TX",
+        "amount": 25000.0,
+        "purpose": "TO ALLEVIATE CHILDHOOD HUNGER IN LOCAL COMMUNITIES THROUGH AWARENESS, STRATEGIC PARTNERSHIPS AND COMMUNITY SERVICE.",
+        "year": 2022
+      },
+      {
+        "recipient": "PROJECT 150",
+        "state": "NV",
+        "amount": 25000.0,
+        "purpose": "TO PROVIDE SUPPORT AND SERVICES TO HOMELESS, DISPLACED, AND DISADVANTAGED HIGH SCHOOL STUDENTS SO THEY CAN REMAIN IN SCHOOL, GRADUATE, AND BUILD BRIGHT FUTURES.",
+        "year": 2022
+      },
+      {
+        "recipient": "WOMEN GIVING BACK",
+        "state": "VA",
+        "amount": 25000.0,
+        "purpose": "TO SUPPORT WOMEN AND CHILDREN IN CRISIS ON A FIRST STEP TO STABILITY BY PROVIDING QUALITY CLOTHING AT NO COST, ASSISTED BY A CARING AND COMMITTED COMMUNITY.",
+        "year": 2023
+      },
+      {
+        "recipient": "GRAYSON COUNTY CHILDREN'S ADVOCACY CENTER",
+        "state": "TX",
+        "amount": 25000.0,
+        "purpose": "TO PROVIDE A MULTI-DISCIPLINARY COLLABORATION OF SERVICES FOR THE PURPOSE OF PREVENTION, INTERVENTION, INVESTIGATION, PROSECUTION AND TREATMENT OF CHILD ABUSE.",
+        "year": 2022
+      },
+      {
+        "recipient": "GALLATIN SHALOM ZONE",
+        "state": "TN",
+        "amount": 25000.0,
+        "purpose": "TO PROVIDE HIGH QUALITY EDUCATION AND CHILDCARE IN A SAFE, RESPECTFUL AND INCLUSIVE ENVIRONMENT THAT BUILDS A FOUNDATION FOR LIFE-LONG LEARNING.",
+        "year": 2022
+      },
+      {
+        "recipient": "CHICANOS POR LA CAUSA INC",
+        "state": "AZ",
+        "amount": 25000.0,
+        "purpose": "TO DRIVE ECONOMIC AND POLITICAL EMPOWERMENT.",
+        "year": 2022
+      },
+      {
+        "recipient": "REBUILDING TOGETHER SOUTHERN NEVADA (RTSNV)",
+        "state": "NV",
+        "amount": 20000.0,
+        "purpose": "TO REPAIR HOMES, REVITALIZE COMMUNITIES, AND REBUILD LIVES.",
+        "year": 2023
+      },
+      {
+        "recipient": "THE TEEN PROJECT INC",
+        "state": "CA",
+        "amount": 20000.0,
+        "purpose": "TO PROVIDE HEALING AND HOPE TO YOUNG WOMEN WHO HAVE SURVIVED HUMAN TRAFFICKING AND HOMELESSNESS, MANY FROM FOSTER CARE, BY INNOVATING PROGRAMS FOCUSED ON DRUG TREATMENT, PSYCHOTHERAPY, LIFE SKILLS, HIGHER EDUCATION AND MENTORING ALL WITH A TRAUMA-INFORMED LENS.",
+        "year": 2022
+      },
+      {
+        "recipient": "CORNERSTONES INC",
+        "state": "VA",
+        "amount": 20000.0,
+        "purpose": "TO PROMOTE SELF-SUFFICIENCY BY PROVIDING SUPPORT AND ADVOCACY FOR THOSE IN NEED OF FOOD, SHELTER, AFFORDABLE HOUSING, QUALITY CHILDCARE, AND OTHER HUMAN SERVICES.",
+        "year": 2023
+      },
+      {
+        "recipient": "ATLAST ASPIRING TEXAS LATINOS ACHIEVING SUCCESS TOGETHER",
+        "state": "TX",
+        "amount": 17500.0,
+        "purpose": "TO INSPIRE AND EMPOWER LATINO HIGH SCHOOL STUDENTS TO BECOME LEADERS IN THEIR SCHOOL AND COMMUNITY WHILE ALSO PREPARING THEM TO SEEK CAREERS WHERE LATINOS ARE UNDERREPRESENTED AND IMPACT THEIR COMMUNITY.",
+        "year": 2023
+      },
+      {
+        "recipient": "HOMEPLATE YOUTH SERVICES",
+        "state": "OR",
+        "amount": 15000.0,
+        "purpose": "TO SUPPORT THE POSITIVE DEVELOPMENT OF YOUNG PEOPLE EXPERIENCING HOMELESSNESS OR HOUSING INSTABILITY THROUGH COMMUNITY BUILDING, EDUCATION, ACCESS TO SERVICES AND RESOURCES, AND YOUTH EMPOWERMENT",
+        "year": 2022
+      },
+      {
+        "recipient": "DOMESTIC VIOLENCE ACTION CENTER",
+        "state": "HI",
+        "amount": 15000.0,
+        "purpose": "TO ADDRESS FAMILY VIOLENCE AND OTHER FORMS OF HARM THROUGH LEADERSHIP AND UNIQUE SERVICES",
+        "year": 2023
+      },
+      {
+        "recipient": "FUTURE FOR KIDS",
+        "state": "AZ",
+        "amount": 15000.0,
+        "purpose": "TO PROVIDE MENTOR-DRIVEN OUT-OF-SCHOOL-TIME PROGRAMS AND CAMPS THAT FOCUS ON ACADEMICS, ATHLETICS, AND ETHICS TO IMPROVE THE LIVES OF YOUTH WHO FACE ADVERSITY.",
+        "year": 2023
+      },
+      {
+        "recipient": "SECOND CHANCES GARAGE INC",
+        "state": "MD",
+        "amount": 15000.0,
+        "purpose": "TO OFFER SECOND CHANCES FOR INDIVIDUALS AND FAMILIES ON THEIR JOURNEY TO INDEPENDENT LIVING BY PROVIDING ASSISTANCE WITH THEIR PERSONAL TRANSPORTATION NEEDS.",
+        "year": 2023
+      },
+      {
+        "recipient": "NATE'S PLACE A WELLNESS AND RECOVER CENTER",
+        "state": "CA",
+        "amount": 15000.0,
+        "purpose": "TO DELIVER TARGETED PROGRAMS, HEALTHY REPLACEMENT ACTIVITIES, AND PEER SUPPORT RECOVERY COACHING TO TEENS AND YOUNG ADULTS (AGES 13-25) TO MAINTAIN SOBRIETY AND MENTAL HEALTH IN A SAFE, HEALTHY MANNER.",
+        "year": 2022
+      },
+      {
+        "recipient": "MAKE-A-WISH FOUNDATION OF OREGON INC",
+        "state": "OR",
+        "amount": 15000.0,
+        "purpose": "TO CREATE LIFE-CHANGING WISHES FOR CHILDREN WITH CRITICAL ILLNESSES IN THE TERRITORY OF OREGON AND CLARK COUNTY, WASHINGTON.",
+        "year": 2023
+      },
+      {
+        "recipient": "SAVE THE FAMILY FOUNDATION OF ARIZONA",
+        "state": "AZ",
+        "amount": 15000.0,
+        "purpose": "EQUIPPING FAMILIES TO ADDRESS POVERTY, OVERCOME HOMELESSNESS, AND ACHIEVE SELF-SUFFICIENCY.",
+        "year": 2023
+      }
+    ],
+    "pf_grants": [
+      {
+        "recipient": "ELGIN CARES",
+        "state": "TX",
+        "amount": 10000.0,
+        "purpose": "TO PUT GOD'S LOVE INTO ACTION BY CARING FOR AND SHARING WITH INDIVIDUALS AND FAMILIES TO BUILD COMMUNITIES, RESOURCES AND HOPE FOR AN ABUNDANT LIFE.",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "ein": "471247608",
+    "name": "Umpqua Bank Charitable Foundation",
+    "base_url": "https://www.umpquabank.com/community",
+    "tier": 3,
+    "crawl_status": "completed",
+    "total_pages_crawled": 50,
+    "total_chars_raw": 942831,
+    "chars_for_analysis": 50000,
+    "pages_for_analysis": 3,
+    "grant_pages_found": 16,
+    "pdfs_found": [
+      {
+        "url": "https://www.umpquabank.com/contentassets/776d74b38afb41cd85355c7f7cf6670c/communityservicesoverview.pdf",
+        "anchor": "Community Impact & Engagement Overview",
+        "source": "https://www.umpquabank.com/community"
+      },
+      {
+        "url": "https://www.umpquabank.com/globalassets/media/documents/corporate-responsibilty/umpqua-bank-2021-environmental-social-and-governance-report.pdf",
+        "anchor": "",
+        "source": "https://www.umpquabank.com/our-impact"
+      },
+      {
+        "url": "https://www.umpquabank.com/globalassets/media/documents/esg/columbia-banking-system-corporate-citizenship-report-2024.pdf",
+        "anchor": "",
+        "source": "https://www.umpquabank.com/our-impact"
+      },
+      {
+        "url": "https://www.umpquabank.com/globalassets/media/documents/corporate-responsibilty/carbon_offsets_and_significant_reduction_claims.pdf",
+        "anchor": "",
+        "source": "https://www.umpquabank.com/our-impact"
+      },
+      {
+        "url": "https://www.umpquabank.com/globalassets/media/documents/commercial/umpqua-bank-vendor-finance-application.pdf",
+        "anchor": "Apply for Columbia equipment financing today",
+        "source": "https://www.umpquabank.com/commercial/equipment-financing/equipment-leasing-finance"
+      },
+      {
+        "url": "https://www.umpquabank.com/globalassets/media/documents/commercial/umpqua-bank-vendor-application.pdf",
+        "anchor": "Apply to become an approved vendor",
+        "source": "https://www.umpquabank.com/commercial/equipment-financing/equipment-leasing-finance"
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://www.umpquabank.com/globalassets/media/documents/commercial/umpqua-bank-vendor-finance-application.pdf",
+        "final_url": "https://www.columbiabank.com/globalassets/media/documents/commercial/umpqua-bank-vendor-finance-application.pdf",
+        "page_type": "application",
+        "priority": 1,
+        "depth": 3,
+        "text": "Finance Application\nPlease use a blue or black ink pen when completing the application.\nSECTION A - CUSTOMER\nName of company:     DBA name:     Date established: \nBilling address:     City:     State:     Zip: \nEquipment location address:     City:     State:     Zip: \nBusiness phone number:     Contact person:    Title: \nCell phone number:     Email address:    Website: \nNature of business:     Federal ID number:    UBI number: \nType of business:       Corporation      LLC      Partnership      Proprietorship       Non-profit      Other \nPast/current Umpqua Bank customer?     yes     no  \nSECTION B - REQUIRED FOR ALL CORPORATIONS, LLC\u2019S, LLP\u2019S, LIMITED PARTNERSHIPS AND NON-PROFITS\nState of organization:     Organization/charter number: \nSECTION C - INSURANCE COMPANY\nInsurance company:     Agent:    Phone number: \nSECTION D - OWNERS, PARTNERS, GUARANTORS\nName (Print):     Title:     Percentage of ownership: \nFull address:     Phone number:     S.S. number: \nSignature:    Date: \nName (Print):     Title:     Percentage of ownership: \nFull address:     Phone number:     S.S. number: \nSignature:    Date: \nSECTION E - EQUIPMENT DESIRED\nDescription:     Total cost: \n# of units:     Model #:     Condition:     Year manufactured:     Manufacturer: \nVendor/supplier:     Contact:    Phone number: \nThe undersigned individual who is either a principal, a personal guarantor or a sole proprietor of the credit applicant, recognizing \nthat his or her individual credit history may be a factor in the evaluation of the credit history of the applicant, hereby consents and \nauthorizes Financial Pacific Leasing, Inc., or its designee the use of a consumer credit report on the undersigned, from time to time as \nmay be needed.\n(For CA Residents only) Please review our CA Privacy Notice at Collection at (www.umpquabank.com/privacy/ca-privacy-notice-\nat-collection) describing how we use the personal information we collect from you and how you can exercise your rights to privacy \naccording to CA law.\nSignature:      Title:      Date: Umpqua Bank Vendor Finance\nEmail  vendorfinance@umpquabank.com\nUmpquaBank.com     1-866-4UMPQUA (1-866-486-7782)    Member FDIC    Equal Housing Lender     SBA Preferred Lender\nUBVF _Finance-Application_genericFinancial Pacific Leasing, Inc., doing business as Umpqua Bank Vendor Finance, is a subsidiary of Umpqua Bank.  \nProducts offered by Financial Pacific Leasing, Inc., are not FDIC insured.\nTo help the government fight the funding of terrorism and money laundering activities, Federal law requires all financial institutions to \nobtain, verify, and record information that identifies each person who opens an account. When you open an account, we will ask for your \nname, address, date of birth, and other information that will allow us to identify you. We may also ask to see your driver\u2019 s license or other \nidentifying documents.",
+        "title": "PDF: umpqua-bank-vendor-finance-application.pdf",
+        "anchor_text": "Apply for Columbia equipment financing today",
+        "status": 200,
+        "content_type": "pdf",
+        "error": null,
+        "char_count": 2883,
+        "fetch_method": "aiohttp"
+      },
+      {
+        "url": "https://www.umpquabank.com/globalassets/media/documents/commercial/umpqua-bank-vendor-application.pdf",
+        "final_url": "https://www.columbiabank.com/globalassets/media/documents/commercial/umpqua-bank-vendor-application.pdf",
+        "page_type": "application",
+        "priority": 1,
+        "depth": 3,
+        "text": "Vendor Application\nPlease use a blue or black ink pen when completing the application.\nSECTION A - VENDOR BUSINESS INFORMATION\nPlease enter Vendor information. \nLegal business name: \nAddress:     City:     State:     Zip: \nFederal tax ID:     Years in business:     DUNS number: \nContact first name:     Contact last name:    Position: \nPrimary phone:     Secondary phone:    Fax: \nEmail: \nBusiness type:       Corporation      LLC      Partnership      Proprietorship       Non-profit      Other \n \nSECTION B - VENDOR EQUIPMENT INFORMATION\nState of organization: \nDo you sell used equipment?       yes      no\nAuthorized distributor: \nManufacturer:  \nComments: \nSECTION C - AUTHORIZA TION, REPRESENT A TIONS, AND WARRANTIES\nPlease review the statements below and click the \u201cI Agree\u201d button for each one \n  By submitting this application, I will be completing the signing process and this application will be submitted for credit approval.\n  I agree that this will be an electronic representation of my signature.\n  I further understand that by completing the signing process and submitting this document for credit approval, it will have\nthe same legally binding effect as delivery of an original\n\\The undersigned individual who is either a principal, a personal guarantor or a sole proprietor of the credit applicant, recognizing \nthat his or her individual credit history may be a factor in the evaluation of the credit history of the applicant, hereby consents and \nauthorizes Financial Pacific Leasing, Inc., or its designee the use of a consumer credit report on the undersigned, from time to time as \nmay be needed.\n(For CA Residents only) Please review our CA Privacy Notice at Collection at ( www.umpquabank.com/privacy/ca-privacy-notice-\nat-collection) describing how we use the personal information we collect from you and how you can exercise your rights to privacy \naccording to CA law.\nSignature:      Title:      Date: Office   877 .556.7611      Fax    877 .332.9863\nOnce completed, please email this form to:\nEmail  BDM@UmpquaBank.com\nUmpquaBank.com     1-866-4UMPQUA (1-866-486-7782)    Member FDIC    Equal Housing Lender     SBA Preferred Lender\nUBVF _Vendor-ApplicationFinancial Pacific Leasing, Inc., doing business as Umpqua Bank Vendor Finance, is a subsidiary of Umpqua Bank.  \nProducts offered by Financial Pacific Leasing, Inc., are not FDIC insured.\nTo help the government fight the funding of terrorism and money laundering activities, Federal law requires all financial institutions to \nobtain, verify, and record information that identifies each person who opens an account. When you open an account, we will ask for your \nname, address, date of birth, and other information that will allow us to identify you. We may also ask to see your driver\u2019 s license or other \nidentifying documents.",
+        "title": "PDF: umpqua-bank-vendor-application.pdf",
+        "anchor_text": "Apply to become an approved vendor",
+        "status": 200,
+        "content_type": "pdf",
+        "error": null,
+        "char_count": 2820,
+        "fetch_method": "aiohttp"
+      },
+      {
+        "url": "https://www.umpquabank.com/community",
+        "final_url": "https://www.columbiabank.com/community",
+        "page_type": "homepage",
+        "priority": 0,
+        "depth": 0,
+        "text": "Bank impersonation warning: Scammers are posing as the bank. Do not rely on Caller ID. We will never call, text or email to ask for your account information, password, username or secure code. Learn more Attention former Pacific Premier Business Online Banking Customers: Please login to Columbia\u2019s Commercial Online Banking system. Select \u201cCommercial Banking\u201d from the list below. If you have a Company ID, select Commercial Banking to login. Choose your login: Personal Banking Business Banking Commercial Banking Commercial Banking Credit Card All Other Logins Cash Vault Order - Garda Cash Vault Order - Loomis Commercial Card Expense Mgmt Commercial Card Program Mgmt Commercial Cardholder Compass Deluxe Payment Exchange Deposit Express Gift Card Merchant Services Prepaid Everyday Cash Card Payroll Card Employer Payroll Cardholder Payroll - Payentry Tax Payment Services Time & Attendance ColumbiaTrade Visa Payables Automation WebCD Haven't signed up for online banking? Start here . You must enter a Login ID Log in Forgot your ID or password? You must enter a Login ID Log in Need sign in help? You must enter a Company ID You must enter a User ID Log in Forgot user ID or password? There are no results found for your search.\u00a0Make sure your search is spelled correctly or try another term. By following this link, you will be leaving ColumbiaBank.com. Click Ok to continue or Cancel to remain in ColumbiaBank.com Credit cards offered through Elan Financial Services are not FDIC insured. By following this link, you will be leaving ColumbiaBank.com. Click Ok to continue or Cancel to remain in ColumbiaBank.com Cancel Ok\nBank impersonation warning: Scammers are posing as the bank. Do not rely on Caller ID. We will never call, text or email to ask for your account information, password, username or secure code. Learn more Attention former Pacific Premier Business Online Banking Customers: Please login to Columbia\u2019s Commercial Online Banking system. Select \u201cCommercial Banking\u201d from the list below. If you have a Company ID, select Commercial Banking to login. Choose your login: Personal Banking Business Banking Commercial Banking Commercial Banking Credit Card All Other Logins Cash Vault Order - Garda Cash Vault Order - Loomis Commercial Card Expense Mgmt Commercial Card Program Mgmt Commercial Cardholder Compass Deluxe Payment Exchange Deposit Express Gift Card Merchant Services Prepaid Everyday Cash Card Payroll Card Employer Payroll Cardholder Payroll - Payentry Tax Payment Services Time & Attendance ColumbiaTrade Visa Payables Automation WebCD Haven't signed up for online banking? Start here . You must enter a Login ID Log in Forgot your ID or password? You must enter a Login ID Log in Need sign in help? You must enter a Company ID You must enter a User ID Log in Forgot user ID or password? There are no results found for your search.\u00a0Make sure your search is spelled correctly or try another term.\nBank impersonation warning: Scammers are posing as the bank. Do not rely on Caller ID. We will never call, text or email to ask for your account information, password, username or secure code. Learn more\nAttention former Pacific Premier Business Online Banking Customers: Please login to Columbia\u2019s Commercial Online Banking system. Select \u201cCommercial Banking\u201d from the list below. If you have a Company ID, select Commercial Banking to login. Choose your login: Personal Banking Business Banking Commercial Banking Commercial Banking Credit Card All Other Logins Cash Vault Order - Garda Cash Vault Order - Loomis Commercial Card Expense Mgmt Commercial Card Program Mgmt Commercial Cardholder Compass Deluxe Payment Exchange Deposit Express Gift Card Merchant Services Prepaid Everyday Cash Card Payroll Card Employer Payroll Cardholder Payroll - Payentry Tax Payment Services Time & Attendance ColumbiaTrade Visa Payables Automation WebCD Haven't signed up for online banking? Start here . You must enter a Login ID Log in Forgot your ID or password? You must enter a Login ID Log in Need sign in help? You must enter a Company ID You must enter a User ID Log in Forgot user ID or password? There are no results found for your search.\u00a0Make sure your search is spelled correctly or try another term.\nAttention former Pacific Premier Business Online Banking Customers: Please login to Columbia\u2019s Commercial Online Banking system. Select \u201cCommercial Banking\u201d from the list below. If you have a Company ID, select Commercial Banking to login. Choose your login: Personal Banking Business Banking Commercial Banking Commercial Banking Credit Card All Other Logins Cash Vault Order - Garda Cash Vault Order - Loomis Commercial Card Expense Mgmt Commercial Card Program Mgmt Commercial Cardholder Compass Deluxe Payment Exchange Deposit Express Gift Card Merchant Services Prepaid Everyday Cash Card Payroll Card Employer Payroll Cardholder Payroll - Payentry Tax Payment Services Time & Attendance ColumbiaTrade Visa Payables Automation WebCD Haven't signed up for online banking? Start here . You must enter a Login ID Log in Forgot your ID or password? You must enter a Login ID Log in Need sign in help? You must enter a Company ID You must enter a User ID Log in Forgot user ID or password?\nAttention former Pacific Premier Business Online Banking Customers: Please login to Columbia\u2019s Commercial Online Banking system. Select \u201cCommercial Banking\u201d from the list below. If you have a Company ID, select Commercial Banking to login. Choose your login: Personal Banking Business Banking Commercial Banking Commercial Banking Credit Card All Other Logins Cash Vault Order - Garda Cash Vault Order - Loomis Commercial Card Expense Mgmt Commercial Card Program Mgmt Commercial Cardholder Compass Deluxe Payment Exchange Deposit Express Gift Card Merchant Services Prepaid Everyday Cash Card Payroll Card Employer Payroll Cardholder Payroll - Payentry Tax Payment Services Time & Attendance ColumbiaTrade Visa Payables Automation WebCD Haven't signed up for online banking? Start here .\nAttention former Pacific Premier Business Online Banking Customers: Please login to Columbia\u2019s Commercial Online Banking system. Select \u201cCommercial Banking\u201d from the list below. If you have a Company ID, select Commercial Banking to login.\nChoose your login:\n- Personal Banking\n- Business Banking\n- Commercial Banking\n- Credit Card\n- All Other Logins Cash Vault Order - Garda Cash Vault Order - Loomis Commercial Card Expense Mgmt Commercial Card Program Mgmt Commercial Cardholder Compass Deluxe Payment Exchange Deposit Express Gift Card Merchant Services Prepaid Everyday Cash Card Payroll Card Employer Payroll Cardholder Payroll - Payentry Tax Payment Services Time & Attendance ColumbiaTrade Visa Payables Automation WebCD\nAll Other Logins Cash Vault Order - Garda Cash Vault Order - Loomis Commercial Card Expense Mgmt Commercial Card Program Mgmt Commercial Cardholder Compass Deluxe Payment Exchange Deposit Express Gift Card Merchant Services Prepaid Everyday Cash Card Payroll Card Employer Payroll Cardholder Payroll - Payentry Tax Payment Services Time & Attendance ColumbiaTrade Visa Payables Automation WebCD\nAll Other Logins\nCash Vault Order - Garda Cash Vault Order - Loomis Commercial Card Expense Mgmt Commercial Card Program Mgmt Commercial Cardholder Compass Deluxe Payment Exchange Deposit Express Gift Card Merchant Services Prepaid Everyday Cash Card Payroll Card Employer Payroll Cardholder Payroll - Payentry Tax Payment Services Time & Attendance ColumbiaTrade Visa Payables Automation WebCD\nCash Vault Order - Garda\nCash Vault Order - Loomis\nCommercial Card Expense Mgmt\nCommercial Card Program Mgmt\nCommercial Cardholder\nCompass\nDeluxe Payment Exchange\nDeposit Express\nGift Card\nMerchant Services\nPrepaid Everyday Cash Card\nPayroll Card Employer\nPayroll Cardholder\nPayroll - Payentry\nTax Payment Services\nTime & Attendance\nColumbiaTrade\nVisa Payables Automation\nWebCD\nHaven't signed up for online banking? Start here .\nYou must enter a Login ID Log in Forgot your ID or password?\nYou must enter a Login ID\nLog in\nYou must enter a Login ID Log in Need sign in help?\nYou must enter a Company ID You must enter a User ID Log in Forgot user ID or password?\nYou must enter a Company ID\nYou must enter a User ID\nThere are no results found for your search.\u00a0Make sure your search is spelled correctly or try another term.\nBy following this link, you will be leaving ColumbiaBank.com. Click Ok to continue or Cancel to remain in ColumbiaBank.com Credit cards offered through Elan Financial Services are not FDIC insured. By following this link, you will be leaving ColumbiaBank.com. Click Ok to continue or Cancel to remain in ColumbiaBank.com Cancel Ok\nBy following this link, you will be leaving ColumbiaBank.com. Click Ok to continue or Cancel to remain in ColumbiaBank.com Credit cards offered through Elan Financial Services are not FDIC insured. By following this link, you will be leaving ColumbiaBank.com. Click Ok to continue or Cancel to remain in ColumbiaBank.com\nBy following this link, you will be leaving ColumbiaBank.com. Click Ok to continue or Cancel to remain in ColumbiaBank.com\nCredit cards offered through Elan Financial Services are not FDIC insured. By following this link, you will be leaving ColumbiaBank.com. Click Ok to continue or Cancel to remain in ColumbiaBank.com\nCancel Ok\nBank impersonation warning: Scammers are posing as the bank. Do not rely on Caller ID. We will never call, text or email to ask for your account information, password, username or secure code. Learn more Columbia Bank deposit products: Search | Contact | Locations & Appointments Personal Business Commercial Wealth Management About Us Log in Columbia Bank deposit products: Log in Search | Contact | Locations Personal Explore All Personal Banking Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards Business Explore All Business Banking Checking Savings Loans and Lines of Credit Online & Mobile Banking Credit Cards Cash Management Commercial Explore All Commercial Banking International Banking Real Estate Online & Mobile Banking Equipment Financing Corporate Lending Treasury Management API Banking Wealth Management Explore All Wealth Management Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services Purchase Insurance About Us About Insights Our Impact Help Center Newsroom Investor Relations Careers PERSONAL BANKING SERVICES Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards See all Personal Banking OFTEN VISITED Embark Checking Grow Savings Home Equity Line of Credit Personal Loans Auto Loans Open an Embark Checking Account BUSINESS BANKING SERVICES Checking Savings Loans & Lines of Credit Credit Cards Online & Mobile Banking Cash Management See all Business Banking OFTEN VISITED Community Business Checking Community Business Savings SBA Loans Real Estate Loans Term Loans Cash Management for your business COMMERCIAL BANKING SERVICES International Banking Real Estate Equipment Financing Industry Expertise Online & Mobile Banking Treasury Management API Banking OFTEN VISITED Commercial Real Estate Division Multifamily Real Estate Home Builder Corporate Lending Foreign Exchange Commercial Cards Connect with a banker WEALTH MANAGEMENT SERVICES Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services See all Wealth Management ABOUT COLUMBIA Insights Our Impact Help Center Newsroom Investor Relations Careers See all About Us OFTEN VISITED Online Banking Login Help Enroll in Online Banking Mortgage Online Banking Routing Number: 123205054 Community Partnerships Supplier Program Community Impact & Partnerships Giving to our communities Columbia Bank, through the Columbia Bank Community Impact Fund, believes in the power of philanthropy and partnership by leading with a transformative Community Impact Strategy that puts communities first\u2014while supporting our values and commitments to our Community Benefits Agreement (CBA) and the federally mandated Community Reinvestment Act (CRA). To that end, Columbia Bank is committed to improving the economic prosperity of under-resourced individuals, families, small businesses, and communities throughout our footprint. Our impact strategy is driven by regulatory and strategic alignment, a balanced funding approach, and long-term partnerships. To advance our strategy, our Priority Focus Areas will guide investments in: Financial Mobility We invest in opportunities that empower individuals and communities to achieve lasting financial independence through microbusiness development, technical assistance, access to capital, and financial education. Targeted funding areas include: Access to capital and technical assistance centers Financial literacy and coaching Small business accelerators Rural entrepreneurship program Housing Stability We advance housing stability by supporting affordable housing development, preservation, temporary housing solutions, and pathways to homeownership, creating stronger, more resilient communities for generations to come. Targeted funding areas include: Down payment assistance programs Housing counseling, tenant stability, and anti-displacement efforts Housing repair and energy efficiency programs Transitional housing Community Resilience We strengthen community resilience by promoting education, workforce development, and essential services that enable economic participation, laying the foundation for strong, vibrant futures. Targeted funding areas include: Youth development and workforce readiness Food security and community health Nonprofit capacity building, infrastructure and leadership programs Climate and disaster resilience initiatives Beginning in 2026, philanthropic investments and grants through the Columbia Bank Community Impact Fund will be by invitation only , with the emphasis on strong, current associate volunteer engagement and clear strategic alignment with our Priority Focus Areas. We are unable to accept unsolicited grant requests or Letters of Intent from nonprofit organizations, and there are no open grant application cycles. To learn about additional ways Columbia Bank supports your community, check out our Community Impact & Engagement Overview. Community Impact & Engagement Overview Sharing our Time and Talent Through our gold-standard Connect Volunteer Network , our associates (employees) receive up to 40 hours of paid volunteer time, lending more than 30,000 hours of their time every year. Some of the ways our associates help in the communities we serve include: Personal Financial Education Board/Committee Service Technical Assistance Small Business Financial Education To reward our most-active associate volunteers, we have the Dollars for Doers Program , which supports associates who consistently give back to their communities and the nonprofits they serve. Associates who record 40 eligible volunteer hours in the Community Impact Hub within one calendar year are eligible to receive a $500 donation to the nonprofit of their choice. In addition, Columbia Bank, through the Associate Giving Match Program , empowers associates to support their favorite nonprofits through personal charitable donations. The Columbia Bank Community Impact Fund offers all associates a $1,000 matching gift to match our associate\u2019s generosity. Company About Us Newsroom Investor Relations Our Impact Careers Blog Support Contact Us Help Center Order Checks PrePaid Cards Lost/Stolen Card Enroll in Online Banking Social Facebook Instagram LinkedIn YouTube X Legal Accessibility Security Privacy CA Privacy Notice at Collection FDIC Contact Us (866) 486-7782 Mon-Fri, 7 a.m.-6 p.m. (PT) Sat-Sun, 8 a.m.-5 p.m. (PT) Branch Locations Routing Number: 123205054 Member FDIC.\u00a0 Equal Housing Lender. SBA Preferred Lender.\u00a0 NMLS #401867. Your cookie choices | Your privacy choices\nBank impersonation warning: Scammers are posing as the bank. Do not rely on Caller ID. We will never call, text or email to ask for your account information, password, username or secure code. Learn more Columbia Bank deposit products: Search | Contact | Locations & Appointments Personal Business Commercial Wealth Management About Us Log in Columbia Bank deposit products: Log in Search | Contact | Locations Personal Explore All Personal Banking Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards Business Explore All Business Banking Checking Savings Loans and Lines of Credit Online & Mobile Banking Credit Cards Cash Management Commercial Explore All Commercial Banking International Banking Real Estate Online & Mobile Banking Equipment Financing Corporate Lending Treasury Management API Banking Wealth Management Explore All Wealth Management Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services Purchase Insurance About Us About Insights Our Impact Help Center Newsroom Investor Relations Careers PERSONAL BANKING SERVICES Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards See all Personal Banking OFTEN VISITED Embark Checking Grow Savings Home Equity Line of Credit Personal Loans Auto Loans Open an Embark Checking Account BUSINESS BANKING SERVICES Checking Savings Loans & Lines of Credit Credit Cards Online & Mobile Banking Cash Management See all Business Banking OFTEN VISITED Community Business Checking Community Business Savings SBA Loans Real Estate Loans Term Loans Cash Management for your business COMMERCIAL BANKING SERVICES International Banking Real Estate Equipment Financing Industry Expertise Online & Mobile Banking Treasury Management API Banking OFTEN VISITED Commercial Real Estate Division Multifamily Real Estate Home Builder Corporate Lending Foreign Exchange Commercial Cards Connect with a banker WEALTH MANAGEMENT SERVICES Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services See all Wealth Management ABOUT COLUMBIA Insights Our Impact Help Center Newsroom Investor Relations Careers See all About Us OFTEN VISITED Online Banking Login Help Enroll in Online Banking Mortgage Online Banking Routing Number: 123205054 Community Partnerships Supplier Program\nColumbia Bank deposit products: Search | Contact | Locations & Appointments Personal Business Commercial Wealth Management About Us Log in Columbia Bank deposit products: Log in Search | Contact | Locations Personal Explore All Personal Banking Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards Business Explore All Business Banking Checking Savings Loans and Lines of Credit Online & Mobile Banking Credit Cards Cash Management Commercial Explore All Commercial Banking International Banking Real Estate Online & Mobile Banking Equipment Financing Corporate Lending Treasury Management API Banking Wealth Management Explore All Wealth Management Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services Purchase Insurance About Us About Insights Our Impact Help Center Newsroom Investor Relations Careers\nColumbia Bank deposit products: Search | Contact | Locations & Appointments Personal Business Commercial Wealth Management About Us Log in\nColumbia Bank deposit products: Search | Contact | Locations & Appointments\nColumbia Bank deposit products:\nSearch\n| Contact\nContact\n| Locations & Appointments\nLocations & Appointments\nPersonal Business Commercial Wealth Management About Us Log in\nPersonal Business Commercial Wealth Management About Us\nPersonal\nBusiness\nCommercial\nWealth Management\nAbout Us\nColumbia Bank deposit products: Log in Search | Contact | Locations Personal Explore All Personal Banking Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards Business Explore All Business Banking Checking Savings Loans and Lines of Credit Online & Mobile Banking Credit Cards Cash Management Commercial Explore All Commercial Banking International Banking Real Estate Online & Mobile Banking Equipment Financing Corporate Lending Treasury Management API Banking Wealth Management Explore All Wealth Management Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services Purchase Insurance About Us About Insights Our Impact Help Center Newsroom Investor Relations Careers\nSearch | Contact | Locations Personal Explore All Personal Banking Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards Business Explore All Business Banking Checking Savings Loans and Lines of Credit Online & Mobile Banking Credit Cards Cash Management Commercial Explore All Commercial Banking International Banking Real Estate Online & Mobile Banking Equipment Financing Corporate Lending Treasury Management API Banking Wealth Management Explore All Wealth Management Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services Purchase Insurance About Us About Insights Our Impact Help Center Newsroom Investor Relations Careers\nSearch | Contact | Locations\n| Locations\nLocations\nPersonal Explore All Personal Banking Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards Business Explore All Business Banking Checking Savings Loans and Lines of Credit Online & Mobile Banking Credit Cards Cash Management Commercial Explore All Commercial Banking International Banking Real Estate Online & Mobile Banking Equipment Financing Corporate Lending Treasury Management API Banking Wealth Management Explore All Wealth Management Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services Purchase Insurance About Us About Insights Our Impact Help Center Newsroom Investor Relations Careers\n- Personal Explore All Personal Banking Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards\n- Explore All Personal Banking\n- Checking\n- Savings\n- Loans & Lines of Credit\n- Online & Mobile Banking\n- Home Loans\n- Credit Cards\n- Business Explore All Business Banking Checking Savings Loans and Lines of Credit Online & Mobile Banking Credit Cards Cash Management\n- Explore All Business Banking\n- Loans and Lines of Credit\n- Cash Management\n- Commercial Explore All Commercial Banking International Banking Real Estate Online & Mobile Banking Equipment Financing Corporate Lending Treasury Management API Banking\n- Explore All Commercial Banking\n- International Banking\n- Real Estate\n- Equipment Financing\n- Corporate Lending\n- Treasury Management\n- API Banking\n- Wealth Management Explore All Wealth Management Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services Purchase Insurance\n- Explore All Wealth Management\n- Our Unique Approach\n- Columbia Private Bank\n- Columbia Wealth Advisors\n- Trust and Investment Services\n- Purchase Insurance\n- About Us About Insights Our Impact Help Center Newsroom Investor Relations Careers\n- About\n- Insights\n- Our Impact\n- Help Center\n- Newsroom\n- Investor Relations\n- Careers\nPERSONAL BANKING SERVICES Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards See all Personal Banking OFTEN VISITED Embark Checking Grow Savings Home Equity Line of Credit Personal Loans Auto Loans Open an Embark Checking Account BUSINESS BANKING SERVICES Checking Savings Loans & Lines of Credit Credit Cards Online & Mobile Banking Cash Management See all Business Banking OFTEN VISITED Community Business Checking Community Business Savings SBA Loans Real Estate Loans Term Loans Cash Management for your business COMMERCIAL BANKING SERVICES International Banking Real Estate Equipment Financing Industry Expertise Online & Mobile Banking Treasury Management API Banking OFTEN VISITED Commercial Real Estate Division Multifamily Real Estate Home Builder Corporate Lending Foreign Exchange Commercial Cards Connect with a banker WEALTH MANAGEMENT SERVICES Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services See all Wealth Management ABOUT COLUMBIA Insights Our Impact Help Center Newsroom Investor Relations Careers See all About Us OFTEN VISITED Online Banking Login Help Enroll in Online Banking Mortgage Online Banking Routing Number: 123205054 Community Partnerships Supplier Program\nPERSONAL BANKING SERVICES Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards See all Personal Banking OFTEN VISITED Embark Checking Grow Savings Home Equity Line of Credit Personal Loans Auto Loans Open an Embark Checking Account\nPERSONAL BANKING SERVICES Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards See all Personal Banking OFTEN VISITED Embark Checking Grow Savings Home Equity Line of Credit Personal Loans Auto Loans\nPERSONAL BANKING SERVICES Checking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards See all Personal Banking\nPERSONAL BANKING SERVICES\nChecking Savings Loans & Lines of Credit Online & Mobile Banking Home Loans Credit Cards\nSee all Personal Banking\nOFTEN VISITED Embark Checking Grow Savings Home Equity Line of Credit Personal Loans Auto Loans\nOFTEN VISITED\nEmbark Checking Grow Savings Home Equity Line of Credit Personal Loans Auto Loans\n- Embark Checking\n- Grow Savings\n- Home Equity Line of Credit\n- Personal Loans\n- Auto Loans\nOpen an Embark Checking Account\nBUSINESS BANKING SERVICES Checking Savings Loans & Lines of Credit Credit Cards Online & Mobile Banking Cash Management See all Business Banking OFTEN VISITED Community Business Checking Community Business Savings SBA Loans Real Estate Loans Term Loans Cash Management for your business\nBUSINESS BANKING SERVICES Checking Savings Loans & Lines of Credit Credit Cards Online & Mobile Banking Cash Management See all Business Banking OFTEN VISITED Community Business Checking Community Business Savings SBA Loans Real Estate Loans Term Loans\nBUSINESS BANKING SERVICES Checking Savings Loans & Lines of Credit Credit Cards Online & Mobile Banking Cash Management See all Business Banking\nBUSINESS BANKING SERVICES\nChecking Savings Loans & Lines of Credit Credit Cards Online & Mobile Banking Cash Management\nSee all Business Banking\nOFTEN VISITED Community Business Checking Community Business Savings SBA Loans Real Estate Loans Term Loans\nCommunity Business Checking Community Business Savings SBA Loans Real Estate Loans Term Loans\n- Community Business Checking\n- Community Business Savings\n- SBA Loans\n- Real Estate Loans\n- Term Loans\nCash Management for your business\nCOMMERCIAL BANKING SERVICES International Banking Real Estate Equipment Financing Industry Expertise Online & Mobile Banking Treasury Management API Banking OFTEN VISITED Commercial Real Estate Division Multifamily Real Estate Home Builder Corporate Lending Foreign Exchange Commercial Cards Connect with a banker\nCOMMERCIAL BANKING SERVICES International Banking Real Estate Equipment Financing Industry Expertise Online & Mobile Banking Treasury Management API Banking OFTEN VISITED Commercial Real Estate Division Multifamily Real Estate Home Builder Corporate Lending Foreign Exchange Commercial Cards\nCOMMERCIAL BANKING SERVICES International Banking Real Estate Equipment Financing Industry Expertise Online & Mobile Banking Treasury Management API Banking\nCOMMERCIAL BANKING SERVICES\nInternational Banking Real Estate Equipment Financing Industry Expertise Online & Mobile Banking Treasury Management API Banking\n- Industry Expertise\nOFTEN VISITED Commercial Real Estate Division Multifamily Real Estate Home Builder Corporate Lending Foreign Exchange Commercial Cards\nCommercial Real Estate Division Multifamily Real Estate Home Builder Corporate Lending Foreign Exchange Commercial Cards\n- Commercial Real Estate Division\n- Multifamily Real Estate\n- Home Builder\n- Foreign Exchange\n- Commercial Cards\nConnect with a banker\nWEALTH MANAGEMENT SERVICES Our Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services See all Wealth Management\nWEALTH MANAGEMENT SERVICES\nOur Unique Approach Columbia Private Bank Columbia Wealth Advisors Trust and Investment Services\nSee all Wealth Management\nABOUT COLUMBIA Insights Our Impact Help Center Newsroom Investor Relations Careers See all About Us OFTEN VISITED Online Banking Login Help Enroll in Online Banking Mortgage Online Banking Routing Number: 123205054 Community Partnerships Supplier Program\nABOUT COLUMBIA Insights Our Impact Help Center Newsroom Investor Relations Careers See all About Us\nABOUT COLUMBIA\nInsights Our Impact Help Center Newsroom Investor Relations Careers\nSee all About Us\nOFTEN VISITED Online Banking Login Help Enroll in Online Banking Mortgage Online Banking Routing Number: 123205054 Community Partnerships Supplier Program\nOnline Banking Login Help Enroll in Online Banking Mortgage Online Banking Routing Number: 123205054 Community Partnerships Supplier Program\n- Online Banking Login Help\n- Enroll in Online Banking\n- Mortgage Online Banking\n- Routing Number: 123205054\n- Community Partnerships\n- Supplier Program\nCommunity Impact & Partnerships Giving to our communities Columbia Bank, through the Columbia Bank Community Impact Fund, believes in the power of philanthropy and partnership by leading with a transformative Community Impact Strategy that puts communities first\u2014while supporting our values and commitments to our Community Benefits Agreement (CBA) and the federally mandated Community Reinvestment Act (CRA). To that end, Columbia Bank is committed to improving the economic prosperity of under-resourced individuals, families, small businesses, and communities throughout our footprint. Our impact strategy is driven by regulatory and strategic alignment, a balanced funding approach, and long-term partnerships. To advance our strategy, our Priority Focus Areas will guide investments in: Financial Mobility We invest in opportunities that empower individuals and communities to achieve lasting financial independence through microbusiness development, technical assistance, access to capital, and financial education. Targeted funding areas include: Access to capital and technical assistance centers Financial literacy and coaching Small business accelerators Rural entrepreneurship program Housing Stability We advance housing stability by supporting affordable housing development, preservation, temporary housing solutions, and pathways to homeownership, creating stronger, more resilient communities for generations to come. Targeted funding areas include: Down payment assistance programs Housing counseling, tenant stability, and anti-displacement efforts Housing repair and energy efficiency programs Transitional housing Community Resilience We strengthen community resilience by promoting education, workforce development, and essential services that enable economic participation, laying the foundation for strong, vibrant futures. Targeted funding areas include: Youth development and workforce readiness Food security and community health Nonprofit capacity building, infrastructure and leadership programs Climate and disaster resilience initiatives Beginning in 2026, philanthropic investments and grants through the Columbia Bank Community Impact Fund will be by invitation only , with the emphasis on strong, current associate volunteer engagement and clear strategic alignment with our Priority Focus Areas. We are unable to accept unsolicited grant requests or Letters of Intent from nonprofit organizations, and there are no open grant application cycles. To learn about additional ways Columbia Bank supports your community, check out our Community Impact & Engagement Overview. Community Impact & Engagement Overview Sharing our Time and Talent Through our gold-standard Connect Volunteer Network , our associates (employees) receive up to 40 hours of paid volunteer time, lending more than 30,000 hours of their time every year. Some of the ways our associates help in the communities we serve include: Personal Financial Education Board/Committee Service Technical Assistance Small Business Financial Education To reward our most-active associate volunteers, we have the Dollars for Doers Program , which supports associates who consistently give back to their communities and the nonprofits they serve. Associates who record 40 eligible volunteer hours in the Community Impact Hub within one calendar year are eligible to receive a $500 donation to the nonprofit of their choice. In addition, Columbia Bank, through the Associate Giving Match Program , empowers associates to support their favorite nonprofits through personal charitable donations. The Columbia Bank Community Impact Fund offers all associates a $1,000 matching gift to match our associate\u2019s generosity. Company About Us Newsroom Investor Relations Our Impact Careers Blog Support Contact Us Help Center Order Checks PrePaid Cards Lost/Stolen Card Enroll in Online Banking Social Facebook Instagram LinkedIn YouTube X Legal Accessibility Security Privacy CA Privacy Notice at Collection FDIC Contact Us (866) 486-7782 Mon-Fri, 7 a.m.-6 p.m. (PT) Sat-Sun, 8 a.m.-5 p.m. (PT) Branch Locations Routing Number: 123205054 Member FDIC.\u00a0 Equal Housing Lender. SBA Preferred Lender.\u00a0 NMLS #401867. Your cookie choices | Your privacy choices\nCommunity Impact & Partnerships Giving to our communities Columbia Bank, through the Columbia Bank Community Impact Fund, believes in the power of philanthropy and partnership by leading with a transformative Community Impact Strategy that puts communities first\u2014while supporting our values and commitments to our Community Benefits Agreement (CBA) and the federally mandated Community Reinvestment Act (CRA). To that end, Columbia Bank is committed to improving the economic prosperity of under-resourced individuals, families, small businesses, and communities throughout our footprint. Our impact strategy is driven by regulatory and strategic alignment, a balanced funding approach, and long-term partnerships. To advance our strategy, our Priority Focus Areas will guide investments in: Financial Mobility We invest in opportunities that empower individuals and communities to achieve lasting financial independence through microbusiness development, technical assistance, access to capital, and financial education. Targeted funding areas include: Access to capital and technical assistance centers Financial literacy and coaching Small business accelerators Rural entrepreneurship program Housing Stability We advance housing stability by supporting affordable housing development, preservation, temporary housing solutions, and pathways to homeownership, creating stronger, more resilient communities for generations to come. Targeted funding areas include: Down payment assistance programs Housing counseling, tenant stability, and anti-displacement efforts Housing repair and energy efficiency programs Transitional housing Community Resilience We strengthen community resilience by promoting education, workforce development, and essential services that enable economic participation, laying the foundation for strong, vibrant futures. Targeted funding areas include: Youth development and workforce readiness Food security and community health Nonprofit capacity building, infrastructure and leadership programs Climate and disaster resilience initiatives Beginning in 2026, philanthropic investments and grants through the Columbia Bank Community Impact Fund will be by invitation only , with the emphasis on strong, current associate volunteer engagement and clear strategic alignment with our Priority Focus Areas. We are unable to accept unsolicited grant requests or Letters of Intent from nonprofit organizations, and there are no open grant application cycles. To learn about additional ways Columbia Bank supports your community, check out our Community Impact & Engagement Overview. Community Impact & Engagement Overview Sharing our Time and Talent Through our gold-standard Connect Volunteer Network , our associates (employees) receive up to 40 hours of paid volunteer time, lending more than 30,000 hours of their time every year. Some of the ways our associates help in the communities we serve include: Personal Financial Education Board/Committee Service Technical Assistance Small Business Financial Education To reward our most-active associate volunteers, we have the Dollars for Doers Program , which supports associates who consistently give back to their communities and the nonprofits they serve. Associates who record 40 eligible volunteer hours in the Community Impact Hub within one calendar year are eligible to receive a $500 donation to the nonprofit of their choice. In addition, Columbia Bank, through the Associate Giving Match Program , empowers associates to support their favorite nonprofits through personal charitable donations. The Columbia Bank Community Impact Fund offers all associates a $1,000 matching gift to match our associate\u2019s generosity.\nCommunity Impact & Partnerships\n## Community Impact & Partnerships\nGiving to our communities Columbia Bank, through the Columbia Bank Community Impact Fund, believes in the power of philanthropy and partnership by leading with a transformative Community Impact Strategy that puts communities first\u2014while supporting our values and commitments to our Community Benefits Agreement (CBA) and the federally mandated Community Reinvestment Act (CRA). To that end, Columbia Bank is committed to improving the economic prosperity of under-resourced individuals, families, small businesses, and communities throughout our footprint. Our impact strategy is driven by regulatory and strategic alignment, a balanced funding approach, and long-term partnerships. To advance our strategy, our Priority Focus Areas will guide investments in:\nGiving to our communities\n## Giving to our communities\nColumbia Bank, through the Columbia Bank Community Impact Fund, believes in the power of philanthropy and partnership by leading with a transformative Community Impact Strategy that puts communities first\u2014while supporting our values and commitments to our Community Benefits Agreement (CBA) and the federally mandated Community Reinvestment Act (CRA). To that end, Columbia Bank is committed to improving the economic prosperity of under-resourced individuals, families, small businesses, and communities throughout our footprint. Our impact strategy is driven by regulatory and strategic alignment, a balanced funding approach, and long-term partnerships. To advance our strategy, our Priority Focus Areas will guide investments in:\nFinancial Mobility We invest in opportunities that empower individuals and communities to achieve lasting financial independence through microbusiness development, technical assistance, access to capital, and financial education. Targeted funding areas include: Access to capital and technical assistance centers Financial literacy and coaching Small business accelerators Rural entrepreneurship program\n## Financial Mobility\nWe invest in opportunities that empower individuals and communities to achieve lasting financial independence through microbusiness development, technical assistance, access to capital, and financial education. Targeted funding areas include:\n- Access to capital and technical assistance centers\n- Financial literacy and coaching\n- Small business accelerators\n- Rural entrepreneurship program\nHousing Stability We advance housing stability by supporting affordable housing development, preservation, temporary housing solutions, and pathways to homeownership, creating stronger, more resilient communities for generations to come. Targeted funding areas include: Down payment assistance programs Housing counseling, tenant stability, and anti-displacement efforts Housing repair and energy efficiency programs Transitional housing\n## Housing Stability\nWe advance housing stability by supporting affordable housing development, preservation, temporary housing solutions, and pathways to homeownership, creating stronger, more resilient communities for generations to come.\nTargeted funding areas include:\n- Down payment assistance programs\n- Housing counseling, tenant stability, and anti-displacement efforts\n- Housing repair and energy efficiency programs\n- Transitional housing\nCommunity Resilience We strengthen community resilience by promoting education, workforce development, and essential services that enable economic participation, laying the foundation for strong, vibrant futures. Targeted funding areas include: Youth development and workforce readiness Food security and community health Nonprofit capacity building, infrastructure and leadership programs Climate and disaster resilience initiatives\n## Community Resilience\nWe strengthen community resilience by promoting education, workforce development, and essential services that enable economic participation, laying the foundation for strong, vibrant futures.\n- Youth development and workforce readiness\n- Food security and community health\n- Nonprofit capacity building, infrastructure and leadership programs\n- Climate and disaster resilience initiatives\nBeginning in 2026, philanthropic investments and grants through the Columbia Bank Community Impact Fund will be by invitation only , with the emphasis on strong, current associate volunteer engagement and clear strategic alignment with our Priority Focus Areas. We are unable to accept unsolicited grant requests or Letters of Intent from nonprofit organizations, and there are no open grant application cycles. To learn about additional ways Columbia Bank supports your community, check out our Community Impact & Engagement Overview. Community Impact & Engagement Overview\nBeginning in 2026, philanthropic investments and grants through the Columbia Bank Community Impact Fund will be by invitation only , with the emphasis on strong, current associate volunteer engagement and clear strategic alignment with our Priority Focus Areas. We are unable to accept unsolicited grant requests or Letters of Intent from nonprofit organizations, and there are no open grant application cycles. To learn about additional ways Columbia Bank supports your community, check out our Community Impact & Engagement Overview.\nCommunity Impact & Engagement Overview\nSharing our Time and Talent Through our gold-standard Connect Volunteer Network , our associates (employees) receive up to 40 hours of paid volunteer time, lending more than 30,000 hours of their time every year. Some of the ways our associates help in the communities we serve include: Personal Financial Education Board/Committee Service Technical Assistance Small Business Financial Education To reward our most-active associate volunteers, we have the Dollars for Doers Program , which supports associates who consistently give back to their communities and the nonprofits they serve. Associates who record 40 eligible volunteer hours in the Community Impact Hub within one calendar year are eligible to receive a $500 donation to the nonprofit of their choice. In addition, Columbia Bank, through the Associate Giving Match Program , empowers associates to support their favorite nonprofits through personal charitable donations. The Columbia Bank Community Impact Fund offers all associates a $1,000 matching gift to match our associate\u2019s generosity.\n## Sharing our Time and Talent\nThrough our gold-standard Connect Volunteer Network , our associates (employees) receive up to 40 hours of paid volunteer time, lending more than 30,000 hours of their time every year. Some of the ways our associates help in the communities we serve include:\n- Personal Financial Education\n- Board/Committee Service\n- Technical Assistance\n- Small Business Financial Education\nTo reward our most-active associate volunteers, we have the Dollars for Doers Program , which supports associates who consistently give back to their communities and the nonprofits they serve. Associates who record 40 eligible volunteer hours in the Community Impact Hub within one calendar year are eligible to receive a $500 donation to the nonprof",
+        "title": "Community Partnerships | Columbia Bank",
+        "anchor_text": "homepage",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 44297,
+        "fetch_method": "playwright",
+        "truncated": true
+      }
+    ],
+    "top_grants": [
+      {
+        "recipient": "KIVA MICROFUNDS",
+        "state": "CA",
+        "amount": 1000000.0,
+        "purpose": "Umpqua Bank Managed Loan Fund",
+        "year": 2021
+      },
+      {
+        "recipient": "LOCAL INITIATIVES SUPPORT CORPORATION",
+        "state": "NY",
+        "amount": 500000.0,
+        "purpose": "Advance Equity, Address Barriers to Homeownership",
+        "year": 2022
+      },
+      {
+        "recipient": "The Blackbaud Giving Fund",
+        "state": "SC",
+        "amount": 212516.0,
+        "purpose": "Dec 2021-Nov 2022",
+        "year": 2022
+      },
+      {
+        "recipient": "CENTRO COMMUNITY PARTNERS",
+        "state": "CA",
+        "amount": 175000.0,
+        "purpose": "Microenterprise Ecosystem Development and Access t",
+        "year": 2021
+      },
+      {
+        "recipient": "SEATTLE ECONOMIC DEVELOPMENT FUND",
+        "state": "WA",
+        "amount": 150000.0,
+        "purpose": "Loan Readiness Center",
+        "year": 2022
+      },
+      {
+        "recipient": "CENTRO COMMUNITY PARTNERS",
+        "state": "CA",
+        "amount": 150000.0,
+        "purpose": "Microenterprise Ecosystem Development and Access t",
+        "year": 2022
+      },
+      {
+        "recipient": "Mary Bridge Childrens Foundation",
+        "state": "WA",
+        "amount": 150000.0,
+        "purpose": "Mary Bridge Children's Hospital Wonder Project",
+        "year": 2024
+      },
+      {
+        "recipient": "SEATTLE ECONOMIC DEVELOPMENT FUND",
+        "state": "WA",
+        "amount": 150000.0,
+        "purpose": "Loan Readiness Center",
+        "year": 2021
+      },
+      {
+        "recipient": "SEATTLE ECONOMIC DEVELOPMENT FUND",
+        "state": "WA",
+        "amount": 150000.0,
+        "purpose": "Loan Readiness Center",
+        "year": 2023
+      },
+      {
+        "recipient": "Metropolitan Family Service",
+        "state": "OR",
+        "amount": 133000.0,
+        "purpose": "Transforming Community through Economic Empowerment",
+        "year": 2020
+      },
+      {
+        "recipient": "CENTRO COMMUNITY PARTNERS",
+        "state": "CA",
+        "amount": 125000.0,
+        "purpose": "Microenterprise Ecosystem Development and Access to Capital for Women and Minority Entrepreneurs",
+        "year": 2023
+      },
+      {
+        "recipient": "The Blackbaud Giving Fund",
+        "state": "SC",
+        "amount": 114894.0,
+        "purpose": "Q4 2020",
+        "year": 2021
+      },
+      {
+        "recipient": "American Red Cross - Cascades Region",
+        "state": "MA",
+        "amount": 100000.0,
+        "purpose": "American Red Cross Disaster Response",
+        "year": 2023
+      },
+      {
+        "recipient": "FINANCIAL BEGINNINGS",
+        "state": "OR",
+        "amount": 100000.0,
+        "purpose": "Funds from the Umpqua Bank Charitable Foundation will support Financial Beginnings' mission and ability to deliver high-quality and equitable financial empowerment education to our nearly 30,000 learners annually.",
+        "year": 2024
+      },
+      {
+        "recipient": "Tacoma Housing Development Group",
+        "state": "WA",
+        "amount": 100000.0,
+        "purpose": "Whole Family Support",
+        "year": 2020
+      },
+      {
+        "recipient": "REBUILDING TOGETHER SOUTH SOUND",
+        "state": "WA",
+        "amount": 100000.0,
+        "purpose": "Umpqua Bank has an opportunity to support our growing organization as we 1) create a more sustainable and thriving organization, 2) continue outreach into under-resourced communities, and 3) provide our clients with resources and relationships which can create more stability and sustainability in al",
+        "year": 2023
+      },
+      {
+        "recipient": "Alchemist CDC",
+        "state": "CA",
+        "amount": 100000.0,
+        "purpose": "Alchemist Kitchen",
+        "year": 2020
+      },
+      {
+        "recipient": "PORTLAND WORKFORCE ALLIANCE",
+        "state": "OR",
+        "amount": 100000.0,
+        "purpose": "With this investment from Umpqua Bank, PWA will build its capacity and infrastructure to integrate financial literacy into its career development programming, with a focus on high school students from underrepresented, marginalized and under-resourced communities. Our primary goal is to educate and ",
+        "year": 2023
+      },
+      {
+        "recipient": "MICRO ENTERPRISE SERVICES OF OREGON",
+        "state": "OR",
+        "amount": 100000.0,
+        "purpose": "MESO Program Expansion to Bring Technical Assistan Assistance and Access to Capital to BIPOC entrepreneurs in Southern Oregon",
+        "year": 2022
+      },
+      {
+        "recipient": "Umpqua Community Development Corporation",
+        "state": "OR",
+        "amount": 100000.0,
+        "purpose": "Prosperidad, Flexibilidad y Recuperacin Financiera",
+        "year": 2020
+      }
+    ],
+    "pf_grants": [
+      {
+        "recipient": "LAKE COUNTY ECONOMIC DEVELOPMENT CORPORATION",
+        "state": "CA",
+        "amount": 5000.0,
+        "purpose": "Lake EDC's Small Business Development Center",
+        "year": 2022
+      },
+      {
+        "recipient": "LAKE COUNTY ECONOMIC DEVELOPMENT CORPORATION",
+        "state": "CA",
+        "amount": 3500.0,
+        "purpose": "Lake EDC's Small Business Development Center",
+        "year": 2021
+      },
+      {
+        "recipient": "REAP Inc",
+        "state": "OR",
+        "amount": 4000.0,
+        "purpose": "COVID-19 Relief and Recovery",
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "ein": "205702192",
+    "name": "Deacon Charitable Foundation",
+    "base_url": "https://www.deaconcharitablefoundation.org",
+    "tier": 3,
+    "crawl_status": "completed",
+    "total_pages_crawled": 33,
+    "total_chars_raw": 110805,
+    "chars_for_analysis": 50000,
+    "pages_for_analysis": 4,
+    "grant_pages_found": 15,
+    "pdfs_found": [
+      {
+        "url": "https://www.deaconcharitablefoundation.org/s/DCF-AnnualReport_2025.pdf",
+        "anchor": "Open PDF",
+        "source": "https://www.deaconcharitablefoundation.org/about"
+      },
+      {
+        "url": "https://www.deaconcharitablefoundation.org/s/DCF-AnnualReport-FY2024.pdf",
+        "anchor": "Open PDF",
+        "source": "https://www.deaconcharitablefoundation.org/about"
+      },
+      {
+        "url": "https://www.deaconcharitablefoundation.org/s/Deacon-Charitable-Foundation-Annual-Report-FY23.pdf",
+        "anchor": "Open PDF",
+        "source": "https://www.deaconcharitablefoundation.org/about"
+      },
+      {
+        "url": "https://www.deaconcharitablefoundation.org/s/Deacon-DCF-Annual-Report-2022h-WEB.pdf",
+        "anchor": "Open PDF",
+        "source": "https://www.deaconcharitablefoundation.org/about"
+      },
+      {
+        "url": "https://www.deaconcharitablefoundation.org/wp-content/uploads/2022/06/2-DCF-Annual-Report-2021.pdf",
+        "anchor": "Open PDF",
+        "source": "https://www.deaconcharitablefoundation.org/about"
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://www.deaconcharitablefoundation.org/support-guidelines",
+        "final_url": "https://www.deaconcharitablefoundation.org/support-guidelines",
+        "page_type": "guidelines",
+        "priority": 1,
+        "depth": 1,
+        "text": "0 Skip to Content About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu Folder: About Back About History Folder: Grant Applications Back How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Support Guidelines Grants are awarded for a wide array of activities that serve children and families, teens, seniors, and veterans including: hunger, health, affordable housing, and education. We also support organizations dedicated to conservation and preserving the environment and animal protection. Our giving is guided by the interests of our employees. Our grants generally range from $1,000 to $10,000 and may be used to fund many kinds of projects, including core operating support, strengthening organizations, specific program development, and building and renovating facilities. Applications are reviewed by the Giving Committee of the Deacon office closest to the services provided by the applicant. If the proposal passes the initial review, a member of the committee may contact you directly to schedule a site visit or presentation to the Giving Committee. Final decisions on all grant requests are made by the Giving Committee in each Deacon office. The review process usually takes 60 days or less. At this time, grant applications are accepted by invitation only . Invited organizations submit their application below. Please contact your local Giving Committee Leaders with any questions. How to apply Even if your organization is not invited to submit an application for funding by our foundation this year, we encourage you to check commongrantapplication.com for other funding opportunities that may fit with your organization. Is Your Organization Eligible? To be eligible to apply for a Deacon Charitable Foundation grant, organizations must: Have 501(c)(3) tax-exempt status and a valid Tax Exempt ID number. Request support for work in Washington, Oregon, or California. Note: programs that serve communities close to the Deacon offices, located in Seattle, Portland, Sacramento, and Pleasanton, will have the greatest chance of being funded. Have programs serving at least one of the focus areas established by our employees: \u2013 Community i. Children/Families ii. Domestic Violence iii. Hunger iv. Housing/Homelessness \u2013 Arts/Education i. School Programs ii. Art Enrichment Programs \u2013 Animal Welfare/Environment i. Animals ii. Environment \u2013 Health i. Medical ii. Seniors iii. Veterans Provide equal opportunity to all qualified individuals in leadership, staffing and service, regardless of race, color, citizenship status, national origin, ancestry, gender, sexual orientation, age, religion, creed, physical or mental disability, gender identity, marital status, veteran status, or any other status protected by law. Not require attendance at or participation in religious/faith activities as a condition of service delivery nor require adherence to religious/faith beliefs as a condition of service or employment. Have no other pending proposals under consideration by the Deacon Charitable Foundation (only one application from an organization will be considered at one time). The Deacon Charitable Foundation generally does not fund the following: Direct grants, scholarships, or loans to individuals Endowments General fund drives, annual appeals, special events, or sponsorships Elimination of operating deficits Projects of sectarian or religious organizations that principally benefit their own members or adherents Direct replacement funding for activities previously supported by federal, state, or local public sources Grantee cannot expend any part of the grant in a way that violates its tax-exempt status Political parties and trade associations Organizations that discriminate by race, creed, gender, sexual orientation, age, religion or national origin, disability, or veteran status Advertising and promotion Team sponsorships or individual teams Private or family foundations Evaluation Guidelines The Deacon Charitable Foundation does not require a formal evaluation report. However, we are always grateful for a qualitative description or the impact we have had on your program, and if you would like to receive funding from us in future years, we will be checking to see whether we received information from you about the impact we had in previous years. Our charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment. @Deaconcharitablefoundation FAQ Annual Reports Deacon Construction EIN: 20-5702192\nSkip to Content About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact\nAbout About History\nAbout\nAbout History\nHistory\nGrant Applications How to Apply Support Guidelines In-Kind Work\nGrant Applications\nHow to Apply Support Guidelines In-Kind Work\nHow to Apply\nSupport Guidelines\nIn-Kind Work\nEmployee Involvement\nContact\nOpen Menu Close Menu\nOpen Menu\nClose Menu\nFolder: About Back About History Folder: Grant Applications Back How to Apply Support Guidelines In-Kind Work Employee Involvement Contact\nFolder: About\nFolder:\nBack About History\nBack\nFolder: Grant Applications\nBack How to Apply Support Guidelines In-Kind Work\nSupport Guidelines Grants are awarded for a wide array of activities that serve children and families, teens, seniors, and veterans including: hunger, health, affordable housing, and education. We also support organizations dedicated to conservation and preserving the environment and animal protection. Our giving is guided by the interests of our employees. Our grants generally range from $1,000 to $10,000 and may be used to fund many kinds of projects, including core operating support, strengthening organizations, specific program development, and building and renovating facilities. Applications are reviewed by the Giving Committee of the Deacon office closest to the services provided by the applicant. If the proposal passes the initial review, a member of the committee may contact you directly to schedule a site visit or presentation to the Giving Committee. Final decisions on all grant requests are made by the Giving Committee in each Deacon office. The review process usually takes 60 days or less. At this time, grant applications are accepted by invitation only . Invited organizations submit their application below. Please contact your local Giving Committee Leaders with any questions. How to apply Even if your organization is not invited to submit an application for funding by our foundation this year, we encourage you to check commongrantapplication.com for other funding opportunities that may fit with your organization. Is Your Organization Eligible? To be eligible to apply for a Deacon Charitable Foundation grant, organizations must: Have 501(c)(3) tax-exempt status and a valid Tax Exempt ID number. Request support for work in Washington, Oregon, or California. Note: programs that serve communities close to the Deacon offices, located in Seattle, Portland, Sacramento, and Pleasanton, will have the greatest chance of being funded. Have programs serving at least one of the focus areas established by our employees: \u2013 Community i. Children/Families ii. Domestic Violence iii. Hunger iv. Housing/Homelessness \u2013 Arts/Education i. School Programs ii. Art Enrichment Programs \u2013 Animal Welfare/Environment i. Animals ii. Environment \u2013 Health i. Medical ii. Seniors iii. Veterans Provide equal opportunity to all qualified individuals in leadership, staffing and service, regardless of race, color, citizenship status, national origin, ancestry, gender, sexual orientation, age, religion, creed, physical or mental disability, gender identity, marital status, veteran status, or any other status protected by law. Not require attendance at or participation in religious/faith activities as a condition of service delivery nor require adherence to religious/faith beliefs as a condition of service or employment. Have no other pending proposals under consideration by the Deacon Charitable Foundation (only one application from an organization will be considered at one time). The Deacon Charitable Foundation generally does not fund the following: Direct grants, scholarships, or loans to individuals Endowments General fund drives, annual appeals, special events, or sponsorships Elimination of operating deficits Projects of sectarian or religious organizations that principally benefit their own members or adherents Direct replacement funding for activities previously supported by federal, state, or local public sources Grantee cannot expend any part of the grant in a way that violates its tax-exempt status Political parties and trade associations Organizations that discriminate by race, creed, gender, sexual orientation, age, religion or national origin, disability, or veteran status Advertising and promotion Team sponsorships or individual teams Private or family foundations Evaluation Guidelines The Deacon Charitable Foundation does not require a formal evaluation report. However, we are always grateful for a qualitative description or the impact we have had on your program, and if you would like to receive funding from us in future years, we will be checking to see whether we received information from you about the impact we had in previous years. Our charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment. @Deaconcharitablefoundation\n## Support Guidelines\nGrants are awarded for a wide array of activities that serve children and families, teens, seniors, and veterans including: hunger, health, affordable housing, and education. We also support organizations dedicated to conservation and preserving the environment and animal protection. Our giving is guided by the interests of our employees. Our grants generally range from $1,000 to $10,000 and may be used to fund many kinds of projects, including core operating support, strengthening organizations, specific program development, and building and renovating facilities. Applications are reviewed by the Giving Committee of the Deacon office closest to the services provided by the applicant. If the proposal passes the initial review, a member of the committee may contact you directly to schedule a site visit or presentation to the Giving Committee. Final decisions on all grant requests are made by the Giving Committee in each Deacon office. The review process usually takes 60 days or less. At this time, grant applications are accepted by invitation only . Invited organizations submit their application below. Please contact your local Giving Committee Leaders with any questions. How to apply Even if your organization is not invited to submit an application for funding by our foundation this year, we encourage you to check commongrantapplication.com for other funding opportunities that may fit with your organization. Is Your Organization Eligible? To be eligible to apply for a Deacon Charitable Foundation grant, organizations must: Have 501(c)(3) tax-exempt status and a valid Tax Exempt ID number. Request support for work in Washington, Oregon, or California. Note: programs that serve communities close to the Deacon offices, located in Seattle, Portland, Sacramento, and Pleasanton, will have the greatest chance of being funded. Have programs serving at least one of the focus areas established by our employees: \u2013 Community i. Children/Families ii. Domestic Violence iii. Hunger iv. Housing/Homelessness \u2013 Arts/Education i. School Programs ii. Art Enrichment Programs \u2013 Animal Welfare/Environment i. Animals ii. Environment \u2013 Health i. Medical ii. Seniors iii. Veterans Provide equal opportunity to all qualified individuals in leadership, staffing and service, regardless of race, color, citizenship status, national origin, ancestry, gender, sexual orientation, age, religion, creed, physical or mental disability, gender identity, marital status, veteran status, or any other status protected by law. Not require attendance at or participation in religious/faith activities as a condition of service delivery nor require adherence to religious/faith beliefs as a condition of service or employment. Have no other pending proposals under consideration by the Deacon Charitable Foundation (only one application from an organization will be considered at one time). The Deacon Charitable Foundation generally does not fund the following: Direct grants, scholarships, or loans to individuals Endowments General fund drives, annual appeals, special events, or sponsorships Elimination of operating deficits Projects of sectarian or religious organizations that principally benefit their own members or adherents Direct replacement funding for activities previously supported by federal, state, or local public sources Grantee cannot expend any part of the grant in a way that violates its tax-exempt status Political parties and trade associations Organizations that discriminate by race, creed, gender, sexual orientation, age, religion or national origin, disability, or veteran status Advertising and promotion Team sponsorships or individual teams Private or family foundations Evaluation Guidelines The Deacon Charitable Foundation does not require a formal evaluation report. However, we are always grateful for a qualitative description or the impact we have had on your program, and if you would like to receive funding from us in future years, we will be checking to see whether we received information from you about the impact we had in previous years.\nGrants are awarded for a wide array of activities that serve children and families, teens, seniors, and veterans including: hunger, health, affordable housing, and education. We also support organizations dedicated to conservation and preserving the environment and animal protection. Our giving is guided by the interests of our employees. Our grants generally range from $1,000 to $10,000 and may be used to fund many kinds of projects, including core operating support, strengthening organizations, specific program development, and building and renovating facilities. Applications are reviewed by the Giving Committee of the Deacon office closest to the services provided by the applicant. If the proposal passes the initial review, a member of the committee may contact you directly to schedule a site visit or presentation to the Giving Committee. Final decisions on all grant requests are made by the Giving Committee in each Deacon office. The review process usually takes 60 days or less. At this time, grant applications are accepted by invitation only . Invited organizations submit their application below. Please contact your local Giving Committee Leaders with any questions.\nGrants are awarded for a wide array of activities that serve children and families, teens, seniors, and veterans including: hunger, health, affordable housing, and education. We also support organizations dedicated to conservation and preserving the environment and animal protection. Our giving is guided by the interests of our employees.\nOur grants generally range from $1,000 to $10,000 and may be used to fund many kinds of projects, including core operating support, strengthening organizations, specific program development, and building and renovating facilities.\nApplications are reviewed by the Giving Committee of the Deacon office closest to the services provided by the applicant. If the proposal passes the initial review, a member of the committee may contact you directly to schedule a site visit or presentation to the Giving Committee. Final decisions on all grant requests are made by the Giving Committee in each Deacon office. The review process usually takes 60 days or less.\nAt this time, grant applications are accepted by invitation only . Invited organizations submit their application below. Please contact your local Giving Committee Leaders with any questions.\ncontact your local\nGiving Committee Leaders\nwith any questions.\nHow to apply\nEven if your organization is not invited to submit an application for funding by our foundation this year, we encourage you to check commongrantapplication.com for other funding opportunities that may fit with your organization.\nEven if your organization is not invited to submit an application for funding by our foundation this year, we encourage you to check\ncommongrantapplication.com\nfor other funding opportunities that may fit with your organization.\nIs Your Organization Eligible?\n## Is Your Organization Eligible?\nTo be eligible to apply for a Deacon Charitable Foundation grant, organizations must: Have 501(c)(3) tax-exempt status and a valid Tax Exempt ID number. Request support for work in Washington, Oregon, or California. Note: programs that serve communities close to the Deacon offices, located in Seattle, Portland, Sacramento, and Pleasanton, will have the greatest chance of being funded. Have programs serving at least one of the focus areas established by our employees: \u2013 Community i. Children/Families ii. Domestic Violence iii. Hunger iv. Housing/Homelessness \u2013 Arts/Education i. School Programs ii. Art Enrichment Programs \u2013 Animal Welfare/Environment i. Animals ii. Environment \u2013 Health i. Medical ii. Seniors iii. Veterans Provide equal opportunity to all qualified individuals in leadership, staffing and service, regardless of race, color, citizenship status, national origin, ancestry, gender, sexual orientation, age, religion, creed, physical or mental disability, gender identity, marital status, veteran status, or any other status protected by law. Not require attendance at or participation in religious/faith activities as a condition of service delivery nor require adherence to religious/faith beliefs as a condition of service or employment. Have no other pending proposals under consideration by the Deacon Charitable Foundation (only one application from an organization will be considered at one time). The Deacon Charitable Foundation generally does not fund the following: Direct grants, scholarships, or loans to individuals Endowments General fund drives, annual appeals, special events, or sponsorships Elimination of operating deficits Projects of sectarian or religious organizations that principally benefit their own members or adherents Direct replacement funding for activities previously supported by federal, state, or local public sources Grantee cannot expend any part of the grant in a way that violates its tax-exempt status Political parties and trade associations Organizations that discriminate by race, creed, gender, sexual orientation, age, religion or national origin, disability, or veteran status Advertising and promotion Team sponsorships or individual teams Private or family foundations\nTo be eligible to apply for a Deacon Charitable Foundation grant, organizations must:\n- Have 501(c)(3) tax-exempt status and a valid Tax Exempt ID number.\nHave 501(c)(3) tax-exempt status and a valid Tax Exempt ID number.\n- Request support for work in Washington, Oregon, or California. Note: programs that serve communities close to the Deacon offices, located in Seattle, Portland, Sacramento, and Pleasanton, will have the greatest chance of being funded.\nRequest support for work in Washington, Oregon, or California. Note: programs that serve communities close to the Deacon offices, located in Seattle, Portland, Sacramento, and Pleasanton, will have the greatest chance of being funded.\n- Have programs serving at least one of the focus areas established by our employees: \u2013 Community i. Children/Families ii. Domestic Violence iii. Hunger iv. Housing/Homelessness \u2013 Arts/Education i. School Programs ii. Art Enrichment Programs \u2013 Animal Welfare/Environment i. Animals ii. Environment \u2013 Health i. Medical ii. Seniors iii. Veterans\nHave programs serving at least one of the focus areas established by our employees: \u2013 Community i. Children/Families ii. Domestic Violence iii. Hunger iv. Housing/Homelessness \u2013 Arts/Education i. School Programs ii. Art Enrichment Programs \u2013 Animal Welfare/Environment i. Animals ii. Environment \u2013 Health i. Medical ii. Seniors iii. Veterans\n- Provide equal opportunity to all qualified individuals in leadership, staffing and service, regardless of race, color, citizenship status, national origin, ancestry, gender, sexual orientation, age, religion, creed, physical or mental disability, gender identity, marital status, veteran status, or any other status protected by law.\nProvide equal opportunity to all qualified individuals in leadership, staffing and service, regardless of race, color, citizenship status, national origin, ancestry, gender, sexual orientation, age, religion, creed, physical or mental disability, gender identity, marital status, veteran status, or any other status protected by law.\n- Not require attendance at or participation in religious/faith activities as a condition of service delivery nor require adherence to religious/faith beliefs as a condition of service or employment.\nNot require attendance at or participation in religious/faith activities as a condition of service delivery nor require adherence to religious/faith beliefs as a condition of service or employment.\n- Have no other pending proposals under consideration by the Deacon Charitable Foundation (only one application from an organization will be considered at one time).\nHave no other pending proposals under consideration by the Deacon Charitable Foundation (only one application from an organization will be considered at one time).\nThe Deacon Charitable Foundation generally does not fund the following:\n- Direct grants, scholarships, or loans to individuals\nDirect grants, scholarships, or loans to individuals\n- Endowments\nEndowments\n- General fund drives, annual appeals, special events, or sponsorships\nGeneral fund drives, annual appeals, special events, or sponsorships\n- Elimination of operating deficits\nElimination of operating deficits\n- Projects of sectarian or religious organizations that principally benefit their own members or adherents\nProjects of sectarian or religious organizations that principally benefit their own members or adherents\n- Direct replacement funding for activities previously supported by federal, state, or local public sources\nDirect replacement funding for activities previously supported by federal, state, or local public sources\n- Grantee cannot expend any part of the grant in a way that violates its tax-exempt status\nGrantee cannot expend any part of the grant in a way that violates its tax-exempt status\n- Political parties and trade associations\nPolitical parties and trade associations\n- Organizations that discriminate by race, creed, gender, sexual orientation, age, religion or national origin, disability, or veteran status\nOrganizations that discriminate by race, creed, gender, sexual orientation, age, religion or national origin, disability, or veteran status\n- Advertising and promotion\nAdvertising and promotion\n- Team sponsorships or individual teams\nTeam sponsorships or individual teams\n- Private or family foundations\nPrivate or family foundations\nEvaluation Guidelines\n## Evaluation Guidelines\nThe Deacon Charitable Foundation does not require a formal evaluation report. However, we are always grateful for a qualitative description or the impact we have had on your program, and if you would like to receive funding from us in future years, we will be checking to see whether we received information from you about the impact we had in previous years.\nOur charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment. @Deaconcharitablefoundation\nOur charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment.\n@Deaconcharitablefoundation\nFAQ Annual Reports Deacon Construction\nEIN: 20-5702192",
+        "title": "Support Guidelines \u2014 Deacon Charitable Foundation",
+        "anchor_text": "direct:/support-guidelines",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 25263,
+        "fetch_method": "aiohttp"
+      },
+      {
+        "url": "https://www.deaconcharitablefoundation.org/how-to-apply",
+        "final_url": "https://www.deaconcharitablefoundation.org/how-to-apply",
+        "page_type": "application",
+        "priority": 1,
+        "depth": 1,
+        "text": "0 Skip to Content About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu Folder: About Back About History Folder: Grant Applications Back How to Apply Support Guidelines In-Kind Work Employee Involvement Contact How to Apply The Deacon Charitable Foundation provides support in the form of grants or in-kind donations to a variety of nonprofit agencies and community programs throughout Washington, Oregon and California in the overall focus areas of human services, animal welfare, and environmental protection. If you are interested in being considered for support from the Deacon Charitable Foundation,\u00a0please review our Support Guidelines. Support Guidelines Application Process Summary 1 Carefully review our Support Guidelines to see if you are eligible 2 Sign up with the Common Grant Application 3 Contact the Giving Committee closest to your organization Next Steps Communication from the local Committee: The local committee will respond to your inquiry, providing information and confirming receipt. Grant Application Invitation: Committee leads will notify you once a Grant Application Invitation is sent to you through the Common Grant platform. Our charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment. @Deaconcharitablefoundation FAQ Annual Reports Deacon Construction EIN: 20-5702192\nSkip to Content About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact\nAbout About History\nAbout\nAbout History\nHistory\nGrant Applications How to Apply Support Guidelines In-Kind Work\nGrant Applications\nHow to Apply Support Guidelines In-Kind Work\nHow to Apply\nSupport Guidelines\nIn-Kind Work\nEmployee Involvement\nContact\nOpen Menu Close Menu\nOpen Menu\nClose Menu\nFolder: About Back About History Folder: Grant Applications Back How to Apply Support Guidelines In-Kind Work Employee Involvement Contact\nFolder: About\nFolder:\nBack About History\nBack\nFolder: Grant Applications\nBack How to Apply Support Guidelines In-Kind Work\nHow to Apply The Deacon Charitable Foundation provides support in the form of grants or in-kind donations to a variety of nonprofit agencies and community programs throughout Washington, Oregon and California in the overall focus areas of human services, animal welfare, and environmental protection. If you are interested in being considered for support from the Deacon Charitable Foundation,\u00a0please review our Support Guidelines. Support Guidelines Application Process Summary 1 Carefully review our Support Guidelines to see if you are eligible 2 Sign up with the Common Grant Application 3 Contact the Giving Committee closest to your organization Next Steps Communication from the local Committee: The local committee will respond to your inquiry, providing information and confirming receipt. Grant Application Invitation: Committee leads will notify you once a Grant Application Invitation is sent to you through the Common Grant platform. Our charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment. @Deaconcharitablefoundation\n## How to Apply\nThe Deacon Charitable Foundation provides support in the form of grants or in-kind donations to a variety of nonprofit agencies and community programs throughout Washington, Oregon and California in the overall focus areas of human services, animal welfare, and environmental protection. If you are interested in being considered for support from the Deacon Charitable Foundation,\u00a0please review our Support Guidelines. Support Guidelines\nThe Deacon Charitable Foundation provides support in the form of grants or in-kind donations to a variety of nonprofit agencies and community programs throughout Washington, Oregon and California in the overall focus areas of human services, animal welfare, and environmental protection. If you are interested in being considered for support from the Deacon Charitable Foundation,\u00a0please review our Support Guidelines.\nApplication Process Summary 1 Carefully review our Support Guidelines to see if you are eligible 2 Sign up with the Common Grant Application 3 Contact the Giving Committee closest to your organization\nApplication Process Summary\n## Application Process Summary\n1 Carefully review our Support Guidelines to see if you are eligible\nCarefully review our Support Guidelines to see if you are eligible\n2 Sign up with the Common Grant Application\nSign up with the Common Grant Application\n3 Contact the Giving Committee closest to your organization\nContact the Giving Committee closest to your organization\nNext Steps Communication from the local Committee: The local committee will respond to your inquiry, providing information and confirming receipt. Grant Application Invitation: Committee leads will notify you once a Grant Application Invitation is sent to you through the Common Grant platform.\nNext Steps\n## Next Steps\nCommunication from the local Committee: The local committee will respond to your inquiry, providing information and confirming receipt.\nGrant Application Invitation: Committee leads will notify you once a Grant Application Invitation is sent to you through the Common Grant platform.\nOur charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment. @Deaconcharitablefoundation\nOur charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment.\n@Deaconcharitablefoundation\nFAQ Annual Reports Deacon Construction\nEIN: 20-5702192",
+        "title": "How to Apply \u2014 Deacon Charitable Foundation",
+        "anchor_text": "direct:/how-to-apply",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 6934,
+        "fetch_method": "aiohttp"
+      },
+      {
+        "url": "https://www.deaconcharitablefoundation.org/grant-applications",
+        "final_url": "https://www.deaconcharitablefoundation.org/how-to-apply",
+        "page_type": "application",
+        "priority": 1,
+        "depth": 1,
+        "text": "0 Skip to Content About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu Folder: About Back About History Folder: Grant Applications Back How to Apply Support Guidelines In-Kind Work Employee Involvement Contact How to Apply The Deacon Charitable Foundation provides support in the form of grants or in-kind donations to a variety of nonprofit agencies and community programs throughout Washington, Oregon and California in the overall focus areas of human services, animal welfare, and environmental protection. If you are interested in being considered for support from the Deacon Charitable Foundation,\u00a0please review our Support Guidelines. Support Guidelines Application Process Summary 1 Carefully review our Support Guidelines to see if you are eligible 2 Sign up with the Common Grant Application 3 Contact the Giving Committee closest to your organization Next Steps Communication from the local Committee: The local committee will respond to your inquiry, providing information and confirming receipt. Grant Application Invitation: Committee leads will notify you once a Grant Application Invitation is sent to you through the Common Grant platform. Our charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment. @Deaconcharitablefoundation FAQ Annual Reports Deacon Construction EIN: 20-5702192\nSkip to Content About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact\nAbout About History\nAbout\nAbout History\nHistory\nGrant Applications How to Apply Support Guidelines In-Kind Work\nGrant Applications\nHow to Apply Support Guidelines In-Kind Work\nHow to Apply\nSupport Guidelines\nIn-Kind Work\nEmployee Involvement\nContact\nOpen Menu Close Menu\nOpen Menu\nClose Menu\nFolder: About Back About History Folder: Grant Applications Back How to Apply Support Guidelines In-Kind Work Employee Involvement Contact\nFolder: About\nFolder:\nBack About History\nBack\nFolder: Grant Applications\nBack How to Apply Support Guidelines In-Kind Work\nHow to Apply The Deacon Charitable Foundation provides support in the form of grants or in-kind donations to a variety of nonprofit agencies and community programs throughout Washington, Oregon and California in the overall focus areas of human services, animal welfare, and environmental protection. If you are interested in being considered for support from the Deacon Charitable Foundation,\u00a0please review our Support Guidelines. Support Guidelines Application Process Summary 1 Carefully review our Support Guidelines to see if you are eligible 2 Sign up with the Common Grant Application 3 Contact the Giving Committee closest to your organization Next Steps Communication from the local Committee: The local committee will respond to your inquiry, providing information and confirming receipt. Grant Application Invitation: Committee leads will notify you once a Grant Application Invitation is sent to you through the Common Grant platform. Our charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment. @Deaconcharitablefoundation\n## How to Apply\nThe Deacon Charitable Foundation provides support in the form of grants or in-kind donations to a variety of nonprofit agencies and community programs throughout Washington, Oregon and California in the overall focus areas of human services, animal welfare, and environmental protection. If you are interested in being considered for support from the Deacon Charitable Foundation,\u00a0please review our Support Guidelines. Support Guidelines\nThe Deacon Charitable Foundation provides support in the form of grants or in-kind donations to a variety of nonprofit agencies and community programs throughout Washington, Oregon and California in the overall focus areas of human services, animal welfare, and environmental protection. If you are interested in being considered for support from the Deacon Charitable Foundation,\u00a0please review our Support Guidelines.\nApplication Process Summary 1 Carefully review our Support Guidelines to see if you are eligible 2 Sign up with the Common Grant Application 3 Contact the Giving Committee closest to your organization\nApplication Process Summary\n## Application Process Summary\n1 Carefully review our Support Guidelines to see if you are eligible\nCarefully review our Support Guidelines to see if you are eligible\n2 Sign up with the Common Grant Application\nSign up with the Common Grant Application\n3 Contact the Giving Committee closest to your organization\nContact the Giving Committee closest to your organization\nNext Steps Communication from the local Committee: The local committee will respond to your inquiry, providing information and confirming receipt. Grant Application Invitation: Committee leads will notify you once a Grant Application Invitation is sent to you through the Common Grant platform.\nNext Steps\n## Next Steps\nCommunication from the local Committee: The local committee will respond to your inquiry, providing information and confirming receipt.\nGrant Application Invitation: Committee leads will notify you once a Grant Application Invitation is sent to you through the Common Grant platform.\nOur charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment. @Deaconcharitablefoundation\nOur charitable mission is to improve the quality of life in the communities where we live or work by supporting organizations that address vital community needs and issues in the areas of human services, animal welfare, and the environment.\n@Deaconcharitablefoundation\nFAQ Annual Reports Deacon Construction\nEIN: 20-5702192",
+        "title": "How to Apply \u2014 Deacon Charitable Foundation",
+        "anchor_text": "Folder:Grant Applications",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 6934,
+        "fetch_method": "aiohttp"
+      },
+      {
+        "url": "https://www.deaconcharitablefoundation.org/faq",
+        "final_url": "https://www.deaconcharitablefoundation.org/faq",
+        "page_type": "faq",
+        "priority": 1,
+        "depth": 1,
+        "text": "0 Skip to Content About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu Folder: About Back About History Folder: Grant Applications Back How to Apply Support Guidelines In-Kind Work Employee Involvement Contact FAQ Employee\u2193 Non-Profit\u2193 Employee FAQ Q: How do I get my donation matched? A:\u00a0 Send the receipt to Veronica Wences - it\u2019s that easy! Q:\u00a0 I don\u2019t have time to volunteer but my kids do \u2013 and my spouse does. A:\u00a0 Great! That counts! Ask us how we can help get that effort matched by the Foundation. There is a simple form to fill out - that\u2019s all! Q:\u00a0 I do a lot of volunteer work on my own but not through the company\u2026. A:\u00a0 Terrific! We really value that and would like to know more about what you do. Maybe you could become a \u201cDeacon Community Go-Giver\u201d and help your charity even more! Q: Does the Foundation match GoFund me donations? A: Depends. If the donation is made to GoFundMe.org it is matchable because it is a\u00a0501c3 public charity. Donations made to personal GoFundMe fundraisers may not be matched. Q: If I buy toys for a drive, can I submit my receipt to be matched? A: No, only financial donations made directly to the nonprofit organizations are matched. Q: Where do I find organizations to donate to? A: Contact your local Giving Committee for suggestions or use Charity Navigator to find organizations in the focus area you are passionate about. Q: Is In-kind support only for nonprofits? A: No, employees can identify a need in the community and submit it to the giving leads in each office. Non-Profit FAQ Q: Does The Deacon Charitable Foundation use Grant management software? A: Yes, All grant applications are managed with Common Grant Application (CGA), and nonprofits are required to sign up at commongrantapplication.com to be considered for a grant. This has the added benefit of enabling each nonprofit to find multiple funders on the CGA site. Q: When are Grants made? A: Each local committee has separate dates, but grant season starts in the Spring of each year. Q: I have an In-Kind need; how do I apply? A: check out the In-Kind page and contact us! FAQ Annual Reports Deacon Construction EIN: 20-5702192\nSkip to Content About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu About About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact Open Menu Close Menu\nAbout About History Grant Applications How to Apply Support Guidelines In-Kind Work Employee Involvement Contact\nAbout About History\nAbout\nAbout History\nHistory\nGrant Applications How to Apply Support Guidelines In-Kind Work\nGrant Applications\nHow to Apply Support Guidelines In-Kind Work\nHow to Apply\nSupport Guidelines\nIn-Kind Work\nEmployee Involvement\nContact\nOpen Menu Close Menu\nOpen Menu\nClose Menu\nFolder: About Back About History Folder: Grant Applications Back How to Apply Support Guidelines In-Kind Work Employee Involvement Contact\nFolder: About\nFolder:\nBack About History\nBack\nFolder: Grant Applications\nBack How to Apply Support Guidelines In-Kind Work\nFAQ Employee\u2193 Non-Profit\u2193 Employee FAQ Q: How do I get my donation matched? A:\u00a0 Send the receipt to Veronica Wences - it\u2019s that easy! Q:\u00a0 I don\u2019t have time to volunteer but my kids do \u2013 and my spouse does. A:\u00a0 Great! That counts! Ask us how we can help get that effort matched by the Foundation. There is a simple form to fill out - that\u2019s all! Q:\u00a0 I do a lot of volunteer work on my own but not through the company\u2026. A:\u00a0 Terrific! We really value that and would like to know more about what you do. Maybe you could become a \u201cDeacon Community Go-Giver\u201d and help your charity even more! Q: Does the Foundation match GoFund me donations? A: Depends. If the donation is made to GoFundMe.org it is matchable because it is a\u00a0501c3 public charity. Donations made to personal GoFundMe fundraisers may not be matched. Q: If I buy toys for a drive, can I submit my receipt to be matched? A: No, only financial donations made directly to the nonprofit organizations are matched. Q: Where do I find organizations to donate to? A: Contact your local Giving Committee for suggestions or use Charity Navigator to find organizations in the focus area you are passionate about. Q: Is In-kind support only for nonprofits? A: No, employees can identify a need in the community and submit it to the giving leads in each office. Non-Profit FAQ Q: Does The Deacon Charitable Foundation use Grant management software? A: Yes, All grant applications are managed with Common Grant Application (CGA), and nonprofits are required to sign up at commongrantapplication.com to be considered for a grant. This has the added benefit of enabling each nonprofit to find multiple funders on the CGA site. Q: When are Grants made? A: Each local committee has separate dates, but grant season starts in the Spring of each year. Q: I have an In-Kind need; how do I apply? A: check out the In-Kind page and contact us!\nEmployee\u2193 Non-Profit\u2193 Employee FAQ Q: How do I get my donation matched? A:\u00a0 Send the receipt to Veronica Wences - it\u2019s that easy! Q:\u00a0 I don\u2019t have time to volunteer but my kids do \u2013 and my spouse does. A:\u00a0 Great! That counts! Ask us how we can help get that effort matched by the Foundation. There is a simple form to fill out - that\u2019s all! Q:\u00a0 I do a lot of volunteer work on my own but not through the company\u2026. A:\u00a0 Terrific! We really value that and would like to know more about what you do. Maybe you could become a \u201cDeacon Community Go-Giver\u201d and help your charity even more! Q: Does the Foundation match GoFund me donations? A: Depends. If the donation is made to GoFundMe.org it is matchable because it is a\u00a0501c3 public charity. Donations made to personal GoFundMe fundraisers may not be matched. Q: If I buy toys for a drive, can I submit my receipt to be matched? A: No, only financial donations made directly to the nonprofit organizations are matched. Q: Where do I find organizations to donate to? A: Contact your local Giving Committee for suggestions or use Charity Navigator to find organizations in the focus area you are passionate about. Q: Is In-kind support only for nonprofits? A: No, employees can identify a need in the community and submit it to the giving leads in each office. Non-Profit FAQ Q: Does The Deacon Charitable Foundation use Grant management software? A: Yes, All grant applications are managed with Common Grant Application (CGA), and nonprofits are required to sign up at commongrantapplication.com to be considered for a grant. This has the added benefit of enabling each nonprofit to find multiple funders on the CGA site. Q: When are Grants made? A: Each local committee has separate dates, but grant season starts in the Spring of each year. Q: I have an In-Kind need; how do I apply? A: check out the In-Kind page and contact us!\nEmployee\u2193 Non-Profit\u2193\n## Employee\u2193 Non-Profit\u2193\nNon-Profit\u2193\nEmployee FAQ Q: How do I get my donation matched? A:\u00a0 Send the receipt to Veronica Wences - it\u2019s that easy! Q:\u00a0 I don\u2019t have time to volunteer but my kids do \u2013 and my spouse does. A:\u00a0 Great! That counts! Ask us how we can help get that effort matched by the Foundation. There is a simple form to fill out - that\u2019s all! Q:\u00a0 I do a lot of volunteer work on my own but not through the company\u2026. A:\u00a0 Terrific! We really value that and would like to know more about what you do. Maybe you could become a \u201cDeacon Community Go-Giver\u201d and help your charity even more! Q: Does the Foundation match GoFund me donations? A: Depends. If the donation is made to GoFundMe.org it is matchable because it is a\u00a0501c3 public charity. Donations made to personal GoFundMe fundraisers may not be matched. Q: If I buy toys for a drive, can I submit my receipt to be matched? A: No, only financial donations made directly to the nonprofit organizations are matched. Q: Where do I find organizations to donate to? A: Contact your local Giving Committee for suggestions or use Charity Navigator to find organizations in the focus area you are passionate about. Q: Is In-kind support only for nonprofits? A: No, employees can identify a need in the community and submit it to the giving leads in each office.\nEmployee FAQ\nQ: How do I get my donation matched? A:\u00a0 Send the receipt to Veronica Wences - it\u2019s that easy!\nQ:\u00a0 I don\u2019t have time to volunteer but my kids do \u2013 and my spouse does. A:\u00a0 Great! That counts! Ask us how we can help get that effort matched by the Foundation. There is a simple form to fill out - that\u2019s all!\nQ:\u00a0 I do a lot of volunteer work on my own but not through the company\u2026. A:\u00a0 Terrific! We really value that and would like to know more about what you do. Maybe you could become a \u201cDeacon Community Go-Giver\u201d and help your charity even more!\nQ: Does the Foundation match GoFund me donations? A: Depends. If the donation is made to GoFundMe.org it is matchable because it is a\u00a0501c3 public charity. Donations made to personal GoFundMe fundraisers may not be matched.\nGoFundMe.org\nQ: If I buy toys for a drive, can I submit my receipt to be matched? A: No, only financial donations made directly to the nonprofit organizations are matched.\nQ: Where do I find organizations to donate to? A: Contact your local Giving Committee for suggestions or use Charity Navigator to find organizations in the focus area you are passionate about.\nQ: Is In-kind support only for nonprofits? A: No, employees can identify a need in the community and submit it to the giving leads in each office.\nNon-Profit FAQ Q: Does The Deacon Charitable Foundation use Grant management software? A: Yes, All grant applications are managed with Common Grant Application (CGA), and nonprofits are required to sign up at commongrantapplication.com to be considered for a grant. This has the added benefit of enabling each nonprofit to find multiple funders on the CGA site. Q: When are Grants made? A: Each local committee has separate dates, but grant season starts in the Spring of each year. Q: I have an In-Kind need; how do I apply? A: check out the In-Kind page and contact us!\nNon-Profit FAQ\nQ: Does The Deacon Charitable Foundation use Grant management software? A: Yes, All grant applications are managed with Common Grant Application (CGA), and nonprofits are r",
+        "title": "FAQ \u2014 Deacon Charitable Foundation",
+        "anchor_text": "direct:/faq",
+        "status": 200,
+        "content_type": "html",
+        "error": null,
+        "char_count": 10869,
+        "fetch_method": "aiohttp",
+        "truncated": true
+      }
+    ],
+    "top_grants": [
+      {
+        "recipient": "FRIENDSHIP ADVENTURES",
+        "state": "WA",
+        "amount": 13000.0,
+        "purpose": "EDUCATION",
+        "year": 2023
+      },
+      {
+        "recipient": "GROWING VETERANS",
+        "state": "WA",
+        "amount": 13000.0,
+        "purpose": "CHILDREN & FAMILIES",
+        "year": 2023
+      },
+      {
+        "recipient": "MONTLEY ZOO ANIMAL RESCUE",
+        "state": "WA",
+        "amount": 11000.0,
+        "purpose": "ANIMAL WELFARE",
+        "year": 2023
+      },
+      {
+        "recipient": "HART OF FOLSOM",
+        "state": "CA",
+        "amount": 11000.0,
+        "purpose": "HOUSING / HOMELESSNESS",
+        "year": 2021
+      },
+      {
+        "recipient": "MARY'S PLACE",
+        "state": "WA",
+        "amount": 10500.0,
+        "purpose": "CHILDREN & FAMILIES",
+        "year": 2023
+      },
+      {
+        "recipient": "ALL ANIMAL RESCUE & FRIENDS",
+        "state": "CA",
+        "amount": 10000.0,
+        "purpose": "ANIMAL WELFARE",
+        "year": 2022
+      },
+      {
+        "recipient": "UPPER ROOM DINING HALL",
+        "state": "CA",
+        "amount": 10000.0,
+        "purpose": "HUNGER",
+        "year": 2023
+      },
+      {
+        "recipient": "PLYMOUTH HOUSING",
+        "state": "WA",
+        "amount": 10000.0,
+        "purpose": "HOUSING",
+        "year": 2023
+      },
+      {
+        "recipient": "CASA FOR CHILDREN INC",
+        "state": "OR",
+        "amount": 10000.0,
+        "purpose": "CHILDREN & FAMILIES",
+        "year": 2023
+      },
+      {
+        "recipient": "FOSTERHOPE SACRAMENTO",
+        "state": "CA",
+        "amount": 10000.0,
+        "purpose": "CHILDREN & FAMILIES",
+        "year": 2022
+      },
+      {
+        "recipient": "FOSTERHOPE SACRAMENTO",
+        "state": "CA",
+        "amount": 10000.0,
+        "purpose": "CHILDREN & FAMILIES",
+        "year": 2018
+      },
+      {
+        "recipient": "MARY'S PLACE",
+        "state": "WA",
+        "amount": 10000.0,
+        "purpose": "HOUSING / HOMELESSNESS",
+        "year": 2018
+      },
+      {
+        "recipient": "CHILDREN'S CENTER",
+        "state": "OR",
+        "amount": 10000.0,
+        "purpose": "CHILDREN & FAMILIES",
+        "year": 2022
+      },
+      {
+        "recipient": "FOOD LIFELINE",
+        "state": "WA",
+        "amount": 10000.0,
+        "purpose": "HUNGER",
+        "year": 2022
+      },
+      {
+        "recipient": "BRIDGE RECEIVING CENTER",
+        "state": "WA",
+        "amount": 10000.0,
+        "purpose": "CHILDREN & FAMILIES",
+        "year": 2023
+      },
+      {
+        "recipient": "SKY VALLEY FOOD BANK",
+        "state": "WA",
+        "amount": 10000.0,
+        "purpose": "HUNGER",
+        "year": 2023
+      },
+      {
+        "recipient": "ROSE HAVEN",
+        "state": "OR",
+        "amount": 9000.0,
+        "purpose": "COMMUNITY",
+        "year": 2023
+      },
+      {
+        "recipient": "COMMUNITY TRANSITIONAL SCHOOL",
+        "state": "OR",
+        "amount": 9000.0,
+        "purpose": "ARTS/EDUCATION",
+        "year": 2023
+      },
+      {
+        "recipient": "COMMUNITY TRANSITIONAL SCHOOL",
+        "state": "OR",
+        "amount": 9000.0,
+        "purpose": "CHILDREN & FAMILIES",
+        "year": 2022
+      },
+      {
+        "recipient": "CONSTRUCTING HOPE PRE-APPRENTICESHIP PROGRAM",
+        "state": "OR",
+        "amount": 9000.0,
+        "purpose": "EDUCATION",
+        "year": 2022
+      }
+    ],
+    "pf_grants": [
+      {
+        "recipient": "EMMA ZEN FOUNDATION",
+        "state": "CA",
+        "amount": 6000.0,
+        "purpose": "ANIMAL WELFARE",
+        "year": 2023
+      },
+      {
+        "recipient": "HOPE FOR HIE",
+        "state": "MI",
+        "amount": 75.0,
+        "purpose": "MEDICAL / WELLNESS",
+        "year": 2023
+      },
+      {
+        "recipient": "EMMA ZEN FOUNDATION",
+        "state": "CA",
+        "amount": 8000.0,
+        "purpose": "ANIMAL WELFARE",
+        "year": 2022
+      },
+      {
+        "recipient": "HOPE FOR HIE",
+        "state": "MI",
+        "amount": 400.0,
+        "purpose": "MEDICAL / WELLNESS",
+        "year": 2022
+      },
+      {
+        "recipient": "HOPE FOR HIE",
+        "state": "MI",
+        "amount": 2510.0,
+        "purpose": "EDUCATION",
+        "year": 2020
+      },
+      {
+        "recipient": "SAHARA",
+        "state": "CA",
+        "amount": 5500.0,
+        "purpose": "DOMESTIC VIOLENCE",
+        "year": 2018
+      },
+      {
+        "recipient": "SACRAMENTO PHILHARMONIC & OPERA",
+        "state": "CA",
+        "amount": 2000.0,
+        "purpose": "ARTS",
+        "year": 2018
+      },
+      {
+        "recipient": "SAHARA",
+        "state": "CA",
+        "amount": 5400.0,
+        "purpose": "DOMESTIC VIOLENCE",
+        "year": 2017
+      }
+    ]
+  }
+]

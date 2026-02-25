@@ -1,0 +1,251 @@
+[
+  {
+    "ein": "941236937",
+    "name": "James Irvine Foundation",
+    "website": "https://www.irvine.org",
+
+    "eligibility": {
+      "who_can_apply": "The foundation does not accept unsolicited applications. Grantmaking is structured into initiatives with specific goals and timelines. Organizations must be working on low-income worker economic advancement in California.",
+      "who_cannot_apply": "Anyone submitting unsolicited inquiries — the website states explicitly: 'We are not accepting unsolicited inquiries for our initiatives or current grantmaking at this time.'",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "The website makes no mention of 501(c)(3) public charity requirements or private foundation exclusions. Grant history includes grants to Rockefeller Philanthropy Advisors (a public charity), Tides Center, and various community foundations — all public charities. However, pf_grants data shows grants to College Futures Foundation (a public charity/operating foundation) and other entities. No explicit PF bar found, but given closed/invite-only nature, the question is moot.",
+      "geographic_restrictions": "California only. The foundation's stated mission is 'a California where all low-income workers have the power to advance economically.'",
+      "org_type_requirements": "Not stated explicitly. The foundation is invite-only with initiative-based grantmaking.",
+      "budget_requirements": "Not stated. Grants range from $1,950 to $18M; most are $1M+, suggesting large-budget organizations are preferred.",
+      "other_requirements": "Organizations must align with one of the four active initiatives: Better Careers, Fair Work, Just Prosperity, Priority Communities. Also: Housing Affordability, Leadership Awards, and Exploratory Grantmaking as additional grantmaking areas."
+    },
+
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "The foundation does not accept unsolicited inquiries. All grantmaking is initiative-based with specific goals, budgets, and timelines. Organizations are engaged as part of the foundation's strategy rather than through open applications.",
+      "portal_url": "https://www.irvine.org/grants-portal (for existing grantees only)",
+      "guidelines_url": "https://www.irvine.org/our-grants/grantseekers/",
+      "deadlines": "None stated — grantmaking is ongoing and initiative-driven, not cycle-based.",
+      "materials_required": "Not applicable — unsolicited applications not accepted. Existing grantees submit reports and financial statements through the grants portal."
+    },
+
+    "funding": {
+      "focus_areas": [
+        "Workforce development / Better Careers",
+        "Worker rights and fairness / Fair Work",
+        "Economic justice / Just Prosperity",
+        "Priority Communities (geographic equity)",
+        "Housing Affordability",
+        "Leadership development"
+      ],
+      "grant_size_range": "Observed range: $1,950 to $18,085,000. Typical large grants are $1M–$15M. Very small grants appear to be anomalies.",
+      "geographic_focus": "California only. No out-of-state grantees in observed recent history.",
+      "veteran_relevance": "None. The foundation's entire focus is on low-income worker economic advancement. Veteran programs are not mentioned anywhere on the site.",
+      "adaptive_recreation_relevance": "None. Recreation, sports, sailing, or adaptive programming are not within the foundation's scope."
+    },
+
+    "contacts": {
+      "primary_contact": "Grants Administration Team",
+      "email": "GrantsAdmin@irvine.org",
+      "phone": "Not found",
+      "address": "Not found on crawled pages"
+    },
+
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "We are not accepting unsolicited inquiries for our initiatives or current grantmaking at this time.",
+      "reasoning": "The James Irvine Foundation does not accept unsolicited applications under any circumstances — grantmaking is entirely initiative-driven and invite-only. Even if VetsBoats could apply, the foundation's singular focus is on low-income worker economic advancement in California, with no intersection with veteran services, adaptive recreation, sailing, or disability programming. Geographic fit (California) is the only positive factor, but it is entirely outweighed by the closed application process and mission mismatch.",
+      "recommended_action": "Do not pursue. This foundation is closed to unsolicited applications and the mission is entirely misaligned. Remove from prospect list."
+    },
+
+    "key_urls": {
+      "application_page": "https://www.irvine.org/our-grants/grantseekers/",
+      "eligibility_page": "https://www.irvine.org/our-grants/grantseekers/",
+      "guidelines_page": "https://www.irvine.org/our-grants/grantseekers/",
+      "grant_list_page": "https://www.irvine.org/about-us/past-grantmaking/",
+      "contact_page": "https://www.irvine.org/contact/"
+    },
+
+    "website_grantees_mentioned": [
+      "Rockefeller Philanthropy Advisors Inc",
+      "Tides Center",
+      "Sierra Health Foundation Center for Health Promotion",
+      "Central Valley Community Foundation",
+      "Inland Empire Community Foundation",
+      "Community Foundation of San Joaquin Inc",
+      "San Francisco Foundation",
+      "Regents of the University of California (Merced)",
+      "Amalgamated Charitable Foundation Inc",
+      "Reinvent Stockton Foundation",
+      "Latino Community Foundation",
+      "PowerSwitch Action",
+      "Silicon Valley Community Foundation",
+      "United Way Inc",
+      "Liberty Hill Foundation",
+      "Ventures",
+      "Housing California",
+      "College Futures Foundation"
+    ]
+  },
+
+  {
+    "ein": "526037034",
+    "name": "Harry and Jeanette Weinberg Foundation",
+    "website": "https://hjweinbergfoundation.org",
+
+    "eligibility": {
+      "who_can_apply": "Nonprofit organizations providing direct services to vulnerable populations in priority communities (Baltimore, Hawaii, Israel, New York City, Northeastern Pennsylvania, San Francisco Bay Area) and rural communities. Organizations must work in at least one focus area: Aging, Education, Health, Housing, or Jobs.",
+      "who_cannot_apply": "Not stated explicitly on crawled pages. The focus on 'direct service providers' and 'nonprofits' implies 501(c)(3) public charities; however, no explicit PF exclusion language was found in crawled pages.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "The website consistently refers to 'nonprofits' without specifying public charity status. Grant history data shows grants to several private foundations: McFarlan Charitable Corporation (MI, $375K), Michael Reese Health Trust (IL, $50K x2), Wood Family Foundation (IL, $50K), Foundation to Combat Anti-Semitism (MA, $36K), and Unbound Philanthropy (NY, $25K). These pf_grants entries are strong evidence that the Weinberg Foundation has previously funded private foundations, suggesting PF eligibility is plausible. However, these appear to be exceptional/relationship-driven grants, not typical program grants.",
+      "geographic_restrictions": "Priority communities: Baltimore, Hawaii, Israel, New York City, Northeastern Pennsylvania, San Francisco Bay Area (Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Solano, and Sonoma counties). Rural communities adjacent to priority areas are also eligible. VetsBoats in San Francisco falls within the SF priority community.",
+      "org_type_requirements": "Described as 'nonprofits' — public charity status implied but not explicitly required based on website language.",
+      "budget_requirements": "Not stated. Grant sizes range from small grants ($12M pool for 160 grants = ~$77K avg) up to $3.65M. Typical operating grants appear to be $50K–$500K.",
+      "other_requirements": "Must focus on direct services to vulnerable populations. San Francisco grantmaking particularly interested in 'youth and family homelessness' and 'out-of-school time and/or college and career-preparedness programs.' Capital, program, and operating grants all available."
+    },
+
+    "application": {
+      "process": "OPEN",
+      "process_description": "The foundation has a Grant FAQ page and accepts applications. Specific application process details were not fully captured in the crawl, but the presence of 'Grant FAQ', 'How We Give', and 'Search Our Grants' sections indicates a structured application process. Contact appears to be through the foundation directly.",
+      "portal_url": "Not captured in crawl — check hjweinbergfoundation.org/grants/grant-faq/",
+      "guidelines_url": "https://hjweinbergfoundation.org/grants/how-we-give/",
+      "deadlines": "Not captured. Likely rolling or annual cycles — check Grant FAQ page.",
+      "materials_required": "Not captured from crawled pages. Likely includes narrative, budget, and organizational information based on standard foundation practice."
+    },
+
+    "funding": {
+      "focus_areas": [
+        "Aging / older adult services",
+        "Education (K-12, out-of-school time, college and career prep)",
+        "Health (FQHCs, behavioral health, dental)",
+        "Housing (affordable housing, homelessness)",
+        "Jobs / workforce development",
+        "Signature initiatives (collaborative, multi-funder)"
+      ],
+      "grant_size_range": "Small grants: ~$12K–$100K. Program/operating: $50K–$500K. Capital: $375K–$3M+. Annual grantmaking approximately $90M–$158M across all geographies.",
+      "geographic_focus": "Six priority communities: Baltimore, Hawaii, Israel, New York City, Northeastern Pennsylvania, San Francisco Bay Area. Also rural communities. San Francisco Bay Area (9-county region) is a confirmed priority community.",
+      "veteran_relevance": "Low. No veteran-specific programming mentioned anywhere on the website. The Jobs focus area funds workforce training for vulnerable populations including 'adults with disabilities,' which could potentially include disabled veterans, but there is no veteran focus.",
+      "adaptive_recreation_relevance": "Very low. Sports mentioned only in Baltimore Summer Funding Collaborative as 'enrichment, including sports.' No adaptive recreation, sailing, or disability-sport programming mentioned."
+    },
+
+    "contacts": {
+      "primary_contact": "Not named on crawled pages",
+      "email": "Not found on crawled pages",
+      "phone": "Maryland HQ: 410-654-8500 | Hawaii: 808-924-1000",
+      "address": "Maryland (HQ): 7 Park Center Court, Owings Mills, MD 21117 | Hawaii: 3660 Waialae Avenue, Suite 400, Honolulu, HI 96816"
+    },
+
+    "vetsboats_verdict": {
+      "verdict": "WEAK_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Foundation's grantmaking covers the entire Bay Area, including Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Solano, and Sonoma counties. All grants must align with the Foundation's focus areas: Housing, Health, Jobs, Education, and Community Services.",
+      "reasoning": "The Weinberg Foundation funds in San Francisco (VetsBoats' home geography), which is a positive signal. However, the foundation's SF focus is specifically on youth/family homelessness and out-of-school time programs — not veteran services, sailing, or adaptive recreation. VetsBoats' mission does not align with any of the five focus areas (Aging, Education, Health, Housing, Jobs). The private foundation eligibility question is also unresolved; while pf_grants data shows some historical grants to PFs, these appear to be exceptional cases. The fundamental mission mismatch makes this a weak fit regardless of geography.",
+      "recommended_action": "Do not prioritize. Mission alignment is poor (no veteran, adaptive recreation, or sailing focus). If pursuing, VetsBoats would need to frame adaptive sailing as a 'health' or 'human services' program for veterans with disabilities — a stretch. Check the Grant FAQ page (https://hjweinbergfoundation.org/grants/grant-faq/) for explicit PF eligibility language before any outreach."
+    },
+
+    "key_urls": {
+      "application_page": "https://hjweinbergfoundation.org/grants/grant-faq/",
+      "eligibility_page": "https://hjweinbergfoundation.org/grants/how-we-give/",
+      "guidelines_page": "https://hjweinbergfoundation.org/grants/how-we-give/",
+      "grant_list_page": "https://hjweinbergfoundation.org/grants/search-our-grants/",
+      "contact_page": "https://hjweinbergfoundation.org/contact-us/"
+    },
+
+    "website_grantees_mentioned": [
+      "American Jewish Joint Distribution Committee Inc",
+      "The Associated Jewish Community Federation of Baltimore",
+      "Goodwill Industries of Hawaii",
+      "Non-Profit Technology Enterprise Network",
+      "Health Care for the Homeless",
+      "Waimanalo Health Center",
+      "Catholic Relief Services Inc",
+      "Benefits Data Trust",
+      "UJA-Federation of New York",
+      "Henry Street Settlement",
+      "Reinvent Stockton Foundation",
+      "Advance Peace",
+      "Housing Accelerator Fund",
+      "McFarlan Charitable Corporation",
+      "Michael Reese Health Trust",
+      "Wood Family Foundation",
+      "Foundation to Combat Anti-Semitism Inc",
+      "Unbound Philanthropy"
+    ]
+  },
+
+  {
+    "ein": "956089998",
+    "name": "Ahmanson Foundation",
+    "website": "https://www.theahmansonfoundation.org",
+
+    "eligibility": {
+      "who_can_apply": "501(c)(3) public charity organizations, based in and serving Los Angeles County, that have been in operation for a minimum of 3-5 years and reflect established and stable leadership.",
+      "who_cannot_apply": "Private foundations (explicitly excluded by IRC sections 509(a)(1) or 509(a)(2) definition). Also excluded: individuals, religious organizations for sectarian purposes, organizations limiting services to one religious group, organizations engaged in lobbying or political activities.",
+      "pf_eligible": "NO",
+      "pf_evidence": "Explicit and unambiguous: 'The Foundation reviews funding requests from 501(c)(3) public charity organizations, based in and serving Los Angeles County, that are not private foundations as defined in sections 509(a)(1) or 509(a)(2) of the U.S. Internal Revenue Code.' VetsBoats is a private foundation — it is categorically ineligible.",
+      "geographic_restrictions": "Los Angeles County only. Organizations must be 'based in and serving Los Angeles County.' VetsBoats operates in San Francisco — a complete geographic disqualifier independent of PF status.",
+      "org_type_requirements": "Must be a 501(c)(3) public charity (not a private foundation). Must be classified under IRC 509(a)(1) or 509(a)(2). Must have been operating for 3-5 years minimum.",
+      "budget_requirements": "Not stated explicitly. Observed grants range from ~$82K to $12M, with most capital grants in the $1M–$5M range. Capital campaigns must be 60-80% funded before applying.",
+      "other_requirements": "Organizations that submit requests regularly or annually receive less preference — the foundation prefers to consider requests that are 'one-time or short-term in nature.' Prior applicants must wait 12-18 months from last decision before reapplying. Re-granting purposes explicitly excluded. Pilot projects generally not funded. Annual campaigns/ongoing operational support generally not approved."
+    },
+
+    "application": {
+      "process": "LOI",
+      "process_description": "Two-stage process: (1) Submit a Letter of Inquiry (LOI) via the Foundation's online portal or by email PDF to the Grants Administrator. LOI must be 1-3 pages and include contact information, organizational narrative, current programs, operating budget, top five recent grants, and project description. (2) If invited, submit a full grant proposal.",
+      "portal_url": "https://theahmansonfoundation.org/grantee-portal/",
+      "guidelines_url": "https://theahmansonfoundation.org/funding-guidelines/",
+      "deadlines": "Not stated — appears to be rolling LOI submissions.",
+      "materials_required": "LOI stage: contact info, org narrative (1-3 pages), current programs description, operating budget, top 5 recent grants from foundations/corporations (last 2 fiscal years), project description, secured/pledged/pending funders, project budget attachment. Full proposal: formal grant application after LOI invitation."
+    },
+
+    "funding": {
+      "focus_areas": [
+        "Arts and Humanities",
+        "Education",
+        "Health and Medicine",
+        "Human Services"
+      ],
+      "grant_size_range": "Observed: $82K (Fountain Theatre) to $12M (Huntington Library art acquisition). Most capital grants range $1M–$5M. Capital support is primary — construction, renovation, equipment, furnishings, technology.",
+      "geographic_focus": "Los Angeles County exclusively. All grantees must be based in and serve LA County.",
+      "veteran_relevance": "None. No veteran-specific programs, grants, or focus areas mentioned. Human Services focus area is general.",
+      "adaptive_recreation_relevance": "None. Sports and recreation not mentioned. One athletics-adjacent grant (Occidental College De Mandel Aquatics Center, $2.7M) and Polytechnic School land for athletic facilities ($2M) indicate capital support for educational athletics, not adaptive recreation or disability sports."
+    },
+
+    "contacts": {
+      "primary_contact": "Grants Administrator",
+      "email": "info@theahmansonfoundation.org (general); email link for LOI submission on letter-of-inquiry page",
+      "phone": "(310) 278-0770",
+      "address": "9215 Wilshire Boulevard, Beverly Hills, CA 90210"
+    },
+
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Foundation reviews funding requests from 501(c)(3) public charity organizations, based in and serving Los Angeles County, that are not private foundations as defined in sections 509(a)(1) or 509(a)(2) of the U.S. Internal Revenue Code.",
+      "reasoning": "VetsBoats is disqualified on two independent and absolute grounds: (1) VetsBoats is a private foundation, and Ahmanson explicitly excludes private foundations by statute; (2) VetsBoats operates in San Francisco, and Ahmanson funds Los Angeles County organizations only. Either disqualifier alone would be fatal. Additionally, veteran adaptive sailing does not align with the Arts, Education, Health, or Human Services focus areas as Ahmanson defines them (capital-intensive LA County institutions).",
+      "recommended_action": "Remove from prospect list immediately. VetsBoats cannot apply under any circumstances — both the organization type (private foundation) and geography (San Francisco vs. Los Angeles County) are hard disqualifiers explicitly stated in Ahmanson's eligibility criteria."
+    },
+
+    "key_urls": {
+      "application_page": "https://theahmansonfoundation.org/letter-of-inquiry/",
+      "eligibility_page": "https://theahmansonfoundation.org/eligibility-limitations/",
+      "guidelines_page": "https://theahmansonfoundation.org/funding-guidelines/",
+      "grant_list_page": "https://theahmansonfoundation.org/grants-search/",
+      "contact_page": "https://theahmansonfoundation.org/contact-us/"
+    },
+
+    "website_grantees_mentioned": [
+      "Henry E. Huntington Library and Art Gallery",
+      "California Science Center Foundation",
+      "Union Rescue Mission",
+      "Joslyn Art Museum",
+      "Occidental College",
+      "Center Theatre Group of Los Angeles",
+      "Loyola High School of Los Angeles",
+      "Los Angeles County Museum of Natural History Foundation",
+      "Polytechnic School",
+      "The Shakespeare Center of LA Inc",
+      "Pasadena Hospital Association Ltd",
+      "The People Concern",
+      "Childrens Hospital Los Angeles",
+      "Dignity Community Care",
+      "Fountain Theatre"
+    ]
+  }
+]

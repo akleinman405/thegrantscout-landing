@@ -32,18 +32,6 @@ The report profiles 5 foundations with detailed fit evidence, application instru
 | Foundation list | Yes | Pipeline scoring output or user | 5 foundation EINs with names |
 | Enrichment dossiers | Yes | Foundation Scraper skill or user | Website research, contacts, application process |
 
----
-
-## Process Steps
-
-### Step 1: Pull Funder Snapshots (Automated)
-
-Run the snapshot script to extract structured data from PostgreSQL:
-
-```bash
-python3 .claude/skills/grant-report/scripts/pull_funder_snapshots.py input.json --output snapshots.json
-```
-
 **Input JSON format:**
 
 ```json
@@ -62,6 +50,26 @@ python3 .claude/skills/grant-report/scripts/pull_funder_snapshots.py input.json 
 }
 ```
 
+---
+
+## Process Steps
+
+### Step 1: Read Inputs
+
+- Read the input JSON (client profile + foundations with dossiers)
+- Validate: confirm 5 foundations present, all have EINs, all have type (PF or PC)
+- Print summary: client name, 5 foundation names + EINs
+
+### Step 2: Pull Funder Snapshots
+
+Run the snapshot script to extract structured data from PostgreSQL:
+
+```bash
+python3 .claude/skills/grant-report/scripts/pull_funder_snapshots.py input.json --output snapshots.json
+```
+
+Save raw output to `Enhancements/[DATE]/DATA_[DATE]_[client]_funder_snapshots.json`
+
 **Output:** JSON file with per-foundation metrics:
 - Annual giving, grant count, median grant, grant range
 - Geographic concentration (% in client's state)
@@ -72,14 +80,27 @@ python3 .claude/skills/grant-report/scripts/pull_funder_snapshots.py input.json 
 - Officers/directors (most recent year)
 - Application info (deadlines, restrictions, contacts) for private foundations
 
-### Step 2: Merge Enrichment Dossiers
+### STOP 1: Review Funder Snapshot Data
 
-Combine snapshot data with enrichment research gathered via Foundation Scraper or manual research:
+Print a summary table for each foundation:
 
-- **Website research:** Application process details, program areas, recent news
-- **Contact information:** Staff names, titles, emails, phone numbers
-- **Application process:** Portal URLs, LOI requirements, deadlines, form details
-- **Board members:** Key names and backgrounds
+| Foundation | Annual Giving | Grants | Median | Geo % | Repeat % | Trend | Officers | App Info |
+|------------|--------------|--------|--------|-------|----------|-------|----------|----------|
+| [name] | $X.XM | N | $XX,XXX | XX% | XX% | [trend] | N | Yes/No |
+
+Flag any issues:
+- Missing data (zero grants, no officers, no application info)
+- EIN mismatches between input and DB
+- Foundations with no recent activity
+
+**Wait for Alec to approve before continuing.** If Alec flags issues, fix and re-run Step 2.
+
+### Step 3: Merge Dossier + DB Data
+
+Combine the dossier notes (from input JSON) with the DB-pulled snapshots:
+
+- **Dossier is authoritative for:** application process details, contact info, deadlines, website URLs
+- **DB is authoritative for:** grant statistics, giving trends, comparable grantees, officers
 
 For each foundation, classify as one of:
 - **LOI-Ready** - Accepts unsolicited Letters of Inquiry
@@ -88,7 +109,9 @@ For each foundation, classify as one of:
 - **Cultivation** - Invitation-only or relationship-required
 - **RFP-Based** - Only funds via specific RFPs (include only if open RFP matches)
 
-### Step 3: Generate Report
+Identify any gaps (e.g., dossier says "rolling deadline" but DB says specific date).
+
+### Step 4: Write the Report
 
 Use the template at `references/report_template.md` to structure the report.
 
@@ -110,10 +133,17 @@ Use the template at `references/report_template.md` to structure the report.
 6. **Monthly Action Plan** - Week-by-week breakdown
 7. **Quick Reference** - All contacts, application summary, time summary
 
-### Step 4: Output
+Save draft to `Enhancements/[DATE]/REPORT_[DATE]_[client]_grant_opportunities.md`
 
-1. Write the report as markdown (source of truth):
-   `REPORT_YYYY-MM-DD.N_{client}_grant_report.md`
+### STOP 2: Review Draft Report
+
+Tell Alec the report is ready for review at the file path above.
+
+**Wait for Alec to approve or request edits.** Apply any edits Alec requests.
+
+### Step 5: Finalize
+
+1. Save final version to `Enhancements/[DATE]/REPORT_[DATE]_[client]_grant_opportunities.md`
 
 2. Convert to client deliverable formats:
    ```bash
@@ -121,7 +151,10 @@ Use the template at `references/report_template.md` to structure the report.
    python3 "0. Tools/md_to_pdf.py" -i report.md -o report.pdf
    ```
 
-3. Save all outputs to: `5. Runs/{Client}/{date}/`
+3. Copy deliverables to `5. Runs/{Client}/{date}/`
+
+4. Write session report using `references/session_report_template.md`:
+   Save to `Enhancements/[DATE]/REPORT_[DATE]_[client]_grant_report_session.md`
 
 ---
 
@@ -167,16 +200,18 @@ Before delivering:
 - [ ] Week-by-week action plan adds up to total time estimate
 - [ ] All links verified working
 - [ ] Both .md and .docx/.pdf produced
+- [ ] Session report written
 
 ---
 
 ## Reference Files
 
 - **Report template:** `references/report_template.md` (v6)
+- **Session report template:** `references/session_report_template.md`
 - **Snapshot script:** `scripts/pull_funder_snapshots.py`
 - **Branding:** `0. Tools/branding.py`
 - **Converters:** `0. Tools/md_to_docx.py`, `0. Tools/md_to_pdf.py`
 
 ---
 
-*Skill version 1.0 - Created 2026-02-21*
+*Skill version 1.1 - Updated 2026-02-21 (added pause gates + session report)*

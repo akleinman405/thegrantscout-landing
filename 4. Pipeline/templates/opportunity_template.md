@@ -29,6 +29,12 @@
 | Funding Trend | {funding_trend} |
 | Comparable Grant | {comparable_grant} |
 
+### Contacts
+
+| Role | Name | Email | Phone | Website |
+|------|------|-------|-------|---------|
+{contacts_rows}
+
 ### Potential Connections
 
 {connections_section}

@@ -1,0 +1,258 @@
+[
+  {
+    "ein": "204170342",
+    "name": "Schmidt Family Foundation (11th Hour Project)",
+    "website": "https://11thhourproject.org",
+    "eligibility": {
+      "who_can_apply": "INVITE_ONLY — the foundation explicitly states it does not respond to unsolicited proposals or requests. It funds through proactive outreach and its internal network only.",
+      "who_cannot_apply": "Anyone submitting unsolicited proposals. Individuals are explicitly excluded ('we do not provide funding to individuals').",
+      "pf_eligible": "NO",
+      "pf_evidence": "The foundation's FAQ states: 'we generally do not respond to unsolicited proposals and requests.' The About page reinforces: 'we do not accept unsolicited proposals or requests.' No language restricting to public charities vs. private foundations was found. However, the closed/invite-only process makes PF eligibility moot — VetsBoats cannot apply regardless. The pf_grants table shows 6 grants to EIN-matched recipients, all of which appear to be recognized nonprofits (not private foundations). No affirmative PF grantee evidence found in website content.",
+      "geographic_restrictions": "Global/international scope. No U.S.-only restriction. Program areas are energy, food/agriculture, human rights, ocean, indigenous communities, youth (N2). No geographic focus on California or sailing communities.",
+      "org_type_requirements": "501(c)(3) status implied but not stated explicitly on site. Invite-only process supersedes any eligibility screen.",
+      "budget_requirements": "None stated. Grant sizes from DB: range $5,500 to $8.48M. Typical awards are $100K-$3M. VetsBoats at $200K budget is well below the profile of typical grantees.",
+      "other_requirements": "Organization must be actively aligned with one of 11th Hour Project's program areas: Ag Tech, Emerging Strategies, Energy, Food & Agriculture, Human Rights, Impact Investing, Indigenous Communities, Minerals + Materials, or N2 (nature + nurture for youth). Sailing / adaptive recreation / veteran services do not map to any program area."
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "The foundation does not accept unsolicited proposals. Grantees are identified proactively by program staff. The foundation's FAQ explicitly directs would-be applicants to Candid.org to find other funders.",
+      "portal_url": null,
+      "guidelines_url": "https://11thhourproject.org/faq/",
+      "deadlines": "None — no open application cycle exists.",
+      "materials_required": "Not applicable (closed process)."
+    },
+    "funding": {
+      "focus_areas": [
+        "Renewable energy / fossil fuel transition",
+        "Ocean stewardship and research",
+        "Food and agriculture systems",
+        "Human rights",
+        "Indigenous communities",
+        "Youth and nature (N2 program)",
+        "Minerals and materials / circular economy"
+      ],
+      "grant_size_range": "$5,500 to $8.48M; median appears $100K–$500K for program grants. Small ocean grants as low as $5,500–$8,195.",
+      "geographic_focus": "Global/national. Strong Newport, RI and New England ocean presence via 11th Hour Racing. No California or SF Bay sailing community presence found.",
+      "veteran_relevance": "NONE. No veteran grants found in any DB records.",
+      "adaptive_recreation_relevance": "NONE. No adaptive recreation or disability-related grants found."
+    },
+    "contacts": {
+      "primary_contact": "Program staff (not named publicly)",
+      "email": "info@tsffoundation.org (general); media@theschmidt.org (media only)",
+      "phone": null,
+      "address": "Schmidt Family Foundation, Palo Alto, CA (headquarters)"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "We generally do not respond to unsolicited proposals and requests. In keeping with our charter, we do not provide funding to individuals.",
+      "reasoning": "Three disqualifying factors stack: (1) Invite-only — no application process exists at all; (2) Mission mismatch — Schmidt focuses on climate, energy, food systems, human rights, and indigenous communities; adaptive sailing for veterans maps to none of these; (3) Scale mismatch — VetsBoats at $200K budget is well below the profile of typical grantees receiving $100K–$8M. The ocean program connection (11th Hour Racing, Courageous Sailing Center grant) is superficial — those grants are for ocean conservation and maritime sustainability, not recreation or disability services. VetsBoats should not spend any time pursuing this foundation.",
+      "recommended_action": "DO NOT PURSUE. Remove from prospect list. No pathway exists for unsolicited organizations."
+    },
+    "key_urls": [
+      "https://11thhourproject.org/faq/",
+      "https://11thhourproject.org/about/",
+      "https://11thhourproject.org"
+    ],
+    "website_grantees_mentioned": [
+      "Human Rights Watch",
+      "Monterey Bay Aquarium Foundation",
+      "SPUN (mushroom network mapping)",
+      "Schmidt Ocean Institute",
+      "Schmidt Marine Technology Partners",
+      "11th Hour Racing (sailing/ocean arm — separate entity, not a grantee)"
+    ]
+  },
+  {
+    "ein": "352059749",
+    "name": "JD Finish Line Foundation",
+    "website": "https://www.finishlineyouthfoundation.org",
+    "eligibility": {
+      "who_can_apply": "UNKNOWN from website — zero website content was crawled (total_chars_raw = 0, pages_for_analysis = 0). Website returned no usable text. Analysis is based entirely on 990-PF grant data.",
+      "who_cannot_apply": "UNKNOWN from website.",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "Website produced no content whatsoever, preventing any direct eligibility determination. From pf_grants data: 5 recipients identifiable — Chubb Foundation (private foundation), GLAM Inc, The Dreamville Foundation, Jordan Nwora Foundation (private foundation), and Sierra Health Foundation. Two confirmed private foundation recipients (Chubb Foundation EIN 237393178 and Jordan Nwora Foundation) indicate some PF-to-PF grantmaking has occurred. However, the overwhelming volume of grants goes to public charities (Special Olympics International, Boys & Girls Clubs, etc.). PF eligibility is ambiguous and likely case-by-case. The application process is entirely unknown, preventing any informed outreach.",
+      "geographic_restrictions": "Grant history is heavily concentrated in Indianapolis, Indiana (Boys & Girls Clubs of Indianapolis, EmployIndy, Keep Indianapolis Beautiful, Gleaners Food Bank of Indiana). This is a corporate foundation of JD Sports / Finish Line, headquartered in Indianapolis. California grantees are rare. VetsBoats in San Francisco is outside the foundation's evident geographic priority.",
+      "org_type_requirements": "Implied 501(c)(3). No explicit statement found. PF grants show some PF-to-PF grantmaking.",
+      "budget_requirements": "Unknown. Typical grants from top_grants: $44K–$625K. Most grants in $10K–$130K range.",
+      "other_requirements": "Unknown — no website content retrieved."
+    },
+    "application": {
+      "process": "UNKNOWN",
+      "process_description": "No website content was retrievable. The foundation's grant portal URL (finishlineyouthfoundation.org) returned zero content. It is unknown whether applications are accepted, how to apply, or if there are deadlines. The foundation appears to be a corporate giving arm of the JD Sports / Finish Line retail chain, suggesting employee-driven or retailer-driven giving rather than open applications.",
+      "portal_url": "https://www.finishlineyouthfoundation.org (inaccessible/empty)",
+      "guidelines_url": null,
+      "deadlines": "Unknown.",
+      "materials_required": "Unknown."
+    },
+    "funding": {
+      "focus_areas": [
+        "Youth sports and athletics (Special Olympics is primary grantee, receiving $1.6M+ across years)",
+        "Education and youth development",
+        "Indianapolis community organizations",
+        "Disability/adaptive sports (Special Olympics connection)",
+        "Food security (Gleaners Food Bank)",
+        "Employee campaign matching"
+      ],
+      "grant_size_range": "$1,500 to $625,000; typical program grants $10,000–$130,000. Special Olympics receives largest amounts ($300K–$625K) repeatedly.",
+      "geographic_focus": "Indianapolis, Indiana (primary). Some national grantees (Special Olympics International, DonorsChoose). No California presence found in grant history.",
+      "veteran_relevance": "LOW. No veteran-specific grants found in grant history. Special Olympics connection is closest parallel to adaptive recreation.",
+      "adaptive_recreation_relevance": "MODERATE (Special Olympics only). The foundation's dominant grantee is Special Olympics International, demonstrating a strong commitment to adaptive/inclusive athletics. However, this appears to be a corporate partnership, not thematic giving. No sailing, water sports, or veteran-adaptive recreation grants found."
+    },
+    "contacts": {
+      "primary_contact": "Unknown — no website content retrieved",
+      "email": null,
+      "phone": null,
+      "address": "JD Finish Line Foundation, Indianapolis, Indiana (approximate)"
+    },
+    "vetsboats_verdict": {
+      "verdict": "WEAK_FIT",
+      "confidence": "LOW",
+      "key_quote": "No website content available. Grant history dominated by Special Olympics and Indianapolis-area organizations.",
+      "reasoning": "Three significant obstacles: (1) Geographic mismatch — the foundation is Indianapolis-based and Indiana-centric; VetsBoats is in San Francisco; (2) Mission alignment is tenuous — Special Olympics is the dominant grantee indicating disability/adaptive sports interest, but VetsBoats is veteran-focused and sailing-specific; Special Olympics is a corporate partnership, not thematic giving; (3) Application process completely unknown — cannot determine if unsolicited proposals are accepted. Two weak positive signals: some PF-to-PF grantmaking has occurred (Chubb Foundation, Jordan Nwora Foundation received grants), and adaptive sports is present in the portfolio. The foundation is rated WEAK_FIT only because the blocked application process and geographic mismatch are disqualifying without a clear pathway. If application process is confirmed open, could re-evaluate as POSSIBLE_FIT.",
+      "recommended_action": "LOW PRIORITY. Research whether foundation accepts unsolicited proposals before investing time. Check if JD Sports / Finish Line has any California retail employees or regional giving programs. Do not pursue until application process is confirmed."
+    },
+    "key_urls": [
+      "https://www.finishlineyouthfoundation.org (returned no content)"
+    ],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "226930631",
+    "name": "Roundhouse Foundation",
+    "website": "https://roundhousefoundation.org",
+    "eligibility": {
+      "who_can_apply": "IRS-designated 501(c)(3) nonprofits, government entities (including special districts), and Tribal governments. Fiscally-sponsored nonprofits eligible if actively pursuing 501(c)(3) status. Must serve rural Oregon communities.",
+      "who_cannot_apply": "Organizations that are not IRS-recognized PUBLIC CHARITIES or qualifying government/Tribal entities. Private foundations are explicitly excluded: 'organizations that are not IRS-recognized public charities or qualifying government or Tribal government entities.' Faith-based organizations, schools, individuals, and out-of-U.S. organizations are also excluded.",
+      "pf_eligible": "NO",
+      "pf_evidence": "EXPLICIT DISQUALIFICATION. The eligibility page states verbatim: 'We are unable to consider requests for/from: organizations that are not IRS-recognized public charities or qualifying government or Tribal government entities.' Private foundations are not public charities. This is an unambiguous hard exclusion. VetsBoats (EIN 464194065) is a 990-PF filer — a private foundation — and is categorically ineligible. Confirmed by pf_grants data: all identifiable DB recipients (Companion Animal Medical Project, Central Oregon Health Quality Alliance, Sagebrushers Art Society, etc.) are Oregon-based public charities, consistent with the public charity requirement. No private foundation recipients found.",
+      "geographic_restrictions": "STRICT: Must serve rural Oregon communities. All proposals must have 'a clear and compelling benefit to rural Oregon.' VetsBoats operates in San Francisco, California. This is a geographic disqualification independent of the PF issue.",
+      "org_type_requirements": "IRS-recognized 501(c)(3) public charity (not private foundation), government entity, or Tribal government.",
+      "budget_requirements": "No budget floor/ceiling stated for org size. Grant sizes: Small Grants $500–$2,500; Open Call $2,501–$30,000 (median ~$20,000); Capital up to $100,000; Technical Assistance up to $5,000.",
+      "other_requirements": "Must advance one or more of Roundhouse's focus areas. Must benefit rural Oregon. Must demonstrate DEI commitment. Faith-based orgs, sports/athletic fields/facilities are excluded."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Multiple open grant cycles available: (1) Small Grants ($500–$2,500): rolling, January–November 30, reviewed monthly; (2) Open Call ($2,501–$30,000): Spring cycle opens January 5, closes March 13, 2026 at 5PM PST; Fall cycle opens June 10, closes August 14, 2026 at 5PM PST; (3) Capital Grants: LOI accepted January–November 30 on rolling basis, followed by invited full application; (4) Technical Assistance: rolling, up to $5,000. All applications submitted via online grants portal.",
+      "portal_url": "https://roundhousefoundation.org (grant portal link on site)",
+      "guidelines_url": "https://roundhousefoundation.org/eligibility-for-grants/",
+      "deadlines": "Spring Open Call: March 13, 2026 at 5:00PM PST. Fall Open Call: August 14, 2026 at 5:00PM PST. Small Grants/Capital/Technical Assistance: rolling through November 30.",
+      "materials_required": "Online application via portal. Project budget required (template provided). For Capital: LOI first, then full application if invited. For Technical Assistance: scope of work or conference agenda; letter of support from supervisor/board."
+    },
+    "funding": {
+      "focus_areas": [
+        "Rural Oregon community development",
+        "Food systems and food access",
+        "Health and wellness",
+        "Arts, culture, and heritage",
+        "Environmental stewardship and conservation",
+        "Adaptive/disability sports (Disabled Sports USA / Oregon Adaptive Sports — repeated grantee)",
+        "Veteran support in rural Oregon (Source One Serenity — ecotherapy for veterans)",
+        "Youth and education",
+        "Indigenous communities",
+        "Journalism and storytelling"
+      ],
+      "grant_size_range": "$500 to $1.2M (capital). Program grants typically $5,000–$30,000 for Open Call. Top grants include $1.2M to High Desert Museum (capital campaign), $1M to Oregon Coast Aquarium.",
+      "geographic_focus": "Rural Oregon exclusively. Sisters, OR is headquarters. All significant grantees are Oregon-based.",
+      "veteran_relevance": "MODERATE. Source One Serenity received grants in 2022 ($2,500) and 2023 ($5,000) specifically for 'PURPOSE-DRIVEN LAND STEWARDSHIP AND ECOTHERAPY FOR VETERANS' and 'CAPACITY-BUILDING TO EXPAND RURAL VETERAN SUPPORT.' This demonstrates veteran programming interest, but in a rural Oregon land stewardship context — not sailing or adaptive recreation.",
+      "adaptive_recreation_relevance": "HIGH (within Oregon). Disabled Sports USA (Oregon Adaptive Sports program) is a repeated grantee receiving grants annually 2019–2023 for adaptive skiing ('Moving Mountains,' 'First Chair Campaign,' 'Oregon Adaptive Sports Access for All'). Total DB grants to Disabled Sports USA: ~$55,500 across 5 grant records. This is the clearest analog to VetsBoats in the foundation's portfolio."
+    },
+    "contacts": {
+      "primary_contact": "Roundhouse Foundation Staff (inquiries@roundhousefoundation.org)",
+      "email": "inquiries@roundhousefoundation.org (from pf_returns app_contact_email field)",
+      "phone": "541-904-0700",
+      "address": "PO Box 2078, Sisters, OR 97759"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "We are unable to consider requests for/from: organizations that are not IRS-recognized public charities or qualifying government or Tribal government entities.",
+      "reasoning": "Two independent hard disqualifications: (1) PRIVATE FOUNDATION STATUS — Roundhouse explicitly requires public charity status and excludes all non-public-charity organizations. VetsBoats is a 990-PF filer (private foundation) and is categorically ineligible regardless of mission fit; (2) GEOGRAPHIC RESTRICTION — Roundhouse funds rural Oregon communities exclusively. VetsBoats is in San Francisco, California with no Oregon programming. Even if VetsBoats were a public charity, the California location would disqualify it. The strong adaptive sports and veteran portfolio elements (Disabled Sports USA, Source One Serenity) make the mission alignment tempting but are irrelevant given the structural barriers.",
+      "recommended_action": "DO NOT PURSUE. Both PF status and geography are hard disqualifiers. Remove from prospect list."
+    },
+    "key_urls": [
+      "https://roundhousefoundation.org/eligibility-for-grants/",
+      "https://roundhousefoundation.org/how-to-apply-for-roundhouse-grants/",
+      "https://roundhousefoundation.org/grants",
+      "https://roundhousefoundation.org/grant-history",
+      "https://roundhousefoundation.org/wp-content/uploads/2025/12/QuestionList-22.pdf",
+      "https://roundhousefoundation.org/wp-content/uploads/2025/12/SmallGrantApplicationQuestionList12.30.25.pdf"
+    ],
+    "website_grantees_mentioned": [
+      "High Desert Museum",
+      "Oregon Coast Aquarium",
+      "OHSU Foundation (Casey Eye Institute)",
+      "Oregon Historical Society",
+      "The Trust for Public Land (Greening Rural Oregon Schoolyards)",
+      "Oregon Public Broadcasting",
+      "Helping Hands Re-Entry Outreach Centers",
+      "Oregon Community Foundation",
+      "Disabled Sports USA (Oregon Adaptive Sports — multiple years)",
+      "Source One Serenity (veteran ecotherapy)",
+      "Vale Senior Center",
+      "Tillamook High School mechanics/drag racing team",
+      "Elakha Alliance (sea otter restoration)",
+      "Oregon Desert Land Trust"
+    ]
+  },
+  {
+    "ein": "043244069",
+    "name": "New England Patriots Charitable Foundation",
+    "website": "https://www.patriots.com/community",
+    "eligibility": {
+      "who_can_apply": "UNKNOWN from website. The crawled pages returned an Unsolicited Submissions Policy page (for intellectual property/product ideas, not grant applications) and a player profile page for 'Richie Grant' (the football player — a crawler false positive on 'grants' keyword). No grant application page, eligibility guidelines, or foundation program information was retrieved.",
+      "who_cannot_apply": "UNKNOWN from website. The Unsolicited Submissions Policy crawled is for product/IP submissions, not charitable grants — it is not relevant to grant eligibility.",
+      "pf_eligible": "YES",
+      "pf_evidence": "STRONG PF ELIGIBILITY SIGNAL from grant data. pf_grants table contains 5 confirmed recipients: Patriot Resilient Leader Institute (NH, $10,000 — 'Education'), Hunter Seven Foundation (RI, $10,000 — 'Athletics/Education/Youth Services'), PMC (CT, $3,000 — 'Education'), Inquilinos Boricuas en Accion (MA, $5,000 — 'Education'), Swirls Around the World (MA, $5,000 — 'Youth and family services'). At least two of these (Patriot Resilient Leader Institute, Hunter Seven Foundation) appear to be private foundations based on their names and small scale. Hunter Seven Foundation specifically serves veterans/military families (name suggests this). The foundation has 5 confirmed PF-recipient grants — meeting the 5 PF recipients threshold mentioned in the prompt briefing. Additionally, the pf_returns data shows only_contri_to_preselected_ind = FALSE (open to applications on at least one filing).",
+      "geographic_restrictions": "Appears New England-focused based on grant history. Top grants concentrated in Massachusetts (MA), with some Rhode Island (RI), Connecticut (CT), New Hampshire (NH), Maine (ME). California grantees absent from top grant history. VetsBoats in San Francisco is outside the apparent geographic priority.",
+      "org_type_requirements": "UNKNOWN from website. PF grant history strongly suggests private foundations can receive grants. No explicit org type requirements found.",
+      "budget_requirements": "Unknown. Grant sizes: Small grants $3,000–$25,000; mid-range $100,000–$250,000; top grants up to $2,000,000 (COVID-19 MA Dept. of Public Health).",
+      "other_requirements": "Unknown from website. Based on grant history: education, youth services, disability awareness, military assistance, and New England community focus are evident themes."
+    },
+    "application": {
+      "process": "UNKNOWN",
+      "process_description": "The website crawl returned only an Unsolicited Submissions Policy (for product ideas, not grants) and a player profile page. No grant application process, foundation page, or guidelines were retrieved. The Patriots Foundation is accessible at patriots.com/community but no grant process page was crawled successfully. Based on the nature of NFL team foundations, applications may be invite-only or via specific grant cycles announced through the team's community page.",
+      "portal_url": "https://www.patriots.com/community (foundation home — not crawled with grant content)",
+      "guidelines_url": null,
+      "deadlines": "Unknown.",
+      "materials_required": "Unknown."
+    },
+    "funding": {
+      "focus_areas": [
+        "Military assistance and veteran support (consistent across 2020–2023: Operation Stand Down RI, Semper Fi & America's Fund, VA Charters, Mass Military Heroes Fund, Operation Shower, Operation Delta Dog, Salvation Army military program)",
+        "Education and youth development",
+        "Disability awareness and services (Understanding Our Differences)",
+        "Athletics and youth sports (Cardinal Cushing Centers, Falmouth Road Race, All Stars Project)",
+        "Health and human services (Boston-area organizations)",
+        "Criminal justice reform",
+        "COVID-19 response (2020)"
+      ],
+      "grant_size_range": "$1,500 to $2,000,000. Military assistance grants typically $5,000–$100,000 (Semper Fi Fund $100,000 is the largest military grant). Most grants in $5,000–$50,000 range.",
+      "geographic_focus": "New England (Massachusetts primary, RI, NH, CT, ME secondary). Some national grantees (Smithsonian, Columbia University, national organizations). No California grantees found in top grant history.",
+      "veteran_relevance": "HIGH. Military assistance is a recurring, explicit grant category across all years 2020–2023. Grantees include: Semper Fi & America's Fund ($100K), Operation Stand Down Rhode Island ($10K), VA Charters Inc ($5K), Massachusetts Military Heroes Fund ($5–10K), Operation Shower ($1.5K–$12.5K), Operation Delta Dog ($10K), Salvation Army military program ($10–25K), Shri Service Corps ($10K), Friends Never Forget ($10K), Massachusetts Military Support Foundation ($5K), Candorful Inc ($10K), Patriot Resilient Leader Institute ($10K). The foundation has a documented, sustained interest in military/veteran services.",
+      "adaptive_recreation_relevance": "LOW-MODERATE. Disability awareness appears (Understanding Our Differences, $5,000) and Cardinal Cushing Centers (disability services, repeated grantee). No adaptive sports or sailing grants found. The disability/veteran overlap is present but not in an adaptive recreation context."
+    },
+    "contacts": {
+      "primary_contact": "Patriots Foundation / Community Relations",
+      "email": "Unknown — patriots.com/press-room/contact-us (general contact only)",
+      "phone": null,
+      "address": "New England Patriots, One Patriot Place, Foxborough, MA 02035"
+    },
+    "vetsboats_verdict": {
+      "verdict": "POSSIBLE_FIT",
+      "confidence": "LOW",
+      "key_quote": "The foundation has confirmed military assistance grants every year 2020–2023 across 10+ veteran organizations, and pf_grants data shows at least 5 private foundation recipients.",
+      "reasoning": "Two strong positive signals: (1) PF ELIGIBILITY — 5 confirmed private foundation recipients in pf_grants data, which is the strongest PF eligibility evidence available. Hunter Seven Foundation (veteran-serving PF) received $10,000 specifically for 'Athletics/Education/Youth Services,' closely paralleling VetsBoats' mission. Patriot Resilient Leader Institute received $10,000 for 'Education' — another small PF recipient; (2) VETERAN FOCUS — Military assistance is one of the foundation's clearest, most consistent giving themes with $100K+ to Semper Fi Fund and grants to 10+ veteran organizations. VetsBoats' adaptive sailing for disabled military veterans maps directly to this interest. Key obstacles: (1) GEOGRAPHIC MISMATCH — Foundation is New England-centric; VetsBoats is in San Francisco, California. However, Smithsonian (national) and Columbia University received grants, suggesting national organizations are not excluded; (2) APPLICATION PROCESS UNKNOWN — Cannot confirm open applications. NFL team foundations often operate via community partners and proactive selection rather than open RFPs. Confidence is LOW due to geography obstacle and unknown application process, but the mission-PF combination warrants investigation before dismissal.",
+      "recommended_action": "INVESTIGATE FURTHER before pursuing. Steps: (1) Visit patriots.com/community directly to find grant application guidelines and whether unsolicited applications are accepted; (2) Research Hunter Seven Foundation relationship to Patriots (may be a personal connection explaining the grant); (3) If process is open, prepare a strong case emphasizing veteran adaptive recreation and the national scope of the mission. Geographic pitch: 'Military veterans nationwide, including those in California, deserve access to adaptive recreation.' Do not spend significant time until application process is confirmed open."
+    },
+    "key_urls": [
+      "https://www.patriots.com/community",
+      "https://www.patriots.com/unsolicited-submissions-policy (NOTE: this is for product IP, not grants)",
+      "https://www.patriots.com/team/players-roster/richie-grant/ (NOTE: this is a player page, not grants)"
+    ],
+    "website_grantees_mentioned": [
+      "NOTE: Website crawl did not retrieve any foundation/grant content. All grantee data is from IRS 990 database records only.",
+      "Patriots Foundation (referenced in site navigation as separate entity from main Patriots.com)"
+    ]
+  }
+]

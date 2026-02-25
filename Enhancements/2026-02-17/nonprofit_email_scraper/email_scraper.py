@@ -13,6 +13,7 @@ Features:
 - Returns ALL valid emails per site (not just best)
 """
 
+import json
 import re
 import asyncio
 import hashlib
@@ -34,6 +35,9 @@ class EmailResult:
     source_page: str       # homepage, contact_page, about_page
     source_url: str        # actual URL it was found on
     domain_matches: bool   # does email domain match website domain?
+    extraction_method: str = 'regex_scrape'  # mailto, cfemail, json_ld, regex_scrape
+    person_name: Optional[str] = None
+    person_title: Optional[str] = None
 
 
 @dataclass
@@ -75,6 +79,7 @@ ROLE_PREFIXES = {
     'director', 'president', 'ceo', 'cfo', 'coo', 'ed',
     'executive', 'executivedirector',
     'pastor', 'chaplain', 'counselor', 'referee',
+    'hi', 'we', 'us', 'go',
 }
 
 GENERIC_DOMAINS = {
@@ -100,6 +105,21 @@ JUNK_PATTERNS = [
     r'\.calendar\.google\.com',
     r'prober', r'@example\.', r'@test\.', r'@localhost',
     r'@automattic\.com',
+    # Placeholder domains
+    r'@company\.com$', r'@yoursite\.com$', r'@yourdomain\.', r'@domain\.com$',
+    r'@site\.com$', r'@emailserver\.com$', r'@contoh\.com$', r'@ejemplo\.com$',
+    r'@company-domain\.com$', r'@mysite\.com$',
+    # Theme / template junk
+    r'@enfold-restaurant\.com', r'@events\.frontend',
+    # Invalid TLDs
+    r'@[^@]+\.(frontend|tld)$',
+    # Prefix matches (form defaults)
+    r'^email@', r'^yourname@', r'^youremail@', r'^address@domain\.',
+    r'^first\.last@company\.com$', r'^you@yourdomain', r'^you@email',
+    r'^ejemplo@',
+    # Platform staging domains
+    r'\.azurewebsites\.net$', r'\.netlify\.app$', r'\.herokuapp\.com$',
+    r'\.vercel\.app$',
 ]
 
 
@@ -113,6 +133,9 @@ def classify_email_type(email: str) -> str:
         One of 'junk', 'role', 'generic', 'personal'.
     """
     email = email.lower().strip()
+
+    if '@' not in email:
+        return 'junk'
 
     # Check junk patterns first
     for pattern in JUNK_PATTERNS:
@@ -193,6 +216,21 @@ class NonprofitEmailScraper:
         r'^program\.intake@usda\.gov$',
         # Google Calendar hash addresses (includes group.v.calendar variant)
         r'\.calendar\.google\.com',
+        # Placeholder domains
+        r'@company\.com$', r'@yoursite\.com$', r'@yourdomain\.', r'@domain\.com$',
+        r'@site\.com$', r'@emailserver\.com$', r'@contoh\.com$', r'@ejemplo\.com$',
+        r'@company-domain\.com$', r'@mysite\.com$',
+        # Theme / template junk
+        r'@enfold-restaurant\.com', r'@events\.frontend',
+        # Invalid TLDs
+        r'@[^@]+\.(frontend|tld)$',
+        # Prefix matches (form defaults)
+        r'^email@', r'^yourname@', r'^youremail@', r'^address@domain\.',
+        r'^first\.last@company\.com$', r'^you@yourdomain', r'^you@email',
+        r'^ejemplo@',
+        # Platform staging domains
+        r'\.azurewebsites\.net$', r'\.netlify\.app$', r'\.herokuapp\.com$',
+        r'\.vercel\.app$',
     ]
 
     # Regex for image filenames that look like emails (retina @2x etc.)
@@ -236,6 +274,8 @@ class NonprofitEmailScraper:
         r'/reach-us', r'/get-in-touch', r'/connect',
         r'/donate', r'/support', r'/get-involved', r'/join',
         r'/leadership', r'/board', r'/who-we-are',
+        r'/board-of-directors', r'/governance', r'/directory',
+        r'/people', r'/executive', r'/our-board',
     ]
 
     # Direct paths to try if not found via links
@@ -243,6 +283,9 @@ class NonprofitEmailScraper:
         '/contact', '/contact-us', '/about', '/about-us',
         '/team', '/our-team', '/staff', '/leadership',
         '/donate', '/support', '/get-involved',
+        '/board-of-directors', '/our-board', '/governance',
+        '/directory', '/people', '/connect',
+        '/executive-team', '/senior-leadership',
     ]
 
     USER_AGENTS = [
@@ -342,20 +385,39 @@ class NonprofitEmailScraper:
                 result.emails.append(e)
                 seen_emails.add(e.email)
 
-        # 2. Find and fetch contact/about pages (max 2 additional)
+        # 2. Find and fetch contact/about pages (max 4 additional)
         contact_urls = self._find_contact_pages(html, url)
         pages_fetched = 0
+        found_contact_via_link = False
+        domain_match_count = sum(1 for e in result.emails if e.domain_matches)
+
         for contact_url in contact_urls:
-            if pages_fetched >= 2:
+            if pages_fetched >= 4:
+                break
+
+            # Early exit: if 2+ domain-matching emails already found, stop crawling
+            if domain_match_count >= 2 and pages_fetched >= 1:
                 break
 
             # Determine page type from URL
             page_type = self._classify_page_type(contact_url)
 
+            # Smart gating: if we found a contact page via link, skip direct contact URLs
+            if found_contact_via_link and page_type == 'contact':
+                parsed_cu = urlparse(contact_url)
+                base_cu = f"{parsed_cu.scheme}://{parsed_cu.netloc}"
+                if contact_url == base_cu + parsed_cu.path and not any(
+                    contact_url.startswith(u) for u in contact_urls[:pages_fetched]
+                ):
+                    continue
+
             await self._rate_limit_domain(domain)
             contact_html, contact_page = await self._fetch_page(session, contact_url, page_type)
             result.pages.append(contact_page)
             pages_fetched += 1
+
+            if page_type == 'contact' and contact_page.error is None:
+                found_contact_via_link = True
 
             if contact_html:
                 page_emails = self._find_all_emails(contact_html, domain, page_type, contact_url)
@@ -365,52 +427,325 @@ class NonprofitEmailScraper:
                         e.confidence = min(1.0, e.confidence + 0.1)
                         result.emails.append(e)
                         seen_emails.add(e.email)
+                        if e.domain_matches:
+                            domain_match_count += 1
 
         if not result.emails:
             result.status = 'not_found'
-        elif len(result.emails) > 5:
-            # Cap at 5 best emails per org to avoid team page over-extraction
-            result.emails.sort(key=lambda e: e.confidence, reverse=True)
-            result.emails = result.emails[:5]
+        else:
+            result.emails = self._smart_cap_emails(result.emails)
 
         return result
 
     # Unicode escape sequences found in JSON-embedded HTML (e.g., Wix sites)
     UNICODE_ESCAPES = re.compile(r'\\u003[ce]', re.IGNORECASE)
 
+    # Name extraction constants
+    NAME_PATTERN = re.compile(r'\b([A-Z][a-z]+(?:\s+[A-Z]\.?)?(?:\s+[A-Z][a-z]+){1,2})\b')
+    TITLE_PATTERNS = re.compile(
+        r'\b(?:Executive\s+Director|President|CEO|COO|CFO|Vice\s+President|VP|'
+        r'Director|Manager|Coordinator|Founder|Co-Founder|Treasurer|Secretary)\b',
+        re.IGNORECASE
+    )
+    NAME_SKIP_WORDS = {'street', 'avenue', 'drive', 'road', 'suite', 'floor',
+                        'inc', 'llc', 'foundation', 'organization', 'association',
+                        'county', 'city', 'state', 'national', 'american', 'united',
+                        'email', 'san', 'los', 'las', 'new', 'north', 'south',
+                        'east', 'west', 'fort', 'mount', 'lake', 'port',
+                        'center', 'church', 'school', 'community', 'program'}
+
+    # Role-based local parts (not personal names) — used by mailto name extraction
+    ROLE_LOCAL_PARTS = {
+        'info', 'contact', 'hello', 'office', 'admin', 'support',
+        'grants', 'development', 'giving', 'donate', 'donations',
+        'membership', 'volunteer', 'events', 'programs', 'services',
+        'communications', 'media', 'press', 'marketing', 'hr',
+        'finance', 'general', 'main', 'inquiries', 'help', 'feedback',
+        'fundraising', 'director', 'president', 'ceo', 'ed',
+        'board', 'newsletter', 'webmaster',
+        'executivedirector', 'executive', 'coo', 'cfo',
+    }
+
+    # Anchor text that looks like a name but isn't (action phrases, CTA text)
+    NON_NAME_PHRASES = {
+        'email us', 'contact us', 'click here', 'join us', 'learn more',
+        'read more', 'send email', 'get started', 'sign up', 'reach out',
+        'send us', 'write us', 'call us', 'help us',
+    }
+
     @staticmethod
-    def _clean_html(html: str) -> str:
-        """Remove script, style, and noscript tags to avoid extracting junk emails
-        from CSS font metadata, JS library authors, and embedded tracking code."""
+    def _decode_cloudflare_email(encoded: str) -> Optional[str]:
+        """Decode Cloudflare email obfuscation (data-cfemail XOR cipher)."""
+        try:
+            key = int(encoded[:2], 16)
+            chars = []
+            for i in range(2, len(encoded), 2):
+                chars.append(chr(int(encoded[i:i+2], 16) ^ key))
+            email = ''.join(chars).strip()
+            if '@' in email and '.' in email.split('@')[1]:
+                return email.lower()
+        except (ValueError, IndexError):
+            pass
+        return None
+
+    def _extract_from_mailto(self, soup: BeautifulSoup, domain: str,
+                             source_page: str, source_url: str) -> list[EmailResult]:
+        """Extract emails from mailto: links with optional name/title from anchor text."""
+        results = []
+        for link in soup.find_all('a', href=re.compile(r'^mailto:', re.I)):
+            # Skip if cfemail will handle it
+            if link.get('data-cfemail'):
+                continue
+            try:
+                href = link['href'].split(':')[1].split('?')[0].strip().lower()
+                if not href or '@' not in href:
+                    continue
+                # Strip www. from domain part
+                if '@www.' in href:
+                    href = href.replace('@www.', '@')
+                if self._is_excluded(href):
+                    continue
+
+                email_domain = href.split('@')[1]
+                domain_matches = (email_domain == domain)
+                confidence = self._calculate_confidence(href, domain, 'mailto')
+
+                if confidence <= 0:
+                    continue
+
+                # Name/title extraction from anchor text
+                person_name = None
+                person_title = None
+                anchor_text = link.get_text(strip=True)
+
+                if anchor_text and '@' not in anchor_text and anchor_text.lower() != href:
+                    # Skip common CTA phrases
+                    if anchor_text.lower().strip() not in self.NON_NAME_PHRASES:
+                        local = href.split('@')[0]
+                        local_clean = local.replace('.', '').replace('-', '').replace('_', '')
+                        # Only extract name for personal-type emails
+                        if local_clean not in self.ROLE_LOCAL_PARTS:
+                            name_match = self.NAME_PATTERN.search(anchor_text)
+                            if name_match:
+                                candidate = name_match.group(1)
+                                words = candidate.split()
+                                if 2 <= len(words) <= 3:
+                                    # Each name word should be 3+ chars
+                                    if all(len(w) >= 3 for w in words):
+                                        if not any(w.lower() in self.NAME_SKIP_WORDS for w in words):
+                                            person_name = candidate
+
+                    # Title extraction (works for any email type)
+                    title_match = self.TITLE_PATTERNS.search(anchor_text)
+                    if title_match:
+                        person_title = title_match.group(0).strip()
+
+                results.append(EmailResult(
+                    email=href,
+                    confidence=confidence,
+                    source_page=source_page,
+                    source_url=source_url,
+                    domain_matches=domain_matches,
+                    extraction_method='mailto',
+                    person_name=person_name,
+                    person_title=person_title,
+                ))
+            except (IndexError, KeyError):
+                continue
+        return results
+
+    def _extract_from_cfemail(self, soup: BeautifulSoup, domain: str,
+                              source_page: str, source_url: str) -> list[EmailResult]:
+        """Extract Cloudflare-obfuscated emails from data-cfemail attributes."""
+        results = []
+        for elem in soup.find_all(attrs={'data-cfemail': True}):
+            email = self._decode_cloudflare_email(elem['data-cfemail'])
+            if not email:
+                continue
+            if '@www.' in email:
+                email = email.replace('@www.', '@')
+            if self._is_excluded(email):
+                continue
+
+            email_domain = email.split('@')[1]
+            domain_matches = (email_domain == domain)
+            confidence = self._calculate_confidence(email, domain, 'cfemail')
+            if confidence <= 0:
+                continue
+
+            results.append(EmailResult(
+                email=email,
+                confidence=confidence,
+                source_page=source_page,
+                source_url=source_url,
+                domain_matches=domain_matches,
+                extraction_method='cfemail',
+            ))
+        return results
+
+    def _extract_from_json_ld(self, html: str, domain: str,
+                              source_page: str, source_url: str) -> list[EmailResult]:
+        """Extract emails from JSON-LD structured data (script tags)."""
+        results = []
+        try:
+            for match in re.finditer(
+                r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+                html, re.DOTALL | re.IGNORECASE
+            ):
+                try:
+                    data = json.loads(match.group(1))
+                    emails_found = []
+                    self._extract_emails_from_jsonld(data, emails_found)
+                    for email in emails_found:
+                        email = email.lower().strip()
+                        if '@www.' in email:
+                            email = email.replace('@www.', '@')
+                        if self._is_excluded(email) or '@' not in email:
+                            continue
+                        email_domain = email.split('@')[1]
+                        domain_matches = (email_domain == domain)
+                        confidence = self._calculate_confidence(email, domain, 'json_ld')
+                        if confidence <= 0:
+                            continue
+                        results.append(EmailResult(
+                            email=email,
+                            confidence=confidence,
+                            source_page=source_page,
+                            source_url=source_url,
+                            domain_matches=domain_matches,
+                            extraction_method='json_ld',
+                        ))
+                except (json.JSONDecodeError, ValueError):
+                    continue
+        except Exception:
+            pass
+        return results
+
+    @staticmethod
+    def _extract_emails_from_jsonld(data, results: list):
+        """Recursively extract email strings from JSON-LD data."""
+        if isinstance(data, dict):
+            for key in ('email', 'contactPoint'):
+                if key in data:
+                    val = data[key]
+                    if isinstance(val, str) and '@' in val:
+                        results.append(val.replace('mailto:', '').strip())
+                    elif isinstance(val, dict) and 'email' in val:
+                        results.append(val['email'].replace('mailto:', '').strip())
+                    elif isinstance(val, list):
+                        for item in val:
+                            if isinstance(item, dict) and 'email' in item:
+                                results.append(item['email'].replace('mailto:', '').strip())
+            for v in data.values():
+                if isinstance(v, (dict, list)):
+                    NonprofitEmailScraper._extract_emails_from_jsonld(v, results)
+        elif isinstance(data, list):
+            for item in data:
+                NonprofitEmailScraper._extract_emails_from_jsonld(item, results)
+
+    @staticmethod
+    def _smart_cap_emails(emails: list['EmailResult'], max_total: int = 8) -> list['EmailResult']:
+        """Cap emails intelligently: keep best role + best personal, fill rest by confidence."""
+        if len(emails) <= max_total:
+            return emails
+
+        # Classify each email
+        best_role = None
+        best_personal = None
+        for e in emails:
+            local = e.email.split('@')[0].replace('.', '').replace('-', '').replace('_', '')
+            is_role = local in ROLE_PREFIXES
+            if is_role and (best_role is None or e.confidence > best_role.confidence):
+                best_role = e
+            elif not is_role and (best_personal is None or e.confidence > best_personal.confidence):
+                best_personal = e
+
+        # Build final list: guaranteed slots first, then fill by confidence
+        kept = set()
+        result = []
+        for e in [best_role, best_personal]:
+            if e is not None:
+                result.append(e)
+                kept.add(e.email)
+
+        # Fill remaining slots by confidence
+        remaining = max_total - len(result)
+        by_confidence = sorted(emails, key=lambda x: x.confidence, reverse=True)
+        for e in by_confidence:
+            if e.email not in kept:
+                result.append(e)
+                kept.add(e.email)
+                remaining -= 1
+                if remaining <= 0:
+                    break
+
+        return result
+
+    @staticmethod
+    def _clean_html(html: str) -> tuple[BeautifulSoup, str]:
+        """Parse HTML and remove script/style/noscript. Returns (soup, cleaned_text).
+        Note: Structured extraction (mailto, cfemail) must run BEFORE calling this,
+        since decompose removes the elements those methods need."""
         soup = BeautifulSoup(html, 'html.parser')
         for tag in soup.find_all(['script', 'style', 'noscript']):
             tag.decompose()
-        return str(soup)
+        cleaned_text = soup.get_text(separator=' ', strip=True)
+        return soup, cleaned_text
 
     def _find_all_emails(self, html: str, domain: str,
                          source_page: str, source_url: str) -> list[EmailResult]:
-        """Extract ALL valid emails from HTML content."""
+        """Extract ALL valid emails from HTML using multi-pass extraction.
+
+        Pass order: mailto → cfemail → JSON-LD → (decompose) → regex.
+        Structured methods run before decompose to access DOM elements.
+        """
         if not html:
             return []
 
         # Decode JSON Unicode escapes before extracting emails
         # \u003c = <, \u003e = > (common in Wix JSON-embedded HTML)
         if '\\u003' in html:
-            html = self.UNICODE_ESCAPES.sub('', html)
+            html = html.replace('\\u003c', '<').replace('\\u003e', '>')
+            html = html.replace('\\u003C', '<').replace('\\u003E', '>')
 
-        # Strip script/style/noscript tags to avoid font metadata and JS library emails
-        html = self._clean_html(html)
-
-        found_emails = self.EMAIL_PATTERN.findall(html)
-        if not found_emails:
-            return []
+        # Parse HTML once — structured extraction needs the full DOM
+        soup = BeautifulSoup(html, 'html.parser')
 
         results = []
         seen = set()
+
+        def _add_results(new_results: list[EmailResult]):
+            for r in new_results:
+                if r.email not in seen:
+                    seen.add(r.email)
+                    results.append(r)
+
+        # Pass 1: mailto links (before decompose — needs <a> tags)
+        _add_results(self._extract_from_mailto(soup, domain, source_page, source_url))
+
+        # Pass 2: Cloudflare obfuscated (before decompose — needs data-cfemail attrs)
+        _add_results(self._extract_from_cfemail(soup, domain, source_page, source_url))
+
+        # Pass 3: JSON-LD structured data (needs raw HTML with script tags)
+        _add_results(self._extract_from_json_ld(html, domain, source_page, source_url))
+
+        # Decompose script/style/noscript for clean text extraction
+        for tag in soup.find_all(['script', 'style', 'noscript']):
+            tag.decompose()
+        cleaned_text = soup.get_text(separator=' ', strip=True)
+
+        # Pass 4: Regex on cleaned text + cleaned soup HTML
+        soup_str = str(soup)
+        combined = cleaned_text + ' ' + soup_str
+        found_emails = self.EMAIL_PATTERN.findall(combined)
+
         for email in found_emails:
             email = email.lower().strip()
             # Strip any remaining u003e/u003c prefixes
             email = re.sub(r'^u003[ce]', '', email)
+            # Strip @www. malformation
+            if '@www.' in email:
+                email = email.replace('@www.', '@')
             # Decode URL-encoded characters (%20 spaces from mailto: links)
             if '%' in email:
                 email = unquote(email).strip()
@@ -435,7 +770,7 @@ class NonprofitEmailScraper:
             if self.HASH_LOCAL_PATTERN.match(email):
                 continue
 
-            confidence = self._calculate_confidence(email, domain)
+            confidence = self._calculate_confidence(email, domain, 'regex_scrape')
             if confidence > 0:
                 email_domain = email.split('@')[1]
                 results.append(EmailResult(
@@ -444,22 +779,31 @@ class NonprofitEmailScraper:
                     source_page=source_page,
                     source_url=source_url,
                     domain_matches=(email_domain == domain),
+                    extraction_method='regex_scrape',
                 ))
 
         # Sort by confidence descending
         results.sort(key=lambda x: x.confidence, reverse=True)
         return results
 
-    def _calculate_confidence(self, email: str, website_domain: str) -> float:
+    def _calculate_confidence(self, email: str, website_domain: str,
+                              extraction_method: str = 'regex_scrape') -> float:
         """Calculate confidence score for an email (0.0 - 1.0)."""
         score = 0.5
         local, domain = email.split('@')
 
         # Domain matching
-        if domain == website_domain:
+        domain_matches = (domain == website_domain)
+        if domain_matches:
             score += 0.3
         elif website_domain in domain or domain in website_domain:
             score += 0.15
+
+        # Extraction method bonuses
+        if extraction_method == 'mailto':
+            score += 0.15
+        elif extraction_method in ('cfemail', 'json_ld'):
+            score += 0.10
 
         # Priority prefix scoring
         for i, prefix in enumerate(self.PRIORITY_PREFIXES):
@@ -476,8 +820,8 @@ class NonprofitEmailScraper:
                        'aol.com', 'icloud.com', 'comcast.net', 'att.net'):
             score -= 0.1
 
-        # Short local part penalty
-        if len(local) < 3:
+        # Short local part penalty — skip when domain matches (ed@org.com is legit)
+        if len(local) < 3 and not domain_matches:
             score -= 0.1
 
         return max(0.0, min(1.0, score))
@@ -534,9 +878,10 @@ class NonprofitEmailScraper:
 
     async def _fetch_page(self, session, url: str,
                           page_type: str) -> tuple[Optional[str], PageResult]:
-        """Fetch a page. Returns (html_or_None, PageResult)."""
+        """Fetch a page with per-request UA rotation. Returns (html_or_None, PageResult)."""
+        req_headers = {'User-Agent': random.choice(self.USER_AGENTS)}
         try:
-            async with session.get(url, allow_redirects=True) as response:
+            async with session.get(url, headers=req_headers, allow_redirects=True) as response:
                 status = response.status
                 if status == 200:
                     html = await response.text()
@@ -562,11 +907,12 @@ class NonprofitEmailScraper:
             return (None, page)
 
         except aiohttp.ClientSSLError:
-            # Try HTTP fallback
+            # Try HTTP fallback with rotated UA
             if url.startswith('https://'):
                 http_url = url.replace('https://', 'http://')
+                fallback_headers = {'User-Agent': random.choice(self.USER_AGENTS)}
                 try:
-                    async with session.get(http_url, allow_redirects=True) as response:
+                    async with session.get(http_url, headers=fallback_headers, allow_redirects=True) as response:
                         if response.status == 200:
                             html = await response.text()
                             html_hash = hashlib.md5(html.encode('utf-8', errors='replace')).hexdigest()

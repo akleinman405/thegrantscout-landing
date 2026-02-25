@@ -22,6 +22,14 @@ DATABASE RULES:
 - Schema prefix: f990_2025.table_name
 - Database: thegrantscout (NOT postgres)
 - EINs are VARCHAR (preserve leading zeros)
+- NEVER run SQL queries in parallel — one at a time, sequential only
+- After any MCP SQL error, switch to psql via Bash (connection is poisoned)
+
+COLUMN GOTCHAS (check before writing SQL):
+- fact_grants uses foundation_ein (NOT filer_ein) and purpose_text (NOT purpose)
+- dim_clients uses mission_text (NOT mission_statement) and project_need_text (NOT project_description)
+- dim_foundations uses name (NOT business_name); dim_recipients uses name (NOT organization_name)
+- See rules/schema.md for full column reference
 
 IF VERBAL INSTRUCTION (no prompt file):
 - Create PROMPT file first documenting the request

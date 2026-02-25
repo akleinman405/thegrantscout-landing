@@ -1,0 +1,218 @@
+[
+  {
+    "ein": "942819322",
+    "name": "Danford Foundation",
+    "website": "https://danfordfisherhannig.org",
+    "eligibility": {
+      "who_can_apply": "Unknown — website states foundation 'invests in their existing portfolio of 150 charities' with no mention of accepting new applicants",
+      "who_cannot_apply": "Organizations outside the existing portfolio of 150 charities appear to have no pathway",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "pf_grants field shows only Holy Name School (CA, a private Catholic school and public charity). No grants to other private foundations found in the data. Website does not address org type. The foundation's grant history in top_grants is dominated by Hannig Environmental Research Organization, St. Jude Children's Hospital, Floating Doctors, Sequoia Hospital Foundation, and Guide Dogs for the Blind — all public charities.",
+      "geographic_restrictions": "Appears California-focused (Redwood City base), though St. Jude grants go to TN and ITEC in FL — some out-of-state giving",
+      "org_type_requirements": "Not stated explicitly. All identified grantees appear to be 501(c)(3) public charities",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Foundation states it 'invests in their existing portfolio of 150 charities' — strongly implies a closed, non-accepting roster. 'Charity Login' portal on website suggests charities in the portfolio have a dedicated access point"
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "Foundation explicitly states it 'invests in their existing portfolio of 150 charities' and does not maintain offices or staff. No application instructions found. A 'Charity Login' link exists on the website suggesting current grantees access a portal. No evidence of an open application process.",
+      "portal_url": "https://danfordfisherhannig.org (Charity Login link visible but no public URL)",
+      "guidelines_url": null,
+      "deadlines": null,
+      "materials_required": null
+    },
+    "funding": {
+      "focus_areas": ["Health and medicine (hospital equipment, cancer research)", "Marine ecology and environmental research (Hannig Environmental Research Org)", "Healthcare for underserved populations (Floating Doctors)", "Disability services (Guide Dogs for the Blind)", "Education (Holy Name School tuition support)"],
+      "grant_size_range": "$1,200 – $525,000 (median appears ~$50,000–$100,000 for flagship grantees)",
+      "geographic_focus": "California-primary; some national giving (TN, FL)",
+      "veteran_relevance": "None found in grant history or website content",
+      "adaptive_recreation_relevance": "None found. NOTE: The research brief flagged 'Danford Foundation funds California Inclusive Sailing repeatedly' — this is NOT supported by the crawled data or top_grants. The actual Danford Foundation at EIN 942819322 (now Danford Fisher Hannig Foundation) does not show any sailing or adaptive recreation grants. This may be a case of confused naming — a different 'Danford' foundation may have made those grants. This discrepancy should be investigated before pursuing."
+    },
+    "contacts": {
+      "primary_contact": "George Fisher (Katherine's son) and Ted Hannig (Frank's son) — directors",
+      "email": null,
+      "phone": null,
+      "address": "Redwood City, CA (no street address listed; no offices maintained)"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Foundation invests in their existing portfolio of 150 charities that support local health, education and welfare.",
+      "reasoning": "Three disqualifying factors: (1) Closed portfolio — foundation explicitly states it funds existing 150 charities with no indication of accepting new grantees; (2) No sailing, adaptive recreation, or veteran-related grants found anywhere in grant history; (3) The 'California Inclusive Sailing' connection cited in research notes is NOT supported by actual grant data at EIN 942819322. The foundation's focus is health, hospital equipment, and environmental research. VetsBoats would need to be in the existing 150-charity roster to receive funding, which is not the case.",
+      "recommended_action": "Do not pursue. Separately investigate whether a different foundation named 'Danford' (not EIN 942819322) made grants to California Inclusive Sailing — this may be a data error in the search strategy."
+    },
+    "key_urls": [
+      "https://danfordfisherhannig.org/"
+    ],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "711010693",
+    "name": "Heffernan Group Foundation",
+    "website": "https://www.heffernanfoundation.org",
+    "eligibility": {
+      "who_can_apply": "501(c)(3) nonprofits that provide education, shelter, and food security in local communities. Grants are awarded by invitation only.",
+      "who_cannot_apply": "Organizations not invited by the foundation. Organizations outside focus areas of education, shelter, and food security.",
+      "pf_eligible": "NO",
+      "pf_evidence": "Website explicitly states 'Grants are awarded annually by invitation and typically range from $2,500 to $25,000.' The employee matching program specifies employees donate to '501(c)(3) charities' — implying public charity requirement. All listed grantees appear to be public charities. pf_grants in the data show Socius Foundation (CA), Beecher's Foundation (WA), The DG Foundation (CA) — these appear to be private foundations receiving small grants ($1,000–$10,000). This is a mixed signal: the foundation has made some PF-to-PF grants historically, but the formal grant program requires invitation and focuses on public charity service programs.",
+      "geographic_restrictions": "Based in Walnut Creek, CA with grantees across Bay Area, Southern California, Oregon, Missouri, New Jersey, and other states. Appears to follow Heffernan insurance company employee locations rather than strict geography.",
+      "org_type_requirements": "Effectively 501(c)(3) public charities (education, shelter, food security focus). No explicit 'public charity only' statement found, but all program grantees are public charities.",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Invitation only. Must align with education, shelter, or food security focus. Employee connection preferred (orgs where Heffernan employees volunteer gain 'Dollars for Doers' grants)."
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "Grants are awarded annually by invitation only. No public application process described. Employee volunteer hours can direct 'Dollars for Doers' grants ($250 or $500) to organizations where employees volunteer 25 or 50 hours respectively.",
+      "portal_url": null,
+      "guidelines_url": "https://www.heffernanfoundation.org/what-we-fund/",
+      "deadlines": "Annual cycle, specific dates not stated",
+      "materials_required": null
+    },
+    "funding": {
+      "focus_areas": ["Education and scholarships (Cristo Rey network, College Track)", "Food security and hunger relief", "Shelter and housing", "Community welfare in areas where Heffernan Insurance operates"],
+      "grant_size_range": "$2,500 – $25,000 for grants; scholarships up to $60,000 for individuals; 'Dollars for Doers' up to $500",
+      "geographic_focus": "California-primary (Bay Area, Sacramento, San Jose, San Diego), with grants in OR, MO, NJ, PA, TX where Heffernan has offices",
+      "veteran_relevance": "None found. No veteran-serving organizations in grantee list.",
+      "adaptive_recreation_relevance": "None found. No sailing, boating, or adaptive recreation organizations in grantee list. 'Connected Horse' (equine connection therapy) appears but is not adaptive sailing."
+    },
+    "contacts": {
+      "primary_contact": "Heffernan Foundation",
+      "email": null,
+      "phone": "+1 925.295.2575",
+      "address": "1350 Carlback Avenue, Walnut Creek, CA 94596"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Grants are awarded annually by invitation and typically range from $2,500 to $25,000.",
+      "reasoning": "Three disqualifying factors: (1) Invitation-only — no pathway for VetsBoats to apply without an existing relationship; (2) Focus areas (education, food security, shelter) do not match adaptive sailing or veteran therapeutic recreation; (3) VetsBoats as a private foundation is unlikely to meet the implied public charity expectation of this corporate foundation. The foundation is tied to the Heffernan Insurance company's corporate philanthropy — grants follow employee relationships, not mission alignment with VetsBoats.",
+      "recommended_action": "Do not pursue as a grant applicant. If VetsBoats has a board member or volunteer with Heffernan Insurance connections, that would be the only viable pathway via the 'Dollars for Doers' program."
+    },
+    "key_urls": [
+      "https://www.heffernanfoundation.org/what-we-fund/"
+    ],
+    "website_grantees_mentioned": [
+      "Support for Families of Children with Disabilities",
+      "Connected Horse",
+      "Arc of the East Bay",
+      "Porterville Sheltered Workshop (PSW)"
+    ]
+  },
+  {
+    "ein": "473818599",
+    "name": "Richard Reed Foundation",
+    "website": "https://www.richardreedfoundation.org",
+    "eligibility": {
+      "who_can_apply": "Smaller nonprofits focused on mental/physical health, community welfare, animal welfare, and environmental impact. Website has a 'Grant Inquiries' page suggesting some openness to inquiries.",
+      "who_cannot_apply": "Large organizations. Implied: organizations outside focus areas of human health, animal welfare, and environment.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Website says '501(c)(3) organization' in footer but does not specify public charity requirement for grantees. pf_grants field shows grants to Forma Kids Foundation (CA, $10,000) and Rocky Mountain Health Foundation (CO, $10,000 and $5,000) — both are private foundations. This is meaningful PF-friendly evidence. The foundation has a documented history of making grants to other private foundations.",
+      "geographic_restrictions": "Colorado-based (Highlands Ranch) but has given to CA, AZ, Mexico, and Puerto Rico. Achieve Tahoe (CA) received multiple grants. Not exclusively Colorado.",
+      "org_type_requirements": "Not stated. 'Smaller nonprofits' preferred. No explicit public charity requirement.",
+      "budget_requirements": "Prefers 'smaller' organizations (not quantified)",
+      "other_requirements": "Organization must be 'forward-thinking.' Foundation appears to respond to personal outreach via the Grant Inquiries contact form."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Website has a 'Grant Inquiries' navigation link and contact form. The foundation 'seeks out smaller, forward-thinking organizations' — language suggesting proactive discovery but not a formal closed process. Email is listed on the contact page.",
+      "portal_url": "https://richardreedfoundation.org/contact/",
+      "guidelines_url": "https://richardreedfoundation.org/",
+      "deadlines": "Not specified",
+      "materials_required": "Not explicitly stated. Contact form captures: name, email, organization, message."
+    },
+    "funding": {
+      "focus_areas": ["Mental and physical health", "Child health and development", "Community welfare", "Animal welfare (equine therapy, shelters, spay/neuter)", "Environmental impact and conservation", "Adaptive sports and recreation (Achieve Tahoe grants)"],
+      "grant_size_range": "$5,000 – $110,000 (typical grants appear $10,000–$40,000 range)",
+      "geographic_focus": "Colorado-primary; California secondary (Achieve Tahoe, Wildlife Rescue Center of Napa County, Forma Kids Foundation); some international (Mexico, Puerto Rico for animal welfare)",
+      "veteran_relevance": "Moderate — granted to Robin's Nest Foundation for 'equine therapy program for depressed teens and veterans' ($40,225 in 2021). This is the only veteran reference but it demonstrates awareness of veteran mental health needs.",
+      "adaptive_recreation_relevance": "HIGH — Achieve Tahoe received $30,300 (2021) for 'adaptive sports and recreational activities in Lake Tahoe for individuals of all ages and all disabilities' and $25,000 (2022) for equestrian + volunteer program. This is the strongest adaptive recreation precedent in the batch."
+    },
+    "contacts": {
+      "primary_contact": "Richard Reed Foundation",
+      "email": "info@richardrreedfoundation.org",
+      "phone": null,
+      "address": "P.O. Box 630470, Highlands Ranch, CO 80163"
+    },
+    "vetsboats_verdict": {
+      "verdict": "POSSIBLE_FIT",
+      "confidence": "MEDIUM",
+      "key_quote": "PROVIDE ADAPTIVE SPORTS AND RECREATIONAL ACTIVITIES IN LAKE TAHOE FOR INDIVIDUALS OF ALL AGES AND ALL DISABILITIES (Achieve Tahoe grant, $30,300, 2021)",
+      "reasoning": "Three positive signals: (1) Adaptive recreation precedent — funded Achieve Tahoe specifically for adaptive sports for people with disabilities; (2) PF-friendly — made grants to Forma Kids Foundation and Rocky Mountain Health Foundation (other private foundations), so VetsBoats' private foundation status is not automatically disqualifying; (3) Open inquiry process — foundation has a public contact form and email, suggesting they accept outreach. Three concerns: (a) Colorado-based with no California sailing or maritime grants; (b) No veteran-specific grants (only tangential veteran reference in Robin's Nest equine therapy); (c) Small foundation likely focused on founders' personal interests — sailing/SF Bay connection not evident. If VetsBoats can frame its adaptive sailing program clearly as adaptive recreation for people with disabilities, and note the veteran mental health dimension, there is a plausible case. Geographic stretch (CO to CA) is the main hurdle.",
+      "recommended_action": "Send a brief inquiry email to info@richardrreedfoundation.org. Lead with the adaptive recreation angle (not veteran angle), cite Achieve Tahoe as a comparable grantee, mention VetsBoats serves people with disabilities through adaptive sailing. Keep initial outreach concise — 150 words max. Note that the foundation is Colorado-based and VetsBoats is California, so acknowledge the geographic stretch proactively."
+    },
+    "key_urls": [
+      "https://richardreedfoundation.org/",
+      "https://richardreedfoundation.org/contact/"
+    ],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "136201175",
+    "name": "Widgeon Point Charitable Foundation",
+    "website": "https://widgeonpoint.org",
+    "eligibility": {
+      "who_can_apply": "Any 501(c)(3) organization in the USA may technically apply, but in practice the foundation 'focus[es] on non-profit organizations that are personally known to one or more of the board members.' Organizations that have received grants from Widgeon Point in the recent past, or have been expressly invited by a Grant Committee member.",
+      "who_cannot_apply": "In 2025: unsolicited applicants who are new to the foundation and have no existing relationship. Foundation explicitly closed to AI-generated or mass-blast unsolicited applications.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Application page requires 'IRS Determination Letter' — does not specify 501(c)(3) public charity vs. private foundation. pf_grants field shows Institute of Current World Affairs (DC, $25,000, 2022) — this is actually a public charity, not a private foundation. No explicit grants to private foundations found in the data. Website grant recipients list includes 'Kurt + Peter Foundation' (California) — this may be a private foundation receiving a grant, which would confirm PF-to-PF giving. Website does not state 'public charity only.'",
+      "geographic_restrictions": "Heavy Maine focus (board appears Maine/Northeast-based), but nationwide recipients found: California (Surfrider, 826 Valencia, La Cocina, Urban Alchemy, Spirit Series Inc.), Alaska, New York, Montana, Wyoming, Colorado, and others. California recipients exist in the grantee list.",
+      "org_type_requirements": "501(c)(3) required (IRS Determination Letter must be submitted). Org type (public charity vs. private foundation) not explicitly restricted.",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Strong preference for personal connection to a board member. Application period historically March 1 – September 15. In 2025, unsolicited applications not accepted — invite or prior grant relationship required."
+    },
+    "application": {
+      "process": "LOI",
+      "process_description": "Normally March 1 – September 15 application window with an online form. For 2025, foundation closed to unsolicited applications due to 'overwhelming number of organizations requesting funds, and the use of artificial intelligence to submit unsolicited electronic requests.' Only prior grantees or expressly invited organizations will be reviewed. Applications reviewed Oct–Dec. Requires: cover letter, IRS Determination Letter, EIN, annual report, and answer to 'How does your organization make the world better?' plus personal connection to foundation.",
+      "portal_url": "https://widgeonpoint.org/apply/",
+      "guidelines_url": "https://widgeonpoint.org/apply/",
+      "deadlines": "September 15, 2025 (for 2025 cycle — invite/prior grantee only). Future cycles: historically March 1 – September 15.",
+      "materials_required": [
+        "Cover letter",
+        "IRS Determination Letter",
+        "EIN number",
+        "Last annual report",
+        "Statement: How does your organization make the world better?",
+        "Personal connection to foundation statement"
+      ]
+    },
+    "funding": {
+      "focus_areas": ["Arts and culture (museums, galleries, performing arts)", "Education and scholarships", "Environment and conservation", "Maritime and sailing programs (Sail Maine, New York Sailing Foundation, Sail To Prevail, Sitka Maritime Heritage Society)", "Adaptive sports and recreation (Maine Adaptive Sports and Recreation, On Belay, Riding To The Top)", "Legal services and access to justice", "Food security and community services"],
+      "grant_size_range": "$25,000 – $3,750,000 (Bessemer Giving Fund is an outlier at $3.75M DAF transfer; typical grants $25,000–$150,000 for established grantees; smaller orgs may receive $5,000–$25,000)",
+      "geographic_focus": "Heavily Maine-focused (board appears Maine-based), with significant New York giving, and scattered national grants to California, Alaska, Montana, Wyoming, Rhode Island, etc.",
+      "veteran_relevance": "Low — no veteran-specific organizations found in the extensive grantee list. 'Riding To The Top' (equine therapy, Maine) and 'On Belay' (NH) are adaptive/outdoor rec orgs but not veteran-specific.",
+      "adaptive_recreation_relevance": "HIGH — Multiple directly relevant grantees: (1) Sail To Prevail, Inc. (Rhode Island) — adaptive sailing for people with disabilities, directly comparable to VetsBoats; (2) Maine Adaptive Sports and Recreation — general adaptive sports in Maine; (3) New York Sailing Foundation — sailing education; (4) Sail Maine — sailing in Maine; (5) On Belay (NH) — adaptive outdoor recreation; (6) Riding To The Top (ME) — therapeutic riding. The foundation has a demonstrated pattern of funding adaptive outdoor recreation and sailing programs."
+    },
+    "contacts": {
+      "primary_contact": "Grant Committee (unnamed members)",
+      "email": null,
+      "phone": "(207) 200-3160",
+      "address": "Not disclosed on website (Maine-based based on phone area code)"
+    },
+    "vetsboats_verdict": {
+      "verdict": "POSSIBLE_FIT",
+      "confidence": "MEDIUM",
+      "key_quote": "Grant Recipients: Sail To Prevail, Inc. Rhode Island ... Maine Adaptive Sports and Recreation Maine ... New York Sailing Foundation New York ... Sail Maine Maine",
+      "reasoning": "Program fit is exceptional: Widgeon Point has funded Sail To Prevail (adaptive sailing for people with disabilities in Rhode Island) — this is the most directly comparable organization to VetsBoats in any foundation's grant history reviewed. The foundation also funded Sail Maine, New York Sailing Foundation, and Maine Adaptive Sports and Recreation, confirming strong affinity for both sailing and adaptive recreation. However, two major obstacles: (1) Access barrier — in 2025, the foundation is invite-only, requiring prior relationship or board member personal connection. VetsBoats has no known prior connection to Widgeon Point. (2) Geographic mismatch — despite national giving, the foundation is heavily Maine-focused, and VetsBoats is San Francisco Bay. VetsBoats' PF status is not explicitly disqualifying (org type not restricted), and the grant to 'Kurt + Peter Foundation' (CA) may suggest PF-to-PF giving has occurred. The recommended path is NOT to submit an unsolicited application, but to identify whether any VetsBoats board member or advisor has a personal connection to a Widgeon Point board member, or to approach the foundation in 2026 when they may reopen to general applications.",
+      "recommended_action": "Research Widgeon Point board members (not disclosed on website — check IRS 990-PF filings at EIN 136201175). Look for connections to VetsBoats board, advisors, or SF Bay sailing community. If a connection exists, approach that board member directly and ask to be invited to apply in 2026. Do not submit unsolicited in 2025. Monitor website in early 2026 for application reopening. If no connection found, add to watchlist for 2026 open cycle."
+    },
+    "key_urls": [
+      "https://widgeonpoint.org/apply/",
+      "https://widgeonpoint.org/grant-recipients/"
+    ],
+    "website_grantees_mentioned": [
+      "Sail To Prevail, Inc. (Rhode Island) — adaptive sailing",
+      "Maine Adaptive Sports and Recreation (Maine)",
+      "New York Sailing Foundation (New York)",
+      "Sail Maine (Maine)",
+      "On Belay (New Hampshire) — adaptive outdoor recreation",
+      "Riding To The Top (Maine) — therapeutic riding",
+      "Kurt + Peter Foundation (California) — possible private foundation grantee",
+      "Wrangell Mariners Memorial (Alaska)",
+      "Sitka Maritime Heritage Society (Alaska)",
+      "Rippleffect Inc (Maine) — outdoor/maritime education",
+      "Maine Maritime Museum (Maine)",
+      "Northern Forest Canoe Trail (Vermont)",
+      "Allagash Wilderness Waterway Foundation (Maine)"
+    ]
+  }
+]

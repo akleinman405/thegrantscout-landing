@@ -162,7 +162,7 @@ table {{
     border-collapse: collapse;
     margin: 12pt 0;
     font-size: {branding.SIZE_TABLE_DATA}pt;
-    page-break-inside: avoid;
+    page-break-inside: auto;
 }}
 
 thead th, th {{
@@ -178,6 +178,8 @@ td {{
     padding: 6pt 10pt;
     border-bottom: 1px solid {branding.BG_BORDER_LIGHT};
     vertical-align: top;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }}
 
 tr:nth-child(even) td {{

@@ -13,6 +13,7 @@ from datetime import datetime
 from urllib.parse import urlparse
 
 import psycopg2
+import psycopg2.errors
 from psycopg2.extras import RealDictCursor, execute_values
 
 from email_scraper import classify_email_type
@@ -62,7 +63,9 @@ class DatabaseManager:
 
     def _set_schema(self):
         with self.conn.cursor() as cur:
-            cur.execute(f"SET search_path TO {SCHEMA}")
+            cur.execute(
+                "SELECT set_config('search_path', %s, false)", (SCHEMA,)
+            )
         self.conn.commit()
 
     def _get_cursor(self):
@@ -116,17 +119,28 @@ class DatabaseManager:
         ein = result.ein
 
         with self.conn.cursor() as cur:
-            # 1. Insert emails (ON CONFLICT skip duplicates)
+            # 1. Insert emails (ON CONFLICT update if better confidence)
             for email_result in result.emails:
                 email_domain = email_result.email.split('@')[1] if '@' in email_result.email else None
                 email_type = classify_email_type(email_result.email)
+                extraction_method = getattr(email_result, 'extraction_method', 'regex_scrape')
+                person_name = getattr(email_result, 'person_name', None)
+                person_title = getattr(email_result, 'person_title', None)
                 cur.execute("""
                     INSERT INTO web_emails (
                         ein, email, email_type, email_domain, domain_matches_website,
                         source_url, source_page_type, extraction_method,
-                        confidence, syntax_valid, extracted_at
-                    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())
-                    ON CONFLICT (ein, email) DO NOTHING
+                        confidence, syntax_valid, person_name, person_title, extracted_at
+                    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())
+                    ON CONFLICT (ein, email) DO UPDATE SET
+                        confidence = GREATEST(web_emails.confidence, EXCLUDED.confidence),
+                        person_name = COALESCE(EXCLUDED.person_name, web_emails.person_name),
+                        person_title = COALESCE(EXCLUDED.person_title, web_emails.person_title),
+                        extraction_method = CASE
+                            WHEN EXCLUDED.confidence > web_emails.confidence
+                            THEN EXCLUDED.extraction_method
+                            ELSE web_emails.extraction_method
+                        END
                 """, (
                     ein,
                     email_result.email,
@@ -135,9 +149,11 @@ class DatabaseManager:
                     email_result.domain_matches,
                     email_result.source_url,
                     email_result.source_page,
-                    'regex_scrape',
+                    extraction_method,
                     email_result.confidence,
                     True,  # regex already validates syntax
+                    person_name,
+                    person_title,
                 ))
 
             # 2. Insert page fetch logs (ON CONFLICT skip duplicates)
@@ -173,12 +189,11 @@ class DatabaseManager:
                 ein,
             ))
 
-        self.conn.commit()
-
     def save_batch_results(self, results: list):
         """Save a batch of ScrapeResults. Commits once at the end."""
         for result in results:
             self.save_scrape_result(result)
+        self.conn.commit()
 
     def reset_stuck_in_progress(self, hours: int = 4) -> int:
         """Reset EINs stuck in 'in_progress' for more than N hours back to NULL."""
@@ -188,7 +203,7 @@ class DatabaseManager:
                 SET scrape_status = NULL,
                     scrape_started_at = NULL
                 WHERE scrape_status = 'in_progress'
-                  AND scrape_started_at < NOW() - INTERVAL '%s hours'
+                  AND scrape_started_at < NOW() - make_interval(hours => %s)
             """, (hours,))
             count = cur.rowcount
         self.conn.commit()
@@ -274,6 +289,121 @@ class DatabaseManager:
                 results,
             )
         self.conn.commit()
+
+    def fix_existing_emails(self, dry_run: bool = True) -> dict:
+        """Fix existing emails: delete junk, strip @www., reclassify types.
+        Returns dict with counts of each fix applied."""
+        import re as _re
+
+        # Junk patterns to match (same as JUNK_PATTERNS + EXCLUDE_PATTERNS additions)
+        new_junk_patterns = [
+            r'@company\.com$', r'@yoursite\.com$', r'@yourdomain\.', r'@domain\.com$',
+            r'@site\.com$', r'@emailserver\.com$', r'@contoh\.com$', r'@ejemplo\.com$',
+            r'@company-domain\.com$', r'@mysite\.com$',
+            r'@enfold-restaurant\.com', r'@events\.frontend',
+            r'@[^@]+\.(frontend|tld)$',
+            r'^email@', r'^yourname@', r'^youremail@', r'^address@domain\.',
+            r'^first\.last@company\.com$', r'^you@yourdomain', r'^you@email',
+            r'^ejemplo@',
+            r'\.azurewebsites\.net$', r'\.netlify\.app$', r'\.herokuapp\.com$',
+            r'\.vercel\.app$',
+        ]
+        compiled = [_re.compile(p, _re.IGNORECASE) for p in new_junk_patterns]
+
+        counts = {'junk_deleted': 0, 'www_fixed': 0, 'types_reclassified': 0}
+
+        with self._get_cursor() as cur:
+            # 1. Find and delete junk emails
+            cur.execute("SELECT id, email FROM web_emails")
+            junk_ids = []
+            for row in cur.fetchall():
+                for pattern in compiled:
+                    if pattern.search(row['email']):
+                        junk_ids.append(row['id'])
+                        break
+
+            counts['junk_deleted'] = len(junk_ids)
+
+            # 2. Find @www. emails
+            cur.execute("SELECT id, email, ein FROM web_emails WHERE email LIKE '%@www.%'")
+            www_rows = cur.fetchall()
+            counts['www_fixed'] = len(www_rows)
+
+            # 3. Count emails needing reclassification
+            cur.execute("SELECT COUNT(*) AS cnt FROM web_emails WHERE email_type IS NULL")
+            counts['types_reclassified'] = cur.fetchone()['cnt']
+
+        if not dry_run:
+            with self.conn.cursor() as cur:
+                # Delete junk
+                if junk_ids:
+                    cur.execute("DELETE FROM web_emails WHERE id = ANY(%s)", (junk_ids,))
+
+                # Fix @www. emails (use savepoints to handle unique constraint violations)
+                for row in www_rows:
+                    fixed = row['email'].replace('@www.', '@')
+                    fixed_domain = fixed.split('@')[1] if '@' in fixed else None
+                    cur.execute("SAVEPOINT www_fix")
+                    try:
+                        cur.execute(
+                            "UPDATE web_emails SET email = %s, email_domain = %s WHERE id = %s",
+                            (fixed, fixed_domain, row['id']),
+                        )
+                        cur.execute("RELEASE SAVEPOINT www_fix")
+                    except psycopg2.IntegrityError:
+                        # Unique constraint violation: fixed email already exists — delete the www. version
+                        cur.execute("ROLLBACK TO SAVEPOINT www_fix")
+                        cur.execute("DELETE FROM web_emails WHERE id = %s", (row['id'],))
+
+                # Reclassify email types — batch with execute_values
+                cur.execute("SELECT id, email FROM web_emails WHERE email_type IS NULL")
+                unclassified = cur.fetchall()
+                if unclassified:
+                    updates = [
+                        (classify_email_type(row[1]), row[0])
+                        for row in unclassified
+                    ]
+                    execute_values(
+                        cur,
+                        "UPDATE web_emails SET email_type = data.email_type "
+                        "FROM (VALUES %s) AS data(email_type, id) "
+                        "WHERE web_emails.id = data.id",
+                        updates,
+                    )
+
+            self.conn.commit()
+
+        return counts
+
+    def reset_not_found_for_rescrape(self, dry_run: bool = True) -> int:
+        """Reset scrape_status for 'not_found' rows so they get rescraped.
+        Returns count of rows that would be / were reset."""
+        with self._get_cursor() as cur:
+            cur.execute("""
+                SELECT COUNT(*) AS cnt
+                FROM org_url_enrichment
+                WHERE scrape_status = 'not_found'
+                  AND org_type = 'nonprofit'
+                  AND url_validated = true
+            """)
+            count = cur.fetchone()['cnt']
+
+        if not dry_run:
+            with self.conn.cursor() as cur:
+                cur.execute("""
+                    UPDATE org_url_enrichment
+                    SET scrape_status = NULL,
+                        scrape_started_at = NULL,
+                        scrape_completed_at = NULL,
+                        scrape_pages_fetched = NULL,
+                        scrape_error = NULL
+                    WHERE scrape_status = 'not_found'
+                      AND org_type = 'nonprofit'
+                      AND url_validated = true
+                """)
+            self.conn.commit()
+
+        return count
 
     def get_stats(self) -> dict:
         """Get pipeline progress statistics."""

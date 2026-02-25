@@ -137,12 +137,21 @@ TEMPLATE_C_BODY = (
 
 
 def get_db_connection():
+    env_path = Path(__file__).resolve().parent / ".env"
+    if env_path.exists():
+        with open(env_path) as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    key, _, val = line.partition("=")
+                    os.environ.setdefault(key.strip(), val.strip())
+
     conn = psycopg2.connect(
-        host="localhost",
-        port=5432,
-        database="thegrantscout",
-        user="postgres",
-        password="postgres",
+        host=os.environ.get("PGHOST", "localhost"),
+        port=int(os.environ.get("PGPORT", "5432")),
+        database=os.environ.get("PGDATABASE", "thegrantscout"),
+        user=os.environ.get("PGUSER", "postgres"),
+        password=os.environ.get("PGPASSWORD", ""),
     )
     cur = conn.cursor()
     cur.execute("SET search_path TO f990_2025")
@@ -326,35 +335,39 @@ def _ntee_fallback(ntee_code):
 def get_already_sent_emails():
     """Return set of emails already in campaign_prospect_status."""
     conn, cur = get_db_connection()
-    cur.execute(
-        "SELECT DISTINCT email FROM campaign_prospect_status "
-        "WHERE email IS NOT NULL"
-    )
-    emails = {row[0] for row in cur.fetchall()}
-    cur.close()
-    conn.close()
-    return emails
+    try:
+        cur.execute(
+            "SELECT DISTINCT email FROM campaign_prospect_status "
+            "WHERE email IS NOT NULL"
+        )
+        emails = {row[0] for row in cur.fetchall()}
+        return emails
+    finally:
+        cur.close()
+        conn.close()
 
 
 def get_today_domain_counts():
     """Return dict of {subdomain: count} for emails sent today."""
     conn, cur = get_db_connection()
-    cur.execute(
-        "SELECT initial_sender, COUNT(*) FROM campaign_prospect_status "
-        "WHERE initial_sent_at::date = CURRENT_DATE "
-        "AND initial_status = 'sent' "
-        "GROUP BY initial_sender"
-    )
-    counts = {}
-    for row in cur.fetchall():
-        sender = row[0] or ""
-        for sd in SUBDOMAINS:
-            if f"@{sd}.thegrantscout.com" in sender:
-                counts[sd] = counts.get(sd, 0) + int(row[1])
-                break
-    cur.close()
-    conn.close()
-    return counts
+    try:
+        cur.execute(
+            "SELECT initial_sender, COUNT(*) FROM campaign_prospect_status "
+            "WHERE initial_sent_at::date = CURRENT_DATE "
+            "AND initial_status = 'sent' "
+            "GROUP BY initial_sender"
+        )
+        counts = {}
+        for row in cur.fetchall():
+            sender = row[0] or ""
+            for sd in SUBDOMAINS:
+                if f"@{sd}.thegrantscout.com" in sender:
+                    counts[sd] = counts.get(sd, 0) + int(row[1])
+                    break
+        return counts
+    finally:
+        cur.close()
+        conn.close()
 
 
 def read_csv_file(path):
@@ -908,16 +921,16 @@ def cmd_send(args):
     ]
     # Write header if file doesn't exist yet
     log_file_exists = SEND_LOG_CSV.exists()
-    log_fh = open(SEND_LOG_CSV, "a", newline="", encoding="utf-8")
-    log_writer = csv.DictWriter(log_fh, fieldnames=log_fieldnames)
-    if not log_file_exists:
-        log_writer.writeheader()
 
     sent_count = 0
     error_count = 0
     skip_count = 0
+    log_fh = open(SEND_LOG_CSV, "a", newline="", encoding="utf-8")
 
     try:
+        log_writer = csv.DictWriter(log_fh, fieldnames=log_fieldnames)
+        if not log_file_exists:
+            log_writer.writeheader()
         for i, email in enumerate(sendable):
             subdomain = email["subdomain"]
             from_addr = f"Alec Kleinman <alec@{subdomain}.thegrantscout.com>"

@@ -3,6 +3,8 @@
 
 **Report Date:** February 6, 2026
 
+**Updated:** February 20, 2026 (added contact quick reference + expanded all contacts)
+
 **Report Period:** February 2026
 
 **Foundations Profiled:** 5
@@ -28,9 +30,9 @@
 
 ## If You Only Have 5 Hours This Month
 
-- **Email** hello@billsimpsonfoundation.org with a 2-page LOI introducing VetsBoats
+- **Email** elizabeth.burdette@signaturefd.com (foundation advisor) with a 2-page LOI introducing VetsBoats
 - **Why them:** The Bill Simpson Foundation gave $80,000 to Chesapeake Region Accessible Boating (CRAB) in 2024, adaptive sailing is exactly what they fund
-- **Why now:** Their application window is January through April, which means RIGHT NOW
+- **Why now:** Their website indicates a January through April application window
 - **Time required:** 5 hours
 - **Bottom line:** This is your highest-probability first grant this month
 
@@ -44,8 +46,8 @@
 
 | Priority | Foundation | Type | Why This Priority | Your Time |
 |----------|------------|------|-------------------|-----------|
-| **1st** | Bill Simpson Foundation | Open Application | $80K to CRAB adaptive sailing; window Jan-Apr = NOW | 5 hours |
-| **2nd** | Albert & Ethel Herzstein | LOI-Ready | Sailing Angels $12K/yr + veteran grants; rolling deadline | 4 hours |
+| **1st** | Bill Simpson Foundation | Open Application | $80K to CRAB adaptive sailing; Jan-Apr window | 5 hours |
+| **2nd** | Albert & Ethel Herzstein | LOI-Ready | Sailing Angels $10-12K/yr + veteran grants; rolling deadline | 4 hours |
 | **3rd** | Kovler Family Foundation | LOI-Ready | Judd Goldman Adaptive Sailing $5K/yr; Matt Goettelman connection | 3 hours |
 | **4th** | John & Daria Barry Foundation | Cultivation | $1.9M veteran grants + Sail to Prevail $50K; $477M assets | 3 hours |
 | **5th** | Van Beuren Charitable Foundation | LOI-Ready | Sail to Prevail $25-30K/yr adaptive sailing; $343M assets; open application portal (July deadline) | 3 hours |
@@ -54,10 +56,20 @@
 
 | Hours Available | What To Do |
 |-----------------|------------|
-| **5 hours** | Focus only on Bill Simpson Foundation (application window closing April) |
+| **5 hours** | Focus only on Bill Simpson Foundation (application window through April) |
 | **10 hours** | Bill Simpson + Herzstein LOI |
 | **15 hours** | Add Kovler LOI + Matt Goettelman outreach |
 | **18+ hours** | All 5 foundations including Barry cultivation + Van Beuren intro call |
+
+### Contact Quick Reference
+
+| Foundation | Contact | Title | Email | Phone | Website |
+|------------|---------|-------|-------|-------|---------|
+| Bill Simpson | Elizabeth Burdette | Advisor (SignatureFD) | elizabeth.burdette@signaturefd.com | (404) 473-4924 | [Link](https://www.billsimpsonfoundation.org) |
+| Herzstein | Renee Masaryk | President | rmasaryk@herzsteinfoundation.org | (713) 681-7868 | [Link](https://www.herzsteinfoundation.org) |
+| Kovler | Jonathan Kovler | Chairman | app@kovler-b.com | (312) 664-5050 | -- |
+| Barry | John F. Barry III | Sole Trustee | Via Prospect Capital | -- | [Link](https://www.barryfamilyfoundation.org) |
+| Van Beuren | Kaila Acheson | Program Associate | support@vbcfoundation.org | (401) 619-5910 | [Link](https://www.vbcfoundation.org) |
 
 ---
 
@@ -137,7 +149,7 @@ VetsBoats is classified as a **private foundation** (IRS BMF foundation code 03,
 
 #### Why This Foundation
 
-Bill Simpson Foundation gave **$80,000 to Chesapeake Region Accessible Boating (CRAB) in 2024**, an organization that provides adaptive sailing for people with disabilities, including veterans. They also funded Freedom Waters Foundation ($10,000) and Jackson Hole Therapeutic Riding ($15,000). This foundation has a clear pattern of funding disability and therapeutic recreation programs. Their application window is **January through April, open right now**. At $18M in assets with only 2 years of grantmaking history, this is a new and growing foundation.
+Bill Simpson Foundation gave **$80,000 to Chesapeake Region Accessible Boating (CRAB) in 2024**, an organization that provides adaptive sailing for people with disabilities, including veterans. They also funded Freedom Waters Foundation ($10,000) and Jackson Hole Therapeutic Riding ($15,000). This foundation has a clear pattern of funding disability and therapeutic recreation programs. Their website indicates a **January through April application window**. At $18M in assets with only 2 years of grantmaking history, this is a new and growing foundation.
 
 #### Fit Evidence
 
@@ -154,8 +166,8 @@ Bill Simpson Foundation gave **$80,000 to Chesapeake Region Accessible Boating (
 |--------|-------|
 | **Annual Giving** | $592K across 29 grants/year (2023-2024 average) |
 | **Typical Grant** | $10,000 median (range: $2,000 - $170,000) |
-| **Geographic Focus** | Distributed: NC (42%), IN (14%), WY (10%), FL (8%), NY (8%), CA (6%) |
-| **Repeat Funding Rate** | 17% funded 2+ times (new foundation, limited history) |
+| **Geographic Focus** | Distributed: NC (36%), IN (12%), WY (9%), FL (7%), NY (7%), CA (5%) |
+| **Repeat Funding Rate** | 23% funded 2+ times (new foundation, limited history) |
 | **Giving Style** | 85% general support, funds organizations, not specific projects |
 | **Funding Trend** | Stable, new foundation (first grants 2023), assets $18M |
 
@@ -163,9 +175,9 @@ Bill Simpson Foundation gave **$80,000 to Chesapeake Region Accessible Boating (
 
 #### How to Apply: Application Process
 
-**Submission Method:** Email to hello@billsimpsonfoundation.org
+**Submission Method:** Email to elizabeth.burdette@signaturefd.com (foundation advisor, listed in 2024 990-PF filing)
 
-**Application Window:** January through April (submit electronically)
+**Application Window:** January through April (per foundation website); 990-PF filing says "rolling basis"
 
 **Recommended LOI Package:**
 
@@ -176,15 +188,14 @@ Bill Simpson Foundation gave **$80,000 to Chesapeake Region Accessible Boating (
 | Program Budget | Budget for therapeutic sailing program |
 | Impact Data | Veterans served, outcomes measured |
 
-**Note:** The foundation website says to "submit electronically" during Jan-Apr but does not specify exact materials. We recommend emailing with a standard LOI package and asking if they need anything additional.
+**Note:** The foundation website says to "submit electronically." We recommend emailing with a standard LOI package and asking if they need anything additional.
 
 **After You Submit:**
 
-- Foundation reviews during April window
 - Response timeline unknown (new foundation)
-- Follow up if no response by May 1
+- Follow up if no response within 6-8 weeks
 
-**Deadline:** April 30 (end of submission window)
+**Deadline:** April 30 (end of website-stated submission window)
 
 ---
 
@@ -192,7 +203,8 @@ Bill Simpson Foundation gave **$80,000 to Chesapeake Region Accessible Boating (
 
 | Role | Name | Contact | Use For |
 |------|------|---------|---------|
-| Foundation Contact | General | hello@billsimpsonfoundation.org | Application submission and inquiries |
+| Foundation Advisor | Elizabeth Burdette (SignatureFD) | elizabeth.burdette@signaturefd.com | Application submission and inquiries |
+| Foundation Phone | — | (404) 473-4924 | Backup contact |
 
 **Foundation Website:** [billsimpsonfoundation.org](https://www.billsimpsonfoundation.org)
 
@@ -226,7 +238,7 @@ Lead with the CRAB precedent. Bill Simpson gave CRAB $80,000 for adaptive sailin
 | 1 | Review billsimpsonfoundation.org for current guidelines | 30 min | — |
 | 2 | Draft 2-page LOI: VetsBoats mission, therapeutic sailing program, veteran outcomes, $15K-$25K request | 3 hrs | — |
 | 3 | Gather attachments: IRS determination letter, program budget, impact summary | 1 hr | — |
-| 4 | Email complete package to hello@billsimpsonfoundation.org | 30 min | Steps 2-3 |
+| 4 | Email complete package to elizabeth.burdette@signaturefd.com | 30 min | Steps 2-3 |
 | 5 | **WAIT**: Foundation review period | — | Step 4 |
 | 6 | Follow up if no response by May 1 | 15 min | Step 4 + 4 weeks |
 
@@ -250,16 +262,16 @@ Lead with the CRAB precedent. Bill Simpson gave CRAB $80,000 for adaptive sailin
 
 #### Why This Foundation
 
-Herzstein funds **Sailing Angels Foundation** ($12,000/year for hydrotherapy sailing) and multiple veteran organizations in Texas. They gave a $100,000 memorial gift to Sailing Angels in 2023. They also fund Wheelchairs for Warriors, NEXTOP (veteran employment), Veterans Assistance Dogs of Texas, and Inspiration Ranch (therapeutic riding). With $127M in assets, a rolling deadline, and **9 confirmed grants to private foundations**, Herzstein is one of the most PF-friendly foundations in our search. The 88% Texas focus means VetsBoats should lead with the planned Galveston TX expansion.
+Herzstein funds **Sailing Angels Foundation** ($12,000/year for hydrotherapy sailing) and multiple veteran organizations in Texas. They gave a $100,000 memorial gift to Sailing Angels in 2023. They also fund Wheelchairs for Warriors, NEXTOP (veteran employment), Veterans Assistance Dogs of Texas, and Inspiration Ranch (therapeutic riding). With $127M in assets, a rolling deadline, and **5 confirmed grants to private foundations**, Herzstein has demonstrated willingness to fund PFs. The 88% Texas focus means VetsBoats should lead with the planned Galveston TX expansion.
 
 #### Fit Evidence
 
 | What We Looked For | What We Found |
 |-------------------|---------------|
-| Grants to **sailing** orgs | **Sailing Angels Foundation**: $12K (2022), **$100K memorial + $12K** (2023) |
+| Grants to **sailing** orgs | **Sailing Angels Foundation**: $10K (2022), **$100K memorial + $12K** (2023) |
 | Grants to **veteran** orgs | **6 veteran grants**: NEXTOP $10K, VADT $8K, Wheelchairs for Warriors $12K, Grace After Fire $5K, Honor Veterans Now $5K, Warrior Weekend $2.5K |
 | Grants to **therapeutic recreation** | **Inspiration Ranch** $4K-$7.5K/yr for equine-assisted therapeutic riding |
-| Prior grants to private foundations | **9 confirmed** PF-to-PF grants in our database |
+| Prior grants to private foundations | **5 confirmed** PF-to-PF grants in our database |
 | Most similar grantee | **Sailing Angels Foundation**, therapeutic sailing in Texas waters |
 
 #### Funder Snapshot
@@ -269,9 +281,9 @@ Herzstein funds **Sailing Angels Foundation** ($12,000/year for hydrotherapy sai
 | **Annual Giving** | $4.3M across 300 grants/year |
 | **Typical Grant** | $8,000 median (range: $500 - $500,000) |
 | **Geographic Focus** | 88% Texas |
-| **Repeat Funding Rate** | 49% funded 2+ times |
+| **Repeat Funding Rate** | 56% funded 2+ times |
 | **Giving Style** | 46% general support / 54% program-specific |
-| **Funding Trend** | Growing, 36% increase (2019-2021 vs 2022-2023) |
+| **Funding Trend** | Growing, ~11% increase in recent years |
 
 ---
 
@@ -328,7 +340,7 @@ Herzstein funds **Sailing Angels Foundation** ($12,000/year for hydrotherapy sai
 
 #### Positioning Strategy
 
-Lead with VetsBoats' planned **Galveston, TX expansion**, this puts VetsBoats directly in Herzstein's core geography. Reference Sailing Angels as the precedent: "Like Sailing Angels, VetsBoats uses therapeutic sailing to serve people facing adversity, in our case, military veterans with PTSD and traumatic injuries." The foundation clearly values the intersection of sailing and healing (Sailing Angels hydrotherapy, Inspiration Ranch therapeutic riding). Request $10,000-$15,000 for the Galveston pilot program, with a clear plan for Texas-based veteran impact. Herzstein's 9 prior PF grants means your foundation status is unlikely to be an issue.
+Lead with VetsBoats' planned **Galveston, TX expansion**, this puts VetsBoats directly in Herzstein's core geography. Reference Sailing Angels as the precedent: "Like Sailing Angels, VetsBoats uses therapeutic sailing to serve people facing adversity, in our case, military veterans with PTSD and traumatic injuries." The foundation clearly values the intersection of sailing and healing (Sailing Angels hydrotherapy, Inspiration Ranch therapeutic riding). Request $10,000-$15,000 for the Galveston pilot program, with a clear plan for Texas-based veteran impact. Herzstein's 5 prior PF grants means your foundation status is unlikely to be an issue.
 
 ---
 
@@ -363,14 +375,14 @@ Lead with VetsBoats' planned **Galveston, TX expansion**, this puts VetsBoats di
 
 #### Why This Foundation
 
-Kovler Family Foundation funds the **Judd Goldman Adaptive Sailing Foundation** ($3,000-$5,000/year), a direct adaptive sailing precedent in Chicago. With **41 confirmed grants to private foundations** (the most PF-friendly foundation in our search), your foundation status is a non-issue. The November deadline means this is a "prepare now, submit later" opportunity. Most importantly, **Matt Goettelman has a strong connection path** through Goldman Sachs colleague Ron Levin, who co-founded Invest For Kids with Benjamin Kovler.
+Kovler Family Foundation funds the **Judd Goldman Adaptive Sailing Foundation** ($3,000-$5,000/year), a direct adaptive sailing precedent in Chicago. With **6 confirmed grants to private foundations**, your foundation status is unlikely to be an issue. The November deadline means this is a "prepare now, submit later" opportunity. Most importantly, **Matt Goettelman has a strong connection path** through Goldman Sachs colleague Ron Levin, who co-founded Invest For Kids with Benjamin Kovler.
 
 #### Fit Evidence
 
 | What We Looked For | What We Found |
 |-------------------|---------------|
 | Grants to **adaptive sailing** | **Judd Goldman Adaptive Sailing Foundation**: $3K (2020), $5K (2022), $5K (2023) |
-| Prior grants to private foundations | **41 confirmed**, most PF-friendly foundation of all 5 |
+| Prior grants to private foundations | **6 confirmed** PF-to-PF grants in our database |
 | California grants | **51 grants** (8.9% of portfolio), though concentrated in Palm Springs area |
 | Most similar grantee | **Judd Goldman Adaptive Sailing Foundation**, adaptive sailing on Lake Michigan for people with disabilities |
 
@@ -380,8 +392,8 @@ Kovler Family Foundation funds the **Judd Goldman Adaptive Sailing Foundation** 
 |--------|-------|
 | **Annual Giving** | $5.5M across 192 grants/year |
 | **Typical Grant** | $3,000 median (range: $100 - $2,125,146) |
-| **Geographic Focus** | 67% Illinois, 9% California, 5% New York |
-| **Repeat Funding Rate** | 58% funded 2+ times |
+| **Geographic Focus** | 67% Illinois, 9% California, 8% New York |
+| **Repeat Funding Rate** | 79% funded 2+ times |
 | **Giving Style** | 30% general support / 70% program-specific |
 | **Funding Trend** | Stable, consistent annual giving |
 
@@ -468,7 +480,7 @@ Kovler Family Foundation funds the **Judd Goldman Adaptive Sailing Foundation** 
 
 #### Why This Foundation
 
-The Barry Foundation is a **$477M powerhouse** that funds both therapeutic sailing AND veteran mental health at scale. They've given **$1.2M to Guardian Revival** for veteran mental health, **$300K to Faith Hope Love** for veteran assistance, **$320K to Veterans Consortium** for female veteran legal services, and **$50K to Sail to Prevail** for "overcoming adversity through therapeutic sailing." They've also proven they fund private foundations, **$4.3M to Foundation for Excellence in Higher Education** (a PF). And they add **8-12 new grantees every year** despite marking "preselected-only" on their 990-PF.
+The Barry Foundation is a **$477M powerhouse** that funds both therapeutic sailing AND veteran mental health at scale. They've given **$1.2M to Guardian Revival** for veteran mental health, **$300K to Faith Hope Love** for veteran assistance, **$320K to Veterans Consortium** for female veteran legal services, and **$50K to Sail to Prevail** for "overcoming adversity through therapeutic sailing." They've also proven they fund private foundations, **$3.7M/year average to Foundation for Excellence in Higher Education** (a PF, $14.9M total). And they add **3-10 new grantees per year** despite marking "preselected-only" on their 990-PF.
 
 #### Fit Evidence
 
@@ -476,9 +488,9 @@ The Barry Foundation is a **$477M powerhouse** that funds both therapeutic saili
 |-------------------|---------------|
 | Grants to **therapeutic sailing** | **Sail to Prevail**: $25K/yr (2019-2021), **$50K** (2022), "Overcoming Adversity Through Therapeutic Sailing" |
 | Grants to **veteran** orgs | **$1.9M total**: Guardian Revival $1.2M, Veterans Consortium $320K, Faith Hope Love $300K, Puppies Behind Bars $75K |
-| Private foundation grantees | **$4.3M/year** to Foundation for Excellence in Higher Education (a PF) |
+| Private foundation grantees | **$3.7M/year avg** to Foundation for Excellence in Higher Education (a PF, $14.9M total over 4 years) |
 | California grants | **$3.4M** (6 grants) including Prostate Cancer Foundation $700K |
-| Adds new grantees? | **Yes**, 8-12 new organizations funded each year |
+| Adds new grantees? | **Yes**, 3-10 new organizations funded per year |
 | Most similar grantee | **Sail to Prevail**, therapeutic sailing for people with disabilities, identical mission to VetsBoats |
 
 #### Funder Snapshot
@@ -503,16 +515,16 @@ The Barry Foundation is a **$477M powerhouse** that funds both therapeutic saili
 | Step | Action | Why |
 |------|--------|-----|
 | 1 | **Connect with Sail to Prevail** | Barry funds them $25K/yr (up to $50K in 2022) for therapeutic sailing. Sail to Prevail is VetsBoats' closest sibling on the East Coast. They could introduce VetsBoats as a West Coast counterpart. |
-| 2 | **Matt Goettelman explores finance network** | John Barry III is Chairman/CEO of Prospect Capital Corporation ($11.8B, NASDAQ: PSEC). Both Goettelman and Barry operate in private wealth/family office world. |
+| 2 | **Matt Goettelman explores finance network** | John Barry III is Chairman/CEO of Prospect Capital Corporation ($7.3B, NASDAQ: PSEC). Both Goettelman and Barry operate in private wealth/family office world. |
 | 3 | **Build visibility in veteran sailing community** | Barry's veteran giving ($1.9M) + sailing giving ($125K to Sail to Prevail) = they value both. VetsBoats should be visible at national adaptive sailing and veteran service events. |
 
 **Key People to Know:**
 
 | Role | Name | Background | Why They Matter |
 |------|------|------------|-----------------|
-| Sole Trustee | John Francis Barry III | Princeton, Harvard Law, CEO of Prospect Capital Corp ($11.8B) | Makes all grant decisions with Daria |
+| Sole Trustee | John Francis Barry III | Princeton, Harvard Law, CEO of Prospect Capital Corp ($7.3B AUM) | Makes all grant decisions with Daria |
 | Co-Founder | Daria Becker Barry | Wellesley, MIT, Managing Director at Prospect Capital | Drives several portfolio areas including veterans |
-| Trusted Advisor | Tom Brunner | CEO, Glaucoma Research Foundation | Described as Daria's "go-to guy" for philanthropic decisions |
+| Trusted Advisor | Tom Brunner | President and CEO, Glaucoma Research Foundation | Described as Daria's "go-to guy" for philanthropic decisions |
 
 **Shared Grantees (Orgs Who Might Introduce You):**
 
@@ -538,7 +550,7 @@ The Barry Foundation is a **$477M powerhouse** that funds both therapeutic saili
 
 | Connection Type | Details |
 |-----------------|---------|
-| **Finance Network** | **Matt Goettelman (GS) → John Barry III (Prospect Capital).** Both in private wealth/investment management. Barry runs an $11.8B publicly traded BDC. |
+| **Finance Network** | **Matt Goettelman (GS) → John Barry III (Prospect Capital).** Both in private wealth/investment management. Barry runs an $7.3B publicly traded BDC. |
 | **Shared Grantees** | **Sail to Prevail**, therapeutic sailing, identical mission. This is the strongest introduction path. |
 | Geographic | 6 CA grants ($3.4M), they fund West Coast organizations |
 | Sector | Funds both therapeutic sailing AND veteran mental health. VetsBoats is the intersection |
@@ -547,7 +559,7 @@ The Barry Foundation is a **$477M powerhouse** that funds both therapeutic saili
 
 #### Positioning Strategy
 
-Do NOT submit an unsolicited proposal. The Barry Foundation is relationship-first. Begin by reaching out to **Sail to Prevail** (Paul Callahan, Executive Director in Newport, RI) to explore collaboration and ask if they'd be willing to mention VetsBoats to the Barry family. Separately, Matt Goettelman should explore whether he has any connection to John Barry III or Prospect Capital's network through Goldman Sachs. VetsBoats sits at the exact intersection of the Barry Foundation's two passions: therapeutic sailing and veteran services. If you can get a warm introduction, the potential is significant, their typical grant is $100,000, and they've given Sail to Prevail $125K over four years (growing from $25K to $50K).
+Do NOT submit an unsolicited proposal. The Barry Foundation is relationship-first. Begin by reaching out to **Sail to Prevail** (Paul Callahan, CEO in Newport, RI) to explore collaboration and ask if they'd be willing to mention VetsBoats to the Barry family. Separately, Matt Goettelman should explore whether he has any connection to John Barry III or Prospect Capital's network through Goldman Sachs. VetsBoats sits at the exact intersection of the Barry Foundation's two passions: therapeutic sailing and veteran services. If you can get a warm introduction, the potential is significant, their typical grant is $100,000, and they've given Sail to Prevail $125K over four years (growing from $25K to $50K).
 
 ---
 
@@ -581,15 +593,15 @@ Do NOT submit an unsolicited proposal. The Barry Foundation is relationship-firs
 
 #### Why This Foundation
 
-Van Beuren Charitable Foundation funds **Sail to Prevail $25,000-$30,000 every year** for their adaptive sailing program, the same organization that Barry Foundation (#4) funds at $50K/yr. This is the deepest and most consistent adaptive sailing funder in our entire search. With **$343M in assets** and a portfolio rooted in Newport, Rhode Island, one of America's sailing capitals. Van Beuren is embedded in the sailing world. They also fund IYRS School of Technology & Trades ($115K for maritime education), Sail Newport, Conanicut Island Sailing Foundation, Herreshoff Marine Museum, and a boat-building internship program. They add **20-37 new grantees per year** and accept applications through an online portal (next deadline: **July 2026** for Program/Project grants). First-time applicants must schedule an introductory call with the foundation before applying.
+Van Beuren Charitable Foundation funds **Sail to Prevail $25,000-$30,000 every year** for their adaptive sailing program, the same organization that Barry Foundation (#4) funds at $50K/yr. This is the deepest and most consistent adaptive sailing funder in our entire search. With **$343M in assets** and a portfolio rooted in Newport, Rhode Island, one of America's sailing capitals. Van Beuren is embedded in the sailing world. They also fund IYRS School of Technology & Trades ($115K for maritime education), Sail Newport, Conanicut Island Sailing Foundation, Herreshoff Marine Museum, and a boat-building internship program. They add **15-32 new grantees per year** and accept applications through an online portal (next deadline: **July 2026** for Program/Project grants). First-time applicants must schedule an introductory call with the foundation before applying.
 
 #### Fit Evidence
 
 | What We Looked For | What We Found |
 |-------------------|---------------|
 | Grants to **adaptive sailing** | **Sail to Prevail**: $25K-$30K/yr, every year since 2018. Most consistent adaptive sailing funder in our database. |
-| Total **sailing/maritime** giving | **$630K+** across Sail to Prevail, IYRS, Sail Newport, Conanicut Island Sailing, Herreshoff Marine Museum, boat-building internship, Sailors for the Sea |
-| Adds new grantees? | **Yes**, 20-37 new organizations funded each year |
+| Total **sailing/maritime** giving | **$560K+** across Sail to Prevail, IYRS, Sail Newport, Conanicut Island Sailing, Herreshoff Marine Museum, boat-building internship, Sailors for the Sea |
+| Adds new grantees? | **Yes**, 15-32 new organizations funded per year |
 | Shared grantee with Barry (#4) | **Sail to Prevail**, both Van Beuren and Barry fund this org. Natural introduction path. |
 | Most similar grantee | **Sail to Prevail**, adaptive sailing for people with disabilities. Identical mission to VetsBoats. |
 
@@ -600,9 +612,9 @@ Van Beuren Charitable Foundation funds **Sail to Prevail $25,000-$30,000 every y
 | **Annual Giving** | $10.7M across 163 grants/year (2018-2023 average) |
 | **Typical Grant** | $15,000 median (range: $500 - $3,079,539) |
 | **Geographic Focus** | 50% Rhode Island, 20% New York, 6% Florida/Pennsylvania |
-| **Repeat Funding Rate** | 67% funded 2+ times (Sail to Prevail funded 6 consecutive years) |
+| **Repeat Funding Rate** | 61% funded 2+ times (Sail to Prevail funded every year since 2018) |
 | **Giving Style** | Mix of capital projects, program support, and general operating |
-| **Funding Trend** | Declining, 31% decrease in recent years, though $343M in assets |
+| **Funding Trend** | Growing, annual giving increased from ~$8M to ~$14.6M in recent years; $343M in assets |
 
 ---
 
@@ -610,7 +622,7 @@ Van Beuren Charitable Foundation funds **Sail to Prevail $25,000-$30,000 every y
 
 **Application Portal:** [apply.yourcausegrants.com](https://apply.yourcausegrants.com/apply/programs/2855cef1-7dc5-46af-8703-27c4a0ff5fa2/routing)
 
-**Important:** First-time applicants must contact **Kaila Acheson** (Program Associate, kacheson@vbcfoundation.org) before applying to schedule an introductory call.
+**Important:** First-time applicants must contact **Kaila Acheson** (Program Associate, support@vbcfoundation.org) before applying.
 
 | Grant Type | Deadline | Notification |
 |---|---|---|
@@ -618,7 +630,7 @@ Van Beuren Charitable Foundation funds **Sail to Prevail $25,000-$30,000 every y
 | Capacity Building (max $10K) | Rolling | 1-2 months |
 | Planning / Design | Rolling | 2-4 months |
 
-**Geographic Note:** Van Beuren's grantmaking is focused on Aquidneck Island and Newport County, Rhode Island. VetsBoats is based in California, which is outside their primary geography. However, the foundation funds national sailing organizations (Oceana/Sailors for the Sea, Sail to Prevail) and adds 20-37 new grantees per year. The Sail to Prevail relationship (shared with Barry #4) is the strongest path to a conversation.
+**Geographic Note:** Van Beuren's grantmaking is focused on Aquidneck Island and Newport County, Rhode Island. VetsBoats is based in California, which is outside their primary geography. However, the foundation funds national sailing organizations (Oceana/Sailors for the Sea, Sail to Prevail) and adds 15-32 new grantees per year. The Sail to Prevail relationship (shared with Barry #4) is the strongest path to a conversation.
 
 **Recommended Approach:**
 
@@ -635,7 +647,8 @@ Van Beuren Charitable Foundation funds **Sail to Prevail $25,000-$30,000 every y
 | Executive Director | Elizabeth R. Lynn | Foundation leadership |
 | Program Associate | Kaila E. Acheson | First-time applicant contact |
 | Grants Manager | Kim Dame | Application and grants administration |
-| Chairman | Archbold D. Van Beuren | Family philanthropist, Newport RI community leader |
+| Chair | Barbara van Beuren | Family philanthropist, Newport RI community leader |
+| Vice Chair | Archbold D. van Beuren | Family philanthropist |
 
 ---
 
@@ -644,9 +657,9 @@ Van Beuren Charitable Foundation funds **Sail to Prevail $25,000-$30,000 every y
 | Role | Name | Contact | Use For |
 |------|------|---------|---------|
 | Executive Director | Elizabeth R. Lynn | elynn@vbcfoundation.org | Strategic questions |
-| Program Associate | Kaila E. Acheson | kacheson@vbcfoundation.org | First-time applicant intro call |
-| Grants Manager | Kim Dame | kdame@vbcfoundation.org | Application administration |
-| Chairman | Archbold D. Van Beuren | Via foundation | Board decisions |
+| Program Associate | Kaila E. Acheson | support@vbcfoundation.org | First-time applicant contact, grant inquiries |
+| Chair | Barbara van Beuren | Via foundation | Board decisions |
+| Vice Chair | Archbold D. van Beuren | Via foundation | Board decisions |
 
 **Foundation Website:** [vbcfoundation.org](https://www.vbcfoundation.org)
 
@@ -673,7 +686,7 @@ Van Beuren Charitable Foundation funds **Sail to Prevail $25,000-$30,000 every y
 
 #### Positioning Strategy
 
-Van Beuren and Barry Foundation (#4) both fund Sail to Prevail. This is your single most important relationship to build. Sail to Prevail is the bridge to two major cultivation targets at once. When reaching out to Sail to Prevail (per Barry Foundation action steps), mention that you'd like to learn about their relationship with both funders and explore whether they'd introduce VetsBoats as a West Coast counterpart doing similar adaptive sailing work. Van Beuren's $25-30K annual commitment to adaptive sailing, sustained for 6+ consecutive years, shows this isn't a one-time interest but a core value. Request $15,000-$25,000 for VetsBoats' therapeutic sailing program, matching their Sail to Prevail grant level.
+Van Beuren and Barry Foundation (#4) both fund Sail to Prevail. This is your single most important relationship to build. Sail to Prevail is the bridge to two major cultivation targets at once. When reaching out to Sail to Prevail (per Barry Foundation action steps), mention that you'd like to learn about their relationship with both funders and explore whether they'd introduce VetsBoats as a West Coast counterpart doing similar adaptive sailing work. Van Beuren's $25-30K annual commitment to adaptive sailing, sustained every year since 2018, shows this isn't a one-time interest but a core value. Request $15,000-$25,000 for VetsBoats' therapeutic sailing program, matching their Sail to Prevail grant level.
 
 ---
 
@@ -682,7 +695,7 @@ Van Beuren and Barry Foundation (#4) both fund Sail to Prevail. This is your sin
 | Step | Task | Time | Depends On |
 |------|------|------|------------|
 | 1 | Review vbcfoundation.org grants page and focus areas | 30 min | — |
-| 2 | Email Kaila Acheson (kacheson@vbcfoundation.org) to schedule intro call; ask about eligibility for out-of-state adaptive sailing programs | 30 min | — |
+| 2 | Email Kaila Acheson (support@vbcfoundation.org) to schedule intro call; ask about eligibility for out-of-state adaptive sailing programs | 30 min | — |
 | 3 | When reaching out to Sail to Prevail (Barry #4 Step 2), mention Van Beuren as another shared connection | 15 min | Barry Step 2 |
 | 4 | Based on intro call feedback, prepare application for July deadline or Capacity Building (rolling) | 1.5 hrs | Step 2 |
 | 5 | **WAIT**: Application review | — | Step 4 |
@@ -717,7 +730,7 @@ Van Beuren and Barry Foundation (#4) both fund Sail to Prevail. This is your sin
 
 | Foundation | Submitted | Typical Response Time | Follow Up If No Response By |
 |------------|-----------|----------------------|----------------------------|
-| #1 Bill Simpson | February | Unknown (new foundation) | May 1 |
+| #1 Bill Simpson | February | Unknown (new foundation) | 6-8 weeks after submission |
 | #2 Herzstein | February/March | 6-10 weeks (rolling) | April 15 |
 | #3 Kovler | November (deadline) | Annual review cycle | January |
 | #4 Barry | N/A (cultivation) | Months | Ongoing relationship building |
@@ -727,7 +740,7 @@ Van Beuren and Barry Foundation (#4) both fund Sail to Prevail. This is your sin
 
 | Foundation | Process Flow |
 |------------|-------------|
-| **#1 Bill Simpson** (Open Application) | Review site → Draft LOI → Submit by April → WAIT → Decision |
+| **#1 Bill Simpson** (Open Application) | Review site → Draft LOI → Submit → WAIT → Decision |
 | **#2 Herzstein** (LOI-Ready) | Review portal → Draft LOI (Galveston angle) → Submit → WAIT 6-10 weeks → [If invited] Full Proposal → WAIT → Decision |
 | **#3 Kovler** (LOI-Ready) | Ask Matt G about Ron Levin NOW → Build connection → Draft LOI → Submit by mid-Nov → WAIT → Decision |
 | **#4 Barry** (Cultivation) | Research Sail to Prevail → Reach out → Build relationship → [6-12 months] → Warm introduction → Invitation |
@@ -741,19 +754,27 @@ Van Beuren and Barry Foundation (#4) both fund Sail to Prevail. This is your sin
 
 ### All Contacts
 
-| Foundation | Role | Name | Email/Phone |
-|------------|------|------|-------------|
-| Bill Simpson | General | — | hello@billsimpsonfoundation.org |
-| Herzstein | President | Renee Masaryk | rmasaryk@herzsteinfoundation.org / (713) 681-7868 |
-| Kovler | Chairman | Jonathan Kovler | app@kovler-b.com / (312) 664-5050 |
-| Barry | Sole Trustee | John Francis Barry III | Via Prospect Capital Management |
-| Van Beuren | Program Associate | Kaila Acheson | kacheson@vbcfoundation.org / (401) 619-5910 |
+| Foundation | Name | Role | Email | Phone | Website |
+|------------|------|------|-------|-------|---------|
+| Bill Simpson | Elizabeth Burdette | Advisor (SignatureFD) | elizabeth.burdette@signaturefd.com | (404) 473-4924 | [Link](https://www.billsimpsonfoundation.org) |
+| Herzstein | Renee Masaryk | President | rmasaryk@herzsteinfoundation.org | (713) 681-7868 | [Link](https://www.herzsteinfoundation.org) |
+| Herzstein | -- | General Inquiries | mail@herzsteinfoundation.org | (713) 681-7868 | [Link](https://www.herzsteinfoundation.org) |
+| Herzstein | George W. Strake III | Board Chairman | Via foundation | -- | [Link](https://www.herzsteinfoundation.org) |
+| Kovler | Jonathan Kovler | Chairman | -- | (312) 664-5050 | -- |
+| Kovler | -- | Applications | app@kovler-b.com | -- | -- |
+| Barry | John F. Barry III | Sole Trustee | Via Prospect Capital | -- | [Link](https://www.barryfamilyfoundation.org) |
+| Barry | Daria Becker Barry | Co-Founder | Via Prospect Capital | -- | [Link](https://www.barryfamilyfoundation.org) |
+| Van Beuren | Elizabeth R. Lynn | Executive Director | elynn@vbcfoundation.org | (401) 619-5910 | [Link](https://www.vbcfoundation.org) |
+| Van Beuren | Kaila E. Acheson | Program Associate | support@vbcfoundation.org | (401) 619-5910 | [Link](https://www.vbcfoundation.org) |
+| Van Beuren | Kim Dame | Grants Manager | -- | (401) 619-5910 | [Link](https://www.vbcfoundation.org) |
+| Van Beuren | Barbara van Beuren | Chair | Via foundation | -- | [Link](https://www.vbcfoundation.org) |
+| Van Beuren | Archbold D. van Beuren | Vice Chair | Via foundation | -- | [Link](https://www.vbcfoundation.org) |
 
 ### Application Summary
 
 | Foundation | Type | Deadline | Process |
 |------------|------|----------|---------|
-| #1 Bill Simpson | Open Application | **Jan-Apr (NOW)** | Email LOI to hello@billsimpsonfoundation.org |
+| #1 Bill Simpson | Open Application | **Jan-Apr** | Email LOI to elizabeth.burdette@signaturefd.com |
 | #2 Herzstein | LOI-Ready | Rolling | Submit via online portal |
 | #3 Kovler | LOI-Ready | Mid-November | Mail LOI to Chicago office |
 | #4 Barry | Cultivation | N/A | Build relationship via Sail to Prevail + Matt G finance network |
@@ -764,8 +785,8 @@ Van Beuren and Barry Foundation (#4) both fund Sail to Prevail. This is your sin
 | Foundation | Type | Your Time | Probability |
 |------------|------|-----------|-------------|
 | #1 Bill Simpson | Open Application | 5 hrs | Medium (strong fit, untested PF eligibility) |
-| #2 Herzstein | LOI-Ready | 4 hrs | Medium (9 PF grants, but 88% TX, needs Galveston angle) |
-| #3 Kovler | LOI-Ready | 3 hrs | Medium (41 PF grants, Matt G connection, but small grants) |
+| #2 Herzstein | LOI-Ready | 4 hrs | Medium (5 PF grants, but 88% TX, needs Galveston angle) |
+| #3 Kovler | LOI-Ready | 3 hrs | Medium (6 PF grants, Matt G connection, but small grants) |
 | #4 Barry | Cultivation | 3 hrs research | Long-term (highest upside: $100K typical, $477M assets) |
 | #5 Van Beuren | LOI-Ready | 3 hrs | Medium-term (deepest adaptive sailing funder; July deadline; geographic limitation) |
 

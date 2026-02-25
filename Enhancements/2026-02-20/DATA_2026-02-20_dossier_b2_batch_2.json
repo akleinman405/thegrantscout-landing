@@ -1,0 +1,262 @@
+[
+  {
+    "ein": "680175739",
+    "name": "Kelly Foundation",
+    "website": "https://kellyfoundationsacramento.org",
+    "eligibility": {
+      "who_can_apply": "Nonprofits serving the Greater Sacramento area and surrounding counties. Focus on Children/Youth/Education, Food Insecurity, Homelessness, Health and Human Services, Conservation/Open Space/Climate. New applicants not yet invited may submit an LOI during the applicable focus area quarter.",
+      "who_cannot_apply": "Religious organizations (for explicit religious activities), political organizations, fraternal organizations/labor societies/orders, national fund-raising efforts, telephone solicitation campaigns.",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "Website does not mention 501(c)(3) public charity requirement or exclude private foundations explicitly. Guidelines list ineligible areas (religious, political, fraternal, national campaigns) but say nothing about org type. DB pf_grants shows only 3 small grants to Sacramento Philharmonic & Opera ($5K-$7.5K range, 2020-2023), all from a public charity. No confirmed PF recipients found. Absence of pf_eligible language means UNKNOWN - not confirmed but not prohibited.",
+      "geographic_restrictions": "Greater Sacramento area and surrounding counties. VetsBoats is in San Francisco - outside the stated service area.",
+      "org_type_requirements": "Not stated explicitly. No 501(c)(3) language found on website.",
+      "budget_requirements": "Minimum grant $10,000. No minimum budget for applicants stated.",
+      "other_requirements": "Strong leaders and stable financials, clear goals and community outcomes tracking, sustainable long-term community benefits. Board composition and volunteer base evaluated. One application per year per organization."
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "Transitioning to invite-only. New applicants and those without an invitation may submit an LOI during the applicable focus area quarter. The foundation reviews LOIs and extends invitations; only invited orgs may submit full applications. Quarterly deadlines by focus area.",
+      "portal_url": "https://kellyfoundationsacramento.org/apply/guidelines/",
+      "guidelines_url": "https://kellyfoundationsacramento.org/wp-content/uploads/2023/06/Kelly-Foundation-Guidelines.pdf",
+      "deadlines": {
+        "Food Insecurity": "December 31",
+        "Conservation / Open Space / Climate": "December 31",
+        "Children & Youth Assistance / Education": "March 31",
+        "Affordable Housing & Homelessness": "June 30",
+        "Health & Human Services": "September 30"
+      },
+      "materials_required": "Application form (online). Grant report required from funded orgs. No other materials listed publicly for initial LOI stage."
+    },
+    "funding": {
+      "focus_areas": ["Children/Youth Assistance & Education", "Food Insecurity", "Homelessness/Affordable Housing", "Health & Human Services", "Conservation/Open Space/Climate"],
+      "grant_size_range": "Minimum $10,000 stated; top grants in DB range up to $215,000. Typical grants $50,000-$120,000 range for Sacramento-area organizations.",
+      "geographic_focus": "Greater Sacramento area and surrounding counties (CA). Hyper-local regional funder.",
+      "veteran_relevance": "LOW - No veteran programming in stated focus areas or observed grant history. Easter Seals (disability services) received $115K, but no veteran-specific grants visible.",
+      "adaptive_recreation_relevance": "LOW - No adaptive recreation or sailing/water sports in focus areas or grant history. Health and Human Services is the closest category."
+    },
+    "contacts": {
+      "primary_contact": null,
+      "email": null,
+      "phone": null,
+      "address": "Greater Sacramento area (no physical address found on website)"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "The Kelly Foundation has established a strategic grant program designed to create measurable impact within the Greater Sacramento area and surrounding counties.",
+      "reasoning": "Three compounding disqualifiers: (1) Geography - VetsBoats is in San Francisco, Kelly explicitly funds Greater Sacramento and surrounding counties only. (2) Mission alignment - Kelly funds food insecurity, homelessness, children/youth, health services, and conservation; adaptive sailing for veterans does not fit any category. (3) PF status unknown but irrelevant given geographic mismatch. Even if PF eligible, geographic barrier is absolute.",
+      "recommended_action": "DO NOT PURSUE. Geographic restriction is a hard disqualifier. VetsBoats should not spend time on a LOI."
+    },
+    "key_urls": [
+      "https://kellyfoundationsacramento.org/apply/guidelines/",
+      "https://kellyfoundationsacramento.org/wp-content/uploads/2023/06/Kelly-Foundation-Guidelines.pdf"
+    ],
+    "website_grantees_mentioned": [
+      "American Red Cross",
+      "Women's Empowerment",
+      "Saint John's Program for Real Change",
+      "Easter Seals Superior California",
+      "Mercy Housing",
+      "Sacramento Children's Home",
+      "Yolo Crisis Nursery",
+      "Habitat for Humanity of Greater Sacramento",
+      "Stanford Youth Solutions",
+      "Sacramento Loaves & Fishes",
+      "Cristo Rey High School Sacramento",
+      "California Waterfowl Association",
+      "American River Parkway Foundation",
+      "Sutter Davis Hospital Foundation"
+    ]
+  },
+  {
+    "ein": "274516157",
+    "name": "Dick's Sporting Goods Foundation",
+    "website": "https://www.sportsmatter.org",
+    "eligibility": {
+      "who_can_apply": "Public charities (501(c)(3) nonprofits listed in IRS 50-State Master File) or public/charter schools serving youth 18 and under in zip codes with 15%+ poverty rate (or 50%+ free/reduced lunch for schools). Organizations must operate locally or be a local affiliate/chapter. Grant $1,000-$25,000 range.",
+      "who_cannot_apply": "Private foundations, private operating foundations. Private schools, religious organizations, for-profit organizations, political organizations, e-sports, 501(c)(4)s/c(6)s/c(19)s, colleges/universities, individuals. Non-charities of any type.",
+      "pf_eligible": "NO",
+      "pf_evidence": "EXPLICIT DISQUALIFICATION. FAQ states verbatim: 'Can I request funding if my organization is a private foundation or privately operating foundation? No. Only organizations recognized as public charities (other than Type III supporting organizations) are eligible for funding.' VetsBoats is a private foundation (990-PF filer). This is a hard, unambiguous rejection. Despite 14 PF recipients in DB pf_grants data, these are likely 501(c)(3) public charities named 'Foundation' (e.g., Jeremy Lin Foundation, Da Bigger Picture Foundation) - not 990-PF private foundations. The website exclusion is categorical.",
+      "geographic_restrictions": "No geographic restriction stated - national program. Organization must operate locally or be a local affiliate.",
+      "org_type_requirements": "Must be a 501(c)(3) public charity listed in IRS Publication 78 (50-State Master File). Private foundations explicitly excluded.",
+      "budget_requirements": "No minimum budget stated for the applicant organization. Grant range $1,000-$25,000.",
+      "other_requirements": "Must serve organized youth sports for ages 18 and under. Must serve zip codes with 15%+ poverty rate (nonprofits) or 50%+ free/reduced lunch (schools). Grant must fund playing of youth sports: equipment, registration fees, league costs, infrastructure. No playground creation/refurbishments, fundraisers, or e-sports. One grant per organization per calendar year."
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "Grant opportunities are available by invitation only. Organizations can join the Sports Matter Community mailing list to receive email updates on potential grant opportunities. Only invited organizations may apply. Process goes through Versaic grant management platform.",
+      "portal_url": "https://www.sportsmatter.org/s/apply-for-funding",
+      "guidelines_url": "https://www.sportsmatter.org/s/grants-and-sponsorships",
+      "deadlines": "Rolling / invitation-based. No fixed annual deadlines published.",
+      "materials_required": "EIN, W-9, 501(c)(3) determination letter, documentation for nonprofit or school, funding request specifics, budget for equipment, vendor quotes for services, registration forms with fees."
+    },
+    "funding": {
+      "focus_areas": ["Youth sports participation", "Under-resourced youth sports teams", "Public school athletic programs", "Sports equipment and registration fees"],
+      "grant_size_range": "$1,000 - $25,000 per grant. DB top grants show large programmatic partnerships ($1M-$2.2M to intermediaries like Good Sports, US Soccer Foundation) but individual organization grants are $1K-$25K range.",
+      "geographic_focus": "National (all US states). Focused on economically underserved communities (15%+ poverty rate zip codes).",
+      "veteran_relevance": "NONE - Program exclusively focused on youth sports for ages 18 and under. Veterans are adults.",
+      "adaptive_recreation_relevance": "LOW - While sports-focused, program is exclusively for youth 18 and under. Adaptive sports are not part of stated focus. DB pf_grants do show Every Kid Sports (adaptive/accessible youth sports) as a recipient but this is because Every Kid Sports is a public charity intermediary."
+    },
+    "contacts": {
+      "primary_contact": null,
+      "email": "info@sportsmatter.org",
+      "phone": null,
+      "address": "DICK'S Sporting Goods Foundation (corporate foundation), Pittsburgh, PA area"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Can I request funding if my organization is a private foundation or privately operating foundation? No. Only organizations recognized as public charities (other than Type III supporting organizations) are eligible for funding.",
+      "reasoning": "Hard disqualifier on two independent grounds: (1) VetsBoats is a private foundation (990-PF filer) - categorically excluded by explicit FAQ language. (2) Program serves youth 18 and under only; VetsBoats serves disabled military veterans who are adults. Even if VetsBoats were reclassified as a public charity, the program focus does not match. No pathway exists.",
+      "recommended_action": "DO NOT PURSUE. Dual hard disqualifiers: PF status and adult/veteran vs. youth focus. Remove from VetsBoats prospect list."
+    },
+    "key_urls": [
+      "https://www.sportsmatter.org/s/grants-faqs",
+      "https://www.sportsmatter.org/s/grants-and-sponsorships",
+      "https://www.sportsmatter.org/s/grant-eligibility"
+    ],
+    "website_grantees_mentioned": [
+      "Good Sports",
+      "US Soccer Foundation",
+      "DonorsChoose",
+      "LeBron James Family Foundation",
+      "Every Kid Sports",
+      "Girls on the Run International",
+      "Local Initiatives Support Corp",
+      "McKeesport High School",
+      "Jeremy Lin Foundation",
+      "Da Bigger Picture Foundation",
+      "Bronx Lacrosse Inc",
+      "Julian Dorsey Foundation",
+      "Preston Mat Club",
+      "Palouse Havoc Fastpitch"
+    ]
+  },
+  {
+    "ein": "141893520",
+    "name": "Liberty Mutual Foundation",
+    "website": "https://www.libertymutualfoundation.org",
+    "eligibility": {
+      "who_can_apply": "Nonprofits running programming in select areas of Greater Boston (MA) or Washington State counties. Must align with focus areas of advancing security through basic needs and building resiliency for people and communities. Eligible areas checked via the LMF eligibility tool on their website.",
+      "who_cannot_apply": "Organizations outside the funded geographies (Greater Boston, select WA counties). No explicit PF exclusion found in crawled content. Focus is on vulnerable populations facing food/shelter insecurity and resiliency challenges.",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "Website does not explicitly address private foundation eligibility. Language references 'nonprofit partners' without specifying 501(c)(3) public charity requirement. DB pf_grants shows 9 grants to verified public charities (Inquilinos Boricuas en Accion, Boston Neighborhood Support, Leigh Yawkey Woodson Art Museum) ranging from $1K-$100K, 2020-2023. These are all small to mid-size grants to public charities in the Boston area. PF status is UNKNOWN from website - neither confirmed nor denied. However, geographic restriction is the primary barrier regardless.",
+      "geographic_restrictions": "STRICT: Only nonprofits running programming in select areas of Greater Boston, MA or Washington State counties. Website states explicitly: 'grant opportunities are available only to non-profits that run programming in select areas of Greater Boston and Washington State counties.' VetsBoats operates exclusively on San Francisco Bay, CA - not in funded geographies.",
+      "org_type_requirements": "Must be a nonprofit. No explicit 501(c)(3) public charity requirement found. Strategic RFPs govern priority areas.",
+      "budget_requirements": "Not stated. Grants range from small discretionary ($1K-$100K) to large programmatic ($1M+).",
+      "other_requirements": "Must align with strategic framework: advancing security through basic needs (food, shelter) or building resiliency for people/communities/climate infrastructure. RFP-driven for priority areas. Annual strategic overview webinar for partners and potential partners (2026-02-25 webinar noted)."
+    },
+    "application": {
+      "process": "RFP",
+      "process_description": "RFP-driven process for priority areas per strategic grantmaking framework (PDF available). Discretionary grants available for Boston and Washington State areas. Applications accepted via online portals for each geography. 2026 Strategic Overview Webinar scheduled Feb 25, 2026 to introduce new leadership and strategy.",
+      "portal_url": "https://www.libertymutualfoundation.org (separate apply links for Boston and Washington State)",
+      "guidelines_url": "https://www.libertymutualfoundation.org/documents/lmf-strategic-overview-2024-update.pdf",
+      "deadlines": "Not publicly stated. RFP-driven with periodic cycles.",
+      "materials_required": "Not detailed in crawled content. Strategic framework PDF required reading before applying."
+    },
+    "funding": {
+      "focus_areas": ["Basic needs: food and shelter security", "Community resiliency", "Climate and community infrastructure resilience", "Youth homelessness", "Affordable housing", "Financial empowerment"],
+      "grant_size_range": "Wide range: $1,000 (employee recognition) to $10.7M (LM Torchbearer program). Typical community grants $75,000-$1,000,000. Discretionary grants likely $50K-$500K.",
+      "geographic_focus": "Greater Boston, MA and select Washington State counties ONLY. Historically Boston-centric. $400M+ awarded since 2003.",
+      "veteran_relevance": "LOW to NONE - No veteran programming in stated focus areas. Liberty Mutual corporate has Military & Veterans employee resource groups, but the Foundation's grantmaking is focused on housing security, food security, and community resilience - not veteran-specific services.",
+      "adaptive_recreation_relevance": "NONE - No adaptive recreation, sailing, or water sports in focus areas or grant history."
+    },
+    "contacts": {
+      "primary_contact": "Liberty Mutual Foundation Grants Team",
+      "email": null,
+      "phone": null,
+      "address": "175 Berkeley Street, Boston, MA 02116"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Please note that grant opportunities are available only to non-profits that run programming in select areas of Greater Boston and Washington State counties.",
+      "reasoning": "Hard geographic disqualifier. Liberty Mutual Foundation exclusively funds organizations in Greater Boston and select Washington State counties. VetsBoats operates on San Francisco Bay, CA. No California programming is funded. Additionally, LMF focus areas (housing security, food security, community resilience) do not align with adaptive sailing for veterans. The mission fit and geographic fit are both absent.",
+      "recommended_action": "DO NOT PURSUE. Geographic restriction is absolute. Remove from VetsBoats prospect list."
+    },
+    "key_urls": [
+      "https://www.libertymutualgroup.com/about-lm/giving-back/liberty-mutual-foundation",
+      "https://www.libertymutualfoundation.org/documents/lmf-strategic-overview-2024-update.pdf"
+    ],
+    "website_grantees_mentioned": [
+      "Inquilinos Boricuas en Accion",
+      "Boston Neighborhood Support",
+      "Benjamin Franklin Cummings Institute of Technology",
+      "Heading Home Inc",
+      "Pine Street Inn",
+      "Hopewell Inc",
+      "Bridge Over Troubled Waters",
+      "Boston Medical Center Corporation",
+      "Boston Health Care for the Homeless Program",
+      "United Way of Central Massachusetts",
+      "Children's Services of Roxbury",
+      "Children's Investment Fund",
+      "Equal Justice Initiative",
+      "American Online Giving Foundation",
+      "USA for UNHCR"
+    ]
+  },
+  {
+    "ein": "943276694",
+    "name": "Thornton/Glide Foundation",
+    "website": "https://www.glidefoundation.org",
+    "eligibility": {
+      "who_can_apply": "Organizations qualified under IRS 501(c)(3) and California Revenue and Taxation Code Section 23701(d). Focus areas: animal protection organizations, land and wildlife conservancy groups, agricultural purposes, preservation of land in natural state, opera/symphony/civic organizations. California-based organizations given priority; out-of-state accepted but secondary.",
+      "who_cannot_apply": "Organizations outside stated focus areas (animal protection, land conservation, agriculture, performing arts). No explicit PF exclusion stated, but foundation describes grantees as 501(c)(3) qualified organizations.",
+      "pf_eligible": "SILENT",
+      "pf_evidence": "Website states: 'recipients must be charitable qualified as such under U.S. Internal Revenue Code Section 501(c)(3) and California Revenue and Taxation Code Section 23701(d).' This is '501(c)(3)' language without specifying public charity vs. private foundation. SILENT on PF status. DB pf_grants shows 8 grants: From the Heart Animal Sanctuary ($7K/2023), Sacramento Philharmonic & Opera ($2K/2023, $3K/2022), Agee Memorial Wildlife Fund ($9K/2020, $6K/2019, $5K/2018), The Scott Foundation ($1K/2020, $2K/2019). The Scott Foundation is itself a private foundation (MO), suggesting this funder DOES grant to private foundations. This is meaningful positive PF evidence. PF-to-PF grant precedent exists.",
+      "geographic_restrictions": "California-based organizations receive priority. Out-of-state organizations are considered but secondary. VetsBoats is California-based (San Francisco) - geographic fit is positive.",
+      "org_type_requirements": "Must be 501(c)(3) under IRC and California Revenue and Taxation Code 23701(d). No explicit public charity requirement.",
+      "budget_requirements": "Not stated. Grants observed in $1,000-$50,000 range.",
+      "other_requirements": "One application per organization. Online application only (May 15 - August 15 window). All attachments uploaded online. No hard copies required."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Open application process via online portal. Application window: May 15 - August 15 annually. Application not accessible outside this window. Online submission only; no hard copies required. All attachments uploaded through the portal.",
+      "portal_url": "https://www.glidefoundation.org/grants.html (online application link embedded)",
+      "guidelines_url": "https://www.glidefoundation.org/grants.html",
+      "deadlines": "August 15 annually (2025 deadline was August 15, 2025 at 23:59). Application opens May 15.",
+      "materials_required": "All necessary attachments uploaded online. Specific list not published on website; check online application portal for requirements."
+    },
+    "funding": {
+      "focus_areas": ["Animal protection organizations", "Land and wildlife conservancy", "Agricultural purposes", "Preservation of land in natural state", "Opera, symphony, and civic organizations"],
+      "grant_size_range": "$1,000-$50,000 based on DB grant history. Typical grants $5,000-$35,000.",
+      "geographic_focus": "California primary; out-of-state considered. Based in Davis, CA (Yolo County area). Northern California orientation visible in grant history.",
+      "veteran_relevance": "NONE - Veterans are not a stated focus area. No veteran grants in DB history.",
+      "adaptive_recreation_relevance": "NONE - Adaptive recreation and sailing/water sports are not in focus areas. The foundation's charitable activities center on animal sanctuary operations and grants for animal protection, agriculture, and performing arts."
+    },
+    "contacts": {
+      "primary_contact": "Russell E. White, Sarah S. White, Richard D. Bruga DVM (Trustees)",
+      "email": "[email protected] (email protected on website)",
+      "phone": "(530) 753-3803",
+      "address": "PO Box 1710, Davis, CA 95617-1710 (Mailing); 28120 Pierce Ranch Road, Davis, CA 95616 (Office)"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Its purpose is to provide benefits for qualified organizations committed to animal protection organizations, other land and wildlife conservancy groups, agricultural purposes, preservation of land in its natural state, and opera, symphony, and other similar civic organizations.",
+      "reasoning": "Mission mismatch is decisive. Thornton/Glide Foundation funds animal protection, land conservation, agriculture, and performing arts exclusively. Adaptive sailing for veterans does not fit any stated category. While two positive factors exist (California geography matches VetsBoats, and the foundation has granted to The Scott Foundation suggesting PF-to-PF giving is possible), neither overcomes the fundamental mission mismatch. VetsBoats has no animal protection, conservation, agricultural, or performing arts programming. No pathway to fit.",
+      "recommended_action": "DO NOT PURSUE. Mission is fundamentally incompatible. No workaround exists."
+    },
+    "key_urls": [
+      "https://www.glidefoundation.org/grants.html",
+      "https://www.glidefoundation.org/contact.html"
+    ],
+    "website_grantees_mentioned": [
+      "Sunrise Horse Rescue",
+      "Equine Internal Medicine Service UC Davis VMTH",
+      "Elephant Aid International",
+      "Community Alliance with Family Farmers",
+      "Pasadena Humane Society",
+      "Peaceful Valley Donkey Rescue",
+      "Huntington Hospital (Pet-Assisted Therapy Program)",
+      "Sacramento SPCA",
+      "Performing Animal Welfare Society",
+      "Sutter Medical Center Sacramento Foundation (Paws on Call)",
+      "From the Heart Animal Sanctuary",
+      "Sacramento Philharmonic & Opera",
+      "Agee Memorial Wildlife Fund",
+      "The Scott Foundation"
+    ]
+  }
+]

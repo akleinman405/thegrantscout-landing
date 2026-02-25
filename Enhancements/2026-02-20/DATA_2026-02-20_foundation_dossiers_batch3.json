@@ -1,0 +1,603 @@
+[
+  {
+    "ein": "870757807",
+    "name": "Kim & Harold Louie Family Foundation",
+    "website": "https://www.louiefamilyfoundation.org",
+    "eligibility": {
+      "who_can_apply": "Organizations and individuals. Website explicitly states 'special consideration to all military members and their families' because founder Betty B. Louie's father was a WWII veteran.",
+      "who_cannot_apply": "No stated exclusions",
+      "pf_eligible": "YES",
+      "pf_evidence": "App_restrictions field is 'NONE'. No mention of public charity requirement or 509(a) restriction anywhere on website. Has granted to at least 1 confirmed PF recipient ($14,600 total). The broad 'organizations' language with no org-type restriction strongly suggests PFs are eligible.",
+      "geographic_restrictions": "Based in Burlingame, CA (15 miles from SF Bay). Gives nationally to veteran organizations but has strong CA presence (62 CA grants, $782K total).",
+      "org_type_requirements": "None stated. Both organizations and individuals are eligible.",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Special consideration to military members and their families"
+    },
+    "application": {
+      "process": "LOI",
+      "process_description": "Website has a 'Grants for Organizations' page with application information. LOI-based process. No indication of invite-only restriction.",
+      "portal_url": "https://www.louiefamilyfoundation.org",
+      "guidelines_url": "https://www.louiefamilyfoundation.org",
+      "deadlines": "Not stated (likely rolling)",
+      "materials_required": "LOI with organization description, project narrative, budget"
+    },
+    "funding": {
+      "focus_areas": ["Veterans and military families (explicit priority)", "Disability services", "Education", "Community development", "Healthcare"],
+      "grant_size_range": "$2,500 - $15,000 (typical $5,000-$10,000 based on grant history)",
+      "geographic_focus": "National for veteran organizations; California-focused for other causes",
+      "veteran_relevance": "STRONG. 27 veteran grants ($212,500 total). Funds Operation First Response, Operation Homefront, Disabled American Veterans, Semper Fi Fund, Fisher House Foundation, Air Warrior Courage Foundation. Founder's father was WWII veteran, making this a personal mission.",
+      "adaptive_recreation_relevance": "No direct sailing or adaptive recreation grants found, but the combination of veteran focus + disability grants + no PF exclusion makes this an exceptional fit for VetsBoats' adaptive sailing for disabled veterans."
+    },
+    "contacts": {
+      "primary_contact": "Betty B Louie (President/Founder)",
+      "email": null,
+      "phone": null,
+      "address": "Burlingame, CA"
+    },
+    "vetsboats_verdict": {
+      "verdict": "STRONG_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Special consideration to all military members and their families",
+      "reasoning": "Four strong alignment factors: (1) Explicit military/veteran preference with personal WWII connection through founder's father; (2) No PF exclusion anywhere, app_restrictions='NONE', and has funded at least 1 PF; (3) Based in Burlingame, CA, just 15 miles from VetsBoats' SF Bay operations; (4) Active veteran funder with 27 grants totaling $212,500 to organizations like Semper Fi Fund, Fisher House, and Disabled American Veterans. VetsBoats combines two of the foundation's explicit priorities: veterans AND disability services.",
+      "recommended_action": "HIGH PRIORITY. Submit LOI immediately via website. Frame VetsBoats as serving disabled veterans (their top priority) through adaptive sailing on SF Bay (local to Burlingame). Request $7,500-$10,000 for first grant. Call Betty Louie directly to introduce VetsBoats and cite the WWII family connection."
+    },
+    "key_urls": [
+      "https://www.louiefamilyfoundation.org"
+    ],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "366152744",
+    "name": "Kovler Family Foundation",
+    "website": null,
+    "eligibility": {
+      "who_can_apply": "Per DB: 'No Restrictions. Typical Grant Awarded is between $1,000 - $5,000.' Open to new applicants via written proposal + IRS determination letter.",
+      "who_cannot_apply": "No stated exclusions",
+      "pf_eligible": "YES",
+      "pf_evidence": "'No Restrictions' in app_restrictions field is the strongest possible positive signal. Has 3 confirmed PF recipients totaling $14,000. IRC 170(c) covers private foundations. Foundation funds Judd Goldman Adaptive Sailing (a PF) for 2+ consecutive years.",
+      "geographic_restrictions": "Based in Chicago, IL. National giving with 51 CA grants ($1.9M total). No stated geographic restriction.",
+      "org_type_requirements": "None stated beyond IRS determination letter",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Submit 1-2 page written proposal + IRS determination letter by mid-November"
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Submit 1-2 page written proposal plus IRS determination letter. Deadline: mid-November. Contact: 875 N Michigan Ave, Suite 3400, Chicago, IL 60611. Phone: 312-664-5050.",
+      "portal_url": null,
+      "guidelines_url": null,
+      "deadlines": "Mid-November annually",
+      "materials_required": "1-2 page written proposal, IRS determination letter"
+    },
+    "funding": {
+      "focus_areas": ["Arts and culture", "Education", "Healthcare", "Human services", "Adaptive sailing (Judd Goldman)"],
+      "grant_size_range": "$1,000 - $5,000 typical",
+      "geographic_focus": "National with Chicago/IL emphasis. 51 CA grants totaling $1.9M.",
+      "veteran_relevance": "No direct veteran grants found. However, funds Judd Goldman Adaptive Sailing Foundation ($5,000/year for 2+ years), which provides adaptive sailing for people with disabilities including veterans.",
+      "adaptive_recreation_relevance": "DIRECT. Funds Judd Goldman Adaptive Sailing Foundation, the closest programmatic analog to VetsBoats in the Chicago market. This demonstrates comfort with adaptive sailing as a funding category."
+    },
+    "contacts": {
+      "primary_contact": "Jonathan Kovler (President)",
+      "email": null,
+      "phone": "312-664-5050",
+      "address": "875 N Michigan Ave, Suite 3400, Chicago, IL 60611"
+    },
+    "vetsboats_verdict": {
+      "verdict": "POSSIBLE_FIT",
+      "confidence": "MEDIUM",
+      "key_quote": "No Restrictions. Typical Grant Awarded is between $1,000 - $5,000",
+      "reasoning": "Three strong signals: (1) 'No Restrictions' in app_restrictions means PFs are eligible; (2) Has funded Judd Goldman Adaptive Sailing Foundation for multiple consecutive years, demonstrating direct comfort with adaptive sailing programs; (3) Has 3 confirmed PF-to-PF grants. Risk: No foundation website to verify current priorities; $1K-$5K typical grants are small; Chicago-based with no specific CA connection beyond DB grants. Verdict capped at POSSIBLE_FIT per audit rule (no website = max POSSIBLE_FIT).",
+      "recommended_action": "Submit 1-2 page written proposal by mid-November 2026. Lead with the Judd Goldman connection: 'VetsBoats is the West Coast equivalent of Judd Goldman Adaptive Sailing, serving disabled veterans on San Francisco Bay.' Request $5,000. Call 312-664-5050 first to confirm PF eligibility and current priorities."
+    },
+    "key_urls": [],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "367041179",
+    "name": "Howard Family Foundation",
+    "website": null,
+    "eligibility": {
+      "who_can_apply": "Open to new applicants per Grantable.co (12% funding rate). Bank-managed trust via CIBC National Trust Company.",
+      "who_cannot_apply": "No stated exclusions",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "App_restrictions='NONE' is positive. However, no confirmed PF-to-PF grants in DB. Bank-managed trusts often follow conservative interpretation of eligible grantees. Must verify with CIBC trust officer.",
+      "geographic_restrictions": "Based in Chicago, IL. Primarily funds IL organizations. No CA grants in DB.",
+      "org_type_requirements": "Not stated",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Bank-managed trust. Contact Jason Danz (Associate Manager) at CIBC."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Open to new applicants per Grantable.co profile. 12% historical funding rate. Contact CIBC National Trust Company trust officer.",
+      "portal_url": null,
+      "guidelines_url": null,
+      "deadlines": "Unknown",
+      "materials_required": "Unknown"
+    },
+    "funding": {
+      "focus_areas": ["Sailing and maritime (Columbia Sailing School $50K+$30K)", "Adaptive sports (Judd Goldman Adaptive Sailing 5+ years)", "Veterans (Wounded Warrior Project 3 consecutive years)", "Youth education"],
+      "grant_size_range": "$5,000 - $50,000",
+      "geographic_focus": "Chicago/IL focused. No CA grants.",
+      "veteran_relevance": "MODERATE. Funds Wounded Warrior Project ($5,000/year for 3+ consecutive years). Combined with 5+ years of Judd Goldman Adaptive Sailing and Columbia Sailing School, this trust has a clear sailing + veteran affinity.",
+      "adaptive_recreation_relevance": "STRONG. Funds both Columbia Sailing School ($80,000 over 2 years) and Judd Goldman Adaptive Sailing Foundation ($5,000/year for 5+ consecutive years). This is the most sailing-focused grantmaker in batch 3."
+    },
+    "contacts": {
+      "primary_contact": "Jason Danz (Associate Manager, CIBC National Trust Company)",
+      "email": null,
+      "phone": null,
+      "address": "CIBC, 100 Federal St, 37th Floor, Boston, MA 02110"
+    },
+    "vetsboats_verdict": {
+      "verdict": "POSSIBLE_FIT",
+      "confidence": "MEDIUM",
+      "key_quote": "Funds Judd Goldman Adaptive Sailing + Columbia Sailing School + Wounded Warrior Project for 3-5 consecutive years each",
+      "reasoning": "Exceptional thematic alignment: the only foundation in all 3 batches that simultaneously funds (a) an adaptive sailing program, (b) a mainstream sailing school, and (c) a veteran organization, all for multiple consecutive years. This is exactly VetsBoats' profile. Risk factors: (1) No website, so verdict capped at POSSIBLE_FIT; (2) Bank-managed trust may have conservative PF eligibility interpretation; (3) IL-focused with zero CA grants. The strongest signal is 5+ consecutive years of Judd Goldman Adaptive Sailing funding, showing sustained commitment to adaptive sailing.",
+      "recommended_action": "Contact Jason Danz at CIBC National Trust Company. Lead with: 'The Howard Family Foundation has funded Judd Goldman Adaptive Sailing for 5+ years and Wounded Warrior Project for 3+ years. VetsBoats combines both: adaptive sailing specifically for disabled veterans on San Francisco Bay.' Ask about PF eligibility first. Request $5,000-$10,000."
+    },
+    "key_urls": [],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "946079493",
+    "name": "William G Gilmore Foundation",
+    "website": "https://www.williamggilmorefoundation.org",
+    "eligibility": {
+      "who_can_apply": "By invitation only for prior grantees. New applicants appear to have limited pathway.",
+      "who_cannot_apply": "Website suggests grants are primarily directed to existing relationships",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "No confirmed PF-to-PF grants in DB. Website says 'See guidelines' without specifying org type requirements. All visible grantees appear to be public charities.",
+      "geographic_restrictions": "Northern California focused. 400 CA grants ($6.1M total). Strong Bay Area presence.",
+      "org_type_requirements": "Not explicitly stated",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Primarily invite-only for existing portfolio. Website suggests limited new grantee intake."
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "Website indicates grants are primarily directed to existing grantee relationships. No open application process visible.",
+      "portal_url": "https://www.williamggilmorefoundation.org",
+      "guidelines_url": "https://www.williamggilmorefoundation.org",
+      "deadlines": "Not publicly stated",
+      "materials_required": "Unknown"
+    },
+    "funding": {
+      "focus_areas": ["Education", "Community development", "Health services", "Legal aid", "Youth programs", "Disability services"],
+      "grant_size_range": "$5,000 - $50,000 (typical $10,000-$33,000 based on grant history)",
+      "geographic_focus": "Northern California, especially Bay Area. 400 CA grants totaling $6.1M.",
+      "veteran_relevance": "MODERATE. 7 veteran grants totaling $283,000. Funds Swords to Plowshares ($33K in 2023) for SF Bay Area veteran services.",
+      "adaptive_recreation_relevance": "LIMITED. Funds Waterside Workshops (hands-on enrichment, not sailing per se) and Pomeroy Recreation and Rehabilitation Center (afterschool for children with disabilities). No direct adaptive sailing grants."
+    },
+    "contacts": {
+      "primary_contact": "William G Gilmore Foundation",
+      "email": null,
+      "phone": null,
+      "address": "Northern California"
+    },
+    "vetsboats_verdict": {
+      "verdict": "WEAK_FIT",
+      "confidence": "MEDIUM",
+      "key_quote": "Invite-only grantmaking to existing portfolio",
+      "reasoning": "Strong geographic alignment (Bay Area, funds Swords to Plowshares and other SF-area orgs) but significant barriers: (1) Invite-only application process limits pathway; (2) No confirmed PF-to-PF grants; (3) No adaptive recreation or sailing grants in portfolio. The foundation has the right geography and veteran-adjacent giving, but VetsBoats would need a warm introduction to break into the existing grantee portfolio.",
+      "recommended_action": "LOW PRIORITY. Research board members for SF Bay sailing community connections. If VetsBoats has any connection to Swords to Plowshares (both serve SF Bay veterans), explore a warm introduction through that network."
+    },
+    "key_urls": [
+      "https://www.williamggilmorefoundation.org"
+    ],
+    "website_grantees_mentioned": ["Swords to Plowshares", "Bay Area Legal Aid", "Waterside Workshops", "Pomeroy Recreation and Rehabilitation Center"]
+  },
+  {
+    "ein": "364267581",
+    "name": "The Kellcie Fund",
+    "website": null,
+    "eligibility": {
+      "who_can_apply": "Organizations qualified under IRC Section 170(c). Submit a letter to the fund.",
+      "who_cannot_apply": "Not stated beyond IRC 170(c) requirement",
+      "pf_eligible": "YES",
+      "pf_evidence": "IRC Section 170(c) explicitly includes private foundations (unlike 509(a) which excludes them). The 170(c) requirement is the most favorable possible org-type restriction for PF applicants. No additional public charity requirement stated.",
+      "geographic_restrictions": "Based in Chicago, IL. Primarily funds IL and national organizations. Only 2 CA grants in DB.",
+      "org_type_requirements": "Must be qualified under IRC Section 170(c)",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Submit a letter. No deadline."
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "No deadline. Submit a letter. Contact: 227 W Monroe St, Suite 3750, Chicago, IL 60606. Phone: (847) 328-2383. Lehman family manages the fund.",
+      "portal_url": null,
+      "guidelines_url": null,
+      "deadlines": "Rolling (no deadline)",
+      "materials_required": "Letter"
+    },
+    "funding": {
+      "focus_areas": ["Social services", "Education", "Healthcare", "Arts and culture", "Adaptive sailing (Judd Goldman)"],
+      "grant_size_range": "$500 - $2,000 (median ~$1,000)",
+      "geographic_focus": "National with IL/Chicago emphasis",
+      "veteran_relevance": "MINIMAL. Only 1 veteran grant (Military Religious Freedom Foundation, $1,000). Not a veteran-focused funder.",
+      "adaptive_recreation_relevance": "LIMITED. Funds Judd Goldman Adaptive Sailing Foundation, but at very small dollar amounts ($500-$1,000). Part of Lehman family philanthropic network."
+    },
+    "contacts": {
+      "primary_contact": "Kenneth Lehman and Lucy Lehman (Co-Presidents)",
+      "email": null,
+      "phone": "(847) 328-2383",
+      "address": "227 W Monroe St, Suite 3750, Chicago, IL 60606"
+    },
+    "vetsboats_verdict": {
+      "verdict": "WEAK_FIT",
+      "confidence": "MEDIUM",
+      "key_quote": "The organization must be qualified under IRC Sec 170(c)",
+      "reasoning": "Positive: IRC 170(c) explicitly includes PFs, and the fund has granted to Judd Goldman Adaptive Sailing. Negative: (1) Median grant size of ~$1,000 makes the expenditure responsibility burden (required for PF-to-PF grants) disproportionate to the grant amount; (2) Very limited veteran focus; (3) Chicago-based with minimal CA presence. The grant would cost more in administrative compliance than it would yield in funding.",
+      "recommended_action": "VERY LOW PRIORITY. Only pursue if VetsBoats has a Lehman family connection. A $500-$1,000 grant with expenditure responsibility paperwork is not worth the effort."
+    },
+    "key_urls": [],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "330247161",
+    "name": "Crail-Johnson Foundation",
+    "website": "https://www.crail-johnson.org",
+    "eligibility": {
+      "who_can_apply": "501(c)(3) public charities serving children ages 0-12 in Los Angeles County",
+      "who_cannot_apply": "Private foundations, organizations outside LA County, organizations serving adults or older youth",
+      "pf_eligible": "NO",
+      "pf_evidence": "Website explicitly requires 509(a)(1) or 509(a)(2) designation (public charity status). Private foundations are explicitly excluded under their eligibility requirements. Additionally, geographic focus is exclusively Los Angeles County, not SF Bay Area.",
+      "geographic_restrictions": "Los Angeles County ONLY",
+      "org_type_requirements": "Must be 509(a)(1) or 509(a)(2) public charity",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Must serve children ages 0-12"
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Open application process via website for qualifying organizations in LA County.",
+      "portal_url": "https://www.crail-johnson.org",
+      "guidelines_url": "https://www.crail-johnson.org",
+      "deadlines": "Annual cycle",
+      "materials_required": "Application via website"
+    },
+    "funding": {
+      "focus_areas": ["Early childhood education (ages 0-12)", "Youth development", "Health and wellness for children", "Community development in LA County"],
+      "grant_size_range": "$5,000 - $50,000",
+      "geographic_focus": "Los Angeles County exclusively. 594 CA grants but concentrated in Southern California.",
+      "veteran_relevance": "MINIMAL. 3 veteran-adjacent grants (USO, Bob Hope USO) but not a veteran-focused funder.",
+      "adaptive_recreation_relevance": "LIMITED. Funds Disabled Sports Eastern Sierra and Achievable Foundation but focus is children with disabilities, not adult veterans."
+    },
+    "contacts": {
+      "primary_contact": "Crail-Johnson Foundation",
+      "email": null,
+      "phone": null,
+      "address": "Los Angeles, CA"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Must be 509(a)(1) or 509(a)(2) public charity",
+      "reasoning": "Triple disqualifier: (1) Explicit PF exclusion under 509(a) requirements; (2) LA County geographic restriction excludes SF Bay Area; (3) Focus on children ages 0-12 does not match VetsBoats' adult veteran population. The 594 CA grants in DB were misleading because they are all in LA County, not statewide.",
+      "recommended_action": "Do not pursue."
+    },
+    "key_urls": [
+      "https://www.crail-johnson.org"
+    ],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "911722000",
+    "name": "Lucky Seven Foundation",
+    "website": "https://www.fsrequests.com/luckyseven",
+    "eligibility": {
+      "who_can_apply": "501(c)(3) public charities",
+      "who_cannot_apply": "Private foundations. Website explicitly requires public charity status.",
+      "pf_eligible": "NO",
+      "pf_evidence": "Application portal requires public charity (501(c)(3)) designation. No PF-to-PF grants confirmed in DB despite 0 confirmed PF recipients.",
+      "geographic_restrictions": "Puget Sound / Pacific Northwest focus despite DE incorporation. 177 CA grants in DB but website priorities emphasize Washington state.",
+      "org_type_requirements": "501(c)(3) public charity required",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Apply via fsrequests.com portal"
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Online application via fsrequests.com/luckyseven portal.",
+      "portal_url": "https://www.fsrequests.com/luckyseven",
+      "guidelines_url": "https://www.fsrequests.com/luckyseven",
+      "deadlines": "Rolling",
+      "materials_required": "Online application"
+    },
+    "funding": {
+      "focus_areas": ["Maritime and boating (NW School of Wooden Boat Building, Sail Sand Point)", "Veterans (Wake for Warriors, Montana Warriors on the Water)", "Adaptive recreation (Little Bit Therapeutic Riding)", "Community development"],
+      "grant_size_range": "$1,000 - $30,000",
+      "geographic_focus": "Puget Sound and Pacific Northwest (WA, MT, OR)",
+      "veteran_relevance": "MODERATE. 9 veteran grants ($64K) including Wake for Warriors and Montana Warriors On The Water. But concentrated in Pacific Northwest.",
+      "adaptive_recreation_relevance": "STRONG thematic fit but wrong geography. Funds wooden boatbuilding school, Sail Sand Point, Wake for Warriors (veteran water sports). This is the most maritime/sailing-focused funder in batch 3 but Puget Sound, not SF Bay."
+    },
+    "contacts": {
+      "primary_contact": "Edward A Backus (President)",
+      "email": null,
+      "phone": null,
+      "address": null
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Public charity status required",
+      "reasoning": "Double disqualifier: (1) Public charity requirement explicitly excludes VetsBoats as a private foundation; (2) Despite exceptional thematic alignment (maritime, sailing, veteran water sports), the geographic focus is Puget Sound/Pacific Northwest, not SF Bay Area. The 177 CA grants in DB were misleading. Note: If VetsBoats ever reincorporates as a public charity, Lucky Seven would be a top-5 prospect given the maritime + veteran portfolio.",
+      "recommended_action": "Do not pursue. Bookmark for potential future outreach if VetsBoats converts to public charity status."
+    },
+    "key_urls": [
+      "https://www.fsrequests.com/luckyseven"
+    ],
+    "website_grantees_mentioned": ["NW School of Wooden Boat Building", "Sail Sand Point", "Wake for Warriors", "Little Bit Therapeutic Riding Center"]
+  },
+  {
+    "ein": "236261726",
+    "name": "Cigna Foundation",
+    "website": "https://www.cigna.com/about-us/community/giving",
+    "eligibility": {
+      "who_can_apply": "501(c)(3) public charities aligned with Cigna's health equity focus",
+      "who_cannot_apply": "Private foundations. Corporate foundation with explicit public charity requirement.",
+      "pf_eligible": "NO",
+      "pf_evidence": "Website requires 501(c)(3) public charity status. Despite having 17 confirmed PF recipients in DB, these are likely employee matching gifts (median $1K) that are processed differently from foundation grants. The formal grant program excludes PFs.",
+      "geographic_restrictions": "Communities where Cigna has operations. National but employee-driven.",
+      "org_type_requirements": "501(c)(3) public charity",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Health equity focus required"
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Corporate foundation with formal application through Cigna community giving program.",
+      "portal_url": "https://www.cigna.com/about-us/community/giving",
+      "guidelines_url": "https://www.cigna.com/about-us/community/giving",
+      "deadlines": "Varies by program",
+      "materials_required": "Online application"
+    },
+    "funding": {
+      "focus_areas": ["Health equity", "Mental health and well-being", "Military and veteran support", "Community health"],
+      "grant_size_range": "$1,000 - $100,000+",
+      "geographic_focus": "Communities where Cigna employees live and work",
+      "veteran_relevance": "MODERATE. 42 veteran grants ($612K) including substantial support for veteran mental health organizations. But primarily via employee matching.",
+      "adaptive_recreation_relevance": "LIMITED. One BORP Adaptive Sports grant ($4,178) appears to be employee matching gift."
+    },
+    "contacts": {
+      "primary_contact": "Cigna Foundation",
+      "email": null,
+      "phone": null,
+      "address": null
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Public charity status required",
+      "reasoning": "Explicit public charity requirement excludes VetsBoats as a private foundation. The 17 'PF recipients' in DB are likely employee matching gifts processed outside the formal grant program. Corporate foundations almost universally require public charity status for their formal giving programs.",
+      "recommended_action": "Do not pursue as a grant applicant. If VetsBoats has a Cigna employee supporter, they could potentially direct a matching gift ($1K-$5K)."
+    },
+    "key_urls": [
+      "https://www.cigna.com/about-us/community/giving"
+    ],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "237376427",
+    "name": "Helen V Brach Foundation",
+    "website": null,
+    "eligibility": {
+      "who_can_apply": "Organizations exempt under Section 501(c)(3)",
+      "who_cannot_apply": "Organizations not exempt under 501(c)(3). The 501(c)(3) requirement explicitly excludes private foundations, which are tax-exempt under 501(c)(3) but the foundation likely interprets this as 'public charity' given their app_restrictions language.",
+      "pf_eligible": "NO",
+      "pf_evidence": "App_restrictions states 'Must be organization exempt under Sect 501c3'. While technically PFs are 501(c)(3), the phrasing 'Must be organization exempt under Sect 501c3' is the standard corporate/large foundation shorthand for 'public charity.' All 3 confirmed PF recipients received very small amounts ($3,750 total, likely matching gifts). The foundation's 1,668 recent grants overwhelmingly go to public charities.",
+      "geographic_restrictions": "National scope. Chicago/IL emphasis but gives widely (42 CA grants, $463K total).",
+      "org_type_requirements": "501(c)(3) (interpreted as public charity)",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Not stated"
+    },
+    "application": {
+      "process": "UNKNOWN",
+      "process_description": "No website found. Application process unknown. InsidePhilanthropy profile exists but does not detail application process.",
+      "portal_url": null,
+      "guidelines_url": null,
+      "deadlines": "Unknown",
+      "materials_required": "Unknown"
+    },
+    "funding": {
+      "focus_areas": ["Disability services (108 grants, $1.3M)", "Animal welfare", "Human services", "Education", "Veterans (9 grants, $52K)"],
+      "grant_size_range": "$5,000 - $75,000",
+      "geographic_focus": "National with Chicago/IL emphasis. 42 CA grants ($463K).",
+      "veteran_relevance": "LIMITED. 9 veteran grants ($52,500) including USO, Paws and Stripes (veteran service dogs), Military Community Youth Ministries. Not a primary veteran funder.",
+      "adaptive_recreation_relevance": "MODERATE for disability. Strong disability portfolio (108 grants, $1.3M) including therapeutic riding, service animals, and accessibility programs. But no adaptive recreation/sports grants specifically."
+    },
+    "contacts": {
+      "primary_contact": "Unknown",
+      "email": null,
+      "phone": null,
+      "address": "Chicago, IL"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Must be organization exempt under Sect 501c3",
+      "reasoning": "The 501(c)(3) requirement, while technically inclusive of PFs, is interpreted as public charity only by this $128M foundation. The 3 PF recipients in DB received only $3,750 combined (likely matching gifts), while formal grants of $5K-$75K go exclusively to public charities. Even if PF eligibility were confirmed, the foundation lacks meaningful veteran or adaptive recreation focus. The 108 disability grants are promising but oriented toward developmental disabilities (Misericordia, Access Living) rather than veteran therapeutic recreation.",
+      "recommended_action": "Do not pursue."
+    },
+    "key_urls": [],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "810465899",
+    "name": "First Interstate BancSystem Foundation",
+    "website": "https://www.firstinterstatebank.com",
+    "eligibility": {
+      "who_can_apply": "Organizations serving communities of interest to First Interstate Bank",
+      "who_cannot_apply": "Organizations outside First Interstate Bank's service territory",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "21 confirmed PF recipients in DB ($50,519 total), the highest count in batch 3. However, these are likely employee matching gifts or community development grants processed through the bank's CRA (Community Reinvestment Act) obligations.",
+      "geographic_restrictions": "RESTRICTED to First Interstate Bank service territory: Montana, Wyoming, South Dakota, Nebraska, Kansas, Colorado, Oregon, Washington, Idaho, Arizona, and parts of surrounding states. California is NOT in their service territory.",
+      "org_type_requirements": "Not explicitly stated on website",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Must serve First Interstate Bank communities"
+    },
+    "application": {
+      "process": "OPEN",
+      "process_description": "Application via Foundation@fib.com. Must serve communities of interest to First Interstate Bank.",
+      "portal_url": "https://www.firstinterstatebank.com",
+      "guidelines_url": null,
+      "deadlines": "Unknown",
+      "materials_required": "Unknown"
+    },
+    "funding": {
+      "focus_areas": ["Community development", "Veterans (19 grants, $35K)", "Youth programs", "Adaptive sports"],
+      "grant_size_range": "$1,000 - $10,000",
+      "geographic_focus": "First Interstate Bank 14-state territory (MT, WY, SD, NE, KS, CO, OR, WA, ID, AZ and surrounding states). California NOT included.",
+      "veteran_relevance": "MODERATE. Funds Montana Warriors On The Water ($10K), Veterans Community Project ($7.5K), Central Oregon Veterans Ranch ($3K), Oregon Adaptive Sports ($6.1K).",
+      "adaptive_recreation_relevance": "MODERATE. Funds Oregon Adaptive Sports and Montana Warriors On The Water. Good thematic alignment but wrong geography."
+    },
+    "contacts": {
+      "primary_contact": "First Interstate BancSystem Foundation",
+      "email": "Foundation@fib.com",
+      "phone": null,
+      "address": "Montana"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Grants intended to serve communities of interest to First Interstate Bank",
+      "reasoning": "Geographic disqualifier: First Interstate Bank operates in a 14-state territory that does not include California. VetsBoats' SF Bay Area operations are outside their service territory. Despite excellent thematic alignment (Montana Warriors On The Water, Oregon Adaptive Sports), the bank foundation's giving is structurally tied to their branch network geography.",
+      "recommended_action": "Do not pursue. Note: If VetsBoats ever expands to Montana, Oregon, or Washington, First Interstate would be a strong prospect given their Montana Warriors On The Water precedent."
+    },
+    "key_urls": [
+      "https://www.firstinterstatebank.com"
+    ],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "650171539",
+    "name": "Lennar Foundation",
+    "website": "https://www.lennar.com/about/community",
+    "eligibility": {
+      "who_can_apply": "Unknown from website. Corporate community page did not contain grant program details.",
+      "who_cannot_apply": "Unknown",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "App_restrictions='NONE' in DB is positive. 2 confirmed PF recipients totaling $2.25M (significant dollar amount). However, the corporate website section crawled returned primarily marketing content about Lennar's homebuilding community involvement, not grant program eligibility details.",
+      "geographic_restrictions": "Unknown from website. Lennar builds homes nationally.",
+      "org_type_requirements": "Unknown",
+      "budget_requirements": "Unknown",
+      "other_requirements": "Unknown"
+    },
+    "application": {
+      "process": "UNKNOWN",
+      "process_description": "Website community page describes Lennar's community engagement philosophy but does not include a grant application process, eligibility requirements, or guidelines. May be entirely discretionary/invite-only.",
+      "portal_url": null,
+      "guidelines_url": null,
+      "deadlines": "Unknown",
+      "materials_required": "Unknown"
+    },
+    "funding": {
+      "focus_areas": ["Veteran housing and homelessness ($985K in vet grants)", "Disability services ($802K)", "Youth programs", "Community development"],
+      "grant_size_range": "$25,000 - $2,000,000 based on DB history",
+      "geographic_focus": "National. 34 CA grants ($23M total). FL headquarters.",
+      "veteran_relevance": "STRONG in DB. 11 veteran grants totaling $985K. Minnesota Assistance Council for Veterans ($400K to end veteran homelessness). But these may be Lennar corporate CSR initiatives, not foundation grants.",
+      "adaptive_recreation_relevance": "LIMITED. Horsepower Therapeutic Riding ($25K), Dream On 3 sports for kids with disabilities ($25K). No sailing or water-based grants."
+    },
+    "contacts": {
+      "primary_contact": "Marshall Ames (President)",
+      "email": null,
+      "phone": null,
+      "address": "Miami, FL"
+    },
+    "vetsboats_verdict": {
+      "verdict": "UNKNOWN",
+      "confidence": "LOW",
+      "key_quote": "N/A - website returned no grant program content",
+      "reasoning": "Website crawl (50 pages, 617K chars) returned primarily marketing content about Lennar homebuilding, not grant program details. Despite promising DB signals ($985K in veteran grants, $2.25M to PF recipients, app_restrictions='NONE'), there is no evidence of a formal grant application process. The 'foundation' may operate as discretionary corporate giving by Lennar executives rather than a structured grantmaking program. Verdict is UNKNOWN per audit rule: cannot assign POSSIBLE_FIT or higher when website returns no grant-relevant content.",
+      "recommended_action": "RESEARCH NEEDED. Search Instrumentl, GrantStation, and Candid for Lennar Foundation application details. Try calling the Lennar corporate office directly. Only pursue if a formal application process or contact person is identified."
+    },
+    "key_urls": [
+      "https://www.lennar.com/about/community"
+    ],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "474305984",
+    "name": "Hutton Family Foundation",
+    "website": null,
+    "eligibility": {
+      "who_can_apply": "Board-directed giving only. Preselected=TRUE in DB.",
+      "who_cannot_apply": "Unsolicited applicants",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "1 confirmed PF recipient in DB ($2,500). App_restrictions field is NULL. Preselected=TRUE means the foundation does not accept unsolicited applications.",
+      "geographic_restrictions": "San Francisco Bay Area focused. Most grants to CA organizations.",
+      "org_type_requirements": "Not stated (board discretion)",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Must be known to or connected with Hutton family / Wende Hutton (Canaan Partners)"
+    },
+    "application": {
+      "process": "INVITE_ONLY",
+      "process_description": "Board-directed, preselected only. No public application. Must be connected to Hutton family network.",
+      "portal_url": null,
+      "guidelines_url": null,
+      "deadlines": "N/A",
+      "materials_required": "N/A"
+    },
+    "funding": {
+      "focus_areas": ["Sailing and maritime (Warrior Sailing 4 years, St. Francis Sailing Foundation)", "Education", "Community development", "Health"],
+      "grant_size_range": "$2,500 - $25,000",
+      "geographic_focus": "San Francisco Bay Area",
+      "veteran_relevance": "STRONG. Funds Warrior Sailing Program for 4 consecutive years. Warrior Sailing teaches disabled veterans to sail, an exact programmatic analog to VetsBoats.",
+      "adaptive_recreation_relevance": "EXCELLENT. Funds both Warrior Sailing (adaptive sailing for veterans) and St. Francis Sailing Foundation. This is the only foundation in all 3 batches that funds adaptive sailing for veterans AND a mainstream sailing organization in the SF Bay Area."
+    },
+    "contacts": {
+      "primary_contact": "Wende Hutton (Canaan Partners, General Partner)",
+      "email": null,
+      "phone": null,
+      "address": "San Francisco Bay Area, CA"
+    },
+    "vetsboats_verdict": {
+      "verdict": "RELATIONSHIP_TARGET",
+      "confidence": "HIGH",
+      "key_quote": "Funds Warrior Sailing (4 consecutive years) + St. Francis Sailing Foundation",
+      "reasoning": "Hutton Family Foundation is the single best-aligned foundation for VetsBoats' mission across all 53 foundations reviewed: (1) Funds Warrior Sailing (adaptive sailing for disabled veterans) for 4 consecutive years; (2) Also funds St. Francis Sailing Foundation (Bay Area mainstream sailing); (3) Based in SF Bay Area; (4) Wende Hutton at Canaan Partners brings tech/VC network connections. However, preselected=TRUE means NO unsolicited applications. This is a RELATIONSHIP TARGET, not a grant applicant. VetsBoats must find a path to Wende Hutton through the SF Bay sailing community.",
+      "recommended_action": "TOP RELATIONSHIP PRIORITY. Research Wende Hutton's connections in the Bay Area sailing community. Check if VetsBoats has any overlap with Warrior Sailing or St. Francis Yacht Club networks. A warm introduction to Wende Hutton could unlock $10K-$25K annual funding. This is not a cold outreach target."
+    },
+    "key_urls": [],
+    "website_grantees_mentioned": []
+  },
+  {
+    "ein": "756038519",
+    "name": "Texas Instruments Foundation",
+    "website": "https://www.ti.com/giving",
+    "eligibility": {
+      "who_can_apply": "Organizations for charitable and educational purposes under 501(c)(3). Primarily an employee matching gifts program.",
+      "who_cannot_apply": "Organizations without TI employee connection",
+      "pf_eligible": "UNKNOWN",
+      "pf_evidence": "App_restrictions reference 501(c)(3) broadly. 10 confirmed PF recipients in DB but at very small amounts ($6,103 total, all appear to be employee matching gifts). The formal giving program is employee-driven matching gifts.",
+      "geographic_restrictions": "Dallas/TX focused. 1,112 CA grants in DB but these are employee matching gifts distributed wherever TI employees donate, not foundation-directed grants.",
+      "org_type_requirements": "501(c)(3) under Internal Revenue Code",
+      "budget_requirements": "Not stated",
+      "other_requirements": "Employee matching gifts require TI employee sponsor"
+    },
+    "application": {
+      "process": "EMPLOYEE_MATCHING",
+      "process_description": "Primarily an employee matching gifts program. Individual grants are $1K-$5K. Foundation matches employee donations and volunteer hours.",
+      "portal_url": "https://www.ti.com/giving",
+      "guidelines_url": "https://www.ti.com/giving",
+      "deadlines": "Rolling (via employee matching program)",
+      "materials_required": "TI employee must sponsor through matching program"
+    },
+    "funding": {
+      "focus_areas": ["Education and STEM", "Employee matching gifts (broad)", "Community development in Dallas/TX area"],
+      "grant_size_range": "$1,000 - $5,000 (matching gifts)",
+      "geographic_focus": "Dallas/TX headquarters. Employee matching follows employees nationally.",
+      "veteran_relevance": "LIMITED. 41 veteran grants in DB but all small matching gifts ($26,635 total, ~$650 average). Not a strategic veteran funder.",
+      "adaptive_recreation_relevance": "MINIMAL. National Sports Center for the Disabled received $2K matching gift. No sailing or adaptive recreation focus."
+    },
+    "contacts": {
+      "primary_contact": "Texas Instruments Foundation",
+      "email": null,
+      "phone": null,
+      "address": "Dallas, TX"
+    },
+    "vetsboats_verdict": {
+      "verdict": "NOT_A_FIT",
+      "confidence": "HIGH",
+      "key_quote": "Primarily an employee matching gifts program",
+      "reasoning": "Not a strategic fit: (1) Employee matching gifts program means VetsBoats would need a TI employee to sponsor a donation match of $1K-$5K; (2) No formal grant application for direct foundation grants; (3) Dallas/TX based with no meaningful CA presence beyond employee matching distribution; (4) Not a veteran-focused funder; (5) The 10 'PF recipients' in DB are all matching gifts, not foundation-directed grants.",
+      "recommended_action": "Do not pursue unless VetsBoats has a TI employee connection for a small matching gift ($1K-$5K)."
+    },
+    "key_urls": [
+      "https://www.ti.com/giving"
+    ],
+    "website_grantees_mentioned": []
+  }
+]

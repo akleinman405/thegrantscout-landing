@@ -1,8 +1,8 @@
 # f990_2025 Data Dictionary
 
-**Last Updated:** 2026-02-13
+**Last Updated:** 2026-02-25
 **Schema:** f990_2025
-**Total Tables:** 35 (including 1 materialized view)
+**Total Tables:** 57 (tables) + 2 materialized views + 10 views
 
 ---
 
@@ -43,8 +43,19 @@ Private foundation 990-PF tax return filings.
 | total_assets_eoy_amt | numeric(15,2) | YES | Total assets end of year |
 | grants_to_organizations_ind | boolean | YES | Makes grants to organizations? |
 | only_contri_to_preselected_ind | boolean | YES | Only contributes to preselected? |
-| website_address_txt | text | YES | Foundation website URL |
-| *...and 37 more columns* |
+| website_url | text | YES | Foundation website URL |
+| email_address_txt | text | YES | Email address |
+| phone_num | text | YES | Phone number |
+| mission_desc | text | YES | Mission description |
+| app_contact_name | text | YES | Application contact name |
+| app_contact_phone | text | YES | Application contact phone |
+| app_contact_email | text | YES | Application contact email |
+| app_submission_deadlines | text | YES | Application deadlines |
+| app_restrictions | text | YES | Application restrictions |
+| app_form_requirements | text | YES | Application form requirements |
+| ntee_code | varchar(10) | YES | NTEE classification code |
+| private_operating_foundation_ind | boolean | YES | Is private operating foundation? |
+| *...and ~50 more columns (94 total)* |
 
 ### pf_grants
 Individual grant records from 990-PF Schedule I.
@@ -79,12 +90,21 @@ Individual grant records from 990-PF Schedule I.
 | state | varchar(50) | YES | State |
 | total_revenue | numeric(15,2) | YES | Total revenue |
 | total_expenses | numeric(15,2) | YES | Total expenses |
-| net_assets | numeric(15,2) | YES | Net assets |
+| total_assets_eoy | numeric(15,2) | YES | Total assets end of year |
+| total_assets_boy | numeric(15,2) | YES | Total assets beginning of year |
+| net_assets_eoy | numeric(15,2) | YES | Net assets end of year |
+| net_assets_boy | numeric(15,2) | YES | Net assets beginning of year |
 | mission_description | text | YES | Mission statement |
-| program_service_desc_1 | text | YES | Program 1 description |
-| program_service_desc_2 | text | YES | Program 2 description |
-| program_service_desc_3 | text | YES | Program 3 description |
-| *...and 33 more columns* |
+| program_1_desc | text | YES | Program 1 description |
+| program_2_desc | text | YES | Program 2 description |
+| program_3_desc | text | YES | Program 3 description |
+| program_1_expense_amt | numeric(15,2) | YES | Program 1 expenses |
+| ntee_code | varchar(10) | YES | NTEE code |
+| total_employees_cnt | integer | YES | Total employees |
+| total_volunteers_cnt | integer | YES | Total volunteers |
+| website | text | YES | Website URL |
+| phone | text | YES | Phone number |
+| *...and ~50 more columns (91 total)* |
 
 ### officers
 Board members, officers, and key employees from all form types.
@@ -176,9 +196,25 @@ TheGrantScout client organizations.
 | org_type | varchar(100) | YES | Organization type |
 | budget_tier | varchar(100) | YES | Budget size tier |
 | grant_size_seeking | varchar(100) | YES | Target grant size |
-| mission_statement | text | YES | Mission statement |
-| project_description | text | YES | Current project description |
+| grant_size_min | numeric | YES | Minimum grant size seeking |
+| grant_size_max | numeric | YES | Maximum grant size seeking |
+| grant_capacity | text | YES | Grant writing capacity |
+| mission_text | text | YES | Mission statement |
+| project_need_text | text | YES | Current project/need description |
+| project_type | text | YES | Project type classification |
+| project_keywords | text | YES | Keywords for matching |
+| populations_served | text | YES | Target populations |
+| geographic_scope | text | YES | Geographic service area |
 | known_funders | text[] | YES | Array of known funder EINs |
+| recipient_ein | varchar(20) | YES | FK to dim_recipients.ein |
+| email | text | YES | Contact email |
+| status | varchar(50) | YES | Client status |
+| matching_grant_keywords | text | YES | Keywords for grant matching |
+| excluded_keywords | text | YES | Keywords to exclude |
+| target_grant_purpose | text | YES | Target grant purpose text |
+| database_revenue | numeric | YES | Revenue from DB lookup |
+| database_assets | numeric | YES | Assets from DB lookup |
+| *...and 8 more columns (40 total)* |
 
 ---
 
@@ -229,25 +265,6 @@ Aggregated foundation giving profiles.
 | geographic_focus | jsonb | YES | Geographic giving patterns |
 | sector_focus | jsonb | YES | NTEE sector focus |
 
-### calc_foundation_behavior
-Foundation openness and behavior metrics.
-
-| Column | Type | Nullable | Description |
-|--------|------|----------|-------------|
-| foundation_ein | varchar(10) | YES | Foundation EIN |
-| total_grants_all_time | integer | YES | Total grants made |
-| total_grants_5yr | integer | YES | Grants in last 5 years |
-| unique_recipients_5yr | integer | YES | Unique recipients (5yr) |
-| openness_score | numeric(3,2) | YES | Openness to new recipients |
-| repeat_rate | numeric(3,2) | YES | Repeat funding rate |
-| new_recipients_5yr | integer | YES | New recipients (5yr) |
-| median_grant | bigint | YES | Median grant size |
-| avg_grant | bigint | YES | Average grant size |
-| giving_trend | varchar(20) | YES | Growing/stable/declining |
-| trend_pct_change | double precision | YES | % change in giving |
-| accepts_applications | boolean | YES | Open to applications? |
-| avg_relationship_duration | numeric | YES | Avg years of funding |
-
 ### calc_foundation_features
 Comprehensive features for ML model training.
 
@@ -264,32 +281,6 @@ Comprehensive features for ML model training.
 | median_grant | bigint | YES | Median grant size |
 | *...and 80+ feature columns* |
 
-### calc_foundation_primary_sector
-Primary giving sector for each foundation.
-
-| Column | Type | Nullable | Description |
-|--------|------|----------|-------------|
-| foundation_ein | varchar(10) | YES | Foundation EIN |
-| primary_sector | text | YES | Primary NTEE sector |
-| sector_grant_pct | double precision | YES | % of grants in sector |
-| rank | bigint | YES | Sector rank (1=primary) |
-
-### calc_recipient_profiles
-Aggregated recipient funding profiles.
-
-| Column | Type | Nullable | Description |
-|--------|------|----------|-------------|
-| ein | varchar(10) | NO | Primary key - Recipient EIN |
-| total_funders | integer | YES | Total unique funders |
-| total_grants | integer | YES | Total grants received |
-| total_funding_received | bigint | YES | Total $ received |
-| avg_grant_received | bigint | YES | Average grant size |
-| funder_eins | text[] | YES | Array of funder EINs |
-| years_funded | integer[] | YES | Years with funding |
-| first_funded_year | integer | YES | First funded year |
-| last_funded_year | integer | YES | Last funded year |
-| funding_consistency | varchar(20) | YES | Funding pattern |
-
 ### calc_recipient_features
 Comprehensive recipient features for ML model training.
 
@@ -304,28 +295,181 @@ Comprehensive recipient features for ML model training.
 | total_funding_received | bigint | YES | Total $ received |
 | *...and 59+ feature columns* |
 
-### calc_recipient_prior_funders
-Count of prior funders by recipient and year.
+### calc_client_siblings (2,100 rows)
+Similar organizations per client for funder discovery.
 
 | Column | Type | Nullable | Description |
 |--------|------|----------|-------------|
-| recipient_ein | varchar(10) | YES | Recipient EIN |
-| tax_year | integer | YES | Tax year |
-| prior_funder_count | bigint | YES | Funders before this year |
+| client_ein | varchar | NO | Client EIN (PK part) |
+| sibling_ein | varchar | NO | Similar org EIN (PK part) |
+| similarity | numeric | YES | Similarity score |
+| client_budget | numeric | YES | Client budget |
+| sibling_budget | numeric | YES | Sibling budget |
+| budget_ratio | numeric | YES | Budget ratio |
+| model_version | varchar | YES | Model version |
+| computed_at | timestamp | YES | When computed |
 
-### calc_recipient_prior_grants
-Count of prior grants by recipient and year.
+### calc_client_sibling_funders (168 rows)
+Foundations that fund client siblings.
 
 | Column | Type | Nullable | Description |
 |--------|------|----------|-------------|
-| recipient_ein | varchar(10) | YES | Recipient EIN |
+| client_ein | varchar | NO | Client EIN (PK part) |
+| foundation_ein | varchar | NO | Foundation EIN (PK part) |
+| siblings_funded | integer | YES | Number of siblings funded |
+| total_grants | integer | YES | Total grants to siblings |
+| total_amount | numeric | YES | Total amount to siblings |
+| avg_grant | numeric | YES | Average grant size |
+| most_recent_year | integer | YES | Most recent grant year |
+| computed_at | timestamp | YES | When computed |
+
+### calc_client_sibling_grants (13,389 rows)
+Individual grants to client siblings with analysis.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| client_ein | varchar | NO | Client EIN (PK part) |
+| foundation_ein | varchar | NO | Foundation EIN |
+| sibling_ein | varchar | NO | Sibling EIN |
+| grant_id | integer | NO | Grant ID (PK part) |
+| amount | bigint | YES | Grant amount |
 | tax_year | integer | YES | Tax year |
-| prior_grant_count | integer | YES | Grants before this year |
-| prior_year_count | integer | YES | Years funded before this year |
+| recipient_state | varchar | YES | Recipient state |
+| purpose_text | varchar | YES | Grant purpose |
+| is_first_grant | boolean | YES | First grant to this recipient? |
+| purpose_quality | varchar | YES | Purpose text quality |
+| keyword_match | boolean | YES | Matches client keywords? |
+| semantic_similarity | numeric | YES | Semantic similarity score |
+| is_target_grant | boolean | YES | Meets target criteria? |
+| target_grant_reason | text | YES | Why it's a target grant |
+| computed_at | timestamp | YES | When computed |
+
+### calc_client_foundation_scores (4,816 rows)
+Enriched client-foundation scoring with eligibility analysis.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| client_ein | varchar | NO | Client EIN (PK part) |
+| foundation_ein | varchar | NO | Foundation EIN (PK part) |
+| client_name | varchar | YES | Client name |
+| foundation_name | varchar | YES | Foundation name |
+| foundation_state | varchar | YES | Foundation state |
+| foundation_total_assets | numeric | YES | Foundation assets |
+| siblings_funded | integer | YES | Siblings funded by this foundation |
+| grants_to_siblings | integer | YES | Grants to client siblings |
+| total_amount_to_siblings | numeric | YES | Total amount to siblings |
+| lasso_score | numeric | YES | LASSO model score |
+| geo_eligible | boolean | YES | Geographic eligibility |
+| open_to_applicants | boolean | YES | Accepts applications? |
+| client_eligible | boolean | YES | Overall client eligibility |
+| eligibility_notes | text | YES | Eligibility notes |
+
+### calc_client_proof_of_fit_grants (25 rows)
+Best proof-of-fit grants per recommendation.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| id | integer | NO | Primary key |
+| client_ein | varchar | YES | Client EIN |
+| foundation_ein | varchar | YES | Foundation EIN |
+| grant_id | integer | YES | Reference grant ID |
+| amount | numeric | YES | Grant amount |
+| purpose_text | text | YES | Grant purpose |
+| recipient_name | text | YES | Recipient name |
+| fit_reason | text | YES | Why this grant shows fit |
+
+### calc_client_foundation_recommendations (5 rows)
+Final top-N foundation recommendations per client.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| id | integer | NO | Primary key |
+| client_ein | varchar | NO | Client EIN |
+| foundation_ein | varchar | NO | Foundation EIN |
+| rank | integer | YES | Recommendation rank |
+| score | numeric | YES | Combined score |
+| recommendation_notes | text | YES | Why recommended |
 
 ---
 
-## Embedding Tables
+## Email Pipeline Tables
+
+### campaign_prospect_status (3,185 rows)
+Email campaign tracking and status.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| id | integer | NO | Primary key |
+| ein | varchar | YES | Organization EIN |
+| email | varchar | YES | Contact email |
+| org_name | varchar | YES | Organization name |
+| org_type | varchar | YES | Organization type |
+| vertical | varchar | YES | Campaign vertical |
+| campaign_status | varchar | YES | Current status |
+| initial_sent_at | timestamp | YES | When initial email sent |
+| initial_status | varchar | YES | Initial send status |
+| replied | boolean | YES | Has replied? |
+| bounced | boolean | YES | Has bounced? |
+| unsubscribed | boolean | YES | Has unsubscribed? |
+| *...and 16 more columns (29 total)* |
+
+### cohort_foundation_lists_v2 (21,667 rows)
+Foundation-cohort matches with composite fit scores.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| state | varchar | NO | State code |
+| ntee_sector | varchar | NO | NTEE sector |
+| foundation_rank | integer | NO | Rank within cohort |
+| foundation_ein | varchar | NO | Foundation EIN |
+| foundation_name | varchar | YES | Foundation name |
+| email_fit_score | numeric | YES | Composite email fit score |
+| geo_tier | varchar | YES | Geographic relevance tier |
+| *...and 24 more columns (32 total)* |
+
+### cohort_viability (882 rows)
+State-sector cohort viability flags.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| state | varchar | NO | State code (PK part) |
+| ntee_sector | varchar | NO | NTEE sector (PK part) |
+| foundation_count | integer | YES | Foundations matching |
+| prospect_count | integer | YES | Prospects matching |
+| viable | boolean | YES | Is cohort viable? |
+| display_count | integer | YES | Capped display count |
+| display_text | text | YES | Formatted display text |
+
+### ref_foundation_email_exclusions (45 rows)
+Foundations excluded from email campaigns.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| foundation_ein | varchar | NO | Primary key |
+| exclusion_reason | text | YES | Why excluded |
+| category | varchar | YES | Exclusion category |
+
+### foundation_enrichment (374 rows)
+Manual/scraped enrichment data for foundations.
+
+| Column | Type | Nullable | Description |
+|--------|------|----------|-------------|
+| id | integer | NO | Primary key |
+| ein | varchar | NO | Foundation EIN (UNIQUE) |
+| accepts_unsolicited | boolean | YES | Accepts unsolicited proposals? |
+| application_type | varchar | YES | Application type |
+| application_url | varchar | YES | Application URL |
+| current_deadline | text | YES | Current deadline |
+| contact_name | varchar | YES | Contact name |
+| contact_email | varchar | YES | Contact email |
+| program_priorities | text | YES | Program priorities |
+| geographic_focus | text | YES | Geographic focus |
+| viability_multiplier | numeric | YES | Viability scoring multiplier |
+| *...and 12 more columns (24 total)* |
+
+---
+
+## Embedding Tables (ARCHIVED 2026-01-04)
 
 ### emb_grant_purposes
 384-dimensional embeddings of grant purpose text.
@@ -389,15 +533,15 @@ Count of prior grants by recipient and year.
 
 ---
 
-## Staging Tables
+## Staging / ETL Tables
 
-### stg_import_log
+### import_log (748,311 rows)
 ETL run tracking and statistics.
 
 | Column | Type | Nullable | Description |
 |--------|------|----------|-------------|
 | id | integer | NO | Primary key |
-| import_run_id | uuid | NO | Unique run identifier |
+| import_run_id | uuid | YES | Unique run identifier |
 | started_at | timestamp | YES | Run start time |
 | completed_at | timestamp | YES | Run end time |
 | source_file | text | YES | Source file path |
@@ -409,51 +553,43 @@ ETL run tracking and statistics.
 | error_message | text | YES | Error details |
 | status | varchar(50) | YES | Run status |
 
-### stg_processed_xml_files
-XML file processing status tracking.
-
-| Column | Type | Nullable | Description |
-|--------|------|----------|-------------|
-| id | integer | NO | Primary key |
-| filename | text | NO | XML filename |
-| zip_source | text | NO | Source ZIP file |
-| import_run_id | uuid | YES | Associated import run |
-| processed_at | timestamp | YES | When processed |
-| form_type | varchar(20) | YES | Form type |
-| tax_year | integer | YES | Tax year |
-| status | varchar(20) | YES | Processing status |
+### stg_foundation_state_dist / stg_foundation_sector_dist
+Staging tables for geographic and sector distribution. Used by mv_foundation_geo_relevance.
 
 ---
 
 ## Reference Tables
 
-### ref_irs_bmf
-IRS Business Master File - nonprofit reference data.
+### bmf (1,935,635 rows)
+IRS Business Master File - nonprofit reference data. PK: `ein`.
 
 | Column | Type | Nullable | Description |
 |--------|------|----------|-------------|
-| ein | varchar(9) | NO | Primary key - EIN |
+| ein | varchar | NO | Primary key - EIN |
 | name | text | NO | Organization name |
+| ico | text | YES | In care of name |
+| street | text | YES | Street address |
 | city | text | YES | City |
-| state | varchar(2) | YES | State |
-| zip | varchar(10) | YES | ZIP code |
-| ntee_cd | varchar(10) | YES | NTEE code |
-| subsection | varchar(2) | YES | IRS subsection |
+| state | varchar | YES | State |
+| zip | varchar | YES | ZIP code |
+| ntee_cd | varchar | YES | NTEE code |
+| subsection | varchar | YES | IRS subsection |
 | foundation | integer | YES | Foundation type code |
+| deductibility | integer | YES | Deductibility code |
+| classification | varchar | YES | Classification code |
+| ruling | varchar | YES | Ruling date |
+| affiliation | varchar | YES | Affiliation code |
+| organization | varchar | YES | Organization code |
+| status | varchar | YES | BMF status |
+| asset_cd | varchar | YES | Asset code |
 | asset_amt | bigint | YES | Asset amount |
+| income_cd | varchar | YES | Income code |
 | income_amt | bigint | YES | Income amount |
-| created_at | timestamp | YES | Record created |
+| revenue_amt | bigint | YES | Revenue amount |
+| sort_name | text | YES | Sort name |
 
-### ref_org_name_lookup
-Organization name normalization lookup.
-
-| Column | Type | Nullable | Description |
-|--------|------|----------|-------------|
-| ein | varchar(20) | NO | Organization EIN |
-| raw_name | text | NO | Original name variant |
-| normalized_name | text | NO | Normalized name |
-| name_source | varchar(50) | YES | Source of this name |
-| state | varchar(10) | YES | State |
+### ref_state_regions (51 rows)
+State to region mapping. PK: `state_code`.
 
 ### ref_org_aliases
 Manual organization alias mappings.
@@ -477,30 +613,24 @@ Recipient canonical name mappings.
 
 ---
 
-## Other Tables
+## Prospect Tables
 
-### prospects
-Sales prospect list for TheGrantScout.
+### foundation_prospects2 (143,184 rows)
+Flattened foundation master table for prospecting. PK: `id`, UNIQUE: `ein`.
+See `foundation_prospects2_column_reference.md` for full 38-column listing.
 
-| Column | Type | Nullable | Description |
-|--------|------|----------|-------------|
-| ein | varchar(9) | YES | Organization EIN |
-| org_name | text | YES | Organization name |
-| contact_name | text | YES | Contact person |
-| contact_email | text | YES | Contact email |
-| website | text | YES | Website URL |
-| state | varchar(2) | YES | State |
-| ntee_code | varchar(10) | YES | NTEE code |
-| icp_score | integer | YES | Ideal customer profile score |
-| *...and 63 more columns* |
+### nonprofits_prospects2 (673,381 rows)
+Flattened nonprofit master for email campaigns. PK: `id`, UNIQUE: `ein`.
+Includes email quality columns: `email_quality_tier`, `email_quality_flags`, `verification_status`.
 
-### fundraising_events
-Fundraising event data for prospecting.
+### research_events (273 rows)
+Fundraising event data for prospecting. PK: `event_id`.
 
 | Column | Type | Nullable | Description |
 |--------|------|----------|-------------|
 | event_id | integer | NO | Primary key |
 | source | varchar(50) | YES | Data source |
+| source_event_id | varchar | YES | External event ID |
 | org_name_raw | varchar(500) | YES | Organization name |
 | event_name | varchar(500) | YES | Event name |
 | event_date | date | YES | Event date |
@@ -508,22 +638,14 @@ Fundraising event data for prospecting.
 | event_state | varchar(2) | YES | Event state |
 | event_url | varchar(1000) | YES | Event URL |
 | matched_ein | varchar(20) | YES | Matched organization EIN |
-| match_confidence | smallint | YES | Match confidence (0-100) |
+
+### org_url_enrichment (813,698 rows)
+URL enrichment and scrape tracking. PK: `ein`.
+Key columns: `scrape_status` (pending/fetched/extracted/failed/blocked), `scrape_pages_fetched`, `scrape_started_at`, `scrape_completed_at`, `scrape_error`.
 
 ---
 
 ## Web Scraping Tables
-
-### org_url_enrichment (scrape tracking columns)
-Added columns for website scraping pipeline status tracking.
-
-| Column | Type | Nullable | Description |
-|--------|------|----------|-------------|
-| scrape_status | varchar(20) | YES | Scraping pipeline status: pending/fetched/extracted/failed/blocked |
-| scrape_pages_fetched | integer | YES | Number of pages successfully fetched |
-| scrape_started_at | timestamp | YES | When scraping began for this org |
-| scrape_completed_at | timestamp | YES | When scraping completed |
-| scrape_error | text | YES | Error message if scrape_status = 'failed' |
 
 ### web_pages
 Metadata for fetched HTML pages (HTML stored on disk in gzip cache).
@@ -632,7 +754,47 @@ Only includes emails where syntax_valid=TRUE AND domain_matches_website=TRUE.
 - `recipient_ein` in fact_grants: ~20% NULL (unmatched recipients)
 - `ntee_code` varies by table: 60-80% populated
 
-### Embedding Columns
-- `_v` suffix columns are pgvector format for similarity queries
-- Base columns are float[] arrays for compatibility
-- All use all-MiniLM-L6-v2 model (384 dimensions)
+### Embedding Tables
+- ARCHIVED 2026-01-04 to save 52GB disk space
+- Backups at `1. Database/4. Semantic Embeddings/archive/`
+- See `REPORT_2026-01-04.1_embeddings_archived.md` for restore instructions
+
+---
+
+## Materialized Views
+
+### web_best_email (9,844 rows)
+Best email per organization. Only includes emails where syntax_valid=TRUE AND domain_matches_website=TRUE.
+Refresh: `REFRESH MATERIALIZED VIEW f990_2025.web_best_email;`
+
+### mv_foundation_geo_relevance (425,794 rows)
+Foundation geographic giving relevance by state with tier classification (primary/secondary/tertiary/incidental).
+Refresh: `REFRESH MATERIALIZED VIEW CONCURRENTLY f990_2025.mv_foundation_geo_relevance;`
+
+---
+
+## Views
+
+| View | Purpose |
+|------|---------|
+| vw_foundation_summary | Simplified foundation summary from pf_returns |
+| sales_prospects | Union of NP + FDN prospects for CRM |
+| v_campaign_prospects | Campaign status joined with prospect details |
+| v_suppress_list | Emails to suppress (bounced/replied/unsubscribed) |
+| v_suppress_list_by_ein | EINs to suppress from outreach |
+| v_email_preflight_overcitation | QC: foundations cited in too many cohorts |
+| v_email_preflight_example_quality | QC: example grant quality check |
+| v_email_preflight_prospect_quality | QC: prospect data quality check |
+| grant_purpose_quality | Purpose text quality classification |
+| prospects_with_events | Prospects joined with fundraising events |
+
+---
+
+## Public Schema
+
+### global_bounce_list (276 rows)
+Email addresses that have bounced. PK: `email`. Used across all campaigns.
+
+---
+
+*Last verified against live database: 2026-02-25*
