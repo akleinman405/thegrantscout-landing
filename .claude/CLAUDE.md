@@ -62,6 +62,21 @@ conn = psycopg2.connect(
 
 ---
 
+## Website (thegrantscout.com)
+
+- **Source:** `6. Business/4. website/thegrantscout-landing/` (separate git repo)
+- **Stack:** Next.js 14 + TypeScript + Tailwind CSS
+- **Host:** Vercel (auto-deploys on push), Netlify CLI available as backup
+- **GitHub:** `akleinman405/thegrantscout-landing`
+- **Deploy:** `cd "6. Business/4. website/thegrantscout-landing" && git push origin main` (live in ~2-3 min)
+- **Preview:** `npm run dev` (localhost:3000)
+- **Build check:** `npm run build`
+- **Netlify CLI:** `netlify deploy --prod` (alternative deploy method)
+
+**Important:** This is a nested git repo inside the monorepo. Website commits/pushes must happen from within the `thegrantscout-landing/` directory, not the parent TheGrantScout repo.
+
+---
+
 ## MANDATORY WORKFLOW (Every Task)
 
 **MUST DO - Reports:**

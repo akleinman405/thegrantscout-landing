@@ -1,0 +1,3616 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>VetsBoats Consolidated Master Report</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">VetsBoats Consolidated Master Report</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#vetsboats-consolidated-master-report"
+id="toc-vetsboats-consolidated-master-report">VetsBoats Consolidated
+Master Report</a>
+<ul>
+<li><a href="#revision-history" id="toc-revision-history">Revision
+History</a></li>
+<li><a href="#quick-reference-block"
+id="toc-quick-reference-block">Quick Reference Block</a></li>
+<li><a href="#table-of-contents" id="toc-table-of-contents">Table of
+Contents</a></li>
+<li><a href="#part-i-executive-summary"
+id="toc-part-i-executive-summary">Part I: Executive Summary</a>
+<ul>
+<li><a href="#key-numbers" id="toc-key-numbers">Key Numbers</a></li>
+<li><a href="#deliverable-inventory"
+id="toc-deliverable-inventory">Deliverable Inventory</a></li>
+</ul></li>
+<li><a href="#part-ii-current-state-of-engagement"
+id="toc-part-ii-current-state-of-engagement">Part II: Current State of
+Engagement</a>
+<ul>
+<li><a href="#what-has-been-delivered-to-matt"
+id="toc-what-has-been-delivered-to-matt">What Has Been Delivered to
+Matt</a></li>
+<li><a href="#what-is-internal-only" id="toc-what-is-internal-only">What
+Is Internal-Only</a></li>
+<li><a href="#open-questions-requiring-resolution"
+id="toc-open-questions-requiring-resolution">Open Questions Requiring
+Resolution</a></li>
+<li><a href="#next-recommended-actions-for-matt"
+id="toc-next-recommended-actions-for-matt">Next Recommended Actions for
+Matt</a></li>
+<li><a href="#what-a-future-claude-session-needs-to-know"
+id="toc-what-a-future-claude-session-needs-to-know">What a Future Claude
+Session Needs to Know</a></li>
+</ul></li>
+<li><a href="#part-iii-client-profile"
+id="toc-part-iii-client-profile">Part III: Client Profile</a>
+<ul>
+<li><a href="#identity" id="toc-identity">Identity</a></li>
+<li><a href="#financial-history" id="toc-financial-history">Financial
+History</a></li>
+<li><a href="#the-private-foundation-problem"
+id="toc-the-private-foundation-problem">The Private Foundation
+Problem</a></li>
+<li><a href="#known-funders-exclude-from-all-reports"
+id="toc-known-funders-exclude-from-all-reports">Known Funders (Exclude
+from All Reports)</a></li>
+<li><a href="#pre-call-brief-errors"
+id="toc-pre-call-brief-errors">Pre-Call Brief Errors</a></li>
+<li><a href="#key-people" id="toc-key-people">Key People</a></li>
+<li><a href="#data-quality-flags" id="toc-data-quality-flags">Data
+Quality Flags</a></li>
+</ul></li>
+<li><a href="#part-iv-chronological-timeline"
+id="toc-part-iv-chronological-timeline">Part IV: Chronological
+Timeline</a></li>
+<li><a href="#part-v-thematic-deep-dives"
+id="toc-part-v-thematic-deep-dives">Part V: Thematic Deep Dives</a>
+<ul>
+<li><a href="#a.-the-data-pipeline" id="toc-a.-the-data-pipeline">A. The
+Data Pipeline</a></li>
+<li><a href="#b.-the-report-build" id="toc-b.-the-report-build">B. The
+Report Build</a></li>
+<li><a href="#c.-the-quality-review-system"
+id="toc-c.-the-quality-review-system">C. The Quality Review
+System</a></li>
+<li><a href="#d.-the-audit-and-error-cascade"
+id="toc-d.-the-audit-and-error-cascade">D. The Audit and Error
+Cascade</a></li>
+<li><a href="#e.-the-hard-filter-discovery"
+id="toc-e.-the-hard-filter-discovery">E. The Hard-Filter
+Discovery</a></li>
+<li><a href="#f.-the-supplemental-report"
+id="toc-f.-the-supplemental-report">F. The Supplemental Report</a></li>
+<li><a href="#g.-the-contact-network" id="toc-g.-the-contact-network">G.
+The Contact Network</a></li>
+</ul></li>
+<li><a href="#part-vi-error-taxonomy"
+id="toc-part-vi-error-taxonomy">Part VI: Error Taxonomy</a>
+<ul>
+<li><a href="#e-01-fabricated-amounts"
+id="toc-e-01-fabricated-amounts">E-01: Fabricated Amounts</a></li>
+<li><a href="#e-02-inflated-metrics"
+id="toc-e-02-inflated-metrics">E-02: Inflated Metrics</a></li>
+<li><a href="#e-03-pf-count-inflation"
+id="toc-e-03-pf-count-inflation">E-03: PF Count Inflation</a></li>
+<li><a href="#e-04-wrong-contacts" id="toc-e-04-wrong-contacts">E-04:
+Wrong Contacts</a></li>
+<li><a href="#e-05-eligibility-mischaracterization"
+id="toc-e-05-eligibility-mischaracterization">E-05: Eligibility
+Mischaracterization</a></li>
+<li><a href="#e-06-entity-confusion"
+id="toc-e-06-entity-confusion">E-06: Entity Confusion</a></li>
+<li><a href="#e-07-geographic-restriction-missed"
+id="toc-e-07-geographic-restriction-missed">E-07: Geographic Restriction
+Missed</a></li>
+<li><a href="#e-08-pf-exclusion-missed"
+id="toc-e-08-pf-exclusion-missed">E-08: PF Exclusion Missed</a></li>
+<li><a href="#e-09-ein-errors" id="toc-e-09-ein-errors">E-09: EIN
+Errors</a></li>
+<li><a href="#e-10-stafftitle-errors"
+id="toc-e-10-stafftitle-errors">E-10: Staff/Title Errors</a></li>
+<li><a href="#error-taxonomy-summary"
+id="toc-error-taxonomy-summary">Error Taxonomy Summary</a></li>
+</ul></li>
+<li><a href="#part-vii-lessons-learned-and-action-items"
+id="toc-part-vii-lessons-learned-and-action-items">Part VII: Lessons
+Learned and Action Items</a>
+<ul>
+<li><a href="#pipeline-architecture-p0-must-build"
+id="toc-pipeline-architecture-p0-must-build">Pipeline Architecture (P0 –
+Must Build)</a></li>
+<li><a href="#data-quality-p1-should-build"
+id="toc-data-quality-p1-should-build">Data Quality (P1 – Should
+Build)</a></li>
+<li><a href="#report-generation-p1-should-build"
+id="toc-report-generation-p1-should-build">Report Generation (P1 –
+Should Build)</a></li>
+<li><a href="#process-p2-nice-to-have"
+id="toc-process-p2-nice-to-have">Process (P2 – Nice to Have)</a></li>
+</ul></li>
+<li><a href="#part-viii-recommendations-for-future-pf-clients"
+id="toc-part-viii-recommendations-for-future-pf-clients">Part VIII:
+Recommendations for Future PF Clients</a>
+<ul>
+<li><a href="#pf-pre-screening-checklist"
+id="toc-pf-pre-screening-checklist">1. PF Pre-Screening
+Checklist</a></li>
+<li><a href="#kovler-is_individual-data-bug"
+id="toc-kovler-is_individual-data-bug">2. Kovler is_individual Data
+Bug</a></li>
+<li><a href="#ein-correction-protocol"
+id="toc-ein-correction-protocol">3. EIN Correction Protocol</a></li>
+<li><a href="#truly-actionable-5-hedged"
+id="toc-truly-actionable-5-hedged">4. “3 Truly Actionable &gt; 5
+Hedged”</a></li>
+</ul></li>
+<li><a href="#part-ix-complete-file-manifest"
+id="toc-part-ix-complete-file-manifest">Part IX: Complete File
+Manifest</a>
+<ul>
+<li><a href="#december-4-2025-pre-call-research"
+id="toc-december-4-2025-pre-call-research">December 4, 2025: Pre-Call
+Research</a></li>
+<li><a href="#january-16-2026-sibling-foundation-analysis"
+id="toc-january-16-2026-sibling-foundation-analysis">January 16, 2026:
+Sibling + Foundation Analysis</a></li>
+<li><a href="#february-6-2026-full-report-build"
+id="toc-february-6-2026-full-report-build">February 6, 2026: Full Report
+Build</a></li>
+<li><a href="#february-17-2026-post-delivery-audit"
+id="toc-february-17-2026-post-delivery-audit">February 17, 2026:
+Post-Delivery Audit</a></li>
+<li><a href="#february-18-2026-report-correction-contacts"
+id="toc-february-18-2026-report-correction-contacts">February 18, 2026:
+Report Correction + Contacts</a></li>
+<li><a
+href="#february-20-2026-foundation-audit-hard-filter-website-verification"
+id="toc-february-20-2026-foundation-audit-hard-filter-website-verification">February
+20, 2026: Foundation Audit + Hard-Filter + Website Verification</a></li>
+<li><a href="#february-21-2026-supplemental-report-contact-network"
+id="toc-february-21-2026-supplemental-report-contact-network">February
+21, 2026: Supplemental Report + Contact Network</a></li>
+</ul></li>
+<li><a href="#appendix-a-foundation-verdict-summary"
+id="toc-appendix-a-foundation-verdict-summary">Appendix A: Foundation
+Verdict Summary</a>
+<ul>
+<li><a href="#february-6-grant-report-5-foundations"
+id="toc-february-6-grant-report-5-foundations">February 6 Grant Report
+(5 foundations)</a></li>
+<li><a href="#february-18-outreach-contacts-5-foundations"
+id="toc-february-18-outreach-contacts-5-foundations">February 18
+Outreach Contacts (5 foundations)</a></li>
+<li><a href="#february-21-supplemental-report-5-foundations"
+id="toc-february-21-supplemental-report-5-foundations">February 21
+Supplemental Report (5 foundations)</a></li>
+<li><a href="#february-21-additional-funders-5-foundations"
+id="toc-february-21-additional-funders-5-foundations">February 21
+Additional Funders (5 foundations)</a></li>
+</ul></li>
+<li><a href="#appendix-b-key-sql-queries"
+id="toc-appendix-b-key-sql-queries">Appendix B: Key SQL Queries</a>
+<ul>
+<li><a href="#client-profile-verification"
+id="toc-client-profile-verification">Client Profile
+Verification</a></li>
+<li><a href="#entity-confusion-check-pre-call-brief-verification"
+id="toc-entity-confusion-check-pre-call-brief-verification">Entity
+Confusion Check (Pre-Call Brief Verification)</a></li>
+<li><a href="#pf-to-pf-grant-detection"
+id="toc-pf-to-pf-grant-detection">PF-to-PF Grant Detection</a></li>
+<li><a href="#hard-filter-pass-rate"
+id="toc-hard-filter-pass-rate">Hard-Filter Pass Rate</a></li>
+<li><a href="#multi-board-connector-discovery"
+id="toc-multi-board-connector-discovery">Multi-Board Connector
+Discovery</a></li>
+</ul></li>
+<li><a href="#files-createdmodified"
+id="toc-files-createdmodified">Files Created/Modified</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="vetsboats-consolidated-master-report">VetsBoats Consolidated
+Master Report</h1>
+<p><strong>Date:</strong> 2026-02-25 <strong>Client:</strong> Wooden
+Boats for Veterans (VetsBoats) <strong>Status:</strong> Complete
+<strong>Owner:</strong> Alec Kleinman</p>
+<hr />
+<h2 id="revision-history">Revision History</h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Date</th>
+<th>Author</th>
+<th>Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>2026-02-25</td>
+<td>Claude Code</td>
+<td>Initial consolidated report</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="quick-reference-block">Quick Reference Block</h2>
+<p>Use this block for Claude Chat context injection. Flat facts, no
+prose.</p>
+<pre><code>CLIENT: Wooden Boats for Veterans (DBA VetsBoats eff. Jan 1, 2024)
+EIN: 464194065 (VARCHAR, no dashes)
+CLIENT_ID: 8 (dim_clients.id)
+TAX_STATUS: 501(c)(3) Private Operating Foundation (files 990-PF)
+FILING_TYPE: 990-PF (NOT in nonprofit_returns)
+NTEE: W99 (Public, Society Benefit - Other)
+STATE: CA (Sausalito)
+ADDRESS: 1001 Bridgeway St, Suite 608, Sausalito, CA 94965
+
+FINANCIALS (FY2024):
+  Revenue: $136,943
+  Assets: $279,349
+  Debt: ~$300K (LENDonate)
+  Employees: 0 (all-volunteer)
+  Budget tier: Under $250K
+
+KEY PEOPLE:
+  Terry Moran - Founder &amp; ED (Navy F-14 pilot, USCG 100-ton Master)
+  Jen Moran - Marketing Director
+  Matt Goettelman - Advisory Board Member (former West Point, Goldman Sachs)
+  Tom Gilheany - Board Member (cybersecurity exec)
+  Matt Cline - Board Member (Midwest operations)
+
+KNOWN FUNDERS (EXCLUDE FROM ALL REPORTS):
+  943073894 - Tahoe Maritime Foundation ($25K, 2023)
+  946073084 - Henry Mayo Newhall Foundation ($15K, 2023)
+  956495222 - Sidney Stern Memorial Trust ($3.5K, 2023)
+  946077619 - Charis Fund ($5K, 2022)
+  133556721 - Bonnell Cove Foundation ($7.5K, 2022-2023)
+
+PIPELINE BLOCKERS:
+  1. PF status - most funders exclude private foundations
+  2. Not in nonprofit_returns (files 990-PF only)
+  3. Embedding tables archived (no semantic similarity)
+  4. No questionnaire (profile built from sales call + research)
+
+PRE-CALL BRIEF ERRORS (CORRECTED):
+  Goodfellow Fund $60K -&gt; went to &quot;Center for Wooden Boats&quot; (WA), NOT VetsBoats
+  JPMorgan Chase $8.5K -&gt; same error (Center for Wooden Boats)
+  Bristol-Myers Squibb $2.5K -&gt; same error
+
+EIN CORRECTIONS (Feb 21 supplemental report):
+  Louie Family: 843767498 -&gt; 870757807 (correct)
+  Stout Foundation: 363441837 -&gt; 942797249 (correct)
+  Kovler Family: 366080579 -&gt; 366152744 (correct)
+  Howard Family: 366538061 -&gt; 367041179 (correct)
+
+OPEN QUESTIONS:
+  - Reeve Foundation March 12 deadline: did Matt apply?
+  - Bob Woodruff Foundation: PF or PC? ($72M assets, avg $80K grants)
+  - Widgeon Point: went invite-only 2025 due to AI apps. Monitor for 2026 reopening.
+
+ENGAGEMENT: 8 sessions, Dec 4 2025 - Feb 21 2026, 75+ files, 4 client deliverables</code></pre>
+<hr />
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#part-i-executive-summary">Part I: Executive
+Summary</a></li>
+<li><a href="#part-ii-current-state-of-engagement">Part II: Current
+State of Engagement</a></li>
+<li><a href="#part-iii-client-profile">Part III: Client Profile</a></li>
+<li><a href="#part-iv-chronological-timeline">Part IV: Chronological
+Timeline</a></li>
+<li><a href="#part-v-thematic-deep-dives">Part V: Thematic Deep
+Dives</a>
+<ul>
+<li><a href="#a-the-data-pipeline">A. The Data Pipeline</a></li>
+<li><a href="#b-the-report-build">B. The Report Build</a></li>
+<li><a href="#c-the-quality-review-system">C. The Quality Review
+System</a></li>
+<li><a href="#d-the-audit-and-error-cascade">D. The Audit and Error
+Cascade</a></li>
+<li><a href="#e-the-hard-filter-discovery">E. The Hard-Filter
+Discovery</a></li>
+<li><a href="#f-the-supplemental-report">F. The Supplemental
+Report</a></li>
+<li><a href="#g-the-contact-network">G. The Contact Network</a></li>
+</ul></li>
+<li><a href="#part-vi-error-taxonomy">Part VI: Error Taxonomy</a></li>
+<li><a href="#part-vii-lessons-learned-and-action-items">Part VII:
+Lessons Learned and Action Items</a></li>
+<li><a href="#part-viii-recommendations-for-future-pf-clients">Part
+VIII: Recommendations for Future PF Clients</a></li>
+<li><a href="#part-ix-complete-file-manifest">Part IX: Complete File
+Manifest</a></li>
+<li><a href="#appendix-a-foundation-verdict-summary">Appendix A:
+Foundation Verdict Summary</a></li>
+<li><a href="#appendix-b-key-sql-queries">Appendix B: Key SQL
+Queries</a></li>
+</ul>
+<hr />
+<h2 id="part-i-executive-summary">Part I: Executive Summary</h2>
+<p>VetsBoats (EIN 464194065) is TheGrantScout’s most complex client
+engagement. A private foundation that files 990-PF returns, VetsBoats
+broke the standard pipeline at every stage and required manual
+replication of every automated step. Over 8 sessions spanning 80 days
+(December 4, 2025 through February 21, 2026), the engagement produced
+75+ files and 4 client deliverables, uncovered 26 post-delivery errors,
+and ultimately found that 6 of 10 recommended foundations should have
+been removed.</p>
+<p>The central lesson: <strong>grant history patterns alone cannot
+predict eligibility.</strong> The LASSO V6.1 model correctly identifies
+foundations that fund veterans, sailing, and adaptive recreation. It
+does not check whether those foundations accept applications from
+private foundations, whether their geographic restrictions exclude
+California, or whether their contact information actually works.</p>
+<h3 id="key-numbers">Key Numbers</h3>
+<table>
+<colgroup>
+<col style="width: 53%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sessions</td>
+<td>8 (Dec 4, 2025 - Feb 21, 2026)</td>
+</tr>
+<tr>
+<td>Total files produced</td>
+<td>75+</td>
+</tr>
+<tr>
+<td>Client deliverables</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Foundations scored</td>
+<td>144 (Feb 6 report)</td>
+</tr>
+<tr>
+<td>Foundations enriched (web + DB)</td>
+<td>17 (Feb 6) + 47 (Feb 20) + 18 (Feb 21)</td>
+</tr>
+<tr>
+<td>Foundations in Feb 6 report</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Foundations in Feb 21 report</td>
+<td>5 (4 new + 1 updated)</td>
+</tr>
+<tr>
+<td>Additional funders document</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Errors found post-delivery</td>
+<td>26 (Feb 17 audit)</td>
+</tr>
+<tr>
+<td>Foundations removed after audit</td>
+<td>6 of 10 (Feb 20 audit)</td>
+</tr>
+<tr>
+<td>QA score v1</td>
+<td>70.66/100 (FAIL)</td>
+</tr>
+<tr>
+<td>QA score v2</td>
+<td>93.57/100 (PASS)</td>
+</tr>
+<tr>
+<td>Hard-filter pass rate</td>
+<td>340 of 4,553 (7.5%)</td>
+</tr>
+<tr>
+<td>Website verification pass rate</td>
+<td>3 of 47 (batch 1-3 deep crawls)</td>
+</tr>
+<tr>
+<td>Schedule_i PC candidates</td>
+<td>18 (Feb 21 discovery)</td>
+</tr>
+<tr>
+<td>Multi-board connectors found</td>
+<td>9 people across Bay Area sailing network</td>
+</tr>
+</tbody>
+</table>
+<h3 id="deliverable-inventory">Deliverable Inventory</h3>
+<table>
+<colgroup>
+<col style="width: 7%" />
+<col style="width: 33%" />
+<col style="width: 15%" />
+<col style="width: 20%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr>
+<th>#</th>
+<th>Deliverable</th>
+<th>Date</th>
+<th>Format</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Grant Opportunity Report</td>
+<td>Feb 6, 2026</td>
+<td>MD + DOCX + PDF (33 pages)</td>
+<td>5 foundation profiles: Simpson, Herzstein, Kovler, Barry, Van
+Beuren</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Corrected Report + Contacts</td>
+<td>Feb 18, 2026</td>
+<td>PDF + HTML</td>
+<td>Updated report with 26 corrections; 5 outreach contacts (Rees-Jones,
+Autzen, Heinz, Barker, LB Charitable)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Supplemental Grant Report</td>
+<td>Feb 21, 2026</td>
+<td>MD + PDF</td>
+<td>5 foundations: SFSF, Louie Family, Stout, Kovler (updated), Howard
+Family</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Additional Funders Document</td>
+<td>Feb 21, 2026</td>
+<td>MD + PDF</td>
+<td>5 tier-ranked prospects: Reeve, Bob Woodruff, Widgeon Point, Jerome
+Mirza, Wende Hutton</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="part-ii-current-state-of-engagement">Part II: Current State of
+Engagement</h2>
+<h3 id="what-has-been-delivered-to-matt">What Has Been Delivered to
+Matt</h3>
+<ol type="1">
+<li><p><strong>Feb 6 Grant Report</strong> (33-page PDF, corrected Feb
+18): 5 foundation profiles. Of these, the Feb 20 audit found only 2
+fully viable (Kovler, Barry), 1 conditional (Herzstein, requires TX
+expansion angle), and 1 downgraded (Van Beuren, Newport County only).
+Bill Simpson was removed (dead email, stale form, PF
+ineligible).</p></li>
+<li><p><strong>Feb 18 Outreach Contacts</strong>: 5 additional
+foundations for cold outreach. The Feb 20 audit found 4 of 5 should be
+removed (Rees-Jones, Autzen, Heinz, Barker all explicitly exclude PFs
+and/or have hard geographic restrictions). LB Charitable Foundation is
+the strongest lead from this set (CA-based, funds military veterans, no
+PF exclusion).</p></li>
+<li><p><strong>Feb 21 Supplemental Grant Report</strong> (PDF): 5 new
+foundation profiles built using the grant-report skill with DB-backed
+funder snapshots. St. Francis Sailing Foundation is the most actionable
+(formal grants program, quarterly cycle, $11K-$75K awards, April 2026
+deadline).</p></li>
+<li><p><strong>Feb 21 Additional Funders</strong> (PDF): 5 foundations
+requiring further eligibility verification before outreach.</p></li>
+</ol>
+<h3 id="what-is-internal-only">What Is Internal-Only</h3>
+<ul>
+<li>Complete process documentation
+(<code>REPORT_2026-02-20.6</code>)</li>
+<li>26-error audit (<code>AUDIT_2026-02-17</code>)</li>
+<li>Foundation audit with 6/10 removal recommendation
+(<code>REPORT_2026-02-20.3</code>)</li>
+<li>Hard-filter analysis showing 340/4,553 pass rate
+(<code>REPORT_2026-02-20</code>)</li>
+<li>Website verification across 47 foundations with only 3 viable
+(<code>REPORT_2026-02-20.8</code>)</li>
+<li>Contact network mapping with 9 multi-board connectors
+(<code>REPORT_2026-02-21_P3</code>)</li>
+<li>Schedule_i public charity discovery with 18 candidates
+(<code>REPORT_2026-02-21_P1</code>)</li>
+</ul>
+<h3 id="open-questions-requiring-resolution">Open Questions Requiring
+Resolution</h3>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 27%" />
+<col style="width: 51%" />
+</colgroup>
+<thead>
+<tr>
+<th>Item</th>
+<th>Status</th>
+<th>Action Needed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reeve Foundation March 12 deadline</td>
+<td>Unknown</td>
+<td>Confirm with Matt whether he submitted</td>
+</tr>
+<tr>
+<td>Bob Woodruff Foundation PF status</td>
+<td>Unclear</td>
+<td>990-PF filing suggests PF, which would disqualify. Verify via
+website.</td>
+</tr>
+<tr>
+<td>Widgeon Point 2026 reopening</td>
+<td>Monitoring</td>
+<td>Went invite-only in 2025 due to AI-generated application volume.
+Worth checking.</td>
+</tr>
+<tr>
+<td>Kovler is_individual data bug</td>
+<td>Unresolved</td>
+<td>All 196 Kovler grants in pf_grants flagged is_individual=TRUE,
+causing snapshot script to return 0. Needs investigation.</td>
+</tr>
+<tr>
+<td>Matt’s response to audit findings</td>
+<td>Pending</td>
+<td>Has Matt been told about the 6/10 removal? What was his
+reaction?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="next-recommended-actions-for-matt">Next Recommended Actions for
+Matt</h3>
+<ol type="1">
+<li><strong>Submit SFSF grant application</strong> for April 2026 cycle.
+Get warm intro to Rolf Kaiser or Maureen Roddy. Ask $15K-$25K.</li>
+<li><strong>Apply to LB Charitable Foundation</strong> (best contact
+from Feb 18 list). CA-based, funds military veterans, no PF exclusion,
+formal eligibility quiz.</li>
+<li><strong>Continue Kovler cultivation</strong> via Matt Goettelman to
+Ron Levin connection. Small grants ($3-5K) but proven PF funder.</li>
+<li><strong>Continue Barry cultivation</strong> via Sail to Prevail
+relationship. Highest upside ($100K typical, $477M assets) but does not
+accept unsolicited requests.</li>
+<li><strong>Check Reeve Foundation status</strong> (March 12 deadline
+may have passed).</li>
+</ol>
+<h3 id="what-a-future-claude-session-needs-to-know">What a Future Claude
+Session Needs to Know</h3>
+<ul>
+<li>VetsBoats is client ID 8 in dim_clients. EIN 464194065.</li>
+<li>Private foundation status is the #1 constraint. Most funders exclude
+PFs.</li>
+<li>The standard pipeline (<code>process_client.py</code>) cannot run
+for VetsBoats (no nonprofit_returns record, no embeddings, no
+questionnaire).</li>
+<li>5 known funder EINs must be excluded from all reports: 943073894,
+946073084, 956495222, 946077619, 133556721.</li>
+<li>Pre-call brief had 3 fabricated grants (Goodfellow, JPMorgan, BMS
+went to “Center for Wooden Boats” in WA, not VetsBoats in CA). Always
+verify external claims against DB by EIN.</li>
+<li>All foundation recommendations must pass three hard filters: (1) no
+PF exclusion language, (2) California geographic eligibility, (3) proven
+PF-to-PF grant history.</li>
+<li>The Feb 21 supplemental report used the grant-report and
+additional-funders skills with DB-backed funder snapshots. 4 of 5 input
+EINs were wrong and had to be corrected.</li>
+</ul>
+<hr />
+<h2 id="part-iii-client-profile">Part III: Client Profile</h2>
+<h3 id="identity">Identity</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Legal Name</td>
+<td>Wooden Boats for Veterans</td>
+</tr>
+<tr>
+<td>DBA</td>
+<td>VetsBoats (effective January 1, 2024)</td>
+</tr>
+<tr>
+<td>EIN</td>
+<td>464194065</td>
+</tr>
+<tr>
+<td>Tax Status</td>
+<td>501(c)(3) Private Operating Foundation</td>
+</tr>
+<tr>
+<td>Filing Type</td>
+<td>990-PF</td>
+</tr>
+<tr>
+<td>NTEE Code</td>
+<td>W99 (Public, Society Benefit: Other)</td>
+</tr>
+<tr>
+<td>Address</td>
+<td>1001 Bridgeway St, Suite 608, Sausalito, CA 94965</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>(707) 334-3424</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>tbmoran@vetsboats.org</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>vetsboats.org</td>
+</tr>
+<tr>
+<td>Founded</td>
+<td>2014 (tax-exempt since June 2014)</td>
+</tr>
+<tr>
+<td>dim_clients ID</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Active</td>
+</tr>
+</tbody>
+</table>
+<h3 id="financial-history">Financial History</h3>
+<table>
+<thead>
+<tr>
+<th>Tax Year</th>
+<th>Revenue</th>
+<th>Assets EOY</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024</td>
+<td>$136,943</td>
+<td>$279,349</td>
+<td>ProPublica</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>$278,676</td>
+<td>$352,566</td>
+<td>pf_returns</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>$389,352</td>
+<td>$94,449</td>
+<td>pf_returns</td>
+</tr>
+<tr>
+<td>2020</td>
+<td>$52,594</td>
+<td>$125,092</td>
+<td>pf_returns</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>$66,714</td>
+<td>$113,668</td>
+<td>pf_returns</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>$7,750</td>
+<td>$69,380</td>
+<td>pf_returns</td>
+</tr>
+</tbody>
+</table>
+<p>Revenue is volatile: $7.7K to $389K over 6 years. FY2024 figure
+($136,943) is the current reality. Organization carries approximately
+$300K in debt (LENDonate). Zero paid employees; all-volunteer
+operation.</p>
+<h3 id="the-private-foundation-problem">The Private Foundation
+Problem</h3>
+<p>VetsBoats files Form 990-PF, not Form 990 or 990-EZ. This creates a
+cascade of pipeline failures:</p>
+<ol type="1">
+<li><strong>Not in nonprofit_returns.</strong> The pipeline’s client
+loading step expects to find the organization in nonprofit_returns.
+VetsBoats only exists in pf_returns.</li>
+<li><strong>No embeddings possible.</strong> Embedding tables were
+archived January 4, 2026. Even if restored, VetsBoats has no
+nonprofit_returns record to embed against.</li>
+<li><strong><code>only_contri_to_preselected_ind = TRUE</code> on all
+filings.</strong> This flag is meaningless for VetsBoats because it
+describes VetsBoats’ own grantmaking behavior, not its eligibility to
+receive grants. VetsBoats marks TRUE because it makes grants to
+preselected recipients (veterans it serves), not because it only accepts
+funding from preselected sources.</li>
+<li><strong>Most institutional funders exclude PFs.</strong> Of 47
+foundations deep-crawled during the Feb 20 website verification, the
+majority had explicit “public charities only” or “Section 509(a)”
+requirements.</li>
+</ol>
+<p>IRS BMF code 03 indicates a private operating foundation. However,
+990-PF filings since 2019 mark
+<code>private_operating_foundation_ind = FALSE</code>. This
+inconsistency was noted but not resolved.</p>
+<h3 id="known-funders-exclude-from-all-reports">Known Funders (Exclude
+from All Reports)</h3>
+<table>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>EIN</th>
+<th>Amount</th>
+<th>Year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tahoe Maritime Foundation</td>
+<td>943073894</td>
+<td>$25,000</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Henry Mayo Newhall Foundation</td>
+<td>946073084</td>
+<td>$15,000</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Sidney Stern Memorial Trust</td>
+<td>956495222</td>
+<td>$3,500</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Charis Fund</td>
+<td>946077619</td>
+<td>$5,000</td>
+<td>2022</td>
+</tr>
+<tr>
+<td>Bonnell Cove Foundation</td>
+<td>133556721</td>
+<td>$7,500</td>
+<td>2022-2023</td>
+</tr>
+</tbody>
+</table>
+<p>Charis Fund and Bonnell Cove were not confirmed in the database
+(grants in DB went to different organizations) but were confirmed by the
+client on February 6, 2026.</p>
+<h3 id="pre-call-brief-errors">Pre-Call Brief Errors</h3>
+<p>The December 4, 2025 pre-call brief attributed three grants to
+VetsBoats that actually went to “Center for Wooden Boats,” a different
+organization in Washington state:</p>
+<table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 24%" />
+<col style="width: 27%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th>Claimed Funder</th>
+<th>Claimed Amount</th>
+<th>Actual Recipient</th>
+<th>How Discovered</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Goodfellow Fund</td>
+<td>$60,000</td>
+<td>Center for Wooden Boats (WA)</td>
+<td>ILIKE ‘%wooden boats%’ search in fact_grants</td>
+</tr>
+<tr>
+<td>JPMorgan Chase Foundation</td>
+<td>$8,550</td>
+<td>Center for Wooden Boats (WA)</td>
+<td>Same search</td>
+</tr>
+<tr>
+<td>Bristol-Myers Squibb Foundation</td>
+<td>$2,520</td>
+<td>Center for Wooden Boats (WA)</td>
+<td>Same search</td>
+</tr>
+</tbody>
+</table>
+<p>This was the first instance of entity confusion (error category E-06)
+and established the rule: always verify external claims against the
+database by EIN, not by name.</p>
+<h3 id="key-people">Key People</h3>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 31%" />
+<col style="width: 36%" />
+</colgroup>
+<thead>
+<tr>
+<th>Name</th>
+<th>Role</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Terry Moran</td>
+<td>Founder &amp; Executive Director</td>
+<td>Navy F-14 pilot, USCG 100-ton Master, primary grant writer</td>
+</tr>
+<tr>
+<td>Jen Moran</td>
+<td>Marketing Director</td>
+<td>Terry’s wife</td>
+</tr>
+<tr>
+<td>Matt Goettelman</td>
+<td>Advisory Board Member</td>
+<td>Former West Point, Goldman Sachs SF; advises family
+offices/foundations</td>
+</tr>
+<tr>
+<td>Tom Gilheany</td>
+<td>Board Member</td>
+<td>Cybersecurity executive</td>
+</tr>
+<tr>
+<td>Matt Cline</td>
+<td>Board Member</td>
+<td>Establishing Midwest operations</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Title correction:</strong> The sales call referred to Matt
+Goettelman as “Director of Development.” His actual title is Advisory
+Board Member. He is not a development director; he advises on foundation
+and family office relationships.</p>
+<h3 id="data-quality-flags">Data Quality Flags</h3>
+<table>
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 57%" />
+</colgroup>
+<thead>
+<tr>
+<th>Flag</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Not in nonprofit_returns</td>
+<td>No IRS mission text, no 990/990-EZ financials</td>
+</tr>
+<tr>
+<td>No questionnaire</td>
+<td>Missing structured intake data</td>
+</tr>
+<tr>
+<td>Files 990-PF</td>
+<td>preselected_only flag is meaningless in scoring context</td>
+</tr>
+<tr>
+<td>No embeddings</td>
+<td>Cannot use semantic sibling search</td>
+</tr>
+<tr>
+<td>Revenue volatile</td>
+<td>$7.7K to $389K over 6 years</td>
+</tr>
+<tr>
+<td>Pre-call brief errors</td>
+<td>3 grants attributed to wrong organization</td>
+</tr>
+<tr>
+<td>0 paid staff</td>
+<td>Limits grant compliance capacity</td>
+</tr>
+<tr>
+<td>~$300K debt</td>
+<td>2x annual revenue</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="part-iv-chronological-timeline">Part IV: Chronological
+Timeline</h2>
+<table>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 10%" />
+<col style="width: 33%" />
+<col style="width: 28%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr>
+<th>#</th>
+<th>Date</th>
+<th>Session Description</th>
+<th>Primary Output</th>
+<th>Key Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Dec 4, 2025</td>
+<td>Pre-call research</td>
+<td>VetsBoats_Foundation_Pre-Call_Brief</td>
+<td>Foundation landscape mapped; 3 grant attributions later proven
+wrong</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Jan 16, 2026</td>
+<td>Sibling + foundation analysis</td>
+<td>2 reports + Excel workbook</td>
+<td>28 siblings, 67 funders identified; CA dramatically
+underrepresented</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Feb 6, 2026</td>
+<td>Full report build (3 sub-sessions)</td>
+<td>33-page PDF grant report</td>
+<td>144 scored, 17 enriched, 5 profiled; QA: 70.66 to 93.57</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Feb 17, 2026</td>
+<td>Post-delivery audit</td>
+<td>26-error audit report</td>
+<td>Bouncing email triggered full audit; 17 data errors, 7 contact
+errors</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Feb 18, 2026</td>
+<td>Report correction + contacts</td>
+<td>Corrected PDF + 5 outreach contacts</td>
+<td>All 26 corrections applied; 5 new contacts for cold outreach</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Feb 20, 2026</td>
+<td>Foundation audit + hard-filter</td>
+<td>6/10 removal; 340 pass hard filter</td>
+<td>Website verification: 14/15 foundations ineligible; process
+documentation</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Feb 20, 2026</td>
+<td>Website verification at scale</td>
+<td>47 foundations deep-crawled</td>
+<td>Only 3 viable after website review; pre-filter script built</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Feb 21, 2026</td>
+<td>Supplemental report + contacts</td>
+<td>2 PDFs (grant opps + additional funders)</td>
+<td>5 new foundations; SFSF grants program; 9 multi-board connectors;
+4/5 EINs wrong</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="part-v-thematic-deep-dives">Part V: Thematic Deep Dives</h2>
+<h3 id="a.-the-data-pipeline">A. The Data Pipeline</h3>
+<h4 id="why-the-standard-pipeline-failed">Why the Standard Pipeline
+Failed</h4>
+<p>The automated pipeline (<code>4. Pipeline/process_client.py</code>)
+requires three things VetsBoats did not have:</p>
+<ol type="1">
+<li><p><strong>Embedding tables</strong> (archived January 4, 2026 to
+free 52GB). Without embeddings, the pipeline cannot compute semantic
+similarity between VetsBoats’ mission and grant purposes.</p></li>
+<li><p><strong>A nonprofit_returns record.</strong> VetsBoats files
+990-PF, not 990 or 990-EZ. The client loading step expects
+nonprofit_returns.</p></li>
+<li><p><strong>A completed client questionnaire.</strong> VetsBoats had
+not filled one out. The profile had to be reconstructed from a sales
+call transcript, a pre-call brief, and online verification.</p></li>
+</ol>
+<p>Additionally, the LASSO V6.1 scoring model has no feature for
+“PF-to-PF eligibility.” This constraint required manual judgment at
+every enrichment and selection step.</p>
+<h4 id="manual-replication">Manual Replication</h4>
+<p>Every pipeline phase was replicated manually:</p>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 34%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th>Pipeline Step</th>
+<th>Automated Approach</th>
+<th>Manual Approach Used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01: Load client</td>
+<td>Read questionnaire</td>
+<td>Reconstruct from sales call + ProPublica + GuideStar</td>
+</tr>
+<tr>
+<td>02: Score foundations</td>
+<td>LASSO model with embeddings</td>
+<td>Sibling grant analysis + keyword matching + semantic scoring</td>
+</tr>
+<tr>
+<td>03: Check enrichment</td>
+<td>Read cache</td>
+<td>No cache existed; all fresh research</td>
+</tr>
+<tr>
+<td>04: Filter viable</td>
+<td>Automated viability rules</td>
+<td>Manual DB pre-screening + web research</td>
+</tr>
+<tr>
+<td>05: Assemble opps</td>
+<td>Structured JSON</td>
+<td>Manual profile assembly from multiple sources</td>
+</tr>
+<tr>
+<td>06: Generate narratives</td>
+<td>AI-generated from structured data</td>
+<td>Manual writing with DB-verified statistics</td>
+</tr>
+<tr>
+<td>07-08: Build + render</td>
+<td>Template merge</td>
+<td>Manual markdown writing + formatting</td>
+</tr>
+</tbody>
+</table>
+<h4 id="the-pf-to-pf-constraint">The PF-to-PF Constraint</h4>
+<p>The core discovery: VetsBoats is a private foundation. Most funders
+either explicitly exclude PFs or have never funded one. This was not
+anticipated in the pipeline design.</p>
+<p><strong>Result from enrichment (Feb 6):</strong> Of 17 candidate
+foundations, 8 were eliminated via DB pre-screening before any web
+research:</p>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 60%" />
+</colgroup>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Reason Eliminated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frederick Henry Prince Trust</td>
+<td>Restricts to “public charities under 509(a)(1) or 509(a)(2)”</td>
+</tr>
+<tr>
+<td>Virginia Wellington Cabot</td>
+<td>Invitation-only family foundation</td>
+</tr>
+<tr>
+<td>Alletta Morris McBean</td>
+<td>“Newport and Aquidneck Island, RI” only</td>
+</tr>
+<tr>
+<td>Sparks Foundation</td>
+<td>Geographic list excludes CA</td>
+</tr>
+<tr>
+<td>Liberty Mutual Foundation</td>
+<td>Excludes “grantmaking agencies”</td>
+</tr>
+<tr>
+<td>Enterprise Holdings</td>
+<td>Explicitly excludes 501(c)(3) private foundations</td>
+</tr>
+<tr>
+<td>Jim Moran Foundation</td>
+<td>Broward, Palm Beach, Duval County FL only</td>
+</tr>
+<tr>
+<td>Harry S Cameron</td>
+<td>Archdiocese of Galveston-Houston (10 TX counties only)</td>
+</tr>
+</tbody>
+</table>
+<p>Of the remaining 9 that received web enrichment: 0 READY, 3
+CONDITIONAL, 3 WATCH, 3 SKIP.</p>
+<h4 id="db-first-pre-screening">DB-First Pre-Screening</h4>
+<p>The approach of eliminating candidates via database queries before
+expensive web research proved highly efficient. The 8 foundations
+eliminated in DB pre-screening would each have required 30-60 minutes of
+web research. Total time saved: approximately 4-8 hours.</p>
+<p>Key pre-screening queries: - Check
+<code>only_contri_to_preselected_ind</code> for latest filing - Check
+<code>application_submission_info</code> and
+<code>app_restrictions</code> in pf_returns for explicit exclusion
+language - Check geographic concentration via <code>fact_grants</code>
+recipient_state distribution - Check for PF-to-PF grant history by
+joining recipient_ein to pf_returns</p>
+<h3 id="b.-the-report-build">B. The Report Build</h3>
+<h4 id="three-sessions-six-checkpoints">Three Sessions, Six
+Checkpoints</h4>
+<p>The February 6 report was built across 3 Claude Code CLI sessions
+with 6 review checkpoints requiring human approval:</p>
+<p><strong>Session 1 (Checkpoints 1-3, ~2 hours):</strong> - Checkpoint
+1: Client profile. Read 6 source files, ran 6 DB queries, launched web
+verification. Discovered pre-call brief errors
+(Goodfellow/JPMorgan/BMS). Inserted VetsBoats as dim_clients ID 8. -
+Checkpoint 2: Sibling discovery. 33 siblings, 347 grants, semantic
+scoring via sentence-transformers (Max-of-3 approach). 47 target grants
+from 19 foundations. - Checkpoint 3: Foundation scoring. 144 foundations
+scored, tiered A through E. Top 17 selected for enrichment. Session
+state saved.</p>
+<p><strong>Session 2 (Checkpoints 4-5, ~2.5 hours):</strong> -
+Checkpoint 4: Enrichment. DB pre-screening eliminated 8. Web enrichment
+on 9. Final 5 selected: Simpson, Herzstein, Kovler, Barry, Van Beuren. -
+Checkpoint 5: Report assembly. 3 parallel research agents (SF Challenge,
+1687 Foundation, connection paths). Funder snapshots (8 SQL queries per
+foundation). Full draft assembled from template.</p>
+<p><strong>Session 3 (Checkpoint 6, ~4+ hours):</strong> - Quality
+Review v1: FAIL (70.66/100). 1 critical, 8 high, 14 medium, 1 low. - Fix
+pass: All errors corrected from database. - Quality Review v2: PASS
+(93.57/100). 0 critical errors, all hard gates pass. - Formatting: ~90
+issues fixed across 7 categories. 6 PDF regenerations. Final: 33 pages,
+115KB.</p>
+<h4 id="key-selection-decisions">Key Selection Decisions</h4>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 20%" />
+<col style="width: 25%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr>
+<th>Decision</th>
+<th>Chosen</th>
+<th>Rejected</th>
+<th>Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Foundation #4</td>
+<td>John &amp; Daria Barry</td>
+<td>SF Challenge</td>
+<td>SF Challenge has frozen grantee list (same 4 orgs for 6+ years).
+Barry adds 8-12 new grantees/year, has $4.3M in PF-to-PF grants.</td>
+</tr>
+<tr>
+<td>Foundation #5</td>
+<td>Van Beuren Charitable</td>
+<td>1687 Foundation</td>
+<td>Van Beuren shares Sail to Prevail connection with Barry (one
+relationship unlocks two funders). 1687 has zero PF grants; org grants
+are 100% board-directed.</td>
+</tr>
+<tr>
+<td>Grant ask for Simpson</td>
+<td>$15K-$25K</td>
+<td>$80K (CRAB precedent)</td>
+<td>First PF grant from this foundation ever. Conservative ask reduces
+rejection risk.</td>
+</tr>
+<tr>
+<td>Include PF advisory</td>
+<td>Yes</td>
+<td>Omit constraint</td>
+<td>Transparency protects credibility and trust.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="the-sail-to-prevail-insight">The Sail to Prevail Insight</h4>
+<p>The strongest insight of the entire engagement: both Barry and Van
+Beuren fund Sail to Prevail (a Newport, RI adaptive sailing program).
+One relationship with Sail to Prevail could unlock introductions to two
+separate cultivation targets. This kind of cross-foundation intelligence
+is what differentiates TheGrantScout from simple database lookups.</p>
+<p>However, the Feb 20 audit later revealed that Van Beuren funds Sail
+to Prevail because it is a Newport County organization, not because Van
+Beuren funds sailing nationally. This weakened the insight for VetsBoats
+specifically, though the pattern itself (shared grantees as introduction
+paths) remains sound.</p>
+<h3 id="c.-the-quality-review-system">C. The Quality Review System</h3>
+<h4 id="the-44-test-rubric">The 44-Test Rubric</h4>
+<p>A Report Review SOP was created during the February 6 session,
+defining 44 tests across 5 gates with a 4-agent review architecture:</p>
+<table>
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 22%" />
+<col style="width: 35%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr>
+<th>Gate</th>
+<th>Focus</th>
+<th>Max Score</th>
+<th>Tests</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gate 1: Data Integrity</td>
+<td>Dollar amounts, EINs, trends, counts</td>
+<td>35</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Gate 2: Contact &amp; Web</td>
+<td>Emails, phones, URLs, websites</td>
+<td>25</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Gate 3: Internal Consistency</td>
+<td>Cross-section agreement</td>
+<td>20</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Gate 4: Client Fit</td>
+<td>Geography, sector, eligibility</td>
+<td>15</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Gate 5: Formatting &amp; Completeness</td>
+<td>Template compliance</td>
+<td>5</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<p>Pass threshold: 90/100 with 0 critical errors.</p>
+<p>Hard gates (zero tolerance): known funders in report, expired
+deadlines, invalid EINs, inactive foundations, dollar contradictions,
+grant misattributions.</p>
+<h4 id="score-progression">Score Progression</h4>
+<table>
+<thead>
+<tr>
+<th>Review</th>
+<th>Score</th>
+<th>Verdict</th>
+<th>Critical</th>
+<th>High</th>
+<th>Medium</th>
+<th>Low</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v1</td>
+<td>70.66/100</td>
+<td>FAIL</td>
+<td>1</td>
+<td>8</td>
+<td>14</td>
+<td>1</td>
+</tr>
+<tr>
+<td>v2</td>
+<td>93.57/100</td>
+<td>PASS</td>
+<td>0</td>
+<td>0</td>
+<td>4 (notes)</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>Improvement: +22.91 points in one fix pass by replacing inferred
+statistics with verified database values.</p>
+<h4 id="systemic-finding-ai-stats-diverge-from-db">Systemic Finding: AI
+Stats Diverge from DB</h4>
+<p>The review’s most impactful discovery was systematic:
+<strong>AI-generated statistics diverge from database values when the
+model writes from contextual inference rather than running verification
+queries.</strong></p>
+<ul>
+<li>All 5 giving trends were wrong (e.g., Kovler “Growing 158%” was
+actually “Stable -4.3%”)</li>
+<li>4 of 5 repeat rates were inflated (e.g., Kovler 78% vs. actual
+58%)</li>
+<li>Two grant amounts were fabricated (Sail to Prevail $200K vs. actual
+$50K; Puppies Behind Bars $100K vs. actual $75K)</li>
+</ul>
+<p>The fix was straightforward: query
+<code>calc_foundation_profiles</code> and replace all inferred values
+with DB-verified numbers. But without the review process, these errors
+would have reached the client.</p>
+<h3 id="d.-the-audit-and-error-cascade">D. The Audit and Error
+Cascade</h3>
+<h4 id="trigger-the-bouncing-email">Trigger: The Bouncing Email</h4>
+<p>On February 17, Matt Goettelman reported that
+<code>hello@billsimpsonfoundation.org</code> bounced. This single event
+triggered a full audit of all 10 recommended foundations across both
+deliverables.</p>
+<h4 id="the-26-error-audit">The 26-Error Audit</h4>
+<p>Three verification layers ran independently:</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 28%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Method</th>
+<th>Errors Found</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Grant data cross-check</td>
+<td>SQL against fact_grants</td>
+<td>17</td>
+</tr>
+<tr>
+<td>2. Contact/email verification</td>
+<td>MX records + website research</td>
+<td>7</td>
+</tr>
+<tr>
+<td>3. Opportunity verification</td>
+<td>Website scraping + third-party sources</td>
+<td>1 (re-confirmed)</td>
+</tr>
+</tbody>
+</table>
+<p>Error distribution by foundation:</p>
+<table>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Data Errors</th>
+<th>Contact Errors</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Van Beuren</td>
+<td>5</td>
+<td>3</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Bill Simpson</td>
+<td>2</td>
+<td>2</td>
+<td>5*</td>
+</tr>
+<tr>
+<td>Herzstein</td>
+<td>4</td>
+<td>1</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Barry</td>
+<td>3</td>
+<td>2</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Kovler</td>
+<td>3</td>
+<td>0</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>*Plus 1 opportunity verification item.</p>
+<p>All 26 corrections were applied in the February 18 update. See Part
+VI for the full error taxonomy with root causes.</p>
+<h4 id="the-february-20-foundation-audit-6-of-10-removed">The February
+20 Foundation Audit: 6 of 10 Removed</h4>
+<p>Matt then performed manual verification of all 10 foundations by
+visiting their websites. The results were devastating:</p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 24%" />
+<col style="width: 44%" />
+</colgroup>
+<thead>
+<tr>
+<th>Verdict</th>
+<th>Count</th>
+<th>Foundations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Keep</td>
+<td>2</td>
+<td>Kovler Family, John &amp; Daria Barry</td>
+</tr>
+<tr>
+<td>Keep with caveats</td>
+<td>1</td>
+<td>Herzstein (requires TX expansion plan)</td>
+</tr>
+<tr>
+<td>Downgrade to unlikely</td>
+<td>1</td>
+<td>Van Beuren (Newport County only)</td>
+</tr>
+<tr>
+<td>Remove</td>
+<td>6</td>
+<td>Bill Simpson, Rees-Jones, Autzen, Heinz, Barker Welfare, LB
+Charitable**</td>
+</tr>
+</tbody>
+</table>
+<p>**LB Charitable was marked KEEP in the contacts document. It is the
+best contact from the entire engagement: CA-based, explicitly funds
+military veterans, no PF exclusion, $10K-$50K range, formal application
+process.</p>
+<h4 id="root-cause-three-missing-checks">Root Cause: Three Missing
+Checks</h4>
+<p>The pipeline correctly identifies foundations that fund veterans,
+sailing, and adaptive recreation. It does NOT check for:</p>
+<ol type="1">
+<li><strong>Private foundation exclusion language.</strong> 4 of 6
+removed foundations explicitly exclude PFs (Rees-Jones, Autzen, Heinz,
+Barker). Bill Simpson requires “verification of public charities
+status.”</li>
+<li><strong>Geographic restriction specificity.</strong> 5 of 6 removed
+foundations are regional-only (Rees-Jones: North TX; Autzen:
+Oregon/Clark County WA; Heinz: southwestern PA; Barker: NYC/Michigan
+City; Van Beuren: Aquidneck Island).</li>
+<li><strong>Contact information currency.</strong> Bill Simpson’s
+website email is a dead mailbox. The application form references the
+2025 cycle, not 2026.</li>
+</ol>
+<p>The fundamental problem: 990-PF data shows <strong>who a foundation
+has funded</strong>, not <strong>who a foundation will accept
+applications from</strong>. Grant history is real. Eligibility
+restrictions are also real. The pipeline only sees the first.</p>
+<h3 id="e.-the-hard-filter-discovery">E. The Hard-Filter Discovery</h3>
+<h4 id="the-3404553-funnel">The 340/4,553 Funnel</h4>
+<p>On February 20, three hard filters were applied to a pool of 4,553
+candidate foundations:</p>
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 28%" />
+<col style="width: 44%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Count</th>
+<th>% of Pool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total candidate pool (siblings + veteran keyword search)</td>
+<td>4,553</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Passed F1: Open to applicants</td>
+<td>1,518</td>
+<td>33.3%</td>
+</tr>
+<tr>
+<td>Passed F1 + F2: CA geography</td>
+<td>809</td>
+<td>17.8%</td>
+</tr>
+<tr>
+<td>Passed ALL 3 filters (open + CA + PF-to-PF grants)</td>
+<td>340</td>
+<td>7.5%</td>
+</tr>
+<tr>
+<td>Near misses (2 of 3)</td>
+<td>1,197</td>
+<td>26.3%</td>
+</tr>
+</tbody>
+</table>
+<p>Filter 3 (PF-to-PF grants) was the most restrictive due to 56.1%
+recipient EIN coverage in fact_grants. Foundations that fund PFs but
+whose grant records lack recipient EINs produce false negatives.</p>
+<h4 id="website-verification-1415-no">Website Verification: 14/15
+NO</h4>
+<p>The hard-filter output was promising on paper but devastating in
+practice. When foundations were actually crawled:</p>
+<ul>
+<li><strong>Batch 1 (18 foundations):</strong> Only 3 viable after deep
+crawl (665 pages analyzed)</li>
+<li><strong>Batch 2 (20 foundations):</strong> 3 POSSIBLE_FIT, 4
+WEAK_FIT, 13 NOT_A_FIT</li>
+<li><strong>Batch 3 (9 foundations):</strong> 1 STRONG_FIT (Louie
+Family), 2 POSSIBLE_FIT</li>
+</ul>
+<p>Combined across all batches: 2 STRONG, 7 POSSIBLE, 8 WEAK, 32
+NOT_A_FIT.</p>
+<h4 id="the-pf-to-pf-false-positive-problem">The PF-to-PF False Positive
+Problem</h4>
+<p>Many foundations technically pass the PF-to-PF filter because they
+have incidental grants to organizations that happen to also be private
+foundations. These are often: - Grants to community foundations or DAFs
+(technically PFs) - Grants to corporate foundations (technically PFs) -
+Grants where the recipient EIN maps to a PF but the grant was for a
+specific program</p>
+<p>Having a PF-to-PF grant in the database does not mean the foundation
+is open to cold applications from external private foundations. The
+grants reflect existing relationships, not application policies.</p>
+<h3 id="f.-the-supplemental-report">F. The Supplemental Report</h3>
+<h4 id="february-21-five-new-foundations">February 21: Five New
+Foundations</h4>
+<p>Using the grant-report and additional-funders skills (newly created),
+a supplemental report was generated with 5 foundation profiles:</p>
+<table>
+<colgroup>
+<col style="width: 38%" />
+<col style="width: 19%" />
+<col style="width: 41%" />
+</colgroup>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Type</th>
+<th>Key Finding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>St. Francis Sailing Foundation</td>
+<td>Public Charity</td>
+<td>Formal grants program, quarterly cycle, $11K-$75K, April 2026
+deadline</td>
+</tr>
+<tr>
+<td>Kim &amp; Harold Louie Family Foundation</td>
+<td>PF</td>
+<td>CA-based, Burlingame. 27 veteran grants claimed by dossier.</td>
+</tr>
+<tr>
+<td>Charles H. Stout Foundation</td>
+<td>PF</td>
+<td>NV, Reno. 63 grants in DB across 2021-2023.</td>
+</tr>
+<tr>
+<td>Kovler Family Foundation (updated)</td>
+<td>PF</td>
+<td>Updated from Feb 6 report with corrected metrics.</td>
+</tr>
+<tr>
+<td>Howard Family Foundation</td>
+<td>PF</td>
+<td>Funds Judd Goldman Adaptive Sailing. Only 1 year of DB data.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="of-5-eins-were-wrong">4 of 5 EINs Were Wrong</h4>
+<p>The input EINs provided for the supplemental report (from the web
+research dossier) did not match the database:</p>
+<table>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Input EIN</th>
+<th>Correct EIN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Louie Family</td>
+<td>843767498</td>
+<td>870757807</td>
+</tr>
+<tr>
+<td>Stout Foundation</td>
+<td>363441837</td>
+<td>942797249</td>
+</tr>
+<tr>
+<td>Kovler Family</td>
+<td>366080579</td>
+<td>366152744</td>
+</tr>
+<tr>
+<td>Howard Family</td>
+<td>366538061</td>
+<td>367041179</td>
+</tr>
+</tbody>
+</table>
+<p>This 80% error rate on input EINs established EIN validation as a
+required pipeline step (error category E-09).</p>
+<h4 id="the-schedule_i-discovery">The Schedule_i Discovery</h4>
+<p>A separate discovery stream searched <code>schedule_i_grants</code>
+(997K grants from 48K public charity grantmakers, 2019-2023) for funders
+of VetsBoats peer organizations. This was the first time public charity
+grantmakers were systematically searched.</p>
+<p><strong>Result:</strong> 35 distinct filers found, filtered to 18
+actionable candidates after removing known funders, DAF platforms, and
+geographically irrelevant organizations.</p>
+<p>Highest priority: <strong>Orange County Community Foundation</strong>
+(EIN 330378778), which funds 2 VetsBoats peers (DSES and Sail to
+Prevail). 850 total grants, $96.4M, 596 CA grants.</p>
+<h4 id="widgeon-point-invite-only-due-to-ai">Widgeon Point: Invite-Only
+Due to AI</h4>
+<p>The Widgeon Point Foundation went invite-only in 2025 due to
+AI-generated application volume. This is notable because they fund Sail
+to Prevail and would be a natural VetsBoats prospect. Worth monitoring
+for 2026 reopening.</p>
+<h3 id="g.-the-contact-network">G. The Contact Network</h3>
+<h4 id="multi-board-connectors">9 Multi-Board Connectors</h4>
+<p>The February 21 contact research queried IRS 990 officers data across
+11 organizations and found 9 people sitting on 2+ relevant boards. The
+Bay Area sailing leadership is a remarkably tight network.</p>
+<p><strong>Triple Connectors (bridge SFSF + TISC + StFYC):</strong></p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Person</th>
+<th>Role 1</th>
+<th>Role 2</th>
+<th>Role 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Paul Heineken, MD</td>
+<td>SFSF Director</td>
+<td>TISC Board</td>
+<td>StFYC Past Commodore</td>
+</tr>
+<tr>
+<td>Bill Kreysler</td>
+<td>SFSF Past President</td>
+<td>TISC Chairman</td>
+<td>Knarr Assn Admiral</td>
+</tr>
+<tr>
+<td>Rolf Kaiser</td>
+<td>SFSF President</td>
+<td>TISC Board</td>
+<td>StFYC Board</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dual Connectors (HIGH value):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Person</th>
+<th>Org 1</th>
+<th>Org 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Carolyn Patrick</td>
+<td>SFSF Director/StFYC Liaison</td>
+<td>StFYC Director</td>
+</tr>
+<tr>
+<td>Pamela Healy</td>
+<td>SFSF Past President</td>
+<td>StFYC Director + US Sailing</td>
+</tr>
+<tr>
+<td>William Hoehler</td>
+<td>SFSF Secretary</td>
+<td>TISC Secretary/Treasurer</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dual Connectors (MEDIUM value):</strong> Elizabeth Little,
+Michelle Harris, Pam Rorke Levy.</p>
+<h4 id="the-sfsf-grants-program">The SFSF Grants Program</h4>
+<p>The single most actionable finding of the entire engagement:
+St. Francis Sailing Foundation has a formal grants program that
+VetsBoats qualifies for.</p>
+<ul>
+<li><strong>Review cycle:</strong> Quarterly (January, April, July,
+October)</li>
+<li><strong>Eligibility:</strong> Disabled sailors, Bay Area
+organizations, underprivileged youth</li>
+<li><strong>Contact:</strong> grants@stfsf.org</li>
+<li><strong>Typical awards:</strong> $11,000 - $75,000 (source:
+Instrumentl)</li>
+<li><strong>2024 total giving:</strong> $357,580 (2 awards)</li>
+<li><strong>2023 total giving:</strong> $473,639 (3 awards)</li>
+<li><strong>Known grantees:</strong> TISC, Alameda Community Sailing
+Center, Call of the Sea</li>
+</ul>
+<p><strong>Recommendation:</strong> Submit for April 2026 cycle. Get
+warm intro to Rolf Kaiser or Maureen Roddy first. A $15K-$25K first ask
+is reasonable.</p>
+<h4 id="the-goettelman-levin-kovler-path">The Goettelman-Levin-Kovler
+Path</h4>
+<p>Matt Goettelman (Goldman Sachs SF) connects to Ron Levin (Goldman
+Sachs MD, Chicago Private Wealth) who co-founded “Invest For Kids” with
+Benjamin Kovler. This is a one-hop connection from VetsBoats’ advisory
+board to the Kovler Family Foundation.</p>
+<hr />
+<h2 id="part-vi-error-taxonomy">Part VI: Error Taxonomy</h2>
+<p>10 error categories spanning all deliverables. Each includes: code,
+count, severity distribution, root cause, pipeline stage where
+detectable, and examples.</p>
+<h3 id="e-01-fabricated-amounts">E-01: Fabricated Amounts</h3>
+<p><strong>Count:</strong> 2 | <strong>Severity:</strong> 1 High, 1
+High</p>
+<p>Cited grant amounts that do not exist in the database. Not rounding
+errors; these are amounts the model generated from inference rather than
+querying.</p>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Report Value</th>
+<th>Actual (DB)</th>
+<th>Overstatement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Barry: Sail to Prevail</td>
+<td>$200,000</td>
+<td>$50,000</td>
+<td>4x</td>
+</tr>
+<tr>
+<td>Barry: Puppies Behind Bars</td>
+<td>$100,000</td>
+<td>$75,000</td>
+<td>33%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Root cause:</strong> AI wrote from contextual inference
+rather than running verification queries against fact_grants.
+<strong>Detectable at:</strong> Gate 1 (Data Integrity), test DI-03.</p>
+<h3 id="e-02-inflated-metrics">E-02: Inflated Metrics</h3>
+<p><strong>Count:</strong> 14 | <strong>Severity:</strong> 1 Critical,
+13 Medium</p>
+<p>Statistics (repeat rates, giving trends, geographic percentages,
+annual giving totals) that are directionally or magnitude-wrong compared
+to database values.</p>
+<table>
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 24%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr>
+<th>Subcategory</th>
+<th>Count</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wrong giving trend</td>
+<td>5</td>
+<td>Kovler “Growing 158%” was actually “Stable -4.3%”</td>
+</tr>
+<tr>
+<td>Inflated repeat rate</td>
+<td>4</td>
+<td>Kovler 78% vs. actual 58%</td>
+</tr>
+<tr>
+<td>Wrong geographic %</td>
+<td>2</td>
+<td>Van Beuren 85% RI vs. actual 50%</td>
+</tr>
+<tr>
+<td>Wrong annual giving</td>
+<td>1</td>
+<td>Van Beuren $8.9M/136 vs. actual $10.7M/163</td>
+</tr>
+<tr>
+<td>Dollar contradiction</td>
+<td>1</td>
+<td>Barry: Veterans Consortium $160K vs. $320K within same profile</td>
+</tr>
+<tr>
+<td>Wrong new-grantee rate</td>
+<td>1</td>
+<td>Barry “8-12/year” vs. actual 3-10</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Root cause:</strong> Report generation process did not pull
+from <code>calc_foundation_profiles</code>. AI inferred values from
+contextual information. <strong>Detectable at:</strong> Gate 1, tests
+DI-06 through DI-10.</p>
+<h3 id="e-03-pf-count-inflation">E-03: PF Count Inflation</h3>
+<p><strong>Count:</strong> 2 | <strong>Severity:</strong> 1 Critical, 1
+High</p>
+<p>Overstated number of PF-to-PF grants for a foundation.</p>
+<table>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Report Value</th>
+<th>Actual (DB)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kovler</td>
+<td>41 PF-to-PF grants</td>
+<td>6 confirmed</td>
+</tr>
+<tr>
+<td>Herzstein</td>
+<td>9 PF-to-PF grants</td>
+<td>5 confirmed</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Root cause:</strong> Initial count did not properly verify
+that recipient EINs matched actual private foundations in pf_returns.
+Some “PF grants” were to organizations that file 990 (public charities),
+not 990-PF. <strong>Detectable at:</strong> Gate 1, test DI-03
+(cross-reference).</p>
+<h3 id="e-04-wrong-contacts">E-04: Wrong Contacts</h3>
+<p><strong>Count:</strong> 5 | <strong>Severity:</strong> 1 Critical, 2
+High, 2 Medium</p>
+<p>Contact information that is incorrect, outdated, or attributed to the
+wrong person.</p>
+<table>
+<colgroup>
+<col style="width: 41%" />
+<col style="width: 24%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Error</th>
+<th>Severity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bill Simpson</td>
+<td>hello@billsimpsonfoundation.org is dead mailbox</td>
+<td>Critical</td>
+</tr>
+<tr>
+<td>Bill Simpson</td>
+<td>Phone (317) 337-9550 is wrong; correct is (404) 473-4924</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Van Beuren</td>
+<td>Archbold Van Beuren listed as Chairman; actually Vice Chair (Barbara
+is Chair)</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Van Beuren</td>
+<td>Kim Dame listed as Grants Manager; actually Operations Manager</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>Van Beuren</td>
+<td>Kaila Acheson email kacheson@ listed; grants page says support@</td>
+<td>Medium</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Root cause:</strong> Contact data from 990-PF filings is
+often 1-2 years stale. Staff titles change. Email addresses rotate.
+<strong>Detectable at:</strong> Gate 2 (Contact &amp; Web), tests CW-03
+through CW-06.</p>
+<h3 id="e-05-eligibility-mischaracterization">E-05: Eligibility
+Mischaracterization</h3>
+<p><strong>Count:</strong> 7 | <strong>Severity:</strong> 7 High (all
+REMOVE-triggering)</p>
+<p>Foundation described as viable or accessible when eligibility
+restrictions make it impossible for VetsBoats.</p>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 34%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Our Claim</th>
+<th>Reality</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bill Simpson</td>
+<td>Jan-Apr 2026 window</td>
+<td>2025 grant cycle, April 1 2025 deadline; requires “public charities
+status”</td>
+</tr>
+<tr>
+<td>Rees-Jones</td>
+<td>Funds veteran wellness broadly</td>
+<td>“Does not support other private foundations”; North Texas only</td>
+</tr>
+<tr>
+<td>Autzen</td>
+<td>Pacific Northwest funder</td>
+<td>“We do not consider requests from: Private foundations”;
+Oregon/Clark County only</td>
+</tr>
+<tr>
+<td>Heinz Endowments</td>
+<td>Veterans portfolio, rolling LOI</td>
+<td>“Public charities under Section 509(a)”; southwestern PA only</td>
+</tr>
+<tr>
+<td>Barker Welfare</td>
+<td>Veteran funding</td>
+<td>“Section 509(a)(1), (2), or (3)” only; NYC/Michigan City only</td>
+</tr>
+<tr>
+<td>Van Beuren</td>
+<td>Open application, broad sailing interest</td>
+<td>“Aquidneck Island and surrounding communities”; 2025 grants are 100%
+Newport County</td>
+</tr>
+<tr>
+<td>Simpson (duplicate context)</td>
+<td>No PF exclusion</td>
+<td>Application requires “public charities status from the IRS”</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Root cause:</strong> Pipeline checks grant history patterns
+but not website eligibility language. PF exclusion and geographic
+restriction text is not in 990-PF structured data; it is only on
+foundation websites. <strong>Detectable at:</strong> Website
+verification step (not in current pipeline).</p>
+<h3 id="e-06-entity-confusion">E-06: Entity Confusion</h3>
+<p><strong>Count:</strong> 3 | <strong>Severity:</strong> 3 High</p>
+<p>Grants or claims attributed to VetsBoats that actually belong to a
+different organization.</p>
+<table>
+<thead>
+<tr>
+<th>Claimed Funder</th>
+<th>Claimed Amount</th>
+<th>Actual Recipient</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Goodfellow Fund</td>
+<td>$60,000</td>
+<td>Center for Wooden Boats (WA)</td>
+</tr>
+<tr>
+<td>JPMorgan Chase</td>
+<td>$8,550</td>
+<td>Center for Wooden Boats (WA)</td>
+</tr>
+<tr>
+<td>Bristol-Myers Squibb</td>
+<td>$2,520</td>
+<td>Center for Wooden Boats (WA)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Root cause:</strong> Pre-call brief used name-based search
+(“Wooden Boats”) without EIN verification. “Center for Wooden Boats”
+(WA) matched the name pattern but is a completely different organization
+from “Wooden Boats for Veterans” (CA). <strong>Detectable at:</strong>
+Checkpoint 1 (client profile verification) via ILIKE search + EIN
+cross-reference.</p>
+<h3 id="e-07-geographic-restriction-missed">E-07: Geographic Restriction
+Missed</h3>
+<p><strong>Count:</strong> 5 | <strong>Severity:</strong> 5 High (all
+contributed to REMOVE verdicts)</p>
+<p>Foundation has a hard geographic restriction that excludes
+California, but the report did not flag it.</p>
+<table>
+<colgroup>
+<col style="width: 48%" />
+<col style="width: 52%" />
+</colgroup>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Restriction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rees-Jones</td>
+<td>“Programs that serve constituencies outside of North Texas” not
+funded</td>
+</tr>
+<tr>
+<td>Autzen</td>
+<td>“Oregon or southwest Washington (Clark County) residents” only</td>
+</tr>
+<tr>
+<td>Heinz</td>
+<td>“Southwestern Pennsylvania”; “generally unable to consider” outside
+PA</td>
+</tr>
+<tr>
+<td>Barker</td>
+<td>NYC five boroughs, Michigan City IN; Chicago is invite-only</td>
+</tr>
+<tr>
+<td>Van Beuren</td>
+<td>“Aquidneck Island and surrounding communities”</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Root cause:</strong> Geographic focus in the database
+(fact_grants recipient_state distribution) shows national giving
+patterns, but the foundation’s stated policy is regional. Past
+out-of-area grants may reflect legacy relationships, not current
+application eligibility. <strong>Detectable at:</strong> Website
+verification step.</p>
+<h3 id="e-08-pf-exclusion-missed">E-08: PF Exclusion Missed</h3>
+<p><strong>Count:</strong> 5 | <strong>Severity:</strong> 5 High (all
+contributed to REMOVE verdicts)</p>
+<p>Foundation explicitly excludes private foundations from eligibility,
+but the report recommended it anyway.</p>
+<table>
+<colgroup>
+<col style="width: 38%" />
+<col style="width: 61%" />
+</colgroup>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Exclusion Language</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bill Simpson</td>
+<td>“Verification of 501(c)(3) tax-exempt status and public charities
+status from the IRS”</td>
+</tr>
+<tr>
+<td>Rees-Jones</td>
+<td>“The Foundation does not support other private foundations”</td>
+</tr>
+<tr>
+<td>Autzen</td>
+<td>“We do not consider requests from: Private foundations”</td>
+</tr>
+<tr>
+<td>Heinz</td>
+<td>“Public charities under Section 509(a)”</td>
+</tr>
+<tr>
+<td>Barker</td>
+<td>“Section 509(a)(1), (2), or (3) of the Internal Revenue Code”</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Root cause:</strong> No automated check for PF exclusion
+language. The 990-PF <code>only_contri_to_preselected_ind</code> flag
+indicates whether a foundation limits its own grantmaking, not whether
+it accepts PF applicants. <strong>Detectable at:</strong> Website
+verification step. Could also be partially detected via NLP on
+<code>app_restrictions</code> text in pf_returns.</p>
+<h3 id="e-09-ein-errors">E-09: EIN Errors</h3>
+<p><strong>Count:</strong> 4 | <strong>Severity:</strong> 4 Medium</p>
+<p>EINs provided in research dossiers that did not match the correct
+foundation in the database.</p>
+<table>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Input EIN</th>
+<th>Correct EIN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Louie Family</td>
+<td>843767498</td>
+<td>870757807</td>
+</tr>
+<tr>
+<td>Stout Foundation</td>
+<td>363441837</td>
+<td>942797249</td>
+</tr>
+<tr>
+<td>Kovler Family</td>
+<td>366080579</td>
+<td>366152744</td>
+</tr>
+<tr>
+<td>Howard Family</td>
+<td>366538061</td>
+<td>367041179</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Root cause:</strong> Web research sources (Instrumentl,
+GrantStation, ProPublica) sometimes list related or subsidiary EINs.
+Without DB verification, wrong EINs propagate into the pipeline.
+<strong>Detectable at:</strong> EIN validation step: verify every input
+EIN exists in pf_returns or dim_foundations before use.</p>
+<h3 id="e-10-stafftitle-errors">E-10: Staff/Title Errors</h3>
+<p><strong>Count:</strong> 4 | <strong>Severity:</strong> 4 Medium</p>
+<p>Person names or titles that were wrong or outdated.</p>
+<table>
+<colgroup>
+<col style="width: 63%" />
+<col style="width: 36%" />
+</colgroup>
+<thead>
+<tr>
+<th>Foundation</th>
+<th>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Barry</td>
+<td>Paul Callahan listed as “Executive Director” of Sail to Prevail;
+actual title is CEO</td>
+</tr>
+<tr>
+<td>Barry</td>
+<td>Tom Brunner listed as “CEO” of Glaucoma Research Foundation; actual
+title is President and CEO</td>
+</tr>
+<tr>
+<td>Van Beuren</td>
+<td>Kim Dame listed as “Grants Manager”; actual title is Operations
+Manager</td>
+</tr>
+<tr>
+<td>VetsBoats</td>
+<td>Matt Goettelman called “Director of Development” in sales call;
+actual title is Advisory Board Member</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Root cause:</strong> IRS officer data is 1-2 years stale.
+Titles change. Sales call transcripts may use informal titles.
+<strong>Detectable at:</strong> Gate 2 (Contact &amp; Web), test CW-06
+(contact name verification on foundation website).</p>
+<h3 id="error-taxonomy-summary">Error Taxonomy Summary</h3>
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 22%" />
+<col style="width: 15%" />
+<col style="width: 22%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr>
+<th>Code</th>
+<th>Category</th>
+<th>Count</th>
+<th>Severity</th>
+<th>Root Cause</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E-01</td>
+<td>Fabricated amounts</td>
+<td>2</td>
+<td>2 High</td>
+<td>AI inference without DB verification</td>
+</tr>
+<tr>
+<td>E-02</td>
+<td>Inflated metrics</td>
+<td>14</td>
+<td>1 Critical, 13 Medium</td>
+<td>Did not pull from calc_foundation_profiles</td>
+</tr>
+<tr>
+<td>E-03</td>
+<td>PF count inflation</td>
+<td>2</td>
+<td>1 Critical, 1 High</td>
+<td>Improper recipient EIN verification</td>
+</tr>
+<tr>
+<td>E-04</td>
+<td>Wrong contacts</td>
+<td>5</td>
+<td>1 Critical, 2 High, 2 Medium</td>
+<td>Stale 990-PF data</td>
+</tr>
+<tr>
+<td>E-05</td>
+<td>Eligibility mischaracterization</td>
+<td>7</td>
+<td>7 High</td>
+<td>No website verification step</td>
+</tr>
+<tr>
+<td>E-06</td>
+<td>Entity confusion</td>
+<td>3</td>
+<td>3 High</td>
+<td>Name-based search without EIN verification</td>
+</tr>
+<tr>
+<td>E-07</td>
+<td>Geographic restriction missed</td>
+<td>5</td>
+<td>5 High</td>
+<td>DB shows history, not policy</td>
+</tr>
+<tr>
+<td>E-08</td>
+<td>PF exclusion missed</td>
+<td>5</td>
+<td>5 High</td>
+<td>No automated PF exclusion check</td>
+</tr>
+<tr>
+<td>E-09</td>
+<td>EIN errors</td>
+<td>4</td>
+<td>4 Medium</td>
+<td>Web source EINs not validated against DB</td>
+</tr>
+<tr>
+<td>E-10</td>
+<td>Staff/title errors</td>
+<td>4</td>
+<td>4 Medium</td>
+<td>Stale IRS data + informal titles</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td><strong>51</strong></td>
+<td><strong>3 Critical, 27 High, 21 Medium</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Note: The 26-error audit (Feb 17) captured errors within the Feb 6
+report. The full taxonomy above also includes errors from the Feb 18
+contacts document (discovered Feb 20) and the Feb 21 supplemental report
+EIN issues. The combined total across all deliverables is 51 error
+instances across 10 categories.</p>
+<hr />
+<h2 id="part-vii-lessons-learned-and-action-items">Part VII: Lessons
+Learned and Action Items</h2>
+<h3 id="pipeline-architecture-p0-must-build">Pipeline Architecture (P0 –
+Must Build)</h3>
+<h4 id="l-01-pf-scoring-feature">L-01: PF Scoring Feature</h4>
+<p><strong>What happened:</strong> The LASSO V6.1 model has no feature
+for PF-to-PF eligibility. VetsBoats was scored against 144 foundations
+using the same model designed for public charities.</p>
+<p><strong>Why it matters:</strong> For PF clients, the most important
+signal is whether a foundation has ever funded another private
+foundation. Without this feature, the model ranks foundations by
+sector/geography overlap regardless of PF eligibility.</p>
+<p><strong>What to build:</strong> Add <code>pf_grant_count</code> and
+<code>pf_grant_pct</code> features to
+<code>calc_foundation_features</code>. When the client is a PF, multiply
+the LASSO score by a PF eligibility modifier.</p>
+<p><strong>Priority:</strong> P0 | <strong>Effort:</strong> Medium
+(feature engineering + model retrain) | <strong>Source:</strong> Part
+V-A</p>
+<h4 id="l-02-website-verification-as-required-step">L-02: Website
+Verification as Required Step</h4>
+<p><strong>What happened:</strong> 6 of 10 recommended foundations had
+disqualifying information on their websites that was not in the 990-PF
+data. The pipeline’s scoring was accurate (these foundations do fund the
+right sectors) but the eligibility check was missing.</p>
+<p><strong>Why it matters:</strong> Every foundation recommendation that
+gets removed after website review represents wasted client time and
+eroded trust.</p>
+<p><strong>What to build:</strong> Add a website verification step
+between scoring (step 02) and enrichment (step 03). At minimum, check:
+(1) PF exclusion language, (2) geographic restriction specificity, (3)
+application status (open/closed/invite-only). Could use foundation
+scraper skill with structured eligibility prompts.</p>
+<p><strong>Priority:</strong> P0 | <strong>Effort:</strong> High (web
+scraping + classification) | <strong>Source:</strong> Parts V-D, V-E</p>
+<h4 id="l-03-behavioral-pf-to-pf-filter">L-03: Behavioral PF-to-PF
+Filter</h4>
+<p><strong>What happened:</strong> The hard-filter used
+<code>EXISTS (SELECT 1 FROM pf_returns pr WHERE pr.ein = fg.recipient_ein)</code>
+to detect PF-to-PF grants. Many “matches” were incidental (grants to
+community foundations, DAFs, or corporate foundations that happen to be
+PFs).</p>
+<p><strong>Why it matters:</strong> Having a PF-to-PF grant in the
+database does not mean the foundation welcomes cold applications from
+external PFs. The grants reflect existing relationships, not open
+policies.</p>
+<p><strong>What to build:</strong> Weight PF-to-PF grants by recency,
+count, and whether the PF recipient is a “real” external PF (not a DAF,
+community foundation, or corporate foundation). Add an exclusion list
+for false-positive PF types.</p>
+<p><strong>Priority:</strong> P0 | <strong>Effort:</strong> Medium |
+<strong>Source:</strong> Part V-E</p>
+<h4
+id="l-04-open-to-applicants-does-not-mean-accepting-cold-applications">L-04:
+“Open to Applicants” Does Not Mean “Accepting Cold Applications”</h4>
+<p><strong>What happened:</strong> Van Beuren passed the
+<code>only_contri_to_preselected_ind = FALSE</code> filter and even had
+an open application portal, but their geographic restriction (Aquidneck
+Island) made a VetsBoats application futile.</p>
+<p><strong>Why it matters:</strong> The IRS “preselected only” flag is a
+binary indicator of grantmaking policy. It does not capture geographic
+restrictions, sector limitations, or implicit barriers. A foundation can
+be “open to applicants” and still be unreachable.</p>
+<p><strong>What to build:</strong> Replace the binary open/closed filter
+with a multi-dimensional eligibility score: open + geographic fit +
+sector fit + no PF exclusion + active application process.</p>
+<p><strong>Priority:</strong> P0 | <strong>Effort:</strong> High |
+<strong>Source:</strong> Parts V-D, V-E</p>
+<h3 id="data-quality-p1-should-build">Data Quality (P1 – Should
+Build)</h3>
+<h4 id="l-05-cache-enrichment-in-db">L-05: Cache Enrichment in DB</h4>
+<p><strong>What happened:</strong> The 17 foundations researched during
+the February 6 run were not stored in a database table. When subsequent
+sessions needed the same data, it had to be re-researched.</p>
+<p><strong>Why it matters:</strong> Web research is expensive (30-60
+minutes per foundation). Caching results in
+<code>foundation_enrichment</code> prevents redundant work across
+reports and sessions.</p>
+<p><strong>What to build:</strong> After every enrichment run, store
+verdicts (GO/CONDITIONAL/NO-GO), key findings, and source URLs in
+<code>foundation_enrichment</code>. The next report for the same client
+(or similar clients) checks this cache first.</p>
+<p><strong>Priority:</strong> P1 | <strong>Effort:</strong> Low |
+<strong>Source:</strong> Part V-A</p>
+<h4 id="l-06-sql-verify-every-cited-stat">L-06: SQL-Verify Every Cited
+Stat</h4>
+<p><strong>What happened:</strong> AI-generated statistics diverged from
+database values across all 5 foundation profiles. 5 trends wrong, 4
+repeat rates inflated, 2 amounts fabricated.</p>
+<p><strong>Why it matters:</strong> Every inaccurate number erodes
+client trust and TheGrantScout’s credibility. The errors were not
+random; they were systematically optimistic (higher amounts, steeper
+trends).</p>
+<p><strong>What to build:</strong> A verification pass that extracts
+every number from the report markdown and queries the database to
+confirm. Flag any value that differs from DB by more than 5%. This could
+be automated as <code>09_audit_report.py</code>.</p>
+<p><strong>Priority:</strong> P1 | <strong>Effort:</strong> Medium |
+<strong>Source:</strong> Part V-C</p>
+<h4 id="l-07-cross-check-990-pf-contacts-against-websites">L-07:
+Cross-Check 990-PF Contacts Against Websites</h4>
+<p><strong>What happened:</strong> 5 contact errors across 3
+foundations. Chairman was Vice Chair, Grants Manager was Operations
+Manager, email addresses were wrong.</p>
+<p><strong>Why it matters:</strong> Sending an email to “Dear Chairman
+Van Beuren” when the Chair is actually Barbara Van Beuren is
+embarrassing. Incorrect contact details waste client time.</p>
+<p><strong>What to build:</strong> For every contact included in a
+report, verify name + title against the foundation’s website. If the
+website contradicts 990-PF data, use the website (more current).</p>
+<p><strong>Priority:</strong> P1 | <strong>Effort:</strong> Low |
+<strong>Source:</strong> Part V-D</p>
+<h4 id="l-08-ein-validation-step">L-08: EIN Validation Step</h4>
+<p><strong>What happened:</strong> 4 of 5 EINs in the February 21
+supplemental report were wrong. The web research dossier provided EINs
+from Instrumentl/ProPublica that did not match the database.</p>
+<p><strong>Why it matters:</strong> Wrong EINs mean wrong data. The
+funder snapshot script pulled metrics for the wrong foundations until
+the EINs were corrected.</p>
+<p><strong>What to build:</strong> Before any pipeline step, verify
+every input EIN exists in <code>dim_foundations</code> or
+<code>pf_returns</code>. If not found, search by name ILIKE and present
+matches for human confirmation. Never proceed with an unverified
+EIN.</p>
+<p><strong>Priority:</strong> P1 | <strong>Effort:</strong> Low |
+<strong>Source:</strong> Part V-F</p>
+<h3 id="report-generation-p1-should-build">Report Generation (P1 –
+Should Build)</h3>
+<h4 id="l-09-ai-stat-divergence-fix">L-09: AI Stat Divergence Fix</h4>
+<p><strong>What happened:</strong> The report generation process wrote
+statistics from contextual inference. All 5 giving trends, 4 of 5 repeat
+rates, and 2 grant amounts were wrong.</p>
+<p><strong>Why it matters:</strong> This is the single most frequent
+error category (E-02, 14 instances).</p>
+<p><strong>What to build:</strong> The report template should populate
+statistics directly from <code>calc_foundation_profiles</code> and
+<code>fact_grants</code> queries, not from AI inference. Use merge
+fields: <code>{{foundation.giving_trend}}</code>,
+<code>{{foundation.repeat_rate}}</code>, etc. The narrative can be
+AI-generated; the numbers must be DB-sourced.</p>
+<p><strong>Priority:</strong> P1 | <strong>Effort:</strong> Medium |
+<strong>Source:</strong> Part V-C</p>
+<h4 id="l-10-automated-connection-paths-via-officers-table">L-10:
+Automated Connection Paths via Officers Table</h4>
+<p><strong>What happened:</strong> The Matt Goettelman to Ron Levin to
+Kovler connection was found manually through web research. The SFSF
+triple connectors were found by querying the officers table.</p>
+<p><strong>Why it matters:</strong> Connection paths are the
+highest-value intelligence in the report. They transform “cold
+application” into “warm introduction.”</p>
+<p><strong>What to build:</strong> A script that takes a client’s
+advisory board/staff names and searches the <code>officers</code> table
+for shared board memberships with target foundation officers. Output:
+“Person X at Client shares Board Y with Person Z at Foundation.”</p>
+<p><strong>Priority:</strong> P1 | <strong>Effort:</strong> Medium |
+<strong>Source:</strong> Part V-G</p>
+<h4 id="l-11-template-with-merge-fields">L-11: Template with Merge
+Fields</h4>
+<p><strong>What happened:</strong> Report assembly took multiple
+sessions. Each foundation profile was written from scratch.</p>
+<p><strong>Why it matters:</strong> The Feb 21 supplemental report used
+the grant-report skill with DB-backed funder snapshots and was produced
+in a single session. The Feb 6 report took 3 sessions because it had no
+structured data input.</p>
+<p><strong>What to build:</strong> A report template with merge fields
+populated from <code>pull_funder_snapshots.py</code> output. The AI
+writes narratives and positioning strategies; all metrics come from the
+snapshot JSON.</p>
+<p><strong>Priority:</strong> P1 | <strong>Effort:</strong> Medium |
+<strong>Source:</strong> Part V-B</p>
+<h4 id="l-12-mx-record-checks">L-12: MX Record Checks</h4>
+<p><strong>What happened:</strong> The Bill Simpson email bounce was the
+trigger for the entire audit cascade. An MX record check before delivery
+would have caught this.</p>
+<p><strong>Why it matters:</strong> A bouncing email is the single worst
+outcome for client trust. It makes the entire report look
+unreliable.</p>
+<p><strong>What to build:</strong> Before report delivery, verify MX
+records for every email domain included. Flag any domain without valid
+MX records. Already implemented in Feb 17 audit (signaturefd.com,
+billsimpsonfoundation.org, herzsteinfoundation.org, kovler-b.com,
+vbcfoundation.org all checked).</p>
+<p><strong>Priority:</strong> P1 | <strong>Effort:</strong> Low |
+<strong>Source:</strong> Part V-D</p>
+<h3 id="process-p2-nice-to-have">Process (P2 – Nice to Have)</h3>
+<h4 id="l-13-run-44-test-qa-on-every-report">L-13: Run 44-Test QA on
+Every Report</h4>
+<p><strong>What happened:</strong> The QA rubric caught 24 errors on
+first pass. Score improved from 70.66 to 93.57 after one fix cycle.</p>
+<p><strong>Why it matters:</strong> +22.91 points in one pass
+demonstrates the review’s ROI. Without it, a report containing
+fabricated grant amounts and wrong trends would have been delivered.</p>
+<p><strong>What to build:</strong> Make the SOP_report_review.md process
+a mandatory step before any report delivery. The 44-test rubric already
+exists. Automate what can be automated (data integrity checks via SQL);
+keep human review for subjective items.</p>
+<p><strong>Priority:</strong> P2 | <strong>Effort:</strong> Low (already
+built, just enforce) | <strong>Source:</strong> Part V-C</p>
+<h4 id="l-14-formalize-session-state-files">L-14: Formalize Session
+State Files</h4>
+<p><strong>What happened:</strong> Session state files
+(<code>SESSION_STATE_*.md</code>) preserved context across context
+window compactions and session boundaries. Each new session could pick
+up exactly where the last left off.</p>
+<p><strong>Why it matters:</strong> VetsBoats required 8 sessions over
+80 days. Without session state, each session would start from zero.</p>
+<p><strong>What to build:</strong> Standardize the session state format:
+client context, database changes made, current pipeline stage, next
+steps, open questions. The <code>/continuity</code> and
+<code>/resume</code> skills partially address this.</p>
+<p><strong>Priority:</strong> P2 | <strong>Effort:</strong> Low |
+<strong>Source:</strong> Part V-B</p>
+<h4 id="l-15-client-verification-step">L-15: Client Verification
+Step</h4>
+<p><strong>What happened:</strong> Matt performed manual website
+verification of all 10 foundations. This client-side verification was
+more effective than any automated check because Matt could read
+eligibility language in context.</p>
+<p><strong>Why it matters:</strong> The client knows their own
+eligibility constraints better than any automated system. A structured
+verification step (checklist sent to client before final delivery) would
+catch errors like the Bill Simpson PF requirement.</p>
+<p><strong>What to build:</strong> A pre-delivery checklist sent to the
+client: “For each foundation, please verify: (1) their website is
+active, (2) they accept organizations like yours, (3) the geographic
+focus includes your area.”</p>
+<p><strong>Priority:</strong> P2 | <strong>Effort:</strong> Low |
+<strong>Source:</strong> Part V-D</p>
+<h4 id="l-16-schedule_i-as-data-source">L-16: Schedule_i as Data
+Source</h4>
+<p><strong>What happened:</strong> The February 21 discovery searched
+<code>schedule_i_grants</code> for the first time and found 18 public
+charity grantmaker candidates that the standard PF-only pipeline would
+never surface.</p>
+<p><strong>Why it matters:</strong> Public charity grantmakers
+(community foundations, United Way affiliates, corporate giving
+programs) often have different eligibility criteria than private
+foundations. They may be more accessible to a PF client like
+VetsBoats.</p>
+<p><strong>What to build:</strong> Include
+<code>schedule_i_grants</code> in the standard candidate pool
+generation. For PF clients especially, public charity grantmakers may be
+the most viable path since they are less likely to have PF exclusion
+language.</p>
+<p><strong>Priority:</strong> P2 | <strong>Effort:</strong> Medium |
+<strong>Source:</strong> Part V-F</p>
+<hr />
+<h2 id="part-viii-recommendations-for-future-pf-clients">Part VIII:
+Recommendations for Future PF Clients</h2>
+<h3 id="pf-pre-screening-checklist">1. PF Pre-Screening Checklist</h3>
+<p>Before starting a report for any private foundation client,
+verify:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Client files 990-PF (confirm in
+pf_returns, not nonprofit_returns)</label></li>
+<li><label><input
+type="checkbox" /><code>only_contri_to_preselected_ind</code> flag is
+understood as describing the CLIENT’s grantmaking, not their
+eligibility</label></li>
+<li><label><input type="checkbox" />Known funders list is verified by
+EIN in the database (not by name)</label></li>
+<li><label><input type="checkbox" />Pre-call brief claims are
+cross-checked against DB by EIN (prevent entity confusion)</label></li>
+<li><label><input type="checkbox" />Budget tier accounts for revenue
+volatility</label></li>
+<li><label><input type="checkbox" />Debt load is documented (affects
+positioning strategy)</label></li>
+<li><label><input type="checkbox" />IRS BMF code vs. 990-PF operating
+foundation indicator discrepancy is noted</label></li>
+</ul>
+<h3 id="kovler-is_individual-data-bug">2. Kovler is_individual Data
+Bug</h3>
+<p>All 196 Kovler grants in <code>pf_grants</code> are flagged
+<code>is_individual = TRUE</code>, causing any query with
+<code>WHERE is_individual = FALSE</code> to return 0 grants. This
+affected the Feb 21 funder snapshot script. Investigation needed:</p>
+<ul>
+<li>Is this a Kovler-specific data entry pattern? (Some foundations mark
+all grants as individual.)</li>
+<li>Are other foundations similarly affected?</li>
+<li>Should the snapshot script omit the <code>is_individual</code>
+filter for PF-to-PF grants?</li>
+</ul>
+<h3 id="ein-correction-protocol">3. EIN Correction Protocol</h3>
+<p>When web research provides an EIN for a foundation, verify it against
+the database before use:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> ein, name, state, city</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> f990_2025.dim_foundations</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> ein <span class="op">=</span> <span class="st">&#39;{input_ein}&#39;</span>;</span></code></pre></div>
+<p>If no match, search by name:</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> ein, name, state, city</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> f990_2025.dim_foundations</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> name ILIKE <span class="st">&#39;%{foundation_name}%&#39;</span>;</span></code></pre></div>
+<p>Present matches for human confirmation. Never proceed with an
+unverified EIN. The Feb 21 session had an 80% EIN error rate on input
+data.</p>
+<h3 id="truly-actionable-5-hedged">4. “3 Truly Actionable &gt; 5
+Hedged”</h3>
+<p>The Feb 6 report included 5 foundations, but the Feb 20 audit
+revealed only 2 were fully viable and 1 was conditional. The Feb 21
+supplemental report’s 5 foundations included 1 clear action item (SFSF)
+and 4 that required further verification.</p>
+<p>For PF clients, the viable pool is so narrow that quality matters
+more than quantity. A report with 3 well-vetted, genuinely actionable
+foundations (with verified eligibility, working contacts, and realistic
+positioning) delivers more value than 5 foundations where 2-3 will be
+removed after the client checks the websites.</p>
+<p>Calibration target: every foundation in the report should survive
+client-side website verification.</p>
+<hr />
+<h2 id="part-ix-complete-file-manifest">Part IX: Complete File
+Manifest</h2>
+<h3 id="december-4-2025-pre-call-research">December 4, 2025: Pre-Call
+Research</h3>
+<p><strong>Location:</strong>
+<code>6. Business/3. sales-marketing/7. Materials/Research/2025-12-4 VetsBoats/</code></p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VetsBoats_Foundation_Pre-Call_Brief_2025-12-04.md</td>
+<td>Pre-call research brief; 3 grant attributions later proven
+wrong</td>
+</tr>
+<tr>
+<td>PROMPT_2025-12-15_vetsboats_lookup.md</td>
+<td>Initial grant history lookup instructions</td>
+</tr>
+<tr>
+<td>OUTPUT_2025-12-15_vetsboats_grant_history.md</td>
+<td>Grant history findings</td>
+</tr>
+</tbody>
+</table>
+<h3 id="january-16-2026-sibling-foundation-analysis">January 16, 2026:
+Sibling + Foundation Analysis</h3>
+<p><strong>Location:</strong>
+<code>5. Runs/VetsBoats/2026-01-16/</code></p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>REPORT_2026-01-16.1_vetsboats-sibling-analysis.md</td>
+<td>28 sibling nonprofits identified, tiered by mission similarity</td>
+</tr>
+<tr>
+<td>REPORT_2026-01-16.2_vetsboats-foundation-analysis.md</td>
+<td>67 foundations analyzed; CA underrepresentation discovered</td>
+</tr>
+<tr>
+<td>REPORT_2026-01-16.3_vetsboats-excel-deliverable.md</td>
+<td>Excel workbook documentation</td>
+</tr>
+<tr>
+<td>VetsBoats_Foundation_Analysis_2026-01-16.xlsx</td>
+<td>Foundation match analysis workbook</td>
+</tr>
+</tbody>
+</table>
+<h3 id="february-6-2026-full-report-build">February 6, 2026: Full Report
+Build</h3>
+<p><strong>Location:</strong>
+<code>5. Runs/VetsBoats/2026-02-06/</code></p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PLAN_2026-02-06_vetsboats_report_build.md</td>
+<td>Master 6-checkpoint implementation plan</td>
+</tr>
+<tr>
+<td>CHECKPOINT_1_client_profile.md</td>
+<td>Full client profile, all 39 dim_clients fields</td>
+</tr>
+<tr>
+<td>LOG_2026-02-06_vetsboats_build_activity.md</td>
+<td>52KB play-by-play with every SQL query</td>
+</tr>
+<tr>
+<td>LOG_2026-02-06_checkpoint2_siblings_grants.md</td>
+<td>33 siblings, 347 grants, semantic scoring</td>
+</tr>
+<tr>
+<td>CHECKPOINT_4_enrichment_results.md</td>
+<td>17 foundations categorized with verdicts</td>
+</tr>
+<tr>
+<td>DATA_2026-02-06_full_review.csv</td>
+<td>347 grants, 23 columns (.xlsm also produced)</td>
+</tr>
+<tr>
+<td>DATA_2026-02-06_foundation_scores.csv</td>
+<td>144 foundations ranked with tiers</td>
+</tr>
+<tr>
+<td>DATA_2026-02-06_prospect_pipeline.csv</td>
+<td>17 foundations tiered A/B/C/D</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-06.1_pre_report_research_gaps.md</td>
+<td>SF Challenge, 1687, connection path research</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-06.2_vetsboats_process_report.md</td>
+<td>Internal SOP compliance and lessons learned</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-06.3_vetsboats_report_review.md</td>
+<td>QA v1: FAIL, 70.66/100, 24 errors</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-06.4_vetsboats_report_review_v2.md</td>
+<td>QA v2: PASS, 93.57/100, 4 notes</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-06.5_vetsboats_formatting_session.md</td>
+<td>~90 formatting fixes documented</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-06_vetsboats_grant_report.md</td>
+<td><strong>Client deliverable</strong> (source); .docx + .pdf also
+produced</td>
+</tr>
+<tr>
+<td>SESSION_STATE_2026-02-06_vetsboats_report_build.md</td>
+<td>Continuity file (checkpoints 1-3)</td>
+</tr>
+<tr>
+<td>SESSION_STATE_2026-02-06_checkpoint5_report_draft.md</td>
+<td>Continuity file (checkpoints 4-5)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="february-17-2026-post-delivery-audit">February 17, 2026:
+Post-Delivery Audit</h3>
+<p><strong>Location:</strong> <code>Enhancements/2026-02-17/</code></p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AUDIT_2026-02-17_vetsboats_report.md</td>
+<td>26-error audit triggered by bouncing email</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-17.3_vetsboats_audit.md</td>
+<td>Detailed audit findings with corrections</td>
+</tr>
+</tbody>
+</table>
+<h3 id="february-18-2026-report-correction-contacts">February 18, 2026:
+Report Correction + Contacts</h3>
+<p><strong>Location:</strong>
+<code>5. Runs/VetsBoats/2026-02-18/</code></p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VetsBoats_Report_2026-02-06_Fixed.pdf</td>
+<td><strong>Client deliverable</strong>: corrected grant report (.html
+also produced)</td>
+</tr>
+<tr>
+<td>VetsBoats_Contacts_2026-02-18.pdf</td>
+<td><strong>Client deliverable</strong>: 5 outreach contacts (.html also
+produced)</td>
+</tr>
+<tr>
+<td>manual verification.md</td>
+<td>Matt’s website verification notes (input to Feb 20 audit)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Location:</strong> <code>Enhancements/2026-02-18/</code></p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>REPORT_2026-02-18.1_email_scraper_audit.md</td>
+<td>Email scraper audit (related but separate workstream)</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-18.3_vetsboats_outreach_contacts.md</td>
+<td>Outreach contacts source; .html + .pdf also produced</td>
+</tr>
+<tr>
+<td>OUTPUT_2026-02-18_vetsboats_verification.json</td>
+<td>Verification results JSON</td>
+</tr>
+<tr>
+<td>DATA_2026-02-18_vetsboats_contacts.json</td>
+<td>Contact data JSON</td>
+</tr>
+</tbody>
+</table>
+<h3
+id="february-20-2026-foundation-audit-hard-filter-website-verification">February
+20, 2026: Foundation Audit + Hard-Filter + Website Verification</h3>
+<p><strong>Location:</strong>
+<code>5. Runs/VetsBoats/2026-02-20/</code></p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>build_shortlist.py</td>
+<td>Hard-filter script</td>
+</tr>
+<tr>
+<td>DATA_2026-02-20_vetsboats_hardfiltered_prospects.csv</td>
+<td>4,553 candidates with filter results</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-20_vetsboats_shortlist_summary.md</td>
+<td>340/4,553 pass rate analysis</td>
+</tr>
+<tr>
+<td>REVIEW_2026-02-20_vetsboats_prospects.html</td>
+<td>Interactive HTML review with cards and search</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Location:</strong> <code>Enhancements/2026-02-20/</code></p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>REPORT_2026-02-20.3_vetsboats_foundation_audit.md</td>
+<td>6/10 removal recommendation</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-20.6_vetsboats_report_process_documentation.md</td>
+<td>Full process documentation (backbone of this report)</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-20.8_vetsboats_website_verification.md</td>
+<td>47 foundations deep-crawled; only 3 viable</td>
+</tr>
+<tr>
+<td>DATA_2026-02-20_vetsboats_ranked_prospects.xlsx</td>
+<td>Ranked prospects Excel workbook</td>
+</tr>
+<tr>
+<td>build_vetsboats_excel.py</td>
+<td>Excel generation script</td>
+</tr>
+</tbody>
+</table>
+<h3 id="february-21-2026-supplemental-report-contact-network">February
+21, 2026: Supplemental Report + Contact Network</h3>
+<p><strong>Location:</strong> <code>Enhancements/2026-02-21/</code></p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>discover_pc_funders.py</td>
+<td>Public charity funder discovery script</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-21_P1_vetsboats_pc_discovery.md</td>
+<td>18 PC candidates from schedule_i</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-21_P2_vetsboats_targeted_crawl.md</td>
+<td>Targeted web crawl on approved candidates</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-21_P3_contact_research.md</td>
+<td>9 multi-board connectors; SFSF grants program</td>
+</tr>
+<tr>
+<td>DATA_2026-02-21_vetsboats_input.json</td>
+<td>Input JSON with corrected EINs</td>
+</tr>
+<tr>
+<td>DATA_2026-02-21_vetsboats_funder_snapshots.json</td>
+<td>Raw snapshot script output</td>
+</tr>
+<tr>
+<td>DATA_2026-02-21_ein_corrections.md</td>
+<td>EIN correction reference</td>
+</tr>
+<tr>
+<td>DATA_2026-02-21_vetsboats_pc_candidates_ranked.md</td>
+<td>Ranked PC candidates</td>
+</tr>
+<tr>
+<td>DATA_2026-02-21_vetsboats_pc_query_results.json</td>
+<td>PC query results</td>
+</tr>
+<tr>
+<td>DATA_2026-02-21_vetsboats_targeted_crawl.json</td>
+<td>Targeted crawl output</td>
+</tr>
+<tr>
+<td>DATA_2026-02-21_vetsboats_contact_cards.md</td>
+<td>9 contact cards</td>
+</tr>
+<tr>
+<td>DATA_2026-02-21_vetsboats_connector_nodes.json</td>
+<td>Network connector data</td>
+</tr>
+<tr>
+<td>DATA_2026-02-21_vetsboats_daf_signals.md</td>
+<td>DAF platform activity</td>
+</tr>
+<tr>
+<td>DATA_2026-02-21_vetsboats_opportunity_cards.md</td>
+<td>Structured opportunity cards</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-21_vetsboats_grant_opportunities.md</td>
+<td><strong>Client deliverable</strong>: supplemental grant report;
+.html + .pdf produced</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-21_vetsboats_additional_funders.md</td>
+<td><strong>Client deliverable</strong>: additional funders document;
+.html + .pdf produced</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-21_vetsboats_grant_report_session.md</td>
+<td>Session notes</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-21_vetsboats_additional_funders_session.md</td>
+<td>Session notes</td>
+</tr>
+<tr>
+<td>OUTPUT_2026-02-21_vetsboats_top10_research_links.html</td>
+<td>Research links reference</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="appendix-a-foundation-verdict-summary">Appendix A: Foundation
+Verdict Summary</h2>
+<p>All 15 foundations recommended across all 4 deliverables, with final
+status.</p>
+<h3 id="february-6-grant-report-5-foundations">February 6 Grant Report
+(5 foundations)</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 14%" />
+<col style="width: 6%" />
+<col style="width: 26%" />
+<col style="width: 30%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr>
+<th>#</th>
+<th>Foundation</th>
+<th>EIN</th>
+<th>Deliverable Verdict</th>
+<th>Feb 20 Audit Verdict</th>
+<th>Final Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Bill Simpson Foundation</td>
+<td>843992087</td>
+<td>CONDITIONAL (Jan-Apr window)</td>
+<td>REMOVE (dead email, stale form, PF ineligible)</td>
+<td><strong>Removed</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Albert &amp; Ethel Herzstein</td>
+<td>746070484</td>
+<td>CONDITIONAL (TX expansion angle)</td>
+<td>KEEP WITH CAVEATS (88% TX preference)</td>
+<td><strong>Conditional</strong> (only if VetsBoats has real TX
+plan)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Kovler Family Foundation</td>
+<td>366152744</td>
+<td>CONDITIONAL (small grants, connection path)</td>
+<td>KEEP (6 PF grants, Goettelman-Levin path)</td>
+<td><strong>Active cultivation</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td>John &amp; Daria Barry Foundation</td>
+<td>461550110</td>
+<td>WATCH (cultivation, no unsolicited)</td>
+<td>KEEP (cultivation) ($477M assets, proven PF funder)</td>
+<td><strong>Active cultivation</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Van Beuren Charitable</td>
+<td>222773769</td>
+<td>WATCH (LOI-ready, Sail to Prevail path)</td>
+<td>DOWNGRADE (Newport County only)</td>
+<td><strong>Unlikely</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="february-18-outreach-contacts-5-foundations">February 18
+Outreach Contacts (5 foundations)</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 14%" />
+<col style="width: 6%" />
+<col style="width: 26%" />
+<col style="width: 30%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr>
+<th>#</th>
+<th>Foundation</th>
+<th>EIN</th>
+<th>Deliverable Verdict</th>
+<th>Feb 20 Audit Verdict</th>
+<th>Final Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6</td>
+<td>Rees-Jones Foundation</td>
+<td>—</td>
+<td>Contact for outreach</td>
+<td>REMOVE (PF excluded, North TX only)</td>
+<td><strong>Removed</strong></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Autzen Foundation</td>
+<td>—</td>
+<td>Contact for outreach</td>
+<td>REMOVE (PF excluded, Oregon only)</td>
+<td><strong>Removed</strong></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Heinz Endowments</td>
+<td>—</td>
+<td>Contact for outreach</td>
+<td>REMOVE (public charities only, SW PA only)</td>
+<td><strong>Removed</strong></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Barker Welfare Foundation</td>
+<td>—</td>
+<td>Contact for outreach</td>
+<td>REMOVE (509(a) only, NYC/Michigan City)</td>
+<td><strong>Removed</strong></td>
+</tr>
+<tr>
+<td>10</td>
+<td>LB Charitable Foundation</td>
+<td>—</td>
+<td>Contact for outreach</td>
+<td>KEEP (BEST CONTACT: CA, veterans, no PF exclusion)</td>
+<td><strong>Apply</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="february-21-supplemental-report-5-foundations">February 21
+Supplemental Report (5 foundations)</h3>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 32%" />
+<col style="width: 14%" />
+<col style="width: 23%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>#</th>
+<th>Foundation</th>
+<th>EIN</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11</td>
+<td>St. Francis Sailing Foundation</td>
+<td>942956977</td>
+<td><strong>Apply April 2026</strong></td>
+<td>Formal grants program, $11K-$75K, quarterly cycle</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Kim &amp; Harold Louie Family Foundation</td>
+<td>870757807</td>
+<td><strong>Research needed</strong></td>
+<td>CA-based, veteran grants claimed. Input EIN was wrong.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Charles H. Stout Foundation</td>
+<td>942797249</td>
+<td><strong>Research needed</strong></td>
+<td>NV-based, 63 grants in DB. Input EIN was wrong.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Kovler Family Foundation (updated)</td>
+<td>366152744</td>
+<td><strong>Active cultivation</strong></td>
+<td>Updated metrics from Feb 6 version</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Howard Family Foundation</td>
+<td>367041179</td>
+<td><strong>Research needed</strong></td>
+<td>Funds Judd Goldman. Input EIN was wrong.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="february-21-additional-funders-5-foundations">February 21
+Additional Funders (5 foundations)</h3>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 37%" />
+<col style="width: 27%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th>#</th>
+<th>Foundation</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16</td>
+<td>Christopher &amp; Dana Reeve Foundation</td>
+<td><strong>Check March 12 deadline</strong></td>
+<td>Most urgent; may have passed</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Bob Woodruff Foundation</td>
+<td><strong>Verify PF status</strong></td>
+<td>$72M assets, $80K avg grants. 990-PF filing may disqualify.</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Widgeon Point Foundation</td>
+<td><strong>Monitor</strong></td>
+<td>Went invite-only 2025 (AI apps). Funds Sail to Prevail.</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Jerome Mirza Foundation</td>
+<td><strong>Cultivation</strong></td>
+<td>Preselected-only. $18M assets.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Wende Hutton / Hutton Family Foundation</td>
+<td><strong>Cultivation</strong></td>
+<td>Family foundation; Wende on multiple sailing org boards.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="appendix-b-key-sql-queries">Appendix B: Key SQL Queries</h2>
+<p>Representative queries used throughout the engagement. Full SQL is
+documented in the source files referenced.</p>
+<h3 id="client-profile-verification">Client Profile Verification</h3>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> ein, business_name, tax_year, total_assets_eoy_amt,</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>       grants_to_organizations_ind, only_contri_to_preselected_ind</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> f990_2025.pf_returns</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> ein <span class="op">=</span> <span class="st">&#39;464194065&#39;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span> <span class="kw">BY</span> tax_year <span class="kw">DESC</span>;</span></code></pre></div>
+<p>Source: <code>CHECKPOINT_1_client_profile.md</code></p>
+<h3 id="entity-confusion-check-pre-call-brief-verification">Entity
+Confusion Check (Pre-Call Brief Verification)</h3>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> foundation_ein, recipient_name_raw, recipient_ein, amount, tax_year</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> f990_2025.fact_grants</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> recipient_name_raw ILIKE <span class="st">&#39;%wooden boats%&#39;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span> <span class="kw">BY</span> tax_year <span class="kw">DESC</span>;</span></code></pre></div>
+<p>Source: <code>CHECKPOINT_1_client_profile.md</code></p>
+<h3 id="pf-to-pf-grant-detection">PF-to-PF Grant Detection</h3>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> fg.foundation_ein,</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COUNT</span>(<span class="kw">DISTINCT</span> fg.<span class="kw">id</span>) <span class="kw">as</span> pf_grant_count,</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COALESCE</span>(<span class="fu">SUM</span>(fg.amount), <span class="dv">0</span>) <span class="kw">as</span> pf_grant_total</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> f990_2025.fact_grants fg</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> fg.foundation_ein <span class="op">=</span> <span class="kw">ANY</span>($<span class="dv">1</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="kw">AND</span> fg.recipient_ein <span class="kw">IS</span> <span class="kw">NOT</span> <span class="kw">NULL</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">AND</span> <span class="kw">EXISTS</span> (</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>      <span class="kw">SELECT</span> <span class="dv">1</span> <span class="kw">FROM</span> f990_2025.pf_returns pr</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>      <span class="kw">WHERE</span> pr.ein <span class="op">=</span> fg.recipient_ein</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="kw">GROUP</span> <span class="kw">BY</span> fg.foundation_ein;</span></code></pre></div>
+<p>Source:
+<code>REPORT_2026-02-20_vetsboats_shortlist_summary.md</code></p>
+<h3 id="hard-filter-pass-rate">Hard-Filter Pass Rate</h3>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">WITH</span> latest <span class="kw">AS</span> (</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> <span class="kw">DISTINCT</span> <span class="kw">ON</span> (ein)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>        ein, only_contri_to_preselected_ind</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> f990_2025.pf_returns</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">WHERE</span> ein <span class="op">=</span> <span class="kw">ANY</span>($candidates)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">ORDER</span> <span class="kw">BY</span> ein, tax_year <span class="kw">DESC</span>, return_timestamp <span class="kw">DESC</span> <span class="kw">NULLS</span> <span class="fu">LAST</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> ein <span class="kw">FROM</span> latest</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> only_contri_to_preselected_ind <span class="kw">IS</span> <span class="kw">NOT</span> <span class="kw">TRUE</span>;</span></code></pre></div>
+<p>Source: <code>build_shortlist.py</code></p>
+<h3 id="multi-board-connector-discovery">Multi-Board Connector
+Discovery</h3>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> person_nm, ein, title_txt, form_type</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> f990_2025.officers</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> ein <span class="kw">IN</span> (<span class="st">&#39;942956977&#39;</span>,<span class="st">&#39;940830750&#39;</span>,<span class="st">&#39;311625735&#39;</span>,<span class="st">&#39;943067409&#39;</span>,<span class="st">&#39;363832321&#39;</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">AND</span> tax_year <span class="op">&gt;=</span> <span class="dv">2021</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span> <span class="kw">BY</span> person_nm, ein;</span></code></pre></div>
+<p>Source: <code>REPORT_2026-02-21_P3_contact_research.md</code></p>
+<p>For complete SQL, see the source files listed above and in Part
+IX.</p>
+<hr />
+<h2 id="files-createdmodified">Files Created/Modified</h2>
+<table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 24%" />
+<col style="width: 52%" />
+</colgroup>
+<thead>
+<tr>
+<th>File</th>
+<th>Path</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PROMPT_2026-02-25.2</td>
+<td>Enhancements/2026-02-25/</td>
+<td>Prompt documenting this request</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-25.2 (.md)</td>
+<td>Enhancements/2026-02-25/</td>
+<td>This consolidated master report</td>
+</tr>
+<tr>
+<td>REPORT_2026-02-25.2 (.html)</td>
+<td>Enhancements/2026-02-25/</td>
+<td>HTML version with TOC</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>Generated by Claude Code on 2026-02-25</em></p>
+</body>
+</html>
