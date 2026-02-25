@@ -347,6 +347,9 @@ export default function Home() {
               </svg>
               See a Sample Report
             </a>
+            <p className="mt-4 text-gray-500 text-sm">
+              <Link href="/how-to-use-your-report" className="text-primary hover:text-accent transition-colors underline">See exactly what each section contains &rarr;</Link>
+            </p>
           </div>
         </div>
       </section>
@@ -562,6 +565,7 @@ export default function Home() {
               <h4 className="font-semibold mb-4 text-white">Support</h4>
               <ul className="space-y-3">
                 <li><a href="#faq" className="text-gray-300 hover:text-accent transition-colors">FAQ</a></li>
+                <li><Link href="/how-to-use-your-report" className="text-gray-300 hover:text-accent transition-colors">Report Guide</Link></li>
                 <li><a href="mailto:hello@thegrantscout.com" className="text-gray-300 hover:text-accent transition-colors">Contact Us</a></li>
               </ul>
             </div>
@@ -598,7 +602,7 @@ const faqData = [
   },
   {
     question: "What's included in a grant report?",
-    answer: "Each month, you'll receive a PDF report via email containing curated opportunities. For each one, you get: the funder's giving history, typical grant ranges, geographic preferences, direct contact info, and a positioning strategy explaining how to approach them based on their funding patterns."
+    answer: <>Each month, you&apos;ll receive a PDF report via email containing curated opportunities. For each one, you get: the funder&apos;s giving history, typical grant ranges, geographic preferences, direct contact info, and a positioning strategy explaining how to approach them based on their funding patterns. <Link href="/how-to-use-your-report" className="text-primary underline hover:text-accent transition-colors">See our interactive report guide</Link> for a section-by-section walkthrough.</>
   },
   {
     question: "Can I cancel my subscription anytime?",
