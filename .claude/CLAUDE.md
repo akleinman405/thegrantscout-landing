@@ -314,6 +314,7 @@ See `SOP_report_generation.md` for full workflow with quality checkpoints.
 | Grant Report | Generate monthly grant opportunity reports with DB-backed funder snapshots | skills/grant-report/SKILL.md |
 | Additional Funders | Companion document listing secondary foundation leads beyond top 5 | skills/additional-funders/SKILL.md |
 | Foundation List Export | Branded "Top N Foundations" PDF + CSV for LinkedIn lead gen | `/foundation-list` command + `0. Tools/generate_foundation_list.py` |
+| Call List | Generate cold-call prospect CSV with viability screening | `/call-list` command + `0. Tools/generate_call_list.py` |
 
 ---
 
@@ -359,6 +360,8 @@ Reusable scripts for document generation. **Always use these instead of building
 | `md_to_pdf.py` | Markdown → branded PDF (via HTML + WeasyPrint) | `python3 "0. Tools/md_to_pdf.py" -i input.md -o output.pdf` |
 | `xlsx_utils.py` | Excel create/edit helper module | `from xlsx_utils import create_workbook, edit_workbook` |
 | `generate_foundation_list.py` | Geography + topic → branded PDF + CSV | `python3 "0. Tools/generate_foundation_list.py" --state CA --topic-regex "..." --topic-label "..."` |
+| `generate_call_list.py` | Keyword-matched cold-call prospect CSV | `python3 "0. Tools/generate_call_list.py" --preset veterans-national` |
+| `text_utils.py` | Shared text-cleaning functions (phone, names, etc.) | `from text_utils import format_phone, title_case_org` |
 
 **Dependencies:** `pip3 install python-docx markdown weasyprint openpyxl` + `brew install pango`
 
