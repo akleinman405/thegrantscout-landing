@@ -94,7 +94,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
-                href="/sample-report.pdf"
+                href="/sample-report"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center gap-2 text-lg px-10 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
@@ -336,7 +336,7 @@ export default function Home() {
           {/* Sample Report CTA */}
           <div className="text-center">
             <a
-              href="/sample-report.pdf"
+              href="/sample-report"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-white font-semibold px-8 py-4 rounded-lg hover:bg-primary-light transition-colors shadow-md hover:shadow-lg text-lg"
@@ -520,7 +520,7 @@ export default function Home() {
                 Book a Call
               </a>
               <a
-                href="/sample-report.pdf"
+                href="/sample-report"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-white hover:text-accent font-medium transition-colors"

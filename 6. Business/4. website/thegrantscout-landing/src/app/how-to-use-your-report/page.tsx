@@ -282,7 +282,7 @@ export default function ReportGuidePage() {
             <p className="text-sm text-gray-300 mb-8">
               New to TheGrantScout? This guide works with our{' '}
               <a
-                href="/sample-report.pdf"
+                href="/sample-report"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-accent transition-colors"
@@ -293,7 +293,7 @@ export default function ReportGuidePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
-                href="/sample-report.pdf"
+                href="/sample-report"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center gap-2 text-lg px-8 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
@@ -442,7 +442,7 @@ export default function ReportGuidePage() {
                             <p className="text-sm text-gray-500">
                               See the full version in our{' '}
                               <a
-                                href="/sample-report.pdf"
+                                href="/sample-report"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-primary underline hover:text-accent transition-colors"
@@ -467,7 +467,7 @@ export default function ReportGuidePage() {
                       Download the full sample to see funder profiles, grant histories, and positioning strategies.
                     </p>
                     <a
-                      href="/sample-report.pdf"
+                      href="/sample-report"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn-primary inline-flex items-center gap-2 px-8 py-3"
@@ -513,7 +513,7 @@ export default function ReportGuidePage() {
                 Book a Call
               </a>
               <a
-                href="/sample-report.pdf"
+                href="/sample-report"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-white hover:text-accent font-medium transition-colors"
