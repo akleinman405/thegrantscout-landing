@@ -190,7 +190,7 @@ export default function PrivacyPolicy() {
       <footer className="bg-primary-dark text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-400 text-sm">&copy; 2025 TheGrantScout. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} TheGrantScout. All rights reserved.</p>
             <div className="flex gap-6">
               <Link href="/privacy" className="text-gray-300 hover:text-accent transition-colors text-sm">Privacy Policy</Link>
               <Link href="/terms" className="text-gray-300 hover:text-accent transition-colors text-sm">Terms of Service</Link>
