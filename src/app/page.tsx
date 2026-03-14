@@ -45,7 +45,7 @@ export default function Home() {
               <a href="#features" className="text-charcoal hover:text-primary transition-colors font-medium">Features</a>
               <a href="#pricing" className="text-charcoal hover:text-primary transition-colors font-medium">Pricing</a>
               <a href="#faq" className="text-charcoal hover:text-primary transition-colors font-medium">FAQ</a>
-              <a href="https://calendly.com/alec_kleinman/meeting-with-alec" target="_blank" rel="noopener noreferrer" className="btn-primary min-h-[44px]" onClick={() => trackCTA.bookCall('nav')}>Book a Call</a>
+              <Link href="/signup" className="btn-primary min-h-[44px]" onClick={() => trackCTA.bookCall('nav_signup')}>Sign Up</Link>
             </div>
 
             {/* Mobile Menu Button */}
@@ -72,7 +72,7 @@ export default function Home() {
                 <a href="#features" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-4 block">Features</a>
                 <a href="#pricing" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-4 block">Pricing</a>
                 <a href="#faq" onClick={() => setMobileMenuOpen(false)} className="text-charcoal hover:text-primary transition-colors font-medium py-4 block">FAQ</a>
-                <a href="https://calendly.com/alec_kleinman/meeting-with-alec" target="_blank" rel="noopener noreferrer" onClick={() => { setMobileMenuOpen(false); trackCTA.bookCall('mobile_nav'); }} className="btn-primary text-center">Book a Call</a>
+                <Link href="/signup" onClick={() => { setMobileMenuOpen(false); trackCTA.bookCall('mobile_nav_signup'); }} className="btn-primary text-center">Sign Up</Link>
               </div>
             </div>
           )}
@@ -396,15 +396,13 @@ export default function Home() {
                 <span>Founding member rate — locked in</span>
               </div>
             </div>
-            <a
-              href="https://calendly.com/alec_kleinman/meeting-with-alec"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/signup"
               className="btn-primary w-full text-center min-h-[48px] text-lg block"
               onClick={() => trackCTA.bookCall('pricing_annual')}
             >
-              Book a Call
-            </a>
+              Get Started
+            </Link>
           </div>
 
           {/* Monthly Plan (RIGHT) */}
@@ -438,15 +436,13 @@ export default function Home() {
                 <span>Cancel anytime</span>
               </div>
             </div>
-            <a
-              href="https://calendly.com/alec_kleinman/meeting-with-alec"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/signup"
               className="btn-primary w-full text-center min-h-[48px] text-lg block"
               onClick={() => trackCTA.bookCall('pricing_monthly')}
             >
-              Book a Call
-            </a>
+              Get Started
+            </Link>
           </div>
         </div>
 
@@ -510,27 +506,24 @@ export default function Home() {
               Join as a Founding Member. Every month, you&apos;ll get a report with everything you need to confidently pursue your next grant.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link
+                href="/signup"
+                className="btn-primary text-lg px-10 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
+                onClick={() => trackCTA.bookCall('cta_bottom_signup')}
+              >
+                Get Started
+              </Link>
               <a
                 href="https://calendly.com/alec_kleinman/meeting-with-alec"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary text-lg px-10 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
+                className="inline-flex items-center gap-2 text-white hover:text-accent font-medium transition-colors"
                 onClick={() => trackCTA.bookCall('cta_bottom')}
               >
-                Book a Call
-              </a>
-              <a
-                href="/sample-report"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-white hover:text-accent font-medium transition-colors"
-                onClick={() => trackCTA.sampleReport('cta_bottom')}
-              >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
-                See a Sample Report
+                Or Book a Call
               </a>
             </div>
             <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: from $83/month</p>
@@ -598,7 +591,7 @@ const faqData = [
   },
   {
     question: "How long does it take to get results?",
-    answer: "Your first report is delivered within 48 hours of your onboarding call. After that, you'll receive a new report via email each month with fresh opportunities tailored to your organization."
+    answer: "Your first report is delivered within 3-5 business days of signing up. After that, you'll receive a new report via email each month with fresh opportunities tailored to your organization."
   },
   {
     question: "What's included in a grant report?",
@@ -618,7 +611,7 @@ const faqData = [
   },
   {
     question: "How do I get started?",
-    answer: "Book a call with us to discuss your organization's needs. We'll walk you through how TheGrantScout works and answer any questions. If it's a good fit, we'll get you set up as a Founding Member."
+    answer: <>Sign up on our website in just a few minutes. Tell us about your organization, choose a plan, and your first report will be delivered within 3-5 business days. <Link href="/signup" className="text-primary underline hover:text-accent transition-colors">Get started here</Link>. Have questions first? You can also <a href="https://calendly.com/alec_kleinman/meeting-with-alec" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-accent transition-colors">book a call</a>.</>
   },
   {
     question: "What is grant matching?",
