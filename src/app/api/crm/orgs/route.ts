@@ -14,6 +14,8 @@ function slugToName(slug: string): string {
 
 export async function GET(request: NextRequest) {
   const q = (request.nextUrl.searchParams.get('q') || '').toLowerCase()
+  const limit = Math.min(Math.max(parseInt(request.nextUrl.searchParams.get('limit') || '50', 10) || 50, 1), 100)
+  const offset = Math.max(parseInt(request.nextUrl.searchParams.get('offset') || '0', 10) || 0, 0)
 
   try {
     const files = readdirSync(BRIEF_DIR)
@@ -30,7 +32,9 @@ export async function GET(request: NextRequest) {
       ? orgs.filter((o) => o.name.toLowerCase().includes(q))
       : orgs
 
-    return NextResponse.json({ orgs: filtered })
+    const paginated = filtered.slice(offset, offset + limit)
+
+    return NextResponse.json({ orgs: paginated, total: filtered.length, limit, offset })
   } catch (err) {
     console.error('Orgs API error:', err)
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })

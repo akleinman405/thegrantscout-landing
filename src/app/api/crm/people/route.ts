@@ -13,6 +13,8 @@ function slugify(name: string): string {
 
 export async function GET(request: NextRequest) {
   const q = (request.nextUrl.searchParams.get('q') || '').toLowerCase()
+  const limit = Math.min(Math.max(parseInt(request.nextUrl.searchParams.get('limit') || '50', 10) || 50, 1), 100)
+  const offset = Math.max(parseInt(request.nextUrl.searchParams.get('offset') || '0', 10) || 0, 0)
 
   try {
     const meetings = getMeetings()
@@ -43,7 +45,9 @@ export async function GET(request: NextRequest) {
         )
       : people
 
-    return NextResponse.json({ people: filtered })
+    const paginated = filtered.slice(offset, offset + limit)
+
+    return NextResponse.json({ people: paginated, total: filtered.length, limit, offset })
   } catch (err) {
     console.error('People API error:', err)
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
