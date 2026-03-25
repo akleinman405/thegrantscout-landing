@@ -14,6 +14,7 @@ import StepReview from '@/components/signup/StepReview'
 function SignupForm() {
   const searchParams = useSearchParams()
   const initialStep = searchParams.get('step') ? parseInt(searchParams.get('step')!) : undefined
+  const preview = searchParams.get('preview') === 'true'
 
   const {
     step,
@@ -25,7 +26,7 @@ function SignupForm() {
     goNext,
     goBack,
     loaded,
-  } = useSignupForm(initialStep)
+  } = useSignupForm(initialStep, preview)
 
   const handleSubmit = async () => {
     setIsSubmitting(true)
@@ -116,7 +117,7 @@ function SignupForm() {
                 disabled={isSubmitting}
                 className="btn-primary px-8 py-2.5 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isSubmitting ? 'Redirecting to checkout...' : `Subscribe — ${formData.planType === 'annual' ? '$999/year' : '$99/month'}`}
+                {isSubmitting ? 'Redirecting to checkout...' : `Subscribe — ${formData.planType === 'annual' ? `$${83 * (formData.reportCount || 1) * 12}/year` : `$${99 * (formData.reportCount || 1)}/month`}`}
               </button>
             )}
           </div>

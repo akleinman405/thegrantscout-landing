@@ -108,30 +108,68 @@ interface MultiSelectProps {
 }
 
 export function MultiSelect({ selected, onChange, options, error }: MultiSelectProps) {
+  const hasOtherOption = options.includes('Other')
+  // "Other" is active if any selected value isn't in the predefined options
+  const otherCustomValue = selected.find((s) => !options.includes(s)) || ''
+  const isOtherActive = selected.includes('Other') || !!otherCustomValue
+
   const toggle = (option: string) => {
-    if (selected.includes(option)) {
+    if (option === 'Other') {
+      if (isOtherActive) {
+        // Remove "Other" and any custom value
+        onChange(selected.filter((s) => s !== 'Other' && options.includes(s)))
+      } else {
+        onChange([...selected, 'Other'])
+      }
+    } else if (selected.includes(option)) {
       onChange(selected.filter((s) => s !== option))
     } else {
       onChange([...selected, option])
     }
   }
 
+  const handleOtherText = (text: string) => {
+    // Remove old custom value and "Other" marker, add new custom text
+    const base = selected.filter((s) => s !== 'Other' && options.includes(s))
+    if (text.trim()) {
+      onChange([...base, text.trim()])
+    } else {
+      onChange([...base, 'Other'])
+    }
+  }
+
   return (
-    <div className={`flex flex-wrap gap-2 ${error ? 'ring-2 ring-error/20 rounded-lg p-2' : ''}`}>
-      {options.map((option) => (
-        <button
-          key={option}
-          type="button"
-          onClick={() => toggle(option)}
-          className={`px-3 py-2 rounded-lg text-sm font-medium transition-all border-2 ${
-            selected.includes(option)
-              ? 'bg-primary text-white border-primary'
-              : 'bg-white text-charcoal border-gray-200 hover:border-primary/40'
-          }`}
-        >
-          {option}
-        </button>
-      ))}
+    <div>
+      <div className={`flex flex-wrap gap-2 ${error ? 'ring-2 ring-error/20 rounded-lg p-2' : ''}`}>
+        {options.map((option) => (
+          <button
+            key={option}
+            type="button"
+            onClick={() => toggle(option)}
+            className={`px-3 py-2 rounded-lg text-sm font-medium transition-all border-2 ${
+              option === 'Other'
+                ? isOtherActive
+                  ? 'bg-primary text-white border-primary'
+                  : 'bg-white text-charcoal border-gray-200 hover:border-primary/40'
+                : selected.includes(option)
+                  ? 'bg-primary text-white border-primary'
+                  : 'bg-white text-charcoal border-gray-200 hover:border-primary/40'
+            }`}
+          >
+            {option}
+          </button>
+        ))}
+      </div>
+      {hasOtherOption && isOtherActive && (
+        <input
+          type="text"
+          value={otherCustomValue}
+          onChange={(e) => handleOtherText(e.target.value)}
+          placeholder="Please specify..."
+          className="form-input-mobile mt-2"
+          autoFocus
+        />
+      )}
     </div>
   )
 }

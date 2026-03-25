@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { existsSync } from 'fs'
+import { createServerClient } from '@/lib/supabase'
 
 export const dynamic = 'force-dynamic'
 
@@ -19,6 +20,42 @@ export async function GET(
   const { slug } = await params
 
   try {
+    // If slug is numeric, look up in Supabase (client from Stripe)
+    if (/^\d+$/.test(slug)) {
+      const sb = createServerClient()
+
+      // Fetch organization
+      const { data: org, error: orgError } = await sb
+        .from('organizations')
+        .select('*')
+        .eq('id', Number(slug))
+        .single()
+
+      if (orgError || !org) {
+        return NextResponse.json({ error: 'Org not found' }, { status: 404 })
+      }
+
+      // Fetch subscriber details (questionnaire data) by EIN
+      let subscriber = null
+      if (org.ein) {
+        const { data: sub } = await sb
+          .from('subscribers')
+          .select('*')
+          .eq('ein', org.ein)
+          .order('created_at', { ascending: false })
+          .limit(1)
+          .single()
+        subscriber = sub
+      }
+
+      return NextResponse.json({
+        source: 'supabase',
+        org,
+        subscriber,
+      })
+    }
+
+    // Otherwise, look for a filesystem brief (existing behavior)
     const briefPath = `${BRIEF_DIR}/BRIEF_${slug}.html`
     const hasBrief = existsSync(briefPath)
 
@@ -27,6 +64,7 @@ export async function GET(
     }
 
     return NextResponse.json({
+      source: 'brief',
       slug,
       name: slugToName(slug),
       hasBrief: true,

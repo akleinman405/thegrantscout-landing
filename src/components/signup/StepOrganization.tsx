@@ -58,7 +58,7 @@ export default function StepOrganization({ data, errors, onChange }: Props) {
         />
       </FormField>
 
-      <FormField label="Contact Email" required error={errors.contactEmail} hint="Reports will be delivered to this address">
+      <FormField label="Contact Email" required error={errors.contactEmail} hint="Your playbook will be delivered to this address">
         <TextInput
           value={data.contactEmail}
           onChange={(v) => onChange('contactEmail', v)}

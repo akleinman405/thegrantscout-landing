@@ -1,0 +1,289 @@
+{
+  "schema_version": "1.0.0",
+  "payload_type": "audit_telemetry",
+  "submission_id": "a7f3b1e4-9c2d-4f8a-b6e1-3d5c7a9e2f40",
+  "generated_at": "2026-03-19T18:30:00Z",
+  "project_id": "d4b8e2f1-6a3c-4d9e-a1b7-8f5c2e4d6a09",
+
+  "audit": {
+    "slug": "api-security",
+    "display_name": "API Security Audit",
+    "version": "1.0.3",
+    "prompt_hash": "sha256:dd741c19e26ed6ee4cad1578c1714ed6"
+  },
+
+  "build_tool": {
+    "name": "claude-code",
+    "version": null
+  },
+
+  "stack_summary": {
+    "framework": "next",
+    "framework_version": "14.0.4",
+    "language": "typescript",
+    "database": "supabase,pg",
+    "orm": null,
+    "auth": "custom",
+    "hosting": "netlify",
+    "ui": "tailwindcss",
+    "project_type": "web-app",
+    "project_size": "small"
+  },
+
+  "scoring": {
+    "overall_score": 63,
+    "overall_grade": "C",
+    "total_checks": 24,
+    "passed": 9,
+    "failed": 6,
+    "skipped": 9,
+    "errored": 0,
+    "categories": [
+      {
+        "slug": "auth",
+        "display_name": "Authentication & Authorization",
+        "score": 100,
+        "grade": "A",
+        "weight": 0.30,
+        "checks_passed": 2,
+        "checks_failed": 0,
+        "checks_skipped": 3,
+        "checks_errored": 0,
+        "checks_total": 5
+      },
+      {
+        "slug": "input-validation",
+        "display_name": "Input Validation & Injection Prevention",
+        "score": 60,
+        "grade": "C",
+        "weight": 0.28,
+        "checks_passed": 3,
+        "checks_failed": 2,
+        "checks_skipped": 1,
+        "checks_errored": 0,
+        "checks_total": 6
+      },
+      {
+        "slug": "abuse-prevention",
+        "display_name": "Rate Limiting & Abuse Prevention",
+        "score": 0,
+        "grade": "F",
+        "weight": 0.22,
+        "checks_passed": 0,
+        "checks_failed": 3,
+        "checks_skipped": 4,
+        "checks_errored": 0,
+        "checks_total": 7
+      },
+      {
+        "slug": "design-security",
+        "display_name": "API Design & Documentation Security",
+        "score": 80,
+        "grade": "B",
+        "weight": 0.20,
+        "checks_passed": 4,
+        "checks_failed": 1,
+        "checks_skipped": 1,
+        "checks_errored": 0,
+        "checks_total": 6
+      }
+    ]
+  },
+
+  "checks": [
+    {
+      "id": "api-security.auth.endpoints-authenticated",
+      "label": "All API endpoints require authentication",
+      "category_slug": "auth",
+      "result": "pass",
+      "severity": "critical",
+      "detail": null
+    },
+    {
+      "id": "api-security.auth.object-level-access-control",
+      "label": "Authorization enforces object-level access control",
+      "category_slug": "auth",
+      "result": "skip",
+      "severity": "critical",
+      "detail": "Single-user admin CRM with shared password auth. No multi-user resource isolation needed."
+    },
+    {
+      "id": "api-security.auth.token-expiration",
+      "label": "Authentication tokens have a defined expiration time",
+      "category_slug": "auth",
+      "result": "pass",
+      "severity": "high",
+      "detail": null
+    },
+    {
+      "id": "api-security.auth.refresh-token-rotation",
+      "label": "Refresh tokens are rotated on use",
+      "category_slug": "auth",
+      "result": "skip",
+      "severity": "high",
+      "detail": "Uses HMAC-signed session cookies with maxAge, no refresh tokens."
+    },
+    {
+      "id": "api-security.auth.rbac-enforced",
+      "label": "Role-based access control enforced",
+      "category_slug": "auth",
+      "result": "skip",
+      "severity": "high",
+      "detail": "Single-user admin tool with no role differentiation."
+    },
+    {
+      "id": "api-security.input-validation.request-validation",
+      "label": "Request bodies and query parameters validated against a schema",
+      "category_slug": "input-validation",
+      "result": "fail",
+      "severity": "high",
+      "detail": "POST /api/checkout accepts request body without schema validation. Fields like planType, reportCount, ein used directly without type or format checking."
+    },
+    {
+      "id": "api-security.input-validation.parameterized-queries",
+      "label": "All database queries use parameterized queries or ORMs",
+      "category_slug": "input-validation",
+      "result": "pass",
+      "severity": "high",
+      "detail": null
+    },
+    {
+      "id": "api-security.input-validation.cors-configured",
+      "label": "CORS headers configured with specific allowed origins",
+      "category_slug": "input-validation",
+      "result": "pass",
+      "severity": "medium",
+      "detail": null
+    },
+    {
+      "id": "api-security.input-validation.content-type-validation",
+      "label": "Content-Type header validated",
+      "category_slug": "input-validation",
+      "result": "fail",
+      "severity": "medium",
+      "detail": "No explicit Content-Type validation on POST endpoints. Invalid Content-Type produces 500 instead of 415."
+    },
+    {
+      "id": "api-security.input-validation.body-size-limit",
+      "label": "Request body size limits enforced",
+      "category_slug": "input-validation",
+      "result": "pass",
+      "severity": "medium",
+      "detail": null
+    },
+    {
+      "id": "api-security.input-validation.ssrf-prevention",
+      "label": "Server-side request forgery prevented",
+      "category_slug": "input-validation",
+      "result": "skip",
+      "severity": "medium",
+      "detail": "No outbound HTTP requests based on user input. Only fixed-URL calls to Stripe and Resend APIs."
+    },
+    {
+      "id": "api-security.abuse-prevention.rate-limiting-auth",
+      "label": "Rate limiting enforced per authenticated user",
+      "category_slug": "abuse-prevention",
+      "result": "fail",
+      "severity": "medium",
+      "detail": "No rate limiting middleware on any API endpoints. No rate limiting library in dependencies."
+    },
+    {
+      "id": "api-security.abuse-prevention.rate-limiting-ip",
+      "label": "IP-based rate limiting on unauthenticated endpoints",
+      "category_slug": "abuse-prevention",
+      "result": "fail",
+      "severity": "low",
+      "detail": "POST /api/crm/auth login endpoint has no rate limiting — unlimited brute-force attempts possible against the shared CRM password."
+    },
+    {
+      "id": "api-security.abuse-prevention.nosql-safety",
+      "label": "NoSQL queries use safe type-safe constructors",
+      "category_slug": "abuse-prevention",
+      "result": "skip",
+      "severity": "low",
+      "detail": "Application uses PostgreSQL and Supabase only, no NoSQL."
+    },
+    {
+      "id": "api-security.abuse-prevention.graphql-introspection",
+      "label": "GraphQL introspection disabled in production",
+      "category_slug": "abuse-prevention",
+      "result": "skip",
+      "severity": "low",
+      "detail": "No GraphQL API detected — REST-only architecture."
+    },
+    {
+      "id": "api-security.abuse-prevention.pagination-limits",
+      "label": "Pagination limits enforced",
+      "category_slug": "abuse-prevention",
+      "result": "fail",
+      "severity": "low",
+      "detail": "GET /api/crm/orgs and GET /api/crm/people return all results without pagination limits or caps."
+    },
+    {
+      "id": "api-security.abuse-prevention.batch-limits",
+      "label": "Batch endpoint item limits enforced",
+      "category_slug": "abuse-prevention",
+      "result": "skip",
+      "severity": "low",
+      "detail": "No batch endpoints in the API."
+    },
+    {
+      "id": "api-security.abuse-prevention.graphql-depth-limit",
+      "label": "GraphQL query depth limited",
+      "category_slug": "abuse-prevention",
+      "result": "skip",
+      "severity": "low",
+      "detail": "No GraphQL API detected."
+    },
+    {
+      "id": "api-security.design-security.https-enforced",
+      "label": "All API traffic served over HTTPS/TLS",
+      "category_slug": "design-security",
+      "result": "pass",
+      "severity": "low",
+      "detail": null
+    },
+    {
+      "id": "api-security.design-security.error-handling",
+      "label": "Error responses do not leak stack traces or internal details",
+      "category_slug": "design-security",
+      "result": "pass",
+      "severity": "low",
+      "detail": null
+    },
+    {
+      "id": "api-security.design-security.webhook-signatures",
+      "label": "Webhook signatures verified",
+      "category_slug": "design-security",
+      "result": "pass",
+      "severity": "info",
+      "detail": null
+    },
+    {
+      "id": "api-security.design-security.audit-logging",
+      "label": "API access audit-logged",
+      "category_slug": "design-security",
+      "result": "fail",
+      "severity": "info",
+      "detail": "No structured API request logging. Only console.error for errors. No persistent audit trail of who accessed what."
+    },
+    {
+      "id": "api-security.design-security.documentation-security",
+      "label": "API documentation accessible only to authorized users",
+      "category_slug": "design-security",
+      "result": "skip",
+      "severity": "info",
+      "detail": "No API documentation endpoints (Swagger, GraphQL playground) exposed."
+    },
+    {
+      "id": "api-security.design-security.tls-validation",
+      "label": "TLS certificates validated for outbound connections",
+      "category_slug": "design-security",
+      "result": "pass",
+      "severity": "info",
+      "detail": null
+    }
+  ],
+
+  "meta": { "api_key": "ab_QqDIlBhVOq-PJ0Uy2dCq1yrp" }
+}

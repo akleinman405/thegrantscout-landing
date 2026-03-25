@@ -47,7 +47,7 @@ type TabName = 'clients' | 'leads' | 'nonprofits' | 'funders'
 // ============================================================
 
 function formatCurrency(n: number | null): string {
-  if (n == null) return '—'
+  if (n == null) return '\u2014'
   if (n >= 1_000_000_000) return `$${(n / 1_000_000_000).toFixed(1)}B`
   if (n >= 1_000_000) return `$${(n / 1_000_000).toFixed(1)}M`
   if (n >= 1_000) return `$${(n / 1_000).toFixed(0)}K`
@@ -55,9 +55,15 @@ function formatCurrency(n: number | null): string {
 }
 
 function formatDate(d: string | null): string {
-  if (!d) return '—'
+  if (!d) return '\u2014'
   const date = new Date(d + 'T12:00:00')
   return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+}
+
+function computeNextReportDue(startDate: string): string {
+  const d = new Date(startDate + 'T12:00:00')
+  d.setDate(d.getDate() + 30)
+  return d.toISOString().split('T')[0]
 }
 
 // ============================================================
@@ -264,12 +270,12 @@ function ClientsTable({ orgs }: { orgs: Org[] }) {
         {sorted.map(o => (
           <tr key={o.id} onClick={() => window.location.href = `/crm/orgs/${o.id}`}>
             <td><Link href={`/crm/orgs/${o.id}`}>{o.name}</Link></td>
-            <td>{o.contact_name || '—'}</td>
-            <td>{o.subscription_type ? <Badge label={o.subscription_type.charAt(0).toUpperCase() + o.subscription_type.slice(1)} variant={o.subscription_type} /> : '—'}</td>
+            <td>{o.contact_name || '\u2014'}</td>
+            <td>{o.subscription_type ? <Badge label={o.subscription_type.charAt(0).toUpperCase() + o.subscription_type.slice(1)} variant={o.subscription_type} /> : '\u2014'}</td>
             <td><HealthBadge status={o.subscription_status || 'active'} /></td>
             <td>{formatDate(o.start_date)}</td>
             <td>{formatDate(o.next_payment_date)}</td>
-            <td>—</td>
+            <td>{o.start_date ? formatDate(computeNextReportDue(o.start_date)) : '\u2014'}</td>
             <td className="number" style={{ textAlign: 'center' }}>{o.reports_sent_count ?? 0}</td>
           </tr>
         ))}
@@ -311,13 +317,13 @@ function LeadsTable({ orgs }: { orgs: Org[] }) {
         {sorted.map(o => (
           <tr key={o.id} onClick={() => window.location.href = `/crm/orgs/${o.id}`}>
             <td><Link href={`/crm/orgs/${o.id}`}>{o.name}</Link></td>
-            <td>{o.contact_name || '—'}</td>
+            <td>{o.contact_name || '\u2014'}</td>
             <td onClick={(e) => e.stopPropagation()}>
               <StageDropdown stage={getStage(o)} onChange={(s) => updateStage(o.id, s)} />
             </td>
             <td>{formatDate(o.last_contact_date)}</td>
             <td>{formatDate(o.next_followup_date)}</td>
-            <td>{o.next_followup_note || '—'}</td>
+            <td>{o.next_followup_note || '\u2014'}</td>
             <td className="add-task-cell" onClick={(e) => e.stopPropagation()}>
               <button className="btn-add-task">+ Task</button>
             </td>
@@ -350,9 +356,9 @@ function NonprofitsTable({ orgs }: { orgs: Org[] }) {
         {sorted.map(o => (
           <tr key={o.id} onClick={() => window.location.href = `/crm/orgs/${o.id}`}>
             <td><Link href={`/crm/orgs/${o.id}`}>{o.name}</Link></td>
-            <td>{o.state || '—'}</td>
-            <td>—</td>
-            <td>{o.ntee_code || '—'}</td>
+            <td>{o.state || '\u2014'}</td>
+            <td>{'\u2014'}</td>
+            <td>{o.ntee_code || '\u2014'}</td>
             <td className="number">{formatCurrency(o.revenue)}</td>
             <td><Badge label="Sibling" variant="sibling" /></td>
           </tr>
@@ -385,12 +391,12 @@ function FundersTable({ orgs }: { orgs: Org[] }) {
         {sorted.map(o => (
           <tr key={o.id} onClick={() => window.location.href = `/crm/funders/${o.id}`}>
             <td><Link href={`/crm/funders/${o.id}`}>{o.name}</Link></td>
-            <td>{o.state || '—'}</td>
+            <td>{o.state || '\u2014'}</td>
             <td className="number">{formatCurrency(o.assets)}</td>
             <td className="number">{formatCurrency(o.annual_giving)}</td>
-            <td className="number">—</td>
-            <td className="number">—</td>
-            <td className="number">—</td>
+            <td className="number">{'\u2014'}</td>
+            <td className="number">{'\u2014'}</td>
+            <td className="number">{'\u2014'}</td>
           </tr>
         ))}
         {sorted.length === 0 && (

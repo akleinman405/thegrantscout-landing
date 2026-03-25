@@ -90,7 +90,7 @@ export default function Home() {
               <span className="text-accent block sm:inline mt-2 sm:mt-0">We&apos;ll help you find it.</span>
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto leading-relaxed px-2">
-              Every month, get a curated report of foundations funding work like yours—with funder intel, positioning strategy, and everything you need to apply confidently.
+              Every month, get a curated playbook of 5 foundations funding work like yours, with funder intel, positioning strategy, and everything you need to apply confidently.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
@@ -103,20 +103,18 @@ export default function Home() {
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
-                See a Sample Report
+                See a Sample Playbook
               </a>
-              <a
-                href="https://calendly.com/alec_kleinman/meeting-with-alec"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/signup"
                 className="inline-flex items-center gap-2 text-white hover:text-accent font-medium transition-colors border border-white/30 rounded-lg px-6 py-3"
                 onClick={() => trackCTA.bookCall('hero')}
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
-                Book a Call
-              </a>
+                Sign Up
+              </Link>
             </div>
             <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: from $83/month</p>
 
@@ -230,9 +228,9 @@ export default function Home() {
             <div className="w-12 h-12 md:w-14 md:h-14 bg-accent rounded-full flex items-center justify-center text-xl md:text-2xl font-bold text-primary mx-auto mb-3 shadow-lg group-hover:scale-110 transition-transform duration-300 relative z-10">
               3
             </div>
-            <h3 className="text-base md:text-lg font-semibold text-primary mb-2">Get Your Report</h3>
+            <h3 className="text-base md:text-lg font-semibold text-primary mb-2">Get Your Monthly Playbook</h3>
             <p className="text-sm text-gray-600">
-              Receive your monthly report via email—packed with opportunities, funder intel, and positioning advice.
+              Receive a curated playbook of 5 high-ROI funders matched to your mission, with funder intel and positioning strategy.
             </p>
           </div>
 
@@ -252,10 +250,10 @@ export default function Home() {
       <section id="features" className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16">
-            <span className="inline-block px-4 py-1.5 bg-accent/10 text-accent-dark rounded-full text-xs font-semibold mb-4">YOUR MONTHLY REPORT</span>
-            <h2 className="heading-2">What&apos;s Inside Each Report</h2>
+            <span className="inline-block px-4 py-1.5 bg-accent/10 text-accent-dark rounded-full text-xs font-semibold mb-4">5 CURATED OPPORTUNITIES</span>
+            <h2 className="heading-2">What&apos;s Inside Your Playbook</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-5">
-              Everything you need to confidently pursue foundation funding, delivered to your inbox each month.
+              Everything you need to confidently pursue foundation funding.
             </p>
           </div>
 
@@ -268,7 +266,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="font-bold text-primary mb-2 text-lg">Curated Opportunities</h3>
-              <p className="text-gray-600">Foundations actively funding work like yours, matched to your mission.</p>
+              <p className="text-gray-600">5 foundations actively funding work like yours, verified for eligibility and matched to your mission.</p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-accent">
@@ -345,7 +343,7 @@ export default function Home() {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
-              See a Sample Report
+              See a Sample Playbook
             </a>
             <p className="mt-4 text-gray-500 text-sm">
               <Link href="/how-to-use-your-report" className="text-primary hover:text-accent transition-colors underline">See exactly what each section contains &rarr;</Link>
@@ -381,7 +379,7 @@ export default function Home() {
                 <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>Monthly report delivered to your inbox</span>
+                <span>5 curated foundation opportunities each month</span>
               </div>
               <div className="flex items-start mb-4">
                 <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -421,7 +419,7 @@ export default function Home() {
                 <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>Monthly report delivered to your inbox</span>
+                <span>5 curated foundation opportunities each month</span>
               </div>
               <div className="flex items-start mb-4">
                 <svg className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -503,7 +501,7 @@ export default function Home() {
               Ready to Find Your Next Grant?
             </h2>
             <p className="text-lg text-gray-200 mb-8 leading-relaxed">
-              Join as a Founding Member. Every month, you&apos;ll get a report with everything you need to confidently pursue your next grant.
+              Join as a Founding Member. Every month, you&apos;ll get a playbook with 5 high-ROI funders and everything you need to confidently pursue your next grant.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
@@ -513,18 +511,16 @@ export default function Home() {
               >
                 Get Started
               </Link>
-              <a
-                href="https://calendly.com/alec_kleinman/meeting-with-alec"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/sample-report"
                 className="inline-flex items-center gap-2 text-white hover:text-accent font-medium transition-colors"
-                onClick={() => trackCTA.bookCall('cta_bottom')}
+                onClick={() => trackCTA.bookCall('cta_bottom_sample')}
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
-                Or Book a Call
-              </a>
+                See a Sample Playbook
+              </Link>
             </div>
             <p className="text-gray-300 mt-6 text-sm">Founding Member pricing: from $83/month</p>
           </div>
@@ -591,11 +587,11 @@ const faqData = [
   },
   {
     question: "How long does it take to get results?",
-    answer: "Your first report is delivered within 3-5 business days of signing up. After that, you'll receive a new report via email each month with fresh opportunities tailored to your organization."
+    answer: "Your first playbook is delivered within 3-5 business days of signing up. After that, you'll receive a new playbook each month with fresh opportunities tailored to your organization."
   },
   {
-    question: "What's included in a grant report?",
-    answer: <>Each month, you&apos;ll receive a PDF report via email containing curated opportunities. For each one, you get: the funder&apos;s giving history, typical grant ranges, geographic preferences, direct contact info, and a positioning strategy explaining how to approach them based on their funding patterns. <Link href="/how-to-use-your-report" className="text-primary underline hover:text-accent transition-colors">See our interactive report guide</Link> for a section-by-section walkthrough.</>
+    question: "What's included in each playbook?",
+    answer: <>Each month, you&apos;ll receive a playbook with 5 curated foundation opportunities. For each one, you get: the funder&apos;s giving history, typical grant ranges, geographic preferences, direct contact info, and a positioning strategy explaining how to approach them based on their funding patterns. <Link href="/how-to-use-your-report" className="text-primary underline hover:text-accent transition-colors">See our interactive guide</Link> for a section-by-section walkthrough.</>
   },
   {
     question: "Can I cancel my subscription anytime?",
@@ -611,7 +607,7 @@ const faqData = [
   },
   {
     question: "How do I get started?",
-    answer: <>Sign up on our website in just a few minutes. Tell us about your organization, choose a plan, and your first report will be delivered within 3-5 business days. <Link href="/signup" className="text-primary underline hover:text-accent transition-colors">Get started here</Link>. Have questions first? You can also <a href="https://calendly.com/alec_kleinman/meeting-with-alec" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-accent transition-colors">book a call</a>.</>
+    answer: <>Sign up on our website in just a few minutes. Tell us about your organization, choose a plan, and your first playbook will be delivered within 3-5 business days. <Link href="/signup" className="text-primary underline hover:text-accent transition-colors">Get started here</Link>.</>
   },
   {
     question: "What is grant matching?",
@@ -619,7 +615,7 @@ const faqData = [
   },
   {
     question: "How much does grant research typically cost?",
-    answer: "Grant research services range from $50-500+ per month. TheGrantScout offers founding member pricing at $83-99/month for comprehensive monthly reports with curated opportunities, funder profiles, and positioning strategies."
+    answer: "Grant research services range from $50-500+ per month. TheGrantScout offers founding member pricing at $83-99/month for a comprehensive monthly playbook with 5 curated opportunities, funder profiles, and positioning strategies."
   },
   {
     question: "What are IRS 990-PF forms?",

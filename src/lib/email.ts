@@ -14,7 +14,7 @@ export async function sendWelcomeEmail(
   await getResend().emails.send({
     from: 'TheGrantScout <hello@thegrantscout.com>',
     to: contactEmail,
-    subject: 'Welcome to TheGrantScout — Your First Report is On Its Way',
+    subject: 'Welcome to TheGrantScout — Your First Playbook is On Its Way',
     html: `
       <div style="font-family: system-ui, sans-serif; max-width: 600px; margin: 0 auto; color: #2C3E50;">
         <div style="background-color: #1e3a5f; padding: 24px; text-align: center;">
@@ -26,10 +26,10 @@ export async function sendWelcomeEmail(
           <p>Here's what happens next:</p>
           <ol style="line-height: 1.8;">
             <li>We'll review your organization profile and begin matching you with relevant foundations.</li>
-            <li><strong>Your first report will arrive within 3-5 business days</strong> at this email address.</li>
-            <li>After that, you'll receive a fresh report every month with new opportunities.</li>
+            <li><strong>Your first playbook will arrive within 3-5 business days</strong> at this email address.</li>
+            <li>After that, you'll receive a fresh playbook every month with new opportunities.</li>
           </ol>
-          <p>Each report includes curated foundation matches with giving history, contact information, and positioning strategy tailored to your mission.</p>
+          <p>Each playbook includes 5 curated foundation matches with giving history, contact information, and positioning strategy tailored to your mission.</p>
           <p>If you have any questions, reply to this email or reach out to <a href="mailto:hello@thegrantscout.com" style="color: #1e3a5f;">hello@thegrantscout.com</a>.</p>
           <p style="margin-top: 32px;">Best,<br>Alec Kleinman<br>Founder, TheGrantScout</p>
         </div>
@@ -46,7 +46,7 @@ export async function sendInternalNotification(
   ein: string,
   contactName: string,
   contactEmail: string,
-  state: string,
+  locations: string,
   budget: string
 ) {
   const adminEmail = process.env.ADMIN_EMAIL || 'alec@thegrantscout.com'
@@ -62,10 +62,10 @@ export async function sendInternalNotification(
           <tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">Organization</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${orgName}</td></tr>
           <tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">EIN</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${ein}</td></tr>
           <tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">Contact</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${contactName} (${contactEmail})</td></tr>
-          <tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">State</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${state}</td></tr>
+          <tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">Locations</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${locations}</td></tr>
           <tr><td style="padding: 8px; border-bottom: 1px solid #eee; font-weight: bold;">Budget</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${budget}</td></tr>
         </table>
-        <p style="margin-top: 16px; color: #6C757D;">Action needed: Begin report generation within 3-5 business days.</p>
+        <p style="margin-top: 16px; color: #6C757D;">Action needed: Begin playbook generation within 3-5 business days.</p>
       </div>
     `,
   })

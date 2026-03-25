@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
-import { query } from '@/lib/db'
 import { createServerClient } from '@/lib/supabase'
 import { sendWelcomeEmail, sendInternalNotification } from '@/lib/email'
 
@@ -45,6 +44,8 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Invalid signature' }, { status: 400 })
   }
 
+  const sb = createServerClient()
+
   try {
     switch (event.type) {
       case 'checkout.session.completed': {
@@ -52,35 +53,43 @@ export async function POST(request: NextRequest) {
         const subscriberId = session.metadata?.subscriber_id
 
         if (subscriberId) {
-          // 1. Update local Postgres (existing behavior)
-          await query(
-            `UPDATE core.subscribers SET
-              stripe_customer_id = $1,
-              stripe_subscription_id = $2,
-              subscription_status = 'active',
-              updated_at = NOW()
-            WHERE id = $3`,
-            [session.customer, session.subscription, subscriberId]
-          )
+          // 1. Update subscriber in Supabase
+          await sb
+            .from('subscribers')
+            .update({
+              stripe_customer_id: session.customer as string,
+              stripe_subscription_id: session.subscription as string,
+              subscription_status: 'active',
+            })
+            .eq('id', Number(subscriberId))
 
           // Fetch subscriber details for emails
-          const result = await query(
-            'SELECT org_name, ein, contact_name, contact_email, state, city, annual_budget FROM core.subscribers WHERE id = $1',
-            [subscriberId]
-          )
+          const { data: sub } = await sb
+            .from('subscribers')
+            .select('org_name, ein, contact_name, contact_email, locations, annual_budget')
+            .eq('id', Number(subscriberId))
+            .single()
 
-          if (result.rows.length > 0) {
-            const sub = result.rows[0]
+          if (sub) {
+            // Format locations for email
+            const US_STATES: Record<string, string> = { AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'District of Columbia',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',PR:'Puerto Rico',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming' }
+            const locs = (sub.locations || []) as Array<{ type: string; state: string; detail: string }>
+            const locationsFormatted = locs.length > 0
+              ? locs.map((l: { type: string; state: string; detail: string }) => {
+                  const stateName = US_STATES[l.state] || l.state
+                  return l.type === 'state' ? stateName : `${l.detail}, ${stateName}`
+                }).join('; ')
+              : 'Not specified'
+
             // Send emails (non-blocking)
             await Promise.allSettled([
               sendWelcomeEmail(sub.contact_name, sub.contact_email, sub.org_name),
-              sendInternalNotification(sub.org_name, sub.ein, sub.contact_name, sub.contact_email, sub.state, sub.annual_budget),
+              sendInternalNotification(sub.org_name, sub.ein, sub.contact_name, sub.contact_email, locationsFormatted, sub.annual_budget),
             ])
           }
 
-          // 2. Upsert into Supabase CRM
+          // 2. Upsert into Supabase CRM organizations table
           try {
-            const sub = result.rows[0]
             const stripeSubscription = await stripe.subscriptions.retrieve(session.subscription as string)
             const interval = stripeSubscription.items.data[0]?.price?.recurring?.interval
 
@@ -97,7 +106,6 @@ export async function POST(request: NextRequest) {
               nextPaymentDate = anchorDate.toISOString().split('T')[0]
             }
 
-            const sb = createServerClient()
             const ein = session.metadata?.ein || sub?.ein || null
             await sb.from('organizations').upsert(
               {
@@ -105,8 +113,7 @@ export async function POST(request: NextRequest) {
                 name: session.metadata?.org_name || sub?.org_name || 'Unknown',
                 type: 'client' as const,
                 stage: 'active',
-                state: session.metadata?.state || sub?.state || null,
-                city: session.metadata?.city || sub?.city || null,
+                locations: sub?.locations || session.metadata?.locations || null,
                 stripe_customer_id: session.customer as string,
                 stripe_subscription_id: session.subscription as string,
                 subscription_type: mapStripeInterval(interval),
@@ -119,7 +126,7 @@ export async function POST(request: NextRequest) {
               { onConflict: 'ein', ignoreDuplicates: false }
             )
           } catch (sbError) {
-            console.error('Supabase upsert error (non-fatal):', sbError)
+            console.error('Supabase org upsert error (non-fatal):', sbError)
           }
         }
         break
@@ -129,23 +136,19 @@ export async function POST(request: NextRequest) {
         const subscription = event.data.object as Stripe.Subscription
         const status = mapSubscriptionStatus(subscription.status)
 
-        // 1. Update local Postgres
-        await query(
-          `UPDATE core.subscribers SET
-            subscription_status = $1,
-            updated_at = NOW()
-          WHERE stripe_subscription_id = $2`,
-          [status, subscription.id]
-        )
+        // 1. Update subscribers table
+        await sb
+          .from('subscribers')
+          .update({ subscription_status: status })
+          .eq('stripe_subscription_id', subscription.id)
 
-        // 2. Update Supabase CRM
+        // 2. Update organizations table
         try {
-          const sb = createServerClient()
           await sb.from('organizations')
             .update({ subscription_status: status })
             .eq('stripe_subscription_id', subscription.id)
         } catch (sbError) {
-          console.error('Supabase update error (non-fatal):', sbError)
+          console.error('Supabase org update error (non-fatal):', sbError)
         }
         break
       }
@@ -153,19 +156,17 @@ export async function POST(request: NextRequest) {
       case 'customer.subscription.deleted': {
         const subscription = event.data.object as Stripe.Subscription
 
-        // 1. Update local Postgres
-        await query(
-          `UPDATE core.subscribers SET
-            subscription_status = 'canceled',
-            canceled_at = NOW(),
-            updated_at = NOW()
-          WHERE stripe_subscription_id = $1`,
-          [subscription.id]
-        )
+        // 1. Update subscribers table
+        await sb
+          .from('subscribers')
+          .update({
+            subscription_status: 'canceled',
+            canceled_at: new Date().toISOString(),
+          })
+          .eq('stripe_subscription_id', subscription.id)
 
-        // 2. Update Supabase CRM — demote to lead
+        // 2. Update organizations table
         try {
-          const sb = createServerClient()
           await sb.from('organizations')
             .update({
               subscription_status: 'canceled' as const,
@@ -174,7 +175,7 @@ export async function POST(request: NextRequest) {
             })
             .eq('stripe_subscription_id', subscription.id)
         } catch (sbError) {
-          console.error('Supabase update error (non-fatal):', sbError)
+          console.error('Supabase org update error (non-fatal):', sbError)
         }
         break
       }
@@ -183,23 +184,19 @@ export async function POST(request: NextRequest) {
         const invoiceObj = event.data.object
         const subId = 'subscription' in invoiceObj ? (invoiceObj.subscription as string | null) : null
         if (subId) {
-          // 1. Update local Postgres
-          await query(
-            `UPDATE core.subscribers SET
-              subscription_status = 'past_due',
-              updated_at = NOW()
-            WHERE stripe_subscription_id = $1`,
-            [subId]
-          )
+          // 1. Update subscribers table
+          await sb
+            .from('subscribers')
+            .update({ subscription_status: 'past_due' })
+            .eq('stripe_subscription_id', subId)
 
-          // 2. Update Supabase CRM — stays client, status changes
+          // 2. Update organizations table
           try {
-            const sb = createServerClient()
             await sb.from('organizations')
               .update({ subscription_status: 'past_due' as const })
               .eq('stripe_subscription_id', subId)
           } catch (sbError) {
-            console.error('Supabase update error (non-fatal):', sbError)
+            console.error('Supabase org update error (non-fatal):', sbError)
           }
         }
         break

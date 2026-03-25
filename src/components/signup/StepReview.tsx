@@ -23,8 +23,21 @@ function ReviewSection({ title, items }: { title: string; items: { label: string
   )
 }
 
+function formatLocations(data: SignupFormData): string {
+  if (!data.locations.length) return 'None added'
+  return data.locations.map((loc) => {
+    const stateLabel = US_STATES.find((s) => s.value === loc.state)?.label || loc.state
+    if (loc.type === 'state') return stateLabel
+    return `${loc.detail}, ${stateLabel}`
+  }).join('; ')
+}
+
 export default function StepReview({ data, onChange }: Props) {
-  const stateName = US_STATES.find((s) => s.value === data.state)?.label || data.state
+  const qty = data.reportCount || 1
+  const monthlyPerUnit = 99
+  const annualPerUnit = 83
+  const monthlyTotal = monthlyPerUnit * qty
+  const annualTotal = annualPerUnit * qty * 12
 
   return (
     <div>
@@ -54,7 +67,7 @@ export default function StepReview({ data, onChange }: Props) {
       <ReviewSection
         title="Capacity & Geography"
         items={[
-          { label: 'Location', value: `${data.city}, ${stateName}` },
+          { label: 'Locations', value: formatLocations(data) },
           { label: 'Scope', value: data.geographicScope },
           { label: 'Budget', value: data.annualBudget },
           { label: 'Grant Size', value: data.grantSizeSeeking },
@@ -63,13 +76,18 @@ export default function StepReview({ data, onChange }: Props) {
         ]}
       />
 
-      {(data.nteeCode || data.knownFunders || data.timeframe || data.additionalNotes) && (
+      {(data.knownFunders || data.additionalNotes || data.reportCount > 1 || data.reportRecipients[0]?.focus) && (
         <ReviewSection
           title="Preferences"
           items={[
-            ...(data.nteeCode ? [{ label: 'NTEE Code', value: data.nteeCode }] : []),
-            ...(data.knownFunders ? [{ label: 'Known Funders', value: data.knownFunders }] : []),
-            ...(data.timeframe ? [{ label: 'Timeframe', value: data.timeframe }] : []),
+            ...(data.knownFunders ? [{ label: 'Known/Pursuing', value: data.knownFunders }] : []),
+            ...(data.reportCount > 1 ? [{ label: 'Playbooks', value: `${data.reportCount} playbooks` }] : []),
+            ...data.reportRecipients
+              .filter((r) => r.name || r.focus)
+              .map((r, i) => ({
+                label: data.reportCount > 1 ? `Playbook ${i + 1}` : 'Focus',
+                value: [r.name, r.focus].filter(Boolean).join(' — '),
+              })),
             ...(data.additionalNotes ? [{ label: 'Notes', value: data.additionalNotes.length > 120 ? data.additionalNotes.slice(0, 120) + '...' : data.additionalNotes }] : []),
           ]}
         />
@@ -91,9 +109,11 @@ export default function StepReview({ data, onChange }: Props) {
             <div className="absolute -top-3 left-4">
               <span className="bg-accent text-primary px-2 py-0.5 rounded-full text-xs font-semibold">BEST VALUE</span>
             </div>
-            <div className="text-2xl font-bold text-primary">$83<span className="text-base font-semibold">/mo</span></div>
-            <div className="text-sm text-gray-medium">Billed annually at $999</div>
-            <div className="text-xs text-success font-medium mt-1">Save $189/year</div>
+            <div className="text-2xl font-bold text-primary">${annualPerUnit}<span className="text-base font-semibold">/mo</span></div>
+            <div className="text-sm text-gray-medium">per playbook · billed annually</div>
+            {qty > 1 && <div className="text-sm text-primary font-medium mt-1">{qty} playbooks = ${annualPerUnit * qty}/mo (${annualTotal.toLocaleString()}/yr)</div>}
+            {qty === 1 && <div className="text-sm text-gray-medium mt-1">${annualTotal.toLocaleString()}/year</div>}
+            <div className="text-xs text-success font-medium mt-1">Save ${(monthlyPerUnit - annualPerUnit) * qty * 12}/year</div>
           </button>
 
           <button
@@ -105,8 +125,9 @@ export default function StepReview({ data, onChange }: Props) {
                 : 'border-gray-200 hover:border-gray-300'
             }`}
           >
-            <div className="text-2xl font-bold text-primary">$99<span className="text-base font-semibold">/mo</span></div>
-            <div className="text-sm text-gray-medium">Billed monthly</div>
+            <div className="text-2xl font-bold text-primary">${monthlyPerUnit}<span className="text-base font-semibold">/mo</span></div>
+            <div className="text-sm text-gray-medium">per playbook · billed monthly</div>
+            {qty > 1 && <div className="text-sm text-primary font-medium mt-1">{qty} playbooks = ${monthlyTotal}/mo</div>}
             <div className="text-xs text-gray-medium mt-1">Cancel anytime</div>
           </button>
         </div>

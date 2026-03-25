@@ -1,3 +1,15 @@
+export interface LocationEntry {
+  type: 'city' | 'state' | 'county'
+  state: string
+  detail: string // city name, county name, or empty for state-wide
+}
+
+export interface ReportRecipient {
+  name: string
+  email: string
+  focus: string // e.g., "relationship building", "open opportunities"
+}
+
 export interface SignupFormData {
   // Step 1: Organization
   orgName: string
@@ -13,8 +25,7 @@ export interface SignupFormData {
   populations: string[]
 
   // Step 3: Capacity
-  state: string
-  city: string
+  locations: LocationEntry[]
   geographicScope: string
   annualBudget: string
   grantSizeSeeking: string
@@ -22,9 +33,9 @@ export interface SignupFormData {
   grantCapacity: string
 
   // Step 4: Preferences
-  nteeCode: string
   knownFunders: string
-  timeframe: string
+  reportCount: number
+  reportRecipients: ReportRecipient[]
   additionalNotes: string
 
   // Step 5: Plan
@@ -41,16 +52,15 @@ export const INITIAL_FORM_DATA: SignupFormData = {
   focusAreas: [],
   programs: '',
   populations: [],
-  state: '',
-  city: '',
+  locations: [],
   geographicScope: '',
   annualBudget: '',
   grantSizeSeeking: '',
   grantTypes: [],
   grantCapacity: '',
-  nteeCode: '',
   knownFunders: '',
-  timeframe: '',
+  reportCount: 1,
+  reportRecipients: [{ name: '', email: '', focus: '' }],
   additionalNotes: '',
   planType: 'monthly',
 }
@@ -176,13 +186,43 @@ export const GRANT_CAPACITIES = [
   'Highly experienced (20+ grants)',
 ]
 
-export const TIMEFRAMES = [
-  'ASAP (within 1 month)',
-  'Short-term (1-3 months)',
-  'Medium-term (3-6 months)',
-  'Long-term (6-12 months)',
-  'Ongoing/No rush',
+export const REPORT_COUNT_OPTIONS = [1, 2, 3, 4, 5]
+
+export const LOCATION_TYPES = [
+  { value: 'city', label: 'City' },
+  { value: 'county', label: 'County' },
+  { value: 'state', label: 'Entire State' },
 ]
+
+export const PREVIEW_FORM_DATA: SignupFormData = {
+  orgName: 'Habitat for Humanity International',
+  ein: '912167871',
+  orgType: '501(c)(3) Public Charity',
+  contactName: 'Jane Smith',
+  contactEmail: 'jane.smith@habitat.org',
+  mission: 'Seeking to put God\'s love into action, Habitat for Humanity brings people together to build homes, communities and hope. Through volunteer labor and donations of money and materials, Habitat builds and rehabilitates simple, decent houses with the help of the homeowner (partner) families.',
+  focusAreas: ['Housing & Shelter', 'Community Development', 'Human Services'],
+  programs: 'Habitat for Humanity builds affordable housing through volunteer construction programs, neighborhood revitalization efforts, and the ReStore home improvement retail operation. We also provide homeowner education, financial literacy training, and disaster response rebuilding services in communities across all 50 states and 70+ countries.',
+  populations: ['Low-Income Communities', 'Adults', 'Children & Youth (0-17)'],
+  locations: [
+    { type: 'city', state: 'GA', detail: 'Atlanta' },
+    { type: 'state', state: 'GA', detail: '' },
+    { type: 'county', state: 'NC', detail: 'Mecklenburg County' },
+  ],
+  geographicScope: 'National',
+  annualBudget: '$25M+',
+  grantSizeSeeking: '$100K-$250K',
+  grantTypes: ['General Operating Support', 'Program/Project Grants', 'Capital Campaigns'],
+  grantCapacity: 'Highly experienced (20+ grants)',
+  knownFunders: 'The Home Depot Foundation, Wells Fargo Foundation, Whirlpool Foundation',
+  reportCount: 2,
+  reportRecipients: [
+    { name: 'Jane Smith', email: 'jane.smith@habitat.org', focus: 'Relationship building with new corporate foundations' },
+    { name: 'Tom Rivera', email: 'tom.rivera@habitat.org', focus: 'Open grant opportunities for capital campaigns' },
+  ],
+  additionalNotes: 'Interested in expanding corporate foundation partnerships for our neighborhood revitalization initiative.',
+  planType: 'annual',
+}
 
 export type StepValidationErrors = Record<string, string>
 
@@ -207,8 +247,7 @@ export function validateStep(step: number, data: SignupFormData): StepValidation
       break
     }
     case 3: {
-      if (!data.state) errors.state = 'Select your state'
-      if (!data.city || data.city.trim().length < 2) errors.city = 'City is required'
+      if (!data.locations.length) errors.locations = 'Add at least one location'
       if (!data.geographicScope) errors.geographicScope = 'Select your geographic scope'
       if (!data.annualBudget) errors.annualBudget = 'Select your annual budget range'
       if (!data.grantSizeSeeking) errors.grantSizeSeeking = 'Select grant size range'
@@ -217,7 +256,6 @@ export function validateStep(step: number, data: SignupFormData): StepValidation
       break
     }
     case 4:
-      // All optional
       if (data.additionalNotes && data.additionalNotes.length > 1000) errors.additionalNotes = 'Notes must be under 1000 characters'
       break
     case 5:
