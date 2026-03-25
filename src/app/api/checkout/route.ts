@@ -38,6 +38,7 @@ const checkoutSchema = z.object({
   })).max(20).optional().default([]),
   additionalNotes: z.string().max(5000).nullable().optional().default(null),
   planType: z.enum(['monthly', 'annual']).optional().default('monthly'),
+  draftToken: z.string().uuid().nullable().optional().default(null),
 })
 
 export async function POST(request: NextRequest) {
@@ -111,36 +112,26 @@ export async function POST(request: NextRequest) {
 
     const subscriberId = inserted.id
 
+    // Mark draft as converted if a draft token was provided
+    if (data.draftToken) {
+      await sb
+        .from('signup_drafts')
+        .update({ status: 'converted', subscriber_id: subscriberId })
+        .eq('draft_token', data.draftToken)
+        .then(({ error }) => {
+          if (error) console.error('Draft conversion error (non-fatal):', error)
+        })
+    }
+
     const stripe = getStripe()
     const qty = data.reportCount || 1
-
-    // Update Stripe product to reflect playbook count and description
-    try {
-      const price = await stripe.prices.retrieve(priceId)
-      if (price.product && typeof price.product === 'string') {
-        const productName = qty > 1
-          ? `${qty} Monthly Grant Matching Playbooks`
-          : 'Monthly Grant Matching Playbook'
-        const description = qty > 1
-          ? `${qty} monthly playbooks with 5 curated foundation opportunities each, funder intelligence, and positioning strategies. Founding member rate.`
-          : 'Monthly playbook with 5 curated foundation opportunities, funder intelligence, and positioning strategies. Founding member rate.'
-        await stripe.products.update(price.product, {
-          name: productName,
-          description,
-          unit_label: 'playbook',
-        })
-      }
-    } catch {
-      // Non-fatal
-    }
 
     // Create Stripe Checkout Session
     const isAnnual = data.planType === 'annual'
     const unitPrice = isAnnual ? 83 : 99
-    const billingLabel = isAnnual ? 'year' : 'month'
     const totalDisplay = qty > 1
-      ? `${qty} playbooks × $${unitPrice}/${billingLabel === 'year' ? 'mo' : 'mo'} = $${unitPrice * qty}/mo`
-      : `1 playbook — $${unitPrice}/mo`
+      ? `${qty} playbooks \u00d7 $${unitPrice}/mo = $${unitPrice * qty}/mo`
+      : `1 playbook \u2014 $${unitPrice}/mo`
 
     const session = await stripe.checkout.sessions.create({
       mode: 'subscription',

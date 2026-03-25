@@ -10,6 +10,7 @@ import StepMission from '@/components/signup/StepMission'
 import StepCapacity from '@/components/signup/StepCapacity'
 import StepPreferences from '@/components/signup/StepPreferences'
 import StepReview from '@/components/signup/StepReview'
+import SaveProgressBanner from '@/components/signup/SaveProgressBanner'
 
 function SignupForm() {
   const searchParams = useSearchParams()
@@ -26,6 +27,11 @@ function SignupForm() {
     goNext,
     goBack,
     loaded,
+    draftToken,
+    authUser,
+    authLoading,
+    authError,
+    createAccount,
   } = useSignupForm(initialStep, preview)
 
   const handleSubmit = async () => {
@@ -34,7 +40,7 @@ function SignupForm() {
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, draftToken }),
       })
       const data = await res.json()
       if (data.url) {
@@ -57,6 +63,9 @@ function SignupForm() {
     )
   }
 
+  // Show save banner on steps 2-4 when user has entered an email but no account yet
+  const showSaveBanner = step >= 2 && step <= 4 && formData.contactEmail
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -66,9 +75,14 @@ function SignupForm() {
             <Link href="/" className="text-2xl font-bold text-primary hover:text-primary-light transition-colors">
               TheGrantScout
             </Link>
-            <Link href="/" className="text-sm text-gray-medium hover:text-primary transition-colors">
-              Back to Home
-            </Link>
+            <div className="flex items-center gap-4">
+              <Link href="/signup/resume" className="text-sm text-primary hover:underline transition-colors">
+                Returning? Resume here
+              </Link>
+              <Link href="/" className="text-sm text-gray-medium hover:text-primary transition-colors">
+                Back to Home
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
@@ -87,6 +101,17 @@ function SignupForm() {
           {step === 3 && <StepCapacity data={formData} errors={errors} onChange={updateField} />}
           {step === 4 && <StepPreferences data={formData} errors={errors} onChange={updateField} />}
           {step === 5 && <StepReview data={formData} onChange={updateField} />}
+
+          {/* Save Progress Banner — shown on steps 2-4 */}
+          {showSaveBanner && (
+            <SaveProgressBanner
+              email={formData.contactEmail}
+              authUser={authUser}
+              authLoading={authLoading}
+              authError={authError}
+              onCreateAccount={createAccount}
+            />
+          )}
 
           {/* Navigation */}
           <div className="flex justify-between mt-8 pt-6 border-t border-gray-100">
@@ -117,7 +142,7 @@ function SignupForm() {
                 disabled={isSubmitting}
                 className="btn-primary px-8 py-2.5 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isSubmitting ? 'Redirecting to checkout...' : `Subscribe — ${formData.planType === 'annual' ? `$${83 * (formData.reportCount || 1) * 12}/year` : `$${99 * (formData.reportCount || 1)}/month`}`}
+                {isSubmitting ? 'Redirecting to checkout...' : `Subscribe \u2014 ${formData.planType === 'annual' ? `$${83 * (formData.reportCount || 1) * 12}/year` : `$${99 * (formData.reportCount || 1)}/month`}`}
               </button>
             )}
           </div>
