@@ -39,14 +39,9 @@ export default function SaveProgressBanner({ email, authUser, authLoading, authE
         <svg className="w-5 h-5 text-success flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
         </svg>
-        <div>
-          <p className="text-sm text-charcoal">
-            Account created! Your progress is saved. You can close this page and come back anytime.
-          </p>
-          <p className="text-xs text-gray-medium mt-1">
-            Check your email to confirm your account before resuming on another device.
-          </p>
-        </div>
+        <p className="text-sm text-charcoal">
+          Account created! Your progress is saved. You can close this page and come back anytime.
+        </p>
       </div>
     )
   }
