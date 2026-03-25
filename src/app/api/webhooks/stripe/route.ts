@@ -15,6 +15,10 @@ function mapStripeInterval(interval: string | undefined): 'monthly' | 'quarterly
   return 'monthly'
 }
 
+function slugify(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 100)
+}
+
 function mapSubscriptionStatus(status: string): 'active' | 'past_due' | 'canceled' | 'pending_payment' {
   if (status === 'active') return 'active'
   if (status === 'past_due') return 'past_due'
@@ -107,12 +111,15 @@ export async function POST(request: NextRequest) {
             }
 
             const ein = session.metadata?.ein || sub?.ein || null
+            const landingOrgName = session.metadata?.org_name || sub?.org_name || 'Unknown'
             await sb.from('organizations').upsert(
               {
                 ein: ein || undefined,
-                name: session.metadata?.org_name || sub?.org_name || 'Unknown',
+                name: landingOrgName,
+                slug: slugify(landingOrgName),
                 type: 'client' as const,
-                stage: 'active',
+                relationship: 'client' as const,
+                stage: 'client',
                 locations: sub?.locations || session.metadata?.locations || null,
                 stripe_customer_id: session.customer as string,
                 stripe_subscription_id: session.subscription as string,
