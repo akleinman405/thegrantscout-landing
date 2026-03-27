@@ -28,7 +28,7 @@ export interface SignupFormData {
   locations: LocationEntry[]
   geographicScope: string
   annualBudget: string
-  grantSizeSeeking: string
+  grantSizeSeeking: string[]
   grantTypes: string[]
   grantCapacity: string
 
@@ -55,7 +55,7 @@ export const INITIAL_FORM_DATA: SignupFormData = {
   locations: [],
   geographicScope: '',
   annualBudget: '',
-  grantSizeSeeking: '',
+  grantSizeSeeking: [],
   grantTypes: [],
   grantCapacity: '',
   knownFunders: '',
@@ -211,7 +211,7 @@ export const PREVIEW_FORM_DATA: SignupFormData = {
   ],
   geographicScope: 'National',
   annualBudget: '$25M+',
-  grantSizeSeeking: '$100K-$250K',
+  grantSizeSeeking: ['$100K-$250K', '$250K-$500K'],
   grantTypes: ['General Operating Support', 'Program/Project Grants', 'Capital Campaigns'],
   grantCapacity: 'Highly experienced (20+ grants)',
   knownFunders: 'The Home Depot Foundation, Wells Fargo Foundation, Whirlpool Foundation',
@@ -250,7 +250,7 @@ export function validateStep(step: number, data: SignupFormData): StepValidation
       if (!data.locations.length) errors.locations = 'Add at least one location'
       if (!data.geographicScope) errors.geographicScope = 'Select your geographic scope'
       if (!data.annualBudget) errors.annualBudget = 'Select your annual budget range'
-      if (!data.grantSizeSeeking) errors.grantSizeSeeking = 'Select grant size range'
+      if (!data.grantSizeSeeking.length) errors.grantSizeSeeking = 'Select at least one grant size range'
       if (!data.grantTypes.length) errors.grantTypes = 'Select at least one grant type'
       if (!data.grantCapacity) errors.grantCapacity = 'Select your grant experience level'
       break

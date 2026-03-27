@@ -70,7 +70,7 @@ export default function StepReview({ data, onChange }: Props) {
           { label: 'Locations', value: formatLocations(data) },
           { label: 'Scope', value: data.geographicScope },
           { label: 'Budget', value: data.annualBudget },
-          { label: 'Grant Size', value: data.grantSizeSeeking },
+          { label: 'Grant Size', value: data.grantSizeSeeking.join(', ') },
           { label: 'Grant Types', value: data.grantTypes.join(', ') },
           { label: 'Experience', value: data.grantCapacity },
         ]}

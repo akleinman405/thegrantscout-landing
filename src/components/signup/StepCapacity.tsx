@@ -165,27 +165,24 @@ export default function StepCapacity({ data, errors, onChange }: Props) {
         />
       </FormField>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
-        <FormField label="Annual Budget" required error={errors.annualBudget}>
-          <Select
-            value={data.annualBudget}
-            onChange={(v) => onChange('annualBudget', v)}
-            options={BUDGET_RANGES}
-            placeholder="Select range..."
-            error={errors.annualBudget}
-          />
-        </FormField>
+      <FormField label="Annual Budget" required error={errors.annualBudget}>
+        <Select
+          value={data.annualBudget}
+          onChange={(v) => onChange('annualBudget', v)}
+          options={BUDGET_RANGES}
+          placeholder="Select range..."
+          error={errors.annualBudget}
+        />
+      </FormField>
 
-        <FormField label="Grant Size Seeking" required error={errors.grantSizeSeeking}>
-          <Select
-            value={data.grantSizeSeeking}
-            onChange={(v) => onChange('grantSizeSeeking', v)}
-            options={GRANT_SIZE_RANGES}
-            placeholder="Select range..."
-            error={errors.grantSizeSeeking}
-          />
-        </FormField>
-      </div>
+      <FormField label="Grant Size Seeking" required error={errors.grantSizeSeeking} hint="Select all that apply">
+        <MultiSelect
+          selected={data.grantSizeSeeking}
+          onChange={(v) => onChange('grantSizeSeeking', v)}
+          options={GRANT_SIZE_RANGES}
+          error={errors.grantSizeSeeking}
+        />
+      </FormField>
 
       <FormField label="Grant Types Preferred" required error={errors.grantTypes} hint="Select all that apply">
         <MultiSelect
