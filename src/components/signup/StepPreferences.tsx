@@ -23,9 +23,16 @@ export default function StepPreferences({ data, errors, onChange }: Props) {
   }
 
   const updateRecipient = (index: number, field: 'name' | 'email' | 'focus', value: string) => {
-    const updated = data.reportRecipients.map((r, i) =>
-      i === index ? { ...r, [field]: value } : r
-    )
+    const base = data.reportRecipients.length > index
+      ? data.reportRecipients
+      : [
+          ...data.reportRecipients,
+          ...Array.from(
+            { length: index + 1 - data.reportRecipients.length },
+            () => ({ name: '', email: '', focus: '' })
+          ),
+        ]
+    const updated = base.map((r, i) => (i === index ? { ...r, [field]: value } : r))
     onChange('reportRecipients', updated)
   }
 

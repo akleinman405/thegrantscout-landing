@@ -24,17 +24,17 @@ const checkoutSchema = z.object({
     state: z.string().max(10),
     detail: z.string().max(200),
   })).max(20).optional().default([]),
-  geographicScope: z.string().max(200).optional(),
-  annualBudget: z.string().max(100).optional(),
-  grantSizeSeeking: z.array(z.string().max(100)).max(10).optional().default([]),
+  geographicScope: z.string().max(50).optional(),
+  annualBudget: z.string().max(50).optional(),
+  grantSizeSeeking: z.array(z.string().max(50)).max(10).optional().default([]),
   grantTypes: z.array(z.string().max(200)).max(20).optional().default([]),
-  grantCapacity: z.string().max(200).optional(),
+  grantCapacity: z.string().max(100).optional(),
   knownFunders: z.string().max(5000).nullable().optional().default(null),
   reportCount: z.number().int().min(1).max(50).optional().default(1),
   reportRecipients: z.array(z.object({
-    name: z.string().max(200),
-    email: z.string().email().max(320),
-    focus: z.string().max(500),
+    name: z.string().max(200).optional().default(''),
+    email: z.union([z.string().email().max(320), z.literal('')]).optional().default(''),
+    focus: z.string().max(500).optional().default(''),
   })).max(20).optional().default([]),
   additionalNotes: z.string().max(5000).nullable().optional().default(null),
   planType: z.enum(['monthly', 'annual']).optional().default('monthly'),
@@ -62,7 +62,17 @@ export async function POST(request: NextRequest) {
     }
     const data = parsed.data
 
-    const cleanEin = data.ein?.replace(/-/g, '') || ''
+    const cleanEin = (data.ein || '').replace(/\D/g, '').slice(0, 9)
+    if (cleanEin && cleanEin.length !== 9) {
+      return NextResponse.json(
+        { error: 'EIN must be exactly 9 digits (e.g. 12-3456789).' },
+        { status: 400 }
+      )
+    }
+
+    const cleanRecipients = (data.reportRecipients || []).filter(
+      (r) => r.name.trim() || r.email.trim() || r.focus.trim()
+    )
     const priceId =
       data.planType === 'annual'
         ? process.env.STRIPE_PRICE_ID_ANNUAL
@@ -94,7 +104,7 @@ export async function POST(request: NextRequest) {
         grant_capacity: data.grantCapacity,
         known_funders: data.knownFunders || null,
         report_count: data.reportCount || 1,
-        report_recipients: data.reportRecipients || [],
+        report_recipients: cleanRecipients,
         additional_notes: data.additionalNotes || null,
         plan_type: data.planType || 'monthly',
         subscription_status: 'pending_payment',
@@ -103,9 +113,25 @@ export async function POST(request: NextRequest) {
       .single()
 
     if (insertError || !inserted) {
-      console.error('Supabase insert error:', insertError)
+      console.error('Supabase insert error:', {
+        message: insertError?.message,
+        code: insertError?.code,
+        details: insertError?.details,
+        hint: insertError?.hint,
+        payload_sizes: {
+          mission: data.mission?.length,
+          programs: data.programs?.length,
+          known_funders: data.knownFunders?.length,
+          additional_notes: data.additionalNotes?.length,
+          locations: data.locations?.length,
+          recipients: cleanRecipients.length,
+        },
+      })
+      const errMsg = insertError?.message
+        ? `Couldn't save your submission: ${insertError.message}. Please email alec@thegrantscout.com if it keeps failing.`
+        : 'Failed to create subscriber record. Please email alec@thegrantscout.com if it keeps failing.'
       return NextResponse.json(
-        { error: 'Failed to create subscriber record. Please try again.' },
+        { error: errMsg, code: insertError?.code },
         { status: 500 }
       )
     }
