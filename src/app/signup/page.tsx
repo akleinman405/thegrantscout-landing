@@ -35,6 +35,10 @@ function SignupForm() {
   } = useSignupForm(initialStep, preview)
 
   const handleSubmit = async () => {
+    if (preview) {
+      alert('Preview mode — checkout is disabled. Remove ?preview=true from the URL to run a real signup.')
+      return
+    }
     setIsSubmitting(true)
     try {
       const res = await fetch('/api/checkout', {

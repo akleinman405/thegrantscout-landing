@@ -24,6 +24,8 @@ const checkoutSchema = z.object({
     state: z.string().max(10),
     detail: z.string().max(200),
   })).max(20).optional().default([]),
+  // Caps below track subscribers column widths in supabase/migrations/003_subscribers.sql.
+  // If a migration widens a column, update the matching cap here.
   geographicScope: z.string().max(50).optional(),
   annualBudget: z.string().max(50).optional(),
   grantSizeSeeking: z.array(z.string().max(50)).max(10).optional().default([]),
@@ -127,9 +129,11 @@ export async function POST(request: NextRequest) {
           recipients: cleanRecipients.length,
         },
       })
-      const errMsg = insertError?.message
-        ? `Couldn't save your submission: ${insertError.message}. Please email alec@thegrantscout.com if it keeps failing.`
-        : 'Failed to create subscriber record. Please email alec@thegrantscout.com if it keeps failing.'
+      const supportSuffix = 'Please email alec@thegrantscout.com if it keeps failing.'
+      const isDev = process.env.NODE_ENV !== 'production'
+      const errMsg = isDev && insertError?.message
+        ? `Couldn't save your submission: ${insertError.message}. ${supportSuffix}`
+        : `Failed to create subscriber record. ${supportSuffix}`
       return NextResponse.json(
         { error: errMsg, code: insertError?.code },
         { status: 500 }
