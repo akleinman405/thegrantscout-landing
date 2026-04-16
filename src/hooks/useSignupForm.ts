@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback, useRef } from 'react'
-import { SignupFormData, INITIAL_FORM_DATA, PREVIEW_FORM_DATA, LocationEntry, ReportRecipient, validateStep, StepValidationErrors } from '@/lib/signup-types'
+import { SignupFormData, INITIAL_FORM_DATA, PREVIEW_FORM_DATA, LocationEntry, ReportRecipient, validateStep, StepValidationErrors, normalizeFormData } from '@/lib/signup-types'
 import { createBrowserAuthClient } from '@/lib/supabase'
 import type { User } from '@supabase/supabase-js'
 
@@ -54,7 +54,7 @@ export function useSignupForm(initialStep?: number, preview?: boolean) {
     } catch { /* ignore */ }
 
     if (localData) {
-      setFormData({ ...INITIAL_FORM_DATA, ...localData.formData })
+      setFormData(normalizeFormData(localData.formData))
       if (!initialStep && localData.step) setStep(localData.step)
     }
     if (localToken) {
@@ -88,7 +88,7 @@ export function useSignupForm(initialStep?: number, preview?: boolean) {
           const localTime = localData?.savedAt ? new Date(localData.savedAt).getTime() : 0
 
           if (supabaseTime >= localTime) {
-            setFormData({ ...INITIAL_FORM_DATA, ...data.formData })
+            setFormData(normalizeFormData(data.formData))
             if (!initialStep) setStep(data.step)
           }
           setDraftToken(data.draftToken)
@@ -240,7 +240,7 @@ export function useSignupForm(initialStep?: number, preview?: boolean) {
         const res = await fetch(`/api/signup/save-draft?user_id=${data.user.id}`)
         const draft = await res.json()
         if (draft.found) {
-          setFormData({ ...INITIAL_FORM_DATA, ...draft.formData })
+          setFormData(normalizeFormData(draft.formData))
           setStep(draft.step)
           setDraftToken(draft.draftToken)
           try { localStorage.setItem(DRAFT_TOKEN_KEY, draft.draftToken) } catch { /* ignore */ }

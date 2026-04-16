@@ -224,6 +224,55 @@ export const PREVIEW_FORM_DATA: SignupFormData = {
   planType: 'annual',
 }
 
+// Coerce a partial/untrusted form payload (from localStorage or a Supabase draft row)
+// into a fully-populated SignupFormData. Drafts can legitimately contain nulls or
+// missing keys — e.g. form_data JSONB that was written before a field existed, or
+// nullable string columns that echo back as null. Spreading those over
+// INITIAL_FORM_DATA overrides the defaults with null, which crashes steps that
+// call `.length`, `.map`, or `.includes` on array fields.
+export function normalizeFormData(partial: Partial<SignupFormData> | null | undefined): SignupFormData {
+  const p = (partial ?? {}) as Partial<SignupFormData>
+  const asArray = <T,>(v: unknown, fallback: T[]): T[] => (Array.isArray(v) ? (v as T[]) : fallback)
+  const asString = (v: unknown): string => (typeof v === 'string' ? v : '')
+
+  const count =
+    typeof p.reportCount === 'number' && p.reportCount >= 1 ? Math.floor(p.reportCount) : 1
+  const recipients = asArray<ReportRecipient>(p.reportRecipients, []).map((r) => ({
+    name: asString(r?.name),
+    email: asString(r?.email),
+    focus: asString(r?.focus),
+  }))
+  const sizedRecipients =
+    recipients.length >= 1
+      ? recipients
+      : [{ name: '', email: '', focus: '' }]
+
+  return {
+    ...INITIAL_FORM_DATA,
+    ...p,
+    orgName: asString(p.orgName),
+    ein: asString(p.ein),
+    orgType: asString(p.orgType),
+    contactName: asString(p.contactName),
+    contactEmail: asString(p.contactEmail),
+    mission: asString(p.mission),
+    focusAreas: asArray<string>(p.focusAreas, []),
+    programs: asString(p.programs),
+    populations: asArray<string>(p.populations, []),
+    locations: asArray<LocationEntry>(p.locations, []),
+    geographicScope: asString(p.geographicScope),
+    annualBudget: asString(p.annualBudget),
+    grantSizeSeeking: asArray<string>(p.grantSizeSeeking, []),
+    grantTypes: asArray<string>(p.grantTypes, []),
+    grantCapacity: asString(p.grantCapacity),
+    knownFunders: asString(p.knownFunders),
+    reportCount: count,
+    reportRecipients: sizedRecipients,
+    additionalNotes: asString(p.additionalNotes),
+    planType: p.planType === 'annual' ? 'annual' : 'monthly',
+  }
+}
+
 export type StepValidationErrors = Record<string, string>
 
 export function validateStep(step: number, data: SignupFormData): StepValidationErrors {
