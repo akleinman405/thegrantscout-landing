@@ -8,7 +8,7 @@ import type { User } from '@supabase/supabase-js'
 const STORAGE_KEY = 'tgs_signup_form'
 const DRAFT_TOKEN_KEY = 'tgs_draft_token'
 
-export function useSignupForm(initialStep?: number, preview?: boolean) {
+export function useSignupForm(initialStep?: number, preview?: boolean, fresh?: boolean) {
   const [step, setStep] = useState(initialStep || 1)
   const [formData, setFormData] = useState<SignupFormData>(preview ? PREVIEW_FORM_DATA : INITIAL_FORM_DATA)
   const [errors, setErrors] = useState<StepValidationErrors>({})
@@ -18,6 +18,7 @@ export function useSignupForm(initialStep?: number, preview?: boolean) {
   const [authUser, setAuthUser] = useState<User | null>(null)
   const [authLoading, setAuthLoading] = useState(false)
   const [authError, setAuthError] = useState<string | null>(null)
+  const [magicLinkSent, setMagicLinkSent] = useState(false)
 
   // Ref to avoid stale closures in saveDraft
   const formDataRef = useRef(formData)
@@ -36,10 +37,21 @@ export function useSignupForm(initialStep?: number, preview?: boolean) {
     })
   }, [preview])
 
-  // Restore from localStorage + Supabase on mount (skip in preview mode)
+  // Restore from localStorage + Supabase on mount (skip in preview mode or when ?fresh=true)
   useEffect(() => {
     if (preview) {
       try { localStorage.removeItem(STORAGE_KEY) } catch { /* ignore */ }
+      setLoaded(true)
+      return
+    }
+
+    if (fresh) {
+      // User clicked "Start New Application" — wipe local draft and skip Supabase restore
+      try {
+        localStorage.removeItem(STORAGE_KEY)
+        localStorage.removeItem(DRAFT_TOKEN_KEY)
+      } catch { /* ignore */ }
+      setDraftToken(null)
       setLoaded(true)
       return
     }
@@ -183,37 +195,35 @@ export function useSignupForm(initialStep?: number, preview?: boolean) {
     setDraftToken(null)
   }, [])
 
-  // Auth: create account
-  const createAccount = useCallback(async (email: string, password: string) => {
+  // Auth: email the user a one-click resume link. Supabase's signInWithOtp sends
+  // a magic link when the email+emailRedirectTo path is configured (Auth → URL
+  // Configuration). shouldCreateUser=true covers both brand-new savers and
+  // returning users — either way they get a link.
+  const sendMagicLink = useCallback(async (email: string) => {
     setAuthLoading(true)
     setAuthError(null)
+    setMagicLinkSent(false)
+
+    // Make sure the server has the latest draft before we email the link,
+    // so when the user clicks the link on another device the restore finds
+    // something at least as fresh as what's in localStorage.
+    await saveDraft()
+
     try {
       const supabase = createBrowserAuthClient()
-      const { data, error } = await supabase.auth.signUp({ email, password })
+      const origin = typeof window !== 'undefined' ? window.location.origin : ''
+      const { error } = await supabase.auth.signInWithOtp({
+        email,
+        options: {
+          shouldCreateUser: true,
+          emailRedirectTo: `${origin}/auth/callback?next=/signup`,
+        },
+      })
       if (error) {
         setAuthError(error.message)
         return false
       }
-      // signUp returns a user even if email confirmation is pending.
-      // data.user exists but data.session may be null (if confirm required).
-      const user = data.user
-      if (user) {
-        setAuthUser(user)
-        // Link draft to user via server route (uses service role, no auth needed)
-        if (draftTokenRef.current) {
-          await fetch('/api/signup/auth', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              action: 'link-draft',
-              draftToken: draftTokenRef.current,
-              userId: user.id,
-            }),
-          })
-        }
-        // Save current form state
-        saveDraft()
-      }
+      setMagicLinkSent(true)
       return true
     } catch {
       setAuthError('Something went wrong. Please try again.')
@@ -222,38 +232,6 @@ export function useSignupForm(initialStep?: number, preview?: boolean) {
       setAuthLoading(false)
     }
   }, [saveDraft])
-
-  // Auth: login
-  const login = useCallback(async (email: string, password: string) => {
-    setAuthLoading(true)
-    setAuthError(null)
-    try {
-      const supabase = createBrowserAuthClient()
-      const { data, error } = await supabase.auth.signInWithPassword({ email, password })
-      if (error) {
-        setAuthError(error.message)
-        return false
-      }
-      if (data.user) {
-        setAuthUser(data.user)
-        // Fetch their saved draft
-        const res = await fetch(`/api/signup/save-draft?user_id=${data.user.id}`)
-        const draft = await res.json()
-        if (draft.found) {
-          setFormData(normalizeFormData(draft.formData))
-          setStep(draft.step)
-          setDraftToken(draft.draftToken)
-          try { localStorage.setItem(DRAFT_TOKEN_KEY, draft.draftToken) } catch { /* ignore */ }
-        }
-      }
-      return true
-    } catch {
-      setAuthError('Something went wrong. Please try again.')
-      return false
-    } finally {
-      setAuthLoading(false)
-    }
-  }, [])
 
   return {
     step,
@@ -271,8 +249,8 @@ export function useSignupForm(initialStep?: number, preview?: boolean) {
     authUser,
     authLoading,
     authError,
-    createAccount,
-    login,
+    magicLinkSent,
+    sendMagicLink,
     saveDraft,
   }
 }

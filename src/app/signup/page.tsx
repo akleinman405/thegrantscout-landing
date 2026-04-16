@@ -16,6 +16,8 @@ function SignupForm() {
   const searchParams = useSearchParams()
   const initialStep = searchParams.get('step') ? parseInt(searchParams.get('step')!) : undefined
   const preview = searchParams.get('preview') === 'true'
+  const fresh = searchParams.get('fresh') === 'true'
+  const showAuthErrorBanner = searchParams.get('auth_error') === '1'
 
   const {
     step,
@@ -31,8 +33,8 @@ function SignupForm() {
     authUser,
     authLoading,
     authError,
-    createAccount,
-  } = useSignupForm(initialStep, preview)
+    sendMagicLink,
+  } = useSignupForm(initialStep, preview, fresh)
 
   const handleSubmit = async () => {
     if (preview) {
@@ -97,6 +99,12 @@ function SignupForm() {
           <p className="text-gray-medium">Tell us about your nonprofit and we&apos;ll match you with the right funders.</p>
         </div>
 
+        {showAuthErrorBanner && (
+          <div className="mb-4 bg-error/5 border border-error/20 rounded-xl p-4 text-sm text-charcoal">
+            That resume link didn&apos;t work — it may have expired or already been used. Enter your email below and we&apos;ll send you a new one from the save-progress banner.
+          </div>
+        )}
+
         <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8">
           <ProgressBar currentStep={step} />
 
@@ -113,7 +121,7 @@ function SignupForm() {
               authUser={authUser}
               authLoading={authLoading}
               authError={authError}
-              onCreateAccount={createAccount}
+              onSendMagicLink={sendMagicLink}
             />
           )}
 
@@ -137,7 +145,7 @@ function SignupForm() {
                 onClick={goNext}
                 className="btn-primary px-8 py-2.5"
               >
-                Next
+                Save and Continue
               </button>
             ) : (
               <button
