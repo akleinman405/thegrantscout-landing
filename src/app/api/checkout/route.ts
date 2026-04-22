@@ -15,32 +15,30 @@ const checkoutSchema = z.object({
   orgType: z.string().max(100).optional(),
   contactName: z.string().min(1).max(200),
   contactEmail: z.string().email().max(320),
-  mission: z.string().min(1).max(5000),
-  focusAreas: z.array(z.string().max(200)).max(20).optional().default([]),
-  programs: z.string().max(5000).optional(),
-  populations: z.array(z.string().max(200)).max(20).optional().default([]),
+  mission: z.string().min(1).max(10000),
+  focusAreas: z.array(z.string().max(500)).max(30).optional().default([]),
+  programs: z.string().max(10000).optional(),
+  populations: z.array(z.string().max(500)).max(30).optional().default([]),
   locations: z.array(z.object({
     type: z.enum(['city', 'state', 'county']),
     state: z.string().max(10),
-    detail: z.string().max(200),
-  })).max(20).optional().default([]),
-  // Caps below track subscribers column widths in supabase/migrations/003_subscribers.sql.
-  // If a migration widens a column, update the matching cap here.
-  geographicScope: z.string().max(50).optional(),
-  annualBudget: z.string().max(50).optional(),
-  grantSizeSeeking: z.array(z.string().max(50)).max(10).optional().default([]),
-  grantTypes: z.array(z.string().max(200)).max(20).optional().default([]),
-  grantCapacity: z.string().max(100).optional(),
-  knownFunders: z.string().max(5000).nullable().optional().default(null),
+    detail: z.string().max(200).optional().default(''),
+  })).max(50).optional().default([]),
+  geographicScope: z.string().max(100).optional(),
+  annualBudget: z.string().max(100).optional(),
+  grantSizeSeeking: z.array(z.string().max(100)).max(20).optional().default([]),
+  grantTypes: z.array(z.string().max(500)).max(30).optional().default([]),
+  grantCapacity: z.string().max(200).optional(),
+  knownFunders: z.string().max(10000).nullable().optional().default(null),
   reportCount: z.number().int().min(1).max(50).optional().default(1),
   reportRecipients: z.array(z.object({
-    name: z.string().max(200).optional().default(''),
+    name: z.string().max(500).optional().default(''),
     email: z.union([z.string().email().max(320), z.literal('')]).optional().default(''),
-    focus: z.string().max(500).optional().default(''),
+    focus: z.string().max(2000).optional().default(''),
   })).max(20).optional().default([]),
-  additionalNotes: z.string().max(5000).nullable().optional().default(null),
+  additionalNotes: z.string().max(10000).nullable().optional().default(null),
   planType: z.enum(['monthly', 'annual']).optional().default('monthly'),
-  draftToken: z.string().uuid().nullable().optional().default(null),
+  draftToken: z.union([z.string().uuid(), z.null()]).optional().default(null),
 })
 
 export async function POST(request: NextRequest) {
@@ -57,8 +55,11 @@ export async function POST(request: NextRequest) {
     const raw = await request.json()
     const parsed = checkoutSchema.safeParse(raw)
     if (!parsed.success) {
+      const fieldErrors = parsed.error.flatten().fieldErrors
+      console.error('Checkout validation failed:', JSON.stringify(fieldErrors, null, 2))
+      const failedFields = Object.keys(fieldErrors).join(', ')
       return NextResponse.json(
-        { error: 'Invalid request data', details: parsed.error.flatten().fieldErrors },
+        { error: `Invalid request data. Problem fields: ${failedFields}. Please go back and check your entries, or email alec@thegrantscout.com for help.`, details: fieldErrors },
         { status: 400 }
       )
     }
