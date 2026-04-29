@@ -8,6 +8,8 @@
 
 > **WARNING:** This repo contains a stale `src/app/(crm)/` route group with old CRM pages. **Do NOT use it.** The active CRM is in a separate repo: `thegrantscout-crm/` deployed at `app.thegrantscout.com`. This repo is only for the marketing site, signup flow, and Stripe webhook.
 
+> **SCHEMA RULE:** All Supabase schema changes MUST go through a numbered migration file in `supabase/migrations/`. Never edit columns/tables directly in Supabase Studio. Drift like that broke every signup for ~8 days in April 2026 (see migration 014 for the postmortem). Apply migrations via Supabase MCP `execute_dml_ddl_dcl_tcl`, then commit the `.sql` file in the same change.
+
 ---
 
 ## Quick Reference
