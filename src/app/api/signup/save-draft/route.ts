@@ -3,7 +3,7 @@ import { createServerClient } from '@/lib/supabase'
 import { z } from 'zod'
 
 const saveDraftSchema = z.object({
-  draftToken: z.string().uuid().optional(),
+  draftToken: z.union([z.string().uuid(), z.null()]).optional(),
   step: z.number().int().min(1).max(5),
   formData: z.record(z.string(), z.unknown()),
 })
