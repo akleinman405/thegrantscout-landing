@@ -7,9 +7,13 @@ function getResend() {
 export async function sendWelcomeEmail(
   contactName: string,
   contactEmail: string,
-  orgName: string
+  orgName: string,
+  portalUrl?: string | null
 ) {
   const firstName = contactName.split(' ')[0]
+  const manageBlock = portalUrl
+    ? `<p style="margin-top: 24px;"><a href="${portalUrl}" style="background-color: #d4a853; color: #1e3a5f; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 600;">Manage Subscription</a></p><p style="font-size: 12px; color: #6C757D;">Update payment, view invoices, or cancel anytime. To manage later, just reply to this email.</p>`
+    : `<p style="font-size: 12px; color: #6C757D;">To update payment, view invoices, or cancel anytime, reply to this email.</p>`
 
   await getResend().emails.send({
     from: 'TheGrantScout <hello@thegrantscout.com>',
@@ -30,6 +34,7 @@ export async function sendWelcomeEmail(
             <li>After that, you'll receive a fresh playbook every month with new opportunities.</li>
           </ol>
           <p>Each playbook includes 5 curated foundation matches with giving history, contact information, and positioning strategy tailored to your mission.</p>
+          ${manageBlock}
           <p>If you have any questions, reply to this email or reach out to <a href="mailto:hello@thegrantscout.com" style="color: #1e3a5f;">hello@thegrantscout.com</a>.</p>
           <p style="margin-top: 32px;">Best,<br>Alec Kleinman<br>Founder, TheGrantScout</p>
         </div>

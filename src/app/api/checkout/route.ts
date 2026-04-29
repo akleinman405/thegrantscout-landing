@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { createServerClient } from '@/lib/supabase'
+import { Resend } from 'resend'
 import { z } from 'zod'
 
 function getStripe() {
@@ -36,7 +37,7 @@ const checkoutSchema = z.object({
     email: z.union([z.string().email().max(320), z.literal('')]).optional().default(''),
     focus: z.string().max(2000).optional().default(''),
   })).max(20).optional().default([]),
-  additionalNotes: z.string().max(10000).nullable().optional().default(null),
+  additionalNotes: z.string().max(1000).nullable().optional().default(null),
   planType: z.enum(['monthly', 'annual']).optional().default('monthly'),
   draftToken: z.union([z.string().uuid(), z.null()]).optional().default(null),
 })
@@ -116,7 +117,7 @@ export async function POST(request: NextRequest) {
       .single()
 
     if (insertError || !inserted) {
-      console.error('Supabase insert error:', {
+      const errCtx = {
         message: insertError?.message,
         code: insertError?.code,
         details: insertError?.details,
@@ -129,7 +130,25 @@ export async function POST(request: NextRequest) {
           locations: data.locations?.length,
           recipients: cleanRecipients.length,
         },
-      })
+      }
+      console.error('Supabase insert error:', errCtx)
+
+      // Alert: page Alec on every signup insert failure so we don't have to wait for users to report it.
+      if (process.env.RESEND_API_KEY) {
+        try {
+          const resend = new Resend(process.env.RESEND_API_KEY)
+          const adminEmail = process.env.ADMIN_EMAIL || 'alec@thegrantscout.com'
+          await resend.emails.send({
+            from: 'TheGrantScout <hello@thegrantscout.com>',
+            to: adminEmail,
+            subject: `[ALERT] Signup failed: ${data.orgName || 'unknown org'} (${insertError?.code || 'unknown'})`,
+            html: `<pre style="font-family:monospace;font-size:12px;">${JSON.stringify({ org: data.orgName, contact: data.contactEmail, error: errCtx }, null, 2)}</pre>`,
+          })
+        } catch (alertErr) {
+          console.error('Alert email failed:', alertErr)
+        }
+      }
+
       const supportSuffix = 'Please email alec@thegrantscout.com if it keeps failing.'
       const codeSuffix = insertError?.code ? ` (ref: ${insertError.code})` : ''
       const isDev = process.env.NODE_ENV !== 'production'
@@ -175,7 +194,7 @@ export async function POST(request: NextRequest) {
         quantity: qty,
       }],
       success_url: `${request.nextUrl.origin}/signup/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${request.nextUrl.origin}/signup?step=5`,
+      cancel_url: `${request.nextUrl.origin}/signup?step=5&canceled=true`,
       custom_text: {
         submit: {
           message: `${totalDisplay}. Each playbook includes 5 curated foundation opportunities matched to your mission.`,

@@ -1,7 +1,7 @@
 'use client'
 
 import { useSearchParams } from 'next/navigation'
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import Link from 'next/link'
 import { useSignupForm } from '@/hooks/useSignupForm'
 import ProgressBar from '@/components/signup/ProgressBar'
@@ -16,6 +16,7 @@ function SignupForm() {
   const searchParams = useSearchParams()
   const initialStep = searchParams.get('step') ? parseInt(searchParams.get('step')!) : undefined
   const preview = searchParams.get('preview') === 'true'
+  const canceled = searchParams.get('canceled') === 'true'
 
   const {
     step,
@@ -34,11 +35,14 @@ function SignupForm() {
     createAccount,
   } = useSignupForm(initialStep, preview)
 
+  const [submitError, setSubmitError] = useState<string | null>(null)
+
   const handleSubmit = async () => {
     if (preview) {
-      alert('Preview mode — checkout is disabled. Remove ?preview=true from the URL to run a real signup.')
+      setSubmitError('Preview mode — checkout is disabled. Remove ?preview=true from the URL to run a real signup.')
       return
     }
+    setSubmitError(null)
     setIsSubmitting(true)
     try {
       const res = await fetch('/api/checkout', {
@@ -50,11 +54,11 @@ function SignupForm() {
       if (data.url) {
         window.location.href = data.url
       } else {
-        alert(data.error || 'Something went wrong. Please try again.')
+        setSubmitError(data.error || 'Something went wrong. Please try again.')
         setIsSubmitting(false)
       }
     } catch {
-      alert('Network error. Please try again.')
+      setSubmitError('Network error. Please check your connection and try again.')
       setIsSubmitting(false)
     }
   }
@@ -98,6 +102,12 @@ function SignupForm() {
         </div>
 
         <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8">
+          {canceled && step === 5 && (
+            <div className="mb-4 p-4 rounded-lg bg-accent/10 border border-accent/30 text-sm text-charcoal">
+              Your information is saved. Choose a plan to continue when you&apos;re ready.
+            </div>
+          )}
+
           <ProgressBar currentStep={step} />
 
           {step === 1 && <StepOrganization data={formData} errors={errors} onChange={updateField} />}
@@ -150,6 +160,12 @@ function SignupForm() {
               </button>
             )}
           </div>
+
+          {submitError && (
+            <div role="alert" className="mt-4 p-4 rounded-lg bg-error/10 border border-error/30 text-sm text-charcoal">
+              {submitError}
+            </div>
+          )}
         </div>
 
         <p className="text-center text-xs text-gray-medium mt-6">

@@ -9,11 +9,13 @@ function SuccessContent() {
   const sessionId = searchParams.get('session_id')
   const [orgName, setOrgName] = useState('')
   const [email, setEmail] = useState('')
+  const [portalLoading, setPortalLoading] = useState(false)
 
   useEffect(() => {
     // Clear saved form data
     try {
       localStorage.removeItem('tgs_signup_form')
+      localStorage.removeItem('tgs_draft_token')
     } catch {
       // Ignore
     }
@@ -31,6 +33,24 @@ function SuccessContent() {
         })
     }
   }, [sessionId])
+
+  const openPortal = async () => {
+    if (!sessionId || portalLoading) return
+    setPortalLoading(true)
+    try {
+      const res = await fetch(`/api/portal-session?session_id=${sessionId}`)
+      const data = await res.json()
+      if (data.url) {
+        window.location.href = data.url
+      } else {
+        alert(data.error || 'Could not open subscription manager. Email hello@thegrantscout.com.')
+        setPortalLoading(false)
+      }
+    } catch {
+      alert('Network error. Email hello@thegrantscout.com to manage your subscription.')
+      setPortalLoading(false)
+    }
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -87,6 +107,16 @@ function SuccessContent() {
             <Link href="/" className="btn-primary inline-block text-center">
               Back to Home
             </Link>
+            {sessionId && (
+              <button
+                type="button"
+                onClick={openPortal}
+                disabled={portalLoading}
+                className="btn-secondary inline-block text-center disabled:opacity-50"
+              >
+                {portalLoading ? 'Opening...' : 'Manage Subscription'}
+              </button>
+            )}
             <a href="mailto:hello@thegrantscout.com" className="btn-secondary inline-block text-center">
               Contact Us
             </a>

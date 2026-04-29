@@ -31,7 +31,7 @@ export async function POST(request: NextRequest) {
     const orgName = typeof formData.orgName === 'string' ? formData.orgName : null
     const contactName = typeof formData.contactName === 'string' ? formData.contactName : null
     const contactEmail = typeof formData.contactEmail === 'string' ? formData.contactEmail : null
-    const ein = typeof formData.ein === 'string' ? formData.ein.replace(/-/g, '').slice(0, 10) : null
+    const ein = typeof formData.ein === 'string' ? formData.ein.replace(/\D/g, '').slice(0, 9) : null
 
     if (draftToken) {
       // Upsert existing draft

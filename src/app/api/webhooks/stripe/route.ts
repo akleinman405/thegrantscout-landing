@@ -50,6 +50,19 @@ export async function POST(request: NextRequest) {
 
   const sb = createServerClient()
 
+  // Idempotency: Stripe retries deliver the same event multiple times. Skip if seen.
+  const { error: dedupError } = await sb
+    .from('stripe_webhook_events')
+    .insert({ event_id: event.id, event_type: event.type })
+  if (dedupError) {
+    if (dedupError.code === '23505') {
+      // Already processed — return 200 so Stripe stops retrying.
+      return NextResponse.json({ received: true, duplicate: true })
+    }
+    // Non-fatal: log and continue. We'd rather process twice than drop on a transient DB error.
+    console.error('Webhook dedup insert error (non-fatal):', dedupError)
+  }
+
   try {
     switch (event.type) {
       case 'checkout.session.completed': {
@@ -85,9 +98,21 @@ export async function POST(request: NextRequest) {
                 }).join('; ')
               : 'Not specified'
 
+            // Generate a Stripe Customer Portal URL for the welcome email — best-effort.
+            let portalUrl: string | null = null
+            try {
+              const portal = await stripe.billingPortal.sessions.create({
+                customer: session.customer as string,
+                return_url: 'https://thegrantscout.com/',
+              })
+              portalUrl = portal.url
+            } catch (portalErr) {
+              console.error('Portal session create failed (non-fatal):', portalErr)
+            }
+
             // Send emails (non-blocking)
             await Promise.allSettled([
-              sendWelcomeEmail(sub.contact_name, sub.contact_email, sub.org_name),
+              sendWelcomeEmail(sub.contact_name, sub.contact_email, sub.org_name, portalUrl),
               sendInternalNotification(sub.org_name, sub.ein, sub.contact_name, sub.contact_email, locationsFormatted, sub.annual_budget),
             ])
           }
@@ -129,6 +154,7 @@ export async function POST(request: NextRequest) {
                 next_payment_date: nextPaymentDate,
                 contact_name: session.metadata?.contact_name || sub?.contact_name || null,
                 contact_email: session.customer_email || sub?.contact_email || null,
+                subscriber_id: Number(subscriberId),
               },
               { onConflict: 'ein', ignoreDuplicates: false }
             )
@@ -178,7 +204,7 @@ export async function POST(request: NextRequest) {
             .update({
               subscription_status: 'canceled' as const,
               type: 'lead' as const,
-              stage: 'churned',
+              stage: 'not_interested',
             })
             .eq('stripe_subscription_id', subscription.id)
         } catch (sbError) {
