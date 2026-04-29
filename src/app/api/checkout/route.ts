@@ -131,10 +131,11 @@ export async function POST(request: NextRequest) {
         },
       })
       const supportSuffix = 'Please email alec@thegrantscout.com if it keeps failing.'
+      const codeSuffix = insertError?.code ? ` (ref: ${insertError.code})` : ''
       const isDev = process.env.NODE_ENV !== 'production'
       const errMsg = isDev && insertError?.message
         ? `Couldn't save your submission: ${insertError.message}. ${supportSuffix}`
-        : `Failed to create subscriber record. ${supportSuffix}`
+        : `Failed to create subscriber record${codeSuffix}. ${supportSuffix}`
       return NextResponse.json(
         { error: errMsg, code: insertError?.code },
         { status: 500 }
